@@ -1,0 +1,6 @@
+venv/
+data/
+.env
+__pycache__/
+*.pyc
+.DS_Storedata/

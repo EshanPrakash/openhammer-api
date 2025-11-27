@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pymongo
+python-dotenv
+requests
+lxml
