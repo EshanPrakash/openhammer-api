@@ -1,0 +1,183 @@
+[
+  {
+    "name": "Iron Father Feirros",
+    "id": "6c9d-4ec3-69dd-90b2",
+    "type": "model",
+    "faction": "Iron Hands",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 95,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Gorgon's Wrath",
+          "Range": "36\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Sustained Hits 2"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Harrowhand",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Medusan Manipuli",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Extra Attacks"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Rites of Tempering",
+        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability"
+      },
+      {
+        "name": "Iron Father",
+        "description": "While this model is within 3\" of one or more friendly Adeptus Astartes Vehicle units, it has the Lone Operative ability."
+      },
+      {
+        "name": "Master of the Forge",
+        "description": "In your Command phase, select one friendly Adeptus Astartes Vehicle model within 3\" of this model. That model regains up to 3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. You cannot select a unit for this ability that has already been selected for the Blessing of the Omnissiah ability this phase, and vice versa."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n\n- Aggressor Squad\n- Eradicator Squad\n- Heavy Intercessor Squad"
+      },
+      {
+        "name": "Inspiring Commander",
+        "description": "If you include this model in your army, until the end of the battle, non-Character models in Heavy\nIntercessor Squad units from your army have an Objective Control characteristic of 3 while they are\nnot Battle-shocked."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Oath of Moment",
+      "Sustained Hits",
+      "Extra Attacks"
+    ],
+    "keywords": [
+      "Character",
+      "Epic Hero",
+      "Infantry",
+      "Imperium",
+      "Gravis",
+      "Faction: Adeptus Astartes",
+      "Faction: Iron Hands",
+      "Iron Father Ferrios",
+      "Extra Attacks Weapon"
+    ]
+  },
+  {
+    "name": "Caanok Var",
+    "id": "efbb-2823-7b70-5a7a",
+    "type": "model",
+    "faction": "Iron Hands",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 100,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "Invulnerable Save",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Axiom - Strike",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": null
+        },
+        {
+          "name": "Axiom - Sweep",
+          "Range": "Melee",
+          "A": "10",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": null
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Cold and Calculating",
+        "description": "Each time a model in this model’s unit makes an attack that targets a Monster or Vehicle unit, that\nattack has the [LETHAL HITS] ability. Each time a model in this model’s unit makes an attack that targets any other unit, that attack has the [SUSTAINED HITS 1] ability."
+      },
+      {
+        "name": "Cerebrex Logic Engine",
+        "description": "- At the start of the Declare Battle Formations step, you can select one Adeptus Astartes Infantry unit from your army. Until the end of the battle, that unit gains the Scouts 6\" ability.\n\n\n- After both players have deployed their armies, you can select one Adeptus Astartes unit from your army and redeploy it. When doing so, you can set that unit up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units: Terminator Assault Squad, Terminator Squad"
+      }
+    ],
+    "special_rules": [
+      "Feel No Pain 5+",
+      "Deep Strike",
+      "Leader",
+      "Oath of Moment"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Terminator",
+      "Captain",
+      "Faction: Iron Hands",
+      "Faction: Adeptus Astartes",
+      "Caanok Var"
+    ]
+  }
+]

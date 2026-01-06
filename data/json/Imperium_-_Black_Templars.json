@@ -1,0 +1,1608 @@
+[
+  {
+    "name": "Chaplain Grimaldus",
+    "id": "8165-e372-4fd6-3274",
+    "type": "unit",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 110,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "1"
+    },
+    "invuln_save": "Invulnerable Save",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "➤ Plasma Pistol - Supercharge",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Hazardous, Pistol"
+        },
+        {
+          "name": "➤ Plasma Pistol - Standard",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Pistol"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Artificer Crozius",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Close Combat Weapon",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Litanies of the Devout",
+        "description": "While this unit is leading a unit and contains a Chaplain Grimaldus model, each time a model in that unit makes a melee attack, you can re-roll the Hit roll."
+      },
+      {
+        "name": "Temple Relics",
+        "description": "In your Command phase, if this unit contains one or more Cenobyte Servitor models, select one Temple Relics ability (see left). Until the start of your next Command phase, this unit’s Chaplain Grimaldus model has that ability.\n\n\nBanner of the Emperor Victorious: Add 1 to Advance and Charge rolls for this unit\n\n\nColumn of the Major Alter: Add 1 to the Toughness characteristic of models in this unit\n\n\nWater from the Stoup of Elucidation: Improve the Armour Penetration characteristic of melee weapons equipped by models in this unit by 1."
+      },
+      {
+        "name": "Leader",
+        "description": "This unit can be attached to the following units:\n\n- Assault Intercessor Squad\n- Infernus Squad\n- Intercessor Squad\n- Crusader Squad\n- Sword Brethren"
+      }
+    ],
+    "special_rules": [
+      "Hazardous",
+      "Pistol",
+      "Feel No Pain 5+",
+      "Templar Vows"
+    ],
+    "keywords": [
+      "Infantry",
+      "Imperium",
+      "Tacticus",
+      "Faction: Adeptus Astartes",
+      "Faction: Black Templars",
+      "Epic Hero",
+      "Character",
+      "Grenades",
+      "Chaplain Grimaldus"
+    ]
+  },
+  {
+    "name": "High Marshal Helbrecht",
+    "id": "da8a-de9f-1fe7-2513",
+    "type": "model",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 120,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "invuln_save": "Invulnerable Save",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Ferocity",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Anti-infantry 4+, Devastating Wounds"
+        }
+      ],
+      "melee": [
+        {
+          "name": "➤ Sword of the High Marshals - Sweep",
+          "Range": "Melee",
+          "A": "12",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Sword of the High Marshals - Strike",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Crusade of Wrath",
+        "description": "While this model is leading a unit, add 1 to the Attacks and Strength characteristic of melee weapons equipped by models in that unit."
+      },
+      {
+        "name": "High Marshal",
+        "description": "At the start of the Fight phase, select one enemy unit within Engagement Range of this model’s unit and roll one D6, adding 1 to the result for every five models in this model's unit: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n\n- Assault Intercessor Squad\n- Intercessor Squad\n- Crusader Squad\n- Sword Brethren"
+      }
+    ],
+    "special_rules": [
+      "Devastating Wounds",
+      "Anti-",
+      "Templar Vows"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Faction: Adeptus Astartes",
+      "Tacticus",
+      "High Marshal Helbrecht",
+      "Infantry",
+      "Faction: Black Templars",
+      "Chapter Master"
+    ]
+  },
+  {
+    "name": "Crusader Squad",
+    "id": "8bbe-e7fc-44b7-ed94",
+    "type": "unit",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 150,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 4,
+      "max_models": 6
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Neophyte Firearm",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Assault"
+        },
+        {
+          "name": "Pyre Pistol",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Ignores Cover, Pistol, Torrent"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Master-crafted Power Weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Lethal Hits"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Righteous Zeal",
+        "description": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Righteous Zeal move. To do so, roll one D6 and add 2 to the result: models in this unit move a number of inches up to this result, but this unit must end that move as close as possible to the closest enemy unit (excluding **Aircraft**). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Righteous Zeal move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Righteous Zeal move per phase."
+      }
+    ],
+    "special_rules": [
+      "Lethal Hits",
+      "Assault",
+      "Templar Vows"
+    ],
+    "keywords": [
+      "Power Weapon",
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Faction: Adeptus Astartes",
+      "Faction: Black Templars",
+      "Tacticus",
+      "Crusader Squad"
+    ]
+  },
+  {
+    "name": "Sword Brethren Squad",
+    "id": "206c-6b4d-4aaa-7e79",
+    "type": "unit",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 105,
+      "variants": [
+        {
+          "models": 5,
+          "points": 130
+        },
+        {
+          "models": 6,
+          "points": 235
+        },
+        {
+          "models": 10,
+          "points": 260
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 4,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Pyre Pistol",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Ignores Cover, Pistol, Torrent"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Thunder Hammer",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Devastating Wounds"
+        },
+        {
+          "name": "Master-crafted Power Weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Lethal Hits"
+        },
+        {
+          "name": "Astartes Chainsword",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Sustained Hits 1"
+        },
+        {
+          "name": "Twin Lightning Claws",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Twin-linked"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Exploit Their Cowardice",
+        "description": "Each time an enemy unit within Engagement Range of this unit is selected to Fall Back, after it ends that Fall Back move, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move."
+      }
+    ],
+    "special_rules": [
+      "Lethal Hits",
+      "Sustained Hits",
+      "Twin-linked",
+      "Templar Vows"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Faction: Adeptus Astartes",
+      "Faction: Black Templars",
+      "Primaris Sword Brethren",
+      "Power Weapon"
+    ]
+  },
+  {
+    "name": "Emperor's Champion",
+    "id": "ca2f-f408-c1bd-b87f",
+    "type": "model",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 90,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "Invulnerable Save",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "➤ Black Sword - Strike",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Anti-Character 5+, Precision"
+        },
+        {
+          "name": "➤ Black Sword - Sweep",
+          "Range": "Melee",
+          "A": "10",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Armour of Faith",
+        "description": "Once per phase, when an attack is allocated to this model and the saving throw is failed, you can change the Damage characteristic of that attack to 0."
+      },
+      {
+        "name": "Sigismund's Heir",
+        "description": "Each time this model's unit declares a charge, if one or more targets of that charge have the CHARACTER keyword, add 2 to the Charge roll. Once per battle, when this model's unit is selected to fight, if that unit is within Engagement Range of one or more enemy CHARACTER units, this model can use this ability. If it does, until the end of the phase, melee weapons equipped by this model have the [DEVASTATING WOUNDS] ability."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n\n- Assault Intercessor Squad\n- Intercessor Squad\n- Crusader Squad\n- Sword Brethren\n- Sternguard Veteran Squad"
+      },
+      {
+        "name": "Chosen of the Emperor",
+        "description": "You cannot include more than one **Emperor's Champion** model in your army."
+      }
+    ],
+    "special_rules": [
+      "Templar Vows",
+      "Lone Operative",
+      "Precision",
+      "Anti-"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Faction: Adeptus Astartes",
+      "Emperor's Champion",
+      "Faction: Black Templars",
+      "Melee Weapon"
+    ]
+  },
+  {
+    "name": "Crusader Squad [Legends]",
+    "id": "2da2-ad08-6057-5a1c",
+    "type": "unit",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 85,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Astartes Shotgun",
+          "Range": "18",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Assault"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Combat Knife",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Twin Lightning Claws",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Twin-linked"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Righteous Zeal",
+        "description": "You can re-roll Advance and Charge rolls made for this unit."
+      }
+    ],
+    "special_rules": [
+      "Templar Vows",
+      "Assault",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Faction: Adeptus Astartes",
+      "Faction: Black Templars",
+      "Crusader Squad"
+    ]
+  },
+  {
+    "name": "Gladiator Lancer",
+    "id": "7dec-dc3d-c40a-8ce",
+    "type": "model",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 160,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 2,
+      "max_models": 2
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Lancer Laser Destroyer",
+          "Range": "72\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "14",
+          "AP": "-4",
+          "D": "D6+3",
+          "Keywords": "Heavy"
+        }
+      ],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Aquilon Optics",
+        "description": "Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks"
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Templar Vows",
+      "Heavy"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Imperium",
+      "Smoke",
+      "Gladiator Lancer",
+      "Faction: Adeptus Astartes",
+      "Faction: Black Templars"
+    ]
+  },
+  {
+    "name": "Gladiator Reaper",
+    "id": "bfb6-4320-74cf-bbda",
+    "type": "model",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 160,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Tempest Bolter",
+          "Range": "24\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Rapid Fire 4"
+        },
+        {
+          "name": "Twin Heavy Onslaught Gatling Cannon",
+          "Range": "24\"",
+          "A": "12",
+          "BS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Devastating Wounds, Twin-linked"
+        }
+      ],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Rotating Death",
+        "description": "This model’s twin heavy onslaught gatling cannon has the [SUSTAINED HITS 2] ability when targeting Infantry units."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Templar Vows",
+      "Rapid Fire",
+      "Devastating Wounds",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Smoke",
+      "Imperium",
+      "Vehicle",
+      "Faction: Adeptus Astartes",
+      "Gladiator Reaper",
+      "Faction: Black Templars"
+    ]
+  },
+  {
+    "name": "Gladiator Valiant",
+    "id": "5704-ffe4-4a53-8789",
+    "type": "model",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 160,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 2,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Twin Las-talon",
+          "Range": "36\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "Twin-linked"
+        }
+      ],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Ferocious Assault",
+        "description": "Each time this model makes an attack with its twin las-talon that targets the closest eligible Monster or Vehicle unit, add 1 to the Hit roll"
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Templar Vows",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Gladiator Valiant",
+      "Faction: Adeptus Astartes",
+      "Faction: Black Templars"
+    ]
+  },
+  {
+    "name": "Impulsor",
+    "id": "fa27-4bc1-72c9-894f",
+    "type": "model",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 85,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 2,
+      "max_models": 6
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Ironhail Skytalon Array",
+          "Range": "36\"",
+          "A": "8",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Anti-Fly 4+, Sustained Hits 1"
+        }
+      ],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Transport",
+        "description": "This model has a transport capacity of 7 TACTICUS or PHOBOS INFANTRY models. It cannot transport JUMP PACK models."
+      },
+      {
+        "name": "Assault Vehicle",
+        "description": "Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move, and cannot declare a charge that turn."
+      },
+      {
+        "name": "Orbital Comms Array [Aura]",
+        "description": "While a friendly Adeptus Astartes unit is within 6\" of the bearer, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP"
+      },
+      {
+        "name": "Shield Dome",
+        "description": "The bearer has a 5+ invulnerable save."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Firing Deck 6",
+      "Templar Vows",
+      "Sustained Hits",
+      "Anti-"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Transport",
+      "Dedicated Transport",
+      "Imperium",
+      "Faction: Adeptus Astartes",
+      "Impulsor",
+      "Faction: Black Templars"
+    ]
+  },
+  {
+    "name": "Repulsor",
+    "id": "c3e8-3cde-8b39-4b19",
+    "type": "model",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 180,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Las-talon",
+          "Range": "36\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6",
+          "Keywords": "-"
+        }
+      ],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Transport",
+        "description": "This model has a transport capacity of 14 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
+      },
+      {
+        "name": "Stabilised Disembarkation",
+        "description": "In your opponent's Shooting phase, each time and enemy unit is selected to shoot, after that unit has shot, if any of those attacks targeted this TRANSPORT, it can use this ability. If it does, any units embarked within it can disembark. When doing so, models in those units can be set up wholly within 6\" of this TRANSPORT and not within Engagement Range of one or more enemy units."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6",
+      "Templar Vows"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Imperium",
+      "Smoke",
+      "Repulsor",
+      "Faction: Adeptus Astartes",
+      "Transport",
+      "Faction: Black Templars",
+      "Damage Dx Weapon"
+    ]
+  },
+  {
+    "name": "Repulsor Executioner",
+    "id": "a344-192f-aae2-16e5",
+    "type": "model",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 220,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Repulsor Executioner Defensive Array",
+          "Range": "24\"",
+          "A": "10",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Heavy Laser Destroyer",
+          "Range": "72\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6+4",
+          "Keywords": "Heavy"
+        }
+      ],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Transport",
+        "description": "This model has a transport capacity of 7 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models."
+      },
+      {
+        "name": "Interception Strike",
+        "description": "Each time this model makes a ranged attack that targets a unit that is within 12\" of one or more ADEPTUS ASTARTES units from your army, you can re-roll the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6",
+      "Templar Vows",
+      "Heavy"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Transport",
+      "Repulsor Executioner",
+      "Faction: Adeptus Astartes",
+      "Faction: Black Templars"
+    ]
+  },
+  {
+    "name": "Castellan",
+    "id": "f151-e676-d3b8-200c",
+    "type": "model",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 60,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Pistol"
+        },
+        {
+          "name": "Combi-weapon",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Astartes Chainsword",
+          "Range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Sustained Hits 1"
+        },
+        {
+          "name": "Master-crafted Power Weapon",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Lethal Hits"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n\n- Assault Intercessor Squad\n- Infernus Squad\n- Intercessor Squad\n- Crusader Squad\n- Sword Brethren\n- Sternguard Veteran Squad\n\nYou can attach this model to one of the above units even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+      },
+      {
+        "name": "Vehement Aggression",
+        "description": "While this model is leading a unit, each time that unit is selected to fight, take a Leadership test for that unit: if passed, until the end of the phase, each time a model in that unit makes an attack, you can re-roll the Hit roll; if failed, until the end of the phase, each time a model in that unit makes an attack, re-roll a Hit roll of 1"
+      },
+      {
+        "name": "Prioritised Eradication",
+        "description": "Each time a model in this model's unit makes a melee attack that destroys one or more enemy units, roll one D6: on a 4+, you gain 1 CP"
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Templar Vows",
+      "Sustained Hits",
+      "Lethal Hits"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Faction: Adeptus Astartes",
+      "Faction: Black Templars",
+      "Lieutenant",
+      "Castellan",
+      "Melee Weapon",
+      "Melee Weapon"
+    ]
+  },
+  {
+    "name": "Marshal",
+    "id": "68dd-5f49-4f17-cd84",
+    "type": "model",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 80,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "Invulnerable Save",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "➤ Plasma Pistol - Standard",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Pistol"
+        },
+        {
+          "name": "➤ Plasma Pistol - Supercharge",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Hazardous, Pistol"
+        },
+        {
+          "name": "Combi-weapon",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Master-crafted Power Weapon",
+          "Range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Lethal Hits"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n\n- Assault Intercessor Squad\n- Infernus Squad\n- Intercessor Squad\n- Crusader Squad\n- Sword Brethren\n- Sternguard Veteran Squad"
+      },
+      {
+        "name": "Inspirational Exemplar",
+        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+      },
+      {
+        "name": "Pious Fervour",
+        "description": "Each time this model's unit is selected to fight, until the end of the phase, add 1 to the Attacks characteristic of this model's Master-Crafted Power Weapon for each enemy unit within 6\" of this model (to a maximum of +3)"
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Templar Vows",
+      "Hazardous",
+      "Pistol"
+    ],
+    "keywords": [
+      "Melee Weapon",
+      "Ranged Weapon",
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Faction: Adeptus Astartes",
+      "Faction: Black Templars",
+      "Marshal",
+      "Captain"
+    ]
+  },
+  {
+    "name": "Execrator",
+    "id": "ea3d-f2b8-cce7-0762",
+    "type": "model",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 70,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "5+",
+      "OC": "1"
+    },
+    "invuln_save": "Invulnerable Save",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Pyre Pistol",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Ignores Cover, Pistol, Torrent"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Master-crafted Power Weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Extra Attacks, Lethal Hits"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n\n- Crusader Squad\n- Sword Brethren"
+      },
+      {
+        "name": "Remorseless Persecution",
+        "description": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced"
+      },
+      {
+        "name": "Condemnatory Annihilation",
+        "description": "Each time this model's unit has fought, if one or more enemy units were destroyed as a result of those attacks, each enemy unit within 6\" of this model must take a Battle-shock test"
+      }
+    ],
+    "special_rules": [
+      "Lethal Hits",
+      "Extra Attacks",
+      "Leader",
+      "Templar Vows"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Chaplain",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Faction: Adeptus Astartes",
+      "Faction: Black Templars",
+      "Execrator",
+      "Melee Weapon",
+      "Extra Attacks Weapon"
+    ]
+  },
+  {
+    "name": "Crusade Ancient",
+    "id": "dca2-b12f-d1a9-5822",
+    "type": "model",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 65,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Master-crafted Power Weapon",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Lethal Hits"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Vengeful Exhortation",
+        "description": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play, the destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+      },
+      {
+        "name": "Martial Honour",
+        "description": "The first time a model in this model's unit makes a melee attack that destroys one or more enemy units, until the end of the battle, while this model's unit is not Battle-shocked, add 5 to this model's Objective Control characteristic."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n\n\n- Crusader Squad\n- Sword Brethren Squad\n\n\nYou can attach this model to one of the above units even if one Captain, Chapter Master, Execrator or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Templar Vows",
+      "Lethal Hits"
+    ],
+    "keywords": [
+      "Melee Weapon",
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Ancient",
+      "Tacticus",
+      "Imperium",
+      "Faction: Adeptus Astartes",
+      "Faction: Black Templars",
+      "Crusade Ancient"
+    ]
+  },
+  {
+    "name": "Land Raider Crusader",
+    "id": "8525-2de1-14fd-c1f5",
+    "type": "model",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 220,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Transport",
+        "description": "This model has a transport capacity of 16 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models."
+      },
+      {
+        "name": "Assault Ramp",
+        "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+      },
+      {
+        "name": "Legacy of Jerulas",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit, re-roll a Hit roll of 1 and a re-roll a Wound roll of 1"
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6",
+      "Templar Vows"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Land Raider Crusader",
+      "Smoke",
+      "Faction: Adeptus Astartes",
+      "Imperium",
+      "Transport",
+      "Grenades",
+      "Faction: Black Templars",
+      "Land Raider"
+    ]
+  },
+  {
+    "name": "Sternguard Veteran Squad",
+    "id": "a499-86fa-4d0c-b06d",
+    "type": "unit",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 85,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 5,
+      "max_models": 10
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Astartes Chainsword",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Power Weapon",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Power Fist",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Vitruous Onslaught",
+        "description": "Each time a model in this unit makes an attack that targets the closest eligible target, you can re-roll a Wound roll of 1."
+      }
+    ],
+    "special_rules": [
+      "Templar Vows"
+    ],
+    "keywords": [
+      "Power Weapon",
+      "Power Fist Weapon",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Sternguard Veteran Squad",
+      "Faction: Black Templars"
+    ]
+  },
+  {
+    "name": "Terminator Squad",
+    "id": "80ad-6e62-65e3-e667",
+    "type": "unit",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 175,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 5,
+      "max_models": 10
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "Invulnerable Save",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Power Fist",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Teleport Homer",
+        "description": "At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3\" horizontally of that token and not within 9\" horizontally of any enemy models. That token is then removed."
+      },
+      {
+        "name": "Judgement of the Weak",
+        "description": "Each time an enemy unit (excluding MONSTERS and VEHICLES) within engagement range of this unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "Templar Vows"
+    ],
+    "keywords": [
+      "Infantry",
+      "Imperium",
+      "Terminator",
+      "Terminator Squad",
+      "Faction: Adeptus Astartes",
+      "Faction: Black Templars"
+    ]
+  },
+  {
+    "name": "Emperor's Champion (Anointed)",
+    "id": "85b9-b304-a55c-30ef",
+    "type": "model",
+    "faction": "Black Templars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 90,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "Invulnerable Save",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "➤ Black Sword - Strike",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Anti-Character 5+, Precision"
+        },
+        {
+          "name": "➤ Black Sword - Sweep",
+          "Range": "Melee",
+          "A": "10",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Armour of Faith",
+        "description": "Once per phase, when an attack is allocated to this model and the saving throw is failed, you can change the Damage characteristic of that attack to 0."
+      },
+      {
+        "name": "Sigismund's Heir",
+        "description": "Each time this model's unit declares a charge, if one or more targets of that charge have the CHARACTER keyword, add 2 to the Charge roll. Once per battle, when this model's unit is selected to fight, if that unit is within Engagement Range of one or more enemy CHARACTER units, this model can use this ability. If it does, until the end of the phase, melee weapons equipped by this model have the [DEVASTATING WOUNDS] ability."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n\n- Assault Intercessor Squad\n- Intercessor Squad\n- Crusader Squad\n- Sword Brethren\n- Sternguard Veteran Squad"
+      },
+      {
+        "name": "Chosen of the Emperor",
+        "description": "You cannot include more than one **Emperor's Champion** model in your army."
+      }
+    ],
+    "special_rules": [
+      "Templar Vows",
+      "Lone Operative",
+      "Precision",
+      "Anti-"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Faction: Adeptus Astartes",
+      "Emperor's Champion",
+      "Faction: Black Templars"
+    ]
+  }
+]

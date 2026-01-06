@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Kor'sarro Khan",
+    "id": "63f3-6aeb-c9ed-abfc",
+    "type": "model",
+    "faction": "White Scars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 70,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "Invulnerable Save",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Moonfang",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Devastating Wounds, Precision"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "For the Khan!",
+        "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability and melee weapons equipped by models in that unit have the [LANCE] ability."
+      },
+      {
+        "name": "Trophy Taker",
+        "description": "Each time this model destroys an enemy Character model, you gain 1CP"
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n\n- Assault Intercessor Squad\n- Bladeguard Veteran Squad\n- Intercessor Squad\n- Sternguard Veteran Squad\n- Tactical Squad\n- Company Heroes"
+      },
+      {
+        "name": "Inspiring Commander",
+        "description": "If you include this model in your army, until the end of the battle, non-Character models in Outrider Squad units from your army have an Objective Control characteristic of 3 while they are not Battle-shocked."
+      }
+    ],
+    "special_rules": [
+      "Oath of Moment",
+      "Leader",
+      "Devastating Wounds",
+      "Precision"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Imperium",
+      "Faction: Adeptus Astartes",
+      "Faction: White Scars",
+      "Kor'sarro Khan",
+      "Tacticus"
+    ]
+  },
+  {
+    "name": "Suboden Khan",
+    "id": "d72d-b930-9849-924e",
+    "type": "model",
+    "faction": "White Scars",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 115,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "invuln_save": "Invulnerable Save",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Onslaught Gatling Cannon",
+          "Range": "24\"",
+          "A": "8",
+          "BS": "2+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Devastating Wounds"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Stormtooth",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Lance, Anti-monster 4+, Anti-vehicle 4+"
+        },
+        {
+          "name": "Power Sword",
+          "Range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Spear of Chogoris",
+        "description": "This model’s unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back. If that unit is already eligible to shoot and declare a charge in a turn in which it Advanced, add 1 to Advance and Charge rolls made for that unit instead."
+      },
+      {
+        "name": "Skilled Riders",
+        "description": "Each time a model in this model’s unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally through terrain features."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units: **Outrider Squad**"
+      }
+    ],
+    "special_rules": [
+      "Oath of Moment",
+      "Leader",
+      "Devastating Wounds",
+      "Lance",
+      "Anti-"
+    ],
+    "keywords": [
+      "Mounted",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Grenades",
+      "Captain",
+      "Faction: Adeptus Astartes",
+      "Faction: White Scars",
+      "Suboden Khan"
+    ]
+  }
+]

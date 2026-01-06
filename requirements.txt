@@ -1,6 +1,8 @@
-fastapi
-uvicorn
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
 pymongo
 python-dotenv
 requests
 lxml
+slowapi==0.1.9

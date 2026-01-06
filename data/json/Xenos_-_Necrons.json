@@ -1,0 +1,5234 @@
+[
+  {
+    "name": "Orikan the Diviner",
+    "id": "ba86-eaad-5396-fc07",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 80,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Staff of Tomorrow",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-3",
+          "D": "D3",
+          "Keywords": "Devastating Wounds"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Master Chronomancer",
+        "description": "While this model is leading a unit, models in that unit have a 4+ invulnerable save."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "The Stars Are Right",
+        "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, triple the Attacks and Strength characteristics of this model’s Staff of Tomorrow and every successful Wound roll made for this model’s attacks scores a Critical Wound."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- IMMORTALS\n- NECRON WARRIORS\nYou can attach this model to one of the above units even if one ROYAL WARDEN or NOBLE model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+      }
+    ],
+    "special_rules": [
+      "Devastating Wounds",
+      "Reanimation Protocols",
+      "Leader"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Cryptek",
+      "Chronomancer",
+      "Orikan the Diviner"
+    ]
+  },
+  {
+    "name": "Imotekh the Stormlord",
+    "id": "49fd-a80d-8cc0-c76b",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 100,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Gauntlet of Fire",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent"
+        },
+        {
+          "name": "Staff of the Destroyer",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Staff of the Destroyer",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Devastating Wounds"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- IMMORTALS\n- LYCHGUARD\n- NECRON WARRIORS"
+      },
+      {
+        "name": "Grand Strategist",
+        "description": "At the start of your Command phase, if this model is on the battlefield, you gain 1CP."
+      },
+      {
+        "name": "Lord of the Storm",
+        "description": "Once per battle, at the end of your Command phase, this model can use this ability. If it does, roll one D6 for each enemy unit within 12\" of this model: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Leader",
+      "Ignores Cover",
+      "Torrent",
+      "Devastating Wounds"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Noble",
+      "Imotekh the Stormlord"
+    ]
+  },
+  {
+    "name": "Anrakyr the Traveller [Legends]",
+    "id": "43b5-f4f9-f7c6-327a",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 95,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Tachyon arrow",
+          "Range": "72\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "16",
+          "AP": "-5",
+          "D": "D6+2",
+          "Keywords": "One Shot"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Warscythe",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Devastating Wounds"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- IMMORTALS"
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Lord of the Pyrrhian Eternals",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Wound roll."
+      },
+      {
+        "name": "Mind in the Machine",
+        "description": "At the start of your opponent’s Shooting phase, select one enemy VEHICLE unit within 12\" of and visible to this model. That unit must take a Leadership test. If that test is passed, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; if that test is failed, that unit is not eligible to shoot this phase."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Reanimation Protocols",
+      "Devastating Wounds"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Noble",
+      "Anrakyr the Traveller"
+    ]
+  },
+  {
+    "name": "Varguard Obyron [Legends]",
+    "id": "b5c3-317e-df69-53bb",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 85,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Warscythe",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Devastating Wounds, Precision"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- IMMORTALS\n- LYCHGUARD\n- NECRON WARRIORS\nYou can attach this model to one of the above units even if NEMESOR ZAHNDREKH has already been attached to it. If it is, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+      },
+      {
+        "name": "Ghostwalk Mantle",
+        "description": "While this model is leading a unit, models in that unit have the Fights First ability."
+      },
+      {
+        "name": "The Vargard’s Duty",
+        "description": "While this model is in the same unit as NEMESOR ZAHNDREKH, CHARACTER models in that unit have the Feel No Pain 4+ ability."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Reanimation Protocols",
+      "Devastating Wounds",
+      "Precision"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Varguard Obyron"
+    ]
+  },
+  {
+    "name": "Illuminor Szeras",
+    "id": "d977-6a26-bc03-4722",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 165,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "8",
+      "SV": "2+",
+      "W": "9",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Eldritch lance",
+          "Range": "36\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Eldritch lance",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "-"
+        },
+        {
+          "name": "Impaling legs",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Extra Attacks"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Illuminor",
+        "description": "While this model is within 3\" of one or more other friendly NECRONS units, this model has the Lone Operative ability."
+      },
+      {
+        "name": "Mechanical Augmentation (Aura)",
+        "description": "While a friendly NECRONS BATTLELINE unit is within 3\" of this model, each time a model in that unit makes an attack, improve the Armour Penetration characteristic of that attack by 1, and each time an attack targets that unit, worsen the Armour Penetration characteristic of that attack by 1."
+      },
+      {
+        "name": "Atomic Energy Manipulator",
+        "description": "At the end of the Fight phase, if this model destroyed one or more models this phase, until the end of the battle, add 3\" to the range of its Mechanical Augmentation ability (to a maximum of 12\")."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Feel No Pain 4+",
+      "Extra Attacks"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Cryptek",
+      "Illuminor Szeras",
+      "Extra Attacks Weapon"
+    ]
+  },
+  {
+    "name": "Nemesor Zahndrekh [Legends]",
+    "id": "8386-4191-ac3a-aa28",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 85,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Staff of light",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Staff of light",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- IMMORTALS\n- LYCHGUARD\n- NECRON WARRIORS"
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Transient Madness",
+        "description": "While this model is leading a unit, at the start of your Command phase, roll one D6: until the start of your next Command phase, weapons equipped by models in that unit gain the ability below that corresponds with that roll:\n- 1-2: [SUSTAINED HITS 1]\n- 3-4: [LETHAL HITS]\n- 5-6: [DEVASTATING WOUNDS]"
+      },
+      {
+        "name": "Counter-tactics",
+        "description": "Once per battle, after your opponent uses a Stratagem, if this model is on the battlefield, it can use this ability. If it does, until the end of the battle, the CP cost your opponent must pay to use that Stratagem again is increased by 1CP."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Reanimation Protocols"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Noble",
+      "Nemesor Zahndrekh"
+    ]
+  },
+  {
+    "name": "Trazyn the Infinite",
+    "id": "c1e6-b88a-2003-174d",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 75,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Empathic Obliterator",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "7",
+          "AP": "0",
+          "D": "D3",
+          "Keywords": "Sustained Hits D3"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- IMMORTALS\n- LYCHGUARD\n- NECRON WARRIORS"
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Ancient Collector",
+        "description": "While this model is leading a unit, at the end of your Command phase, if that unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at start or end of any turn."
+      },
+      {
+        "name": "Surrogate Hosts",
+        "description": "At the start of your Command phase, if this model is on the battlefield, you can select one other friendly NECRONS INFANTRY CHARACTER model on the battlefield (excluding SKORPEKH LORD or EPIC HERO models). The selected model is destroyed (ignoring any rules that are triggered when a model is destroyed) and this model is put\nin its place, with all of its wounds remaining (if the selected model was leading a unit, this model now attaches to that unit as its Leader)."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Reanimation Protocols",
+      "Sustained Hits"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Noble",
+      "Trazyn the Infinite"
+    ]
+  },
+  {
+    "name": "Royal Warden",
+    "id": "379b-d6a0-cd05-ef89",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 50,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Relic gauss blaster",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Lethal Hits, Rapid Fire 2"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- IMMORTALS\n- NECRON WARRIORS"
+      },
+      {
+        "name": "Adaptive Strategy",
+        "description": "This model's unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+      },
+      {
+        "name": "Engrammatic Logic",
+        "description": "Once per battle, at the start of any phase, you can select one friendly NECRONS unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Reanimation Protocols",
+      "Lethal Hits",
+      "Rapid Fire"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Royal Warden",
+      "Melee Weapon",
+      "Ranged Weapon"
+    ]
+  },
+  {
+    "name": "Skorpekh Lord",
+    "id": "c401-d95f-c5ce-7738",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 90,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Enmitic annihilator",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Flensing claw",
+          "Range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Hyperphase harvester",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "10",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- SKORPEKH DESTROYERS"
+      },
+      {
+        "name": "United In Destruction",
+        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+      },
+      {
+        "name": "Crimson Harvest",
+        "description": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of this model and roll one D6: on a 2-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D3+3 mortal wounds."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Reanimation Protocols",
+      "Rapid Fire"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Destroyer Cult",
+      "Skorpekh Lord",
+      "Ranged Weapon",
+      "Melee Weapon",
+      "Melee Weapon"
+    ]
+  },
+  {
+    "name": "Lokhust Lord",
+    "id": "8725-de36-7ef7-45f6",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 80,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Staff of light",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Lord's blade",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Devastating Wounds"
+        },
+        {
+          "name": "Staff of light",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- LOKHUST DESTROYERS\n- LOKHUST HEAVY DESTROYERS"
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Destroyer Cult",
+        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, a successful unmodifed Hit roll of 5+ scores a Critical Hit."
+      },
+      {
+        "name": "Driven by Hatred",
+        "description": "Each time this model makes an attack that targets an enemy unit that is Below Half-strength, you can re-roll the Hit roll and you can re-roll the Wound roll."
+      },
+      {
+        "name": "Nanoscarab amulet",
+        "description": "The bearer has the Feel No Pain 5+ ability."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Reanimation Protocols",
+      "Devastating Wounds",
+      "Feel No Pain 5+"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Mounted",
+      "Character",
+      "Fly",
+      "Destroyer Cult",
+      "Lokhust Lord",
+      "Melee Weapon",
+      "Melee Weapon",
+      "Ranged Weapon"
+    ]
+  },
+  {
+    "name": "Lord [Legends]",
+    "id": "8005-b0eb-72ab-aed5",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 65,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Staff of light",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Lord's blade",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Devastating Wounds"
+        },
+        {
+          "name": "Staff of light",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Relentless March",
+        "description": "While this model is leading a unit, add 1\" to the Move characteristic of models in that unit."
+      },
+      {
+        "name": "The Lord’s Will",
+        "description": "While this model is leading a unit, you can target that unit with Stratagems even when it is Battle-shocked."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- IMMORTALS\n- LYCHGUARD\n- NECRON WARRIORS"
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Devastating Wounds",
+      "Leader"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Noble",
+      "Lord",
+      "Melee Weapon",
+      "Melee Weapon",
+      "Ranged Weapon"
+    ]
+  },
+  {
+    "name": "Catacomb Command Barge",
+    "id": "e667-b37c-61c-4893",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 120,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "9",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Gauss cannon",
+          "Range": "24\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Lethal Hits"
+        },
+        {
+          "name": "Tesla cannon",
+          "Range": "24\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Sustained Hits 2"
+        },
+        {
+          "name": "Staff of light",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Staff of light",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Overlord's blade",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Devastating Wounds"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Carrier Wave (Aura)",
+        "description": "While a friendly NECRONS unit is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit."
+      },
+      {
+        "name": "Advanced Quantum Shielding",
+        "description": "Each time an attack targets this model, if the Strength characteristic of that attack is greater than this model’s Toughness characteristic, subtract 1 from the Wound roll."
+      },
+      {
+        "name": "Resurrection orb",
+        "description": "Once per battle, at the end of any phase, select one friendly NECRONS INFANTRY or NECRONS MOUNTED unit with 6\" of the bearer and resurrect that unit. When you do, that unit’s Reanimation Protocols are activated reanimating D6 wounds instead of D3 when doing so. You cannot resurrect more than one unit per turn."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Deadly Demise 1",
+      "Lethal Hits",
+      "Sustained Hits"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Vehicle",
+      "Character",
+      "Fly",
+      "Catacomb Command Barge",
+      "Ranged Weapon",
+      "Ranged Weapon",
+      "Melee Weapon",
+      "Ranged Weapon"
+    ]
+  },
+  {
+    "name": "Overlord",
+    "id": "dbe5-257e-e2bd-1b40",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 85,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Staff of light",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Tachyon arrow",
+          "Range": "72\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "16",
+          "AP": "-5",
+          "D": "D6+2",
+          "Keywords": "One Shot"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Voidscythe",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Devastating Wounds"
+        },
+        {
+          "name": "Staff of light",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Overlord's blade",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Devastating Wounds"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Implacable Resilience",
+        "description": "Each time an attack is allocated to this model, subtract 1 from that attack’s Damage characteristic."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- IMMORTALS\n- LYCHGUARD\n- NECRON WARRIORS"
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Devastating Wounds",
+      "Leader"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Noble",
+      "Overlord",
+      "Melee Weapon",
+      "Melee Weapon",
+      "Ranged Weapon"
+    ]
+  },
+  {
+    "name": "Technomancer",
+    "id": "852a-ba39-e93f-6b62",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 80,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Staff of light",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Staff of light",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- CANOPTEK WRAITHS\n- IMMORTALS\n- NECRON WARRIORS\nYou can attach this model to one of the above units even if one ROYAL WARDEN or NOBLE model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+      },
+      {
+        "name": "Rites of Reanimation",
+        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+      },
+      {
+        "name": "Technomancer",
+        "description": "At the end of your Movement phase, select one friendly NECRONS model within 6\" of the bearer. That model regains up to D3 lost wounds. Each model can only be selected for this ability once per turn."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Reanimation Protocols"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Fly",
+      "Cryptek",
+      "Technomancer",
+      "Melee Weapon",
+      "Ranged Weapon"
+    ]
+  },
+  {
+    "name": "Psychomancer",
+    "id": "aea6-b6a1-a924-d31",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 55,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Abyssal lance",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Abyssal lance",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "6",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- IMMORTALS\n- NECRON WARRIORS\nYou can attach this model to one of the above units even if one ROYAL WARDEN or NOBLE model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+      },
+      {
+        "name": "Nightmare Shroud (Aura)",
+        "description": "In the Battle-shock step of your opponent's Command phase, if an enemy unit that is below its Starting Strength is within 6\" of this model, that enemy unit must take a Battle-shock test, subtracting 1 from the roll when it does so."
+      },
+      {
+        "name": "Harbinger of Despair",
+        "description": "Once per turn, at the start of your Command, Movement, Shooting, Charge or Fight phase, you can select one enemy unit within 18\" of this model. That unit must take a Battle-shock test, subtracting 1 from the roll when it does so."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Reanimation Protocols"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Cryptek",
+      "Psychomancer",
+      "Melee Weapon",
+      "Ranged Weapon"
+    ]
+  },
+  {
+    "name": "Chronomancer",
+    "id": "5b7d-54ea-f7a8-9688",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 65,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Chronomancer's stave",
+          "Range": "18\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Blast"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Chronomancer's stave",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- IMMORTALS\n- NECRON WARRIORS\nYou can attach this model to one of the above units even if one ROYAL WARDEN or NOBLE model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+      },
+      {
+        "name": "Timesplinter Mantle",
+        "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Chronometron",
+        "description": "In your Shooting phase, after this model’s unit has shot, if it is not within Engagement Range of any enemy units, that unit can make a Normal move of up to 5\". If it does, until the end of the turn, that unit is not eligible to declare a charge."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Reanimation Protocols",
+      "Blast"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Cryptek",
+      "Chronomancer",
+      "Melee Weapon",
+      "Ranged Weapon"
+    ]
+  },
+  {
+    "name": "Plasmancer",
+    "id": "84bc-87b1-1eec-f574",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 55,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Plasmic lance",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Plasmic lance",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "7",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- IMMORTALS\n- NECRON WARRIORS\nYou can attach this model to one of the above units even if one ROYAL WARDEN or NOBLE model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+      },
+      {
+        "name": "Harbinger of Destruction",
+        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, a successful unmodifed Hit roll of 5+ scores a Critical Hit."
+      },
+      {
+        "name": "Living Lightning",
+        "description": "In your Shooting phase, select one enemy unit within 18\" of and visible to this model (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this model) and roll four D6: for each 4+, that enemy unit suffers 1 mortal wound."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Reanimation Protocols"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Cryptek",
+      "Plasmancer",
+      "Melee Weapon",
+      "Ranged Weapon"
+    ]
+  },
+  {
+    "name": "Necron Warriors",
+    "id": "58e9-5212-f5a6-c12d",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 90,
+      "variants": [
+        {
+          "models": 11,
+          "points": 200
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 20
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Gauss flayer",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Lethal Hits, Rapid Fire 1"
+        },
+        {
+          "name": "Gauss reaper",
+          "Range": "12\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Lethal Hits"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Their Number is Legion",
+        "description": "Each time this unit’s Reanimation Protocols activate, you can re-roll the dice to see how many wounds are regenerated."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Lethal Hits",
+      "Rapid Fire"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Battleline",
+      "Necron Warriors"
+    ]
+  },
+  {
+    "name": "Immortals",
+    "id": "f81-b23c-e183-39d7",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 70,
+      "variants": [
+        {
+          "models": 6,
+          "points": 150
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 10
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Gauss blaster",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Lethal Hits"
+        },
+        {
+          "name": "Tesla carbine",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Assault, Sustained Hits 2"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Implacable Eradication",
+        "description": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Lethal Hits",
+      "Assault",
+      "Sustained Hits"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Battleline",
+      "Immortals"
+    ]
+  },
+  {
+    "name": "Canoptek Reanimator",
+    "id": "7c45-2aab-7526-febe",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 75,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "6",
+      "LD": "8+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Atomiser beam",
+          "Range": "12\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Reanimator's claws",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Nanoscarab Reanimation Beam (Aura)",
+        "description": "While a friendly NECRONS unit is within 3\" of this model, each time that unit’s Reanimation Protocols activate, that unit reanimates an additional D3 wounds."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Feel No Pain 4+"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Vehicle",
+      "Walker",
+      "Canoptek",
+      "Reanimator"
+    ]
+  },
+  {
+    "name": "Hexmark Destroyer",
+    "id": "d504-e79e-f4d9-90aa",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 75,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Enmitic disintegrator pistols",
+          "Range": "18\"",
+          "A": "6",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Ignores Cover, Pistol"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Inescapable Death",
+        "description": "Once per turn, one unit from your army with this ability can be targeted with the Fire Overwatch Stratagem for 0CP, even if you have already used that Stratagem on a different unit this phase. In addition, each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 2+."
+      },
+      {
+        "name": "Multi-threat Eliminator",
+        "description": "Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attack that targets a friendly NECRONS unit within 3\" of a model with this ability, after that enemy has shot, one model with this ability that is within 3\" of that target can shoot as if it were your Shooting phase, but must target that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "Lone Operative",
+      "Reanimation Protocols",
+      "Pistol",
+      "Ignores Cover"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Destroyer Cult",
+      "Hexmark Destroyer",
+      "Melee Weapon",
+      "Ranged Weapon"
+    ]
+  },
+  {
+    "name": "Lychguard",
+    "id": "c4e3-f6b0-f3aa-9d90",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 85,
+      "variants": [
+        {
+          "models": 6,
+          "points": 170
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Warscythe",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Devastating Wounds"
+        },
+        {
+          "name": "Hyperphase sword",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Dispersion Shield",
+        "description": "The bearer has a 4+ invulnerable save."
+      },
+      {
+        "name": "Guardian Protocols",
+        "description": "While a NOBLE model is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Devastating Wounds"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Lychguard"
+    ]
+  },
+  {
+    "name": "Deathmarks",
+    "id": "b7d7-14c9-63c1-ded5",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 60,
+      "variants": [
+        {
+          "models": 6,
+          "points": 120
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Synaptic disintegrator",
+          "Range": "36\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Heavy, Precision"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Hyperspace Hunters",
+        "description": "Once per turn, in the Reinforcements step of your opponent’s Movement phase, when an enemy unit is set up on the battlefield from Reserves within 18\" of and visible to this unit, this unit can shoot as if it were your Shooting phase, but must only target that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Deep Strike",
+      "Heavy",
+      "Precision"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Deathmarks"
+    ]
+  },
+  {
+    "name": "Flayed Ones",
+    "id": "c219-a708-f5b0-f0e7",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 60,
+      "variants": [
+        {
+          "models": 6,
+          "points": 120
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Flayer claws",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Sustained Hits 1, Twin-linked"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Flesh Hunger",
+        "description": "Each time a model in this unit makes a melee attack, if the target of that attack is Below Half-strength, a successful Hit roll scores a Critical Hit."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Stealth",
+      "Infiltrators",
+      "Sustained Hits",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Flayed Ones"
+    ]
+  },
+  {
+    "name": "Cryptothralls",
+    "id": "ef7a-c413-c779-2d18",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 60,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "3",
+      "LD": "8+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Scouring eye",
+          "Range": "6\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Scythed limbs",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Bound Creation",
+        "description": "While this unit is in the same unit as a CRYPTEK model, that CRYPTEK model has the Feel No Pain 4+ ability."
+      },
+      {
+        "name": "Systematic Vigour",
+        "description": "Each time a CRYPTOTHRALL model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and it is then removed from play."
+      },
+      {
+        "name": "Cryptek Retinue",
+        "description": "At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a CRYPTEK model (a unit cannot have more than one CRYPTOTHRALLS unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that  Bodyguard unit’s Starting Strength is increased accordingly."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Cryptothralls"
+    ]
+  },
+  {
+    "name": "Skorpekh Destroyers",
+    "id": "66e-26f2-7c38-e4d8",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 90,
+      "variants": [
+        {
+          "models": 4,
+          "points": 180
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 2
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Skorpekh hyperphase weapons",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Whirling Onslaught",
+        "description": "Each time a model in this unit makes a melee attack, re-roll a Hit roll of 1. If this unit made a Charge move this turn, you can re-roll the Hit roll instead."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Destroyer Cult",
+      "Skorpekh Destroyers"
+    ]
+  },
+  {
+    "name": "Triarch Stalker",
+    "id": "14fa-6813-e51b-7942",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 110,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "4"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "➤ Heat ray - dispersed",
+          "Range": "12\"",
+          "A": "2D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent"
+        },
+        {
+          "name": "➤ Heat ray - focused",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 4"
+        },
+        {
+          "name": "Particle shredder",
+          "Range": "18\"",
+          "A": "D6+6",
+          "BS": "2+",
+          "S": "7",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast, Devastating Wounds"
+        },
+        {
+          "name": "Heavy gauss cannon array",
+          "Range": "24\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Lethal Hits"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Stalker's forelimbs",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Targeting Relay",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Deadly Demise D3",
+      "Scouts 8\"",
+      "Melta",
+      "Torrent",
+      "Ignores Cover",
+      "Devastating Wounds",
+      "Blast",
+      "Lethal Hits"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Vehicle",
+      "Walker",
+      "Triarch Stalker"
+    ]
+  },
+  {
+    "name": "C'tan Shard of the Deceiver",
+    "id": "e09-d7d6-e4e3-42c1",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 265,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "11",
+      "SV": "4+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "6"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Cosmic insanity",
+          "Range": "18\"",
+          "A": "6",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Anti-CHARACTER 4+, Devastating Wounds, Precision"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Golden fists",
+          "Range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Grand Illusion",
+        "description": "If your army includes this model, after both players have deployed their armies, select up to three NECRONS units from your army and redeploy them. When doing so, any of those units can be placed in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Deadly Demise D6",
+      "Stealth",
+      "Feel No Pain 5+",
+      "Anti-",
+      "Devastating Wounds",
+      "Precision"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Fly",
+      "C'tan Shard of the Deceiver"
+    ]
+  },
+  {
+    "name": "C'tan Shard of the Nightbringer",
+    "id": "f926-a2fe-3494-24b7",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 305,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "11",
+      "SV": "4+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "4"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Gaze of death",
+          "Range": "18\"",
+          "A": "D3",
+          "BS": "2+",
+          "S": "12",
+          "AP": "-2",
+          "D": "D6+3",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "➤ Scythe of the Nightbringer - strike",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "14",
+          "AP": "-4",
+          "D": "D6+2",
+          "Keywords": "Devastating Wounds"
+        },
+        {
+          "name": "➤ Scythe of the Nightbringer - sweep",
+          "Range": "Melee",
+          "A": "14",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Drain Life",
+        "description": "At the end of the Fight phase, roll one D6 for each enemy unit within 6\" of this model: on a 4+, that enemy unit suffers D3 mortal wounds."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Deadly Demise D6",
+      "Feel No Pain 5+"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Fly",
+      "C'tan Shard of the Nightbringer"
+    ]
+  },
+  {
+    "name": "C'tan Shard of the Void Dragon",
+    "id": "8065-e9c0-dcb5-be1d",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 300,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "11",
+      "SV": "4+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "4"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Spear of the Void Dragon",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-3",
+          "D": "D6+2",
+          "Keywords": "Anti-VEHICLE 2+"
+        },
+        {
+          "name": "Voltaic storm",
+          "Range": "18\"",
+          "A": "D6+3",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Blast, Sustained Hits 2"
+        }
+      ],
+      "melee": [
+        {
+          "name": "➤ Spear of the Void Dragon - strike",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2",
+          "Keywords": "Anti-VEHICLE 2+"
+        },
+        {
+          "name": "➤ Spear of the Void Dragon - sweep",
+          "Range": "Melee",
+          "A": "10",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Canoptek tail blades",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Extra Attacks"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Matter Absorption",
+        "description": "At the start of your Shooting phase, select one enemy VEHICLE unit within 12\" of this model and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds and this model regains up to that many lost wounds."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Deadly Demise D6",
+      "Feel No Pain 5+",
+      "Anti-",
+      "Blast",
+      "Sustained Hits",
+      "Extra Attacks"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Fly",
+      "C'tan Shard of the Void Dragon",
+      "Extra Attacks Weapon"
+    ]
+  },
+  {
+    "name": "Transcendent C'tan",
+    "id": "276e-bc21-e1d0-3c41",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 295,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "11",
+      "SV": "4+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "4"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Seismic assault",
+          "Range": "12\"",
+          "A": "6",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "D3",
+          "Keywords": "Assault, Sustained Hits 1"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Crackling tendrils",
+          "Range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "9",
+          "AP": "-3",
+          "D": "D6",
+          "Keywords": "Sustained Hits 1"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Transdimensional Displacement",
+        "description": "Each time this model is selected to Advance, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+      },
+      {
+        "name": "C'tan Shard",
+        "description": "This model cannot be given Enhancements."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Deadly Demise D6",
+      "Deep Strike",
+      "Feel No Pain 5+",
+      "Sustained Hits",
+      "Assault"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Monster",
+      "Character",
+      "Fly",
+      "Transcendent C'tan",
+      "Melee Weapon",
+      "Damage Dx Weapon",
+      "Ranged Weapon",
+      "Damage Dx Weapon"
+    ]
+  },
+  {
+    "name": "Canoptek Spyders",
+    "id": "cae9-5277-87f4-54b8",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 75,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 2,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "6",
+      "LD": "8+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Particle beamer",
+          "Range": "18\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast, Devastating Wounds"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Automaton claws",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Fabricator Claw Array (Aura)",
+        "description": "While a friendly NECRONS VEHICLE unit is within 6\" of the bearer, models in that unit have the Feel No Pain 6+ ability."
+      },
+      {
+        "name": "Canoptek Swarm",
+        "description": "In your Command phase, select one friendly CANOPTEK SCARAB SWARM unit within 6\" of this unit. One destroyed model is returned to that CANOPTEK SCARAB SWARM unit for each SPYDER model in this unit."
+      }
+    ],
+    "special_rules": [
+      "Blast",
+      "Devastating Wounds",
+      "Reanimation Protocols",
+      "Deadly Demise 1"
+    ],
+    "keywords": [
+      "Attacks Dx Weapon",
+      "Faction: Necrons",
+      "Vehicle",
+      "Fly",
+      "Canoptek",
+      "Spyders"
+    ]
+  },
+  {
+    "name": "Canoptek Scarab Swarms",
+    "id": "259b-a8e3-928f-1d0c",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 40,
+      "variants": [
+        {
+          "models": 4,
+          "points": 80
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "2",
+      "SV": "6+",
+      "W": "4",
+      "LD": "8+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Feeder mandibles",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "5+",
+          "S": "2",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Lethal Hits"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Self-destruction",
+        "description": "At the start of the Fight phase, if this unit is within Engagement Range of one or more enemy units, you can select one model in this unit to destroy. If you do, select one enemy unit within Engagement Range of that model and roll one D6, adding 1 to the result if that unit is a VEHICLE. On a 2-5, that unit suffers D3 mortal wounds; on a 6+, that unit suffers 3 mortal wounds."
+      },
+      {
+        "name": "Chittering Swarm",
+        "description": "While an enemy unit is within Engagement Range of this unit, subtract 1 from the Objective Control  characteristic of models in that enemy unit (to a minimum of 1). While this unit is within 6\" of one or more friendly CRYPTEK models, the Objective Control characteristic of models in this unit is 1."
+      }
+    ],
+    "special_rules": [
+      "Lethal Hits",
+      "Reanimation Protocols"
+    ],
+    "keywords": [
+      "Swarm",
+      "Fly",
+      "Canoptek",
+      "Scarab Swarms",
+      "Faction: Necrons"
+    ]
+  },
+  {
+    "name": "Ophydian Destroyers",
+    "id": "c6db-9736-4d53-3ef6",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 80,
+      "variants": [
+        {
+          "models": 4,
+          "points": 160
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Ophydian hyperphase weapons",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Tunnelling Horrors",
+        "description": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Deep Strike"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Destroyer Cult",
+      "Ophydian Destroyers"
+    ]
+  },
+  {
+    "name": "Tomb Blades",
+    "id": "77d-d442-a3-422c",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 75,
+      "variants": [
+        {
+          "models": 4,
+          "points": 150
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 3,
+      "max_models": 6
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Twin gauss blaster",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Lethal Hits, Twin-linked"
+        },
+        {
+          "name": "Particle beamer",
+          "Range": "18\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast, Devastating Wounds"
+        },
+        {
+          "name": "Twin tesla carbine",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Assault, Sustained Hits 2, Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Evasion Engrams",
+        "description": "In your Shooting phase, after this unit has shot, it can make a Normal Move of up to 6\". If it does, until the end of the turn, this unit is not eligible to declare a charge."
+      },
+      {
+        "name": "Shadowloom",
+        "description": "The bearer has the Stealth ability."
+      },
+      {
+        "name": "Nebuloscope",
+        "description": "Ranged weapons equipped by the bearer have the [IGNORES COVER] ability."
+      },
+      {
+        "name": "Shieldvanes",
+        "description": "The bearer has a Save characteristic of 3+ and a Move characteristic of 8\"."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Scouts 9\"",
+      "Lethal Hits",
+      "Twin-linked",
+      "Blast",
+      "Devastating Wounds",
+      "Sustained Hits",
+      "Assault",
+      "Stealth"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Mounted",
+      "Fly",
+      "Tomb Blades",
+      "Attacks Dx Weapon"
+    ]
+  },
+  {
+    "name": "Triarch Praetorians",
+    "id": "6829-6dcb-b342-afe4",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 90,
+      "variants": [
+        {
+          "models": 6,
+          "points": 180
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Rod of covenant",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Particle caster",
+          "Range": "12\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Devastating Wounds, Pistol"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Rod of covenant",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Voidblade",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Relentless Combatants",
+        "description": "You can re-roll Charge rolls made for this unit, and this unit is eligible to declare a charge in a turn in which it Fell Back."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Deep Strike",
+      "Devastating Wounds",
+      "Pistol"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Fly",
+      "Triarch Praetorians"
+    ]
+  },
+  {
+    "name": "Canoptek Wraiths",
+    "id": "a022-9bf6-f08b-c416",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 110,
+      "variants": [
+        {
+          "models": 4,
+          "points": 220
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 3,
+      "max_models": 6
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "8+",
+      "OC": "2"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Transdimensional beamer",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "-"
+        },
+        {
+          "name": "Particle caster",
+          "Range": "12\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Devastating Wounds, Pistol"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Vicious claws",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Whip coils",
+          "Range": "Melee",
+          "A": "8",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Wraith Form",
+        "description": "Each time this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "Models in this unit have a 4+ invulnerable save."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Beast",
+      "Fly",
+      "Canoptek",
+      "Wraiths"
+    ]
+  },
+  {
+    "name": "Annihilation Barge",
+    "id": "1ff-6384-ef1a-8297",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 105,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Twin tesla destructor",
+          "Range": "36\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "8",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "Sustained Hits 2, Twin-linked"
+        },
+        {
+          "name": "Gauss cannon",
+          "Range": "24\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Lethal Hits"
+        },
+        {
+          "name": "Tesla cannon",
+          "Range": "24\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Sustained Hits 2"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured bulk",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Malevolent Arcing",
+        "description": "In your Shooting phase, each time you select a target for this model’s twin tesla destructor, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a 5+, the unit being rolled for is struck by arcing energies; after resolving all of this model’s attacks against the target unit, each unit struck by arcing energies suffers D3 mortal wounds."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise 1",
+      "Reanimation Protocols",
+      "Sustained Hits",
+      "Twin-linked",
+      "Lethal Hits"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Vehicle",
+      "Fly",
+      "Annihilation Barge"
+    ]
+  },
+  {
+    "name": "Doomsday Ark",
+    "id": "e046-8220-d8a2-1d19",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 200,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 2,
+      "max_models": 2
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "5"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Doomsday cannon",
+          "Range": "72\"",
+          "A": "D6+1",
+          "BS": "3+",
+          "S": "18",
+          "AP": "-4",
+          "D": "4",
+          "Keywords": "Blast, Heavy"
+        },
+        {
+          "name": "Gauss flayer array",
+          "Range": "24\"",
+          "A": "5",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Lethal Hits, Rapid Fire 5"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured bulk",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Damaged: 1-5 wounds remaining",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Overwhelming Obliteration",
+        "description": "In your Movement phase, if this model Remains Stationary, until the end of the turn, its doomsday cannon has the [DEVASTATING WOUNDS] ability."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Reanimation Protocols",
+      "Blast",
+      "Heavy",
+      "Lethal Hits",
+      "Rapid Fire"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Vehicle",
+      "Fly",
+      "Doomsday Ark"
+    ]
+  },
+  {
+    "name": "Lokhust Destroyers",
+    "id": "6f72-b8f7-fd8d-5c2c",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 40,
+      "variants": [
+        {
+          "models": 2,
+          "points": 60
+        },
+        {
+          "models": 3,
+          "points": 90
+        },
+        {
+          "models": 4,
+          "points": 180
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Gauss cannon",
+          "Range": "24\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Lethal Hits"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Hard-wired for Destruction",
+        "description": "Each time a model in this unit makes a ranged attack that targets the closest eligible enemy unit, re-roll a Hit roll of 1. If the target of that attack is within range of an objective marker your opponent controls, you can re-roll the Hit roll instead."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Lethal Hits"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Mounted",
+      "Fly",
+      "Destroyer Cult",
+      "Lokhust Destroyers"
+    ]
+  },
+  {
+    "name": "Lokhust Heavy Destroyers",
+    "id": "d9ea-2965-24-d3a3",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 55,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Enmitic exterminator",
+          "Range": "36\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Heavy, Rapid Fire 6, Sustained Hits 1"
+        },
+        {
+          "name": "Gauss destructor",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "14",
+          "AP": "-4",
+          "D": "6",
+          "Keywords": "Heavy, Lethal Hits"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Optimised for Slaughter",
+        "description": "Each time a model in this unit makes an attack with an enmitic exterminator that targets a unit (excluding MONSTERS and VEHICLES), re-roll a Wound roll of 1. Each time a model in this unit makes an attack with a gauss destructor against a MONSTER or VEHICLE unit, re-roll a Wound roll of 1."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Heavy",
+      "Sustained Hits",
+      "Rapid Fire",
+      "Lethal Hits"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Mounted",
+      "Fly",
+      "Destroyer Cult",
+      "Lokhust Heavy Destroyers"
+    ]
+  },
+  {
+    "name": "Canoptek Doomstalker",
+    "id": "ff8f-2e43-8af1-3470",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 140,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "12",
+      "LD": "8+",
+      "OC": "4"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Doomsday blaster",
+          "Range": "48\"",
+          "A": "D6+1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Blast, Heavy"
+        },
+        {
+          "name": "Twin gauss flayer",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Lethal Hits, Rapid Fire 1, Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Doomstalker limbs",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Damaged: 1-4 wounds remaining",
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Sentinel Construct",
+        "description": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Deadly Demise D3",
+      "Blast",
+      "Heavy",
+      "Lethal Hits",
+      "Twin-linked",
+      "Rapid Fire"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Vehicle",
+      "Walker",
+      "Canoptek",
+      "Doomstalker"
+    ]
+  },
+  {
+    "name": "Ghost Ark",
+    "id": "9928-da6-4e86-ec9f",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 115,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 2,
+      "max_models": 2
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "invuln_save": "4+",
+    "transport": "This model has a transport capacity of 10 NECRON WARRIOR models and 1 NECRONS INFANTRY CHARACTER model.",
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Gauss flayer array",
+          "Range": "24\"",
+          "A": "5",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Lethal Hits, Rapid Fire 5"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured bulk",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Repair Barge",
+        "description": "Once per turn, just after an enemy unit finishes making its attacks, if one or more friendly NECRON WARRIORS units within 3\" of this model lost one or more wounds as a result of those attacks, this model can use this ability. If it does, select one of those NECRON WARRIORS units; that unit’s Reanimation Protocols activate. The same NECRON WARRIORS unit cannot be selected for this ability more than once per turn."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Reanimation Protocols",
+      "Lethal Hits",
+      "Rapid Fire"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Vehicle",
+      "Fly",
+      "Transport",
+      "Dedicated Transport",
+      "Ghost Ark"
+    ]
+  },
+  {
+    "name": "Night Scythe",
+    "id": "2a86-2d6-6446-7f1",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 145,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": "This model has a transport capacity of 1 NECRONS INFANTRY unit.",
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Twin tesla destructor",
+          "Range": "36\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "8",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "Sustained Hits 2, Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured bulk",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invasion Beams",
+        "description": "At the end of the Fight phase, if there are no models currently embarked within this TRANSPORT, you can select one friendly NECRONS INFANTRY unit wholly within 6\" of this TRANSPORT. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this TRANSPORT."
+      },
+      {
+        "name": "Damaged: 1-4 wounds remaining",
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Quantum Invader",
+        "description": "This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Deadly Demise D3",
+      "Deep Strike",
+      "Sustained Hits",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Transport",
+      "Night Scythe"
+    ]
+  },
+  {
+    "name": "Doom Scythe",
+    "id": "52fb-edb1-c747-415a",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 230,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Heavy death ray",
+          "Range": "36\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6+1",
+          "Keywords": "Sustained Hits D3"
+        },
+        {
+          "name": "Twin tesla destructor",
+          "Range": "36\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "8",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "Sustained Hits 2, Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured bulk",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Atavistic Instigation",
+        "description": "Each time this model targets an enemy unit with its heavy death ray, your opponent must declare if that unit will stand firm or duck for cover:\n- If it stands firm, when resolving attacks against that unit this phase, a successful unmodified Hit roll of 5+ scores a Critical Hit.\n- If it ducks for cover, until the start of your next Shooting phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Damaged: 1-4 wounds remaining",
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Deadly Demise D3",
+      "Sustained Hits",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Doom Scythe"
+    ]
+  },
+  {
+    "name": "Obelisk",
+    "id": "256d-92cd-5d14-bbab",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 300,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 4,
+      "max_models": 4
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "13",
+      "SV": "2+",
+      "W": "24",
+      "LD": "7+",
+      "OC": "8"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Tesla sphere",
+          "Range": "24\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "7",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Anti-FLY 4+, Sustained Hits 2"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured bulk",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "8",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Damaged: 1-8 wounds remaining",
+        "description": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Gravitic Pulse",
+        "description": "At the start of your opponent’s Movement phase, you can select one enemy unit within 18\" of and visible to this model. Until the end of the turn, halve the Move characteristic of models in that unit and halve Advance and Charge rolls made for that unit. In addition, if that unit can FLY, until the start of your next Movement phase, roll one D6 each time that unit ends any type of move: on a 4+, that unit suffers D3 mortal wounds."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Deadly Demise D6",
+      "Deep Strike",
+      "Anti-",
+      "Sustained Hits"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Vehicle",
+      "Titanic",
+      "Fly",
+      "Towering",
+      "Obelisk"
+    ]
+  },
+  {
+    "name": "Tesseract Vault",
+    "id": "5451-67b5-a66c-71d2",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 425,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 4,
+      "max_models": 4
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "24",
+      "LD": "7+",
+      "OC": "8"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Tesla sphere",
+          "Range": "24\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "7",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Sustained Hits 2"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured bulk",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "8",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Damaged: 1-8 wounds remaining",
+        "description": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and you can only select one of the C'tan Powers weapons in your Shooting phase, instead of two."
+      },
+      {
+        "name": "Powers of the C’tan",
+        "description": "In your Shooting phase, when this model is selected to shoot, first select up to 2 different C’tan Powers weapons. Until the end of the phase, this model is equipped with those weapons in addition to its other weapons (this model cannot make attacks with any other C’tan Powers weapon you did not select in this way this phase)."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Deadly Demise D6+3",
+      "Anti-",
+      "Blast",
+      "Indirect Fire",
+      "Ignores Cover",
+      "Devastating Wounds",
+      "Torrent",
+      "Precision",
+      "Sustained Hits"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Vehicle",
+      "Titanic",
+      "Fly",
+      "Towering",
+      "Tesseract Vault"
+    ]
+  },
+  {
+    "name": "Monolith",
+    "id": "db10-2662-da6a-516e",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 400,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 4,
+      "max_models": 4
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "13",
+      "SV": "2+",
+      "W": "22",
+      "LD": "7+",
+      "OC": "8"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Particle whip",
+          "Range": "24\"",
+          "A": "3D6",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Blast, Devastating Wounds"
+        },
+        {
+          "name": "Death ray",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-4",
+          "D": "D6+1",
+          "Keywords": "Sustained Hits D3"
+        },
+        {
+          "name": "Gauss flux arc",
+          "Range": "24\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Lethal Hits, Rapid Fire 3"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Portal of exile",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Damaged: 1-7 wounds remaining",
+        "description": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Eternity Gate",
+        "description": "In the Reinforcements step of your Movement phase, you can select one NECRONS INFANTRY unit from your army that is either in Reserves or on the battlefield (if you select the latter, remove that unit from the battlefield and place it into Reserves). That unit is then set up anywhere on the battlefield that is wholly within 6\" of this model and not within Engagement Range of any enemy models. That unit cannot declare a charge this turn."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Deadly Demise D6",
+      "Deep Strike",
+      "Blast",
+      "Devastating Wounds",
+      "Sustained Hits",
+      "Rapid Fire",
+      "Lethal Hits"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Vehicle",
+      "Titanic",
+      "Fly",
+      "Towering",
+      "Monolith",
+      "Attacks Dx Weapon"
+    ]
+  },
+  {
+    "name": "The Silent King",
+    "id": "7422-7fbf-8694-364c",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 400,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Sceptre of Eternal Glory",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "10",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Devastating Wounds"
+        },
+        {
+          "name": "Staff of Stars",
+          "Range": "24\"",
+          "A": "12",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Indirect Fire"
+        },
+        {
+          "name": "Annihilator beam",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "14",
+          "AP": "-4",
+          "D": "6",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Weapons of the Final Triarch",
+          "Range": "Melee",
+          "A": "12",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Lethal Hits"
+        },
+        {
+          "name": "Armoured bulk",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "Models in this unit have a 4+ invulnerable save."
+      },
+      {
+        "name": "Damaged: 1-6 wounds remaining",
+        "description": "While this unit’s Szarekh model has 1-6 wounds remaining, halve the Attacks characteristic of that model’s weapons, and each time this unit makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Voice of the Triarch",
+        "description": "At the start of the battle round, select one Triarch ability. Until the start of the next battle round, this unit has that ability."
+      },
+      {
+        "name": "The Silent King (Aura)",
+        "description": "While a friendly NECRONS unit is within 6\" of this unit's Szarekh model, improve that unit's Leadership characteristic by 1."
+      },
+      {
+        "name": "Triarchal Menhirs",
+        "description": "If this unit’s Szarekh model is destroyed, all of this unit’s remaining Triarchal Menhir models are also destroyed."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Devastating Wounds",
+      "Indirect Fire",
+      "Lethal Hits",
+      "Deadly Demise D6+3 (Szarekh model only)"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Vehicle",
+      "Epic Hero",
+      "Triarch",
+      "Character",
+      "The Silent King"
+    ]
+  },
+  {
+    "name": "Convergence of Dominion",
+    "id": "919f-7076-c827-b844",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 60,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "-",
+      "T": "9",
+      "SV": "3+",
+      "W": "7",
+      "LD": "8+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Transdimensional abductor",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Reanimation Nodes (Aura)",
+        "description": "While a friendly NECRONS INFANTRY unit is within 6” of this FORTIFICATION, models in that unit have the Feel No Pain 6+ ability."
+      },
+      {
+        "name": "Ancient Cover",
+        "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
+      },
+      {
+        "name": "Deployment",
+        "description": "When this unit is first set up on the battlefield, its models do not have to be set up in Unit Coherency. Instead, each model must be set up wholly within 12\" of one other model from its unit. From that point on, each model in this unit is treated as a separate unit."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Fortification",
+      "Vehicle",
+      "Convergence of Dominion"
+    ]
+  },
+  {
+    "name": "Canoptek Tomb Stalker [Legends]",
+    "id": "f868-afbc-9f6b-e4e9",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 130,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "9",
+      "LD": "8+",
+      "OC": "3"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Gauss slicers",
+          "Range": "24\"",
+          "A": "8",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Lethal Hits"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Tomb Stalker claws",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Sustained Hits 1"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Snaking Ambush",
+        "description": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "Reanimation Protocols",
+      "Lethal Hits",
+      "Sustained Hits"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Monster",
+      "Canoptek",
+      "Tomb Stalker"
+    ]
+  },
+  {
+    "name": "Canoptek Tomb Sentinel [Legends]",
+    "id": "9519-5dbc-ab5-c720",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 115,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "9",
+      "LD": "8+",
+      "OC": "3"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Exile cannon",
+          "Range": "18\"",
+          "A": "D6+1",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Blast"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Tomb Sentinel claws",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Aggressor Guardian",
+        "description": "Each time an attack targets this model, if this model is within range of an objective marker, worsen the Armour Penetration characteristic of that attack by 1. In addition, each time this model makes an attack that targets a unit within range of an objective marker, improve the Armour Penetration characteristic of that attack by 1."
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "Reanimation Protocols",
+      "Blast"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Monster",
+      "Canoptek",
+      "Tomb Sentinel"
+    ]
+  },
+  {
+    "name": "Canoptek Acanthrites [Legends]",
+    "id": "a7e1-5b53-1d89-e1e3",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 85,
+      "variants": [
+        {
+          "models": 4,
+          "points": 170
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "2",
+      "LD": "8+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Cutting beam",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Voidblade",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Damaged Armour",
+        "description": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly NECRONS model makes an attack that targets that unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Infiltrators",
+      "Melta"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Beast",
+      "Fly",
+      "Canoptek",
+      "Acanthrites",
+      "Damage Dx Weapon"
+    ]
+  },
+  {
+    "name": "Tesseract Ark [Legends]",
+    "id": "ef1-14e1-cf28-4701",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 130,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 2,
+      "max_models": 2
+    },
+    "stats": {
+      "M": "9\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "➤ Tesseract singularity chamber - particle",
+          "Range": "12\"",
+          "A": "D6+3",
+          "BS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Ignores Cover, Torrent"
+        },
+        {
+          "name": "➤ Tesseract singularity chamber - seismic lash",
+          "Range": "36\"",
+          "A": "D3",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Gauss cannon",
+          "Range": "24\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Lethal Hits"
+        },
+        {
+          "name": "Particle beamer",
+          "Range": "18\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast, Devastating Wounds"
+        },
+        {
+          "name": "Tesla cannon",
+          "Range": "24\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Sustained Hits 2"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured bulk",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "Models in this unit have a 4+ invulnerable save."
+      },
+      {
+        "name": "Gravitational Field",
+        "description": "Each time an enemy unit selects this model as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other reductions to that Charge roll)."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise 1",
+      "Reanimation Protocols",
+      "Blast",
+      "Ignores Cover",
+      "Torrent",
+      "Lethal Hits",
+      "Devastating Wounds",
+      "Sustained Hits"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Vehicle",
+      "Fly",
+      "Tesseract Ark",
+      "Attacks Dx Weapon"
+    ]
+  },
+  {
+    "name": "Seraptek Heavy Construct",
+    "id": "fa11-cd65-fcf6-427c",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 540,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 2,
+      "max_models": 2
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "24",
+      "LD": "7+",
+      "OC": "10"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Singularity generator",
+          "Range": "36\"",
+          "A": "2D6",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-3",
+          "D": "4",
+          "Keywords": "Blast, Devastating Wounds"
+        },
+        {
+          "name": "Synaptic obliterator",
+          "Range": "48\"",
+          "A": "8",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Sustained Hits 2"
+        },
+        {
+          "name": "Transdimensional projector",
+          "Range": "48\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "24",
+          "AP": "-4",
+          "D": "D6+4",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "➤ Titanic forelimbs - strike",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "14",
+          "AP": "-3",
+          "D": "5",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Titanic forelimbs - sweep",
+          "Range": "Melee",
+          "A": "12",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Terrifying Monstrosity",
+        "description": "At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test."
+      },
+      {
+        "name": "Damaged: 1-9 wounds remaining",
+        "description": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 5+ invulnerable save."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Deadly Demise D6+2",
+      "Super-Heavy Walker",
+      "Blast",
+      "Devastating Wounds",
+      "Sustained Hits"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Seraptek Heavy Construct",
+      "Attacks Dx Weapon"
+    ]
+  },
+  {
+    "name": "Gauss Pylon [Legends]",
+    "id": "b6b0-9a60-d2e4-7ef0",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 210,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "-",
+      "T": "12",
+      "SV": "3+",
+      "W": "22",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Gauss annihilator",
+          "Range": "120\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6+6",
+          "Keywords": "Anti-FLY 2+, Lethal Hits"
+        },
+        {
+          "name": "Tesla arc",
+          "Range": "6\"",
+          "A": "6",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Sustained Hits 2"
+        }
+      ],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 5+ invulnerable save."
+      },
+      {
+        "name": "Phase Shift Generator (Aura)",
+        "description": "While a friendly NECRONS unit is within 3\" of this Fortification, models in that unit have a 5+ invulnerable save against ranged attacks."
+      },
+      {
+        "name": "Phase-shifted Cover",
+        "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+      },
+      {
+        "name": "Damaged: 1-7 wounds remaining",
+        "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6+2",
+      "Reanimation Protocols",
+      "Lethal Hits",
+      "Anti-",
+      "Sustained Hits"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Fortification",
+      "Vehicle",
+      "Towering",
+      "Titanic",
+      "Gauss Pylon"
+    ]
+  },
+  {
+    "name": "Sentry Pylon [Legends]",
+    "id": "37d1-5b3e-b4e6-f8ef",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 120,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "-",
+      "T": "8",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Focused death ray",
+          "Range": "36\"",
+          "A": "6",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Sustained Hits 2"
+        },
+        {
+          "name": "Gauss exterminator",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "6",
+          "Keywords": "Lethal Hits"
+        },
+        {
+          "name": "Heat cannon",
+          "Range": "36\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 4"
+        }
+      ],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Teleportation Matrix",
+        "description": "Once per battle, at the end of your opponent’s turn, if this FORTIFICATION is not within Engagement Range of one or more enemy units, you can remove it from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the battle ends and this FORTIFICATION is not on the battlefield, it is destroyed."
+      },
+      {
+        "name": "Phase-shifted Cover",
+        "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Reanimation Protocols",
+      "Sustained Hits",
+      "Lethal Hits",
+      "Melta"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Fortification",
+      "Vehicle",
+      "Sentry Pylon"
+    ]
+  },
+  {
+    "name": "Night Shroud [Legends]",
+    "id": "e6d4-56e1-3bbd-475",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 140,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Twin tesla destructor",
+          "Range": "36\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "8",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "Sustained Hits 2, Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured bulk",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Death Sphere Bombardment",
+        "description": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Damaged: 1-5 wounds remaining",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Reanimation Protocols",
+      "Sustained Hits",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Night Shroud"
+    ]
+  },
+  {
+    "name": "Overlord with Translocation Shroud",
+    "id": "2e4-afdd-efdd-c5c8",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 85,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Overlord's blade",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Devastating Wounds"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Translocation Shroud",
+        "description": "Each time this model's unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit. In addition, each time a model in that unit makes a Normal, Advance or Fall Back move, until that move is finished, it can move horizontally through models and terrain features (it cannot finish a move on top of another model or its base)."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- IMMORTALS\n- LYCHGUARD\n- NECRON WARRIORS"
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Leader"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Noble",
+      "Overlord",
+      "Overlord with Translocation Shroud"
+    ]
+  },
+  {
+    "name": "Canoptek Macrocytes",
+    "id": "97d7-4b22-46b7-dae0",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 85,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 5,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Atomiser beam",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Tesla caster",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Assault, Sustained Hits 1"
+        },
+        {
+          "name": "Gauss scalpel",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Lethal Hits"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Claws",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Harassment Swarm (Aura)",
+        "description": "While an enemy unit (excluding **Monsters** and **Vehicles**) is within 3\" of this unit, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Nanoscarab Projector",
+        "description": "Once per battle round, when a friendly **Necrons** unit within 3\" of the bearer activates its Reanimation Protocols, the bearer can use this ability. If it does, that unit reanimates 1 additional wound."
+      },
+      {
+        "name": "Accelerator Mandible",
+        "description": "At the start of the Fight phase, select one friendly **Canoptek** unit within 3\" of the bearer’s unit. Until the end of the phase, improve the Weapon Skill characteristic of weapons equipped by models in that unit by 1."
+      }
+    ],
+    "special_rules": [
+      "Scouts 8\"",
+      "Reanimation Protocols",
+      "Assault",
+      "Sustained Hits",
+      "Lethal Hits"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Beast",
+      "Fly",
+      "Canoptek",
+      "Macrocytes"
+    ]
+  },
+  {
+    "name": "Canoptek Tomb Crawlers",
+    "id": "b7ee-a0fa-5736-b58f",
+    "type": "unit",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 50,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "3",
+      "LD": "8+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Twin gauss reaper",
+          "Range": "12\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Lethal Hits, Twin-linked"
+        },
+        {
+          "name": "Dimensional isolator",
+          "Range": "12\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "4",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Claws",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Weapon Sentinels",
+        "description": "Each time a model in this unit makes a ranged attack that targets a unit within 12\", you can ignore any or all modifiers to the following: that attack’s Ballistic Skill characteristic; the Hit roll; the Wound roll."
+      },
+      {
+        "name": "Canoptek Retinue",
+        "description": "At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a **Cryptek** model (a unit cannot have more than one **Tomb Crawlers** unit joined to it and cannot have both a **Tomb Crawlers** and a **Cryptothralls** unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly."
+      }
+    ],
+    "special_rules": [
+      "Reanimation Protocols",
+      "Twin-linked",
+      "Lethal Hits"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Beast",
+      "Canoptek",
+      "Tomb Crawlers"
+    ]
+  },
+  {
+    "name": "Geomancer",
+    "id": "92cc-9d54-5d0c-6663",
+    "type": "model",
+    "faction": "Necrons",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 75,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "➤ Tremorglaive - reverberating beam",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Melta 2"
+        },
+        {
+          "name": "➤ Tremorglaive - shock wave pulse",
+          "Range": "18\"",
+          "A": "D6+2",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Tremorglaive",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Tectonic Reverberations",
+        "description": "In your Movement phase, you can select one enemy unit within 18\" of and visible to this model. Until the start of your next Movement phase that enemy unit is pinned. While a unit is pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Charge rolls made for it."
+      },
+      {
+        "name": "Obelisk Node Control",
+        "description": "While this model is within range of an objective marker you control, enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of this model."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units: **Canoptek Macrocytes, Immortals, Necron Warriors**. \n\n\n*You can attach this model to one of the above units even if one **Royal Warden** or **Noble** model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.*"
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Reanimation Protocols",
+      "Torrent",
+      "Ignores Cover",
+      "Melta"
+    ],
+    "keywords": [
+      "Faction: Necrons",
+      "Infantry",
+      "Character",
+      "Cryptek",
+      "Geomancer"
+    ]
+  }
+]

@@ -1,0 +1,6379 @@
+[
+  {
+    "name": "Commander Shadowsun",
+    "id": "4d0d-af9d-53c2-bc31",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 100,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Light missile pod",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "7",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "High-energy fusion blaster",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "10",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
+        },
+        {
+          "name": "Flechette launcher",
+          "Range": "18\"",
+          "A": "5",
+          "BS": "2+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Pulse pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Battlesuit fists",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Agile Combatant",
+        "description": "This model is eligible to shoot in a turn in which it Fell Back."
+      },
+      {
+        "name": "Hero of the Empire (Aura)",
+        "description": "While a friendly T’AU EMPIRE unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+      },
+      {
+        "name": "Advanced Guardian Drone",
+        "description": "Each time a ranged attack targets the bearer, subtract 1 from the Wound roll."
+      },
+      {
+        "name": "Command-link Drone (Aura)",
+        "description": "While a friendly T’AU EMPIRE unit is within 6\" of the bearer, each time you select that unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+      },
+      {
+        "name": "Supreme Commander",
+        "description": "If this model is in your army, it must be your WARLORD."
+      }
+    ],
+    "special_rules": [
+      "Infiltrators",
+      "Lone Operative",
+      "Stealth",
+      "For The Greater Good",
+      "Melta"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Infantry",
+      "Fly",
+      "Character",
+      "Battlesuit",
+      "Commander Shadowsun",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Commander Farsight",
+    "id": "a67c-e2aa-41d7-e91e",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 85,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "High-intensity plasma rifle",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "➤ Dawn Blade - strike",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "10",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Dawn Blade - sweep",
+          "Range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- CRISIS SUNFORGE BATTLESUITS\n- CRISIS FIREKNIFE BATTLESUITS\n- CRISIS STARSCYTHE BATTLESUITS"
+      },
+      {
+        "name": "Way of the Short Blade",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack that targets an enemy unit within 9\", add 1 to the Wound roll."
+      },
+      {
+        "name": "Puretide's Teachings",
+        "description": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "For The Greater Good",
+      "Leader"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Character",
+      "Battlesuit",
+      "Commander Farsight",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Commander in Crisis Battlesuit [Legends]",
+    "id": "6de0-279f-b471-65ca",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 80,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Airbursting fragmentation projector",
+          "Range": "24\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast, Indirect Fire"
+        },
+        {
+          "name": "➤ Cyclic ion blaster - standard",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Cyclic ion blaster - overcharge",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Hazardous"
+        },
+        {
+          "name": "T'au flamer",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent"
+        },
+        {
+          "name": "Fusion blaster",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
+        },
+        {
+          "name": "Plasma rifle",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Battlesuit fists",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- CRISIS BATTLESUITS\n- CRISIS FIREKNIFE BATTLESUITS\n- CRISIS STARSCYTHE BATTLESUITS\n- CRISIS SUNFORGE BATTLESUITS"
+      },
+      {
+        "name": "Crisis Commander",
+        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "For The Greater Good",
+      "Leader"
+    ],
+    "keywords": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Commander in Crisis Battlesuit",
+      "Faction: T'au Empire",
+      "Melee Weapon"
+    ]
+  },
+  {
+    "name": "Commander in Enforcer Battlesuit",
+    "id": "99fa-35-ba6e-5354",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 80,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Airbursting fragmentation projector",
+          "Range": "24\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast, Indirect Fire"
+        },
+        {
+          "name": "➤ Cyclic ion blaster - standard",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Cyclic ion blaster - overcharge",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Hazardous"
+        },
+        {
+          "name": "T'au flamer",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent"
+        },
+        {
+          "name": "Fusion blaster",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
+        },
+        {
+          "name": "Plasma rifle",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Battlesuit fists",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- CRISIS SUNFORGE BATTLESUITS\n- CRISIS FIREKNIFE BATTLESUITS\n- CRISIS STARSCYTHE BATTLESUITS"
+      },
+      {
+        "name": "Enforcer Commander",
+        "description": "While this model is leading a unit, each time a ranged attack targets that unit, worsen the Armour Penetration characteristic of that attack by 1."
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "For The Greater Good",
+      "Leader"
+    ],
+    "keywords": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Faction: T'au Empire",
+      "Commander in Enforcer Battlesuit",
+      "Melee Weapon"
+    ]
+  },
+  {
+    "name": "Commander in Coldstar Battlesuit",
+    "id": "3a73-7255-c639-e89e",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 95,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "High-output burst cannon",
+          "Range": "18\"",
+          "A": "8",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Airbursting fragmentation projector",
+          "Range": "24\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast, Indirect Fire"
+        },
+        {
+          "name": "➤ Cyclic ion blaster - standard",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Cyclic ion blaster - overcharge",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Hazardous"
+        },
+        {
+          "name": "T'au flamer",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent"
+        },
+        {
+          "name": "Fusion blaster",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
+        },
+        {
+          "name": "Plasma rifle",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Battlesuit fists",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- CRISIS SUNFORGE BATTLESUITS\n- CRISIS FIREKNIFE BATTLESUITS\n- CRISIS STARSCYTHE BATTLESUITS"
+      },
+      {
+        "name": "Coldstar Commander",
+        "description": "While this model is leading a unit, models in that unit have a Move characteristic of 12\" and ranged weapons equipped by models in that unit have the [ASSAULT] ability."
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "For The Greater Good",
+      "Leader",
+      "Assault"
+    ],
+    "keywords": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Faction: T'au Empire",
+      "Commander in Coldstar Battlesuit",
+      "Ranged Weapon",
+      "Melee Weapon"
+    ]
+  },
+  {
+    "name": "Cadre Fireblade",
+    "id": "8f32-9697-ed41-6e3",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 50,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Fireblade pulse rifle",
+          "Range": "30\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "Rapid Fire 1"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- BREACHER TEAM\n- STRIKE TEAM"
+      },
+      {
+        "name": "Volley Fire",
+        "description": "While this model is leading a unit, add 1 to the Attacks characteristic of ranged weapons equipped by models in that unit."
+      },
+      {
+        "name": "Crack Shot",
+        "description": "Each time this model makes a ranged attack, on a Critical Wound, that attack has an Armour Penetration characteristic of -3."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "For The Greater Good",
+      "Rapid Fire"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Faction: T'au Empire",
+      "Cadre Fireblade",
+      "Ranged Weapon",
+      "Melee Weapon"
+    ]
+  },
+  {
+    "name": "Ethereal",
+    "id": "5e66-6f0-a181-cc4d",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 50,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Honour stave",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Coordinated Leadership",
+        "description": "In your Command phase, roll one D6: on a 4+, you gain 1CP."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- BREACHER TEAM\n- STRIKE TEAM"
+      },
+      {
+        "name": "Failure Is Not an Option",
+        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+      },
+      {
+        "name": "Hover Drone",
+        "description": "The bearer can FLY and has a Move characteristic of 10\"."
+      }
+    ],
+    "special_rules": [
+      "For The Greater Good",
+      "Leader",
+      "Feel No Pain"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Ethereal",
+      "Faction: T'au Empire",
+      "Fly",
+      "Melee Weapon"
+    ]
+  },
+  {
+    "name": "Aun'va [Legends]",
+    "id": "2582-676d-fc9f-c146",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 65,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 2,
+      "max_models": 2
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": "2+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "6+",
+          "S": "2",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Supreme honour blade",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Duality Shield",
+        "description": "Once per battle, each time an attack targets this unit, it can use this ability. If it does, until the end of the phase, models in this unit have a 2+ invulnerable save."
+      },
+      {
+        "name": "Invulnerable Save (4+)",
+        "description": "Models in this unit have a 4+ invulnerable save."
+      },
+      {
+        "name": "Paradox of Duality",
+        "description": "Each time an attack targets this unit, subtract 1 from the Hit roll and subtract 1 from the Wound roll."
+      },
+      {
+        "name": "Supreme Loyalty (Aura)",
+        "description": "While a friendly T’AU EMPIRE unit is within 6\" of this unit, each time that unit takes a Battle-shock or Leadership test, add 1 to that test."
+      }
+    ],
+    "special_rules": [
+      "Lone Operative"
+    ],
+    "keywords": [
+      "Faction: T'au Empire",
+      "Epic Hero",
+      "Epic Hero",
+      "Character",
+      "Aun'va",
+      "Ethereal",
+      "Infantry",
+      "Infantry"
+    ]
+  },
+  {
+    "name": "Aun'shi [Legends]",
+    "id": "8407-585b-76d2-72f3",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 50,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Fidelity",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Sustained Hits 1"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Inspirational Defiance",
+        "description": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- BREACHER TEAM\n- KROOT CARNIVORES\n- STRIKE TEAM"
+      },
+      {
+        "name": "Martial Warrior",
+        "description": "Each time this model is selected to fight, select one of the following abilities to be active while resolving those attacks:\n- Direct Grace: Fidelity has the [PRECISION] ability.\n- Forceful Strike: Fidelity has the [DEVASTATING WOUNDS] ability.\n- Whirling Stance: Fidelity has the [SUSTAINED HITS 2] ability instead of [SUSTAINED HITS 1]."
+      }
+    ],
+    "special_rules": [
+      "Sustained Hits",
+      "Leader",
+      "Precision",
+      "Devastating Wounds"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Ethereal",
+      "Faction: T'au Empire",
+      "Aun'shi",
+      "Epic Hero"
+    ]
+  },
+  {
+    "name": "Darkstrider",
+    "id": "a0f5-5934-1570-5a21",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 60,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Shade",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "5",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "Assault"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Structural Analyser",
+        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, add 1 to the Wound roll."
+      },
+      {
+        "name": "Jammer Array",
+        "description": "Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of this model."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- PATHFINDER TEAM"
+      }
+    ],
+    "special_rules": [
+      "Infiltrators",
+      "Scouts 7\"",
+      "For The Greater Good",
+      "Leader",
+      "Assault"
+    ],
+    "keywords": [
+      "Character",
+      "Epic Hero",
+      "Darkstrider",
+      "Faction: T'au Empire",
+      "Markerlight",
+      "Infantry"
+    ]
+  },
+  {
+    "name": "Longstrike [Legends]",
+    "id": "5bf-16e5-d77b-ea7d",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 140,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 2,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Railgun",
+          "Range": "72\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "20",
+          "AP": "-5",
+          "D": "D6+6",
+          "Keywords": "Devastating Wounds, Heavy"
+        },
+        {
+          "name": "➤ Ion cannon - standard",
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "➤ Ion cannon - overcharge",
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Blast, Hazardous"
+        },
+        {
+          "name": "Seeker missile",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "One Shot"
+        },
+        {
+          "name": "Accelerator burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Twin pulse carbine",
+          "Range": "20\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Twin-linked, Assault"
+        },
+        {
+          "name": "Smart missile system",
+          "Range": "30\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Indirect Fire"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured hull",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Armour Hunter",
+        "description": "Each time this model makes an attack that targets a MONSTER or VEHICLE, add 1 to the Hit roll."
+      },
+      {
+        "name": "XV02 Pilot Battlesuit",
+        "description": "In your Command phase, you can select one friendly HAMMERHEAD GUNSHIP unit within 12\". Until the start of your next Command phase, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "For The Greater Good",
+      "Lethal Hits",
+      "Devastating Wounds",
+      "Heavy",
+      "Hazardous",
+      "Blast"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Fly",
+      "Vehicle",
+      "Longstrike",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Strike Team",
+    "id": "acdd-2901-1a75-99f4",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 75,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 6
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Pulse carbine",
+          "Range": "20\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Pulse pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol"
+        },
+        {
+          "name": "Pulse rifle",
+          "Range": "30\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 1"
+        },
+        {
+          "name": "Support turret",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Indirect Fire, Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "5+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Suppression Volley",
+        "description": "In your Shooting phase, after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the start of your next turn, while unit is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "DS8 Support Turret",
+        "description": "In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas’ui model is equipped with the support turret weapon.\n\nDesigner’s Note: Place a Support Turret token next to this unit to remind you."
+      }
+    ],
+    "special_rules": [
+      "For The Greater Good"
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Markerlight",
+      "Fire Warrior",
+      "Strike Team",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Breacher Team",
+    "id": "afc0-2b21-8ddc-3b2a",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 100,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Pulse pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol"
+        },
+        {
+          "name": "Pulse blaster",
+          "Range": "10\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Assault"
+        },
+        {
+          "name": "Support turret",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Indirect Fire, Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "5+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Breach and Clear",
+        "description": "Each time a model in this unit makes a ranged attack that targets an enemy unit within range of an objective marker, you can re-roll the Wound roll."
+      },
+      {
+        "name": "DS8 Support Turret",
+        "description": "In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas’ui model is equipped with the support turret weapon.\n\nDesigner’s Note: Place a Support Turret token next to this unit to remind you."
+      }
+    ],
+    "special_rules": [
+      "For The Greater Good"
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Markerlight",
+      "Fire Warrior",
+      "Faction: T'au Empire",
+      "Breacher Team"
+    ]
+  },
+  {
+    "name": "Kroot Carnivores",
+    "id": "d631-3ca5-e206-4e6a",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 65,
+      "variants": [
+        {
+          "models": 10,
+          "points": 140
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Tanglebomb launcher",
+          "Range": "24\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Kroot carbine",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Kroot pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol"
+        },
+        {
+          "name": "Kroot rifle",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 1"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Fieldcraft",
+        "description": "At the end of the your Command phase, if this unit within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+      },
+      {
+        "name": "Bodyguard",
+        "description": "If this unit has a Starting Strength of 20, you can attach up to two Leader units to it instead of one, provided those Leaders are not duplicates (e.g. you cannot attach two WAR SHAPERS to this unit). If you do, and this unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths."
+      }
+    ],
+    "special_rules": [
+      "Scouts 7\"",
+      "Stealth",
+      "Blast",
+      "Pistol"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Kroot",
+      "Carnivores",
+      "Faction: T'au Empire",
+      "Attacks Dx Weapon"
+    ]
+  },
+  {
+    "name": "Krootox Riders",
+    "id": "c523-a2e2-a398-ea00",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 40,
+      "variants": [
+        {
+          "models": 2,
+          "points": 60
+        },
+        {
+          "models": 3,
+          "points": 90
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "7\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Repeater cannon",
+          "Range": "36\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Rapid Fire 2"
+        },
+        {
+          "name": "Tanglecannon",
+          "Range": "36\"",
+          "A": "D6+1",
+          "BS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast, Heavy"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Krootox fists",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Extra Attacks"
+        },
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Kroot Packmates",
+        "description": "Once per turn, in your opponent's Shooting phase, when a friendly KROOT INFANTRY unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, that unit with this ability can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
+      }
+    ],
+    "special_rules": [
+      "Scouts 7\"",
+      "Extra Attacks",
+      "Rapid Fire",
+      "Heavy",
+      "Blast"
+    ],
+    "keywords": [
+      "Mounted",
+      "Kroot",
+      "Krootox Riders",
+      "Faction: T'au Empire",
+      "Grenades",
+      "Extra Attacks Weapon",
+      "Extra Attacks Weapon"
+    ]
+  },
+  {
+    "name": "Crisis Battlesuits [Legends]",
+    "id": "de16-2476-9749-b603",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 200,
+      "variants": [
+        {
+          "models": 3,
+          "points": 400
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "T'au flamer",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent"
+        },
+        {
+          "name": "Burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Plasma rifle",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "-"
+        },
+        {
+          "name": "Airbursting fragmentation projector",
+          "Range": "24\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast, Indirect Fire"
+        },
+        {
+          "name": "➤ Cyclic ion blaster - standard",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Cyclic ion blaster - overcharge",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Hazardous"
+        },
+        {
+          "name": "Fusion blaster",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Battlesuit fists",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Turbo-jets",
+        "description": "Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit."
+      },
+      {
+        "name": "Crisis Bodyguard",
+        "description": "If a CHARACTER unit from your army with the Leader ability can be attached to a CRISIS FIREKNIFE BATTLESUIT unit, it can be attached to this unit instead."
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "For The Greater Good"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Crisis",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Stealth Battlesuits",
+    "id": "5d3a-803e-7cbc-b2f1",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 110,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Fusion blaster",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
+        },
+        {
+          "name": "Pulse pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Battlesuit fists",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Forward Observers",
+        "description": "Each time this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in a Guided unit that targets their Spotted unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+      },
+      {
+        "name": "Homing Beacon",
+        "description": "Once per battle, you can use the Rapid Ingress Stratagem for 0CP. The target must be set up within 3\" of the bearer’s unit and not within 9\" of any enemy units.\n**Designer’s Note:** *Place a Homing Beacon token next to this unit, removing it once this ability is used.*"
+      }
+    ],
+    "special_rules": [
+      "Infiltrators",
+      "Stealth",
+      "For The Greater Good"
+    ],
+    "keywords": [
+      "Infantry",
+      "Fly",
+      "Battlesuit",
+      "Stealth",
+      "Faction: T'au Empire",
+      "Grenades",
+      "Markerlight"
+    ]
+  },
+  {
+    "name": "Ghostkeel Battlesuit",
+    "id": "5268-6e9-8f5c-c810",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 160,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "8",
+      "SV": "2+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Twin burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Twin-linked"
+        },
+        {
+          "name": "Fusion collider",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
+        },
+        {
+          "name": "➤ Cyclic ion raker - standard",
+          "Range": "36\"",
+          "A": "6",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Cyclic ion raker - overcharge",
+          "Range": "36\"",
+          "A": "6",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Hazardous"
+        },
+        {
+          "name": "Twin T'au flamer",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent, Twin-linked"
+        },
+        {
+          "name": "Twin fusion blaster",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2, Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Ghostkeel fists",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Stealth Drones",
+        "description": "Twice per battle, after an attack has been allocated to this model, you can change the Damage characteristic of that attack to 0.\n\nDesigner’s Note: Place two Stealth Drone tokens next to the unit, removing one each time this ability has been used."
+      },
+      {
+        "name": "Battlesuit Support System",
+        "description": "The bearer is eligible to shoot in a turn in which it Fell Back but it loses the SMOKE keyword."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Infiltrators",
+      "Lone Operative",
+      "Stealth",
+      "For The Greater Good",
+      "Twin-linked",
+      "Melta",
+      "Hazardous"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Smoke",
+      "Battlesuit",
+      "Ghostkeel",
+      "Faction: T'au Empire",
+      "Damage Dx Weapon"
+    ]
+  },
+  {
+    "name": "Firesight Team",
+    "id": "5fe4-86de-b88c-a47b",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 60,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Longshot pulse rifles",
+          "Range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Heavy, Precision"
+        },
+        {
+          "name": "Pulse pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapons",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "5+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Precise Targeting",
+        "description": "Each time a model in this unit makes an attack that targets a Spotted unit, you can re‑roll the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Infiltrators",
+      "Lone Operative",
+      "Stealth",
+      "For The Greater Good",
+      "Heavy",
+      "Precision"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Markerlight",
+      "Faction: T'au Empire",
+      "Firesight Team",
+      "Melee Weapon",
+      "Ranged Weapon"
+    ]
+  },
+  {
+    "name": "Pathfinder Team",
+    "id": "2598-d700-9952-e439",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 90,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Pulse carbine",
+          "Range": "20\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Ion rifle - standard",
+          "Range": "30\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Heavy"
+        },
+        {
+          "name": "➤ Ion rifle - overcharge",
+          "Range": "30\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Hazardous, Heavy"
+        },
+        {
+          "name": "Rail rifle",
+          "Range": "30\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "10",
+          "AP": "-4",
+          "D": "3",
+          "Keywords": "Devastating Wounds, Heavy"
+        },
+        {
+          "name": "Drone burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Pulse pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol"
+        },
+        {
+          "name": "➤ Semi-automatic grenade launcher - EMP",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Anti-Vehicle 4+, Devastating Wounds"
+        },
+        {
+          "name": "➤ Semi-automatic grenade launcher - fusion",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "5+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Target Uploaded",
+        "description": "Each time a model in this unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and that attack has the **[IGNORES COVER]** ability."
+      },
+      {
+        "name": "Grav-inhibitor Drone",
+        "description": "Each time an enemy unit selects the bearer's unit as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll)."
+      },
+      {
+        "name": "Pulse Accelerator Drone",
+        "description": "Add 6\" to the Range characteristic of pulse carbines equipped by models in the bearer’s unit."
+      },
+      {
+        "name": "Recon Drone",
+        "description": "The bearer is equipped with 1 drone burst cannon and the bearer’s unit has the Infiltrators ability."
+      }
+    ],
+    "special_rules": [
+      "Scouts 7\"",
+      "For The Greater Good",
+      "Infiltrators",
+      "Ignores Cover",
+      "Hazardous",
+      "Heavy",
+      "Devastating Wounds"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Markerlight",
+      "Pathfinder Team",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Piranha",
+    "id": "ad2-6549-8a19-d745",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 60,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "14\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "7",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Piranha burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Piranha fusion blaster",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 4"
+        },
+        {
+          "name": "Twin pulse carbine",
+          "Range": "20\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Twin-linked, Assault"
+        },
+        {
+          "name": "Seeker missile",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "One Shot"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured hull",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Piranha",
+        "description": "At the end of your Movement phase, select one enemy unit within 12\" of this unit; that enemy unit must take a Battle-shock test."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise 1",
+      "Scouts 9\"",
+      "For The Greater Good",
+      "Melta"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Faction: T'au Empire",
+      "Piranha",
+      "Damage Dx Weapon"
+    ]
+  },
+  {
+    "name": "Vespid Stingwings",
+    "id": "b91-ba27-3842-76c",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 65,
+      "variants": [
+        {
+          "models": 6,
+          "points": 130
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 4,
+      "max_models": 9
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Neutron grenade launcher",
+          "Range": "18\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Anti-Infantry 3+, Blast"
+        },
+        {
+          "name": "Neutron rail rifle",
+          "Range": "30\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-4",
+          "D": "3",
+          "Keywords": "Devastating Wounds"
+        },
+        {
+          "name": "Neutron blaster",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Assault"
+        },
+        {
+          "name": "T'au flamer",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Stingwing claws",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Airborne Agility",
+        "description": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
+      },
+      {
+        "name": "Oversight Drone",
+        "description": "Once per battle, when the bearer’s unit is selected to shoot, until the end of the phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability.\n\nDesigner’s Note: Place an Oversight Drone token next to the bearer, removing it once this ability has been used."
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "Ignores Cover",
+      "Blast",
+      "Anti-",
+      "Devastating Wounds"
+    ],
+    "keywords": [
+      "Infantry",
+      "Fly",
+      "Faction: T'au Empire",
+      "Vespid Stingwings"
+    ]
+  },
+  {
+    "name": "Kroot Hounds",
+    "id": "6883-85aa-b338-b88",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 40,
+      "variants": [
+        {
+          "models": 5,
+          "points": 80
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Ripping fangs",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Loping Pounce",
+        "description": "At the start of your Command phase, if this unit is within 6\" of one or more friendly KROOT INFANTRY units, then until the end of the turn, this unit is eligible to declare a charge in a turn in which it Advanced."
+      },
+      {
+        "name": "Hunting Hounds",
+        "description": "While this unit is within 12\" of one or more friendly KROOT CHARACTER models, the Objective Control characteristic of models in this unit is 1."
+      }
+    ],
+    "special_rules": [
+      "Scouts 7\"",
+      "Stealth"
+    ],
+    "keywords": [
+      "Beast",
+      "Kroot",
+      "Faction: T'au Empire",
+      "Hounds"
+    ]
+  },
+  {
+    "name": "Broadside Battlesuits",
+    "id": "a594-317-b90a-a226",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 80,
+      "variants": [
+        {
+          "models": 2,
+          "points": 170
+        },
+        {
+          "models": 3,
+          "points": 270
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "8",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Heavy rail rifle",
+          "Range": "60\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-4",
+          "D": "D6+1",
+          "Keywords": "Heavy, Devastating Wounds"
+        },
+        {
+          "name": "High-yield missile pods",
+          "Range": "30\"",
+          "A": "6",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Twin-linked"
+        },
+        {
+          "name": "Seeker missile",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "One Shot"
+        },
+        {
+          "name": "Twin plasma rifle",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Twin-linked"
+        },
+        {
+          "name": "Twin smart missile system",
+          "Range": "30\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Indirect Fire, Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Crushing bulk",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Advanced Armour",
+        "description": "Models in this unit have the Feel No Pain 4+ ability against mortal wounds."
+      }
+    ],
+    "special_rules": [
+      "Feel No Pain",
+      "For The Greater Good"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Battlesuit",
+      "Faction: T'au Empire",
+      "Broadside"
+    ]
+  },
+  {
+    "name": "Riptide Battlesuit",
+    "id": "5d8f-5530-263d-651b",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 190,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "4"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Heavy burst cannon",
+          "Range": "36\"",
+          "A": "12",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Ion accelerator - standard",
+          "Range": "72\"",
+          "A": "6",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Ion accelerator - overcharge",
+          "Range": "72\"",
+          "A": "6",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-3",
+          "D": "4",
+          "Keywords": "Hazardous"
+        },
+        {
+          "name": "Twin smart missile system",
+          "Range": "30\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Indirect Fire, Twin-linked"
+        },
+        {
+          "name": "Missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Twin fusion blaster",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2, Twin-linked"
+        },
+        {
+          "name": "Twin plasma rifle",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Riptide fists",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Nova Charge",
+        "description": "Once per battle, when this unit is selected to shoot in your Shooting phase, select one ranged weapon equipped by this model. Until the end of the phase, that weapon has the [DEVASTATING WOUNDS] ability."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6",
+      "For The Greater Good",
+      "Devastating Wounds",
+      "Hazardous",
+      "Twin-linked",
+      "Indirect Fire"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Faction: T'au Empire",
+      "Riptide"
+    ]
+  },
+  {
+    "name": "Hammerhead Gunship",
+    "id": "ca9-49ab-17c1-8556",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 145,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Railgun",
+          "Range": "72\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "20",
+          "AP": "-5",
+          "D": "D6+6",
+          "Keywords": "Heavy, Devastating Wounds"
+        },
+        {
+          "name": "➤ Ion cannon - standard",
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "➤ Ion cannon - overcharge",
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Blast, Hazardous"
+        },
+        {
+          "name": "Twin pulse carbine",
+          "Range": "20\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Twin-linked"
+        },
+        {
+          "name": "Seeker missile",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "One Shot"
+        },
+        {
+          "name": "Accelerator burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Smart missile system",
+          "Range": "30\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Indirect Fire"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured hull",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Armour Hunter",
+        "description": "Each time this model makes an attack that targets a MONSTER or VEHICLE, add 1 to the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "For The Greater Good",
+      "Heavy",
+      "Devastating Wounds",
+      "Blast",
+      "Hazardous",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Hammerhead Gunship",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Sky Ray Gunship",
+    "id": "bfe0-2e9f-6f57-b48f",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 140,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Seeker missile rack",
+          "Range": "48\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "Twin-linked"
+        },
+        {
+          "name": "Accelerator burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Twin pulse carbine",
+          "Range": "20\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Twin-linked, Assault"
+        },
+        {
+          "name": "Smart missile system",
+          "Range": "30\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Indirect Fire"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured hull",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Velocity Tracker",
+        "description": "Each time this model makes an attack with a ranged weapon that targets a unit that can FLY, you can re-roll the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "For The Greater Good",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Markerlight",
+      "Sky Ray Gunship",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Devilfish",
+    "id": "14f3-9aa6-21af-7fe3",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 85,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "13",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": "This model has a transport capacity of 12 T’AU EMPIRE INFANTRY models. It cannot transport BATTLESUIT, KROOT or VESPID STINGWINGS models.",
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Twin pulse carbine",
+          "Range": "20\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Twin-linked, Assault"
+        },
+        {
+          "name": "Smart missile system",
+          "Range": "30\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Indirect Fire"
+        },
+        {
+          "name": "Seeker missile",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "One Shot"
+        },
+        {
+          "name": "Accelerator burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured hull",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Rapid Deployment",
+        "description": "Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "For The Greater Good"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Transport",
+      "Dedicated Transport",
+      "Devilfish",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Razorshark Strike Fighter",
+    "id": "cac0-2569-67c8-f492",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 170,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "20+\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "➤ Quad ion turret - standard",
+          "Range": "30\"",
+          "A": "8",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Twin-linked"
+        },
+        {
+          "name": "➤ Quad ion turret - overcharge",
+          "Range": "30\"",
+          "A": "8",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Hazardous, Twin-linked"
+        },
+        {
+          "name": "Missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Accelerator burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Seeker missile",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "One Shot"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured hull",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Ground Strike Fighter",
+        "description": "Each time this model makes a ranged attack that targets an enemy unit that cannot FLY, add 1 to the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "For The Greater Good",
+      "Twin-linked",
+      "Hazardous"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Razorshark Strike Fighter",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Sun Shark Bomber",
+    "id": "8d6a-3409-52db-a8c",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 160,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "➤ Twin ion rifle - standard",
+          "Range": "30\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Twin-linked"
+        },
+        {
+          "name": "➤ Twin ion rifle - overcharged",
+          "Range": "30\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Hazardous, Twin-linked"
+        },
+        {
+          "name": "Twin missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Twin-linked"
+        },
+        {
+          "name": "Missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Seeker missile",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "One Shot"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured hull",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Pulse Bombs",
+        "description": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 4+, that unit suffers 1 mortal wound."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "For The Greater Good",
+      "Hazardous",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Sun Shark Bomber",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Tidewall Shieldline",
+    "id": "1d72-cdbd-796f-7c0d",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 20,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "4\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": "5+",
+    "transport": "This model has a transport capacity of 11 T’AU EMPIRE INFANTRY models. It cannot transport BATTLESUIT, KROOT or VESPID STINGWINGS models. If this model is equipped with a Tidewall defence platform, it has a transport capacity of 22 T’AU INFANTRY models instead.",
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Tidewall Defence Platform",
+        "description": "If equipped with a Tidewall defence platform, this FORTIFICATION has a Wounds characteristic of 15."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Firing Deck 20"
+    ],
+    "keywords": [
+      "Fortification",
+      "Vehicle",
+      "Transport",
+      "Fly",
+      "Tidewall Shieldline",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Tidewall Droneport",
+    "id": "af7f-fc61-e9c0-6a7e",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 85,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "4\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": "This model has a transport capacity of 11 T’AU EMPIRE INFANTRY models. It cannot transport BATTLESUIT, KROOT or VESPID STINGWINGS models.",
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Drone defenders",
+          "Range": "20\"",
+          "A": "8",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Assault, Twin-linked"
+        }
+      ],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Droneport",
+        "description": "Each time this FORTIFICATION is selected to shoot, its drone defenders weapon will target and resolve attacks against every enemy unit that is an eligible target to this FORTIFICATION."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Firing Deck 11",
+      "Assault",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Fortification",
+      "Vehicle",
+      "Transport",
+      "Fly",
+      "Faction: T'au Empire",
+      "Tidewall Droneport"
+    ]
+  },
+  {
+    "name": "Tidewall Gunrig",
+    "id": "e412-ea81-6767-9974",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 90,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "4\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": "This model has a transport capacity of 11 T’AU EMPIRE INFANTRY models. It cannot transport BATTLESUIT, KROOT or VESPID STINGWINGS models.",
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Supremacy railgun",
+          "Range": "72\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "20",
+          "AP": "-5",
+          "D": "D6+6",
+          "Keywords": "Devastating Wounds, Twin-linked"
+        }
+      ],
+      "melee": []
+    },
+    "abilities": [],
+    "special_rules": [
+      "Firing Deck 11",
+      "Deadly Demise D3",
+      "Devastating Wounds",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Fortification",
+      "Vehicle",
+      "Transport",
+      "Fly",
+      "Tidewall Gunrig",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Stormsurge",
+    "id": "439b-e08-4466-e162",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 400,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "20",
+      "LD": "7+",
+      "OC": "6"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Cluster rocket system",
+          "Range": "48\"",
+          "A": "4D6",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast, Heavy"
+        },
+        {
+          "name": "Destroyer missiles",
+          "Range": "72\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6+2",
+          "Keywords": "Heavy"
+        },
+        {
+          "name": "Twin smart missile system",
+          "Range": "30\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Heavy, Indirect Fire, Twin-Linked"
+        },
+        {
+          "name": "Pulse Driver Cannon",
+          "Range": "72\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Blast, Heavy"
+        },
+        {
+          "name": "➤ Pulse blast cannon - focused",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "24",
+          "AP": "-6",
+          "D": "12",
+          "Keywords": "Heavy"
+        },
+        {
+          "name": "➤ Pulse blast cannon - dispersed",
+          "Range": "48\"",
+          "A": "6",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-2",
+          "D": "4",
+          "Keywords": "Heavy"
+        },
+        {
+          "name": "Twin airbursting fragmentation projector",
+          "Range": "24\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast, Heavy, Indirect Fire, Twin-linked"
+        },
+        {
+          "name": "Twin burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Heavy, Twin-linked"
+        },
+        {
+          "name": "Twin T'au flamer",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent, Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Thunderous footfalls",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Damaged: 1-5 Wounds Remaining",
+        "description": "While this model has 1-5 wounds remaining, subtract 3 from this models Objective Control characteristic, and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Heavy Walker",
+        "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
+      },
+      {
+        "name": "Support System",
+        "description": "Each time this model makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+      },
+      {
+        "name": "Titan-killer",
+        "description": "Each time this model makes a ranged attack that targets a TITANIC or TOWERING unit, you can re-roll the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6+2",
+      "For The Greater Good",
+      "Heavy",
+      "Blast",
+      "Indirect Fire",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Stormsurge",
+      "Faction: T'au Empire",
+      "Attacks Dx Weapon",
+      "Attacks Dx Weapon"
+    ]
+  },
+  {
+    "name": "Tactical Drones [Legends]",
+    "id": "f98a-5aa8-9305-2ed",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 70,
+      "variants": [
+        {
+          "models": 4,
+          "points": 70
+        },
+        {
+          "models": 8,
+          "points": 70
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Twin pulse carbine",
+          "Range": "20\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Assault, Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "6+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [],
+    "special_rules": [
+      "Deep Strike"
+    ],
+    "keywords": [
+      "Drone",
+      "Fly",
+      "Tactical Drones",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Kroot Farstalkers",
+    "id": "72f2-7d0b-80f9-43b7",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 85,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Dvorgite skinner",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent"
+        },
+        {
+          "name": "Londaxi tribalest",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Anti-Vehicle 4+, Devastating Wounds, Heavy"
+        },
+        {
+          "name": "Kroot pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol"
+        },
+        {
+          "name": "Farstalker firearm",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 1"
+        },
+        {
+          "name": "T'au tech rifle",
+          "Range": "30\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 1"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Ripping fangs",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Ritual blade",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Bounty Hunters",
+        "description": "At the start of the battle, select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit, that attack has the [LETHAL HITS] and [PRECISION] abilities."
+      },
+      {
+        "name": "Pech'ra",
+        "description": "Ranged weapons equipped by the bearer’s unit have the [IGNORES COVER] ability."
+      }
+    ],
+    "special_rules": [
+      "Infiltrators",
+      "Stealth",
+      "Precision",
+      "Lethal Hits",
+      "Ignores Cover",
+      "Torrent",
+      "Anti-",
+      "Devastating Wounds",
+      "Heavy",
+      "Pistol",
+      "Rapid Fire"
+    ],
+    "keywords": [
+      "Attacks Dx Weapon",
+      "Infantry",
+      "Grenades",
+      "Kroot",
+      "Farstalkers",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "R'varna Battlesuit [Legends]",
+    "id": "b146-daf1-9b8b-6de9",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 200,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "15",
+      "LD": "7+",
+      "OC": "4"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Pulse submunitions cannon",
+          "Range": "60\"",
+          "A": "D6+2",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Battlesuit fists",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Nova Shielding",
+        "description": "Once per battle, when this model is selected as the target of a ranged attack, it can use this ability. If it does, until the end of the phase, each time an attack targets this model, if the Strength characteristic of that attack is greater than the Toughness characteristic of this model, subtract 1 from the Wound roll."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6",
+      "For The Greater Good",
+      "Blast"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "R'varna",
+      "Battlesuit",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Y'vahra Battlesuit [Legends]",
+    "id": "8013-c4e0-166e-a961",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 210,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "15",
+      "LD": "7+",
+      "OC": "4"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Flechette pod",
+          "Range": "12\"",
+          "A": "5",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Ionic discharge cannon - standard",
+          "Range": "18\"",
+          "A": "D6+1",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "➤ Ionic discharge cannon - overcharge",
+          "Range": "18\"",
+          "A": "D6+1",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Blast, Hazardous"
+        },
+        {
+          "name": "Phased plasma-flamer",
+          "Range": "12\"",
+          "A": "10",
+          "BS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent"
+        },
+        {
+          "name": "Missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Battlesuit fists",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Nova Burst",
+        "description": "Once per battle, before this model makes a Normal, Advance or Fall Back move, it can use this ability. If it does, until the end of the phase, it has a Move characteristic of 18\"."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6",
+      "For The Greater Good",
+      "Hazardous",
+      "Blast",
+      "Ignores Cover",
+      "Torrent"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Y'vahra",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Tetras [Legends]",
+    "id": "388f-478b-18f5-aee7",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 80,
+      "variants": [
+        {
+          "models": 2,
+          "points": 160
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 2,
+      "max_models": 4
+    },
+    "stats": {
+      "M": "14\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "7",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Pulse rifle",
+          "Range": "30\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 1"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapons",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "5+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "High-intensity Markerlights",
+        "description": "Each time this unit is an Observer unit, until the end of the phase, each time a model in its Guided unit makes an attack that targets their Spotted unit, you can re-roll the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise 1",
+      "For The Greater Good",
+      "Infiltrators"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Markerlight",
+      "Tetras",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Remora Stealth Drones [Legends]",
+    "id": "f499-f326-8e40-9c8b",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 160,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "16\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Remora seeker missile",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "One Shot"
+        },
+        {
+          "name": "Twin long-barrelled burst cannon",
+          "Range": "24\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Aerial Disengagement",
+        "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+      }
+    ],
+    "special_rules": [
+      "Infiltrators",
+      "Stealth",
+      "For The Greater Good",
+      "One Shot",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Markerlight",
+      "Remora Stealth Drones",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Ta'unar Supremacy Armour",
+    "id": "16d6-79b5-817d-f084",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 790,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 4,
+      "max_models": 4
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "13",
+      "SV": "2+",
+      "W": "30",
+      "LD": "7+",
+      "OC": "10"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "➤ Tri-axis ion cannon - standard",
+          "Range": "36\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "➤ Tri-axis ion cannon - supercharge",
+          "Range": "36\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Blast, Hazardous"
+        },
+        {
+          "name": "Fusion eradicator",
+          "Range": "24\"",
+          "A": "5",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 3"
+        },
+        {
+          "name": "Pulse ordnance driver",
+          "Range": "60\"",
+          "A": "8",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "3",
+          "Keywords": "Anti-Infantry 2+"
+        },
+        {
+          "name": "Nexus missile launcher",
+          "Range": "36\"",
+          "A": "8",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Heavy rail cannon array",
+          "Range": "120\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "26",
+          "AP": "-5",
+          "D": "16",
+          "Keywords": "Devastating Wounds, Heavy"
+        },
+        {
+          "name": "Fragmentation cluster shell launcher",
+          "Range": "24\"",
+          "A": "2D6+6",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Smart missile system",
+          "Range": "30\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Indirect Fire"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Crushing feet",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "5+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Coordinated Strike",
+        "description": "While this model is a Guided unit, each time it makes an attack that targets its Spotted unit, re-roll a Hit roll of 1."
+      },
+      {
+        "name": "Damaged: 1-10 Wounds Remaining",
+        "description": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6+3",
+      "For The Greater Good",
+      "Super-Heavy Walker",
+      "Blast",
+      "Hazardous",
+      "Melta",
+      "Anti-",
+      "Devastating Wounds",
+      "Heavy"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Titanic",
+      "Walker",
+      "Towering",
+      "Faction: T'au Empire",
+      "Ta'unar Supremacy Armour",
+      "Damage Dx Weapon"
+    ]
+  },
+  {
+    "name": "Barracuda [Legends]",
+    "id": "a422-6066-1c3a-f021",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 220,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "20+\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Swiftstrike burst cannon",
+          "Range": "36\"",
+          "A": "16",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Ion cannon - standard",
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "➤ Ion cannon - overcharge",
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Blast, Hazardous"
+        },
+        {
+          "name": "Long-barrelled burst cannon",
+          "Range": "24\"",
+          "A": "8",
+          "BS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Swiftstrike railgun",
+          "Range": "72\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "20",
+          "AP": "-5",
+          "D": "D6+6",
+          "Keywords": "Devastating Wounds"
+        },
+        {
+          "name": "➤ Cyclic ion blaster - standard",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Cyclic ion blaster - overcharge",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Hazardous"
+        },
+        {
+          "name": "Seeker missile",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "One Shot"
+        },
+        {
+          "name": "Missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured hull",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Agile Dogfighter",
+        "description": "Each time an attack targets this model, subtract 1 from the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "For The Greater Good",
+      "Blast",
+      "Hazardous"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Barracuda",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Tiger Shark",
+    "id": "1c73-43dc-bef0-a468",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 325,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 2,
+      "max_models": 2
+    },
+    "stats": {
+      "M": "20+\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "18",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "➤ Ion cannon - standard",
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "➤ Ion cannon - overcharge",
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Blast, Hazardous"
+        },
+        {
+          "name": "Swiftstrike burst cannon",
+          "Range": "36\"",
+          "A": "16",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Skyspear missile rack",
+          "Range": "72\"",
+          "A": "D6+1",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Anti-Fly 3+, Blast"
+        },
+        {
+          "name": "➤ Cyclic ion blaster - standard",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Cyclic ion blaster - overcharge",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Hazardous"
+        },
+        {
+          "name": "Burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Swiftstrike railgun",
+          "Range": "72\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "20",
+          "AP": "-5",
+          "D": "D6+6",
+          "Keywords": "Devastating Wounds"
+        },
+        {
+          "name": "Seeker missile",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "One Shot"
+        },
+        {
+          "name": "Missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured hull",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Strafing Run",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks that cannot FLY. That enemy unit must take a Battle-shock test."
+      },
+      {
+        "name": "Transport bay",
+        "description": "The bearer has the TRANSPORT keyword and has a transport capacity of 12 TACTICAL DRONES models."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6+2",
+      "For The Greater Good",
+      "Blast",
+      "Hazardous",
+      "Anti-"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Tiger Shark",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "AX-1-0 Tiger Shark",
+    "id": "6a78-555-46c7-999b",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 315,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "20+\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "18",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Twin heavy rail cannon",
+          "Range": "120\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "26",
+          "AP": "-5",
+          "D": "12",
+          "Keywords": "Devastating Wounds, Twin-linked"
+        },
+        {
+          "name": "Burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Cyclic ion blaster - standard",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Cyclic ion blaster - overcharge",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Hazardous"
+        },
+        {
+          "name": "Seeker missile",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "One Shot"
+        },
+        {
+          "name": "Missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured hull",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Titan Hunter",
+        "description": "This model’s twin heavy rail cannon and seeker missiles have the [ANTI-TITANIC 3+] ability while targeting a unit within half range."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6+2",
+      "For The Greater Good",
+      "Devastating Wounds",
+      "Twin-linked",
+      "Anti-"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Faction: T'au Empire",
+      "AX-1-0 Tiger Shark"
+    ]
+  },
+  {
+    "name": "Manta",
+    "id": "8e75-7545-e43b-7c67",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 2100,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 2,
+      "max_models": 2
+    },
+    "stats": {
+      "M": "20+\"",
+      "T": "14",
+      "SV": "2+",
+      "W": "60",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": "5+",
+    "transport": "This model has a transport capacity of all of the following:\n- 200 T’AU EMPIRE INFANTRY or TACTICAL DRONE models\n- 4 DEVILFISH, SKY RAY GUNSHIP or HAMMERHEAD models\n- 8 BATTLESUIT models with a Wounds characteristic of 9 or less",
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Heavy rail cannon",
+          "Range": "120\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "26",
+          "AP": "-5",
+          "D": "12",
+          "Keywords": "Devastating Wounds"
+        },
+        {
+          "name": "Long-barrelled burst cannon array",
+          "Range": "24\"",
+          "A": "32",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Ion cannon - standard",
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "➤ Ion cannon - overcharge",
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Blast, Hazardous"
+        },
+        {
+          "name": "Seeker missile",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "One Shot"
+        },
+        {
+          "name": "Missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured hull",
+          "Range": "Melee",
+          "A": "8",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Aggressive Deployment",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
+      },
+      {
+        "name": "Air Caste Colossus",
+        "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
+      },
+      {
+        "name": "Damaged: 1-20 Wounds Remaining",
+        "description": "While this model has 1-20 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise 3D6",
+      "Hover",
+      "For The Greater Good",
+      "Devastating Wounds",
+      "Blast",
+      "Hazardous"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Titanic",
+      "Transport",
+      "Markerlight",
+      "Manta",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Orca Dropship [Legends]",
+    "id": "49c0-f84c-18c4-6377",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 275,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "20+\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "28",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": "This model has a transport capacity of 48 T’AU EMPIRE INFANTRY models. This model can also transport up to 6 BATTLESUIT models (these models take up the space of a number of models equal to their Wounds characteristic, e.g. a BATTLESUIT with a Wounds characteristic of 8 would take up the space of 8 models). This model cannot transport KROOT or VESPID STINGWINGS models.",
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Long-barrelled burst cannon",
+          "Range": "36\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured hull",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "8",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Jet Pack Insertion",
+        "description": "At the end of your opponent’s Movement phase, one or more units embarked within this TRANSPORT can disembark from it, provided every model in each of those disembarking units has the Deep Strike ability."
+      },
+      {
+        "name": "Damaged: 1-9 Wounds Remaining",
+        "description": "While this model has 1-9 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6+2",
+      "Hover",
+      "For The Greater Good"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Titanic",
+      "Transport",
+      "Orca Dropship",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Heavy Gun Drones [Legends]",
+    "id": "f260-c746-b662-cc6c",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 45,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "2",
+      "LD": "8+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Twin burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "6+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Drone Escort",
+        "description": "Once per turn, in your opponent’s Shooting phase, when a friendly T'AU EMPIRE unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, the unit using this ability can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
+      }
+    ],
+    "special_rules": [],
+    "keywords": [
+      "Markerlight",
+      "Vehicle",
+      "Fly",
+      "Heavy Gun Drones",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Great Knarloc [Legends]",
+    "id": "a5d9-e739-52b8-731f",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 100,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "9\"",
+      "T": "8",
+      "SV": "4+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Kroot bolt thrower",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Hooked"
+        },
+        {
+          "name": "Kroot rifle (Ranged)",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 1"
+        },
+        {
+          "name": "Twin Kroot gun",
+          "Range": "36\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Great Knarloc beak and talons",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "3",
+          "Keywords": "Extra Attacks"
+        },
+        {
+          "name": "Kroot rifle (Melee)",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Loping Stride",
+        "description": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model."
+      },
+      {
+        "name": "Baggage Harness (Aura)",
+        "description": "While a friendly KROOT unit is within 3\" of the bearer, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+      }
+    ],
+    "special_rules": [
+      "Scouts 7\"",
+      "Rapid Fire",
+      "Twin-linked",
+      "Sustained Hits"
+    ],
+    "keywords": [
+      "Monster",
+      "Kroot",
+      "Great Knarloc",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "TX42 Piranha [Legends]",
+    "id": "934d-30ac-34a3-f113",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 60,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "14\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "7",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Rail rifle",
+          "Range": "30\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-4",
+          "D": "3",
+          "Keywords": "Devastating Wounds"
+        },
+        {
+          "name": "Plasma rifle",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "-"
+        },
+        {
+          "name": "Fusion blaster",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
+        },
+        {
+          "name": "Missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured hull",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Outflank",
+        "description": "When this unit arrives from Strategic Reserves, it can be set up within your opponent’s deployment zone (all other restrictions still apply)."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise 1",
+      "Scouts 9\"",
+      "For The Greater Good",
+      "Devastating Wounds"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Faction: T'au Empire",
+      "TX42 Piranha"
+    ]
+  },
+  {
+    "name": "Knarloc Riders [Legends]",
+    "id": "f4b8-7132-6738-547c",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 110,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "7\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Kroot rifle (Ranged)",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 1"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Knarloc beak and talons",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Extra Attacks"
+        },
+        {
+          "name": "Kroot rifle (Melee)",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Thunderous Pounce",
+        "description": "Each time this unit ends a Charge move, until the end of the turn, Knarloc beak and talons equipped by models in this unit have the [LANCE] ability."
+      }
+    ],
+    "special_rules": [
+      "Extra Attacks",
+      "Rapid Fire",
+      "Lance",
+      "Stealth",
+      "Scouts 7\""
+    ],
+    "keywords": [
+      "Mounted",
+      "Kroot",
+      "Knarloc Riders",
+      "Faction: T'au Empire",
+      "Extra Attacks Weapon"
+    ]
+  },
+  {
+    "name": "Shas'o R'alai [Legends]",
+    "id": "96d6-a7f6-cbf-a4c0",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 80,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "➤ Experimental pulse submunitions rifle - EMP",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "1",
+          "AP": "0",
+          "D": "3",
+          "Keywords": "Anti-Vehicle 3+, Devastating Wounds"
+        },
+        {
+          "name": "➤ Experimental pulse submunitions rifle - ionic cluster-beam shell",
+          "Range": "24\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Blast"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Battlesuit fists",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- XV9 HAZARD BATTLESUITS"
+      },
+      {
+        "name": "Eclipse Field Generator",
+        "description": "While this model is leading a unit, models in that unit have a 5+ invulnerable save."
+      },
+      {
+        "name": "Assassin",
+        "description": "Each time this model makes an attack that targets a CHARACTER unit, you can re-roll the Hit roll."
+      },
+      {
+        "name": "Blacklight Marker Drones",
+        "description": "Twice per battle, when this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in their Guided unit that targets their Spotted unit, re-roll a Wound roll of 1.\nDesigner’s Note: Place two Blacklight Marker Drone tokens next to this model, removing one each time this ability has been used."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Deep Strike",
+      "For The Greater Good",
+      "Blast",
+      "Anti-",
+      "Devastating Wounds"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Markerlight",
+      "Shas'o R'alai",
+      "Battlesuit",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "XV9 Hazard Battlesuits [Legends]",
+    "id": "9b21-52b7-6d8b-3e51",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 55,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Fusion cascade",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 4"
+        },
+        {
+          "name": "Phased ion gun",
+          "Range": "30\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Twin hazard burst cannon",
+          "Range": "24\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Battlesuit fists",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Photon Casters",
+        "description": "In your Shooting phase, after this unit has shot, if an enemy INFANTRY unit was hit by one or more of those attacks, until the end of your opponent’s next turn, that enemy unit is stunned. While a unit is stunned, subtract 2 from that unit’s Move characteristic, and subtract 2 from Advance and Charge rolls made for that unit."
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "For The Greater Good",
+      "Melta",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "XV9 Hazard",
+      "Battlesuit",
+      "Faction: T'au Empire",
+      "Damage Dx Weapon"
+    ]
+  },
+  {
+    "name": "Remote Sensor Tower [Legends]",
+    "id": "124e-3391-b646-9777",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 50,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "-",
+      "T": "8",
+      "SV": "4+",
+      "W": "4",
+      "LD": "8+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Orbital Comms Array (Aura)",
+        "description": "While a friendly T'AU EMPIRE unit is within 6\" of this FORTIFICATION, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+      },
+      {
+        "name": "Reinforced Cover",
+        "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
+      }
+    ],
+    "special_rules": [],
+    "keywords": [
+      "Fortification",
+      "Remote Sensor Tower",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Drone Sentry Turret [Legends]",
+    "id": "e73d-cdcf-213d-c7eb",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 50,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "-",
+      "T": "8",
+      "SV": "4+",
+      "W": "4",
+      "LD": "8+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Twin plasma rifle",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Twin-linked"
+        },
+        {
+          "name": "Twin fusion blaster",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2, Twin-linked"
+        },
+        {
+          "name": "Twin missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Twin-linked"
+        },
+        {
+          "name": "Twin burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Twin-linked"
+        }
+      ],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Reinforced Cover",
+        "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
+      },
+      {
+        "name": "Sentinel Protocols",
+        "description": "Each time you select this FORTIFICATION for the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem."
+      }
+    ],
+    "special_rules": [
+      "Twin-linked",
+      "Melta"
+    ],
+    "keywords": [
+      "Fortification",
+      "Vehicle",
+      "Drone Sentry Turret",
+      "Faction: T'au Empire"
+    ]
+  },
+  {
+    "name": "Crisis Sunforge Battlesuits",
+    "id": "e88f-bc7a-c3f5-8e47",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 140,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Fusion blaster",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Battlesuit fists",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Sunforge",
+        "description": "Each time a model in this unit makes a ranged attack that targets a **Monster** or **Vehicle** unit, you can re-roll the Wound roll and you can re-roll the Damage roll."
+      },
+      {
+        "name": "Invulnerable Save (4+)",
+        "description": "This unit has a 4+ Invulnerable Save"
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "For The Greater Good"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Crisis",
+      "Faction: T'au Empire",
+      "Sunforge"
+    ]
+  },
+  {
+    "name": "Crisis Fireknife Battlesuits",
+    "id": "9373-d0b3-94c9-e47",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 120,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Plasma rifle",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "-"
+        },
+        {
+          "name": "Missile pod",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Battlesuit fists",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Fireknife",
+        "description": "Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If that attack targets a unit that is at its Starting Strength, you can re-roll the Hit roll instead."
+      },
+      {
+        "name": "Weapon Support System",
+        "description": "Each time a model in this unit makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "For The Greater Good"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Crisis",
+      "Faction: T'au Empire",
+      "Fireknife"
+    ]
+  },
+  {
+    "name": "Crisis Starscythe Battlesuits",
+    "id": "fb32-c683-b38f-d339",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 110,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Burst cannon",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "T'au flamer",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Battlesuit fists",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Starscythe",
+        "description": "Each time a model in this unit makes a ranged attack (excluding attacks that target MONSTERS and VEHICLES), improve the Armour Penetration characteristic of that attack by 1."
+      },
+      {
+        "name": "Battlesuit Support System",
+        "description": "The unit is eligible to shoot in a turn in which it Fell Back."
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "For The Greater Good"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Crisis",
+      "Faction: T'au Empire",
+      "Starscythe"
+    ]
+  },
+  {
+    "name": "Kroot Trail Shaper",
+    "id": "2ebe-a524-656d-7f0e",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 55,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Kroot rifle",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 1"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Shaper's blade",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Kroot Ambush",
+        "description": "After both players have deployed their armies, you can redeploy this model's unit and one other friendly KROOT unit. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+      },
+      {
+        "name": "Trail Finding",
+        "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model's unit, if this model's unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\"."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- KROOT CARNIVORES\n- KROOT FARSTALKERS"
+      }
+    ],
+    "special_rules": [
+      "Infiltrators",
+      "Scouts 7\"",
+      "Stealth",
+      "Leader"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Kroot",
+      "Shaper",
+      "Faction: T'au Empire",
+      "Trail Shaper",
+      "Melee Weapon"
+    ]
+  },
+  {
+    "name": "Kroot War Shaper",
+    "id": "e9bc-7a6e-322c-87fd",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 50,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Dart-bow and tri-blade",
+          "Range": "24\"",
+          "A": "D3+1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "Anti-Infantry 3+, Assault, Heavy"
+        },
+        {
+          "name": "Kroot pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Bladestave and prey-hook",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Lethal Hits"
+        },
+        {
+          "name": "Shaper's blade",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Root of Honour",
+        "description": "Once per battle, at the start of any phase, you can select one friendly KROOT unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+      },
+      {
+        "name": "War Leader",
+        "description": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- KROOT CARNIVORES\n- KROOT FARSTALKERS"
+      }
+    ],
+    "special_rules": [
+      "Infiltrators",
+      "Scouts 7\"",
+      "Stealth",
+      "Leader",
+      "Assault",
+      "Heavy",
+      "Anti-",
+      "Lethal Hits",
+      "Pistol"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Kroot",
+      "Shaper",
+      "Faction: T'au Empire",
+      "War Shaper",
+      "Ranged Weapon",
+      "Melee Weapon",
+      "Ranged Weapon",
+      "Melee Weapon"
+    ]
+  },
+  {
+    "name": "Kroot Flesh Shaper",
+    "id": "bb34-e371-33ee-397",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 45,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Kroot scattergun",
+          "Range": "12\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Assault"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Twin ritualistic blades",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Twin-linked"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- KROOT CARNIVORES\n- KROOT FARSTALKERS"
+      },
+      {
+        "name": "Ritual Butchery",
+        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+      },
+      {
+        "name": "Rites of Feasting",
+        "description": "While this model is leading a unit, models in that unit have the Feel Not Pain 6+ ability. If that unit destroys one or more enemy units in the Fight phase, unit the end of the battle, models in that unit have the Feel No Pain 5+ ability instead."
+      }
+    ],
+    "special_rules": [
+      "Infiltrators",
+      "Scouts 7\"",
+      "Stealth",
+      "Leader",
+      "Sustained Hits",
+      "Feel No Pain",
+      "Assault",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Kroot",
+      "Shaper",
+      "Faction: T'au Empire",
+      "Flesh Shaper",
+      "Ranged Weapon",
+      "Melee Weapon"
+    ]
+  },
+  {
+    "name": "Kroot Lone-spear",
+    "id": "4e8a-c3f4-e497-4901",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 80,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Kroot long gun",
+          "Range": "36\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Heavy, Precision"
+        },
+        {
+          "name": "Blast javelin",
+          "Range": "18\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Assault, Blast"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Hunting javelin",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Lance"
+        },
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Kalamandra's bite",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Extra Attacks"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Fire and Fade",
+        "description": "In your Shooting phase, after this model has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this model is not eligible to declare a charge."
+      },
+      {
+        "name": "Advanced Scouting",
+        "description": "Each time this model makes a ranged attack that hits an enemy unit, until the end of the turn, each time another KROOT model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Stealth",
+      "Lone Operative",
+      "Scouts 7\"",
+      "Precision",
+      "Heavy",
+      "Assault",
+      "Blast",
+      "Lance",
+      "Extra Attacks"
+    ],
+    "keywords": [
+      "Character",
+      "Mounted",
+      "Kroot",
+      "Faction: T'au Empire",
+      "Lone-spear",
+      "Ranged Weapon",
+      "Ranged Weapon",
+      "Attacks Dx Weapon",
+      "Ranged Weapon",
+      "Melee Weapon",
+      "Melee Weapon",
+      "Extra Attacks Weapon"
+    ]
+  },
+  {
+    "name": "Krootox Rampagers",
+    "id": "7f73-6728-df6f-1446",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 85,
+      "variants": [
+        {
+          "models": 4,
+          "points": 170
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 3,
+      "max_models": 6
+    },
+    "stats": {
+      "M": "7\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Kroot pistol and hunting javelins",
+          "Range": "12\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Assault, Pistol"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Hunting blades",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Lance"
+        },
+        {
+          "name": "Rampager fists",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Extra Attacks, Sustained Hits 1"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Kroot Linebreakers",
+        "description": "Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers D3 mortal wounds. If one or more enemy models are destroyed as a result of these mortal wounds, that enemy unit must take a Battle-shock test."
+      }
+    ],
+    "special_rules": [
+      "Scouts 7\"",
+      "Pistol",
+      "Assault",
+      "Lance",
+      "Sustained Hits",
+      "Extra Attacks"
+    ],
+    "keywords": [
+      "Mounted",
+      "Grenades",
+      "Kroot",
+      "Faction: T'au Empire",
+      "Krootox Rampagers",
+      "Extra Attacks Weapon"
+    ]
+  }
+]

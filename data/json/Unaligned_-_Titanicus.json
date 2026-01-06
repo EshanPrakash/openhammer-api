@@ -1,0 +1,630 @@
+[
+  {
+    "name": "Warhound Titan",
+    "id": "8eb5-a990-6eb0-9b41",
+    "type": "model",
+    "faction": "Titans",
+    "faction_type": "Unaligned",
+    "points": {
+      "base": 1100,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 2
+    },
+    "stats": {
+      "M": "14\"",
+      "T": "13",
+      "SV": "2+",
+      "W": "40",
+      "LD": "6+",
+      "OC": "16"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Warhound vulcan mega-bolter",
+          "Range": "48\"",
+          "A": "20",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Sustained Hits 1"
+        },
+        {
+          "name": "Warhound inferno gun",
+          "Range": "24\"",
+          "A": "3D6",
+          "BS": "N/A",
+          "S": "7",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Ignores Cover, Torrent"
+        },
+        {
+          "name": "➤ Warhound plasma blastgun - standard",
+          "Range": "72\"",
+          "A": "2D6+3",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-3",
+          "D": "4",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "➤ Warhound plasma blastgun - supercharge",
+          "Range": "72\"",
+          "A": "2D6+3",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-3",
+          "D": "5",
+          "Keywords": "Blast, Hazardous"
+        },
+        {
+          "name": "Warhound turbo-laser destructor",
+          "Range": "72\"",
+          "A": "D3+3",
+          "BS": "3+",
+          "S": "20",
+          "AP": "-3",
+          "D": "2D6",
+          "Keywords": "Blast"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Warhound feet",
+          "Range": "Melee",
+          "A": "8",
+          "WS": "4+",
+          "S": "10",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Flank Speed",
+        "description": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 8\" to the Move characteristic of this model."
+      },
+      {
+        "name": "Damaged: 1-13 wounds remaining",
+        "description": "While this model has 1-13 wounds remaining, subtract 8 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 5+ invulnerable save against ranged attacks only."
+      },
+      {
+        "name": "Striding Colossus",
+        "description": "Each time you target this model with a Stratagem, you must spend twice that Stratagem’s stated CP cost to do so."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise 2D6",
+      "Super-Heavy Walker",
+      "Sustained Hits",
+      "Ignores Cover",
+      "Torrent",
+      "Blast",
+      "Hazardous"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Warhound Titan",
+      "Attacks Dx Weapon",
+      "Damage Dx Weapon"
+    ]
+  },
+  {
+    "name": "Reaver Titan",
+    "id": "b7e8-f3ae-be53-9ba5",
+    "type": "model",
+    "faction": "Titans",
+    "faction_type": "Unaligned",
+    "points": {
+      "base": 2200,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "14",
+      "SV": "2+",
+      "W": "60",
+      "LD": "6+",
+      "OC": "20"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Reaver gatling blaster",
+          "Range": "72\"",
+          "A": "12",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Sustained Hits 1"
+        },
+        {
+          "name": "Reaver laser blaster",
+          "Range": "72\"",
+          "A": "8",
+          "BS": "3+",
+          "S": "20",
+          "AP": "-3",
+          "D": "D6+2",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Reaver melta cannon",
+          "Range": "48\"",
+          "A": "D6+2",
+          "BS": "3+",
+          "S": "13",
+          "AP": "-4",
+          "D": "6",
+          "Keywords": "Blast, Melta 4"
+        },
+        {
+          "name": "Reaver volcano cannon",
+          "Range": "120\"",
+          "A": "D3+1",
+          "BS": "3+",
+          "S": "24",
+          "AP": "-5",
+          "D": "14",
+          "Keywords": "Blast, Heavy"
+        },
+        {
+          "name": "Reaver apocalypse launcher",
+          "Range": "200\"",
+          "A": "3D6",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Blast, Indirect Fire"
+        }
+      ],
+      "melee": [
+        {
+          "name": "➤ Reaver power fist - strike",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "20",
+          "AP": "-4",
+          "D": "14",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Reaver power fist - sweep",
+          "Range": "Melee",
+          "A": "12",
+          "WS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "6",
+          "Keywords": "-"
+        },
+        {
+          "name": "Reaver feet",
+          "Range": "Melee",
+          "A": "8",
+          "WS": "4+",
+          "S": "12",
+          "AP": "-2",
+          "D": "4",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Damaged: 1-20 wounds remaining",
+        "description": "While this model has 1-20 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 5+ invulnerable save against ranged attacks only."
+      },
+      {
+        "name": "God-machine",
+        "description": "This model is eligible to shoot and declare a charge in a turn in which it Fell Back."
+      },
+      {
+        "name": "Striding Colossus",
+        "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6+6",
+      "Super-Heavy Walker",
+      "Sustained Hits",
+      "Blast",
+      "Melta",
+      "Heavy",
+      "Indirect Fire"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Reaver Titan",
+      "Attacks Dx Weapon"
+    ]
+  },
+  {
+    "name": "Warbringer Nemesis Titan",
+    "id": "8e6f-4e09-12d5-fafd",
+    "type": "model",
+    "faction": "Titans",
+    "faction_type": "Unaligned",
+    "points": {
+      "base": 2600,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 2
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "14",
+      "SV": "2+",
+      "W": "80",
+      "LD": "6+",
+      "OC": "20"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Anvillus defence battery",
+          "Range": "72\"",
+          "A": "8",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Anti-FLY 4+"
+        },
+        {
+          "name": "Ardex-defensor mauler",
+          "Range": "36\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Nemesis quake cannon",
+          "Range": "480\"",
+          "A": "D6+6",
+          "BS": "3+",
+          "S": "16",
+          "AP": "-4",
+          "D": "4",
+          "Keywords": "Blast, Indirect Fire"
+        },
+        {
+          "name": "Nemesis volcano cannon",
+          "Range": "120\"",
+          "A": "D3+3",
+          "BS": "3+",
+          "S": "24",
+          "AP": "-5",
+          "D": "14",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Reaver gatling blaster",
+          "Range": "72\"",
+          "A": "12",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Sustained Hits 1"
+        },
+        {
+          "name": "Reaver laser blaster",
+          "Range": "72\"",
+          "A": "8",
+          "BS": "3+",
+          "S": "20",
+          "AP": "-3",
+          "D": "D6+2",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Reaver melta cannon",
+          "Range": "48\"",
+          "A": "D6+2",
+          "BS": "3+",
+          "S": "13",
+          "AP": "-4",
+          "D": "6",
+          "Keywords": "Blast, Melta 4"
+        },
+        {
+          "name": "Reaver volcano cannon",
+          "Range": "120\"",
+          "A": "D3+1",
+          "BS": "3+",
+          "S": "24",
+          "AP": "-5",
+          "D": "14",
+          "Keywords": "Blast, Heavy"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Nemesis feet",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "12",
+          "AP": "-2",
+          "D": "4",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Damaged: 1-26 wounds remaining",
+        "description": "While this model has 1-26 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 5+ invulnerable save against ranged attacks only."
+      },
+      {
+        "name": "Titanic Fire Support",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly IMPERIUM model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+      },
+      {
+        "name": "Titanic Fire Support",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly CHAOS model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+      },
+      {
+        "name": "Striding Colossus",
+        "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6+6",
+      "Super-Heavy Walker",
+      "Anti-",
+      "Blast",
+      "Indirect Fire",
+      "Sustained Hits",
+      "Melta",
+      "Heavy"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Warbringer Nemesis Titan"
+    ]
+  },
+  {
+    "name": "Warlord Titan",
+    "id": "eafa-cd47-1c2f-61ee",
+    "type": "model",
+    "faction": "Titans",
+    "faction_type": "Unaligned",
+    "points": {
+      "base": 3500,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "16",
+      "SV": "2+",
+      "W": "100",
+      "LD": "6+",
+      "OC": "30"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Arioch power claw",
+          "Range": "48\"",
+          "A": "20",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Sustained Hits 1"
+        },
+        {
+          "name": "Belicosa volcano cannon",
+          "Range": "120\"",
+          "A": "D3+3",
+          "BS": "3+",
+          "S": "32",
+          "AP": "-5",
+          "D": "18",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Macro gatling blaster",
+          "Range": "100\"",
+          "A": "30",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Sustained Hits 1"
+        },
+        {
+          "name": "Mori quake cannon",
+          "Range": "280\"",
+          "A": "3D6",
+          "BS": "3+",
+          "S": "16",
+          "AP": "-4",
+          "D": "6",
+          "Keywords": "Blast, Ignores Cover"
+        },
+        {
+          "name": "➤ Sunfury plasma annihilator - standard",
+          "Range": "72\"",
+          "A": "2D6+6",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-3",
+          "D": "5",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "➤ Sunfury plasma annihilator - supercharge",
+          "Range": "72\"",
+          "A": "2D6+6",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "8",
+          "Keywords": "Blast, Hazardous"
+        },
+        {
+          "name": "Apocalypse launcher",
+          "Range": "200\"",
+          "A": "20",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Blast, Indirect Fire"
+        },
+        {
+          "name": "Laser blaster",
+          "Range": "72\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6+3",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Ardex-defensor lascannon",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Ardex-defensor mauler",
+          "Range": "36\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "➤ Arioch power claw - strike",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "20",
+          "AP": "-4",
+          "D": "24",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Arioch power claw - sweep",
+          "Range": "Melee",
+          "A": "12",
+          "WS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "8",
+          "Keywords": "-"
+        },
+        {
+          "name": "Warlord feet",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "12",
+          "AP": "-2",
+          "D": "4",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 5+ invulnerable save against ranged attacks only."
+      },
+      {
+        "name": "Damaged: 1-33 wounds remaining",
+        "description": "While this model has 1-33 wounds remaining, subtract 15 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Wrath of the Omnissiah",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test."
+      },
+      {
+        "name": "Striding Colossus",
+        "description": "Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise 2D6+6",
+      "Super-Heavy Walker",
+      "Sustained Hits",
+      "Blast",
+      "Ignores Cover",
+      "Hazardous",
+      "Indirect Fire"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Warlord Titan"
+    ]
+  }
+]

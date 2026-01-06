@@ -1,0 +1,1622 @@
+[
+  {
+    "name": "Watch Master",
+    "id": "f7c3-45d2-a7ac-d8bc",
+    "type": "model",
+    "faction": "Deathwatch",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 95,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Vigil spear",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Vigil spear",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3",
+          "Keywords": "Lance"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Strategic Knowledge",
+        "description": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+      },
+      {
+        "name": "Watch Master",
+        "description": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- DEATHWATCH VETERANS\n- FORTIS KILL TEAM"
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Oath of Moment",
+      "Mission Tactics",
+      "Lance"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Captain",
+      "Grenades",
+      "Imperium",
+      "Watch Master",
+      "Faction: Adeptus Astartes",
+      "Faction: Deathwatch",
+      "Ranged Weapon",
+      "Melee Weapon"
+    ]
+  },
+  {
+    "name": "Watch Captain Artemis",
+    "id": "3d7c-2de-31ea-b028",
+    "type": "model",
+    "faction": "Deathwatch",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 65,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Hellfire Extremis",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Anti-Infantry 4+, Devastating Wounds, Ignores Cover, Torrent"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Master-crafted power weapon",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Tactical Instinct",
+        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+      },
+      {
+        "name": "Unstoppable Champion",
+        "description": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 1 wound remaining."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units: \n- DEATHWATCH VETERANS\n- FORTIS KILL TEAM"
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Feel No Pain 6+",
+      "Mission Tactics",
+      "Oath of Moment",
+      "Anti-",
+      "Devastating Wounds",
+      "Ignores Cover",
+      "Torrent"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Watch Captain Artemis",
+      "Faction: Adeptus Astartes",
+      "Faction: Deathwatch",
+      "Captain"
+    ]
+  },
+  {
+    "name": "Corvus Blackstar",
+    "id": "d861-972b-54f9-bdfa",
+    "type": "model",
+    "faction": "Deathwatch",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 180,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "20+\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Hurricane bolter",
+          "Range": "24\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 6, Twin-Linked"
+        },
+        {
+          "name": "Twin assault cannon",
+          "Range": "24\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Devastating Wounds, Twin-Linked"
+        },
+        {
+          "name": "Twin lascannon",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "Twin-Linked"
+        },
+        {
+          "name": "Blackstar rocket launcher",
+          "Range": "30\"",
+          "A": "D6+1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Stormstrike missile launcher",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Armoured hull",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Blackstar Cluster Launcher",
+        "description": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 5+, that unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Damaged: 1-5 Wounds Remaining",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Transport",
+        "description": "This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY or KILL TEAM models. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
+      },
+      {
+        "name": "Auspex Array",
+        "description": "Ranged weapons equipped by the bearer have the [IGNORES COVER] ability."
+      },
+      {
+        "name": "Infernum Halo-launcher",
+        "description": "The bearer has the SMOKE keyword."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6",
+      "Hover",
+      "Stealth",
+      "Mission Tactics",
+      "Oath of Moment",
+      "Rapid Fire",
+      "Twin-linked",
+      "Devastating Wounds",
+      "Blast",
+      "Ignores Cover"
+    ],
+    "keywords": [
+      "Fly",
+      "Vehicle",
+      "Aircraft",
+      "Imperium",
+      "Transport",
+      "Corvus Blackstar",
+      "Faction: Adeptus Astartes",
+      "Faction: Deathwatch",
+      "Smoke"
+    ]
+  },
+  {
+    "name": "Kill Team Cassius [Legends]",
+    "id": "4042-67ce-8d45-ed33",
+    "type": "unit",
+    "faction": "Deathwatch",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 220,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Frag cannon",
+          "Range": "18\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Blast, Heavy, Rapid Fire D3"
+        },
+        {
+          "name": "Psychic Cleanse",
+          "Range": "24\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "D3",
+          "Keywords": "Psychic"
+        },
+        {
+          "name": "Heavy Flamer",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent"
+        },
+        {
+          "name": "Deathwatch twin boltgun",
+          "Range": "24\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Boltgun",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Long Vigil ranged weapon",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Artificer crozius",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Twin lightning claws",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Twin-Linked"
+        },
+        {
+          "name": "Force weapon",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-3",
+          "D": "D3",
+          "Keywords": "Psychic"
+        },
+        {
+          "name": "Power fist",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Long Vigil melee weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "Chaplain Cassius has a 4+ invulnerable save."
+      },
+      {
+        "name": "Jump Pack",
+        "description": "The bearer has a Move characteristic of 12\" and can move over models and terrain as if they were not there."
+      },
+      {
+        "name": "Jump Pack",
+        "description": "The bearer has a Move characteristic of 12\" and can move over models and terrain as if they were not there."
+      },
+      {
+        "name": "Psychic Hood",
+        "description": "Models in the bearer’s unit have the Feel No Pain 4+ ability against Psychic Attacks."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "Garran Branatar has a 4+ invulnerable save."
+      },
+      {
+        "name": "Catechism of Death",
+        "description": "While this unit contains Chaplain Cassius, melee weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
+      },
+      {
+        "name": "Unflinching",
+        "description": "You can re-roll Battle-shock tests for this unit."
+      }
+    ],
+    "special_rules": [
+      "Blast",
+      "Rapid Fire",
+      "Heavy",
+      "Twin-linked",
+      "Psychic",
+      "Ignores Cover",
+      "Torrent",
+      "Deep Strike",
+      "Mission Tactics",
+      "Oath of Moment"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Kill Team",
+      "Kill Team Cassius",
+      "Deathwatch",
+      "Faction: Agents of the Imperium",
+      "Ordo Xenos",
+      "Epic Hero",
+      "Character",
+      "Warlord"
+    ]
+  },
+  {
+    "name": "Deathwatch Terminator Squad",
+    "id": "390e-706b-a059-378b",
+    "type": "unit",
+    "faction": "Deathwatch",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 190,
+      "variants": [
+        {
+          "models": 5,
+          "points": 350
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 5,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Power Weapon",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Thunder Hammer",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Devastating Wounds"
+        },
+        {
+          "name": "Chainfist",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "8+",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Anti-Vehicle 3+"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Terminatus Assault",
+        "description": "You can re-roll Charge rolls made for this unit. Each time this unit ends a Charge move, each enemy unit within Engagement Range of this unit must take a Battle-shock test. If that enemy unit does not have the IMPERIUM or CHAOS keywords, subtract 1 from that test."
+      },
+      {
+        "name": "Teleport Homer",
+        "description": "At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3\" of that token and not within 9\" of any enemy models. That token is then removed."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "Models in this unit have a 4+ invulnerable save."
+      },
+      {
+        "name": "Attached Unit",
+        "description": "If a CHARACTER unit from your army with the Leader ability can be attached to a TERMINATOR SQUAD, it can be attached to this unit instead."
+      },
+      {
+        "name": "Storm Shield",
+        "description": "The bearer has a Wounds characteristic of 4."
+      },
+      {
+        "name": "Storm Shield",
+        "description": "The bearer has a Wounds characteristic of 4."
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "Oath of Moment",
+      "Mission Tactics",
+      "Rapid Fire",
+      "Devastating Wounds",
+      "Anti-"
+    ],
+    "keywords": [
+      "Infantry",
+      "Imperium",
+      "Deathwatch Terminator Squad",
+      "Terminator",
+      "Kill Team",
+      "Faction: Adeptus Astartes",
+      "Faction: Deathwatch"
+    ]
+  },
+  {
+    "name": "Fortis Kill Team",
+    "id": "a077-e1c9-f8f0-d38",
+    "type": "unit",
+    "faction": "Deathwatch",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 180,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Superfrag missile launcher",
+          "Range": "48\"",
+          "A": "D6+1",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast, Heavy"
+        },
+        {
+          "name": "Superkrak missile launcher",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6+1",
+          "Keywords": "Heavy"
+        },
+        {
+          "name": "Heavy bolt pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Pistol"
+        },
+        {
+          "name": "➤ Plasma pistol - Standard",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Pistol"
+        },
+        {
+          "name": "➤ Plasma pistol - Supercharge",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Hazardous, Pistol"
+        },
+        {
+          "name": "➤ Plasma incinerator - Standard",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Assault, Heavy"
+        },
+        {
+          "name": "➤ Plasma incinerator - Supercharge",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Assault, Hazardous, Heavy"
+        },
+        {
+          "name": "Deathwatch bolt rifle",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Assault, Heavy, Lethal Hits"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Fortis Doctrines",
+        "description": "Each time a model in this unit makes an attack that targets a unit that is below its Starting Strength, add 1 to the Hit roll. If that attack targets a unit that is Below Half-strength, add 1 to the Hit roll and add 1 to the Wound roll instead."
+      },
+      {
+        "name": "Attached Unit",
+        "description": "If a CHARACTER from your army with the Leader ability can be attached to an INTERCESSOR SQUAD, it can be attached to this unit instead."
+      }
+    ],
+    "special_rules": [
+      "Blast",
+      "Heavy",
+      "Pistol",
+      "Mission Tactics",
+      "Oath of Moment"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Fortis Kill Team",
+      "Faction: Adeptus Astartes",
+      "Faction: Deathwatch",
+      "Tacticus",
+      "Kill Team"
+    ]
+  },
+  {
+    "name": "Indomitor Kill Team",
+    "id": "6cb-912c-c43-210b",
+    "type": "unit",
+    "faction": "Deathwatch",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 250,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 10,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Auto boltstorm gauntlets",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Twin-linked"
+        },
+        {
+          "name": "Flamestorm gauntlets",
+          "Range": "12\"",
+          "A": "D6+1",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent, Twin-linked"
+        },
+        {
+          "name": "Deathwatch heavy bolt rifle",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Assault, Heavy, Lethal Hits"
+        },
+        {
+          "name": "Deathwatch heavy bolter",
+          "Range": "36\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Assault, Heavy, Lethal Hits, Sustained Hits 1"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Twin power fists",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Twin-linked"
+        },
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Indomitor Doctrines",
+        "description": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, or makes a melee attack in a turn in which it made a Charge move, improve the Strength characteristic of that attack by 2."
+      },
+      {
+        "name": "Attached Unit",
+        "description": "If a CHARACTER unit from your army can be attached to a HEAVY INTERCESSOR SQUAD, it can be attached to this unit instead."
+      }
+    ],
+    "special_rules": [
+      "Twin-linked",
+      "Ignores Cover",
+      "Torrent",
+      "Assault",
+      "Heavy",
+      "Lethal Hits",
+      "Sustained Hits",
+      "Mission Tactics",
+      "Oath of Moment"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Indomitor Kill Team",
+      "Gravis",
+      "Faction: Adeptus Astartes",
+      "Faction: Deathwatch",
+      "Kill Team"
+    ]
+  },
+  {
+    "name": "Spectrus Kill Team",
+    "id": "2544-5189-7806-30f3",
+    "type": "unit",
+    "faction": "Deathwatch",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 180,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Deathwatch marksman bolt carbine",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Heavy, Lethal Hits"
+        },
+        {
+          "name": "Deathwatch occulus bolt carbine",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Assault, Ignores Cover, Lethal Hits"
+        },
+        {
+          "name": "Special-issue bolt pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Pistol, Precision"
+        },
+        {
+          "name": "Deathwatch Bolt carbine",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Lethal Hits, Precision"
+        },
+        {
+          "name": "Instigator bolt carbine",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Heavy"
+        },
+        {
+          "name": "Bolt sniper rifle",
+          "Range": "36\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Heavy, Precision"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Paired combat blades",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Sustained Hits 1"
+        },
+        {
+          "name": "Combat knife",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Precision"
+        },
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Attached Unit",
+        "description": "If a CHARACTER from your army with the Leader ability can be attached to an INFILTRATOR SQUAD, it can be attached to this unit instead. \nIf this unit has a Leader unit attached to it during the Declare Battle Formations step, that Leader unit gains the Infiltrators and Scouts 6\" abilities."
+      },
+      {
+        "name": "Spectrus Doctrines",
+        "description": "At the end of your opponent’s turn, if this unit is more than 6\" away from all enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves."
+      },
+      {
+        "name": "Helix Gauntlet",
+        "description": "Models in the bearer’s unit have the Feel No Pain 6+ ability."
+      },
+      {
+        "name": "Infiltrator Comms Array",
+        "description": "Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+      },
+      {
+        "name": "Instigator Bolt Carbine",
+        "description": "In your Shooting phase, after the bearer’s unit has shot, the bearer’s unit can make a Normal move. If it does, until the end of the turn, the bearer’s unit is not eligible to declare a charge."
+      }
+    ],
+    "special_rules": [
+      "Heavy",
+      "Lethal Hits",
+      "Assault",
+      "Ignores Cover",
+      "Sustained Hits",
+      "Pistol",
+      "Precision",
+      "Scouts 6\"",
+      "Infiltrators",
+      "Mission Tactics",
+      "Oath of Moment"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Smoke",
+      "Spectrus Kill Team",
+      "Kill Team",
+      "Faction: Adeptus Astartes",
+      "Faction: Deathwatch",
+      "Phobos"
+    ]
+  },
+  {
+    "name": "Talonstrike Kill Team",
+    "id": "c679-f252-32b1-ebcc",
+    "type": "unit",
+    "faction": "Deathwatch",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 275,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Assault bolters",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Assault, Pistol, Sustained Hits 2, Twin-linked"
+        },
+        {
+          "name": "➤ Plasma exterminators - standard",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Assault, Pistol, Twin-linked"
+        },
+        {
+          "name": "➤ Plasma exterminators - supercharge",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Assault, Hazardous, Pistol, Twin-linked"
+        },
+        {
+          "name": "➤ Plasma pistol - Standard",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Pistol"
+        },
+        {
+          "name": "➤ Plasma pistol - Supercharge",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Hazardous, Pistol"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Power weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Talonstrike Doctrines",
+        "description": "Each time this unit is set up on the battlefield, until the end of the turn:\n- Improve the Armour Penetration characteristic of weapons equipped by models in this unit by 1. \n- Melee weapons equipped by models in this unit have the [LANCE] ability."
+      },
+      {
+        "name": "Attached Unit",
+        "description": "If a CHARACTER unit from your army with the Leader ability can be attached to an ASSAULT INTERCESSORS WITH JUMP PACKS unit, it can be attached to this unit instead."
+      }
+    ],
+    "special_rules": [
+      "Assault",
+      "Twin-linked",
+      "Sustained Hits",
+      "Pistol",
+      "Hazardous",
+      "Oath of Moment",
+      "Deep Strike",
+      "Mission Tactics"
+    ],
+    "keywords": [
+      "Faction: Adeptus Astartes",
+      "Faction: Deathwatch",
+      "Infantry",
+      "Fly",
+      "Jump Pack",
+      "Grenades",
+      "Imperium",
+      "Kill Team",
+      "Talonstrike Kill Team"
+    ]
+  },
+  {
+    "name": "Kill Team Sergeant",
+    "id": "ab41-fdc1-8d0f-bb74",
+    "type": "model",
+    "faction": "Deathwatch",
+    "faction_type": "Imperium",
+    "points": {
+      "base": null,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "➤ Plasma pistol - Standard",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Pistol"
+        },
+        {
+          "name": "➤ Plasma pistol - Supercharge",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Hazardous, Pistol"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Power weapon",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Sustained Hits 1"
+        }
+      ]
+    },
+    "abilities": [],
+    "special_rules": [],
+    "keywords": [
+      "Tacticus"
+    ]
+  },
+  {
+    "name": "Deathwatch Veteran w/ stalker bolt rifle",
+    "id": "9ae9-4f7e-a148-cbfa",
+    "type": "model",
+    "faction": "Deathwatch",
+    "faction_type": "Imperium",
+    "points": {
+      "base": null,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Stalker bolt rifle",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Heavy, Lethal Hits, Precision"
+        },
+        {
+          "name": "Bolt pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol, Lethal Hits"
+        },
+        {
+          "name": "➤ Plasma incinerator - Standard",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Assault, Heavy"
+        },
+        {
+          "name": "➤ Plasma incinerator - Supercharge",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Assault, Hazardous, Heavy"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [],
+    "special_rules": [
+      "Heavy",
+      "Lethal Hits",
+      "Precision"
+    ],
+    "keywords": [
+      "Tacticus"
+    ]
+  },
+  {
+    "name": "Deathwatch Veteran w/ heavy thunder hammer",
+    "id": "2537-956c-98c0-bffb",
+    "type": "model",
+    "faction": "Deathwatch",
+    "faction_type": "Imperium",
+    "points": {
+      "base": null,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Bolt pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol, Lethal Hits"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Heavy thunder hammer",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "10",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Devastating Wounds"
+        },
+        {
+          "name": "Power weapon",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Sustained Hits 1"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Astartes shield",
+        "description": "The bearer has a 4+ invulnerable save."
+      }
+    ],
+    "special_rules": [
+      "Devastating Wounds"
+    ],
+    "keywords": [
+      "Tacticus"
+    ]
+  },
+  {
+    "name": "Deathwatch Veteran w/ carbine",
+    "id": "8778-e3cb-2c6f-b23d",
+    "type": "model",
+    "faction": "Deathwatch",
+    "faction_type": "Imperium",
+    "points": {
+      "base": null,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Deathwatch marksman bolt carbine",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Heavy, Lethal Hits"
+        },
+        {
+          "name": "Special-issue bolt pistol",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Pistol, Precision, Lethal Hits"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Combat knife",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Precision"
+        },
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [],
+    "special_rules": [
+      "Heavy",
+      "Lethal Hits",
+      "Precision"
+    ],
+    "keywords": [
+      "Tacticus"
+    ]
+  },
+  {
+    "name": "Gravis Veteran w/ infernus heavy bolter",
+    "id": "550a-f5c4-d6a9-a09e",
+    "type": "model",
+    "faction": "Deathwatch",
+    "faction_type": "Imperium",
+    "points": {
+      "base": null,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Frag cannon",
+          "Range": "18\"",
+          "A": "D3",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Blast, Heavy, Lethal Hits, Rapid Fire D3"
+        },
+        {
+          "name": "Hellstorm bolt rifle",
+          "Range": "30\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Assault, Heavy, Lethal Hits"
+        },
+        {
+          "name": "➤ Astartes grenade launcher - frag",
+          "Range": "24\"",
+          "A": "D3",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "➤ Astartes grenade launcher - krak",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Infernus heavy bolter - heavy bolter",
+          "Range": "36\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Sustained Hits 1"
+        },
+        {
+          "name": "➤ Infernus heavy bolter - heavy flamer",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent"
+        },
+        {
+          "name": "Bolt pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol, Lethal Hits"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [],
+    "special_rules": [
+      "Lethal Hits",
+      "Blast",
+      "Heavy",
+      "Rapid Fire",
+      "Assault",
+      "Sustained Hits",
+      "Torrent",
+      "Ignores Cover"
+    ],
+    "keywords": [
+      "Gravis"
+    ]
+  }
+]

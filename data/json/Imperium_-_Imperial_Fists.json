@@ -1,0 +1,245 @@
+[
+  {
+    "name": "Darnath Lysander",
+    "id": "eecd-6976-6410-1e42",
+    "type": "model",
+    "faction": "Imperial Fists",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 100,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "Invulnerable Save",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Fist of Dorn",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "10",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Devastating Wounds"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Icon of Obstinacy",
+        "description": "Each time an attack targets this model's unit, if the Strength characteristic of that attack is greater than or equal to the Toughness characteristic of that unit, subtract 1 from the Wound roll."
+      },
+      {
+        "name": "Rampart",
+        "description": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 2+ invulnerable save."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n\n- Terminator Assault Squad\n- Terminator Squad"
+      },
+      {
+        "name": "Inspiring Commander",
+        "description": "‘If you include this model in your army, until the end of the battle, non-Character models in Terminator Assault Squad and Terminator Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Deep Strike",
+      "Oath of Moment",
+      "Devastating Wounds"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Imperium",
+      "Terminator",
+      "Faction: Adeptus Astartes",
+      "Faction: Imperial Fists",
+      "Darnath Lysander"
+    ]
+  },
+  {
+    "name": "Tor Garadon",
+    "id": "5936-83d6-4e30-915c",
+    "type": "model",
+    "faction": "Imperial Fists",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 90,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "Invulnerable Save",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Artificer Grav Gun",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Anti-vehicle 2+"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Hand of Defiance",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "12",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Signum Array",
+        "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+      },
+      {
+        "name": "Siege Captain",
+        "description": "Each time this model makes an attack that targets a Monster, Vehicle, or Fortification unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 2."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n\n- Aggressor Squad\n- Eradicator Squad\n- Heavy Intercessor Squad"
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Oath of Moment",
+      "Anti-"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Gravis",
+      "Tor Garadon",
+      "Faction: Adeptus Astartes",
+      "Imperium",
+      "Faction: Imperial Fists"
+    ]
+  },
+  {
+    "name": "Pedro Kantor",
+    "id": "59e3-5a97-f36d-5b94",
+    "type": "model",
+    "faction": "Imperial Fists",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 90,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "Invulnerable Save",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Dorn's Arrow",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Rapid Fire 2, Sustained Hits 1"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Fist of Retribution",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Oath of Rynn",
+        "description": "Once per battle, at the start of either player’s Command phase, this model can use this ability. When it does, until the end of the turn, add 1 to the Attacks characteristic of weapons equipped by models in this model’s unit."
+      },
+      {
+        "name": "To the Last",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Below Half-strength."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n\n- Company Heroes\n- Bladeguard Veteran Squad\n- Sternguard Veteran Squad\n- Tactical Squad"
+      },
+      {
+        "name": "Inspiring Commander",
+        "description": "If you include this model in your army, until the end of the battle, non-Character models in Sternguard\nVeteran Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+      }
+    ],
+    "special_rules": [
+      "Feel No Pain 6+",
+      "Oath of Moment",
+      "Leader",
+      "Rapid Fire",
+      "Sustained Hits"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Chapter Master",
+      "Faction: Adeptus Astartes",
+      "Faction: Imperial Fists",
+      "Pedro Kantor"
+    ]
+  }
+]
