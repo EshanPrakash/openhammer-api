@@ -366,10 +366,10 @@ Both ranged and melee weapons follow a consistent structure:
 
 ---
 
----
-
 ## License
 
 MIT License - see LICENSE file.
 
-All Warhammer 40,000 content is property of Games Workshop.
+All Warhammer 40,000 content is property of Games Workshop. 
+
+Unit data sourced from [BSData/wh40k-10e](https://github.com/BSData/wh40k-10e).
