@@ -2,9 +2,9 @@
 
 REST API for Warhammer 40,000 10th Edition unit data. 1,285 units across 35 factions.
 
-**Live API**: https://openhammer-api.onrender.com
+**Live API**: https://openhammer-api-production.up.railway.app
 
-**Interactive Docs**: https://openhammer-api.onrender.com/docs
+**Interactive Docs**: https://openhammer-api-production.up.railway.app/docs
 
 ## Table of Contents
 - [Usage](#usage)
@@ -18,52 +18,52 @@ REST API for Warhammer 40,000 10th Edition unit data. 1,285 units across 35 fact
 
 ## Usage
 
-The API is live at **https://openhammer-api.onrender.com**
+The API is live at **https://openhammer-api-production.up.railway.app**
 
 ### Python
 ```python
 import requests
 
 # Get all factions
-response = requests.get('https://openhammer-api.onrender.com/factions')
+response = requests.get('https://openhammer-api-production.up.railway.app/factions')
 factions = response.json()
 
 # Search for Space Marine units
-response = requests.get('https://openhammer-api.onrender.com/units?name=Marine&limit=10')
+response = requests.get('https://openhammer-api-production.up.railway.app/units?name=Marine&limit=10')
 units = response.json()
 
 # Get random unit
-response = requests.get('https://openhammer-api.onrender.com/units/random')
+response = requests.get('https://openhammer-api-production.up.railway.app/units/random')
 random_unit = response.json()
 ```
 
 ### JavaScript
 ```javascript
 // Get API statistics
-fetch('https://openhammer-api.onrender.com/stats')
+fetch('https://openhammer-api-production.up.railway.app/stats')
   .then(res => res.json())
   .then(data => console.log(data));
 
 // Search Necrons units
-const response = await fetch('https://openhammer-api.onrender.com/units?faction=Necrons');
+const response = await fetch('https://openhammer-api-production.up.railway.app/units?faction=Necrons');
 const units = await response.json();
 ```
 
 ### curl
 ```bash
 # Get all factions
-curl https://openhammer-api.onrender.com/factions
+curl https://openhammer-api-production.up.railway.app/factions
 
 # Search for Terminator units
-curl https://openhammer-api.onrender.com/units?name=Terminator
+curl https://openhammer-api-production.up.railway.app/units?name=Terminator
 
 # Get faction details
-curl https://openhammer-api.onrender.com/factions/Necrons/details
+curl https://openhammer-api-production.up.railway.app/factions/Necrons/details
 ```
 
 ### Interactive Testing
 
-Visit **https://openhammer-api.onrender.com/docs** to:
+Visit **https://openhammer-api-production.up.railway.app/docs** to:
 - Browse all 29 endpoints
 - Try requests directly in your browser
 - See example responses
@@ -193,25 +193,25 @@ Titanicus (shared between Imperium and Chaos), Unaligned Forces
 
 ```bash
 # Get all Chaos units with invulnerable saves
-curl 'https://openhammer-api.onrender.com/units?faction_type=Chaos&has_invuln=true'
+curl 'https://openhammer-api-production.up.railway.app/units?faction_type=Chaos&has_invuln=true'
 
 # Get most expensive units across all factions
-curl 'https://openhammer-api.onrender.com/units?sort_by=-points&limit=10'
+curl 'https://openhammer-api-production.up.railway.app/units?sort_by=-points&limit=10'
 
 # Get cheapest Imperium units
-curl 'https://openhammer-api.onrender.com/units?faction_type=Imperium&sort_by=points&limit=20'
+curl 'https://openhammer-api-production.up.railway.app/units?faction_type=Imperium&sort_by=points&limit=20'
 
 # Search for bolter weapons
-curl 'https://openhammer-api.onrender.com/weapons/search/bolter'
+curl 'https://openhammer-api-production.up.railway.app/weapons/search/bolter'
 
 # Get faction details for Necrons
-curl 'https://openhammer-api.onrender.com/factions/Necrons/details'
+curl 'https://openhammer-api-production.up.railway.app/factions/Necrons/details'
 
 # Get stats for all Infantry units
-curl 'https://openhammer-api.onrender.com/bulk/stats/by-keyword?keyword=Infantry'
+curl 'https://openhammer-api-production.up.railway.app/bulk/stats/by-keyword?keyword=Infantry'
 
 # Get comprehensive Imperium statistics
-curl 'https://openhammer-api.onrender.com/bulk/stats/by-faction-type?faction_type=Imperium'
+curl 'https://openhammer-api-production.up.railway.app/bulk/stats/by-faction-type?faction_type=Imperium'
 ```
 
 ### Main Search Endpoint
