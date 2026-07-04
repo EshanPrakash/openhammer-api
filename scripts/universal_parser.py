@@ -321,7 +321,11 @@ def extract_faction(catalogue_name):
     """Extract faction name from catalogue name"""
     if ' - ' in catalogue_name:
         parts = catalogue_name.split(' - ')
-        return parts[-1].strip()
+        faction = parts[-1].strip()
+        if faction == 'Library':
+            faction = parts[-2].strip()
+        faction = re.sub(r'\s+Library$', '', faction)
+        return faction
     return catalogue_name.strip()
 
 def get_output_filename(catalogue_file):

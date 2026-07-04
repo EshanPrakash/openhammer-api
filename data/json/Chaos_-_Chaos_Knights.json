@@ -3,7 +3,7 @@
     "name": "War Dog Executioner",
     "id": "8df0-fc3c-8ced-ffce",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 130,
@@ -96,7 +96,7 @@
     "name": "War Dog Stalker",
     "id": "bbc6-c0ed-24e8-86b7",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 140,
@@ -220,7 +220,7 @@
     "name": "War Dog Karnivore",
     "id": "e96b-ac98-7fd2-a155",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 150,
@@ -314,7 +314,7 @@
     "name": "War Dog Brigand",
     "id": "753d-4e02-eda3-4809",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 140,
@@ -417,7 +417,7 @@
     "name": "War Dog Huntsman",
     "id": "6e6d-7950-ce6d-4cd4",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 140,
@@ -520,7 +520,7 @@
     "name": "Knight Despoiler",
     "id": "0119-8c04-435e-c782",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 390,
@@ -723,7 +723,7 @@
     "name": "Knight Desecrator",
     "id": "7a51-8f1f-7290-d9d2",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 355,
@@ -848,7 +848,7 @@
     "name": "Knight Rampager",
     "id": "61e0-e55b-1926-44df",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 365,
@@ -963,7 +963,7 @@
     "name": "Knight Abominant",
     "id": "a78d-828b-302b-1bec",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 355,
@@ -1073,7 +1073,7 @@
     "name": "Knight Tyrant",
     "id": "87ea-c7bd-6df0-f056",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 410,
@@ -1241,7 +1241,7 @@
     "name": "Chaos Acastus Knight Asterius",
     "id": "e289-ad32-c78a-e055",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 765,
@@ -1344,7 +1344,7 @@
     "name": "Chaos Acastus Knight Porphyrion",
     "id": "fe77-6f85-5ddb-65bf",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 700,
@@ -1466,7 +1466,7 @@
     "name": "Chaos Cerastus Knight Lancer",
     "id": "4175-82c6-8e96-bef8",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 385,
@@ -1563,7 +1563,7 @@
     "name": "Chaos Cerastus Knight Castigator",
     "id": "b6e5-911b-93f-476",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 385,
@@ -1658,7 +1658,7 @@
     "name": "Chaos Cerastus Knight Acheron",
     "id": "ec6e-d1d6-f7c6-d008",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 385,
@@ -1767,7 +1767,7 @@
     "name": "Chaos Cerastus Knight Atrapos",
     "id": "8b1d-9029-f9e1-42d9",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 395,
@@ -1896,7 +1896,7 @@
     "name": "Chaos Questoris Knight Magaera",
     "id": "2d0e-5b83-b678-56dc",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 375,
@@ -2034,7 +2034,7 @@
     "name": "Chaos Questoris Knight Styrix",
     "id": "106c-4bdf-79a4-1c70",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 375,
@@ -2177,7 +2177,7 @@
     "name": "War Dog Moirax",
     "id": "ae7c-3679-a88-6895",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 150,
@@ -2307,7 +2307,7 @@
     "name": "Knight Ruinator",
     "id": "c0a2-eb65-6d34-5bc6",
     "type": "model",
-    "faction": "Chaos Knights Library",
+    "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
       "base": 355,

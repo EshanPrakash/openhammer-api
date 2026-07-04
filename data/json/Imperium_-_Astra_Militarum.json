@@ -3,7 +3,7 @@
     "name": "Aegis Defence Line",
     "id": "cb99-456-f100-40ed",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 145,
@@ -57,7 +57,7 @@
     "name": "Armoured Sentinels",
     "id": "7e34-20cf-1149-74a1",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 65,
@@ -217,7 +217,7 @@
     "name": "Baneblade",
     "id": "a6a1-1612-f982-31",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 450,
@@ -337,7 +337,7 @@
     "name": "Banehammer",
     "id": "d10-48db-3241-ec72",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 420,
@@ -432,7 +432,7 @@
     "name": "Banesword",
     "id": "30f5-d90a-9811-d763",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 450,
@@ -522,7 +522,7 @@
     "name": "Basilisk",
     "id": "bf53-4ab3-ff75-9aa0",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 140,
@@ -593,7 +593,7 @@
     "name": "Cadian Castellan",
     "id": "2b49-4d03-aaf5-3532",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 55,
@@ -742,7 +742,7 @@
     "name": "Cadian Command Squad",
     "id": "4d28-f2a7-67c1-eb2e",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 65,
@@ -949,7 +949,7 @@
     "name": "Chimera",
     "id": "cf23-58db-8ba4-9ec8",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 85,
@@ -1081,7 +1081,7 @@
     "name": "Commissar",
     "id": "a979-5b21-dc69-b949",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 30,
@@ -1190,7 +1190,7 @@
     "name": "Deathstrike",
     "id": "e19f-b9b8-75d5-8520",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 145,
@@ -1262,7 +1262,7 @@
     "name": "Doomhammer",
     "id": "8342-57dd-69d3-e698",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 415,
@@ -1355,7 +1355,7 @@
     "name": "Gaunt’s Ghosts",
     "id": "653d-80-d715-7d55",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 100,
@@ -1514,7 +1514,7 @@
     "name": "Hellhammer",
     "id": "8277-6399-5d74-760d",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 420,
@@ -1635,7 +1635,7 @@
     "name": "Hellhound",
     "id": "c28b-c3af-38b2-8865",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 125,
@@ -1771,7 +1771,7 @@
     "name": "Hydra",
     "id": "4967-19b6-1e2a-a300",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 95,
@@ -1841,7 +1841,7 @@
     "name": "‘Iron Hand’ Straken [Legends]",
     "id": "913f-3cb6-fb80-7f6a",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 55,
@@ -1944,7 +1944,7 @@
     "name": "Lord Solar Leontus",
     "id": "a9d-55c1-3d24-fa25",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 130,
@@ -2039,7 +2039,7 @@
     "name": "Manticore",
     "id": "41be-48c9-5476-f47a",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 165,
@@ -2112,7 +2112,7 @@
     "name": "Militarum Tempestus Command Squad",
     "id": "497-36ad-8ecb-f7c7",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 85,
@@ -2319,7 +2319,7 @@
     "name": "Nork Deddog",
     "id": "bcda-f4bb-e726-9bfe",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 60,
@@ -2395,7 +2395,7 @@
     "name": "Ogryn Bodyguard",
     "id": "a7c2-1534-93b0-c0eb",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 40,
@@ -2511,7 +2511,7 @@
     "name": "Primaris Psyker",
     "id": "4ad0-e988-a513-9530",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 60,
@@ -2617,7 +2617,7 @@
     "name": "Regimental Attachés [Legends]",
     "id": "5da1-9869-294e-8187",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 40,
@@ -2707,7 +2707,7 @@
     "name": "Tech-Priest Enginseer",
     "id": "f556-a33d-dc90-d6fc",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 45,
@@ -2804,7 +2804,7 @@
     "name": "Rogal Dorn Battle Tank",
     "id": "2127-efcc-1f62-7fab",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 260,
@@ -2952,7 +2952,7 @@
     "name": "Scout Sentinels",
     "id": "4424-a6ec-6d9e-a936",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 55,
@@ -3113,7 +3113,7 @@
     "name": "Sergeant Harker [Legends]",
     "id": "a8d5-81f9-96a0-fd12",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 40,
@@ -3196,7 +3196,7 @@
     "name": "Shadowsword",
     "id": "1b48-2f2-8e9c-1308",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 410,
@@ -3287,7 +3287,7 @@
     "name": "Sly Marbo",
     "id": "4d50-e535-616a-259c",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 55,
@@ -3366,7 +3366,7 @@
     "name": "Stormlord",
     "id": "892b-678c-72e6-ee58",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 430,
@@ -3467,7 +3467,7 @@
     "name": "Stormsword",
     "id": "67bc-a760-7ed5-9952",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 465,
@@ -3567,7 +3567,7 @@
     "name": "Leman Russ Commander",
     "id": "5430-18e-d7b0-1d54",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 235,
@@ -3802,7 +3802,7 @@
     "name": "Taurox",
     "id": "11e5-d4ab-d140-ac38",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 75,
@@ -3881,7 +3881,7 @@
     "name": "Taurox Prime",
     "id": "4b67-f814-358e-f776",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 90,
@@ -4015,7 +4015,7 @@
     "name": "Ursula Creed",
     "id": "b6b2-9971-ec0c-349e",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 85,
@@ -4094,7 +4094,7 @@
     "name": "Valkyrie",
     "id": "9665-3160-8a04-d2bc",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 190,
@@ -4208,7 +4208,7 @@
     "name": "Wyvern",
     "id": "d11b-c49d-41bf-1f36",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 110,
@@ -4281,7 +4281,7 @@
     "name": "Death Riders",
     "id": "f1a-7c78-ffdc-bf5b",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 60,
@@ -4372,7 +4372,7 @@
     "name": "Carnodon [Legends]",
     "id": "173e-ddd1-354c-583b",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 160,
@@ -4542,7 +4542,7 @@
     "name": "Cyclops Demolition Vehicle",
     "id": "95b4-68d6-26cf-188e",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 25,
@@ -4594,7 +4594,7 @@
     "name": "Malcador [Legends]",
     "id": "f706-c35a-a325-38bf",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 250,
@@ -4723,7 +4723,7 @@
     "name": "Malcador Annihilator [Legends]",
     "id": "bc69-45ff-789c-90bb",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 270,
@@ -4863,7 +4863,7 @@
     "name": "Malcador Defender [Legends]",
     "id": "a185-ae7a-4503-8ceb",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 310,
@@ -4992,7 +4992,7 @@
     "name": "Malcador Infernus [Legends]",
     "id": "5e59-657b-5c85-1d92",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 235,
@@ -5132,7 +5132,7 @@
     "name": "Medusa Carriage Battery [Legends]",
     "id": "60c8-fd76-c98b-304a",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 125,
@@ -5205,7 +5205,7 @@
     "name": "Earthshaker Carriage Battery [Legends]",
     "id": "efc7-ac4c-1fcd-5b39",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 120,
@@ -5276,7 +5276,7 @@
     "name": "Stormblade [Legends]",
     "id": "a93c-9d4b-8fd9-15b4",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 415,
@@ -5416,7 +5416,7 @@
     "name": "Macharius [Legends]",
     "id": "d7a-7abb-831b-1c67",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 310,
@@ -5546,7 +5546,7 @@
     "name": "Macharius Vanquisher [Legends]",
     "id": "731f-e022-6394-3690",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 285,
@@ -5676,7 +5676,7 @@
     "name": "Macharius Vulcan [Legends]",
     "id": "e951-f9f2-3dd4-d5b8",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 310,
@@ -5805,7 +5805,7 @@
     "name": "Praetor [Legends]",
     "id": "247-2938-79b6-ff4b",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 275,
@@ -5918,7 +5918,7 @@
     "name": "Crassus [Legends]",
     "id": "c7cc-ad05-15f6-a4f3",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 180,
@@ -6007,7 +6007,7 @@
     "name": "Colossus [Legends]",
     "id": "1653-dc47-25b-c71f",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 160,
@@ -6108,7 +6108,7 @@
     "name": "Valdor [Legends]",
     "id": "3936-a532-dc5e-8498",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 285,
@@ -6246,7 +6246,7 @@
     "name": "Avenger Strike Fighter",
     "id": "532c-2c97-357a-fa1e",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 130,
@@ -6335,7 +6335,7 @@
     "name": "Voss-pattern Lightning [Legends]",
     "id": "ed3d-fa87-4f0d-d10c",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 130,
@@ -6415,7 +6415,7 @@
     "name": "Vulture Gunship [Legends]",
     "id": "739e-cb18-c050-fca1",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 225,
@@ -6519,7 +6519,7 @@
     "name": "Marauder Bomber [Legends]",
     "id": "7f1f-38c8-1bdc-55d7",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 345,
@@ -6606,7 +6606,7 @@
     "name": "Marauder Destroyer [Legends]",
     "id": "18f9-56ec-7334-69a7",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 375,
@@ -6713,7 +6713,7 @@
     "name": "Tarantula Battery [Legends]",
     "id": "1502-bae3-93b4-c89a",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 40,
@@ -6791,7 +6791,7 @@
     "name": "Rapier Laser Destroyer Battery [Legends]",
     "id": "31ec-a804-92ad-97",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 35,
@@ -6861,7 +6861,7 @@
     "name": "Hades Breaching Drill [Legends]",
     "id": "ed8d-9053-9d33-61da",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 110,
@@ -6916,7 +6916,7 @@
     "name": "Trojan Support Vehicle [Legends]",
     "id": "fbaf-15f6-37d8-c5b",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 80,
@@ -7004,7 +7004,7 @@
     "name": "Valkyrie Sky Talon [Legends]",
     "id": "f8cc-73b7-6caa-f741",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 185,
@@ -7094,7 +7094,7 @@
     "name": "Aquila Lander [Legends]",
     "id": "b44d-ecac-2542-e584",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 120,
@@ -7184,7 +7184,7 @@
     "name": "Dominus Armoured Siege Bombard [Legends]",
     "id": "fc41-a899-8d5a-dc01",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 325,
@@ -7324,7 +7324,7 @@
     "name": "Gorgon Heavy Transport [Legends]",
     "id": "5d8e-2b2a-6ed1-8309",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 275,
@@ -7450,7 +7450,7 @@
     "name": "Death Korps Grenadier Squad [Legends]",
     "id": "8a25-2a0c-87d2-3ea6",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 110,
@@ -7636,7 +7636,7 @@
     "name": "Centaur Light Carrier [Legends]",
     "id": "81d4-2ed9-b0a4-6bdd",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 40,
@@ -7715,7 +7715,7 @@
     "name": "Macharius Omega [Legends]",
     "id": "4b76-f049-77b1-38bf",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 310,
@@ -7846,7 +7846,7 @@
     "name": "Stygies Destroyer Tank Hunter [Legends]",
     "id": "28d1-70b2-70be-c998",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 180,
@@ -7944,7 +7944,7 @@
     "name": "Rein and Raus [Legends]",
     "id": "7d5b-1aae-55-2f5b",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 50,
@@ -8039,7 +8039,7 @@
     "name": "Quartermaster Cadre Squad [Legends]",
     "id": "1d02-5302-f162-65d6",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 45,
@@ -8133,7 +8133,7 @@
     "name": "Atlas Recovery Vehicle [Legends]",
     "id": "9673-7eaa-8ed9-bc7c",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 80,
@@ -8231,7 +8231,7 @@
     "name": "Sabre Weapons Battery [Legends]",
     "id": "3597-3243-6870-70a1",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 45,
@@ -8334,7 +8334,7 @@
     "name": "Elysian Drop Sentinel [Legends]",
     "id": "badd-6133-a469-613c",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 85,
@@ -8435,7 +8435,7 @@
     "name": "Elysian Sniper Squad [Legends]",
     "id": "d4da-78a0-ef0-1e7e",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 65,
@@ -8517,7 +8517,7 @@
     "name": "Heavy Mortar Team [Legends]",
     "id": "e184-bfe9-ea12-a5e3",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 50,
@@ -8589,7 +8589,7 @@
     "name": "Armageddon-pattern Medusa [Legends]",
     "id": "a96a-83e1-9200-c88b",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 105,
@@ -8711,7 +8711,7 @@
     "name": "Heavy Quad Launcher Team [Legends]",
     "id": "5762-f71e-7693-49a6",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 50,
@@ -8782,7 +8782,7 @@
     "name": "Arvus Lighter [Legends]",
     "id": "8b13-7c06-de12-4227",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 95,
@@ -8841,7 +8841,7 @@
     "name": "Vendetta Gunship [Legends]",
     "id": "4946-40d2-ee8b-a71c",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 255,
@@ -8932,7 +8932,7 @@
     "name": "Minotaur [Legends]",
     "id": "92a9-a820-b7f-7dc2",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 225,
@@ -9005,7 +9005,7 @@
     "name": "Death Rider Commissar [Legends]",
     "id": "d58c-e97f-5062-d9e1",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 35,
@@ -9099,7 +9099,7 @@
     "name": "Sentinel Powerlifter [Legends]",
     "id": "8cc1-8512-710f-f15f",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 55,
@@ -9159,7 +9159,7 @@
     "name": "Manticore Platform [Legends]",
     "id": "adbb-4624-738f-61ec",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 95,
@@ -9232,7 +9232,7 @@
     "name": "Hydra Platform [Legends]",
     "id": "f46c-76ef-3d9c-98ea",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 95,
@@ -9305,7 +9305,7 @@
     "name": "Griffon Mortar Carrier [Legends]",
     "id": "7be8-bfe0-6416-8ed7",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 115,
@@ -9417,7 +9417,7 @@
     "name": "Earthshaker Platform [Legends]",
     "id": "cb82-5250-6959-d2c3",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 110,
@@ -9494,7 +9494,7 @@
     "name": "Salamander Scout Vehicle [Legends]",
     "id": "73b2-edbf-eec3-563d",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 95,
@@ -9603,7 +9603,7 @@
     "name": "Tauros Assault Vehicle [Legends]",
     "id": "6800-f1ce-7deb-d9eb",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 50,
@@ -9703,7 +9703,7 @@
     "name": "Tauros Venator [Legends]",
     "id": "a95f-9dd6-de66-fa59",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 50,
@@ -9792,7 +9792,7 @@
     "name": "Salamander Command Vehicle [Legends]",
     "id": "9fb1-876b-ac2d-6c9b",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 80,
@@ -9900,7 +9900,7 @@
     "name": "Arkurian Stormhammer [Legends]",
     "id": "59c4-e4de-fe70-b221",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 480,
@@ -10050,7 +10050,7 @@
     "name": "Storm Chimera [Legends]",
     "id": "b6a7-4d64-1155-70c1",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 90,
@@ -10171,7 +10171,7 @@
     "name": "Tempestus Aquilons",
     "id": "aa9f-f137-1638-0369",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 100,
@@ -10375,7 +10375,7 @@
     "name": "Ratlings",
     "id": "8293-a070-2c87-de30",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 60,
@@ -10469,7 +10469,7 @@
     "name": "Krieg Command Squad",
     "id": "fbcd-274b-0196-b4f6",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 65,
@@ -10708,7 +10708,7 @@
     "name": "Lord Marshal Dreir",
     "id": "9033-d07c-3e1c-f6f0",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 100,
@@ -10802,7 +10802,7 @@
     "name": "Catachan Command Squad",
     "id": "7d22-9fb6-a7e0-c21b",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 65,
@@ -11041,7 +11041,7 @@
     "name": "Rogal Dorn Commander",
     "id": "78b6-f280-bba9-0594",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 290,
@@ -11196,7 +11196,7 @@
     "name": "Ministorum Priest",
     "id": "ba72-7b05-33c9-a1c0",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 35,
@@ -11300,7 +11300,7 @@
     "name": "Krieg Heavy Weapons Squad",
     "id": "1669-d311-eff9-243b",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 75,
@@ -11407,7 +11407,7 @@
     "name": "Artillery Team",
     "id": "0595-6d6c-a783-12ab",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 95,
@@ -11522,7 +11522,7 @@
     "name": "Provisionally Prepared [Legends]",
     "id": "f4d1-cea9-f487-4501",
     "type": "model",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 40,
@@ -11601,7 +11601,7 @@
     "name": "Hell's Last [Legends]",
     "id": "2408-cf76-fe11-c6da",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
       "base": 80,

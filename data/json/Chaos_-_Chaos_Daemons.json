@@ -3,7 +3,7 @@
     "name": "Skarbrand",
     "id": "7998-d0a-baa4-e8b3",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 305,
@@ -102,7 +102,7 @@
     "name": "Bloodthirster",
     "id": "a018-ca33-afd0-be83",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 305,
@@ -225,7 +225,7 @@
     "name": "Skulltaker",
     "id": "8872-785a-1efa-7ca1",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 85,
@@ -302,7 +302,7 @@
     "name": "Bloodmaster",
     "id": "ccae-b5f1-8787-4c7d",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 65,
@@ -377,7 +377,7 @@
     "name": "Skullmaster",
     "id": "dd30-ba4c-34a4-e788",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 100,
@@ -462,7 +462,7 @@
     "name": "Rendmaster on Blood Throne",
     "id": "d1cc-e17a-f1a1-4349",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 165,
@@ -545,7 +545,7 @@
     "name": "Karanak",
     "id": "8436-cec1-e65a-d1a7",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 75,
@@ -640,7 +640,7 @@
     "name": "Bloodletters",
     "id": "4ecc-6aa5-da28-2c57",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 110,
@@ -706,7 +706,7 @@
     "name": "Bloodcrushers",
     "id": "2f31-9132-b703-5fd8",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 110,
@@ -786,7 +786,7 @@
     "name": "Flesh Hounds",
     "id": "fd31-64a2-b20f-f0bc",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 75,
@@ -870,7 +870,7 @@
     "name": "Skull Cannon",
     "id": "fd37-8a80-3da8-f262",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 95,
@@ -959,7 +959,7 @@
     "name": "Skull Altar",
     "id": "464a-b548-355f-2058",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 105,
@@ -1012,7 +1012,7 @@
     "name": "Be'lakor",
     "id": "2c37-2898-8350-ef45",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 375,
@@ -1123,7 +1123,7 @@
     "name": "Daemon Prince of Chaos",
     "id": "497d-e065-f5a5-5e80",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 190,
@@ -1226,7 +1226,7 @@
     "name": "Daemon Prince of Chaos with wings",
     "id": "5800-3978-370d-b573",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 180,
@@ -1326,7 +1326,7 @@
     "name": "Kairos Fateweaver",
     "id": "6df5-f246-6bd-55b8",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 295,
@@ -1428,7 +1428,7 @@
     "name": "Lord of Change",
     "id": "3600-9f92-933-bf54",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 285,
@@ -1554,7 +1554,7 @@
     "name": "The Changeling",
     "id": "ac75-c011-9a10-2c4a",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 90,
@@ -1654,7 +1654,7 @@
     "name": "Fateskimmer",
     "id": "c199-b27c-7cc2-7935",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 95,
@@ -1766,7 +1766,7 @@
     "name": "Fluxmaster",
     "id": "eba5-8a7a-fc5b-d7ec",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 60,
@@ -1864,7 +1864,7 @@
     "name": "The Blue Scribes",
     "id": "caf1-8818-9e65-7154",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 75,
@@ -1936,7 +1936,7 @@
     "name": "Changecaster",
     "id": "8b7c-d709-90d4-298e",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 60,
@@ -2033,7 +2033,7 @@
     "name": "Blue Horrors",
     "id": "b795-b936-ad61-e407",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 125,
@@ -2142,7 +2142,7 @@
     "name": "Pink Horrors",
     "id": "e7b8-aa40-6da7-778e",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 140,
@@ -2267,7 +2267,7 @@
     "name": "Flamers",
     "id": "5f23-4d6-f2f9-5973",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 65,
@@ -2355,7 +2355,7 @@
     "name": "Exalted Flamer",
     "id": "de54-5b38-8ca1-c39c",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 65,
@@ -2457,7 +2457,7 @@
     "name": "Screamers",
     "id": "550b-c5ab-5e27-f59b",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 80,
@@ -2529,7 +2529,7 @@
     "name": "Burning Chariot",
     "id": "f6eb-b62f-5baf-d96d",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 115,
@@ -2629,7 +2629,7 @@
     "name": "Rotigus",
     "id": "cff8-7388-a2c9-946c",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 265,
@@ -2729,7 +2729,7 @@
     "name": "Great Unclean One",
     "id": "d490-6c4d-e83b-b183",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 250,
@@ -2863,7 +2863,7 @@
     "name": "Poxbringer",
     "id": "7b06-189d-b11e-c189",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 55,
@@ -2942,7 +2942,7 @@
     "name": "Spoilpox Scrivener",
     "id": "e7cd-468b-37dd-d82f",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 60,
@@ -3034,7 +3034,7 @@
     "name": "Epidemius",
     "id": "5851-dc90-9afe-76a7",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 80,
@@ -3110,7 +3110,7 @@
     "name": "Sloppity Bilepiper",
     "id": "3da0-5db0-7531-33b6",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 55,
@@ -3187,7 +3187,7 @@
     "name": "Horticulous Slimux",
     "id": "7151-238f-a6eb-2f94",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 120,
@@ -3276,7 +3276,7 @@
     "name": "Plaguebearers",
     "id": "d1eb-b092-d944-e729",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 110,
@@ -3343,7 +3343,7 @@
     "name": "Nurglings",
     "id": "e403-3a9-279e-41b7",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 40,
@@ -3416,7 +3416,7 @@
     "name": "Beasts of Nurgle",
     "id": "2de0-5897-f724-a592",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 65,
@@ -3484,7 +3484,7 @@
     "name": "Plague Drones",
     "id": "d620-146a-41cd-f28f",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 110,
@@ -3583,7 +3583,7 @@
     "name": "Feculent Gnarlmaw",
     "id": "13f0-d2b5-6201-ba84",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 100,
@@ -3637,7 +3637,7 @@
     "name": "Shalaxi Helbane",
     "id": "c49d-5ebc-4ee4-689e",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 340,
@@ -3759,7 +3759,7 @@
     "name": "Keeper of Secrets",
     "id": "a903-dd97-339d-6899",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 240,
@@ -3899,7 +3899,7 @@
     "name": "Infernal Enrapturess",
     "id": "2cc5-ef65-c4b9-28c6",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 60,
@@ -4000,7 +4000,7 @@
     "name": "The Masque of Slaanesh",
     "id": "1567-b99b-bd8f-d485",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 95,
@@ -4074,7 +4074,7 @@
     "name": "Syll'esske",
     "id": "27f6-d907-66f-ca28",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 120,
@@ -4200,7 +4200,7 @@
     "name": "Contorted Epitome",
     "id": "36df-8f40-8a6b-7d4c",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 100,
@@ -4292,7 +4292,7 @@
     "name": "Tormentbringer",
     "id": "673b-111b-6dcb-352",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 140,
@@ -4411,7 +4411,7 @@
     "name": "Tranceweaver",
     "id": "dba-34e3-46f2-56e0",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 60,
@@ -4490,7 +4490,7 @@
     "name": "Daemonettes",
     "id": "41c2-d2e6-ae43-3beb",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 100,
@@ -4558,7 +4558,7 @@
     "name": "Fiends",
     "id": "d1ee-8d05-4fae-1727",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 95,
@@ -4629,7 +4629,7 @@
     "name": "Seekers",
     "id": "112d-8078-777f-76a5",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 80,
@@ -4715,7 +4715,7 @@
     "name": "Hellflayers",
     "id": "e8d-bf22-b29-d20e",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 80,
@@ -4819,7 +4819,7 @@
     "name": "Seeker Chariot [Legends]",
     "id": "5fe1-5a7a-9f8e-21e0",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 65,
@@ -4912,7 +4912,7 @@
     "name": "Exalted Seeker Chariot [Legends]",
     "id": "7f62-6b3f-c4fe-b971",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 115,
@@ -5005,7 +5005,7 @@
     "name": "Giant Chaos Spawn [Legends]",
     "id": "2901-92bd-2f4-736d",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 130,
@@ -5080,7 +5080,7 @@
     "name": "Spined Chaos Beast [Legends]",
     "id": "da05-80d-6229-6e44",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 145,
@@ -5154,7 +5154,7 @@
     "name": "Pox Riders [Legends]",
     "id": "fd5b-9e27-797d-6a3a",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 160,
@@ -5248,7 +5248,7 @@
     "name": "Plague Toads [Legends]",
     "id": "a5c9-6285-af1e-3cc3",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 120,
@@ -5330,7 +5330,7 @@
     "name": "An'ggrath the Unbound [Legends]",
     "id": "5714-846a-d343-d1b4",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 415,
@@ -5424,7 +5424,7 @@
     "name": "Aetaos'rau'keres [Legends]",
     "id": "a44f-b07c-5a50-ff95",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 315,
@@ -5535,7 +5535,7 @@
     "name": "Scabeiathrax the Bloated [Legends]",
     "id": "e57d-435b-99da-d559",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 275,
@@ -5632,7 +5632,7 @@
     "name": "Zarakynel [Legends]",
     "id": "268e-459c-c6e8-7754",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 320,
@@ -5741,7 +5741,7 @@
     "name": "Herald of Slaanesh on Steed of Slaanesh [Legends]",
     "id": "b48f-f9b4-b47d-d181",
     "type": "model",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 70,
@@ -5834,7 +5834,7 @@
     "name": "Furies [Legends]",
     "id": "1b9e-e164-7a5a-c8b7",
     "type": "unit",
-    "faction": "Daemons Library",
+    "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
       "base": 40,

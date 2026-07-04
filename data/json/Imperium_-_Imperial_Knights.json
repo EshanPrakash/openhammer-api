@@ -3,7 +3,7 @@
     "name": "Canis Rex",
     "id": "55fb-9c91-1a4f-3037",
     "type": "unit",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 415,
@@ -144,7 +144,7 @@
     "name": "Armiger Warglaive",
     "id": "5bbd-c5d3-58d7-e391",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 140,
@@ -225,7 +225,7 @@
     "name": "Armiger Helverin",
     "id": "7314-3c4a-36ab-a594",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 135,
@@ -294,7 +294,7 @@
     "name": "Knight Paladin",
     "id": "8441-8356-5e7c-69ee",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 375,
@@ -375,7 +375,7 @@
     "name": "Knight Errant",
     "id": "9efd-ec72-353f-4b23",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 355,
@@ -443,7 +443,7 @@
     "name": "Knight Gallant",
     "id": "eb4-4a67-11e9-3cb8",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 355,
@@ -544,7 +544,7 @@
     "name": "Knight Warden",
     "id": "c609-c87e-f9dd-5006",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 375,
@@ -624,7 +624,7 @@
     "name": "Knight Crusader",
     "id": "1e27-a6de-3840-a050",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 385,
@@ -743,7 +743,7 @@
     "name": "Knight Preceptor",
     "id": "ebd9-7175-3f0c-72a9",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 365,
@@ -854,7 +854,7 @@
     "name": "Knight Castellan",
     "id": "6e36-f85-1c3b-8bf3",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 410,
@@ -964,7 +964,7 @@
     "name": "Knight Valiant",
     "id": "8fb9-50b2-adc6-161a",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 410,
@@ -1065,7 +1065,7 @@
     "name": "Acastus Knight Asterius",
     "id": "f8d0-fdf2-2e5e-3b74",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 765,
@@ -1164,7 +1164,7 @@
     "name": "Acastus Knight Porphyrion",
     "id": "61c9-8baf-22b4-5d84",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 700,
@@ -1283,7 +1283,7 @@
     "name": "Cerastus Knight Lancer",
     "id": "9ee-e289-bc6c-d943",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 395,
@@ -1376,7 +1376,7 @@
     "name": "Cerastus Knight Castigator",
     "id": "1654-5c17-474e-2d84",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 395,
@@ -1468,7 +1468,7 @@
     "name": "Cerastus Knight Acheron",
     "id": "11d3-167b-6dff-a4c2",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 395,
@@ -1578,7 +1578,7 @@
     "name": "Cerastus Knight Atrapos",
     "id": "37a7-d156-1e4c-8fe1",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 405,
@@ -1708,7 +1708,7 @@
     "name": "Questoris Knight Magaera",
     "id": "adfa-19fc-7337-7350",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 385,
@@ -1841,7 +1841,7 @@
     "name": "Questoris Knight Styrix",
     "id": "f8f3-a438-1212-93e8",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 385,
@@ -1975,7 +1975,7 @@
     "name": "Armiger Moirax",
     "id": "e3dd-7e90-140a-b3ab",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 150,
@@ -2102,7 +2102,7 @@
     "name": "Knight Defender",
     "id": "f12b-ca2a-9c87-79bb",
     "type": "model",
-    "faction": "Library",
+    "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
       "base": 415,
