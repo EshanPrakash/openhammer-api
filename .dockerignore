@@ -1,0 +1,10 @@
+venv/
+data/BSData/
+__pycache__/
+.git/
+*.pyc
+tests/
+scripts/
+.DS_Store
+*.md
+.env
