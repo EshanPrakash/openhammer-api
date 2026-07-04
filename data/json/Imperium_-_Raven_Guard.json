@@ -98,7 +98,7 @@
     "faction": "Raven Guard",
     "faction_type": "Imperium",
     "points": {
-      "base": 110,
+      "base": 85,
       "variants": []
     },
     "composition": {
@@ -108,9 +108,9 @@
     "stats": {
       "M": "14\"",
       "T": "4",
-      "SV": "3+",
+      "SV": "3",
       "W": "5",
-      "LD": "6+",
+      "LD": "6",
       "OC": "1"
     },
     "invuln_save": "4+",

@@ -297,7 +297,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Sustained Hits 1, Twin-linked"
+          "Keywords": "Sustained Hits, Twin-linked"
         }
       ],
       "melee": [
@@ -387,7 +387,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Sustained Hits 1, Twin-linked"
+          "Keywords": "Sustained Hits, Twin-linked"
         }
       ],
       "melee": [
@@ -482,7 +482,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Sustained Hits 1, Twin-linked"
+          "Keywords": "Sustained Hits, Twin-linked"
         }
       ],
       "melee": [
@@ -611,10 +611,20 @@
       "LD": "7+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
+        {
+          "name": "Boltgun",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 1"
+        },
         {
           "name": "Bolt pistol",
           "Range": "12\"",
@@ -654,19 +664,29 @@
           "AP": "-3",
           "D": "2",
           "Keywords": "Hazardous, Pistol"
-        },
-        {
-          "name": "Boltgun",
-          "Range": "24\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 1"
         }
       ],
       "melee": [
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Chainsword",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
         {
           "name": "Power fist",
           "Range": "Melee",
@@ -684,26 +704,6 @@
           "WS": "3+",
           "S": "4",
           "AP": "-2",
-          "D": "1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Chainsword",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "3+",
-          "S": "3",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Close combat weapon",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "3+",
-          "S": "3",
-          "AP": "0",
           "D": "1",
           "Keywords": "-"
         }
@@ -725,6 +725,7 @@
     ],
     "special_rules": [
       "Leader",
+      "Rapid Fire",
       "Voice Of Command"
     ],
     "keywords": [
@@ -735,6 +736,9 @@
       "Character",
       "Officer",
       "Grenades",
+      "Melee Weapon",
+      "Ranged Weapon",
+      "Melee Weapon",
       "Melee Weapon"
     ]
   },
@@ -1099,7 +1103,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1138,7 +1142,7 @@
         {
           "name": "Power weapon",
           "Range": "Melee",
-          "A": "3",
+          "A": "4",
           "WS": "3+",
           "S": "4",
           "AP": "-2",
@@ -1312,7 +1316,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Sustained Hits 1, Twin-linked"
+          "Keywords": "Sustained Hits, Twin-linked"
         }
       ],
       "melee": [
@@ -1594,7 +1598,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Sustained Hits 1, Twin-linked"
+          "Keywords": "Sustained Hits, Twin-linked"
         }
       ],
       "melee": [
@@ -1859,7 +1863,7 @@
       "LD": "7+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (4+)",
+    "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1903,31 +1907,31 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "Anti-Monster 4+"
+          "Keywords": "Anti-monster 4+"
         }
       ]
     },
     "abilities": [
       {
-        "name": "Been There, Seen it, Killed it",
-        "description": "Each time this model makes a melee attack, if it made a Charge move this turn, you can re-roll the Hit roll and you can re-roll the Wound roll."
-      },
-      {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- **Catachan Jungle Fighters**"
+        "description": "This model can be attached to the following unit:\n- Catachan Jungle Fighters"
       },
       {
         "name": "Cold Steel and Courage",
         "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+      },
+      {
+        "name": "Been There, Seen it, Killed it",
+        "description": "Each time this model makes a melee attack, if it made a Charge move this turn, you can re-roll the Hit roll and you can re-roll the Wound roll."
       }
     ],
     "special_rules": [
-      "Assault",
-      "Anti-",
-      "Voice Of Command",
-      "Scouts 6\"",
       "Leader",
-      "Lethal Hits"
+      "Lethal Hits",
+      "Assault",
+      "Anti- Monster 4+",
+      "Voice Of Command",
+      "Scouts 6\""
     ],
     "keywords": [
       "‘Iron Hand’ Straken",
@@ -1962,7 +1966,7 @@
       "LD": "6+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (4+)",
+    "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -2289,7 +2293,7 @@
       },
       {
         "name": "Leader",
-        "description": "This unit can be attached to the following unit:\n- **Tempestus Scions**"
+        "description": "This unit can be attached to the following unit: **Tempestus Scions**"
       },
       {
         "name": "Tempestor Prime",
@@ -2297,10 +2301,10 @@
       }
     ],
     "special_rules": [
-      "Deep Strike",
-      "Voice Of Command",
       "Leader",
-      "Sustained Hits"
+      "Sustained Hits",
+      "Deep Strike",
+      "Voice Of Command"
     ],
     "keywords": [
       "Militarum Tempestus",
@@ -2377,7 +2381,8 @@
     ],
     "special_rules": [
       "Feel No Pain 5+",
-      "Devastating Wounds"
+      "Devastating Wounds",
+      "Rapid Fire"
     ],
     "keywords": [
       "Nork Deddog",
@@ -2450,21 +2455,21 @@
           "Keywords": "-"
         },
         {
-          "name": "Bullgryn maul",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "3+",
-          "S": "7",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "-"
-        },
-        {
           "name": "Huge knife",
           "Range": "Melee",
           "A": "6",
           "WS": "3+",
           "S": "8",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Bullgryn maul",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "7",
           "AP": "-1",
           "D": "2",
           "Keywords": "-"
@@ -2503,6 +2508,7 @@
       "Loyal Protector",
       "Ogryn",
       "Character",
+      "Melee Weapon",
       "Melee Weapon",
       "Melee Weapon"
     ]
@@ -2725,7 +2731,7 @@
       "LD": "7+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -2765,25 +2771,25 @@
     },
     "abilities": [
       {
-        "name": "Vengeance for the Omnissiah",
-        "description": "If a friendly **Astra Militarum Vehicle** model is destroyed within 12\" of this model, until the end of the battle, this model’s Enginseer axe has an Attacks characteristic of 6"
-      },
-      {
-        "name": "Omnissiah’s Blessing",
-        "description": "In your Command phase, select one friendly **Astra Militarum Vehicle** model within 3\" of this model. That **Vehicle** model regains up to D3 lost wounds and, until the start of your next Command phase, that **Vehicle** model has a 4+ invulnerable save. Each model can only be selected for this ability once per turn."
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- Cadian Shock Troops\n- Catachan Jungle Fighters\n- Death Korps of Krieg\n- Infantry Squad\n- Kasrkin\n- Munitorum Servitors"
       },
       {
         "name": "Enginseer",
         "description": "While this model is within 3\" of one or more friendly **Astra Militarum Vehicle** units, this model has the Lone Operative ability"
       },
       {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Cadian Shock Troops**\n- **Catachan Jungle Fighters**\n- **Death Korps of Krieg**\n- **Kasrkin**\n- **Krieg Combat Engineers**"
+        "name": "Vengeance for the Omnissiah",
+        "description": "If a friendly **Astra Militarum Vehicle** model is destroyed within 12\" of this model, until the end of the battle, this model’s Enginseer axe has an Attacks characteristic of 6"
+      },
+      {
+        "name": "Omnissiah’s Blessing",
+        "description": "In your Command phase, select one friendly **Astra Militarum Vehicle** model within 3\" of this model. That **Vehicle** model regains up to D3 lost wounds and, until the start of your next Command phase, that **Vehicle** model has a 4+ invulnerable save. Each model can only be selected for this ability once per turn."
       }
     ],
     "special_rules": [
-      "Lone Operative",
       "Leader",
+      "Lone Operative",
       "Pistol",
       "Devastating Wounds",
       "Extra Attacks"
@@ -2807,7 +2813,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 260,
+      "base": 250,
       "variants": []
     },
     "composition": {
@@ -3246,7 +3252,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Sustained Hits 1, Twin-linked"
+          "Keywords": "Sustained Hits, Twin-linked"
         }
       ],
       "melee": [
@@ -3406,7 +3412,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Sustained Hits 1, Twin-linked"
+          "Keywords": "Sustained Hits, Twin-linked"
         },
         {
           "name": "Lascannon",
@@ -3507,7 +3513,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Sustained Hits 1, Twin-linked"
+          "Keywords": "Sustained Hits, Twin-linked"
         },
         {
           "name": "Lascannon",
@@ -4033,7 +4039,7 @@
       "LD": "7+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -4063,21 +4069,21 @@
     },
     "abilities": [
       {
+        "name": "Leader",
+        "description": "This model can be attached to the following units: **Cadian Shock Troops**, **Kasrkin**"
+      },
+      {
         "name": "Lord Castellan",
         "description": "While this model is leading a unit, that unit can be affected by up to two different Orders at the same time."
       },
       {
         "name": "Tactical Genius",
         "description": "Once per battle round, one unit from your army with this ability can use it when a friendly **Regiment** unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1 CP."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Cadian Shock Troops**\n- **Kasrkin**"
       }
     ],
     "special_rules": [
-      "Voice Of Command",
       "Leader",
+      "Voice Of Command",
       "Pistol"
     ],
     "keywords": [
@@ -5346,7 +5352,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Sustained Hits 1, Twin-linked"
+          "Keywords": "Sustained Hits, Twin-linked"
         },
         {
           "name": "Heavy stubber",
@@ -5784,8 +5790,8 @@
     },
     "abilities": [
       {
-        "name": "Armoured Aggressor",
-        "description": "Each time this model makes a ranged attack, it does not suffer the penalty to the Hit roll for being within Engagement Range of one or more enemy units."
+        "name": "Battlefield Control",
+        "description": "Each time this model makes a ranged attack, if it is within range of an objective marker you control, re-roll a Hit roll of 1."
       }
     ],
     "special_rules": [
@@ -7117,6 +7123,16 @@
     "weapons": {
       "ranged": [
         {
+          "name": "Multi-laser",
+          "Range": "36\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
           "name": "Heavy bolter",
           "Range": "36\"",
           "A": "3",
@@ -7134,16 +7150,6 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
-        },
-        {
-          "name": "Multi-laser",
-          "Range": "36\"",
-          "A": "4",
-          "BS": "4+",
-          "S": "6",
-          "AP": "0",
-          "D": "1",
           "Keywords": "-"
         }
       ],
@@ -8261,7 +8267,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Sustained Hits 1, Twin-linked"
+          "Keywords": "Sustained Hits, Twin-linked"
         },
         {
           "name": "Twin lascannon",
@@ -8427,8 +8433,7 @@
       "Imperium",
       "Squadron",
       "Smoke",
-      "Faction: Astra Militarum",
-      "Regiment"
+      "Faction: Astra Militarum"
     ]
   },
   {
@@ -8856,7 +8861,7 @@
       "T": "10",
       "SV": "2+",
       "W": "14",
-      "LD": "7+",
+      "LD": "7",
       "OC": "0"
     },
     "invuln_save": null,
@@ -9023,7 +9028,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -10146,12 +10151,7 @@
         }
       ]
     },
-    "abilities": [
-      {
-        "name": "Mobile Command Vehicle",
-        "description": "In your Command phase, one **Officer** model embarked within this **Transport** can issue Orders even though it is not on the battlefield. When doing so, measure distances to and from this **Transport**."
-      }
-    ],
+    "abilities": [],
     "special_rules": [
       "Firing Deck 2",
       "Deadly Demise D3"
@@ -10700,8 +10700,7 @@
       "Krieg",
       "Character",
       "Officer",
-      "Ranged Weapon",
-      "Pistol Weapon"
+      "Ranged Weapon"
     ]
   },
   {
@@ -10726,7 +10725,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (4+)",
+    "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -10771,7 +10770,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- **Death Riders**"
+        "description": "This model can be attached to the following unit: **Death Riders**"
       },
       {
         "name": "Leading the Charge",
@@ -11044,7 +11043,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 290,
+      "base": 275,
       "variants": []
     },
     "composition": {
@@ -11214,7 +11213,7 @@
       "LD": "7+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (4+)",
+    "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -11699,6 +11698,10 @@
     },
     "abilities": [
       {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- **Cadian Shock Troops**"
+      },
+      {
         "name": "Lesk’s Heroes",
         "description": "Add 1 to the Leadership characteristic of models in this unit and you can re-roll Battle-shock and Leadership tests taken for this unit."
       },
@@ -11711,17 +11714,13 @@
         "description": "Models in this unit have a 5+ Invulnerable Save."
       },
       {
-        "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- **Cadian Shock Troops**"
-      },
-      {
         "name": "Regimental Banner",
         "description": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
       }
     ],
     "special_rules": [
-      "Voice Of Command",
       "Leader",
+      "Voice Of Command",
       "One Shot",
       "Blast",
       "Precision"
@@ -11734,681 +11733,17 @@
       "Platoon",
       "Command Squad",
       "Hell's Last",
-      "Epic Hero",
+      "Character",
       "Officer",
       "Character",
-      "Epic Hero"
-    ]
-  },
-  {
-    "name": "Front-line Commander [Crucible]",
-    "id": "4fc5-184d-b305-3551",
-    "type": "model",
-    "faction": "Library",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 55,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "3",
-      "SV": "5+",
-      "W": "4",
-      "LD": "7+",
-      "OC": "1"
-    },
-    "invuln_save": "Invulnerable Save (5+)",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Get Back in the Fight",
-        "description": "While this model is leading a unit, that unit is eligible to shoot in a turn in which it Fell Back."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Astra Militarum Battleline**\n- **Kasrkin**\n- **Krieg Combat Engineers**\n- **Tempestus Scions**"
-      }
-    ],
-    "special_rules": [
-      "Voice Of Command",
-      "Leader",
-      "Crucible"
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Crucible",
-      "Imperium",
-      "Grenades",
       "Officer",
-      "Faction: Astra Militarum",
-      "Front-line Commander"
-    ]
-  },
-  {
-    "name": "Augmented Bone 'Ead [Crucible]",
-    "id": "7280-8daf-312a-b01d",
-    "type": "model",
-    "faction": "Library",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 60,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "3",
-      "SV": "4+",
-      "W": "3",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": "Invulnerable Save (5+)",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "You 'Eard 'Em",
-        "description": "Each time an Order is issued to this model's unit, this model can issue that Order to one other friendly **Platoon** or **Ogryn** unit in the same way as an **Officer**."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Bullgryn Squad**\n- **Ogryn Squad**"
-      }
-    ],
-    "special_rules": [
-      "Feel No Pain 6+",
-      "Leader",
-      "Crucible",
-      "Voice Of Command"
-    ],
-    "keywords": [
       "Character",
-      "Infantry",
-      "Crucible",
-      "Imperium",
-      "Grenades",
-      "Faction: Astra Militarum",
-      "Regiment",
-      "Augmented Bone 'Ead",
-      "Ogryn"
-    ]
-  },
-  {
-    "name": "Sentinel Commander [Crucible]",
-    "id": "a040-9715-5d3a-52af",
-    "type": "model",
-    "faction": "Library",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 75,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "10\"",
-      "T": "7",
-      "SV": "3+",
-      "W": "7",
-      "LD": "7+",
-      "OC": "2"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Mobile Firebase",
-        "description": "Ranged weapons equipped by models in this unit have the **[ASSAULT]** ability."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Armoured Sentinels**\n- **Scout Sentinels***"
-      }
-    ],
-    "special_rules": [
-      "Voice Of Command",
-      "Deadly Demise 1",
-      "Crucible",
-      "Scouts 9\"",
-      "Leader"
-    ],
-    "keywords": [
-      "Character",
-      "Crucible",
-      "Imperium",
       "Officer",
-      "Faction: Astra Militarum",
-      "Vehicle",
-      "Walker",
-      "Smoke",
-      "Sentinel Commander"
-    ]
-  },
-  {
-    "name": "Commissar Yarrick",
-    "id": "3962-1fa9-7088-aedd",
-    "type": "model",
-    "faction": "Library",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 150,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "4",
-      "SV": "4+",
-      "W": "5",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": "Invulnerable Save (4+)",
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Laspistol",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "3",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Pistol"
-        },
-        {
-          "name": "Bale Eye",
-          "Range": "12\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "6",
-          "AP": "-2",
-          "D": "D3+1",
-          "Keywords": "Precision"
-        },
-        {
-          "name": "Storm bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 2"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Power sword",
-          "Range": "Melee",
-          "A": "6",
-          "WS": "2+",
-          "S": "4",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Power klaw",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "2+",
-          "S": "8",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "-"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Will of Iron",
-        "description": "The first time this model is destroyed, remove it from play, then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with 3 wounds remaining."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units: \n- **Cadian Shock Troops**\n- **Catachan Jungle Fighters**\n- **Death Korps of Krieg**\n- **Kasrkin**\n- **Krieg Combat Engineers**\n- **Tempestus Scions**"
-      },
-      {
-        "name": "Hero of Hades Hive",
-        "description": "In your Command phase, you can select one of the abilities in the Hero of Hades Hive section. Until the start of your next Command phase, this model has that ability."
-      }
-    ],
-    "special_rules": [
-      "Pistol",
-      "Precision",
-      "Rapid Fire",
-      "Voice Of Command",
-      "Leader"
-    ],
-    "keywords": [
-      "Faction: Astra Militarum",
-      "Imperium",
-      "Infantry",
       "Character",
-      "Epic Hero",
       "Officer",
-      "Commissar Yarrick"
-    ]
-  },
-  {
-    "name": "Commissar Graves",
-    "id": "50b8-1f13-9807-0069",
-    "type": "model",
-    "faction": "Library",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 110,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "12\"",
-      "T": "8",
-      "SV": "3+",
-      "W": "12",
-      "LD": "6+",
-      "OC": "5"
-    },
-    "invuln_save": "Invulnerable Save (4+)",
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Prefectus heavy stubber",
-          "Range": "36\"",
-          "A": "3",
-          "BS": "3+",
-          "S": "5",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 3"
-        },
-        {
-          "name": "Chiron gatling cannon",
-          "Range": "24\"",
-          "A": "12",
-          "BS": "3+",
-          "S": "5",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "-"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Enforcer crew",
-          "Range": "Melee",
-          "A": "10",
-          "WS": "4+",
-          "S": "3",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Extra Attacks"
-        },
-        {
-          "name": "Armoured hull",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "4+",
-          "S": "6",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Extra Attacks"
-        },
-        {
-          "name": "Power sword and Manus Mortis",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "2+",
-          "S": "6",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Lance"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Brutal Disciplinarian",
-        "description": "Once per turn, at the start of any phase, you can select one friendly **Astra Militarum Infantry** unit (excluding units that only contain one model) that is Battle‑shocked and within 24\" of and visible to this model. If you do, one model in that unit is destroyed, and that unit is no longer Battle‑shocked."
-      },
-      {
-        "name": "Mechanised Spearhead",
-        "description": "In your Movement phase, each time a friendly **Astra Militarum Regiment** unit disembarks from a **Transport** that is within 6\" of this model, after that unit has been set up, this model can issue 1 Order to that **Regiment** unit, regardless of how many Orders this model has already issued this turn."
-      },
-      {
-        "name": "Aquiline Prow",
-        "description": "Each time this unit ends a Charge move, you can select one enemy unit within Engagement Range of it, then roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
-      }
-    ],
-    "special_rules": [
-      "Rapid Fire",
-      "Extra Attacks",
-      "Lance",
-      "Voice Of Command",
-      "Deadly Demise D3"
-    ],
-    "keywords": [
-      "Faction: Astra Militarum",
-      "Imperium",
-      "Epic Hero",
+      "Character",
       "Officer",
-      "Vehicle",
-      "Squadron",
-      "Commissar Graves",
-      "Character",
-      "Extra Attacks Weapon",
-      "Extra Attacks Weapon"
-    ]
-  },
-  {
-    "name": "Commissar Graves on Foot",
-    "id": "d624-2be1-87a3-41ca",
-    "type": "model",
-    "faction": "Library",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 65,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "3",
-      "SV": "4+",
-      "W": "4",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": "Invulnerable Save (5+)",
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Bolt pistol",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Pistol"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Power sword and Manus Mortis",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "2+",
-          "S": "6",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "-"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Brutal Disciplinarian",
-        "description": "Once per turn, at the start of any phase, you can select one friendly **Astra Militarum Infantry** (excluding units that only contain one model) unit that is Battle‑shocked and within 12\" of this model. If you do, one model in that unit is destroyed, and that unit is no longer Battle‑shocked."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Cadian Shock Troops**\n- **Catachan Jungle Fighters**\n- **Death Korps of Krieg**\n- **Kasrkin**\n- **Krieg Combat Engineers**\n- **Tempestus Scions**"
-      },
-      {
-        "name": "Icon of Discipline",
-        "description": "This model’s unit is eligible to shoot and declare a Charge in a turn in which it Fell Back."
-      },
-      {
-        "name": "Using Commissar Graves",
-        "description": "Your army can only include one **Commissar Graves** or **Commissar Graves on Foot** unit."
-      }
-    ],
-    "special_rules": [
-      "Pistol",
-      "Voice Of Command",
-      "Leader"
-    ],
-    "keywords": [
-      "Faction: Astra Militarum",
-      "Imperium",
-      "Epic Hero",
-      "Commissar Graves",
-      "Character",
-      "Infantry"
-    ]
-  },
-  {
-    "name": "Hippogriff AFV",
-    "id": "b566-8903-3a36-62f1",
-    "type": "unit",
-    "faction": "Library",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 70,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 2
-    },
-    "stats": {
-      "M": "12\"",
-      "T": "8",
-      "SV": "3+",
-      "W": "7",
-      "LD": "7+",
-      "OC": "2"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Heavy stubber",
-          "Range": "36\"",
-          "A": "3",
-          "BS": "4+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Assault, Rapid Fire 3"
-        },
-        {
-          "name": "Meltagun",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "4+",
-          "S": "9",
-          "AP": "-4",
-          "D": "D6",
-          "Keywords": "Assault, Melta 2"
-        },
-        {
-          "name": "Vigilator cannon",
-          "Range": "36\"",
-          "A": "D6",
-          "BS": "4+",
-          "S": "8",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Assault, Blast"
-        },
-        {
-          "name": "Melta cannon",
-          "Range": "18\"",
-          "A": "2",
-          "BS": "4+",
-          "S": "9",
-          "AP": "-4",
-          "D": "D6",
-          "Keywords": "Assault, Melta 2"
-        },
-        {
-          "name": "Chiron gatling cannon",
-          "Range": "24\"",
-          "A": "12",
-          "BS": "4+",
-          "S": "5",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Assault"
-        },
-        {
-          "name": "Lascannon",
-          "Range": "48\"",
-          "A": "1",
-          "BS": "4+",
-          "S": "12",
-          "AP": "-3",
-          "D": "D6+1",
-          "Keywords": "Assault"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Armoured hull",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "4+",
-          "S": "5",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "-"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Convoy Escort Vehicle",
-        "description": "In your Shooting phase, after this unit has shot, it can make a Normal move of up to D6\". If it does, until the end of the turn, this unit is not eligible to declare a charge."
-      }
-    ],
-    "special_rules": [
-      "Deadly Demise 1",
-      "Rapid Fire",
-      "Assault",
-      "Melta",
-      "Blast"
-    ],
-    "keywords": [
-      "Faction: Astra Militarum",
-      "Imperium",
-      "Vehicle",
-      "Squadron",
-      "Smoke",
-      "Hippogriff AFV",
-      "Damage Dx Weapon",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon"
-    ]
-  },
-  {
-    "name": "Centaur RSV",
-    "id": "c871-4769-71ed-c4b3",
-    "type": "model",
-    "faction": "Library",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 85,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "12\"",
-      "T": "7",
-      "SV": "3+",
-      "W": "10",
-      "LD": "7+",
-      "OC": "2"
-    },
-    "invuln_save": null,
-    "transport": "This model has a transport capacity of 12 **Astra Militarum Infantry** models. Each **Ogryn** model takes up the space of 3 models. It cannot transport **Artillery** models.",
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Pintle-mounted heavy stubber",
-          "Range": "36\"",
-          "A": "3",
-          "BS": "4+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 3"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Armoured hull",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "4+",
-          "S": "6",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "-"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Rapid Strike Vehicle",
-        "description": "While one or more units are embarked within this model, unless this model is Battle‑shocked, add 1 to this model’s Objective Control characteristic for every 3 models (rounding down) embarked within it."
-      }
-    ],
-    "special_rules": [
-      "Firing Deck 12",
-      "Deadly Demise D3",
-      "Rapid Fire"
-    ],
-    "keywords": [
-      "Faction: Astra Militarum",
-      "Imperium",
-      "Smoke",
-      "Squadron",
-      "Vehicle",
-      "Centaur RSV",
-      "Dedicated Transport",
-      "Transport"
+      "Character"
     ]
   }
 ]

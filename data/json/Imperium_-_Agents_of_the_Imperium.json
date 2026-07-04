@@ -96,8 +96,7 @@
       "Epic Hero",
       "Smoke",
       "Imperium",
-      "Vindicare Assassin",
-      "Officio Assassinorum"
+      "Vindicare Assassin"
     ]
   },
   {
@@ -189,8 +188,7 @@
       "Epic Hero",
       "Grenades",
       "Imperium",
-      "Culexus Assassin",
-      "Officio Assassinorum"
+      "Culexus Assassin"
     ]
   },
   {
@@ -278,8 +276,7 @@
       "Epic Hero",
       "Grenades",
       "Imperium",
-      "Eversor Assassin",
-      "Officio Assassinorum"
+      "Eversor Assassin"
     ]
   },
   {
@@ -367,8 +364,7 @@
       "Character",
       "Epic Hero",
       "Imperium",
-      "Callidus Assassin",
-      "Officio Assassinorum"
+      "Callidus Assassin"
     ]
   },
   {
@@ -458,16 +454,6 @@
           "AP": "-2",
           "D": "1",
           "Keywords": "Precision"
-        },
-        {
-          "name": "Close combat weapon",
-          "Range": "Melee",
-          "A": "1",
-          "WS": "4+",
-          "S": "3",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "-"
         }
       ]
     },
@@ -593,16 +579,6 @@
           "AP": "0",
           "D": "1",
           "Keywords": "-"
-        },
-        {
-          "name": "Close combat weapon",
-          "Range": "Melee",
-          "A": "1",
-          "WS": "4+",
-          "S": "3",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "-"
         }
       ]
     },
@@ -652,7 +628,7 @@
       "T": "3",
       "SV": "4+",
       "W": "1",
-      "LD": "7+",
+      "LD": "8+",
       "OC": "2"
     },
     "invuln_save": null,
@@ -770,16 +746,6 @@
           "AP": "-2",
           "D": "2",
           "Keywords": "Anti-VEHICLE 3+"
-        },
-        {
-          "name": "Close combat weapon",
-          "Range": "Melee",
-          "A": "1",
-          "WS": "4+",
-          "S": "3",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "-"
         }
       ]
     },
@@ -819,7 +785,6 @@
       "Battleline",
       "Smoke",
       "Voidfarers",
-      "Faction: Agents of the Imperium",
       "Attacks Dx Weapon"
     ]
   },
@@ -1257,7 +1222,7 @@
       },
       {
         "name": "Xenos Hunter",
-        "description": "While this model is leading a unit, each time a model in that unit makes an attack that targets an enemy unit that does not have the IMPERIUM or CHAOS keywords, add 1 to the Hit roll."
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack that targets an enemy unit that does not have the IMPERIUM and CHAOS keywords, add 1 to the Hit roll."
       },
       {
         "name": "Psychic Veil (Psychic)",
@@ -1265,7 +1230,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: EXACTION SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SUBDUCTOR SQUAD, VIGILANT SQUAD"
+        "description": "This model can be attached to the following units: EXACTION SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISTORIAL AGENTS, SUBDUCTION SQUAD, VIGILANT SQUAD"
       }
     ],
     "special_rules": [
@@ -1365,7 +1330,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: EXACTION SQUAD, GREY KNIGHTS TERMINATOR SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SUBDUCTOR SQUAD, VIGILANT SQUAD"
+        "description": "This model can be attached to the following units: EXACTION SQUAD, GREY KNIGHTS TERMINATOR SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISTORIAL AGENTS, SUBDUCTION SQUAD, VIGILANT SQUAD"
       },
       {
         "name": "Glovodan Psyber-eagle",
@@ -1467,7 +1432,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: EXACTION SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SISTERS OF BATTLE SQUAD, SUBDUCTOR SQUAD, VIGILANT SQUAD"
+        "description": "This model can be attached to the following units: EXACTION SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISTORIAL AGENTS, SISTERS OF BATTLE SQUAD, SUBDUCTION SQUAD, VIGILANT SQUAD"
       }
     ],
     "special_rules": [
@@ -1660,7 +1625,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: EXACTION SQUAD, GREY KNIGHTS TERMINATOR SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SISTERS OF BATTLE SQUAD, SUBDUCTOR SQUAD, VIGILANT SQUAD"
+        "description": "This model can be attached to the following units: EXACTION SQUAD, GREY KNIGHTS TERMINATOR SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISTORIAL AGENTS, SISTERS OF BATTLE SQUAD, SUBDUCTION SQUAD, VIGILANT SQUAD"
       },
       {
         "name": "Blessed Wardings",
@@ -2286,7 +2251,6 @@
     "special_rules": [
       "Assigned Agents",
       "Leader",
-      "Deep Strike",
       "Psychic",
       "Rapid Fire",
       "Anti-",
@@ -2309,6 +2273,7 @@
       "Ranged Weapon",
       "Psychic Weapon",
       "Ranged Weapon",
+      "Psyker",
       "Psychic Weapon",
       "Ranged Weapon",
       "Attacks Dx Weapon"
@@ -2453,7 +2418,7 @@
           "name": "Power weapon",
           "Range": "Melee",
           "A": "3",
-          "WS": "4+",
+          "WS": "3+",
           "S": "4",
           "AP": "-2",
           "D": "1",
@@ -2482,7 +2447,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: INQUISITORIAL AGENTS, IMPERIAL NAVY BREACHERS, SUBDUCTOR SQUAD, EXACTION SQUAD, VIGILANT SQUAD, SISTERS OF BATTLE SQUAD.\n\n\n*You can attach this model to an INQUISITORIAL AGENTS unit, even if one INQUISITOR unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strength.*"
+        "description": "This model can be attached to the following units: INQUISITORIAL AGENTS, IMPERIAL NAVY BREACHERS, SUBDUCTION SQUAD, EXACTION SQUAD, VIGILANT SQUAD, SISTERS OF BATTLE SQUAD.\n\n\n*You can attach this model to an INQUISITORIAL AGENTS unit, even if one INQUISITOR unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strength.*"
       },
       {
         "name": "Invulnerable Save",
@@ -2500,7 +2465,6 @@
       "Imperium",
       "Ordo Hereticus",
       "Ministorum Priest",
-      "Faction: Agents of the Imperium",
       "Ranged Weapon",
       "Melee Weapon",
       "Melee Weapon",
@@ -2676,7 +2640,6 @@
       "Imperium",
       "Retinue",
       "Inquisitorial Agents",
-      "Faction: Agents of the Imperium",
       "Psychic Weapon",
       "Damage Dx Weapon",
       "Attacks Dx Weapon"
@@ -2714,7 +2677,7 @@
           "A": "D6",
           "BS": "N/A",
           "S": "6",
-          "AP": "-1",
+          "AP": "-",
           "D": "1",
           "Keywords": "Ignores Cover, Torrent"
         },
@@ -2931,8 +2894,7 @@
       "Smoke",
       "Transport",
       "Imperium",
-      "Inquisitorial Chimera",
-      "Faction: Agents of the Imperium"
+      "Inquisitorial Chimera"
     ]
   },
   {
@@ -3191,7 +3153,7 @@
           "A": "3",
           "WS": "4+",
           "S": "3",
-          "AP": "-1",
+          "AP": "0",
           "D": "1",
           "Keywords": "-"
         },
@@ -3202,16 +3164,6 @@
           "WS": "4+",
           "S": "4",
           "AP": "-2",
-          "D": "1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Close combat weapon",
-          "Range": "Melee",
-          "A": "1",
-          "WS": "4+",
-          "S": "3",
-          "AP": "-1",
           "D": "1",
           "Keywords": "-"
         }
@@ -4258,7 +4210,7 @@
           "Range": "36\"",
           "A": "3",
           "BS": "4+",
-          "S": "5",
+          "S": "5+",
           "AP": "-1",
           "D": "2",
           "Keywords": "Assault, Heavy, Sustained Hits 1"
@@ -5510,7 +5462,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "Ignores Cover, Pistol, Torrent"
+          "Keywords": "Ignores Cover, Torrent"
         }
       ],
       "melee": [
@@ -5681,7 +5633,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: EXACTION SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SISTERS OF BATTLE SQUAD, SUBDUCTOR SQUAD, VIGILANT SQUAD"
+        "description": "This model can be attached to the following units: EXACTION SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISTORIAL AGENTS, SISTERS OF BATTLE SQUAD, SUBDUCTION SQUAD, VIGILANT SQUAD"
       }
     ],
     "special_rules": [
@@ -6015,10 +5967,10 @@
           "name": "➤ Infernus heavy bolter - heavy bolter",
           "Range": "36\"",
           "A": "3",
-          "BS": "3+",
+          "BS": "4+",
           "S": "5",
-          "AP": "-1",
-          "D": "2",
+          "AP": "-2",
+          "D": "3",
           "Keywords": "Sustained Hits 1"
         },
         {
@@ -6133,282 +6085,5 @@
     "abilities": [],
     "special_rules": [],
     "keywords": []
-  },
-  {
-    "name": "Martial Agent [Crucible]",
-    "id": "90e0-c5a9-17c5-fba4",
-    "type": "model",
-    "faction": "Agents of the Imperium",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 60,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "3",
-      "SV": "4+",
-      "W": "4",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": "5+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Invulnerable Save (5+)",
-        "description": "This model has a 5+ invulnerable save."
-      },
-      {
-        "name": "Moment of Glory",
-        "description": "Once per battle, in the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength and Attacks characteristics of melee weapons equipped by this model by 3."
-      },
-      {
-        "name": "High-handed Authority",
-        "description": "While this model is leading a unit, it can embark within any **Transport** that its Bodyguard unit can embark within."
-      }
-    ],
-    "special_rules": [
-      "Leader",
-      "Assigned Agents",
-      "Lone Operative"
-    ],
-    "keywords": [
-      "Faction: Agents of the Imperium",
-      "Infantry",
-      "Character",
-      "Grenades",
-      "Imperium",
-      "Martial Agent",
-      "Crucible"
-    ]
-  },
-  {
-    "name": "Deathwatch Agent [Crucible]",
-    "id": "9a75-f3a2-bff5-9f08",
-    "type": "model",
-    "faction": "Agents of the Imperium",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 105,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "4",
-      "SV": "3+",
-      "W": "5",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Invulnerable Save (4+)",
-        "description": "This model has a 4+ invulnerable save."
-      },
-      {
-        "name": "Your Vigil is Not Yet Ended",
-        "description": "While this model is leading a unit, in your Command phase, you can returned 1 destroyed model (excluding **Character** models) to that unit."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following unit: **Deathwatch Kill Team**"
-      },
-      {
-        "name": "High-handed Authority",
-        "description": "While this model is leading a unit, it can embark within any **Transport** that its Bodyguard unit can embark within."
-      }
-    ],
-    "special_rules": [
-      "Leader",
-      "Assigned Agents"
-    ],
-    "keywords": [
-      "Faction: Agents of the Imperium",
-      "Infantry",
-      "Character",
-      "Grenades",
-      "Imperium",
-      "Crucible",
-      "Ordo Xenos",
-      "Deathwatch",
-      "Deathwatch Agent"
-    ]
-  },
-  {
-    "name": "Enthroned Agent [Crucible]",
-    "id": "2b47-b5e8-b297-7bd8",
-    "type": "model",
-    "faction": "Agents of the Imperium",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 120,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "8\"",
-      "T": "7",
-      "SV": "3+",
-      "W": "9",
-      "LD": "6+",
-      "OC": "3"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Invulnerable Save (4+)",
-        "description": "This model has a 4+ invulnerable save."
-      },
-      {
-        "name": "Towering Reputation (Aura)",
-        "description": "While a friendly unit is within 6\" of this model, improve the Leadership characteristic of models in that unit by 1. While an enemy unit is within 6\" of this model, worsen the Leadership characteristic of models in that unit by 1."
-      },
-      {
-        "name": "High-handed Authority",
-        "description": "While this model is leading a unit, it can embark within any **Transport** that its Bodyguard unit can embark within."
-      }
-    ],
-    "special_rules": [
-      "Assigned Agents",
-      "Deadly Demise 1"
-    ],
-    "keywords": [
-      "Faction: Agents of the Imperium",
-      "Character",
-      "Imperium",
-      "Crucible",
-      "Vehicle",
-      "Walker",
-      "Enthroned Agent"
-    ]
-  },
-  {
-    "name": "Inquisitor Kroyle",
-    "id": "2a3f-b53b-6ea4-6da9",
-    "type": "model",
-    "faction": "Agents of the Imperium",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 100,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "12\"",
-      "T": "4",
-      "SV": "3+",
-      "W": "6",
-      "LD": "6+",
-      "OC": "2"
-    },
-    "invuln_save": "Invulnerable Save (4+)",
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Jindarii tox-cycler",
-          "Range": "36\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "6",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Anti-Monster 2+, Heavy, Precision"
-        },
-        {
-          "name": "Stubcarbine",
-          "Range": "12\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "5",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Pistol"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Butcher blade",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "3+",
-          "S": "4",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Garralisk's claws and teeth",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "4+",
-          "S": "5",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Extra Attacks"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "On My Signal, Fire!",
-        "description": "After this unit has shot, you can select one enemy unit hit by those attacks. Until the end of the phase, each time an **Agents of the Imperium** or **Imperium Infantry Battleline** model from your army makes an attack that targets that enemy unit, you can re‑roll the Hit roll."
-      },
-      {
-        "name": "Tox‑cycler",
-        "description": "In your Shooting phase, after this unit has shot, if this model scored a hit with its Jindarii tox‑cycler, until the end of the battle, add 2 to the Strength and Damage characteristics of that weapon (to a maximum Damage characteristic of 6)."
-      }
-    ],
-    "special_rules": [
-      "Anti-",
-      "Heavy",
-      "Precision",
-      "Pistol",
-      "Extra Attacks",
-      "Lone Operative",
-      "Scouts 6\"",
-      "Assigned Agents"
-    ],
-    "keywords": [
-      "Faction: Agents of the Imperium",
-      "Mounted",
-      "Character",
-      "Epic Hero",
-      "Imperium",
-      "Grenades",
-      "Ordo Xenos",
-      "Inquisitor",
-      "Kroyle"
-    ]
   }
 ]

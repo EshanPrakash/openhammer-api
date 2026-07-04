@@ -902,7 +902,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (4+)",
+    "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -933,15 +933,15 @@
     "abilities": [
       {
         "name": "Inspiring Leader",
-        "description": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+        "description": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
       },
       {
         "name": "Master Tactician",
-        "description": "At the start of your Command phase, if this unit’s Marneus Calgar model is your **Warlord** and is on the battlefield, you gain 1CP."
+        "description": "At the start of your Command phase, if this unit’s Marneus Calgar model is your WARLORD and is on the battlefield, you gain 1CP."
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Aggressor Squad, Assault Intercessor Squad, Bladeguard Veteran Squad, Company Heroes, Eradicator Squad, Heavy Intercessor Squad, Infernus Squad, Intercessor Squad, Sternguard Veteran Squad, Tactical Squad, Terminator Assault Squad, Terminator Squad, Victrix Honour Guard**"
+        "description": "This model can be attached to the following units: Aggressor Squad, Assault Intercessor Squad,\nBladeguard Veteran Squad, Company Heroes, Eradicator Squad, Heavy Intercessor Squad,\nInfernus Squad, Intercessor Squad, Sternguard Veteran Squad, Tactical Squad, Terminator\nAssault Squad, Terminator Squad, Victrix Honour Guard"
       }
     ],
     "special_rules": [
@@ -970,7 +970,7 @@
     "faction": "Ultramarines",
     "faction_type": "Imperium",
     "points": {
-      "base": 95,
+      "base": 120,
       "variants": []
     },
     "composition": {
@@ -985,7 +985,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (4+)",
+    "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1075,11 +1075,11 @@
     "faction": "Ultramarines",
     "faction_type": "Imperium",
     "points": {
-      "base": 110,
+      "base": 130,
       "variants": [
         {
           "models": 4,
-          "points": 220
+          "points": 210
         }
       ]
     },
@@ -1091,7 +1091,7 @@
       "M": "6\"",
       "T": "4",
       "SV": "2+",
-      "W": "3",
+      "W": "4",
       "LD": "6+",
       "OC": "2"
     },
@@ -1138,7 +1138,7 @@
       },
       {
         "name": "Glory of Ultramar",
-        "description": "In your opponent’s Shooting phase, each time an enemy unit has shot, if any models from this unit\nwere destroyed as a result of those attacks, this unit can make a Surge move. To do so, roll one D6: models in this unit move a number of inches up to the result, but this unit must end that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, those models can be\nmoved within Engagement Range of that enemy unit. This unit cannot make a Surge move while it is Battle‑shocked or within Engagement Range of one or more enemy units, and can only make one Surge move per phase."
+        "description": " In your opponent’s Shooting phase, each time an enemy unit has shot, if any models from this unit\nwere destroyed as a result of those attacks, this unit can make a Surge move. To do so, roll one D6: models in this unit move a number of inches up to the result, but this unit must end that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, those models can be\nmoved within Engagement Range of that enemy unit. This unit cannot make a Surge move while it is Battle‑shocked or within Engagement Range of one or more enemy units, and can only make one Surge move per phase."
       }
     ],
     "special_rules": [
@@ -1155,211 +1155,7 @@
       "Imperium",
       "Tacticus",
       "Honor Guard",
-      "Victrix",
-      "Faction: Ultramarines"
-    ]
-  },
-  {
-    "name": "Captain Titus",
-    "id": "596f-dbdc-41e7-088a",
-    "type": "model",
-    "faction": "Ultramarines",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 90,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "4",
-      "SV": "3+",
-      "W": "6",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Master-crafted Bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "4",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Assault, Heavy"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Master-crafted Chainsword",
-          "Range": "Melee",
-          "A": "8",
-          "WS": "2+",
-          "S": "5",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Anti-infantry 2+"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Press the Attack",
-        "description": "Weapons equipped by models in this model’s unit have the [SUSTAINED HITS 1] ability"
-      },
-      {
-        "name": "Honour of Ultramar",
-        "description": "If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+,\ndo not remove it from play. This model can fight after the attacking unit has finished making its attacks. If one or more enemy models are destroyed as a result of those attacks, this model regains D3 lost wounds and is not destroyed; otherwise, it is removed from play."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units: \n\n\n-  Assault Intercessor Squad \n-  Bladeguard Veteran Squad \n-  Company Heroes \n-  Hellblaster Squad \n-  Infernus Squad \n-  Intercessor Squad \n-  Sternguard Veteran Squad \n-  Wardens of Ultramar"
-      }
-    ],
-    "special_rules": [
-      "Leader",
-      "Oath of Moment",
-      "Feel No Pain 5+",
-      "Anti-",
-      "Assault",
-      "Heavy"
-    ],
-    "keywords": [
-      "Titus",
-      "Infantry",
-      "Character",
-      "Epic Hero",
-      "Imperium",
-      "Tacticus",
-      "Grenades",
-      "Captain",
-      "Faction: Adeptus Astartes",
-      "Faction: Ultramarines"
-    ]
-  },
-  {
-    "name": "Wardens of Ultramar",
-    "id": "b793-b77e-9e49-d397",
-    "type": "unit",
-    "faction": "Ultramarines",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 105,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "3",
-      "SV": "4+",
-      "W": "3",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Astropathic Blast",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "3+",
-          "S": "4",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Blast, Psychic"
-        },
-        {
-          "name": "Archeotech Laspistol",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "4",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Pistol"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Close combat weapon",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Force Stave",
-          "Range": "Melee",
-          "A": "1",
-          "WS": "2+",
-          "S": "5",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Psychic"
-        },
-        {
-          "name": "Power Weapon",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "2+",
-          "S": "4",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "-"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Second Company Banner",
-        "description": "While this unit contains Ancient Gadriel, add 1 to the Objective Control characteristic of models in this unit. While this unit contains Ancient Gadriel and Captain Titus, improve the Leadership characteristic of models in this unit by 1 as well."
-      },
-      {
-        "name": "Strategium Command",
-        "description": "After both players have deployed their armies, if this unit is on the battlefield (or any Transport it\nis embarked within is on the battlefield), select up to three Adeptus Astartes units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
-      },
-      {
-        "name": "Heroes of Ultramar",
-        "description": "At the start of the Declare Battle Formations step, this unit can join one of the following units. This\nunit then counts as part of that unit for the rest of the battle, and that unit’s Starting Strength is\nincreased accordingly.\n\n\n- Assault intercessor Squad\n- Bladeguard Veteran Squad\n- Intercessor Squad\n- Sternguard Veteran Squad\n\n\nThis unit cannot join an Attached unit, and only Captain Titus can join a unit this unit has joined."
-      },
-      {
-        "name": "Storm Shield",
-        "description": "The bearer has a 4+ Invulnerable save."
-      },
-      {
-        "name": "Refractor Field",
-        "description": "The bearer has a 5+ invulnerable save."
-      }
-    ],
-    "special_rules": [
-      "Blast",
-      "Psychic"
-    ],
-    "keywords": [
-      "Psyker",
-      "Infantry",
-      "Epic Hero",
-      "Grenades",
-      "Imperium",
-      "Tacticus",
-      "Faction: Adeptus Astartes",
-      "Faction: Ultramarines",
-      "Wardens of Ultramar"
+      "Victrix"
     ]
   }
 ]

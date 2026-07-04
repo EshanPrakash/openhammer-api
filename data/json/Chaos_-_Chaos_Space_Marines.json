@@ -203,7 +203,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 120,
+      "base": 80,
       "variants": []
     },
     "composition": {
@@ -212,7 +212,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "5",
+      "T": "4",
       "SV": "3+",
       "W": "5",
       "LD": "6+",
@@ -223,55 +223,66 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Tyrant's Claw heavy flamer",
+          "name": "Tyrant's Claw",
           "Range": "12\"",
-          "A": "D6+2",
+          "A": "D6",
           "BS": "N/A",
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Ignores Cover, Pistol, Torrent"
+          "Keywords": "Ignores Cover, Torrent"
         }
       ],
       "melee": [
         {
-          "name": "Tyrant's Claw and exalted power weapon",
+          "name": "Tyrant's Claw",
+          "Range": "Melee",
+          "A": "10",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Exalted weapon",
           "Range": "Melee",
           "A": "6",
           "WS": "2+",
-          "S": "8",
-          "AP": "-3",
-          "D": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
           "Keywords": "-"
         }
       ]
     },
     "abilities": [
       {
-        "name": "Invulnerable Save (4+)",
+        "name": "Invulnerable Save",
         "description": "This model has a 4+ invulnerable save."
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Chosen** \n- **Chaos Terminator Squad** \n- **Legionaries** \n- **Masters of the Maelstrom** \n- **Red Corsairs Raiders**"
+        "description": "This model can be attached to the following units:\n- CHOSEN\n- LEGIONARIES"
       },
       {
-        "name": "Lord of Badab (Aura)",
-        "description": "While a friendly **Heretic Astartes Infantry** unit (excluding Battle-shocked units and **Damned** units) is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit."
+        "name": "The Tyrant of Badab",
+        "description": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+      },
+      {
+        "name": "Red Corsairs",
+        "description": "After both players have deployed their armies, select up to three HERETIC ASTARTES INFANTRY units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
       },
       {
         "name": "Hamadrya’s Knowledge (Psychic)",
-        "description": "Once per battle round, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model’s unit, if this model’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D3+3\"."
+        "description": "Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model’s unit, if this model’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\"."
       }
     ],
     "special_rules": [
       "Dark Pacts",
       "Leader",
-      "Deep Strike",
-      "Feel No Pain 5+",
       "Ignores Cover",
-      "Torrent",
-      "Pistol"
+      "Torrent"
     ],
     "keywords": [
       "Faction: Heretic Astartes",
@@ -475,7 +486,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 100,
+      "base": 85,
       "variants": []
     },
     "composition": {
@@ -889,7 +900,9 @@
     "special_rules": [
       "Dark Pacts",
       "Leader",
-      "Devastating Wounds"
+      "Devastating Wounds",
+      "Hazardous",
+      "Pistol"
     ],
     "keywords": [
       "Faction: Heretic Astartes",
@@ -901,6 +914,7 @@
       "Melee Weapon",
       "Melee Weapon",
       "Melee Weapon",
+      "Ranged Weapon",
       "Melee Weapon"
     ]
   },
@@ -911,7 +925,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 85,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -1265,10 +1279,20 @@
       "LD": "6+",
       "OC": "4"
     },
-    "invuln_save": "Invulnerable Save (4+)",
+    "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
+        {
+          "name": "Bolt pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol"
+        },
         {
           "name": "Helstalker autocannon",
           "Range": "48\"",
@@ -1298,16 +1322,6 @@
           "AP": "-4",
           "D": "D6",
           "Keywords": "Melta 2"
-        },
-        {
-          "name": "Bolt pistol",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Pistol"
         }
       ],
       "melee": [
@@ -1351,11 +1365,17 @@
       {
         "name": "Spirit Thief",
         "description": "At the start of your Shooting phase, select one visible enemy **Vehicle** unit. Until the end of the phase, each time a friendly **Heretic Astartes** model makes an attack that targets that unit, re-roll a Wound roll of 1."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
       }
     ],
     "special_rules": [
       "Dark Pacts",
+      "Leader",
       "Extra Attacks",
+      "Pistol",
       "Lance",
       "Ignores Cover",
       "Torrent",
@@ -1371,6 +1391,7 @@
       "Lord Discordant",
       "Melee Weapon",
       "Extra Attacks Weapon",
+      "Ranged Weapon",
       "Melee Weapon",
       "Ranged Weapon",
       "Ranged Weapon",
@@ -1463,19 +1484,19 @@
     "abilities": [
       {
         "name": "Warpsmith",
-        "description": "While this model is within 3\" of one or more friendly **Heretic Astartes Vehicle** units, this model has the Lone Operative ability."
+        "description": "While this model is within 3\" of one or more friendly HERETIC ASTARTES VEHICLE units, this model has the Lone Operative ability."
       },
       {
         "name": "Master of Mechanisms",
-        "description": "In your Command phase, select one friendly **Heretic Astartes Vehicle** model within 3\" of this model. That ** Vehicle** model regains up to D3 lost wounds and, until the start of your next Command phase, each time that **Vehicle** makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per Command phase."
+        "description": "In your Command phase, select one friendly HERETIC ASTARTES VEHICLE model within 3\" of this model. That VEHICLE model regains up to D3 lost wounds and, until the start of your next Command phase, each time that VEHICLE makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per Command phase."
       },
       {
         "name": "Enrage Machine Spirits",
-        "description": "At the end of your Movement phase, select one enemy **Vehicle** unit within 12\" of this model. That unit must take a Battle-shock test."
+        "description": "At the end of your Movement phase, select one enemy VEHICLE unit within 12\" of this model. That unit must take a Battle-shock test."
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Chosen, Havocs, Legionaires**"
+        "description": "This model can be attached to the following units:\n- CHOSEN\n- HAVOCS\n- LEGIONARIES"
       }
     ],
     "special_rules": [
@@ -1485,7 +1506,8 @@
       "Pistol",
       "Torrent",
       "Anti-",
-      "Melta"
+      "Melta",
+      "Hazardous"
     ],
     "keywords": [
       "Faction: Heretic Astartes",
@@ -1497,7 +1519,8 @@
       "Attacks Dx Weapon",
       "Melee Weapon",
       "Ranged Weapon",
-      "Damage Dx Weapon"
+      "Damage Dx Weapon",
+      "Ranged Weapon"
     ]
   },
   {
@@ -1638,7 +1661,7 @@
       },
       {
         "name": "Demagogue",
-        "description": "Once per battle, at the start of any phase, you can select one friendly HERETIC ASTARTES unit that is Battle-shocked and within 12\" of this unit’s DARK APOSTLE model. That unit is no longer Battle-shocked."
+        "description": "Once per battle, at the start of any phase, you can select one friendly HERETIC ASTARTES unit that is Battle-shocked and within 9\" of this unit’s DARK APOSTLE model. That unit is no longer Battle-shocked."
       },
       {
         "name": "Malign Sacrifice",
@@ -1876,6 +1899,16 @@
           "Keywords": "Heavy"
         },
         {
+          "name": "Meltagun",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
+        },
+        {
           "name": "➤ Missile launcher - frag",
           "Range": "48\"",
           "A": "D6",
@@ -1904,16 +1937,6 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Heavy"
-        },
-        {
-          "name": "Meltagun",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "9",
-          "AP": "-4",
-          "D": "D6",
-          "Keywords": "Melta 2"
         }
       ],
       "melee": [
@@ -1952,6 +1975,7 @@
       "Torrent",
       "Heavy",
       "Sustained Hits",
+      "Melta",
       "Blast",
       "Hazardous",
       "Rapid Fire"
@@ -1965,6 +1989,7 @@
       "Legionaries",
       "Psychic Weapon",
       "Attacks Dx Weapon",
+      "Damage Dx Weapon",
       "Attacks Dx Weapon",
       "Damage Dx Weapon"
     ]
@@ -2040,8 +2065,7 @@
       "Grenades",
       "Chaos",
       "Cultist Mob",
-      "Damned",
-      "Unit Champion"
+      "Damned"
     ]
   },
   {
@@ -2226,8 +2250,7 @@
       "Chaos",
       "Terminator",
       "Chaos Terminator Squad",
-      "Attacks Dx Weapon",
-      "Unit Champion"
+      "Attacks Dx Weapon"
     ]
   },
   {
@@ -2443,8 +2466,7 @@
       "Infantry",
       "Grenades",
       "Chaos",
-      "Chosen",
-      "Unit Champion"
+      "Chosen"
     ]
   },
   {
@@ -2615,8 +2637,7 @@
       "Dark Pacts",
       "Ignores Cover",
       "Torrent",
-      "Hazardous",
-      "Rapid Fire"
+      "Melta"
     ],
     "keywords": [
       "Faction: Heretic Astartes",
@@ -2624,8 +2645,8 @@
       "Grenades",
       "Chaos",
       "Chaos Bikers",
-      "Unit Champion",
-      "Attacks Dx Weapon"
+      "Attacks Dx Weapon",
+      "Damage Dx Weapon"
     ]
   },
   {
@@ -2635,11 +2656,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 110,
+      "base": 90,
       "variants": [
         {
           "models": 6,
-          "points": 210
+          "points": 170
         }
       ]
     },
@@ -2658,31 +2679,10 @@
     "invuln_save": null,
     "transport": null,
     "weapons": {
-      "ranged": [
-        {
-          "name": "Meltagun",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "9",
-          "AP": "-4",
-          "D": "D6",
-          "Keywords": "Melta 2"
-        }
-      ],
+      "ranged": [],
       "melee": [
         {
-          "name": "Mutations",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "3+",
-          "S": "5",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Heavy melee weapon",
+          "name": "Power fist",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -2715,11 +2715,7 @@
     ],
     "special_rules": [
       "Dark Pacts",
-      "Deep Strike",
-      "Hazardous",
-      "Rapid Fire",
-      "Ignores Cover",
-      "Torrent"
+      "Deep Strike"
     ],
     "keywords": [
       "Faction: Heretic Astartes",
@@ -2728,8 +2724,8 @@
       "Jump Pack",
       "Chaos",
       "Raptors",
-      "Grenades",
-      "Attacks Dx Weapon"
+      "Attacks Dx Weapon",
+      "Damage Dx Weapon"
     ]
   },
   {
@@ -2782,7 +2778,7 @@
         "description": "At the end of the Fight phase, if this unit destroyed one or more enemy units this phase and is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves."
       },
       {
-        "name": "Invulnerable Save (5+)",
+        "name": "Invulnerable Save",
         "description": "Models in this unit have a 5+ invulnerable save."
       }
     ],
@@ -2798,8 +2794,7 @@
       "Jump Pack",
       "Chaos",
       "Daemon",
-      "Warp Talons",
-      "Grenades"
+      "Warp Talons"
     ]
   },
   {
@@ -2887,16 +2882,6 @@
           "AP": "-1",
           "D": "2",
           "Keywords": "Sustained Hits 1"
-        },
-        {
-          "name": "Meltagun",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "9",
-          "AP": "-4",
-          "D": "D6",
-          "Keywords": "Melta 2"
         }
       ],
       "melee": [
@@ -2930,10 +2915,6 @@
     ],
     "special_rules": [
       "Dark Pacts",
-      "Ignores Cover",
-      "Torrent",
-      "Hazardous",
-      "Rapid Fire",
       "Blast",
       "Sustained Hits"
     ],
@@ -2943,6 +2924,7 @@
       "Chaos",
       "Havocs",
       "Attacks Dx Weapon",
+      "Damage Dx Weapon",
       "Attacks Dx Weapon",
       "Damage Dx Weapon"
     ]
@@ -3129,7 +3111,7 @@
       "LD": "6+",
       "OC": "3"
     },
-    "invuln_save": "Invulnerable Save (4+)",
+    "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -3168,6 +3150,10 @@
       ]
     },
     "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 4+ invulnerable save."
+      },
       {
         "name": "Unholy Mechanisms (Aura)",
         "description": "While a friendly **Daemon Vehicle** unit is within 6\" of this model, add 2 to the Strength characteristic of weapons equipped by models in that unit."
@@ -3644,7 +3630,7 @@
       "OC": "5"
     },
     "invuln_save": null,
-    "transport": "This model has a transport capacity of 12 **Heretic Astartes Infantry** (excluding **Obliterator** and **Jump Pack** models). Each **Possessed, Mutilators** and **Terminator** model takes up the space of 2 models.",
+    "transport": "This model has a transport capacity of 12 HERETIC ASTARTES INFANTRY (excluding OBLITERATOR and JUMP PACK models). Each POSSESSED and TERMINATOR model takes up the space of 2 models.",
     "weapons": {
       "ranged": [
         {
@@ -4029,13 +4015,170 @@
     ]
   },
   {
+    "name": "Defiler",
+    "id": "7a72-5eae-45ca-7e8f",
+    "type": "model",
+    "faction": "Chaos Space Marines",
+    "faction_type": "Chaos",
+    "points": {
+      "base": 190,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Defiler cannon",
+          "Range": "48\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-1",
+          "D": "3",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Reaper autocannon",
+          "Range": "48\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Devastating Wounds, Sustained Hits 1"
+        },
+        {
+          "name": "Twin heavy flamer",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent, Twin-linked"
+        },
+        {
+          "name": "Combi-weapon",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
+        },
+        {
+          "name": "Twin heavy bolter",
+          "Range": "36\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Sustained Hits 1, Twin-linked"
+        },
+        {
+          "name": "Twin lascannon",
+          "Range": "48\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "Twin-linked"
+        },
+        {
+          "name": "Havoc launcher",
+          "Range": "48\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Defiler claws",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "16",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Defiler scourge",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "12",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Extra Attacks"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Scuttling Walker",
+        "description": "Each time this model makes a Normal, Advance or Fall Back move, it can be moved over friendly MONSTER and VEHICLE models as if they were not there. This model can move over terrain features that are 4\" or less in height as if they were not there."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 5+ invulnerable save."
+      },
+      {
+        "name": "Daemonforge",
+        "description": "Once per Fight phase, one unit from your army with this ability can be targeted with the Counter-Offensive Stratagem for 0CP, even if you have already targeted a different unit with that Stratagem this phase."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Dark Pacts",
+      "Blast",
+      "Sustained Hits",
+      "Devastating Wounds",
+      "Twin-linked",
+      "Ignores Cover",
+      "Torrent",
+      "Extra Attacks"
+    ],
+    "keywords": [
+      "Faction: Heretic Astartes",
+      "Vehicle",
+      "Walker",
+      "Smoke",
+      "Chaos",
+      "Daemon",
+      "Defiler",
+      "Attacks Dx Weapon",
+      "Extra Attacks Weapon"
+    ]
+  },
+  {
     "name": "Forgefiend",
     "id": "45b-19f6-38d2-703f",
     "type": "model",
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 170,
+      "base": 180,
       "variants": []
     },
     "composition": {
@@ -4499,7 +4642,7 @@
       "OC": "2"
     },
     "invuln_save": null,
-    "transport": "This model has a transport capacity of 12 **Heretic Astartes Infantry** models. It cannot transport **Terminator, Jump Pack, Mutilators, Obliterator** or **Possessed** models.",
+    "transport": "This model has a transport capacity of 12 HERETIC ASTARTES INFANTRY models. It cannot transport TERMINATOR, JUMP PACK, OBLITERATOR or POSSESSED models.",
     "weapons": {
       "ranged": [
         {
@@ -4828,7 +4971,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 100,
+      "base": 105,
       "variants": [
         {
           "models": 5,
@@ -5039,6 +5182,16 @@
           "Keywords": "Anti-INFANTRY 2+, Ignores Cover, Torrent"
         },
         {
+          "name": "Meltagun",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
+        },
+        {
           "name": "Plague belcher",
           "Range": "12\"",
           "A": "D6",
@@ -5057,16 +5210,6 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Lethal Hits"
-        },
-        {
-          "name": "Meltagun",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "9",
-          "AP": "-4",
-          "D": "D6",
-          "Keywords": "Melta 2"
         }
       ],
       "melee": [
@@ -5124,12 +5267,11 @@
     ],
     "special_rules": [
       "Lethal Hits",
-      "Hazardous",
-      "Rapid Fire",
       "Blast",
       "Anti-",
       "Ignores Cover",
-      "Torrent"
+      "Torrent",
+      "Melta"
     ],
     "keywords": [
       "Faction: Heretic Astartes",
@@ -5138,7 +5280,8 @@
       "Grenades",
       "Chaos",
       "Nurgle",
-      "Plague Marines"
+      "Plague Marines",
+      "Damage Dx Weapon"
     ]
   },
   {
@@ -5261,16 +5404,6 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Twin autocannon",
-          "Range": "48\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "9",
-          "AP": "-3",
-          "D": "3",
-          "Keywords": "Twin-linked"
-        },
-        {
           "name": "Twin lascannon",
           "Range": "48\"",
           "A": "1",
@@ -5306,8 +5439,7 @@
     ],
     "special_rules": [
       "Deadly Demise D3",
-      "Dark Pacts",
-      "Twin-linked"
+      "Dark Pacts"
     ],
     "keywords": [
       "Vehicle",
@@ -5345,26 +5477,6 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Combi-bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 2"
-        },
-        {
-          "name": "Combi-weapon",
-          "Range": "24\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
-        },
-        {
           "name": "Bolt pistol",
           "Range": "12\"",
           "A": "1",
@@ -5373,6 +5485,16 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Pistol"
+        },
+        {
+          "name": "Combi-bolter",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
         },
         {
           "name": "➤ Plasma pistol - standard",
@@ -5393,6 +5515,16 @@
           "AP": "-3",
           "D": "2",
           "Keywords": "Hazardous, Pistol"
+        },
+        {
+          "name": "Combi-weapon",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         },
         {
           "name": "➤ Infernal Gaze - witchfire",
@@ -5475,7 +5607,9 @@
     "special_rules": [
       "Leader",
       "Dark Pacts",
+      "Pistol",
       "Rapid Fire",
+      "Hazardous",
       "Anti-",
       "Devastating Wounds"
     ],
@@ -5490,9 +5624,11 @@
       "Sorcerer",
       "Disc of Tzeentch",
       "Faction: Heretic Astartes",
+      "Ranged Weapon",
       "Melee Weapon",
       "Ranged Weapon",
       "Melee Weapon",
+      "Ranged Weapon",
       "Ranged Weapon",
       "Melee Weapon"
     ]
@@ -5524,26 +5660,6 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Combi-bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 2"
-        },
-        {
-          "name": "Combi-weapon",
-          "Range": "24\"",
-          "A": "1",
-          "BS": "4+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
-        },
-        {
           "name": "Bolt pistol",
           "Range": "12\"",
           "A": "1",
@@ -5552,6 +5668,16 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Pistol"
+        },
+        {
+          "name": "Combi-bolter",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
         },
         {
           "name": "➤ Plasma pistol - standard",
@@ -5572,6 +5698,16 @@
           "AP": "-3",
           "D": "2",
           "Keywords": "Hazardous, Pistol"
+        },
+        {
+          "name": "Combi-weapon",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         },
         {
           "name": "➤ Infernal Gaze - witchfire",
@@ -5666,7 +5802,9 @@
       "Dark Pacts",
       "Extra Attacks",
       "Lethal Hits",
-      "Rapid Fire"
+      "Pistol",
+      "Rapid Fire",
+      "Hazardous"
     ],
     "keywords": [
       "Faction: Heretic Astartes",
@@ -5680,9 +5818,11 @@
       "Palanquin of Nurgle",
       "Melee Weapon",
       "Extra Attacks Weapon",
+      "Ranged Weapon",
       "Melee Weapon",
       "Ranged Weapon",
       "Melee Weapon",
+      "Ranged Weapon",
       "Melee Weapon"
     ]
   },
@@ -5713,26 +5853,6 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Combi-bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 2"
-        },
-        {
-          "name": "Bolt pistol",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Pistol"
-        },
-        {
           "name": "➤ Plasma pistol - standard",
           "Range": "12\"",
           "A": "1",
@@ -5751,6 +5871,26 @@
           "AP": "-3",
           "D": "2",
           "Keywords": "Hazardous, Pistol"
+        },
+        {
+          "name": "Bolt pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol"
+        },
+        {
+          "name": "Combi-bolter",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
         },
         {
           "name": "Combi-weapon",
@@ -5846,6 +5986,8 @@
       "Extra Attacks",
       "Lethal Hits",
       "Twin-linked",
+      "Pistol",
+      "Hazardous",
       "Rapid Fire"
     ],
     "keywords": [
@@ -5864,6 +6006,10 @@
       "Melee Weapon",
       "Melee Weapon",
       "Melee Weapon",
+      "Ranged Weapon",
+      "Ranged Weapon",
+      "Ranged Weapon",
+      "Ranged Weapon",
       "Melee Weapon",
       "Melee Weapon",
       "Ranged Weapon"
@@ -5896,16 +6042,6 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Combi-bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 2"
-        },
-        {
           "name": "Bolt pistol",
           "Range": "12\"",
           "A": "1",
@@ -5934,6 +6070,16 @@
           "AP": "-3",
           "D": "2",
           "Keywords": "Hazardous, Pistol"
+        },
+        {
+          "name": "Combi-bolter",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
         },
         {
           "name": "Combi-weapon",
@@ -6017,6 +6163,8 @@
       "Leader",
       "Dark Pacts",
       "Twin-linked",
+      "Pistol",
+      "Hazardous",
       "Rapid Fire"
     ],
     "keywords": [
@@ -6034,6 +6182,10 @@
       "Melee Weapon",
       "Melee Weapon",
       "Melee Weapon",
+      "Ranged Weapon",
+      "Ranged Weapon",
+      "Ranged Weapon",
+      "Ranged Weapon",
       "Melee Weapon",
       "Melee Weapon",
       "Ranged Weapon"
@@ -6066,16 +6218,6 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Combi-bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 2"
-        },
-        {
           "name": "Bolt pistol",
           "Range": "12\"",
           "A": "1",
@@ -6104,6 +6246,16 @@
           "AP": "-3",
           "D": "2",
           "Keywords": "Hazardous, Pistol"
+        },
+        {
+          "name": "Combi-bolter",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
         },
         {
           "name": "Combi-weapon",
@@ -6186,7 +6338,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- CHAOS BIKERS\n- KHORNE BERZERKERS"
+        "description": "This model can be attached to the following unit:\n- CHAOS BIKERS\n- KHORNE BERSERKERS"
       },
       {
         "name": "Bloody Stampede",
@@ -6199,6 +6351,8 @@
       "Extra Attacks",
       "Lance",
       "Twin-linked",
+      "Pistol",
+      "Hazardous",
       "Rapid Fire"
     ],
     "keywords": [
@@ -6217,6 +6371,10 @@
       "Melee Weapon",
       "Melee Weapon",
       "Melee Weapon",
+      "Ranged Weapon",
+      "Ranged Weapon",
+      "Ranged Weapon",
+      "Ranged Weapon",
       "Melee Weapon",
       "Melee Weapon",
       "Ranged Weapon"
@@ -6249,16 +6407,6 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Combi-bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 2"
-        },
-        {
           "name": "Bolt pistol",
           "Range": "12\"",
           "A": "1",
@@ -6287,6 +6435,16 @@
           "AP": "-3",
           "D": "2",
           "Keywords": "Hazardous, Pistol"
+        },
+        {
+          "name": "Combi-bolter",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
         },
         {
           "name": "Combi-weapon",
@@ -6382,6 +6540,8 @@
       "Extra Attacks",
       "Lethal Hits",
       "Twin-linked",
+      "Pistol",
+      "Hazardous",
       "Rapid Fire"
     ],
     "keywords": [
@@ -6400,6 +6560,10 @@
       "Melee Weapon",
       "Melee Weapon",
       "Melee Weapon",
+      "Ranged Weapon",
+      "Ranged Weapon",
+      "Ranged Weapon",
+      "Ranged Weapon",
       "Melee Weapon",
       "Melee Weapon",
       "Ranged Weapon"
@@ -6432,26 +6596,6 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Combi-bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 2"
-        },
-        {
-          "name": "Combi-weapon",
-          "Range": "24\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
-        },
-        {
           "name": "Bolt pistol",
           "Range": "12\"",
           "A": "1",
@@ -6460,6 +6604,16 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Pistol"
+        },
+        {
+          "name": "Combi-bolter",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
         },
         {
           "name": "➤ Plasma pistol - standard",
@@ -6480,6 +6634,16 @@
           "AP": "-3",
           "D": "2",
           "Keywords": "Hazardous, Pistol"
+        },
+        {
+          "name": "Combi-weapon",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         },
         {
           "name": "➤ Infernal Gaze - witchfire",
@@ -6574,7 +6738,9 @@
       "Dark Pacts",
       "Extra Attacks",
       "Lethal Hits",
+      "Pistol",
       "Rapid Fire",
+      "Hazardous",
       "Anti-",
       "Devastating Wounds"
     ],
@@ -6590,9 +6756,11 @@
       "Steed of Slaanesh",
       "Melee Weapon",
       "Extra Attacks Weapon",
+      "Ranged Weapon",
       "Melee Weapon",
       "Ranged Weapon",
       "Melee Weapon",
+      "Ranged Weapon",
       "Ranged Weapon",
       "Melee Weapon"
     ]
@@ -7085,13 +7253,13 @@
     ]
   },
   {
-    "name": "Mutilators",
+    "name": "Mutilators [Legends]",
     "id": "7299-5b5-2b56-ef50",
     "type": "unit",
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 200,
+      "base": 185,
       "variants": []
     },
     "composition": {
@@ -7099,54 +7267,48 @@
       "max_models": 3
     },
     "stats": {
-      "M": "5\"",
+      "M": "4\"",
       "T": "7",
       "SV": "2+",
-      "W": "5",
+      "W": "4",
       "LD": "6+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (5+)",
-    "transport": null,
+    "invuln_save": "5+",
+    "transport": "For the purposes of embarking within TRANSPORTS, each Mutilator model counts as one OBLITERATOR model.",
     "weapons": {
       "ranged": [],
       "melee": [
         {
-          "name": "➤ Fleshmetal weapons - rending strikes",
+          "name": "➤ Fleshmetal weapons - strike",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "9",
-          "AP": "-3",
-          "D": "3",
-          "Keywords": "-"
-        },
-        {
-          "name": "➤ Fleshmetal weapons - clawed sweeps",
-          "Range": "Melee",
-          "A": "6",
-          "WS": "3+",
           "S": "6",
           "AP": "-2",
-          "D": "1",
+          "D": "2",
           "Keywords": "-"
         },
         {
-          "name": "➤ Fleshmetal weapons - thunderous blows",
+          "name": "➤ Fleshmetal weapons - sweep",
           "Range": "Melee",
-          "A": "2",
+          "A": "8",
           "WS": "3+",
-          "S": "12",
-          "AP": "-4",
-          "D": "D6+2",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
           "Keywords": "-"
         }
       ]
     },
     "abilities": [
       {
-        "name": "Crushing Charge",
-        "description": "You can re-roll charge rolls made for this unit, and each time this unit makes a Charge move, select one enemy unit and roll one D6 for each model in this unit that is within Engagement Range of that unit: for each 4+, that enemy unit suffers D3 mortal wounds."
+        "name": "Invulnerable Save",
+        "description": "Models in this unit have a 5+ invulnerable save."
+      },
+      {
+        "name": "Death Frenzy",
+        "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
       }
     ],
     "special_rules": [
@@ -7158,8 +7320,7 @@
       "Infantry",
       "Chaos",
       "Daemon",
-      "Mutilators",
-      "Damage Dx+0 Modifier"
+      "Mutilators"
     ]
   },
   {
@@ -7440,16 +7601,6 @@
           "Keywords": "Rapid Fire 2"
         },
         {
-          "name": "Combi-weapon",
-          "Range": "24\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
-        },
-        {
           "name": "Bolt pistol",
           "Range": "12\"",
           "A": "1",
@@ -7478,6 +7629,16 @@
           "AP": "-3",
           "D": "2",
           "Keywords": "Hazardous, Pistol"
+        },
+        {
+          "name": "Combi-weapon",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         },
         {
           "name": "➤ Infernal Gaze - witchfire",
@@ -7561,6 +7722,8 @@
       "Leader",
       "Dark Pacts",
       "Rapid Fire",
+      "Pistol",
+      "Hazardous",
       "Anti-",
       "Devastating Wounds"
     ],
@@ -7573,9 +7736,11 @@
       "Chaos",
       "Sorcerer on Bike",
       "Ranged Weapon",
+      "Ranged Weapon",
       "Melee Weapon",
       "Ranged Weapon",
       "Melee Weapon",
+      "Ranged Weapon",
       "Ranged Weapon",
       "Melee Weapon"
     ]
@@ -7799,7 +7964,9 @@
       "Leader",
       "Dark Pacts",
       "Rapid Fire",
-      "Twin-linked"
+      "Twin-linked",
+      "Pistol",
+      "Hazardous"
     ],
     "keywords": [
       "Faction: Heretic Astartes",
@@ -7814,6 +7981,10 @@
       "Melee Weapon",
       "Melee Weapon",
       "Melee Weapon",
+      "Ranged Weapon",
+      "Ranged Weapon",
+      "Ranged Weapon",
+      "Ranged Weapon",
       "Melee Weapon",
       "Melee Weapon",
       "Ranged Weapon"
@@ -8053,7 +8224,9 @@
       "Leader",
       "Deep Strike",
       "Dark Pacts",
-      "Twin-linked"
+      "Twin-linked",
+      "Hazardous",
+      "Pistol"
     ],
     "keywords": [
       "Faction: Heretic Astartes",
@@ -8066,7 +8239,9 @@
       "Chaos",
       "Melee Weapon",
       "Melee Weapon",
-      "Melee Weapon"
+      "Melee Weapon",
+      "Ranged Weapon",
+      "Ranged Weapon"
     ]
   },
   {
@@ -8426,6 +8601,7 @@
       "Blast",
       "Ignores Cover",
       "Torrent",
+      "Melta",
       "Hazardous",
       "Rapid Fire",
       "Stealth",
@@ -8440,7 +8616,8 @@
       "Chaos",
       "Attacks Dx Weapon",
       "Damage Dx Weapon",
-      "Attacks Dx Weapon"
+      "Attacks Dx Weapon",
+      "Damage Dx Weapon"
     ]
   },
   {
@@ -8550,832 +8727,6 @@
       "Faction: Heretic Astartes",
       "Noise Marines",
       "Cults of the Dark Gods"
-    ]
-  },
-  {
-    "name": "Masters of the Maelstrom",
-    "id": "a998-9dce-fbab-8d32",
-    "type": "unit",
-    "faction": "Chaos Space Marines",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 115,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "3",
-      "SV": "4+",
-      "W": "3",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Absolver bolt pistol",
-          "Range": "18\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "5",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Pistol"
-        },
-        {
-          "name": "Mind Wrench",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "6",
-          "AP": "-2",
-          "D": "D6+1",
-          "Keywords": "Precision, Psychic"
-        },
-        {
-          "name": "Bolt pistol",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "4",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Pistol"
-        },
-        {
-          "name": "Laspistol",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "4",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Pistol"
-        },
-        {
-          "name": "Londaxi maimer",
-          "Range": "18\"",
-          "A": "3",
-          "BS": "3+",
-          "S": "4",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Assault"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Reductor array",
-          "Range": "Melee",
-          "A": "6",
-          "WS": "3+",
-          "S": "4",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Force stave",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "2+",
-          "S": "6",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Psychic"
-        },
-        {
-          "name": "Axe of Ending",
-          "Range": "Melee",
-          "A": "6",
-          "WS": "2+",
-          "S": "6",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Anti-CHARACTER 2+, Precision"
-        },
-        {
-          "name": "Power sabre",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "3+",
-          "S": "4",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Bionic gauntlet",
-          "Range": "Melee",
-          "A": "1",
-          "WS": "2+",
-          "S": "6",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "-"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Choice Samples",
-        "description": "While this unit's Garreon the Corpsemaster model is on the battlefield, in your Command phase, select one of the following: you can return one destroyed model (excluding **Character** models) to this unit, or, if one or more **Heretic Astartes Infantry** units from your army are below Starting Strength and within 3\" of this unit, you gain 1CP."
-      },
-      {
-        "name": "Fleet Command",
-        "description": "After both players have deployed their armies, if this unit is on the battlefield (or any **Transport** it is embarked within is on the battlefield) select up to three **Heretic Astartes** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
-      },
-      {
-        "name": "Plunder",
-        "description": "Once per battle, after this unit ends a Normal move, you can select one visible enemy unit within 12\" of it and roll one D6: on a 2+, that enemy unit suffers D3+1 mortal wounds."
-      },
-      {
-        "name": "Masters of the Maelstrom",
-        "description": "At the start of the Declare Battle Formations step, this unit can join one of the following units. This unit then counts as part of that unit for the rest of the battle, and that unit’s Starting Strength is increased accordingly.\n- **Chosen, Legionaries, Red Corsairs Raiders**\n\n\nThis unit cannot join an Attached unit, and only **Huron Blackheart** can join a unit this unit has joined."
-      }
-    ],
-    "special_rules": [
-      "Pistol",
-      "Psychic",
-      "Precision",
-      "Anti-",
-      "Assault",
-      "Dark Pacts"
-    ],
-    "keywords": [
-      "Epic Hero",
-      "Infantry",
-      "Grenades",
-      "Chaos",
-      "Chaos Undivided",
-      "Masters of the Maelstrom",
-      "Faction: Heretic Astartes",
-      "Psyker",
-      "Ranged Weapon"
-    ]
-  },
-  {
-    "name": "Red Corsairs Raiders",
-    "id": "2078-97ce-8793-3382",
-    "type": "unit",
-    "faction": "Chaos Space Marines",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 110,
-      "variants": [
-        {
-          "models": 6,
-          "points": 220
-        }
-      ]
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "4",
-      "SV": "3+",
-      "W": "3",
-      "LD": "6+",
-      "OC": "2"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Hand flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "3",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Ignores Cover, Pistol, Torrent"
-        },
-        {
-          "name": "Meltagun",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "9",
-          "AP": "-4",
-          "D": "D6",
-          "Keywords": "Melta 2"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Reaver's blade",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "3+",
-          "S": "5",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Power fist",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "3+",
-          "S": "8",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "-"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Trophy Takers",
-        "description": "The first time this unit destroys an enemy unit, until the end of the battle, while this unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in this unit."
-      },
-      {
-        "name": "Attached Unit",
-        "description": "If a **Character** unit from your army with the Leader ability can be attached to a **Legionaries** unit, it can be attached to this unit instead."
-      }
-    ],
-    "special_rules": [
-      "Ignores Cover",
-      "Pistol",
-      "Torrent",
-      "Infiltrators",
-      "Dark Pacts"
-    ],
-    "keywords": [
-      "Faction: Heretic Astartes",
-      "Infantry",
-      "Grenades",
-      "Red Corsairs Raiders",
-      "Chaos"
-    ]
-  },
-  {
-    "name": "Red Corsairs Reave-captain",
-    "id": "beed-356b-2fec-2c2a",
-    "type": "model",
-    "faction": "Chaos Space Marines",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 75,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "4",
-      "SV": "3+",
-      "W": "5",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Bolt pistol",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Pistol"
-        },
-        {
-          "name": "➤ Plasma pistol - standard",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "7",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "Pistol"
-        },
-        {
-          "name": "➤ Plasma pistol - supercharge",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "8",
-          "AP": "-3",
-          "D": "2",
-          "Keywords": "Hazardous, Pistol"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Power sword",
-          "Range": "Melee",
-          "A": "7",
-          "WS": "2+",
-          "S": "5",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "Sustained Hits 1"
-        },
-        {
-          "name": "Power maul",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "2+",
-          "S": "5",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "-"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Invulnerable Save (4+)",
-        "description": "This model has a 4+ invulnerable save."
-      },
-      {
-        "name": "Brutal Raider",
-        "description": "Each time this model's unit ends a Charge move, until the end of the turn, add 1 to the Strength characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1."
-      },
-      {
-        "name": "Raider's Due",
-        "description": "Each time this unit declares a Charge that targets one or more units that are within range of one or more objective markers, you can re-roll the Charge roll."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units: **Chosen, Legionaries, Red Corsairs Raiders**"
-      }
-    ],
-    "special_rules": [
-      "Dark Pacts",
-      "Infiltrators",
-      "Leader",
-      "Sustained Hits"
-    ],
-    "keywords": [
-      "Faction: Heretic Astartes",
-      "Character",
-      "Infantry",
-      "Chaos",
-      "Red Corsairs Reave-captain"
-    ]
-  },
-  {
-    "name": "Exalted Champion [Crucible]",
-    "id": "b9a4-a9c4-5f8d-ed3a",
-    "type": "model",
-    "faction": "Chaos Space Marines",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 90,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": null
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "4",
-      "SV": "3+",
-      "W": "4",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units: **Chosen, Havocs, Legionaries, Nemesis Claw, Raiders**"
-      },
-      {
-        "name": "Marked by the Dark Gods",
-        "description": "Each time this model makes an attack, a successful unmodified Hit roll of 5+ scores a Critical Hit."
-      }
-    ],
-    "special_rules": [
-      "Leader",
-      "Dark Pacts"
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Grenades",
-      "Chaos",
-      "Exalted Champion",
-      "Faction: Heretic Astartes"
-    ]
-  },
-  {
-    "name": "Sorcerous Champion [Crucible]",
-    "id": "b6c0-4be6-7487-73dc",
-    "type": "model",
-    "faction": "Chaos Space Marines",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 80,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": null
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "4",
-      "SV": "3+",
-      "W": "4",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units: **Chosen, Havocs, Legionaries, Nemesis Claw, Raiders**"
-      },
-      {
-        "name": "Gift of Chaos (Psychic)",
-        "description": "Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [PSYCHIC} ability. That unit must take a Leadership test. If it fails, it suffers D3 mortal wounds."
-      }
-    ],
-    "special_rules": [
-      "Leader",
-      "Dark Pacts"
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Grenades",
-      "Chaos",
-      "Psyker",
-      "Sorcerous Champion",
-      "Faction: Heretic Astartes"
-    ]
-  },
-  {
-    "name": "Soul Forge Tyrant [Crucible]",
-    "id": "9573-8b24-3796-d9d9",
-    "type": "model",
-    "faction": "Chaos Space Marines",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 160,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": null
-    },
-    "stats": {
-      "M": "10\"",
-      "T": "9",
-      "SV": "2+",
-      "W": "10",
-      "LD": "6+",
-      "OC": "4"
-    },
-    "invuln_save": "5+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Skulking Nightmare",
-        "description": "While this model is within 3\" of one or more friendly **Heretic Astartes Infantry** units, this model has the Lone Operative ability."
-      },
-      {
-        "name": "Invulnerable Save (5+)",
-        "description": "This model has a 5+ invulnerable save."
-      }
-    ],
-    "special_rules": [
-      "Dark Pacts"
-    ],
-    "keywords": [
-      "Character",
-      "Chaos",
-      "Mounted",
-      "Daemon",
-      "Helstalker",
-      "Faction: Heretic Astartes",
-      "Soul Forge Tyrant"
-    ]
-  },
-  {
-    "name": "Defiler",
-    "id": "29f9-fc47-787e-d9d3",
-    "type": "model",
-    "faction": "Chaos Space Marines",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 250,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "12\"",
-      "T": "11",
-      "SV": "3+",
-      "W": "18",
-      "LD": "6+",
-      "OC": "5"
-    },
-    "invuln_save": "Invulnerable Save (5+)",
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "➤ Heavy missile launcher - frag",
-          "Range": "48\"",
-          "A": "2D6",
-          "BS": "3+",
-          "S": "5",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Blast"
-        },
-        {
-          "name": "➤ Heavy missile launcher - krak",
-          "Range": "48\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "10",
-          "AP": "-2",
-          "D": "D6+1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Hades battle cannon",
-          "Range": "48\"",
-          "A": "D6+3",
-          "BS": "3+",
-          "S": "10",
-          "AP": "-1",
-          "D": "3",
-          "Keywords": "Blast"
-        },
-        {
-          "name": "Ectoplasma destructor",
-          "Range": "36\"",
-          "A": "D6",
-          "BS": "3+",
-          "S": "12",
-          "AP": "-3",
-          "D": "3",
-          "Keywords": "Blast"
-        },
-        {
-          "name": "Heavy baleflamer",
-          "Range": "12\"",
-          "A": "D6+3",
-          "BS": "N/A",
-          "S": "7",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Ignores Cover, Torrent"
-        },
-        {
-          "name": "Excruciator cannon",
-          "Range": "36\"",
-          "A": "6",
-          "BS": "3+",
-          "S": "6",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "-"
-        },
-        {
-          "name": "Magma cutter",
-          "Range": "12\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "9",
-          "AP": "-4",
-          "D": "D6",
-          "Keywords": "Melta 2"
-        },
-        {
-          "name": "Hades lascannon",
-          "Range": "48\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "12",
-          "AP": "-3",
-          "D": "D6+1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Heavy reaper autocannon",
-          "Range": "48\"",
-          "A": "4",
-          "BS": "3+",
-          "S": "9",
-          "AP": "-1",
-          "D": "3",
-          "Keywords": "Devastating Wounds, Sustained Hits 1"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Shearing claws - strike",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "3+",
-          "S": "16",
-          "AP": "-3",
-          "D": "D6+1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Shearing claws - sweep",
-          "Range": "Melee",
-          "A": "10",
-          "WS": "3+",
-          "S": "6",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Electroscourge",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "3+",
-          "S": "12",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Extra Attacks, Sustained Hits 2"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Scuttling Walker",
-        "description": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding **Titanic** models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
-      },
-      {
-        "name": "Daemonforge",
-        "description": "Each time this unit makes a Dark Pact, until the end of the phase, each time this model makes an attack, re-roll a Wound roll of 1. In addition, once per battle, when this unit makes a Dark Pact, before making the resulting Leadership test, you can declare it will overcharge its daemonforge. If it does: \n- If the resulting Leadership test is failed, this model suffers 3 mortal wounds instead of D3 mortal wounds.\n- Until the end of the phase, each time this model makes an attack, you can re-roll the Wound roll."
-      }
-    ],
-    "special_rules": [
-      "Deadly Demise D6",
-      "Dark Pacts",
-      "Precision",
-      "Blast",
-      "Ignores Cover",
-      "Torrent",
-      "Melta"
-    ],
-    "keywords": [
-      "Vehicle",
-      "Walker",
-      "Chaos",
-      "Daemon",
-      "Faction: Heretic Astartes",
-      "Defiler",
-      "Damage Dx+0 Modifier",
-      "Damage Dx+0 Modifier",
-      "Attacks Dx Weapon",
-      "Attacks Dx+0 Modifier",
-      "Attacks Dx+0 Modifier",
-      "Attacks Dx Weapon",
-      "Attacks Dx+0 Modifier",
-      "Damage Dx Weapon"
-    ]
-  },
-  {
-    "name": "Kravek Morne",
-    "id": "eec8-c21f-c284-a682",
-    "type": "model",
-    "faction": "Chaos Space Marines",
-    "faction_type": "Chaos",
-    "points": {
-      "base": null,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "5\"",
-      "T": "5",
-      "SV": "2+",
-      "W": "6",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": "Invulnerable Save (4+)",
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Baleflamer",
-          "Range": "12\"",
-          "A": "D6+3",
-          "BS": "N/A",
-          "S": "6",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Ignores Cover, Torrent"
-        },
-        {
-          "name": "Combi-bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 2"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Last Argument and power fist",
-          "Range": "Melee",
-          "A": "7",
-          "WS": "2+",
-          "S": "10",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Devastating Wounds"
-        },
-        {
-          "name": "Servo-harness",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "2+",
-          "S": "6",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Anti-Vehicle 2+, Extra Attacks"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Headlong Destruction",
-        "description": "Each time a model in this unit makes an attack that targets the closest eligible enemy unit, improve the Armour Penetration characteristic of that attack by 1."
-      },
-      {
-        "name": "Architect of Ruin",
-        "description": "At the start of the battle, select one unit in your opponent’s army to be this model’s hated foe. Each time this model makes an attack that targets its hated foe, you can re-roll the Wound roll. Each time this model’s hated foe is destroyed, you can select a new unit from your opponent’s army to be its hated foe."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units: **Chaos Terminator Squad, Mutilators, Obliterators.**"
-      }
-    ],
-    "special_rules": [
-      "Dark Pacts",
-      "Deep Strike",
-      "Leader",
-      "Ignores Cover",
-      "Torrent",
-      "Rapid Fire",
-      "Devastating Wounds",
-      "Anti-",
-      "Extra Attacks"
-    ],
-    "keywords": [
-      "Faction: Heretic Astartes",
-      "Infantry",
-      "Character",
-      "Epic Hero",
-      "Chaos",
-      "Chaos Undivided",
-      "Terminator",
-      "Kravek Morne"
     ]
   }
 ]

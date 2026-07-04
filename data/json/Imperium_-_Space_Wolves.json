@@ -30,7 +30,7 @@
           "name": "Tyrnak and Fenrir",
           "Range": "Melee",
           "A": "6",
-          "WS": "2+",
+          "WS": "2",
           "S": "5",
           "AP": "-1",
           "D": "1",
@@ -282,7 +282,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 160,
+      "base": 170,
       "variants": []
     },
     "composition": {
@@ -387,8 +387,8 @@
       "Epic Hero",
       "Smoke",
       "Imperium",
-      "Bjorn the Fell-Handed",
-      "Dreadnought"
+      "Dreadnought",
+      "Bjorn the Fell-Handed"
     ]
   },
   {
@@ -1313,7 +1313,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 165,
+      "base": 180,
       "variants": []
     },
     "composition": {
@@ -1892,7 +1892,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 135,
+      "base": 145,
       "variants": []
     },
     "composition": {
@@ -1977,8 +1977,8 @@
       "Vehicle",
       "Walker",
       "Imperium",
-      "Wulfen",
-      "Dreadnought"
+      "Dreadnought",
+      "Wulfen"
     ]
   },
   {
@@ -1988,7 +1988,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 150,
+      "base": 160,
       "variants": []
     },
     "composition": {
@@ -2061,9 +2061,9 @@
       "Character",
       "Epic Hero",
       "Imperium",
+      "Dreadnought",
       "Murderfang",
-      "Wulfen",
-      "Dreadnought"
+      "Wulfen"
     ]
   },
   {
@@ -2587,7 +2587,7 @@
           "name": "➤ Helfrost destructor - focused",
           "Range": "12\"",
           "A": "D6+6",
-          "BS": "N/A",
+          "BS": "3+",
           "S": "8",
           "AP": "-1",
           "D": "2",
@@ -3005,7 +3005,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 55,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -3292,7 +3292,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 130,
+      "base": 140,
       "variants": []
     },
     "composition": {
@@ -3570,7 +3570,7 @@
     },
     "composition": {
       "min_models": 1,
-      "max_models": 3
+      "max_models": 1
     },
     "stats": {
       "M": "7\"",
@@ -3884,6 +3884,16 @@
           "AP": "-2",
           "D": "2",
           "Keywords": "Precision"
+        },
+        {
+          "name": "Thunderclap",
+          "Range": "12\"",
+          "A": "D3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Blast, Psychic"
         }
       ],
       "melee": [
@@ -3896,6 +3906,16 @@
           "AP": "0",
           "D": "1",
           "Keywords": "-"
+        },
+        {
+          "name": "Runic Stave",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3",
+          "Keywords": "Psychic"
         },
         {
           "name": "Combat Blade",
@@ -3912,18 +3932,28 @@
     "abilities": [
       {
         "name": "Hunting Hounds",
-        "description": "While this unit is within 6\" of one or more friendly **Space Wolves Character** models (excluding **Wulfen** models), if this unit is not Battle-shocked, Hunting Wolves models in this unit have an Objective Control characteristic of 1."
+        "description": "While this unit is within 6\" of one or more friendly Space Wolves Character models (excluding Wulfen\nmodels), if this unit is not Battle-shocked, Hunting Wolves models in this unit have an Objective Control characteristic of 1"
       },
       {
         "name": "Deadly Stalkers",
-        "description": "Each time a model in this unit makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6\" of that target, add 1 to the Wound roll."
+        "description": "Each time a model in this unit makes an\nattack that targets an enemy unit, if there are no other units\nfrom your opponent’s army within 6\" of that target, add 1 to the\nWound roll."
+      },
+      {
+        "name": "Haywire Mine",
+        "description": "Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a Vehicle unit."
+      },
+      {
+        "name": "Haywire Mine",
+        "description": "Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a Vehicle unit."
       }
     ],
     "special_rules": [
       "Infiltrators",
       "Scouts 7\"",
       "Oath of Moment",
-      "Precision"
+      "Precision",
+      "Blast",
+      "Psychic"
     ],
     "keywords": [
       "Infantry",

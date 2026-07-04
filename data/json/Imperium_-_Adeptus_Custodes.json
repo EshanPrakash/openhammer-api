@@ -76,19 +76,19 @@
     "faction": "Adeptus Custodes",
     "faction_type": "Imperium",
     "points": {
-      "base": 110,
+      "base": 120,
       "variants": [
         {
           "models": 3,
-          "points": 165
+          "points": 180
         },
         {
           "models": 4,
-          "points": 275
+          "points": 300
         },
         {
           "models": 6,
-          "points": 330
+          "points": 360
         }
       ]
     },
@@ -745,7 +745,7 @@
     "abilities": [
       {
         "name": "Purity of Execution",
-        "description": "Each time a model in this unit makes a ranged attack that targets a Psyker unit, that attack has the [PRECISION] and [DEVASTATING WOUNDS] abilities."
+        "description": "Each time a model in this unit makes a ranged attack that targets a Psyker unit, that attack has the PRECISION] and [DEVASTATING WOUNDS] abilities."
       }
     ],
     "special_rules": [
@@ -1358,7 +1358,8 @@
       "Imperium",
       "Faction: Adeptus Custodes",
       "AC Walker",
-      "Damage Dx Weapon"
+      "Damage Dx Weapon",
+      "Character"
     ]
   },
   {
@@ -1563,19 +1564,19 @@
     "faction": "Adeptus Custodes",
     "faction_type": "Imperium",
     "points": {
-      "base": 45,
+      "base": 50,
       "variants": [
         {
           "models": 5,
-          "points": 55
+          "points": 65
         },
         {
           "models": 5,
-          "points": 90
+          "points": 100
         },
         {
           "models": 10,
-          "points": 100
+          "points": 110
         }
       ]
     },
@@ -1633,19 +1634,19 @@
     "faction": "Adeptus Custodes",
     "faction_type": "Imperium",
     "points": {
-      "base": 45,
+      "base": 50,
       "variants": [
         {
           "models": 5,
-          "points": 55
+          "points": 65
         },
         {
           "models": 5,
-          "points": 90
+          "points": 115
         },
         {
           "models": 10,
-          "points": 100
+          "points": 125
         }
       ]
     },
@@ -1779,7 +1780,7 @@
     "abilities": [
       {
         "name": "Stand Vigil",
-        "description": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll instead."
+        "description": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll isntead."
       },
       {
         "name": "No Foe Shall Stand",
@@ -2251,7 +2252,8 @@
       "Vehicle",
       "Walker",
       "Imperium",
-      "AC Walker"
+      "AC Walker",
+      "Character"
     ]
   },
   {
@@ -2356,7 +2358,8 @@
       "Walker",
       "Contemptor-Achillus Dreadnought",
       "AC Walker",
-      "Attacks Dx Weapon"
+      "Attacks Dx Weapon",
+      "Character"
     ]
   },
   {
@@ -2642,7 +2645,8 @@
       "Telemon Heavy Dreadnought",
       "Walker",
       "AC Walker",
-      "Attacks Dx Weapon"
+      "Attacks Dx Weapon",
+      "Character"
     ]
   },
   {
@@ -2746,7 +2750,7 @@
       "max_models": 2
     },
     "stats": {
-      "M": "20+\"",
+      "M": "20\"",
       "T": "12",
       "SV": "2+",
       "W": "22",
@@ -2843,11 +2847,11 @@
       "max_models": 1
     },
     "stats": {
-      "M": "20+\"",
+      "M": "20\"",
       "T": "12",
       "SV": "2+",
       "W": "22",
-      "LD": "6+",
+      "LD": "6",
       "OC": "0"
     },
     "invuln_save": "5+",
@@ -2891,7 +2895,7 @@
     "abilities": [
       {
         "name": "Infernus Firebomb",
-        "description": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move. Until the end of the turn, models in that unit cannot have the Benefit of Cover. In addition, roll one D6 for each model in that unit: for each 6, that unit suffers 1 mortal wound."
+        "description": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move. Until the end of the turn, models in that unit cannot have the Benefit of Cover. In addition, roll one D6 for eah model in that unit: for each 6, that unit suffers 1 mortal wound."
       },
       {
         "name": "Damaged: 1-7 wounds remaining",
@@ -2910,175 +2914,6 @@
       "Fly",
       "Imperium",
       "Ares Gunship"
-    ]
-  },
-  {
-    "name": "Guardian of the Throne [Crucible]",
-    "id": "de0b-37e9-b9f5-d3a6",
-    "type": "model",
-    "faction": "Adeptus Custodes",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 130,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "6",
-      "SV": "2+",
-      "W": "6",
-      "LD": "6+",
-      "OC": "2"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Invulnerable Save (4+)",
-        "description": "This model has a 4+ invulnerable save."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units: **Custodian Guard, Custodian Wardens**"
-      },
-      {
-        "name": "Ka'tah Master",
-        "description": "Once per phase, you can re-roll one Hit roll or one Wound roll for an attack made by this model."
-      }
-    ],
-    "special_rules": [
-      "Deep Strike",
-      "Leader",
-      "Martial Ka'tah"
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Imperium",
-      "Guardian of the Throne",
-      "Crucible",
-      "Faction: Adeptus Custodes"
-    ]
-  },
-  {
-    "name": "Null Maiden [Crucible]",
-    "id": "e58d-17d4-71f8-4137",
-    "type": "model",
-    "faction": "Adeptus Custodes",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 65,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "3",
-      "SV": "3+",
-      "W": "4",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": "5+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Invulnerable Save (5+)",
-        "description": "This model has a 5+ invulnerable save."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units: **Prosecutors, Vigilators, Witchseekers**"
-      },
-      {
-        "name": "Daughter of the Abyss",
-        "description": "This model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds."
-      }
-    ],
-    "special_rules": [
-      "Leader",
-      "Scouts 6\""
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Imperium",
-      "Crucible",
-      "Faction: Adeptus Custodes",
-      "Null Maiden",
-      "Anathema Psykana"
-    ]
-  },
-  {
-    "name": "Kataphraktoi Exemplar [Crucible]",
-    "id": "c11a-f70a-2877-ed27",
-    "type": "model",
-    "faction": "Adeptus Custodes",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 150,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "12\"",
-      "T": "7",
-      "SV": "2+",
-      "W": "8",
-      "LD": "6+",
-      "OC": "2"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Invulnerable Save (4+)",
-        "description": "This model has a 4+ invulnerable save."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units: **Vertus Praetors**"
-      },
-      {
-        "name": "Fiend Slayer",
-        "description": "Each time this model makes an attack that targets a **Monster** or **Vehicle** unit, you can re-roll the Wound roll."
-      }
-    ],
-    "special_rules": [
-      "Leader",
-      "Martial Ka'tah"
-    ],
-    "keywords": [
-      "Character",
-      "Imperium",
-      "Crucible",
-      "Faction: Adeptus Custodes",
-      "Kataphraktoi Exemplar",
-      "Mounted",
-      "Dawneagle Jetbike",
-      "Fly"
     ]
   }
 ]
