@@ -21,7 +21,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -130,7 +130,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -211,7 +211,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -245,7 +245,7 @@
         "description": "This model can be attached to the following units:\n- Purgation Squad\n- Strike Squad"
       },
       {
-        "name": "Clarion of Hate (Psychic)",
+        "name": "Clarion of Haste (Psychic)",
         "description": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced."
       },
       {
@@ -293,7 +293,7 @@
       "LD": "5+",
       "OC": "1"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -327,10 +327,6 @@
         "description": "While this model is leading a unit, you can re-roll Charge rolls made for that unit."
       },
       {
-        "name": "Litanies of Sanctity",
-        "description": "Once per battle, at the start of any phase, you can select one friendly **Grey Knights** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
-      },
-      {
         "name": "Leader",
         "description": "This model can be attached to the following units:\n- Brotherhood Terminator Squad\n- Paladin Squad"
       }
@@ -347,8 +343,7 @@
       "Psyker",
       "Imperium",
       "Infantry",
-      "Character",
-      "Melee Weapon"
+      "Character"
     ]
   },
   {
@@ -373,20 +368,10 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
-        {
-          "name": "Vortex of Doom",
-          "Range": "18\"",
-          "A": "D6+3",
-          "BS": "3+",
-          "S": "8",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Blast, Psychic"
-        },
         {
           "name": "Combi-weapon",
           "Range": "24\"",
@@ -406,6 +391,16 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Rapid Fire 2"
+        },
+        {
+          "name": "Vortex of Doom",
+          "Range": "18\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Blast, Psychic"
         }
       ],
       "melee": [
@@ -428,7 +423,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- BROTHERHOOD TERMINATOR SQUAD\n- PALADIN SQUAD"
+        "description": "This model can be attached to the following units:\n- **Brotherhood Terminator Squad**\n- **Paladin Squad**"
       },
       {
         "name": "Sanctic Hood",
@@ -438,13 +433,12 @@
     "special_rules": [
       "Deep Strike",
       "Gate of Infinity",
+      "Leader",
+      "Feel No Pain",
       "Psychic",
-      "Blast",
       "Anti-",
       "Rapid Fire",
-      "Devastating Wounds",
-      "Leader",
-      "Feel No Pain"
+      "Devastating Wounds"
     ],
     "keywords": [
       "Brotherhood Librarian",
@@ -456,8 +450,6 @@
       "Psyker",
       "Psychic Weapon",
       "Melee Weapon",
-      "Psychic Weapon",
-      "Ranged Weapon",
       "Ranged Weapon"
     ]
   },
@@ -488,6 +480,16 @@
     "weapons": {
       "ranged": [
         {
+          "name": "Grav-pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Anti-Vehicle 2+, Pistol"
+        },
+        {
           "name": "Forge bolter",
           "Range": "24\"",
           "A": "3",
@@ -496,29 +498,9 @@
           "AP": "-1",
           "D": "2",
           "Keywords": "-"
-        },
-        {
-          "name": "Grav-pistol",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "4",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Anti-Vehicle 3+, Pistol"
         }
       ],
       "melee": [
-        {
-          "name": "Omnissian power axe",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "3+",
-          "S": "6",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "-"
-        },
         {
           "name": "Servo-arm",
           "Range": "Melee",
@@ -528,6 +510,16 @@
           "AP": "-2",
           "D": "3",
           "Keywords": "Extra Attacks"
+        },
+        {
+          "name": "Omnissian power axe",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
         }
       ]
     },
@@ -552,9 +544,7 @@
     "special_rules": [
       "Leader",
       "Deep Strike",
-      "Gate of Infinity",
-      "Extra Attacks",
-      "Anti-"
+      "Gate of Infinity"
     ],
     "keywords": [
       "Character",
@@ -562,12 +552,7 @@
       "Psyker",
       "Imperium",
       "Faction: Grey Knights",
-      "Brotherhood Techmarine",
-      "Melee Weapon",
-      "Melee Weapon",
-      "Extra Attacks Weapon",
-      "Ranged Weapon",
-      "Ranged Weapon"
+      "Brotherhood Techmarine"
     ]
   },
   {
@@ -577,19 +562,19 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 160,
+      "base": 150,
       "variants": [
         {
           "models": 5,
-          "points": 200
+          "points": 185
         },
         {
           "models": 6,
-          "points": 320
+          "points": 300
         },
         {
           "models": 9,
-          "points": 400
+          "points": 375
         }
       ]
     },
@@ -605,7 +590,7 @@
       "LD": "6+",
       "OC": "2"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -714,7 +699,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -783,8 +768,7 @@
       "Imperium",
       "Epic Hero",
       "Infantry",
-      "Character",
-      "Psychic Weapon"
+      "Character"
     ]
   },
   {
@@ -809,7 +793,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -874,13 +858,13 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Brotherhood Terminator Squad\n- Paladin Squad"
+        "description": "This model can be attached to the following units:\n- **Brotherhood Terminator Squad**\n- **Paladin Squad**"
       }
     ],
     "special_rules": [
-      "Deep Strike",
+      "Leader",
       "Gate of Infinity",
-      "Psychic"
+      "Deep Strike"
     ],
     "keywords": [
       "Infantry",
@@ -890,9 +874,7 @@
       "Faction: Grey Knights",
       "Terminator",
       "Grand Master",
-      "Imperium",
-      "Psychic Weapon",
-      "Melee Weapon"
+      "Imperium"
     ]
   },
   {
@@ -917,7 +899,7 @@
       "LD": "6+",
       "OC": "4"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -930,16 +912,6 @@
           "AP": "-4",
           "D": "D6",
           "Keywords": "Melta 4, Psychic, Twin-linked"
-        },
-        {
-          "name": "Fragstorm grenade launcher",
-          "Range": "18\"",
-          "A": "D6",
-          "BS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Blast"
         },
         {
           "name": "Gatling psilencer",
@@ -970,19 +942,19 @@
           "AP": "-2",
           "D": "3",
           "Keywords": "Ignores Cover, Psychic"
+        },
+        {
+          "name": "Fragstorm grenade launcher",
+          "Range": "18\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast"
         }
       ],
       "melee": [
-        {
-          "name": "Nemesis flail",
-          "Range": "Melee",
-          "A": "10",
-          "WS": "2+",
-          "S": "5",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Psychic"
-        },
         {
           "name": "Nemesis mace",
           "Range": "Melee",
@@ -992,6 +964,16 @@
           "AP": "-3",
           "D": "3",
           "Keywords": "Anti-Character 2+, Precision, Psychic"
+        },
+        {
+          "name": "Nemesis flail",
+          "Range": "Melee",
+          "A": "10",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Psychic"
         },
         {
           "name": "Dreadfists",
@@ -1039,22 +1021,12 @@
       {
         "name": "Surge of Wrath (Psychic)",
         "description": "Each time this model makes a melee attack that targets a **Monster** or **Vehicle** unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll."
-      },
-      {
-        "name": "Damaged: 1-4 Wounds Remaining",
-        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
     "special_rules": [
       "Deep Strike",
       "Deadly Demise D3",
-      "Gate of Infinity",
-      "Psychic",
-      "Precision",
-      "Anti-",
-      "Melta",
-      "Twin-linked",
-      "Blast"
+      "Gate of Infinity"
     ],
     "keywords": [
       "Character",
@@ -1063,16 +1035,7 @@
       "Psyker",
       "Imperium",
       "Grand Master in Nemesis Dreadknight",
-      "Faction: Grey Knights",
-      "Psychic Weapon",
-      "Melee Weapon",
-      "Psychic Weapon",
-      "Melee Weapon",
-      "Psychic Weapon",
-      "Ranged Weapon",
-      "Damage Dx Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon"
+      "Faction: Grey Knights"
     ]
   },
   {
@@ -1097,7 +1060,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1261,10 +1224,6 @@
       {
         "name": "Assault Ramp",
         "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
-      },
-      {
-        "name": "Damaged: 1-5 Wounds Remaining",
-        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
     "special_rules": [
@@ -1373,10 +1332,6 @@
       {
         "name": "Assault Ramp",
         "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
-      },
-      {
-        "name": "Damaged: 1-5 Wounds Remaining",
-        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
     "special_rules": [
@@ -1486,10 +1441,6 @@
       {
         "name": "Assault Ramp",
         "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
-      },
-      {
-        "name": "Damaged: 1-5 Wounds Remaining",
-        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
     "special_rules": [
@@ -1960,10 +1911,6 @@
       {
         "name": "Armoured Resilience",
         "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
-      },
-      {
-        "name": "Damaged: 1-5 Wounds Remaining",
-        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
     "special_rules": [
@@ -2212,7 +2159,8 @@
     ],
     "special_rules": [
       "Deadly Demise 1",
-      "Deep Strike"
+      "Deep Strike",
+      "Gate of Infinity"
     ],
     "keywords": [
       "Venerable Dreadnought",
@@ -2232,11 +2180,11 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 130,
+      "base": 125,
       "variants": [
         {
           "models": 6,
-          "points": 260
+          "points": 250
         }
       ]
     },
@@ -2362,7 +2310,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -2457,7 +2405,7 @@
       "LD": "6+",
       "OC": "4"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -2539,10 +2487,6 @@
       {
         "name": "Indomitable Spirit (Psychic)",
         "description": "This model is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
-      },
-      {
-        "name": "Damaged: 1-4 Wounds Remaining",
-        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
     "special_rules": [
@@ -2594,7 +2538,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -2687,11 +2631,11 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 125,
+      "base": 115,
       "variants": [
         {
           "models": 6,
-          "points": 250
+          "points": 230
         }
       ]
     },
@@ -3117,16 +3061,6 @@
       ],
       "melee": [
         {
-          "name": "Close combat weapon",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "-"
-        },
-        {
           "name": "Nemesis force weapon",
           "Range": "Melee",
           "A": "3",
@@ -3135,6 +3069,16 @@
           "AP": "-2",
           "D": "2",
           "Keywords": "Psychic"
+        },
+        {
+          "name": "Close combat weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
         }
       ]
     },
@@ -3371,10 +3315,6 @@
       ]
     },
     "abilities": [
-      {
-        "name": "Damaged: 1-5 Wounds Remaining",
-        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-      },
       {
         "name": "Assault Ramp",
         "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
@@ -3618,6 +3558,16 @@
     "weapons": {
       "ranged": [
         {
+          "name": "Twin Psycannon",
+          "Range": "24\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Psychic, Twin-linked"
+        },
+        {
           "name": "Twin assault cannon",
           "Range": "24\"",
           "A": "6",
@@ -3648,14 +3598,14 @@
           "Keywords": "Sustained Hits 1, Twin-Linked"
         },
         {
-          "name": "Heavy psycannon",
-          "Range": "24\"",
-          "A": "6",
+          "name": "Multi-melta",
+          "Range": "18\"",
+          "A": "2",
           "BS": "3+",
-          "S": "10",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Psychic"
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
         },
         {
           "name": "Storm bolter",
@@ -3698,7 +3648,9 @@
       }
     ],
     "special_rules": [
-      "Deadly Demise D3"
+      "Deadly Demise D3",
+      "Twin-linked",
+      "Psychic"
     ],
     "keywords": [
       "Faction: Grey Knights",
@@ -3707,7 +3659,171 @@
       "Transport",
       "Smoke",
       "Imperium",
-      "Relic Razorback"
+      "Relic Razorback",
+      "Psychic Weapon",
+      "Ranged Weapon"
+    ]
+  },
+  {
+    "name": "Champion of Titan [Crucible]",
+    "id": "9782-7a59-9b65-21e4",
+    "type": "model",
+    "faction": "Grey Knights",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 90,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "Invulnerable Save (4+)",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Might of Titan",
+        "description": "Once per battle, at the start of a phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks and Strength characteristics of melee weapons equipped by this model."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- **Purgation Squad**\n- **Strike Squad**"
+      }
+    ],
+    "special_rules": [
+      "Gate of Infinity",
+      "Leader",
+      "Crucible",
+      "Deep Strike"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Crucible",
+      "Psyker",
+      "Grenades",
+      "Imperium",
+      "Faction: Grey Knights",
+      "Champion of Titan"
+    ]
+  },
+  {
+    "name": "Venerable Daemon Slayer [Crucible]",
+    "id": "2a2d-1f49-9373-4084",
+    "type": "model",
+    "faction": "Grey Knights",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 175,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Guidance of the Ancients",
+        "description": "In your Shooting phase, after this unit has shot, select one unit hit by one or more of those attacks. Until the end of the phase, each time a **Grey Knights** model from your army makes an attack that targets that unit, add 1 to the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Gate of Infinity",
+      "Deadly Demise 1",
+      "Crucible",
+      "Deep Strike"
+    ],
+    "keywords": [
+      "Character",
+      "Crucible",
+      "Psyker",
+      "Imperium",
+      "Faction: Grey Knights",
+      "Vehicle",
+      "Walker",
+      "Smoke",
+      "Venerable Daemon Slayer"
+    ]
+  },
+  {
+    "name": "Dreadknight Champion [Crucible]",
+    "id": "e60e-8ccf-41b2-292e",
+    "type": "model",
+    "faction": "Grey Knights",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 210,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "8",
+      "SV": "2+",
+      "W": "13",
+      "LD": "6+",
+      "OC": "4"
+    },
+    "invuln_save": "Invulnerable Save (4+)",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Surge of Wrath",
+        "description": "Each time this model makes a melee attack that targets a **Monster** or **Vehicle** unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll."
+      },
+      {
+        "name": "Damaged: 1-4 Wounds Remaining",
+        "description": "When Damaged, subtract 1 from Hit rolls when it makes attacks."
+      }
+    ],
+    "special_rules": [
+      "Gate of Infinity",
+      "Deadly Demise D3",
+      "Crucible",
+      "Deep Strike"
+    ],
+    "keywords": [
+      "Character",
+      "Crucible",
+      "Psyker",
+      "Imperium",
+      "Faction: Grey Knights",
+      "Vehicle",
+      "Walker",
+      "Dreadknight Champion"
     ]
   }
 ]

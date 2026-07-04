@@ -31,7 +31,7 @@
           "A": "1",
           "BS": "2+",
           "S": "8",
-          "AP": "-2",
+          "AP": "-3",
           "D": "2",
           "Keywords": "Hazardous, Pistol"
         },
@@ -399,7 +399,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 90,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -695,7 +695,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 160,
+      "base": 150,
       "variants": []
     },
     "composition": {
@@ -892,7 +892,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 220,
+      "base": 235,
       "variants": []
     },
     "composition": {
@@ -966,7 +966,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 60,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -1105,7 +1105,7 @@
           "A": "1",
           "BS": "2+",
           "S": "8",
-          "AP": "-2",
+          "AP": "-3",
           "D": "2",
           "Keywords": "Hazardous, Pistol"
         },
@@ -1174,7 +1174,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 70,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -1258,7 +1258,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 65,
+      "base": 55,
       "variants": []
     },
     "composition": {
@@ -1528,7 +1528,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 90,
+      "base": 100,
       "variants": []
     },
     "composition": {

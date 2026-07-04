@@ -21,7 +21,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "5+",
+    "invuln_save": "Invulnerable Save (5+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -86,7 +86,7 @@
       },
       {
         "name": "Hero of the Empire (Aura)",
-        "description": "While a friendly T’AU EMPIRE unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+        "description": "While a friendly **T’au Empire** unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
       },
       {
         "name": "Advanced Guardian Drone",
@@ -94,11 +94,11 @@
       },
       {
         "name": "Command-link Drone (Aura)",
-        "description": "While a friendly T’AU EMPIRE unit is within 6\" of the bearer, each time you select that unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+        "description": "While a friendly **T’au Empire** unit is within 6\" of the bearer, each time you select that unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
       },
       {
         "name": "Supreme Commander",
-        "description": "If this model is in your army, it must be your WARLORD."
+        "description": "If this model is in your army, it must be your **Warlord**."
       }
     ],
     "special_rules": [
@@ -115,7 +115,8 @@
       "Character",
       "Battlesuit",
       "Commander Shadowsun",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -140,7 +141,7 @@
       "LD": "6+",
       "OC": "2"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -180,16 +181,16 @@
     },
     "abilities": [
       {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- CRISIS SUNFORGE BATTLESUITS\n- CRISIS FIREKNIFE BATTLESUITS\n- CRISIS STARSCYTHE BATTLESUITS"
-      },
-      {
         "name": "Way of the Short Blade",
         "description": "While this model is leading a unit, each time a model in that unit makes an attack that targets an enemy unit within 9\", add 1 to the Wound roll."
       },
       {
         "name": "Puretide's Teachings",
         "description": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- **Crisis Sunforge Battlesuits**\n- **Crisis Fireknife Battlesuits**\n- **Crisis Starscythe Battlesuits**"
       }
     ],
     "special_rules": [
@@ -205,7 +206,8 @@
       "Character",
       "Battlesuit",
       "Commander Farsight",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -330,12 +332,12 @@
     },
     "abilities": [
       {
-        "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- CRISIS BATTLESUITS\n- CRISIS FIREKNIFE BATTLESUITS\n- CRISIS STARSCYTHE BATTLESUITS\n- CRISIS SUNFORGE BATTLESUITS"
-      },
-      {
         "name": "Crisis Commander",
         "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- **Crisis Battlesuits**\n- **Crisis Sunforge Battlesuits**\n- **Crisis Fireknife Battlesuits**\n- **Crisis Starscythe Battlesuits**"
       }
     ],
     "special_rules": [
@@ -351,6 +353,7 @@
       "Battlesuit",
       "Commander in Crisis Battlesuit",
       "Faction: T'au Empire",
+      "Non-Kroot",
       "Melee Weapon"
     ]
   },
@@ -476,12 +479,12 @@
     },
     "abilities": [
       {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- CRISIS SUNFORGE BATTLESUITS\n- CRISIS FIREKNIFE BATTLESUITS\n- CRISIS STARSCYTHE BATTLESUITS"
-      },
-      {
         "name": "Enforcer Commander",
         "description": "While this model is leading a unit, each time a ranged attack targets that unit, worsen the Armour Penetration characteristic of that attack by 1."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- **Crisis Sunforge Battlesuits**\n- **Crisis Fireknife Battlesuits**\n- **Crisis Starscythe Battlesuits**"
       }
     ],
     "special_rules": [
@@ -497,6 +500,7 @@
       "Battlesuit",
       "Faction: T'au Empire",
       "Commander in Enforcer Battlesuit",
+      "Non-Kroot",
       "Melee Weapon"
     ]
   },
@@ -633,11 +637,11 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- CRISIS SUNFORGE BATTLESUITS\n- CRISIS FIREKNIFE BATTLESUITS\n- CRISIS STARSCYTHE BATTLESUITS"
+        "description": "This model can be attached to the following units:\n- **Crisis Sunforge Battlesuits**\n- **Crisis Fireknife Battlesuits**\n- **Crisis Starscythe Battlesuits**"
       },
       {
         "name": "Coldstar Commander",
-        "description": "While this model is leading a unit, models in that unit have a Move characteristic of 12\" and ranged weapons equipped by models in that unit have the [ASSAULT] ability."
+        "description": "While this model is leading a unit, models in that unit have a Move characteristic of 12\" and ranged weapons equipped by models in that unit have the **[ASSAULT]** ability."
       }
     ],
     "special_rules": [
@@ -654,6 +658,7 @@
       "Battlesuit",
       "Faction: T'au Empire",
       "Commander in Coldstar Battlesuit",
+      "Non-Kroot",
       "Ranged Weapon",
       "Melee Weapon"
     ]
@@ -710,22 +715,21 @@
     },
     "abilities": [
       {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- BREACHER TEAM\n- STRIKE TEAM"
-      },
-      {
         "name": "Volley Fire",
         "description": "While this model is leading a unit, add 1 to the Attacks characteristic of ranged weapons equipped by models in that unit."
       },
       {
         "name": "Crack Shot",
         "description": "Each time this model makes a ranged attack, on a Critical Wound, that attack has an Armour Penetration characteristic of -3."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- **Breacher Team**\n- **Strike Team**"
       }
     ],
     "special_rules": [
-      "Leader",
       "For The Greater Good",
-      "Rapid Fire"
+      "Leader"
     ],
     "keywords": [
       "Character",
@@ -733,7 +737,7 @@
       "Grenades",
       "Faction: T'au Empire",
       "Cadre Fireblade",
-      "Ranged Weapon",
+      "Non-Kroot",
       "Melee Weapon"
     ]
   },
@@ -759,7 +763,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "5+",
+    "invuln_save": "Invulnerable Save (5+)",
     "transport": null,
     "weapons": {
       "ranged": [],
@@ -783,7 +787,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- BREACHER TEAM\n- STRIKE TEAM"
+        "description": "This model can be attached to the following units:\n- **Breacher Team**\n- **Strike Team**"
       },
       {
         "name": "Failure Is Not an Option",
@@ -791,7 +795,7 @@
       },
       {
         "name": "Hover Drone",
-        "description": "The bearer can FLY and has a Move characteristic of 10\"."
+        "description": "The bearer can **Fly** and has a Move characteristic of 10\"."
       }
     ],
     "special_rules": [
@@ -804,6 +808,7 @@
       "Infantry",
       "Ethereal",
       "Faction: T'au Empire",
+      "Non-Kroot",
       "Fly",
       "Melee Weapon"
     ]
@@ -830,7 +835,7 @@
       "LD": "7+",
       "OC": "1"
     },
-    "invuln_save": "2+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [],
@@ -863,10 +868,6 @@
         "description": "Once per battle, each time an attack targets this unit, it can use this ability. If it does, until the end of the phase, models in this unit have a 2+ invulnerable save."
       },
       {
-        "name": "Invulnerable Save (4+)",
-        "description": "Models in this unit have a 4+ invulnerable save."
-      },
-      {
         "name": "Paradox of Duality",
         "description": "Each time an attack targets this unit, subtract 1 from the Hit roll and subtract 1 from the Wound roll."
       },
@@ -881,6 +882,7 @@
     "keywords": [
       "Faction: T'au Empire",
       "Epic Hero",
+      "Non-Kroot",
       "Epic Hero",
       "Character",
       "Aun'va",
@@ -911,7 +913,7 @@
       "LD": "7+",
       "OC": "1"
     },
-    "invuln_save": "5+",
+    "invuln_save": "Invulnerable Save (5+)",
     "transport": null,
     "weapons": {
       "ranged": [],
@@ -935,7 +937,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- BREACHER TEAM\n- KROOT CARNIVORES\n- STRIKE TEAM"
+        "description": "This model can be attached to the following units:\n- **Breacher Team**\n- **Kroot Carnivores**\n- **Strike Team**"
       },
       {
         "name": "Martial Warrior",
@@ -943,8 +945,8 @@
       }
     ],
     "special_rules": [
-      "Sustained Hits",
       "Leader",
+      "Sustained Hits",
       "Precision",
       "Devastating Wounds"
     ],
@@ -954,7 +956,8 @@
       "Ethereal",
       "Faction: T'au Empire",
       "Aun'shi",
-      "Epic Hero"
+      "Epic Hero",
+      "Non-Kroot"
     ]
   },
   {
@@ -1018,7 +1021,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- PATHFINDER TEAM"
+        "description": "This model can be attached to the following unit:\n- **Pathfinder Team**"
       }
     ],
     "special_rules": [
@@ -1034,7 +1037,8 @@
       "Darkstrider",
       "Faction: T'au Empire",
       "Markerlight",
-      "Infantry"
+      "Infantry",
+      "Non-Kroot"
     ]
   },
   {
@@ -1172,7 +1176,8 @@
       "Fly",
       "Vehicle",
       "Longstrike",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -1182,7 +1187,7 @@
     "faction": "T'au Empire",
     "faction_type": "Xenos",
     "points": {
-      "base": 75,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -1275,7 +1280,8 @@
       "Markerlight",
       "Fire Warrior",
       "Strike Team",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -1285,7 +1291,7 @@
     "faction": "T'au Empire",
     "faction_type": "Xenos",
     "points": {
-      "base": 100,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -1368,7 +1374,8 @@
       "Markerlight",
       "Fire Warrior",
       "Faction: T'au Empire",
-      "Breacher Team"
+      "Breacher Team",
+      "Non-Kroot"
     ]
   },
   {
@@ -1403,6 +1410,16 @@
     "weapons": {
       "ranged": [
         {
+          "name": "Kroot rifle",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 1"
+        },
+        {
           "name": "Tanglebomb launcher",
           "Range": "24\"",
           "A": "D3",
@@ -1431,16 +1448,6 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Pistol"
-        },
-        {
-          "name": "Kroot rifle",
-          "Range": "24\"",
-          "A": "1",
-          "BS": "4+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 1"
         }
       ],
       "melee": [
@@ -1468,17 +1475,14 @@
     ],
     "special_rules": [
       "Scouts 7\"",
-      "Stealth",
-      "Blast",
-      "Pistol"
+      "Stealth"
     ],
     "keywords": [
       "Infantry",
       "Grenades",
       "Kroot",
       "Carnivores",
-      "Faction: T'au Empire",
-      "Attacks Dx Weapon"
+      "Faction: T'au Empire"
     ]
   },
   {
@@ -1715,7 +1719,7 @@
       },
       {
         "name": "Crisis Bodyguard",
-        "description": "If a CHARACTER unit from your army with the Leader ability can be attached to a CRISIS FIREKNIFE BATTLESUIT unit, it can be attached to this unit instead."
+        "description": "If a **Character** unit from your army with the Leader ability can be attached to a **Crisis Fireknife Battlesuit** unit, it can be attached to this unit instead."
       }
     ],
     "special_rules": [
@@ -1728,7 +1732,8 @@
       "Fly",
       "Battlesuit",
       "Crisis",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -1738,7 +1743,7 @@
     "faction": "T'au Empire",
     "faction_type": "Xenos",
     "points": {
-      "base": 110,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -1805,10 +1810,6 @@
       {
         "name": "Forward Observers",
         "description": "Each time this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in a Guided unit that targets their Spotted unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
-      },
-      {
-        "name": "Homing Beacon",
-        "description": "Once per battle, you can use the Rapid Ingress Stratagem for 0CP. The target must be set up within 3\" of the bearer’s unit and not within 9\" of any enemy units.\n**Designer’s Note:** *Place a Homing Beacon token next to this unit, removing it once this ability is used.*"
       }
     ],
     "special_rules": [
@@ -1823,7 +1824,8 @@
       "Stealth",
       "Faction: T'au Empire",
       "Grenades",
-      "Markerlight"
+      "Markerlight",
+      "Non-Kroot"
     ]
   },
   {
@@ -1933,7 +1935,7 @@
       },
       {
         "name": "Battlesuit Support System",
-        "description": "The bearer is eligible to shoot in a turn in which it Fell Back but it loses the SMOKE keyword."
+        "description": "The bearer is eligible to shoot in a turn in which it Fell Back but it loses the **Smoke** keyword."
       }
     ],
     "special_rules": [
@@ -1954,6 +1956,7 @@
       "Battlesuit",
       "Ghostkeel",
       "Faction: T'au Empire",
+      "Non-Kroot",
       "Damage Dx Weapon"
     ]
   },
@@ -2037,6 +2040,7 @@
       "Markerlight",
       "Faction: T'au Empire",
       "Firesight Team",
+      "Non-Kroot",
       "Melee Weapon",
       "Ranged Weapon"
     ]
@@ -2193,7 +2197,8 @@
       "Grenades",
       "Markerlight",
       "Pathfinder Team",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -2293,6 +2298,7 @@
       "Fly",
       "Faction: T'au Empire",
       "Piranha",
+      "Non-Kroot",
       "Damage Dx Weapon"
     ]
   },
@@ -2402,7 +2408,8 @@
       "Infantry",
       "Fly",
       "Faction: T'au Empire",
-      "Vespid Stingwings"
+      "Vespid Stingwings",
+      "Non-Kroot"
     ]
   },
   {
@@ -2422,7 +2429,7 @@
     },
     "composition": {
       "min_models": 1,
-      "max_models": 3
+      "max_models": 0
     },
     "stats": {
       "M": "12\"",
@@ -2576,15 +2583,16 @@
       }
     ],
     "special_rules": [
-      "Feel No Pain",
-      "For The Greater Good"
+      "For The Greater Good",
+      "Feel No Pain"
     ],
     "keywords": [
       "Vehicle",
       "Walker",
       "Battlesuit",
       "Faction: T'au Empire",
-      "Broadside"
+      "Broadside",
+      "Non-Kroot"
     ]
   },
   {
@@ -2594,7 +2602,7 @@
     "faction": "T'au Empire",
     "faction_type": "Xenos",
     "points": {
-      "base": 190,
+      "base": 200,
       "variants": []
     },
     "composition": {
@@ -2609,7 +2617,7 @@
       "LD": "7+",
       "OC": "4"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -2717,7 +2725,8 @@
       "Fly",
       "Battlesuit",
       "Faction: T'au Empire",
-      "Riptide"
+      "Riptide",
+      "Non-Kroot"
     ]
   },
   {
@@ -2849,7 +2858,8 @@
       "Vehicle",
       "Fly",
       "Hammerhead Gunship",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -2859,7 +2869,7 @@
     "faction": "T'au Empire",
     "faction_type": "Xenos",
     "points": {
-      "base": 140,
+      "base": 150,
       "variants": []
     },
     "composition": {
@@ -2948,7 +2958,8 @@
       "Fly",
       "Markerlight",
       "Sky Ray Gunship",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -3047,7 +3058,8 @@
       "Transport",
       "Dedicated Transport",
       "Devilfish",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -3157,7 +3169,8 @@
       "Aircraft",
       "Fly",
       "Razorshark Strike Fighter",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -3267,7 +3280,8 @@
       "Aircraft",
       "Fly",
       "Sun Shark Bomber",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -3292,7 +3306,7 @@
       "LD": "7+",
       "OC": "0"
     },
-    "invuln_save": "5+",
+    "invuln_save": "Invulnerable Save (5+)",
     "transport": "This model has a transport capacity of 11 T’AU EMPIRE INFANTRY models. It cannot transport BATTLESUIT, KROOT or VESPID STINGWINGS models. If this model is equipped with a Tidewall defence platform, it has a transport capacity of 22 T’AU INFANTRY models instead.",
     "weapons": {
       "ranged": [],
@@ -3314,7 +3328,8 @@
       "Transport",
       "Fly",
       "Tidewall Shieldline",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -3374,7 +3389,8 @@
       "Transport",
       "Fly",
       "Faction: T'au Empire",
-      "Tidewall Droneport"
+      "Tidewall Droneport",
+      "Non-Kroot"
     ]
   },
   {
@@ -3429,7 +3445,8 @@
       "Transport",
       "Fly",
       "Tidewall Gunrig",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -3439,7 +3456,7 @@
     "faction": "T'au Empire",
     "faction_type": "Xenos",
     "points": {
-      "base": 400,
+      "base": 360,
       "variants": []
     },
     "composition": {
@@ -3454,7 +3471,7 @@
       "LD": "7+",
       "OC": "6"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -3595,6 +3612,7 @@
       "Towering",
       "Stormsurge",
       "Faction: T'au Empire",
+      "Non-Kroot",
       "Attacks Dx Weapon",
       "Attacks Dx Weapon"
     ]
@@ -3666,7 +3684,8 @@
       "Drone",
       "Fly",
       "Tactical Drones",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -3696,36 +3715,6 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Dvorgite skinner",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "4",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Ignores Cover, Torrent"
-        },
-        {
-          "name": "Londaxi tribalest",
-          "Range": "18\"",
-          "A": "3",
-          "BS": "5+",
-          "S": "7",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Anti-Vehicle 4+, Devastating Wounds, Heavy"
-        },
-        {
-          "name": "Kroot pistol",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "4+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Pistol"
-        },
-        {
           "name": "Farstalker firearm",
           "Range": "24\"",
           "A": "1",
@@ -3744,6 +3733,36 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Rapid Fire 1"
+        },
+        {
+          "name": "Kroot pistol",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol"
+        },
+        {
+          "name": "Dvorgite skinner",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent"
+        },
+        {
+          "name": "Londaxi tribalest",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Anti-Vehicle 4+, Devastating Wounds, Heavy"
         }
       ],
       "melee": [
@@ -3795,15 +3814,9 @@
       "Precision",
       "Lethal Hits",
       "Ignores Cover",
-      "Torrent",
-      "Anti-",
-      "Devastating Wounds",
-      "Heavy",
-      "Pistol",
       "Rapid Fire"
     ],
     "keywords": [
-      "Attacks Dx Weapon",
       "Infantry",
       "Grenades",
       "Kroot",
@@ -3833,7 +3846,7 @@
       "LD": "7+",
       "OC": "4"
     },
-    "invuln_save": "5+",
+    "invuln_save": "Invulnerable Save (5+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -3888,7 +3901,8 @@
       "Fly",
       "R'varna",
       "Battlesuit",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -3913,7 +3927,7 @@
       "LD": "7+",
       "OC": "4"
     },
-    "invuln_save": "5+",
+    "invuln_save": "Invulnerable Save (5+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -4001,7 +4015,8 @@
       "Fly",
       "Battlesuit",
       "Y'vahra",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -4075,7 +4090,8 @@
       "Fly",
       "Markerlight",
       "Tetras",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -4156,7 +4172,8 @@
       "Fly",
       "Markerlight",
       "Remora Stealth Drones",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -4181,7 +4198,7 @@
       "LD": "7+",
       "OC": "10"
     },
-    "invuln_save": "5+",
+    "invuln_save": "Invulnerable Save (5+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -4297,12 +4314,15 @@
       {
         "name": "Damaged: 1-10 Wounds Remaining",
         "description": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Super-Heavy Walker",
+        "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding **Titanic** models) and terrain features that are 4\" or less in height as if they were not there."
       }
     ],
     "special_rules": [
       "Deadly Demise D6+3",
       "For The Greater Good",
-      "Super-Heavy Walker",
       "Blast",
       "Hazardous",
       "Melta",
@@ -4317,6 +4337,7 @@
       "Towering",
       "Faction: T'au Empire",
       "Ta'unar Supremacy Armour",
+      "Non-Kroot",
       "Damage Dx Weapon"
     ]
   },
@@ -4342,7 +4363,7 @@
       "LD": "7+",
       "OC": "0"
     },
-    "invuln_save": "5+",
+    "invuln_save": "Invulnerable Save (5+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -4467,7 +4488,8 @@
       "Aircraft",
       "Fly",
       "Barracuda",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -4492,7 +4514,7 @@
       "LD": "7+",
       "OC": "0"
     },
-    "invuln_save": "5+",
+    "invuln_save": "Invulnerable Save (5+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -4632,7 +4654,8 @@
       "Aircraft",
       "Fly",
       "Tiger Shark",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -4657,7 +4680,7 @@
       "LD": "7+",
       "OC": "0"
     },
-    "invuln_save": "5+",
+    "invuln_save": "Invulnerable Save (5+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -4753,7 +4776,8 @@
       "Aircraft",
       "Fly",
       "Faction: T'au Empire",
-      "AX-1-0 Tiger Shark"
+      "AX-1-0 Tiger Shark",
+      "Non-Kroot"
     ]
   },
   {
@@ -4778,7 +4802,7 @@
       "LD": "7+",
       "OC": "0"
     },
-    "invuln_save": "5+",
+    "invuln_save": "Invulnerable Save (5+)",
     "transport": "This model has a transport capacity of all of the following:\n- 200 T’AU EMPIRE INFANTRY or TACTICAL DRONE models\n- 4 DEVILFISH, SKY RAY GUNSHIP or HAMMERHEAD models\n- 8 BATTLESUIT models with a Wounds characteristic of 9 or less",
     "weapons": {
       "ranged": [
@@ -4886,7 +4910,8 @@
       "Transport",
       "Markerlight",
       "Manta",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -4971,7 +4996,8 @@
       "Titanic",
       "Transport",
       "Orca Dropship",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -5046,7 +5072,8 @@
       "Vehicle",
       "Fly",
       "Heavy Gun Drones",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -5248,7 +5275,8 @@
       "Vehicle",
       "Fly",
       "Faction: T'au Empire",
-      "TX42 Piranha"
+      "TX42 Piranha",
+      "Non-Kroot"
     ]
   },
   {
@@ -5354,7 +5382,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -5394,26 +5422,26 @@
     },
     "abilities": [
       {
-        "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- XV9 HAZARD BATTLESUITS"
-      },
-      {
         "name": "Eclipse Field Generator",
         "description": "While this model is leading a unit, models in that unit have a 5+ invulnerable save."
       },
       {
         "name": "Assassin",
-        "description": "Each time this model makes an attack that targets a CHARACTER unit, you can re-roll the Hit roll."
+        "description": "Each time this model makes an attack that targets a **Character** unit, you can re-roll the Hit roll."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- **XV9 Hazard Battlesuits**"
       },
       {
         "name": "Blacklight Marker Drones",
-        "description": "Twice per battle, when this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in their Guided unit that targets their Spotted unit, re-roll a Wound roll of 1.\nDesigner’s Note: Place two Blacklight Marker Drone tokens next to this model, removing one each time this ability has been used."
+        "description": "Twice per battle, when this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in their Guided unit that targets their Spotted unit, re-roll a Wound roll of 1.\n**Designer’s Note:** *Place two Blacklight Marker Drone tokens next to this model, removing one each time this ability has been used.*"
       }
     ],
     "special_rules": [
-      "Leader",
       "Deep Strike",
       "For The Greater Good",
+      "Leader",
       "Blast",
       "Anti-",
       "Devastating Wounds"
@@ -5427,7 +5455,8 @@
       "Markerlight",
       "Shas'o R'alai",
       "Battlesuit",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -5503,7 +5532,7 @@
     "abilities": [
       {
         "name": "Photon Casters",
-        "description": "In your Shooting phase, after this unit has shot, if an enemy INFANTRY unit was hit by one or more of those attacks, until the end of your opponent’s next turn, that enemy unit is stunned. While a unit is stunned, subtract 2 from that unit’s Move characteristic, and subtract 2 from Advance and Charge rolls made for that unit."
+        "description": "In your Shooting phase, after this unit has shot, if an enemy **Infantry** unit was hit by one or more of those attacks, until the end of your opponent’s next turn, that enemy unit is stunned. While a unit is stunned, subtract 2 from that unit’s Move characteristic, and subtract 2 from Advance and Charge rolls made for that unit."
       }
     ],
     "special_rules": [
@@ -5519,6 +5548,7 @@
       "XV9 Hazard",
       "Battlesuit",
       "Faction: T'au Empire",
+      "Non-Kroot",
       "Damage Dx Weapon"
     ]
   },
@@ -5564,7 +5594,8 @@
     "keywords": [
       "Fortification",
       "Remote Sensor Tower",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -5654,7 +5685,8 @@
       "Fortification",
       "Vehicle",
       "Drone Sentry Turret",
-      "Faction: T'au Empire"
+      "Faction: T'au Empire",
+      "Non-Kroot"
     ]
   },
   {
@@ -5679,7 +5711,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -5711,10 +5743,6 @@
       {
         "name": "Sunforge",
         "description": "Each time a model in this unit makes a ranged attack that targets a **Monster** or **Vehicle** unit, you can re-roll the Wound roll and you can re-roll the Damage roll."
-      },
-      {
-        "name": "Invulnerable Save (4+)",
-        "description": "This unit has a 4+ Invulnerable Save"
       }
     ],
     "special_rules": [
@@ -5728,7 +5756,8 @@
       "Battlesuit",
       "Crisis",
       "Faction: T'au Empire",
-      "Sunforge"
+      "Sunforge",
+      "Non-Kroot"
     ]
   },
   {
@@ -5812,7 +5841,8 @@
       "Battlesuit",
       "Crisis",
       "Faction: T'au Empire",
-      "Fireknife"
+      "Fireknife",
+      "Non-Kroot"
     ]
   },
   {
@@ -5896,7 +5926,8 @@
       "Battlesuit",
       "Crisis",
       "Faction: T'au Empire",
-      "Starscythe"
+      "Starscythe",
+      "Non-Kroot"
     ]
   },
   {
@@ -5960,7 +5991,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- KROOT CARNIVORES\n- KROOT FARSTALKERS"
+        "description": "This model can be attached to the following unit:\n- **Kroot Carnivores**\n- **Kroot Farstalkers**"
       }
     ],
     "special_rules": [
@@ -5975,8 +6006,7 @@
       "Kroot",
       "Shaper",
       "Faction: T'au Empire",
-      "Trail Shaper",
-      "Melee Weapon"
+      "Trail Shaper"
     ]
   },
   {
@@ -6055,24 +6085,15 @@
         "description": "Once per battle, at the start of any phase, you can select one friendly KROOT unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
       },
       {
-        "name": "War Leader",
-        "description": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
-      },
-      {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- KROOT CARNIVORES\n- KROOT FARSTALKERS"
+        "description": "This model can be attached to the following unit:\n- **Kroot Carnivores**\n- **Kroot Farstalkers**"
       }
     ],
     "special_rules": [
       "Infiltrators",
       "Scouts 7\"",
       "Stealth",
-      "Leader",
-      "Assault",
-      "Heavy",
-      "Anti-",
-      "Lethal Hits",
-      "Pistol"
+      "Leader"
     ],
     "keywords": [
       "Infantry",
@@ -6080,11 +6101,7 @@
       "Kroot",
       "Shaper",
       "Faction: T'au Empire",
-      "War Shaper",
-      "Ranged Weapon",
-      "Melee Weapon",
-      "Ranged Weapon",
-      "Melee Weapon"
+      "War Shaper"
     ]
   },
   {
@@ -6140,15 +6157,15 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- KROOT CARNIVORES\n- KROOT FARSTALKERS"
+        "description": "This model can be attached to the following unit:\n- **Kroot Carnivores**\n- **Kroot Farstalkers**"
+      },
+      {
+        "name": "Rites of Feasting",
+        "description": "While this model is leading a unit, models in that unit have the Feel Not Pain 6+ ability. If that unit destroys one or more enemy units in the Fight phase, until the end of the battle, models in that unit have the Feel No Pain 5+ ability instead."
       },
       {
         "name": "Ritual Butchery",
         "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
-      },
-      {
-        "name": "Rites of Feasting",
-        "description": "While this model is leading a unit, models in that unit have the Feel Not Pain 6+ ability. If that unit destroys one or more enemy units in the Fight phase, unit the end of the battle, models in that unit have the Feel No Pain 5+ ability instead."
       }
     ],
     "special_rules": [
@@ -6156,10 +6173,8 @@
       "Scouts 7\"",
       "Stealth",
       "Leader",
-      "Sustained Hits",
       "Feel No Pain",
-      "Assault",
-      "Twin-linked"
+      "Sustained Hits"
     ],
     "keywords": [
       "Infantry",
@@ -6167,9 +6182,7 @@
       "Kroot",
       "Shaper",
       "Faction: T'au Empire",
-      "Flesh Shaper",
-      "Ranged Weapon",
-      "Melee Weapon"
+      "Flesh Shaper"
     ]
   },
   {
@@ -6199,16 +6212,6 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Kroot long gun",
-          "Range": "36\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "6",
-          "AP": "-2",
-          "D": "3",
-          "Keywords": "Heavy, Precision"
-        },
-        {
           "name": "Blast javelin",
           "Range": "18\"",
           "A": "D6",
@@ -6217,6 +6220,16 @@
           "AP": "-2",
           "D": "2",
           "Keywords": "Assault, Blast"
+        },
+        {
+          "name": "Kroot long gun",
+          "Range": "36\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Heavy, Precision"
         }
       ],
       "melee": [
@@ -6266,12 +6279,7 @@
       "Stealth",
       "Lone Operative",
       "Scouts 7\"",
-      "Precision",
-      "Heavy",
-      "Assault",
-      "Blast",
-      "Lance",
-      "Extra Attacks"
+      "Lance"
     ],
     "keywords": [
       "Character",
@@ -6280,12 +6288,7 @@
       "Faction: T'au Empire",
       "Lone-spear",
       "Ranged Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Ranged Weapon",
-      "Melee Weapon",
-      "Melee Weapon",
-      "Extra Attacks Weapon"
+      "Melee Weapon"
     ]
   },
   {
@@ -6360,20 +6363,328 @@
       }
     ],
     "special_rules": [
-      "Scouts 7\"",
-      "Pistol",
-      "Assault",
-      "Lance",
-      "Sustained Hits",
-      "Extra Attacks"
+      "Scouts 7\""
     ],
     "keywords": [
       "Mounted",
       "Grenades",
       "Kroot",
       "Faction: T'au Empire",
-      "Krootox Rampagers",
-      "Extra Attacks Weapon"
+      "Krootox Rampagers"
+    ]
+  },
+  {
+    "name": "Shas'nel [Crucible]",
+    "id": "2e61-8399-60bf-1c85",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 50,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Volley Fire",
+        "description": "While this model is leading a unit, add 1 to the Attacks characteristic of ranged weapons equipped by models in that unit."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- **Breacher Team**\n- **Strike Team**"
+      }
+    ],
+    "special_rules": [
+      "For The Greater Good",
+      "Leader",
+      "Crucible"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Crucible",
+      "Grenades",
+      "Faction: T'au Empire",
+      "Shas'nel"
+    ]
+  },
+  {
+    "name": "Battlesuit Veteran [Crucible]",
+    "id": "ed9c-6a08-c915-c757",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 60,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": "Invulnerable Save (4+)",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Strategic Redeployment",
+        "description": "The bearer's unit is eligible to shoot in a turn in which it Fell Back."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- **Stealth Battlesuits**"
+      }
+    ],
+    "special_rules": [
+      "For The Greater Good",
+      "Leader",
+      "Crucible",
+      "Infiltrators",
+      "Stealth"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Crucible",
+      "Faction: T'au Empire",
+      "Fly",
+      "Battlesuit",
+      "Battlesuit Veteran"
+    ]
+  },
+  {
+    "name": "Kinband Champion [Crucible]",
+    "id": "86c3-1150-ef4d-d870",
+    "type": "model",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 55,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- **Kroot Carnivores**\n- **Kroot Farstalkers**"
+      }
+    ],
+    "special_rules": [
+      "Stealth",
+      "Leader",
+      "Crucible",
+      "Scouts 7\"",
+      "Infiltrators"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Crucible",
+      "Faction: T'au Empire",
+      "Kroot",
+      "Kinband Champion"
+    ]
+  },
+  {
+    "name": "The Twin Lance",
+    "id": "6623-c2cb-6705-580b",
+    "type": "unit",
+    "faction": "T'au Empire",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 185,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "invuln_save": "Invulnerable Save (4+)",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Fusion eliminator",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "10",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
+        },
+        {
+          "name": "➤ Ion scattercannon - overcharge",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Hazardous, Rapid Fire 2"
+        },
+        {
+          "name": "➤ Ion scattercannon - standard",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Rapid Fire 2"
+        },
+        {
+          "name": "Shardstorm burst system",
+          "Range": "18\"",
+          "A": "D6",
+          "BS": "2+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol"
+        },
+        {
+          "name": "Twin pulse blaster",
+          "Range": "10\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Assault, Twin-linked"
+        },
+        {
+          "name": "XV pulse pistol",
+          "Range": "12\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Rapid Fire 2"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Fusion eliminator",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "10",
+          "AP": "-4",
+          "D": "D6+2",
+          "Keywords": "Extra Attacks"
+        },
+        {
+          "name": "Ion scattercannon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Extra Attacks"
+        },
+        {
+          "name": "XV pulse pistol",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Neocapacitor Shields",
+        "description": "At the start of your opponent’s Charge phase, you can select one enemy unit (excluding **Monster** and **Vehicle** units) within 12\" of this unit. That unit must take a Battle‑shock test and, until the end of the turn, subtract 1 from Charge rolls made for that unit."
+      },
+      {
+        "name": "Exemplars of Mont’ka",
+        "description": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the **[SUSTAINED HITS 1]** and **[IGNORES COVER]** abilities."
+      },
+      {
+        "name": "Retro-thrusters",
+        "description": "At the end of the Fight phase, if this unit was eligible to fight this phase, this unit can either make a Normal move of up to 6\" or a Fall Back move."
+      }
+    ],
+    "special_rules": [
+      "Sustained Hits",
+      "For The Greater Good",
+      "Scouts 8\"",
+      "Ignores Cover",
+      "Deep Strike",
+      "Extra Attacks",
+      "Melta",
+      "Hazardous",
+      "Rapid Fire"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Character",
+      "Battlesuit",
+      "Faction: T'au Empire",
+      "Non-Kroot",
+      "The Twin Lance"
     ]
   }
 ]

@@ -98,12 +98,12 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 195,
+      "base": 180,
       "variants": []
     },
     "composition": {
-      "min_models": null,
-      "max_models": 3
+      "min_models": 1,
+      "max_models": 1
     },
     "stats": {
       "M": "12\"",
@@ -122,7 +122,7 @@
           "Range": "24\"",
           "A": "3",
           "BS": "2+",
-          "S": "5",
+          "S": "7",
           "AP": "-1",
           "D": "2",
           "Keywords": "Lethal Hits"
@@ -168,7 +168,8 @@
     "special_rules": [
       "Deadly Demise D3",
       "Nurgle's Gift (Aura)",
-      "Deep Strike"
+      "Deep Strike",
+      "Lethal Hits"
     ],
     "keywords": [
       "Faction: Death Guard",
@@ -178,7 +179,8 @@
       "Nurgle",
       "Daemon",
       "Fly",
-      "Daemon Prince with Wings"
+      "Daemon Prince with Wings",
+      "Ranged Weapon"
     ]
   },
   {
@@ -2071,9 +2073,12 @@
       "Helbrute melee weapon",
       "Helbrute melee weapon",
       "Damage Dx Weapon",
+      "Lethal Hits Weapon",
+      "Lethal Hits Weapon",
       "Helbrute melee weapon",
       "Helbrute melee weapon",
-      "Attacks Dx Weapon"
+      "Attacks Dx Weapon",
+      "Lethal Hits Weapon"
     ]
   },
   {
@@ -2608,7 +2613,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 240,
+      "base": 220,
       "variants": []
     },
     "composition": {
@@ -2708,7 +2713,8 @@
       "Nurgle",
       "Transport",
       "Smoke",
-      "Land Raider"
+      "Land Raider",
+      "Lethal Hits Weapon"
     ]
   },
   {
@@ -2949,175 +2955,6 @@
       "Nurgle",
       "Smoke",
       "Predator Destructor"
-    ]
-  },
-  {
-    "name": "Defiler",
-    "id": "fa0-69c3-b68f-cea7",
-    "type": "model",
-    "faction": "Death Guard",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 165,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "8\"",
-      "T": "11",
-      "SV": "3+",
-      "W": "14",
-      "LD": "6+",
-      "OC": "5"
-    },
-    "invuln_save": "5+",
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Battle cannon",
-          "Range": "48\"",
-          "A": "D6+3",
-          "BS": "3+",
-          "S": "10",
-          "AP": "-1",
-          "D": "3",
-          "Keywords": "Blast, Lethal Hits"
-        },
-        {
-          "name": "Reaper autocannon",
-          "Range": "36\"",
-          "A": "4",
-          "BS": "3+",
-          "S": "7",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Devastating Wounds, Sustained Hits 1"
-        },
-        {
-          "name": "Twin heavy flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "5",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Ignores Cover, Torrent, Twin-linked"
-        },
-        {
-          "name": "Combi-bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Lethal Hits, Rapid Fire 2"
-        },
-        {
-          "name": "Combi-weapon",
-          "Range": "24\"",
-          "A": "1",
-          "BS": "4+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
-        },
-        {
-          "name": "Twin heavy bolter",
-          "Range": "36\"",
-          "A": "3",
-          "BS": "3+",
-          "S": "5",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Lethal Hits, Sustained Hits 1, Twin-linked"
-        },
-        {
-          "name": "Twin lascannon",
-          "Range": "48\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "12",
-          "AP": "-3",
-          "D": "D6+1",
-          "Keywords": "Twin-linked"
-        },
-        {
-          "name": "Havoc launcher",
-          "Range": "48\"",
-          "A": "D6",
-          "BS": "3+",
-          "S": "5",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Blast"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Defiler claws",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "3+",
-          "S": "16",
-          "AP": "-3",
-          "D": "D6+1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Defiler scourge",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "3+",
-          "S": "12",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Extra Attacks"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Scuttling Walker",
-        "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move through friendly **Monster** and **Vehicle** models and terrain features that are 4\" or less in height."
-      },
-      {
-        "name": "Invulnerable Save",
-        "description": "This model has a 5+ invulnerable save."
-      },
-      {
-        "name": "Barrage of Filth",
-        "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
-      }
-    ],
-    "special_rules": [
-      "Deadly Demise D3",
-      "Nurgle's Gift (Aura)",
-      "Blast",
-      "Lethal Hits",
-      "Sustained Hits",
-      "Devastating Wounds",
-      "Twin-linked",
-      "Ignores Cover",
-      "Torrent",
-      "Extra Attacks"
-    ],
-    "keywords": [
-      "Faction: Death Guard",
-      "Vehicle",
-      "Walker",
-      "Chaos",
-      "Nurgle",
-      "Daemon",
-      "Smoke",
-      "Defiler",
-      "Attacks Dx Weapon",
-      "Extra Attacks Weapon"
     ]
   },
   {
@@ -4475,7 +4312,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 250,
+      "base": 265,
       "variants": []
     },
     "composition": {
@@ -4936,7 +4773,348 @@
       "Chaos",
       "Nurgle",
       "Daemon",
-      "Foetid Bloat-drone"
+      "Foetid Bloat-drone",
+      "Lethal Hits Weapon"
+    ]
+  },
+  {
+    "name": "Plague Sorcerer [Crucible]",
+    "id": "d037-162a-ac85-9c88",
+    "type": "model",
+    "faction": "Death Guard",
+    "faction_type": "Chaos",
+    "points": {
+      "base": 70,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Gift of Contagion (Psychic)",
+        "description": "Each time a model in this unit makes an attack that targets a unit that is Afflicted, that attack has the [Sustained Hits 1] ability."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units: **Plague Marines, Poxwalkers**"
+      }
+    ],
+    "special_rules": [
+      "Nurgle's Gift (Aura)",
+      "Leader"
+    ],
+    "keywords": [
+      "Faction: Death Guard",
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Nurgle",
+      "Plague Sorcerer"
+    ]
+  },
+  {
+    "name": "Plague Lord [Crucible]",
+    "id": "89d8-7e90-be47-59b6",
+    "type": "model",
+    "faction": "Death Guard",
+    "faction_type": "Chaos",
+    "points": {
+      "base": 80,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Gift of Poxes",
+        "description": "Add 3\" to the range of this model's Contagion Range."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units: **Plague Marines, Poxwalkers**"
+      },
+      {
+        "name": "Invulnerable Save (4+)",
+        "description": "This model has a 4+ invulnerable save."
+      }
+    ],
+    "special_rules": [
+      "Nurgle's Gift (Aura)",
+      "Leader"
+    ],
+    "keywords": [
+      "Faction: Death Guard",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Grenades",
+      "Plague Lord"
+    ]
+  },
+  {
+    "name": "Tri-lobe Vectors [Crucible]",
+    "id": "fa2a-1b44-a513-318d",
+    "type": "unit",
+    "faction": "Death Guard",
+    "faction_type": "Chaos",
+    "points": {
+      "base": 120,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 3,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This unit can be attached to the following units: **Plague Marines, Poxwalkers**"
+      }
+    ],
+    "special_rules": [],
+    "keywords": [
+      "Faction: Death Guard",
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Chaos",
+      "Nurgle",
+      "Tri-lobe Vectors"
+    ]
+  },
+  {
+    "name": "Defiler",
+    "id": "bc88-0833-743e-0146",
+    "type": "model",
+    "faction": "Death Guard",
+    "faction_type": "Chaos",
+    "points": {
+      "base": 250,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "invuln_save": "Invulnerable Save (5+)",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "➤ Heavy missile launcher - frag",
+          "Range": "48\"",
+          "A": "2D6",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Blast, Lethal Hits"
+        },
+        {
+          "name": "➤ Heavy missile launcher - krak",
+          "Range": "48\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6+1",
+          "Keywords": "Lethal Hits"
+        },
+        {
+          "name": "Hades battle cannon",
+          "Range": "48\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-1",
+          "D": "3",
+          "Keywords": "Blast, Lethal Hits"
+        },
+        {
+          "name": "Ectoplasma destructor",
+          "Range": "36\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Blast, Lethal Hits"
+        },
+        {
+          "name": "Heavy baleflamer",
+          "Range": "12\"",
+          "A": "D6+3",
+          "BS": "N/A",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Ignores Cover, Torrent"
+        },
+        {
+          "name": "Excruciator cannon",
+          "Range": "36\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Lethal Hits"
+        },
+        {
+          "name": "Magma cutter",
+          "Range": "12\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Lethal Hits, Melta 2"
+        },
+        {
+          "name": "Hades lascannon",
+          "Range": "48\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "Lethal Hits"
+        },
+        {
+          "name": "Heavy reaper autocannon",
+          "Range": "48\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "Keywords": "Devastating Wounds, Lethal Hits, Sustained Hits 1"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Shearing claws - strike",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "16",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "Lethal Hits"
+        },
+        {
+          "name": "Shearing claws - sweep",
+          "Range": "Melee",
+          "A": "10",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Lethal Hits"
+        },
+        {
+          "name": "Electroscourge",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "12",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Extra Attacks, Sustained Hits 2"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Scuttling Walker",
+        "description": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding **Titanic** models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+      },
+      {
+        "name": "Barrage of Filth",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6",
+      "Nurgle's Gift (Aura)",
+      "Lethal Hits",
+      "Blast",
+      "Ignores Cover",
+      "Torrent",
+      "Melta"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Defiler",
+      "Faction: Death Guard",
+      "Damage Dx+0 Modifier",
+      "Damage Dx+0 Modifier",
+      "Attacks Dx Weapon",
+      "Attacks Dx+0 Modifier",
+      "Attacks Dx+0 Modifier",
+      "Attacks Dx Weapon",
+      "Attacks Dx+0 Modifier",
+      "Damage Dx Weapon"
     ]
   }
 ]

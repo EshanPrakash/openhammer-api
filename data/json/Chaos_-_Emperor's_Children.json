@@ -592,7 +592,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 195,
+      "base": 180,
       "variants": []
     },
     "composition": {
@@ -684,7 +684,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 200,
+      "base": 215,
       "variants": []
     },
     "composition": {
@@ -778,7 +778,7 @@
       "variants": [
         {
           "models": 5,
-          "points": 170
+          "points": 160
         }
       ]
     },
@@ -1058,11 +1058,11 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 110,
+      "base": 100,
       "variants": [
         {
           "models": 3,
-          "points": 220
+          "points": 200
         }
       ]
     },
@@ -1135,7 +1135,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 170,
+      "base": 145,
       "variants": [
         {
           "models": 6,
@@ -1258,7 +1258,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 80,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -1785,7 +1785,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 380,
+      "base": 340,
       "variants": []
     },
     "composition": {
@@ -1903,7 +1903,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 270,
+      "base": 240,
       "variants": []
     },
     "composition": {
@@ -2257,6 +2257,363 @@
       "Faction: Legions of Excess",
       "Extra Attacks Weapon",
       "Extra Attacks Weapon"
+    ]
+  },
+  {
+    "name": "Excruciator [Crucible]",
+    "id": "eeac-c9b8-3904-11a5",
+    "type": "model",
+    "faction": "Emperor's Children",
+    "faction_type": "Chaos",
+    "points": {
+      "base": 60,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This unit can be attached to the following units: **Infractors, Noise Marines, Tormentors**"
+      },
+      {
+        "name": "Warped Invigoration (Psychic)",
+        "description": "In your Shooting phase, after this model has shot, if an enemy unit was hit by one or more of those attacks, until the end of the turn, add 1 to Charge rolls made for this unit."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Thrill Seekers"
+    ],
+    "keywords": [
+      "Faction: Emperor's Children",
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Excruciator",
+      "Crucible"
+    ]
+  },
+  {
+    "name": "Champion of Excess [Crucible]",
+    "id": "cc4d-41d6-dfea-414f",
+    "type": "model",
+    "faction": "Emperor's Children",
+    "faction_type": "Chaos",
+    "points": {
+      "base": 80,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This unit can be attached to the following units: **Infractors, Noise Marines, Tormentors**"
+      },
+      {
+        "name": "Euphoric Strikes",
+        "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1."
+      },
+      {
+        "name": "Invulnerable Save (4+)",
+        "description": "This model has a 4+ invulnerable save."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Thrill Seekers"
+    ],
+    "keywords": [
+      "Faction: Emperor's Children",
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Crucible",
+      "Champion of Excess"
+    ]
+  },
+  {
+    "name": "Flawless Champion [Crucible]",
+    "id": "2334-eccf-6ea5-562e",
+    "type": "model",
+    "faction": "Emperor's Children",
+    "faction_type": "Chaos",
+    "points": {
+      "base": 100,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This unit can be attached to the following units: **Flawless Blades**"
+      },
+      {
+        "name": "Obsessive Huntsman",
+        "description": "Melee weapons equipped by this model have the [Precision] ability."
+      },
+      {
+        "name": "Invulnerable Save (5+)",
+        "description": "This model has a 5+ invulnerable save."
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Thrill Seekers",
+      "Precision",
+      "Lone Operative"
+    ],
+    "keywords": [
+      "Faction: Emperor's Children",
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Crucible",
+      "Flawless Champion"
+    ]
+  },
+  {
+    "name": "Defiler",
+    "id": "b541-3292-a5cc-dbeb",
+    "type": "model",
+    "faction": "Emperor's Children",
+    "faction_type": "Chaos",
+    "points": {
+      "base": 250,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "invuln_save": "Invulnerable Save (5+)",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "➤ Heavy missile launcher - frag",
+          "Range": "48\"",
+          "A": "2D6",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "➤ Heavy missile launcher - krak",
+          "Range": "48\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6+1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Hades battle cannon",
+          "Range": "48\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-1",
+          "D": "3",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Ectoplasma destructor",
+          "Range": "36\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Heavy baleflamer",
+          "Range": "12\"",
+          "A": "D6+3",
+          "BS": "N/A",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Ignores Cover, Torrent"
+        },
+        {
+          "name": "Excruciator cannon",
+          "Range": "36\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Magma cutter",
+          "Range": "12\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
+        },
+        {
+          "name": "Hades lascannon",
+          "Range": "48\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Heavy reaper autocannon",
+          "Range": "48\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "Keywords": "Devastating Wounds, Sustained Hits 1"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Shearing claws - strike",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "16",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "Precision"
+        },
+        {
+          "name": "Shearing claws - sweep",
+          "Range": "Melee",
+          "A": "10",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Electroscourge",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "12",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Extra Attacks, Sustained Hits 2"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Scuttling Walker",
+        "description": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding **Titanic** models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+      },
+      {
+        "name": "Revel in Desecration",
+        "description": "Each time this model makes an attack that targets an enemy unit that is not below Half-strength, add 1 to the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6",
+      "Thrill Seekers",
+      "Precision",
+      "Blast",
+      "Ignores Cover",
+      "Torrent",
+      "Melta"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Faction: Emperor's Children",
+      "Defiler",
+      "Damage Dx+0 Modifier",
+      "Damage Dx+0 Modifier",
+      "Attacks Dx Weapon",
+      "Attacks Dx+0 Modifier",
+      "Attacks Dx+0 Modifier",
+      "Attacks Dx Weapon",
+      "Attacks Dx+0 Modifier",
+      "Damage Dx Weapon"
     ]
   }
 ]
