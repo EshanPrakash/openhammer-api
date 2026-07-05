@@ -561,7 +561,7 @@
       "SV": "7+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "3"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1191,6 +1191,10 @@
       {
         "name": "Invulnerable Save",
         "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Daemonic Lord",
+        "description": "While this model is within 3\" of one or more friendly **Legiones Daemonica** Infantry units, this model has the Lone Operative ability."
       }
     ],
     "special_rules": [
@@ -1325,7 +1329,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 270,
+      "base": 295,
       "variants": []
     },
     "composition": {
@@ -1360,8 +1364,8 @@
           "A": "D3+6",
           "BS": "2+",
           "S": "9",
-          "AP": "-3",
-          "D": "D3",
+          "AP": "-2",
+          "D": "3",
           "Keywords": "Blast, Indirect Fire, Hazardous, Psychic"
         }
       ],
@@ -1427,7 +1431,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 260,
+      "base": 285,
       "variants": []
     },
     "composition": {
@@ -1463,17 +1467,17 @@
           "BS": "2+",
           "S": "9",
           "AP": "-2",
-          "D": "D3",
+          "D": "3",
           "Keywords": "Hazardous, Psychic"
         },
         {
           "name": "Rod of sorcery",
-          "Range": "12\"",
+          "Range": "18\"",
           "A": "6",
           "BS": "2+",
           "S": "8",
           "AP": "-1",
-          "D": "D3",
+          "D": "2",
           "Keywords": "Psychic"
         }
       ],
@@ -2628,7 +2632,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 250,
+      "base": 265,
       "variants": []
     },
     "composition": {
@@ -2968,7 +2972,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "Ignores Cover, Torrent"
+          "Keywords": "Pistol, Torrent"
         }
       ],
       "melee": [
@@ -3636,7 +3640,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 380,
+      "base": 340,
       "variants": []
     },
     "composition": {
@@ -3758,7 +3762,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 270,
+      "base": 240,
       "variants": []
     },
     "composition": {
@@ -5873,7 +5877,7 @@
     "abilities": [
       {
         "name": "Prey on the Weak",
-        "description": "Each time this model makes an attack thattar gets an enemy unit that is Battle-shocked, add 1 to the Wound roll."
+        "description": "Each time this model makes an attack that targets an enemy unit that is Battle-shocked, add 1 to the Wound roll."
       },
       {
         "name": "Invulnerable Save",
@@ -5901,6 +5905,172 @@
       "Slaanesh non-Battleline",
       "Tzeentch",
       "Tzeentch non-Battleline"
+    ]
+  },
+  {
+    "name": "Daemonic Herald [Crucible]",
+    "id": "3a39-0b56-25e0-eff8",
+    "type": "model",
+    "faction": "Daemons",
+    "faction_type": "Chaos",
+    "points": {
+      "base": 60,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Daemonic Locus",
+        "description": "While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model, or D3 destroyed models with the **Battleline** keyword, to that unit."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit: **Infantry Daemon** units (excluding **Possessed** units) which share one of the following keywords with this model **Khorne, Nurgle, Slaanesh, Tzeentch**"
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "Leader",
+      "The Shadow of Chaos",
+      "Warp Rifts"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Chaos",
+      "Daemon",
+      "Summoned",
+      "Daemonic Herald",
+      "Crucible",
+      "Faction: Legiones Daemonica",
+      "Shadow Legion"
+    ]
+  },
+  {
+    "name": "Daemonic Charioteer [Crucible]",
+    "id": "8597-d6dd-511e-80ae",
+    "type": "model",
+    "faction": "Daemons",
+    "faction_type": "Chaos",
+    "points": {
+      "base": 120,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "7",
+      "SV": "6+",
+      "W": "8",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Malefic Impact",
+        "description": "Melee weapons equipped by models in this unit have the [Lance] ability."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit: **Mounted Daemon** units which share one of the following keywords with this model **Khorne, Nurgle, Slaanesh, Tzeentch**"
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "Leader",
+      "The Shadow of Chaos",
+      "Warp Rifts"
+    ],
+    "keywords": [
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Crucible",
+      "Mounted",
+      "Daemonic Charioteer",
+      "Faction: Legiones Daemonica",
+      "Shadow Legion"
+    ]
+  },
+  {
+    "name": "Immortal Champion [Crucible]",
+    "id": "3594-bf68-4a46-fbf8",
+    "type": "model",
+    "faction": "Daemons",
+    "faction_type": "Chaos",
+    "points": {
+      "base": 180,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Infernal Attendants",
+        "description": "While this model is within 3\" of one or more friendly **Daemon Infantry** units, this model has the Lone Operative ability."
+      },
+      {
+        "name": "Font of Unreality",
+        "description": "Each time an attack is allocated to a friendly **Daemon** unit within 3\" of this model, subtract 1 from the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "The Shadow of Chaos",
+      "Warp Rifts",
+      "Deadly Demise D3"
+    ],
+    "keywords": [
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Crucible",
+      "Faction: Legiones Daemonica",
+      "Monster",
+      "Immortal Champion",
+      "Shadow Legion"
     ]
   }
 ]

@@ -439,7 +439,7 @@
     "abilities": [
       {
         "name": "Drone Commander (Aura)",
-        "description": "While a friendly SPINDLE DRONES unit is within 6 of this model, each time a model in that unit makes an attack, add 1 to the Hit roll."
+        "description": "While a friendly **Spindle Drones** unit is within 6\" of this model, each time a model in that unit makes an attack, add 1 to the Hit roll."
       }
     ],
     "special_rules": [
@@ -616,7 +616,7 @@
       "LD": "7+",
       "OC": "0"
     },
-    "invuln_save": "5+",
+    "invuln_save": "Invulnerable Save (5+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -790,7 +790,7 @@
       "LD": "7+",
       "OC": "0"
     },
-    "invuln_save": "5+",
+    "invuln_save": "Invulnerable Save (5+)",
     "transport": null,
     "weapons": {
       "ranged": [],
@@ -1054,17 +1054,13 @@
       "LD": "7+",
       "OC": "0"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [],
       "melee": []
     },
     "abilities": [
-      {
-        "name": "Invulnerable Save (4+)",
-        "description": "This model has a 4+ invulnerable save"
-      },
       {
         "name": "Projected Void Shields (Aura)",
         "description": "While a friendly model is wholly within 6\" of this FORTIFICATION, that model has a 4+ invulnerable save against ranged attacks."
@@ -1490,7 +1486,7 @@
           "A": "6",
           "BS": "4+",
           "S": "6",
-          "AP": "2",
+          "AP": "-2",
           "D": "1",
           "Keywords": "Devastating Wounds, Twin-linked"
         }
@@ -1522,6 +1518,128 @@
       "Vehicle",
       "Transport",
       "Faction: Unaligned Forces"
+    ]
+  },
+  {
+    "name": "Sentry Gun",
+    "id": "983d-b163-dc9f-3c54",
+    "type": "model",
+    "faction": "Unaligned Forces",
+    "faction_type": "Unaligned",
+    "points": {
+      "base": 30,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "-",
+      "T": "4",
+      "SV": "4+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Twin heavy bolter",
+          "Range": "36\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Heavy, Sustained Hits 1, Twin-linked"
+        }
+      ],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Defensive Emplacement",
+        "description": "In the Create the Battlefield and Place Objective Markers step, set this model up in one of the Sentry Gun positions (marked D1 on the mission map)."
+      }
+    ],
+    "special_rules": [
+      "Twin-linked",
+      "Sustained Hits",
+      "Heavy"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Faction: Unaligned Forces",
+      "Sentry Gun",
+      "Allied Units"
+    ]
+  },
+  {
+    "name": "Breaching Robot",
+    "id": "a5c2-3951-e727-b64a",
+    "type": "model",
+    "faction": "Unaligned Forces",
+    "faction_type": "Unaligned",
+    "points": {
+      "base": 35,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Cutting blade",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Limited Loadout",
+        "description": "This model cannot attempt to operate Hatchways and cannot perform Tactical Manoeuvres."
+      },
+      {
+        "name": "Assault Robot",
+        "description": "In the Deploy Armies step, when setting up a unit from your army within an Entry Zone, you can set this model up alongside that unit as if it was part of it, using the same Entry Zone."
+      },
+      {
+        "name": "Bomb Kit",
+        "description": "When the bearer is destroyed (other than through triggering its bomb, as described below), roll one D6 before removing it from play: on a 6 it explodes, and each other unit within 3\" of and visible to the bearer suffers 1 mortal wound.\n\nIn your Command phase, the bearer can trigger its bombs. If it does:\n- Open each Hatchway that is within 3\" of the bearer. Your opponent cannot attempt to prevent those Hatchways from opening, and those Hatchways cannot be closed again.\n- Roll one D6 for each other unit within 3\" of and visible to the bearer: on a 2+, that unit suffers 1 mortal wound. The bearer is then destroyed."
+      },
+      {
+        "name": "Cutting Gear",
+        "description": "Each time the bearer ends a Normal move, you can open one Hatchway that is within 1\" of it. Your opponent cannot attempt to prevent that Hatchway from opening."
+      }
+    ],
+    "special_rules": [],
+    "keywords": [
+      "Vehicle",
+      "Faction: Unaligned Forces",
+      "Allied Units",
+      "Breaching Robot"
     ]
   }
 ]

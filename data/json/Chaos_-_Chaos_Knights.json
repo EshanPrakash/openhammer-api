@@ -523,7 +523,7 @@
     "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
-      "base": 375,
+      "base": 390,
       "variants": []
     },
     "composition": {
@@ -726,7 +726,7 @@
     "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
-      "base": 365,
+      "base": 355,
       "variants": []
     },
     "composition": {
@@ -2069,7 +2069,7 @@
         {
           "name": "Volkite chierovile",
           "Range": "30\"",
-          "A": "9",
+          "A": "12",
           "BS": "3+",
           "S": "12",
           "AP": "0",
@@ -2310,7 +2310,7 @@
     "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
-      "base": 375,
+      "base": 355,
       "variants": []
     },
     "composition": {
