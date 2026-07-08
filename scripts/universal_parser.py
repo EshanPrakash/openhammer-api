@@ -424,7 +424,7 @@ def main():
     ]
 
     # Create output directory
-    Path('data/json').mkdir(parents=True, exist_ok=True)
+    Path('data/json/10e').mkdir(parents=True, exist_ok=True)
 
     # Process each catalogue file
     for catalogue_file, faction_type, parent_catalogue in catalogue_files:
@@ -435,7 +435,7 @@ def main():
 
         # Generate output filename using consistent naming
         output_filename = get_output_filename(catalogue_file)
-        output_path = f'data/json/{output_filename}'
+        output_path = f'data/json/10e/{output_filename}'
 
         # Save to JSON
         with open(output_path, 'w', encoding='utf-8') as f:

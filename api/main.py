@@ -61,11 +61,11 @@ async def startup_event():
 
 
 # Include routers
-app.include_router(units.router)
-app.include_router(weapons.router)
-app.include_router(abilities.router)
-app.include_router(factions.router)
-app.include_router(bulk.router)
+app.include_router(units.router, prefix="/10e")
+app.include_router(weapons.router, prefix="/10e")
+app.include_router(abilities.router, prefix="/10e")
+app.include_router(factions.router, prefix="/10e")
+app.include_router(bulk.router, prefix="/10e")
 
 
 @app.get("/", tags=["Root"])
@@ -83,7 +83,7 @@ async def root():
     }
 
 
-@app.get("/stats", response_model=StatsResponse, tags=["Info"])
+@app.get("/10e/stats", response_model=StatsResponse, tags=["Info"])
 async def get_stats():
     """Get API statistics"""
     units_by_faction_type = {
@@ -106,7 +106,7 @@ async def get_stats():
     )
 
 
-@app.get("/factions", response_model=List[FactionInfo], tags=["Factions"])
+@app.get("/10e/factions", response_model=List[FactionInfo], tags=["Factions"])
 async def get_factions(
     faction_type: Optional[str] = Query(
         None,
@@ -122,7 +122,7 @@ async def get_factions(
     return [FactionInfo(**f) for f in factions]
 
 
-@app.get("/units", response_model=List[Unit], tags=["Units"])
+@app.get("/10e/units", response_model=List[Unit], tags=["Units"])
 async def get_units(
     limit: int = Query(100, ge=1, le=500, description="Maximum number of units to return"),
     offset: int = Query(0, ge=0, description="Number of units to skip"),
@@ -186,7 +186,7 @@ async def get_units(
     return results
 
 
-@app.get("/units/{unit_id}", response_model=Unit, tags=["Units"])
+@app.get("/10e/units/{unit_id}", response_model=Unit, tags=["Units"])
 async def get_unit_by_id(unit_id: str):
     """Get a specific unit by its ID"""
     unit = data_store.get_unit_by_id(unit_id)
@@ -197,7 +197,7 @@ async def get_unit_by_id(unit_id: str):
     return unit
 
 
-@app.get("/factions/{faction_name}/units", response_model=List[Unit], tags=["Factions"])
+@app.get("/10e/factions/{faction_name}/units", response_model=List[Unit], tags=["Factions"])
 async def get_faction_units(
     faction_name: str,
     limit: int = Query(100, ge=1, le=500),

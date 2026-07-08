@@ -17,7 +17,7 @@ class DataStore:
         self.units_by_faction_type: Dict[str, List[Unit]] = {}
         self.factions: Dict[str, Dict] = {}
 
-    def load_data(self, json_dir: str = "data/json"):
+    def load_data(self, json_dir: str = "data/json/10e"):
         """Load all unit data from JSON files"""
         json_path = Path(json_dir)
 
