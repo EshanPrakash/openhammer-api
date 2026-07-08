@@ -33,9 +33,10 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 class CacheControlMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request: Request, call_next):
         response = await call_next(request)
-        # Cache responses for 1 hour (3600 seconds)
-        # Data is static so caching is safe
-        response.headers["Cache-Control"] = "public, max-age=3600"
+        if request.url.path in ("/openapi.json", "/docs", "/redoc"):
+            response.headers["Cache-Control"] = "no-store"
+        else:
+            response.headers["Cache-Control"] = "public, max-age=3600"
         return response
 
 
