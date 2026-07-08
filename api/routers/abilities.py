@@ -5,7 +5,7 @@ from fastapi import APIRouter, Query
 from typing import List
 from api.data_loader import data_store
 
-router = APIRouter(prefix="/abilities", tags=["Abilities"])
+router = APIRouter(prefix="/10e/abilities", tags=["Abilities"])
 
 
 @router.get("/search/{term}")
@@ -16,7 +16,7 @@ async def search_abilities(
     """
     Search for abilities by name or description
 
-    Example: /abilities/search/deep strike
+    Example: /10e/abilities/search/deep strike
     """
     results = []
 
@@ -48,7 +48,7 @@ async def list_all_keywords(limit: int = Query(200, ge=1, le=500)):
     """
     Get list of all unique keywords
 
-    Example: /abilities/keywords/list
+    Example: /10e/abilities/keywords/list
     """
     keywords = set()
 
@@ -66,7 +66,7 @@ async def search_by_keyword(
     """
     Find all units with a specific keyword
 
-    Example: /abilities/keywords/search/Infantry?faction_type=Imperium
+    Example: /10e/abilities/keywords/search/Infantry?faction_type=Imperium
     """
     results = []
 
@@ -96,7 +96,7 @@ async def list_special_rules(limit: int = Query(200, ge=1, le=500)):
     """
     Get list of all unique special rules
 
-    Example: /abilities/special-rules/list
+    Example: /10e/abilities/special-rules/list
     """
     rules = set()
 
@@ -114,7 +114,7 @@ async def search_by_special_rule(
     """
     Find all units with a specific special rule
 
-    Example: /abilities/special-rules/search/Deep Strike
+    Example: /10e/abilities/special-rules/search/Deep Strike
     """
     results = []
 

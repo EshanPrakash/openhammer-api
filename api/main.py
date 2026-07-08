@@ -61,11 +61,11 @@ async def startup_event():
 
 
 # Include routers
-app.include_router(units.router, prefix="/10e")
-app.include_router(weapons.router, prefix="/10e")
-app.include_router(abilities.router, prefix="/10e")
-app.include_router(factions.router, prefix="/10e")
-app.include_router(bulk.router, prefix="/10e")
+app.include_router(units.router)
+app.include_router(weapons.router)
+app.include_router(abilities.router)
+app.include_router(factions.router)
+app.include_router(bulk.router)
 
 
 @app.get("/", tags=["Root"])
@@ -76,9 +76,9 @@ async def root():
         "version": "1.0.0",
         "docs": "/docs",
         "endpoints": {
-            "units": "/units",
-            "factions": "/factions",
-            "stats": "/stats"
+            "units": "/10e/units",
+            "factions": "/10e/factions",
+            "stats": "/10e/stats"
         }
     }
 
@@ -141,12 +141,12 @@ async def get_units(
     Get units with optional filtering, sorting, and pagination
 
     Examples:
-    - /units?faction_type=Imperium
-    - /units?faction=Necrons&has_invuln=true
-    - /units?points_min=100&points_max=200
-    - /units?name=guard&faction_type=Imperium
-    - /units?sort_by=points (ascending)
-    - /units?sort_by=-points (descending)
+    - /10e/units?faction_type=Imperium
+    - /10e/units?faction=Necrons&has_invuln=true
+    - /10e/units?points_min=100&points_max=200
+    - /10e/units?name=guard&faction_type=Imperium
+    - /10e/units?sort_by=points (ascending)
+    - /10e/units?sort_by=-points (descending)
     """
     # Search with filters
     results = data_store.search_units(

@@ -6,7 +6,7 @@ from typing import List, Optional
 from api.data_loader import data_store
 from api.models import Unit
 
-router = APIRouter(prefix="/units", tags=["Units"])
+router = APIRouter(prefix="/10e/units", tags=["Units"])
 
 
 @router.get("/search/name/{name}", response_model=List[Unit])
@@ -17,7 +17,7 @@ async def search_units_by_name(
     """
     Search units by name (case-insensitive partial match)
 
-    Example: /units/search/name/terminator
+    Example: /10e/units/search/name/terminator
     """
     results = [u for u in data_store.units if name.lower() in u.name.lower()]
     return results[:limit]
@@ -28,7 +28,7 @@ async def get_random_unit(faction_type: Optional[str] = None):
     """
     Get a random unit, optionally filtered by faction type
 
-    Example: /units/random?faction_type=Chaos
+    Example: /10e/units/random?faction_type=Chaos
     """
     import random
 
@@ -48,7 +48,7 @@ async def compare_units(ids: str = Query(..., description="Comma-separated unit 
     """
     Compare multiple units by their IDs
 
-    Example: /units/compare?ids=abc-123,def-456,ghi-789
+    Example: /10e/units/compare?ids=abc-123,def-456,ghi-789
     """
     unit_ids = [id.strip() for id in ids.split(',')]
     units = []
@@ -72,7 +72,7 @@ async def get_most_expensive_units(
     """
     Get the most expensive units by points cost
 
-    Example: /units/expensive?limit=10&faction_type=Imperium
+    Example: /10e/units/expensive?limit=10&faction_type=Imperium
     """
     units = data_store.units
 
@@ -96,7 +96,7 @@ async def get_cheapest_units(
     """
     Get the cheapest units by points cost
 
-    Example: /units/cheap?limit=10&faction_type=Xenos
+    Example: /10e/units/cheap?limit=10&faction_type=Xenos
     """
     units = data_store.units
 
@@ -122,7 +122,7 @@ async def count_units(
     """
     Count units matching filters (without returning the data)
 
-    Example: /units/count?faction_type=Chaos&has_invuln=true
+    Example: /10e/units/count?faction_type=Chaos&has_invuln=true
     """
     results = data_store.search_units(
         faction=faction,

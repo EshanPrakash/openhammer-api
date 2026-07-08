@@ -5,7 +5,7 @@ from fastapi import APIRouter, Query
 from typing import List, Dict
 from api.data_loader import data_store
 
-router = APIRouter(prefix="/weapons", tags=["Weapons"])
+router = APIRouter(prefix="/10e/weapons", tags=["Weapons"])
 
 
 @router.get("/list", response_model=List[str])
@@ -16,7 +16,7 @@ async def list_all_weapons(
     """
     Get list of all unique weapon names
 
-    Example: /weapons/list?weapon_type=ranged
+    Example: /10e/weapons/list?weapon_type=ranged
     """
     weapons = set()
 
@@ -40,7 +40,7 @@ async def search_weapons(
     """
     Search for weapons by name and return all units that have it
 
-    Example: /weapons/search/bolt?weapon_type=ranged
+    Example: /10e/weapons/search/bolt?weapon_type=ranged
     """
     results = []
 
@@ -83,7 +83,7 @@ async def weapon_stats():
     """
     Get weapon statistics across all units
 
-    Example: /weapons/stats
+    Example: /10e/weapons/stats
     """
     total_ranged = 0
     total_melee = 0

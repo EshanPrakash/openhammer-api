@@ -6,7 +6,7 @@ from typing import List, Dict
 from api.data_loader import data_store
 from api.models import Unit
 
-router = APIRouter(prefix="/bulk", tags=["Bulk Operations"])
+router = APIRouter(prefix="/10e/bulk", tags=["Bulk Operations"])
 
 
 @router.get("/units/by-ids")
@@ -16,7 +16,7 @@ async def bulk_get_units(
     """
     Bulk lookup units by IDs
 
-    Example: /bulk/units/by-ids?ids=abc-123,def-456,ghi-789
+    Example: /10e/bulk/units/by-ids?ids=abc-123,def-456,ghi-789
     """
     unit_ids = [id.strip() for id in ids.split(',')]
     results = []
@@ -44,7 +44,7 @@ async def bulk_get_units_by_names(
     """
     Bulk lookup units by names
 
-    Example: /bulk/units/by-names?names=Intercessors,Terminators,Dreadnought
+    Example: /10e/bulk/units/by-names?names=Intercessors,Terminators,Dreadnought
     """
     unit_names = [name.strip() for name in names.split(',')]
     results = []
@@ -73,7 +73,7 @@ async def stats_by_keyword(
     """
     Get aggregated stats for all units with a keyword
 
-    Example: /bulk/stats/by-keyword?keyword=Infantry
+    Example: /10e/bulk/stats/by-keyword?keyword=Infantry
     """
     units = [u for u in data_store.units if keyword in u.keywords]
 
@@ -117,7 +117,7 @@ async def stats_by_faction_type(
     """
     Get aggregated stats for a faction type
 
-    Example: /bulk/stats/by-faction-type?faction_type=Imperium
+    Example: /10e/bulk/stats/by-faction-type?faction_type=Imperium
     """
     units = data_store.get_units_by_faction_type(faction_type)
 
@@ -188,7 +188,7 @@ async def stats_by_faction(
     """
     Get comprehensive aggregated stats for a faction
 
-    Example: /bulk/stats/by-faction?faction=Necrons
+    Example: /10e/bulk/stats/by-faction?faction=Necrons
     """
     units = data_store.get_units_by_faction(faction)
 
@@ -264,7 +264,7 @@ async def export_all_units_summary():
     Get a summary of all units (name, faction, points, invuln)
     Useful for bulk exports or analysis
 
-    Example: /bulk/export/all-units-summary
+    Example: /10e/bulk/export/all-units-summary
     """
     summary = []
 

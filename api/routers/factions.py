@@ -6,7 +6,7 @@ from typing import List, Dict
 from api.data_loader import data_store
 from api.models import Unit
 
-router = APIRouter(prefix="/factions", tags=["Factions"])
+router = APIRouter(prefix="/10e/factions", tags=["Factions"])
 
 
 @router.get("/{faction_name}/details")
@@ -14,7 +14,7 @@ async def get_faction_details(faction_name: str):
     """
     Get detailed faction information including stats
 
-    Example: /factions/Necrons/details
+    Example: /10e/factions/Necrons/details
     """
     units = data_store.get_units_by_faction(faction_name)
 
@@ -64,7 +64,7 @@ async def get_faction_stats(faction_name: str):
     """
     Get statistical breakdown of a faction
 
-    Example: /factions/Necrons/stats
+    Example: /10e/factions/Necrons/stats
     """
     units = data_store.get_units_by_faction(faction_name)
 
@@ -122,7 +122,7 @@ async def get_faction_keywords(faction_name: str):
     """
     Get all keywords used in a faction with unit counts
 
-    Example: /factions/Necrons/keywords
+    Example: /10e/factions/Necrons/keywords
     """
     units = data_store.get_units_by_faction(faction_name)
 
