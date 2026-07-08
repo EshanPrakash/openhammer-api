@@ -331,7 +331,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 140,
+      "base": 130,
       "variants": []
     },
     "composition": {
@@ -516,7 +516,7 @@
     "abilities": [
       {
         "name": "Sorcerous Support",
-        "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this **Transport** this turn makes a Psychic attack that targets an enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this **Transport** this turn makes a Psychic attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
       }
     ],
     "special_rules": [
@@ -553,7 +553,7 @@
       "T": "5",
       "SV": "4+",
       "W": "4",
-      "LD": "7",
+      "LD": "7+",
       "OC": "1"
     },
     "invuln_save": "5+",
@@ -692,162 +692,6 @@
       "Chaos",
       "Tzeentch",
       "Vindicator"
-    ]
-  },
-  {
-    "name": "Defiler",
-    "id": "0858-3078-f052-b11b",
-    "type": "model",
-    "faction": "Thousand Sons",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 165,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "8\"",
-      "T": "10",
-      "SV": "3+",
-      "W": "14",
-      "LD": "6+",
-      "OC": "5"
-    },
-    "invuln_save": "5+",
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Defiler cannon",
-          "Range": "48\"",
-          "A": "D6+3",
-          "BS": "3+",
-          "S": "10",
-          "AP": "-1",
-          "D": "3",
-          "Keywords": "Blast"
-        },
-        {
-          "name": "Reaper autocannon",
-          "Range": "48\"",
-          "A": "4",
-          "BS": "3+",
-          "S": "7",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "Devastating Wounds, Sustained Hits 1"
-        },
-        {
-          "name": "Twin heavy flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "5",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "Ignores Cover, Torrent, Twin-linked"
-        },
-        {
-          "name": "Inferno combi-weapon",
-          "Range": "24\"",
-          "A": "1",
-          "BS": "4+",
-          "S": "4",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
-        },
-        {
-          "name": "Twin inferno heavy bolter",
-          "Range": "36\"",
-          "A": "3",
-          "BS": "3+",
-          "S": "5",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Sustained Hits 1, Twin-linked"
-        },
-        {
-          "name": "Twin lascannon",
-          "Range": "48\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "12",
-          "AP": "-3",
-          "D": "D6+1",
-          "Keywords": "Twin-linked"
-        },
-        {
-          "name": "Havoc launcher",
-          "Range": "48\"",
-          "A": "D6",
-          "BS": "3+",
-          "S": "5",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Blast"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Defiler claws",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "3+",
-          "S": "16",
-          "AP": "-3",
-          "D": "D6+1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Defiler scourge",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "3+",
-          "S": "12",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Extra Attacks"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Scuttling Walker",
-        "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move through friendly **Monster** and **Vehicle** models and sections of terrain that are 4\" or less in height."
-      },
-      {
-        "name": "Invulnerable Save",
-        "description": "This model has a 5+ invulnerable save."
-      },
-      {
-        "name": "Destroyer of Futures",
-        "description": "Each time you target this model with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem. For each of those attacks that targets an enemy unit within 9\" of a **Thousand Sons Psyker** unit from your army, a hit is scored on an unmodified Hit roll of 4+ instead."
-      }
-    ],
-    "special_rules": [
-      "Deadly Demise D3",
-      "Feel No Pain 6+",
-      "Blast",
-      "Sustained Hits",
-      "Devastating Wounds",
-      "Twin-linked",
-      "Torrent",
-      "Ignores Cover",
-      "Extra Attacks"
-    ],
-    "keywords": [
-      "Faction: Thousand Sons",
-      "Vehicle",
-      "Walker",
-      "Daemon",
-      "Smoke",
-      "Chaos",
-      "Tzeentch",
-      "Defiler"
     ]
   },
   {
@@ -1071,7 +915,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 140,
+      "base": 130,
       "variants": []
     },
     "composition": {
@@ -1649,7 +1493,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 130,
+      "base": 120,
       "variants": []
     },
     "composition": {
@@ -1733,7 +1577,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 175,
+      "base": 170,
       "variants": []
     },
     "composition": {
@@ -1817,7 +1661,7 @@
       },
       {
         "name": "Immaterial Flare (Aura)",
-        "description": "While a friendly **Thousand Sons Psyker** unit is within 6\" of this model, each time that unit Channels the Warp, add 1 to the Psychic test result. This is not cumulative with any other modifiers to the Psychic test result."
+        "description": "While a friendly **Thousand Sons Psyker** model is within 6\" of this model, each time that model Channels the Warp, add 1 to the Psychic test result. This is not cumulative with any other modifiers to the Psychic test result."
       }
     ],
     "special_rules": [
@@ -1844,7 +1688,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 105,
+      "base": 100,
       "variants": [
         {
           "models": 5,
@@ -2124,7 +1968,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 85,
+      "base": 80,
       "variants": []
     },
     "composition": {
@@ -2540,7 +2384,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 55,
+      "base": 45,
       "variants": [
         {
           "models": 3,
@@ -3431,7 +3275,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 60,
+      "base": 55,
       "variants": [
         {
           "models": 3,
@@ -3508,7 +3352,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 260,
+      "base": 295,
       "variants": []
     },
     "composition": {
@@ -3543,8 +3387,8 @@
           "A": "D3+6",
           "BS": "2+",
           "S": "9",
-          "AP": "-3",
-          "D": "D3",
+          "AP": "-2",
+          "D": "3",
           "Keywords": "Blast, Hazardous, Indirect Fire, Psychic"
         }
       ],
@@ -3608,7 +3452,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 250,
+      "base": 285,
       "variants": []
     },
     "composition": {
@@ -3644,17 +3488,17 @@
           "BS": "2+",
           "S": "9",
           "AP": "-2",
-          "D": "D3",
+          "D": "3",
           "Keywords": "Hazardous, Psychic"
         },
         {
           "name": "Rod of sorcery",
-          "Range": "12\"",
+          "Range": "18\"",
           "A": "6",
           "BS": "2+",
           "S": "8",
           "AP": "-1",
-          "D": "D3",
+          "D": "2",
           "Keywords": "Psychic"
         }
       ],
@@ -3887,7 +3731,7 @@
       "SV": "7+",
       "W": "1",
       "LD": "8+",
-      "OC": "1"
+      "OC": "0"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3904,7 +3748,7 @@
           "Keywords": "Pistol, Psychic"
         },
         {
-          "name": "Coruscating Blue flames (ref. only)",
+          "name": "Coruscating blue flames (ref. only)",
           "Range": "18\"",
           "A": "2",
           "BS": "4+",
@@ -3914,7 +3758,7 @@
           "Keywords": "Pistol, Psychic"
         },
         {
-          "name": "Coruscating Yellow flames (ref. only)",
+          "name": "Coruscating yellow flames (ref. only)",
           "Range": "18\"",
           "A": "2",
           "BS": "5+",
@@ -3976,7 +3820,7 @@
       },
       {
         "name": "Horrors are Pink. Horrors are Blue. Where once there was one, now there are two.",
-        "description": "If, at any point, this unit contains no Pink Horrors models, use the Blue Horrors datasheet for this unit. \n\n\n_Designer’s Note: While this unit contains one or more Pink Horrors models, the Cackling Horrors and Exploding Horrors abilities from the Blue Horrors datasheet do not apply to this unit._"
+        "description": "If, at any point, this unit contains no Pink Horrors models, use the Blue Horrors datasheet for this unit. \n\n_Designer’s Note: While this unit contains one or more Pink Horrors models, the Sullen Malevolence and Exploding Horrors abilities from the Blue Horrors datasheet do not apply to this unit._"
       }
     ],
     "special_rules": [
@@ -4012,7 +3856,7 @@
     "stats": {
       "M": "6\"",
       "T": "3",
-      "SV": "8+",
+      "SV": "7+",
       "W": "1",
       "LD": "8+",
       "OC": "0"
@@ -4160,6 +4004,356 @@
       "Tzeentch",
       "Spawn",
       "Mutant"
+    ]
+  },
+  {
+    "name": "Magister [Crucible]",
+    "id": "8e43-1b14-4d87-7d17",
+    "type": "model",
+    "faction": "Thousand Sons",
+    "faction_type": "Chaos",
+    "points": {
+      "base": 105,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Rebinding (Psychic)",
+        "description": "In your Command phase, if this model is leading a unit, you can roll one D6: on a 1, that unit suffers D3 mortal wounds, on a 2+, you can return 1 destroyed Bodyguard model to that unit."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit: **Rubric Marines**"
+      },
+      {
+        "name": "Invulnerable Save (5+)",
+        "description": "This model has a 5+ invulnerable save."
+      }
+    ],
+    "special_rules": [
+      "Cabal of Sorcerers",
+      "Leader"
+    ],
+    "keywords": [
+      "Faction: Thousand Sons",
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Psyker",
+      "Chaos",
+      "Tzeentch",
+      "Magister"
+    ]
+  },
+  {
+    "name": "Brayherd Chieftain [Crucible]",
+    "id": "d288-821d-7fef-f3ae",
+    "type": "model",
+    "faction": "Thousand Sons",
+    "faction_type": "Chaos",
+    "points": {
+      "base": 60,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit: **Tzaangors**"
+      },
+      {
+        "name": "Invulnerable Save (5+)",
+        "description": "This model has a 5+ invulnerable save."
+      },
+      {
+        "name": "Fate's Guide",
+        "description": "If this unit starts the game in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third turn, regardless of any mission rules. If this unit is in Strategic Reserves, for the purposes of setting up this unit on the battlefield, treat the current battle round number as being one higher than it actually is."
+      }
+    ],
+    "special_rules": [
+      "Cabal of Sorcerers",
+      "Leader",
+      "Scouts 6\""
+    ],
+    "keywords": [
+      "Faction: Thousand Sons",
+      "Character",
+      "Infantry",
+      "Chaos",
+      "Tzeentch",
+      "Mutant",
+      "Brayherd Chieftain"
+    ]
+  },
+  {
+    "name": "Brayherd Shaman [Crucible]",
+    "id": "f75a-a5e6-f478-6f55",
+    "type": "model",
+    "faction": "Thousand Sons",
+    "faction_type": "Chaos",
+    "points": {
+      "base": 60,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit: **Tzaangors**"
+      },
+      {
+        "name": "Invulnerable Save (5+)",
+        "description": "This model has a 5+ invulnerable save."
+      },
+      {
+        "name": "Bestial Prophet",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Cabal of Sorcerers",
+      "Leader",
+      "Scouts 6\""
+    ],
+    "keywords": [
+      "Faction: Thousand Sons",
+      "Character",
+      "Infantry",
+      "Chaos",
+      "Tzeentch",
+      "Mutant",
+      "Psyker",
+      "Brayherd Shaman"
+    ]
+  },
+  {
+    "name": "Defiler",
+    "id": "f158-2979-c38b-65b5",
+    "type": "model",
+    "faction": "Thousand Sons",
+    "faction_type": "Chaos",
+    "points": {
+      "base": 250,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "invuln_save": "Invulnerable Save (5+)",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "➤ Heavy missile launcher - frag",
+          "Range": "48\"",
+          "A": "2D6",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "➤ Heavy missile launcher - krak",
+          "Range": "48\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6+1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Hades battle cannon",
+          "Range": "48\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-1",
+          "D": "3",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Ectoplasma destructor",
+          "Range": "36\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Heavy baleflamer",
+          "Range": "12\"",
+          "A": "D6+3",
+          "BS": "N/A",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Ignores Cover, Torrent"
+        },
+        {
+          "name": "Excruciator cannon",
+          "Range": "36\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Pyraflux magma cutter",
+          "Range": "12\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
+        },
+        {
+          "name": "Hades lascannon",
+          "Range": "48\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Heavy reaper autocannon",
+          "Range": "48\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Devastating Wounds, Sustained Hits 1"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Shearing claws - strike",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "16",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Shearing claws - sweep",
+          "Range": "Melee",
+          "A": "10",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Electroscourge",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "12",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Extra Attacks, Sustained Hits 2"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Scuttling Walker",
+        "description": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding **Titanic** models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+      },
+      {
+        "name": "Destroyer of Futures",
+        "description": "Each time you target this unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem. For each of those attacks that targets an enemy unit within 9\" of one or more **Thousand Sons Psyker** units from your army, a hit is scored on an unmodified Hit roll of 4+ instead."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6",
+      "Feel No Pain 6+",
+      "Blast",
+      "Ignores Cover",
+      "Torrent",
+      "Melta"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Daemon",
+      "Faction: Thousand Sons",
+      "Defiler",
+      "Tzeentch"
     ]
   }
 ]

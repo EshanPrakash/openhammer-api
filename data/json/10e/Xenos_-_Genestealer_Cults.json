@@ -223,7 +223,7 @@
     "abilities": [
       {
         "name": "Crossfire",
-        "description": "in your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly GENESTEALER CULTS unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
+        "description": "in your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly **Genestealer Cults** unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
       },
       {
         "name": "Flare Launcher",
@@ -306,22 +306,22 @@
     },
     "abilities": [
       {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS"
-      },
-      {
         "name": "Nexus of Devotion",
         "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability. If that unit has the HYBRID METAMORPHS keyword, models in that unit have the Feel No Pain 4+ ability instead."
       },
       {
         "name": "Summon the Cult",
         "description": "Once per battle, when you have to remove a Cult Ambush marker because your opponent has moved too close to it, if one or more models from your army with this ability are on the battlefield, you can use this ability. If you do, instead of removing that marker, you can place it anywhere on the battlefield that is within 12\" of a model from your army with this ability and more than 9\" horizontally away from all enemy units (if this is not possible, this ability is not considered to have been used and that marker is removed as normal)."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- **Acolyte Hybrids**\n- **Hybrid Metamorphs**\n- **Neophyte Hybrids**"
       }
     ],
     "special_rules": [
-      "Leader",
       "Deep Strike",
-      "Scouts 6\""
+      "Scouts 6\"",
+      "Leader"
     ],
     "keywords": [
       "Acolyte Iconward",
@@ -384,6 +384,16 @@
           "Keywords": "Ignores Cover, Torrent"
         },
         {
+          "name": "Heavy stubber",
+          "Range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Assault, Rapid Fire 3"
+        },
+        {
           "name": "➤ Grenade launcher - frag",
           "Range": "24\"",
           "A": "D3",
@@ -412,16 +422,6 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Pistol"
-        },
-        {
-          "name": "Heavy stubber",
-          "Range": "36\"",
-          "A": "3",
-          "BS": "4+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 3"
         }
       ],
       "melee": [
@@ -460,6 +460,8 @@
     "special_rules": [
       "Ignores Cover",
       "Torrent",
+      "Rapid Fire",
+      "Assault",
       "Cult Ambush",
       "Scouts 9\"",
       "Stealth"
@@ -499,16 +501,6 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Chemical vials",
-          "Range": "6\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "1",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Anti-Infantry 2+"
-        },
-        {
           "name": "Autopistol",
           "Range": "12\"",
           "A": "1",
@@ -517,6 +509,16 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Pistol"
+        },
+        {
+          "name": "Chemical vials",
+          "Range": "6\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "1",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Anti-Infantry 2+"
         }
       ],
       "melee": [
@@ -553,8 +555,7 @@
     "special_rules": [
       "Deep Strike",
       "Lethal Hits",
-      "Leader",
-      "Anti-"
+      "Leader"
     ],
     "keywords": [
       "Biophagus",
@@ -963,7 +964,7 @@
     "stats": {
       "M": "12\"",
       "T": "4",
-      "SV": "5",
+      "SV": "5+",
       "W": "4",
       "LD": "7+",
       "OC": "1"
@@ -1009,7 +1010,7 @@
     "abilities": [
       {
         "name": "Priority Target",
-        "description": "Each time this model makes an attack with its cult sniper rifle that targets an enemy unit, if it scores a hit, until the end of the phase, each time another GENESTEALER CULTS model from your army makes a ranged attack that targets that enemy unit, re-roll a Hit roll of 1."
+        "description": "In your Shooting phase, after this model's unit has shot, select one enemy unit hit by one or more of those attacks made with a cult sniper rifle. Until the end of the phase, each time a friendly **Genestealer Cults** model makes an attack that targets that enemy unit, re-roll a Hit roll of 1."
       },
       {
         "name": "Master Outrider",
@@ -1246,8 +1247,7 @@
     ],
     "special_rules": [
       "Leader",
-      "Deep Strike",
-      "Psychic"
+      "Deep Strike"
     ],
     "keywords": [
       "Magus",
@@ -1290,7 +1290,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Mining Laser",
+          "name": "Mining laser",
           "Range": "24\"",
           "A": "1",
           "BS": "5+",
@@ -1300,7 +1300,7 @@
           "Keywords": "Heavy"
         },
         {
-          "name": "Seismic Cannon",
+          "name": "Seismic cannon",
           "Range": "24\"",
           "A": "2",
           "BS": "5+",
@@ -1308,26 +1308,6 @@
           "AP": "-1",
           "D": "D3",
           "Keywords": "Heavy, Rapid Fire 2"
-        },
-        {
-          "name": "Flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Ignores Cover, Torrent"
-        },
-        {
-          "name": "Webber",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "2",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Devastating Wounds, Torrent"
         },
         {
           "name": "Hybrid firearm",
@@ -1358,6 +1338,26 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Rapid Fire 3"
+        },
+        {
+          "name": "Webber",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "2",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Devastating Wounds, Torrent"
+        },
+        {
+          "name": "Flamer",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent"
         },
         {
           "name": "➤ Grenade launcher - frag",
@@ -1436,9 +1436,6 @@
     "special_rules": [
       "Heavy",
       "Rapid Fire 2",
-      "Ignores Cover",
-      "Torrent",
-      "Devastating Wounds",
       "Deep Strike",
       "Cult Ambush"
     ],
@@ -1675,16 +1672,12 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS"
+        "description": "This model can be attached to the following units:\n- **Acolyte Hybrids**\n- **Hybrid Metamorphs**\n- **Neophyte Hybrids**"
       }
     ],
     "special_rules": [
       "Deep Strike",
-      "Leader",
-      "Anti-",
-      "Extra Attacks",
-      "Ignores Cover",
-      "Pistol"
+      "Leader"
     ],
     "keywords": [
       "Primus",
@@ -1793,16 +1786,6 @@
           "Keywords": "Assault, Blast, One Shot"
         },
         {
-          "name": "Remote explosives",
-          "Range": "24\"",
-          "A": "D6+3",
-          "BS": "3+",
-          "S": "5",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Blast, Indirect Fire"
-        },
-        {
           "name": "Autopistol",
           "Range": "12\"",
           "A": "1",
@@ -1811,6 +1794,16 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Pistol"
+        },
+        {
+          "name": "Remote explosives",
+          "Range": "24\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast, Indirect Fire"
         }
       ],
       "melee": [
@@ -1842,9 +1835,7 @@
       "Deep Strike",
       "Stealth",
       "Blast",
-      "Hazardous",
-      "Assault",
-      "Indirect Fire"
+      "Assault"
     ],
     "keywords": [
       "Reductus Saboteur",
@@ -1935,8 +1926,7 @@
       "Infiltrators",
       "Stealth",
       "Anti-",
-      "Precision",
-      "Heavy"
+      "Precision"
     ],
     "keywords": [
       "Sanctus",
@@ -2089,10 +2079,7 @@
     ],
     "special_rules": [
       "Deep Strike",
-      "Leader",
-      "Ignores Cover",
-      "Hazardous",
-      "Psychic"
+      "Leader"
     ],
     "keywords": [
       "Character",
@@ -2101,6 +2088,168 @@
       "Great Devourer",
       "Faction: Genestealer Cults",
       "Benefictus"
+    ]
+  },
+  {
+    "name": "Cult Insurrectionist [Crucible]",
+    "id": "0f8d-ba1b-c2cf-c8e7",
+    "type": "model",
+    "faction": "Genestealer Cults",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 80,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "Invulnerable Save (5+)",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Cult Demagogue",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- **Acolyte Hybrids with Hand Flamers**\n- **Acolyte Hybrids with Autopistols**\n- **Hybrid Metamorphs**\n- **Neophyte Hybrids**"
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Crucible",
+      "Deep Strike"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Crucible",
+      "Great Devourer",
+      "Cult Insurrectionist",
+      "Faction: Genestealer Cults"
+    ]
+  },
+  {
+    "name": "Cult Guerrilla [Crucible]",
+    "id": "5138-978e-c8e6-b90c",
+    "type": "model",
+    "faction": "Genestealer Cults",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 60,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": "Invulnerable Save (5+)",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Battlefield Analysis",
+        "description": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- **Acolyte Hybrids with Hand Flamers**\n- **Acolyte Hybrids with Autopistols**\n- **Hybrid Metamorphs**\n- **Neophyte Hybrids**"
+      }
+    ],
+    "special_rules": [
+      "Lone Operative",
+      "Crucible",
+      "Deep Strike",
+      "Infiltrators",
+      "Leader",
+      "Stealth"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Crucible",
+      "Great Devourer",
+      "Faction: Genestealer Cults",
+      "Grenades",
+      "Cult Guerrilla"
+    ]
+  },
+  {
+    "name": "Voice of the Patriarch [Crucible]",
+    "id": "678c-b59c-f85d-0a43",
+    "type": "model",
+    "faction": "Genestealer Cults",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 70,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": "Invulnerable Save (5+)",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Biohorror Disruption (Psychic)",
+        "description": "Ranged weapons equipped by models in this unit have the **[LETHAL HITS]** ability."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- **Acolyte Hybrids with Hand Flamers**\n- **Acolyte Hybrids with Autopistols**\n- **Hybrid Metamorphs**\n- **Neophyte Hybrids**"
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Crucible",
+      "Deep Strike",
+      "Lethal Hits"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Crucible",
+      "Great Devourer",
+      "Faction: Genestealer Cults",
+      "Psyker",
+      "Voice of the Patriarch"
     ]
   }
 ]

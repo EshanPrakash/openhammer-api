@@ -21,7 +21,7 @@
       "LD": "7+",
       "OC": "3"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -126,7 +126,7 @@
       "LD": "7+",
       "OC": "1"
     },
-    "invuln_save": "5+",
+    "invuln_save": "Invulnerable Save (5+)",
     "transport": null,
     "weapons": {
       "ranged": [],
@@ -154,7 +154,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- GARGOYLES\n- TYRANID WARRIORS WITH MELEE BIO-WEAPONS\n- TYRANID WARRIORS WITH RANGED BIO-WEAPONS"
+        "description": "This model can be attached to the following units:\n- **Gargoyles**\n- **Tyranid Warriors With Melee Bio-Weapons**\n- **Tyranid Warriors With Ranged Bio-Weapons**"
       }
     ],
     "special_rules": [
@@ -196,7 +196,7 @@
       "LD": "7+",
       "OC": "1"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [],
@@ -565,7 +565,7 @@
       "LD": "7+",
       "OC": "1"
     },
-    "invuln_save": "4+",
+    "invuln_save": "Invulnerable Save (4+)",
     "transport": null,
     "weapons": {
       "ranged": [],
@@ -665,7 +665,7 @@
     "abilities": [
       {
         "name": "Parasitic Infection",
-        "description": "Each time an INFANTRY model is destroyed by an attack made with this model’s barbed ovipositor, after this model has finished making its attacks, you can add one new RIPPER SWARMS unit to your army consisting of D3 models and set it up within 3\" of this model. If you do, that RIPPER SWARMS unit can be set up within Engagement Range of the destroyed model’s unit (but not within Engagement Range of any other enemy units)."
+        "description": "Each time an **Infantry** model is destroyed by an attack made with this model’s barbed ovipositor, after this model has finished making its attacks, you can add one new **Ripper Swarms** unit to your army consisting of D3 models and set it up within 3\" of this model. If you do, that **Ripper Swarms** unit can be set up within Engagement Range of the destroyed model’s unit (but not within Engagement Range of any other enemy units)."
       },
       {
         "name": "It Itches!",
@@ -809,8 +809,7 @@
     ],
     "special_rules": [
       "Deep Strike",
-      "Synapse",
-      "Sustained Hits"
+      "Synapse"
     ],
     "keywords": [
       "Trygon",
@@ -919,7 +918,7 @@
       "LD": "8+",
       "OC": "1"
     },
-    "invuln_save": "6+",
+    "invuln_save": "Invulnerable Save (6+)",
     "transport": null,
     "weapons": {
       "ranged": [],
@@ -957,86 +956,240 @@
     ]
   },
   {
-    "name": "Ripper Swarms",
-    "id": "1de2-b57b-aa0a-1f0d",
-    "type": "unit",
+    "name": "Node Organism [Crucible]",
+    "id": "527c-d3c6-c620-c7c6",
+    "type": "model",
     "faction": "Tyranids",
     "faction_type": "Xenos",
     "points": {
-      "base": null,
-      "variants": [
-        {
-          "models": 1,
-          "points": 25
-        },
-        {
-          "models": 2,
-          "points": 40
-        },
-        {
-          "models": 3,
-          "points": 50
-        }
-      ]
+      "base": 80,
+      "variants": []
     },
     "composition": {
-      "min_models": 1,
+      "min_models": null,
       "max_models": 3
     },
     "stats": {
       "M": "6\"",
-      "T": "2",
-      "SV": "6+",
-      "W": "4",
-      "LD": "8+",
-      "OC": "0"
+      "T": "5",
+      "SV": "4+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "1"
     },
     "invuln_save": null,
     "transport": null,
     "weapons": {
-      "ranged": [
-        {
-          "name": "Spinemaw",
-          "Range": "6\"",
-          "A": "4",
-          "BS": "5+",
-          "S": "3",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Pistol"
-        }
-      ],
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Alpha Warrior",
+        "description": "While this model is leading a unit, weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- **Tyranid Warriors with Melee Bio-weapons**\n- **Tyranid Warriors with Ranged Bio-weapons**"
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Sustained Hits",
+      "Shadow in the Warp",
+      "Synapse",
+      "Crucible"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Crucible",
+      "Great Devourer",
+      "Synapse",
+      "Faction: Tyranids",
+      "Node Organism"
+    ]
+  },
+  {
+    "name": "Prime Organism [Crucible]",
+    "id": "6f46-0c77-acd0-3f5d",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 135,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Monstrous Barrage",
+        "description": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- **Carnifexes**\n- **Tyrant Guard**"
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Synapse",
+      "Crucible",
+      "Leader"
+    ],
+    "keywords": [
+      "Character",
+      "Crucible",
+      "Great Devourer",
+      "Faction: Tyranids",
+      "Monster",
+      "Prime Organism"
+    ]
+  },
+  {
+    "name": "Macro Organism [Crucible]",
+    "id": "a89f-8ad1-3d79-174f",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 150,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "8+",
+      "OC": "4"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Unstoppable Monstrosity",
+        "description": "At the start of each player's Command phase, this model regains up to D3 lost wounds."
+      }
+    ],
+    "special_rules": [
+      "Synapse",
+      "Deadly Demise D3",
+      "Crucible"
+    ],
+    "keywords": [
+      "Character",
+      "Crucible",
+      "Great Devourer",
+      "Faction: Tyranids",
+      "Monster",
+      "Macro Organism"
+    ]
+  },
+  {
+    "name": "The Red Terror",
+    "id": "7173-1bd9-b60b-6555",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 130,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "9",
+      "LD": "8+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
       "melee": [
         {
-          "name": "Chitinous claws and teeth",
+          "name": "Gaping maw",
           "Range": "Melee",
-          "A": "6",
-          "WS": "5+",
-          "S": "2",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Sustained Hits 1"
+          "A": "1",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-",
+          "D": "D3+2",
+          "Keywords": "Extra Attacks, Devastating Wounds, Precision"
+        },
+        {
+          "name": "Scything talons",
+          "Range": "Melee",
+          "A": "12",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
         }
       ]
     },
     "abilities": [
       {
-        "name": "Chitinous Horrors (Aura)",
-        "description": "While an enemy unit is within Engagement Range of this unit, halve the Objective Control characteristic of models in that enemy unit."
+        "name": "Serpentine Fiend",
+        "description": "This model can move through terrain features, but cannot end a move within a wall, a floor, etc. This model can be set up or end a move on any floor level of **Ruins**, but if that level is not the ground floor, it can only do so if its base does not overhang the floor at that level."
+      },
+      {
+        "name": "Swallow Whole",
+        "description": "Each time an attack with this model’s gaping maw targets an **Infantry**, **Mounted** or **Beasts** unit, each successful unmodified Wound roll is a Critical Wound. Each time an **Infantry**, **Mounted** or **Beasts** model is destroyed as a result of an attack made by this model’s gaping maw, this model regains up to D3+2 lost wounds."
+      },
+      {
+        "name": "Subterranean Hunter",
+        "description": "At the end of the Fight phase, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
       }
     ],
     "special_rules": [
-      "Sustained Hits 1",
-      "Pistol",
       "Deep Strike",
-      "Synapse"
+      "Synapse",
+      "Extra Attacks",
+      "Precision",
+      "Devastating Wounds"
     ],
     "keywords": [
-      "Ripper Swarm",
-      "Swarm",
+      "Character",
       "Great Devourer",
       "Faction: Tyranids",
-      "Harvester"
+      "Vanguard Invader",
+      "Epic Hero",
+      "Monster",
+      "The Red Terror",
+      "Burrowers"
     ]
   }
 ]

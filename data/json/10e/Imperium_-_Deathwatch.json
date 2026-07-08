@@ -775,7 +775,7 @@
     "faction": "Deathwatch",
     "faction_type": "Imperium",
     "points": {
-      "base": 250,
+      "base": 265,
       "variants": []
     },
     "composition": {
@@ -1503,7 +1503,7 @@
       "max_models": 1
     },
     "stats": {
-      "M": "6\"",
+      "M": "5\"",
       "T": "6",
       "SV": "3+",
       "W": "3",

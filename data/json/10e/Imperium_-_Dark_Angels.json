@@ -6,7 +6,7 @@
     "faction": "Dark Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 115,
+      "base": 125,
       "variants": []
     },
     "composition": {
@@ -1096,11 +1096,11 @@
     "faction": "Dark Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 90,
+      "base": 80,
       "variants": [
         {
           "models": 3,
-          "points": 180
+          "points": 160
         }
       ]
     },
