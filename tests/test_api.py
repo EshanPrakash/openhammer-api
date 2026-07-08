@@ -4,6 +4,8 @@ Comprehensive API endpoint test script
 import requests
 
 BASE_URL = "http://localhost:8000"
+EDITION = "10e"
+E = f"{BASE_URL}/{EDITION}"
 
 def test_endpoint(name, url, show_results=10):
     """Test an endpoint and display results"""
@@ -44,48 +46,48 @@ print("=" * 70)
 
 # Basic endpoints
 test_endpoint("Root", f"{BASE_URL}/")
-test_endpoint("API Stats", f"{BASE_URL}/stats")
+test_endpoint("API Stats", f"{E}/stats")
 
 # Faction endpoints
-test_endpoint("All Factions", f"{BASE_URL}/factions")
-test_endpoint("Imperium Factions", f"{BASE_URL}/factions?faction_type=Imperium")
-test_endpoint("Faction Units - Necrons", f"{BASE_URL}/factions/Necrons/units?limit=5")
+test_endpoint("All Factions", f"{E}/factions")
+test_endpoint("Imperium Factions", f"{E}/factions?faction_type=Imperium")
+test_endpoint("Faction Units - Necrons", f"{E}/factions/Necrons/units?limit=5")
 
 # Unit endpoints
-test_endpoint("All Units (paginated)", f"{BASE_URL}/units?limit=5")
-test_endpoint("Chaos Units", f"{BASE_URL}/units?faction_type=Chaos&limit=5")
-test_endpoint("Units with Invuln", f"{BASE_URL}/units?has_invuln=true&limit=5")
-test_endpoint("Points Range 100-200", f"{BASE_URL}/units?points_min=100&points_max=200&limit=5")
-test_endpoint("Search by Name: Terminator", f"{BASE_URL}/units/search/name/terminator")
+test_endpoint("All Units (paginated)", f"{E}/units?limit=5")
+test_endpoint("Chaos Units", f"{E}/units?faction_type=Chaos&limit=5")
+test_endpoint("Units with Invuln", f"{E}/units?has_invuln=true&limit=5")
+test_endpoint("Points Range 100-200", f"{E}/units?points_min=100&points_max=200&limit=5")
+test_endpoint("Search by Name: Terminator", f"{E}/units/search/name/terminator")
 
 # New unit endpoints
-test_endpoint("Random Chaos Unit", f"{BASE_URL}/units/random?faction_type=Chaos")
-test_endpoint("Most Expensive Units", f"{BASE_URL}/units/expensive?limit=5")
-test_endpoint("Cheapest Units", f"{BASE_URL}/units/cheap?limit=5")
-test_endpoint("Unit Count - Xenos with Invuln", f"{BASE_URL}/units/count?faction_type=Xenos&has_invuln=true")
+test_endpoint("Random Chaos Unit", f"{E}/units/random?faction_type=Chaos")
+test_endpoint("Most Expensive Units", f"{E}/units/expensive?limit=5")
+test_endpoint("Cheapest Units", f"{E}/units/cheap?limit=5")
+test_endpoint("Unit Count - Xenos with Invuln", f"{E}/units/count?faction_type=Xenos&has_invuln=true")
 
 # Weapon endpoints
-test_endpoint("Weapon Stats", f"{BASE_URL}/weapons/stats")
-test_endpoint("List Ranged Weapons", f"{BASE_URL}/weapons/list?weapon_type=ranged&limit=10")
-test_endpoint("Search Weapons: Bolter", f"{BASE_URL}/weapons/search/bolter?weapon_type=ranged", show_results=3)
+test_endpoint("Weapon Stats", f"{E}/weapons/stats")
+test_endpoint("List Ranged Weapons", f"{E}/weapons/list?weapon_type=ranged&limit=10")
+test_endpoint("Search Weapons: Bolter", f"{E}/weapons/search/bolter?weapon_type=ranged", show_results=3)
 
 # Ability endpoints
-test_endpoint("Search Abilities: Deep Strike", f"{BASE_URL}/abilities/search/deep%20strike", show_results=3)
-test_endpoint("List Keywords", f"{BASE_URL}/abilities/keywords/list?limit=20")
-test_endpoint("Search Keyword: Infantry", f"{BASE_URL}/abilities/keywords/search/Infantry?faction_type=Imperium", show_results=5)
-test_endpoint("List Special Rules", f"{BASE_URL}/abilities/special-rules/list?limit=15")
-test_endpoint("Search Special Rule: Feel No Pain", f"{BASE_URL}/abilities/special-rules/search/Feel%20No%20Pain", show_results=5)
+test_endpoint("Search Abilities: Deep Strike", f"{E}/abilities/search/deep%20strike", show_results=3)
+test_endpoint("List Keywords", f"{E}/abilities/keywords/list?limit=20")
+test_endpoint("Search Keyword: Infantry", f"{E}/abilities/keywords/search/Infantry?faction_type=Imperium", show_results=5)
+test_endpoint("List Special Rules", f"{E}/abilities/special-rules/list?limit=15")
+test_endpoint("Search Special Rule: Feel No Pain", f"{E}/abilities/special-rules/search/Feel%20No%20Pain", show_results=5)
 
 # Faction detail endpoints
-test_endpoint("Faction Details - Necrons", f"{BASE_URL}/factions/Necrons/details", show_results=8)
-test_endpoint("Faction Stats - Tyranids", f"{BASE_URL}/factions/Tyranids/stats", show_results=10)
-test_endpoint("Faction Keywords - Custodes", f"{BASE_URL}/factions/Adeptus%20Custodes/keywords", show_results=15)
+test_endpoint("Faction Details - Necrons", f"{E}/factions/Necrons/details", show_results=8)
+test_endpoint("Faction Stats - Tyranids", f"{E}/factions/Tyranids/stats", show_results=10)
+test_endpoint("Faction Keywords - Custodes", f"{E}/factions/Adeptus%20Custodes/keywords", show_results=15)
 
 # Bulk endpoints
-test_endpoint("Bulk Units by IDs", f"{BASE_URL}/bulk/units/by-ids?ids=7998-d0a-baa4-e8b3,a018-ca33-afd0-be83")
-test_endpoint("Bulk Stats - Infantry", f"{BASE_URL}/bulk/stats/by-keyword?keyword=Infantry", show_results=10)
-test_endpoint("Bulk Stats - Imperium", f"{BASE_URL}/bulk/stats/by-faction-type?faction_type=Imperium", show_results=12)
-test_endpoint("Bulk Stats - Necrons Faction", f"{BASE_URL}/bulk/stats/by-faction?faction=Necrons", show_results=12)
+test_endpoint("Bulk Units by IDs", f"{E}/bulk/units/by-ids?ids=7998-d0a-baa4-e8b3,a018-ca33-afd0-be83")
+test_endpoint("Bulk Stats - Infantry", f"{E}/bulk/stats/by-keyword?keyword=Infantry", show_results=10)
+test_endpoint("Bulk Stats - Imperium", f"{E}/bulk/stats/by-faction-type?faction_type=Imperium", show_results=12)
+test_endpoint("Bulk Stats - Necrons Faction", f"{E}/bulk/stats/by-faction?faction=Necrons", show_results=12)
 
 print("\n" + "=" * 70)
 print("ALL TESTS COMPLETE!")

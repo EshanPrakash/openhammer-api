@@ -6,131 +6,96 @@ from typing import List, Optional
 from api.data_loader import data_store
 from api.models import Unit
 
-router = APIRouter(prefix="/10e/units", tags=["10e - Units"])
+router = APIRouter(prefix="/{edition}/units", tags=["Units"])
 
 
 @router.get("/search/name/{name}", response_model=List[Unit])
-async def search_units_by_name(
-    name: str,
-    limit: int = Query(50, ge=1, le=200)
-):
-    """
-    Search units by name (case-insensitive partial match)
-
-    Example: /10e/units/search/name/terminator
-    """
-    results = [u for u in data_store.units if name.lower() in u.name.lower()]
+async def search_units_by_name(edition: str, name: str, limit: int = Query(50, ge=1, le=200)):
+    store = data_store.get(edition)
+    if not store:
+        raise HTTPException(status_code=404, detail=f"Edition '{edition}' not found")
+    results = [u for u in store.units if name.lower() in u.name.lower()]
     return results[:limit]
 
 
 @router.get("/random", response_model=Unit)
-async def get_random_unit(faction_type: Optional[str] = None):
-    """
-    Get a random unit, optionally filtered by faction type
-
-    Example: /10e/units/random?faction_type=Chaos
-    """
+async def get_random_unit(edition: str, faction_type: Optional[str] = None):
     import random
-
-    units = data_store.units
-
+    store = data_store.get(edition)
+    if not store:
+        raise HTTPException(status_code=404, detail=f"Edition '{edition}' not found")
+    units = store.units
     if faction_type:
         units = [u for u in units if u.faction_type == faction_type]
-
     if not units:
         raise HTTPException(status_code=404, detail="No units found")
-
     return random.choice(units)
 
 
 @router.get("/compare", response_model=List[Unit])
-async def compare_units(ids: str = Query(..., description="Comma-separated unit IDs")):
-    """
-    Compare multiple units by their IDs
-
-    Example: /10e/units/compare?ids=abc-123,def-456,ghi-789
-    """
+async def compare_units(edition: str, ids: str = Query(..., description="Comma-separated unit IDs")):
+    store = data_store.get(edition)
+    if not store:
+        raise HTTPException(status_code=404, detail=f"Edition '{edition}' not found")
     unit_ids = [id.strip() for id in ids.split(',')]
-    units = []
-
-    for unit_id in unit_ids:
-        unit = data_store.get_unit_by_id(unit_id)
-        if unit:
-            units.append(unit)
-
+    units = [store.get_unit_by_id(uid) for uid in unit_ids]
+    units = [u for u in units if u]
     if not units:
         raise HTTPException(status_code=404, detail="No units found with provided IDs")
-
     return units
 
 
 @router.get("/expensive", response_model=List[Unit])
 async def get_most_expensive_units(
+    edition: str,
     limit: int = Query(10, ge=1, le=50),
     faction_type: Optional[str] = None
 ):
-    """
-    Get the most expensive units by points cost
-
-    Example: /10e/units/expensive?limit=10&faction_type=Imperium
-    """
-    units = data_store.units
-
+    store = data_store.get(edition)
+    if not store:
+        raise HTTPException(status_code=404, detail=f"Edition '{edition}' not found")
+    units = store.units
     if faction_type:
         units = [u for u in units if u.faction_type == faction_type]
-
-    # Filter units with valid points
     units = [u for u in units if u.points.base is not None and u.points.base > 0]
-
-    # Sort by points descending
     units.sort(key=lambda u: u.points.base, reverse=True)
-
     return units[:limit]
 
 
 @router.get("/cheap", response_model=List[Unit])
 async def get_cheapest_units(
+    edition: str,
     limit: int = Query(10, ge=1, le=50),
     faction_type: Optional[str] = None
 ):
-    """
-    Get the cheapest units by points cost
-
-    Example: /10e/units/cheap?limit=10&faction_type=Xenos
-    """
-    units = data_store.units
-
+    store = data_store.get(edition)
+    if not store:
+        raise HTTPException(status_code=404, detail=f"Edition '{edition}' not found")
+    units = store.units
     if faction_type:
         units = [u for u in units if u.faction_type == faction_type]
-
-    # Filter units with valid points
     units = [u for u in units if u.points.base is not None and u.points.base > 0]
-
-    # Sort by points ascending
     units.sort(key=lambda u: u.points.base)
-
     return units[:limit]
 
 
-@router.get("/count", response_model=dict)
+@router.get("/count")
 async def count_units(
+    edition: str,
     faction: Optional[str] = None,
     faction_type: Optional[str] = None,
     has_invuln: Optional[bool] = None,
     has_transport: Optional[bool] = None
 ):
-    """
-    Count units matching filters (without returning the data)
-
-    Example: /10e/units/count?faction_type=Chaos&has_invuln=true
-    """
-    results = data_store.search_units(
+    store = data_store.get(edition)
+    if not store:
+        raise HTTPException(status_code=404, detail=f"Edition '{edition}' not found")
+    results = store.search_units(
         faction=faction,
         faction_type=faction_type,
         has_invuln=has_invuln,
         has_transport=has_transport
     )
-
     return {
         "count": len(results),
         "filters": {
