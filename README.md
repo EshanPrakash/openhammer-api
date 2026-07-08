@@ -18,7 +18,7 @@ REST API for Warhammer 40,000 unit data. Edition-namespaced — currently servin
 
 ## Usage
 
-All endpoints are namespaced by edition: `/{edition}/resource`. The root endpoint lists all available editions.
+All endpoints are namespaced by edition: `/v1/{edition}/resource`. The root endpoint lists all available editions.
 
 The API is live at **https://openhammer-api-production.up.railway.app**
 
@@ -30,13 +30,13 @@ BASE = 'https://openhammer-api-production.up.railway.app'
 edition = '10e'
 
 # Get all factions
-factions = requests.get(f'{BASE}/{edition}/factions').json()
+factions = requests.get(f'{BASE}/v1/{edition}/factions').json()
 
 # Search for Space Marine units
-units = requests.get(f'{BASE}/{edition}/units?name=Marine&limit=10').json()
+units = requests.get(f'{BASE}/v1/{edition}/units?name=Marine&limit=10').json()
 
 # Get a random unit
-random_unit = requests.get(f'{BASE}/{edition}/units/random').json()
+random_unit = requests.get(f'{BASE}/v1/{edition}/units/random').json()
 ```
 
 ### JavaScript
@@ -45,10 +45,10 @@ const BASE = 'https://openhammer-api-production.up.railway.app';
 const edition = '10e';
 
 // Get API statistics
-const stats = await fetch(`${BASE}/${edition}/stats`).then(r => r.json());
+const stats = await fetch(`${BASE}/v1/${edition}/stats`).then(r => r.json());
 
 // Search Necrons units
-const units = await fetch(`${BASE}/${edition}/units?faction=Necrons`).then(r => r.json());
+const units = await fetch(`${BASE}/v1/${edition}/units?faction=Necrons`).then(r => r.json());
 ```
 
 ### curl
@@ -57,13 +57,13 @@ BASE="https://openhammer-api-production.up.railway.app"
 EDITION="10e"
 
 # Get all factions
-curl "$BASE/$EDITION/factions"
+curl "$BASE/v1/$EDITION/factions"
 
 # Search for Terminator units
-curl "$BASE/$EDITION/units?name=Terminator"
+curl "$BASE/v1/$EDITION/units?name=Terminator"
 
 # Get faction details
-curl "$BASE/$EDITION/factions/Necrons/details"
+curl "$BASE/v1/$EDITION/factions/Necrons/details"
 ```
 
 ### Interactive Testing
@@ -154,7 +154,7 @@ Daemons, Chaos Knights, Chaos Space Marines, Death Guard, Emperor's Children, Th
 Aeldari, Genestealer Cults, Leagues of Votann, Necrons, Orks, Tyranids, T'au Empire
 
 #### Unaligned (2 groups)
-Titanicus, Unaligned Forces
+Titans, Unaligned Forces
 
 ---
 
@@ -166,44 +166,44 @@ Titanicus, Unaligned Forces
 - `GET /` - API info and list of available editions
 
 **Statistics & Info**
-- `GET /{edition}/stats` - Total units, factions, breakdown by type
+- `GET /v1/{edition}/stats` - Total units, factions, breakdown by type
 
 **Factions** (5 endpoints)
-- `GET /{edition}/factions` - List all factions
-- `GET /{edition}/factions/{faction_name}/units` - Get faction units
-- `GET /{edition}/factions/{faction_name}/details` - Comprehensive faction details
-- `GET /{edition}/factions/{faction_name}/stats` - Statistical breakdown
-- `GET /{edition}/factions/{faction_name}/keywords` - Faction keywords with counts
+- `GET /v1/{edition}/factions` - List all factions
+- `GET /v1/{edition}/factions/{faction_name}/units` - Get faction units
+- `GET /v1/{edition}/factions/{faction_name}/details` - Comprehensive faction details
+- `GET /v1/{edition}/factions/{faction_name}/stats` - Statistical breakdown
+- `GET /v1/{edition}/factions/{faction_name}/keywords` - Faction keywords with counts
 
 **Units** (8 endpoints)
-- `GET /{edition}/units` - Search/filter units (11 query parameters)
-- `GET /{edition}/units/{unit_id}` - Get specific unit by ID
-- `GET /{edition}/units/search/name/{name}` - Search by name
-- `GET /{edition}/units/random` - Random unit
-- `GET /{edition}/units/expensive` - Most expensive units by points
-- `GET /{edition}/units/cheap` - Cheapest units by points
-- `GET /{edition}/units/count` - Count matching units without returning data
-- `GET /{edition}/units/compare` - Compare multiple units by ID
+- `GET /v1/{edition}/units` - Search/filter units (11 query parameters)
+- `GET /v1/{edition}/units/{unit_id}` - Get specific unit by ID
+- `GET /v1/{edition}/units/search/name/{name}` - Search by name
+- `GET /v1/{edition}/units/random` - Random unit
+- `GET /v1/{edition}/units/expensive` - Most expensive units by points
+- `GET /v1/{edition}/units/cheap` - Cheapest units by points
+- `GET /v1/{edition}/units/count` - Count matching units without returning data
+- `GET /v1/{edition}/units/compare` - Compare multiple units by ID
 
 **Weapons** (3 endpoints)
-- `GET /{edition}/weapons/stats` - Weapon statistics
-- `GET /{edition}/weapons/list` - List all weapon names
-- `GET /{edition}/weapons/search/{name}` - Search weapons, find units that have them
+- `GET /v1/{edition}/weapons/stats` - Weapon statistics
+- `GET /v1/{edition}/weapons/list` - List all weapon names
+- `GET /v1/{edition}/weapons/search/{name}` - Search weapons, find units that have them
 
 **Abilities & Keywords** (5 endpoints)
-- `GET /{edition}/abilities/search/{term}` - Search abilities by name or description
-- `GET /{edition}/abilities/keywords/list` - List all keywords
-- `GET /{edition}/abilities/keywords/search/{keyword}` - Find units by keyword
-- `GET /{edition}/abilities/special-rules/list` - List all special rules
-- `GET /{edition}/abilities/special-rules/search/{rule}` - Find units by special rule
+- `GET /v1/{edition}/abilities/search/{term}` - Search abilities by name or description
+- `GET /v1/{edition}/abilities/keywords/list` - List all keywords
+- `GET /v1/{edition}/abilities/keywords/search/{keyword}` - Find units by keyword
+- `GET /v1/{edition}/abilities/special-rules/list` - List all special rules
+- `GET /v1/{edition}/abilities/special-rules/search/{rule}` - Find units by special rule
 
 **Bulk Operations** (6 endpoints)
-- `GET /{edition}/bulk/units/by-ids` - Bulk lookup by IDs
-- `GET /{edition}/bulk/units/by-names` - Bulk lookup by names
-- `GET /{edition}/bulk/stats/by-keyword` - Aggregate stats by keyword
-- `GET /{edition}/bulk/stats/by-faction-type` - Aggregate stats by faction type
-- `GET /{edition}/bulk/stats/by-faction` - Aggregate stats by faction
-- `GET /{edition}/bulk/export/all-units-summary` - Export all units summary
+- `GET /v1/{edition}/bulk/units/by-ids` - Bulk lookup by IDs
+- `GET /v1/{edition}/bulk/units/by-names` - Bulk lookup by names
+- `GET /v1/{edition}/bulk/stats/by-keyword` - Aggregate stats by keyword
+- `GET /v1/{edition}/bulk/stats/by-faction-type` - Aggregate stats by faction type
+- `GET /v1/{edition}/bulk/stats/by-faction` - Aggregate stats by faction
+- `GET /v1/{edition}/bulk/export/all-units-summary` - Export all units summary
 
 ### Example Queries
 
@@ -212,30 +212,30 @@ BASE="https://openhammer-api-production.up.railway.app"
 EDITION="10e"
 
 # Get all Chaos units with invulnerable saves
-curl "$BASE/$EDITION/units?faction_type=Chaos&has_invuln=true"
+curl "$BASE/v1/$EDITION/units?faction_type=Chaos&has_invuln=true"
 
 # Get most expensive units
-curl "$BASE/$EDITION/units?sort_by=-points&limit=10"
+curl "$BASE/v1/$EDITION/units?sort_by=-points&limit=10"
 
 # Get cheapest Imperium units
-curl "$BASE/$EDITION/units?faction_type=Imperium&sort_by=points&limit=20"
+curl "$BASE/v1/$EDITION/units?faction_type=Imperium&sort_by=points&limit=20"
 
 # Search for bolter weapons
-curl "$BASE/$EDITION/weapons/search/bolter"
+curl "$BASE/v1/$EDITION/weapons/search/bolter"
 
 # Get faction details for Necrons
-curl "$BASE/$EDITION/factions/Necrons/details"
+curl "$BASE/v1/$EDITION/factions/Necrons/details"
 
 # Get stats for all Infantry units
-curl "$BASE/$EDITION/bulk/stats/by-keyword?keyword=Infantry"
+curl "$BASE/v1/$EDITION/bulk/stats/by-keyword?keyword=Infantry"
 
 # Get comprehensive Imperium statistics
-curl "$BASE/$EDITION/bulk/stats/by-faction-type?faction_type=Imperium"
+curl "$BASE/v1/$EDITION/bulk/stats/by-faction-type?faction_type=Imperium"
 ```
 
 ### Main Search Endpoint
 
-`GET /{edition}/units` supports 11 filter and sorting parameters:
+`GET /v1/{edition}/units` supports 11 filter and sorting parameters:
 
 | Parameter | Type | Description | Example |
 |-----------|------|-------------|---------|
@@ -264,7 +264,7 @@ Data is stored in `data/json/{edition}/` with one JSON file per faction:
 - `Xenos_-_[Faction_Name].json`
 - `Unaligned_-_[Faction_Name].json`
 
-Adding a new edition is as simple as adding a new subdirectory (e.g. `data/json/9e/`) — the API picks it up automatically on startup.
+Adding a new edition is as simple as adding a new subdirectory — the API picks it up automatically on startup.
 
 ### Unit Object Schema
 

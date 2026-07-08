@@ -5,7 +5,7 @@ from fastapi import APIRouter, HTTPException, Query
 from typing import List
 from api.data_loader import data_store
 
-router = APIRouter(prefix="/{edition}/abilities", tags=["Abilities"])
+router = APIRouter(prefix="/v1/{edition}/abilities", tags=["Abilities"])
 
 
 @router.get("/search/{term}")

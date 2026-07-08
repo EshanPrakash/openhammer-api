@@ -5,7 +5,7 @@ from fastapi import APIRouter, HTTPException, Query
 from typing import List
 from api.data_loader import data_store
 
-router = APIRouter(prefix="/{edition}/weapons", tags=["Weapons"])
+router = APIRouter(prefix="/v1/{edition}/weapons", tags=["Weapons"])
 
 
 @router.get("/list", response_model=List[str])

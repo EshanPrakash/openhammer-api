@@ -5,7 +5,7 @@ import requests
 
 BASE_URL = "http://localhost:8000"
 EDITION = "10e"
-E = f"{BASE_URL}/{EDITION}"
+E = f"{BASE_URL}/v1/{EDITION}"
 
 def test_endpoint(name, url, show_results=10):
     """Test an endpoint and display results"""

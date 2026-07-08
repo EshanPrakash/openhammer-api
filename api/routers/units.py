@@ -6,7 +6,7 @@ from typing import List, Optional
 from api.data_loader import data_store
 from api.models import Unit
 
-router = APIRouter(prefix="/{edition}/units", tags=["Units"])
+router = APIRouter(prefix="/v1/{edition}/units", tags=["Units"])
 
 
 @router.get("/search/name/{name}", response_model=List[Unit])

@@ -70,14 +70,15 @@ async def root():
         "docs": "/docs",
         "editions": data_store.list_editions(),
         "endpoints": {
-            "units": "/{edition}/units",
-            "factions": "/{edition}/factions",
-            "stats": "/{edition}/stats"
+            "units": "/v1/{edition}/units",
+            "factions": "/v1/{edition}/factions",
+            "stats": "/v1/{edition}/stats",
+            "docs": "/docs"
         }
     }
 
 
-@app.get("/{edition}/stats", response_model=StatsResponse, tags=["Info"])
+@app.get("/v1/{edition}/stats", response_model=StatsResponse, tags=["Info"])
 async def get_stats(edition: str):
     store = data_store.get(edition)
     if not store:
@@ -103,7 +104,7 @@ async def get_stats(edition: str):
     )
 
 
-@app.get("/{edition}/factions", response_model=List[FactionInfo], tags=["Factions"])
+@app.get("/v1/{edition}/factions", response_model=List[FactionInfo], tags=["Factions"])
 async def get_factions(
     edition: str,
     faction_type: Optional[str] = Query(
@@ -122,7 +123,7 @@ async def get_factions(
     return [FactionInfo(**f) for f in factions]
 
 
-@app.get("/{edition}/units", response_model=List[Unit], tags=["Units"])
+@app.get("/v1/{edition}/units", response_model=List[Unit], tags=["Units"])
 async def get_units(
     edition: str,
     limit: int = Query(100, ge=1, le=500, description="Maximum number of units to return"),
@@ -174,7 +175,7 @@ async def get_units(
     return results
 
 
-@app.get("/{edition}/units/{unit_id}", response_model=Unit, tags=["Units"])
+@app.get("/v1/{edition}/units/{unit_id}", response_model=Unit, tags=["Units"])
 async def get_unit_by_id(edition: str, unit_id: str):
     store = data_store.get(edition)
     if not store:
@@ -187,7 +188,7 @@ async def get_unit_by_id(edition: str, unit_id: str):
     return unit
 
 
-@app.get("/{edition}/factions/{faction_name}/units", response_model=List[Unit], tags=["Factions"])
+@app.get("/v1/{edition}/factions/{faction_name}/units", response_model=List[Unit], tags=["Factions"])
 async def get_faction_units(
     edition: str,
     faction_name: str,

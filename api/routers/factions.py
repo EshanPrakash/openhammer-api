@@ -6,7 +6,7 @@ from typing import List, Dict
 from api.data_loader import data_store
 from api.models import Unit
 
-router = APIRouter(prefix="/{edition}/factions", tags=["Factions"])
+router = APIRouter(prefix="/v1/{edition}/factions", tags=["Factions"])
 
 
 @router.get("/{faction_name}/details")
