@@ -5,7 +5,7 @@ from fastapi import APIRouter, Query
 from typing import List
 from api.data_loader import data_store
 
-router = APIRouter(prefix="/10e/abilities", tags=["Abilities"])
+router = APIRouter(prefix="/10e/abilities", tags=["10e - Abilities"])
 
 
 @router.get("/search/{term}")

@@ -5,7 +5,7 @@ from fastapi import APIRouter, Query
 from typing import List, Dict
 from api.data_loader import data_store
 
-router = APIRouter(prefix="/10e/weapons", tags=["Weapons"])
+router = APIRouter(prefix="/10e/weapons", tags=["10e - Weapons"])
 
 
 @router.get("/list", response_model=List[str])
