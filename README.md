@@ -1,6 +1,6 @@
 # OpenHammer API
 
-REST API for Warhammer 40,000 unit data. Edition-namespaced — currently serving 10th Edition (1,376 units across 35 factions).
+REST API for Warhammer 40,000 unit data. Edition-namespaced — currently serving 10th Edition (1,380 units across 35 factions).
 
 **Live API**: https://openhammer-api-production.up.railway.app
 
