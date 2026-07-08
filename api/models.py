@@ -43,7 +43,7 @@ class Weapon(BaseModel):
     S: str  # Strength
     AP: str  # Armor Penetration
     D: str  # Damage
-    Keywords: str
+    Keywords: Optional[str] = None
 
 
 class Weapons(BaseModel):
