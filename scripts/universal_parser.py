@@ -275,10 +275,12 @@ def parse_catalogue(filepath, faction_type=None, parent_catalogue=None):
                 }
                 unit_data['abilities'].append(ability_data)
             
-            # Get keywords
-            for category in unit.findall('.//bs:categoryLink', ns):
+            # Get keywords (direct categoryLinks only, not nested weapon/equipment ones)
+            seen = set()
+            for category in unit.findall('bs:categoryLinks/bs:categoryLink', ns):
                 keyword = category.get('name')
-                if keyword:
+                if keyword and keyword not in seen:
+                    seen.add(keyword)
                     unit_data['keywords'].append(keyword)
             
             # Only add if it has stats (is a real unit/model)

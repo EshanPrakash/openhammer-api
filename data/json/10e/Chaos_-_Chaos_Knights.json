@@ -523,7 +523,7 @@
     "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
-      "base": 390,
+      "base": 375,
       "variants": []
     },
     "composition": {
@@ -715,8 +715,7 @@
       "Character",
       "Chaos",
       "Knight Despoiler",
-      "Knight Character",
-      "Melee Weapon"
+      "Knight Character"
     ]
   },
   {
@@ -726,7 +725,7 @@
     "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
-      "base": 355,
+      "base": 365,
       "variants": []
     },
     "composition": {
@@ -839,9 +838,7 @@
       "Character",
       "Chaos",
       "Knight Desecrator",
-      "Knight Character",
-      "Ranged Weapon",
-      "Ranged Weapon"
+      "Knight Character"
     ]
   },
   {
@@ -954,9 +951,7 @@
       "Character",
       "Chaos",
       "Knight Rampager",
-      "Knight Character",
-      "Melee Weapon",
-      "Melee Weapon"
+      "Knight Character"
     ]
   },
   {
@@ -1062,11 +1057,7 @@
       "Chaos",
       "Knight Abominant",
       "Psyker",
-      "Knight Character",
-      "Melee Weapon",
-      "Extra Attacks Weapon",
-      "Melee Weapon",
-      "Ranged Weapon"
+      "Knight Character"
     ]
   },
   {
@@ -1224,17 +1215,7 @@
       "Character",
       "Chaos",
       "Knight Tyrant",
-      "Knight Character",
-      "Melee Weapon",
-      "Ranged Weapon",
-      "Damage Dx Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon"
+      "Knight Character"
     ]
   },
   {
@@ -1457,9 +1438,7 @@
       "Towering",
       "Chaos",
       "Acastus",
-      "Knight Porphyrion",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon"
+      "Knight Porphyrion"
     ]
   },
   {
@@ -1554,9 +1533,7 @@
       "Chaos",
       "Cerastus",
       "Knight Lancer",
-      "Knight Character",
-      "Ranged Weapon",
-      "Melee Weapon"
+      "Knight Character"
     ]
   },
   {
@@ -1649,9 +1626,7 @@
       "Chaos",
       "Cerastus",
       "Knight Castigator",
-      "Knight Character",
-      "Ranged Weapon",
-      "Melee Weapon"
+      "Knight Character"
     ]
   },
   {
@@ -1756,11 +1731,7 @@
       "Towering",
       "Cerastus",
       "Knight Acheron",
-      "Knight Character",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Melee Weapon",
-      "Ranged Weapon"
+      "Knight Character"
     ]
   },
   {
@@ -1886,10 +1857,7 @@
       "Chaos",
       "Cerastus",
       "Knight Atrapos",
-      "Knight Character",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon"
+      "Knight Character"
     ]
   },
   {
@@ -2022,12 +1990,7 @@
       "Chaos",
       "Abhorrent",
       "Knight Magaera",
-      "Knight Character",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Melee Weapon"
+      "Knight Character"
     ]
   },
   {
@@ -2069,7 +2032,7 @@
         {
           "name": "Volkite chierovile",
           "Range": "30\"",
-          "A": "12",
+          "A": "9",
           "BS": "3+",
           "S": "12",
           "AP": "0",
@@ -2165,12 +2128,7 @@
       "Chaos",
       "Abhorrent",
       "Knight Styrix",
-      "Knight Character",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Melee Weapon"
+      "Knight Character"
     ]
   },
   {
@@ -2299,8 +2257,7 @@
       "Walker",
       "Chaos",
       "War Dog",
-      "Moirax",
-      "Attacks Dx Weapon"
+      "Moirax"
     ]
   },
   {
@@ -2310,7 +2267,7 @@
     "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
-      "base": 355,
+      "base": 375,
       "variants": []
     },
     "composition": {
@@ -2406,12 +2363,7 @@
       "Character",
       "Chaos",
       "Knight Ruinator",
-      "Knight Character",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Melee Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon"
+      "Knight Character"
     ]
   }
 ]

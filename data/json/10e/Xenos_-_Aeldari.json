@@ -6,7 +6,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 135,
+      "base": 125,
       "variants": []
     },
     "composition": {
@@ -209,14 +209,7 @@
       "Mounted",
       "Fly",
       "Faction: Asuryani",
-      "Aeldari",
-      "Melee Weapon",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Melee Weapon",
-      "Ranged Weapon",
-      "Damage Dx Weapon",
-      "Melee Weapon"
+      "Aeldari"
     ]
   },
   {
@@ -380,18 +373,7 @@
       "Grenades",
       "Faction: Asuryani",
       "Aeldari",
-      "Ynnari",
-      "Melee Weapon",
-      "Melee Weapon",
-      "Melee Weapon",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Ranged Weapon",
-      "Damage Dx Weapon",
-      "Ranged Weapon",
-      "Damage Dx Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -554,18 +536,7 @@
       "Faction: Asuryani",
       "Aeldari",
       "Jump Pack",
-      "Ynnari",
-      "Melee Weapon",
-      "Melee Weapon",
-      "Melee Weapon",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Ranged Weapon",
-      "Damage Dx Weapon",
-      "Ranged Weapon",
-      "Damage Dx Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -844,8 +815,7 @@
       "Faction: Asuryani",
       "Aeldari",
       "Aspect Warrior",
-      "Ynnari",
-      "Damage Dx Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -976,8 +946,7 @@
       "Faction: Asuryani",
       "Aspect Warrior",
       "Aeldari",
-      "Ynnari",
-      "Attacks Dx Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -1056,9 +1025,7 @@
       "Harlequin Allies",
       "Aeldari",
       "Faction: Harlequins",
-      "Corsairs and Travelling Players",
-      "Melee Weapon",
-      "Ranged Weapon"
+      "Corsairs and Travelling Players"
     ]
   },
   {
@@ -1186,7 +1153,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 120,
+      "base": 110,
       "variants": []
     },
     "composition": {
@@ -1371,8 +1338,7 @@
       "Vehicle",
       "Faction: Asuryani",
       "Aeldari",
-      "Ynnari",
-      "Damage Dx Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -1489,17 +1455,7 @@
       "Farseer",
       "Faction: Asuryani",
       "Aeldari",
-      "Ynnari",
-      "Psychic Weapon",
-      "Melee Weapon",
-      "Psychic Weapon",
-      "Ranged Weapon",
-      "Melee Weapon",
-      "Psychic Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon",
-      "Ranged Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -1629,18 +1585,7 @@
       "Psyker",
       "Faction: Asuryani",
       "Aeldari",
-      "Ynnari",
-      "Psychic Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Psychic Weapon",
-      "Melee Weapon",
-      "Psychic Weapon",
-      "Ranged Weapon",
-      "Melee Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -1654,7 +1599,7 @@
       "variants": [
         {
           "models": 5,
-          "points": 240
+          "points": 220
         }
       ]
     },
@@ -1773,13 +1718,7 @@
       "Faction: Asuryani",
       "Aeldari",
       "Aspect Warrior",
-      "Ynnari",
-      "Damage Dx Weapon",
-      "Damage Dx Weapon",
-      "Torrent Weapon",
-      "Damage Dx Weapon",
-      "Damage Dx Weapon",
-      "Damage Dx Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -2133,8 +2072,7 @@
       "Wraith Construct",
       "Faction: Asuryani",
       "Aeldari",
-      "Ynnari",
-      "Attacks Dx Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -2362,7 +2300,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 120,
+      "base": 105,
       "variants": []
     },
     "composition": {
@@ -2992,12 +2930,7 @@
       "Harlequin Allies",
       "Faction: Harlequins",
       "Aeldari",
-      "Corsairs and Travelling Players",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Psychic Weapon",
-      "Melee Weapon",
-      "Damage Dx Weapon"
+      "Corsairs and Travelling Players"
     ]
   },
   {
@@ -3347,8 +3280,7 @@
       "Harlequin Allies",
       "Aeldari",
       "Faction: Harlequins",
-      "Corsairs and Travelling Players",
-      "Attacks Dx Weapon"
+      "Corsairs and Travelling Players"
     ]
   },
   {
@@ -3504,10 +3436,7 @@
       "Psyker",
       "Faction: Asuryani",
       "Aeldari",
-      "Ynnari",
-      "Psychic Weapon",
-      "Melee Weapon",
-      "Damage Dx Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -3596,7 +3525,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 110,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -3898,8 +3827,7 @@
       "Infantry",
       "Aeldari",
       "D-Cannon Platform",
-      "Ynnari",
-      "Attacks Dx Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -3909,7 +3837,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 95,
+      "base": 85,
       "variants": [
         {
           "models": 5,
@@ -4351,13 +4279,7 @@
       "Harlequin Allies",
       "Faction: Harlequins",
       "Aeldari",
-      "Corsairs and Travelling Players",
-      "Melee Weapon",
-      "Melee Weapon",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Damage Dx Weapon",
-      "Ranged Weapon"
+      "Corsairs and Travelling Players"
     ]
   },
   {
@@ -4581,12 +4503,7 @@
       "Faction: Asuryani",
       "Warlock",
       "Aeldari",
-      "Ynnari",
-      "Psychic Weapon",
-      "Melee Weapon",
-      "Psychic Weapon",
-      "Melee Weapon",
-      "Ranged Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -4706,9 +4623,7 @@
       "Faction: Asuryani",
       "Aeldari",
       "Warlock",
-      "Ynnari",
-      "Psychic Weapon",
-      "Psychic Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -4718,7 +4633,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 105,
+      "base": 95,
       "variants": [
         {
           "models": 5,
@@ -4842,17 +4757,7 @@
       "Jump Pack",
       "Aeldari",
       "Aspect Warrior",
-      "Ynnari",
-      "Torrent Weapon",
-      "Attacks Dx Weapon",
-      "Torrent Weapon",
-      "Attacks Dx Weapon",
-      "Torrent Weapon",
-      "Attacks Dx Weapon",
-      "Torrent Weapon",
-      "Attacks Dx Weapon",
-      "Torrent Weapon",
-      "Attacks Dx Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -5187,11 +5092,7 @@
       "Walker",
       "Faction: Asuryani",
       "Aeldari",
-      "Ynnari",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -5201,7 +5102,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 130,
+      "base": 140,
       "variants": []
     },
     "composition": {
@@ -5360,8 +5261,7 @@
       "Walker",
       "Faction: Asuryani",
       "Aeldari",
-      "Ynnari",
-      "Attacks Dx Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -5371,7 +5271,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 160,
+      "base": 170,
       "variants": []
     },
     "composition": {
@@ -5443,8 +5343,7 @@
       "Wraithguard",
       "Wraith Construct",
       "Aeldari",
-      "Ynnari",
-      "Attacks Dx Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -5544,7 +5443,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 150,
+      "base": 160,
       "variants": []
     },
     "composition": {
@@ -5734,12 +5633,7 @@
       "Kabal",
       "Aeldari",
       "Archon",
-      "Faction: Drukhari",
-      "Assault Weapon",
-      "Damage Dx Weapon",
-      "Melee Weapon",
-      "Melee Weapon",
-      "Melee Weapon"
+      "Faction: Drukhari"
     ]
   },
   {
@@ -5850,12 +5744,7 @@
       "Aeldari",
       "Faction: Drukhari",
       "Beast",
-      "Character",
-      "Mounted",
-      "Character",
-      "Fly",
-      "Beastmaster",
-      "Fly"
+      "Character"
     ]
   },
   {
@@ -5989,9 +5878,7 @@
       "Aeldari",
       "Kabal",
       "Faction: Drukhari",
-      "Infantry",
-      "Assault Weapon",
-      "Assault Weapon"
+      "Infantry"
     ]
   },
   {
@@ -6272,8 +6159,7 @@
       "Aeldari",
       "Haemonculus Covens",
       "Faction: Drukhari",
-      "Infantry",
-      "Attacks Dx Weapon"
+      "Infantry"
     ]
   },
   {
@@ -6283,7 +6169,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 60,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -6341,7 +6227,7 @@
       },
       {
         "name": "Pain Adept",
-        "description": "In your Command phase, if one or more models from your army with this ability are on the battlefield, roll one D6: on a 4+, you gain 1 Pain token."
+        "description": "In your Command phasem if one or more models from your army with this ability are on the battlefield, roll one D6: on a 4+, you gain 1 Pain token."
       },
       {
         "name": "Fleshcraft (Pain)",
@@ -6453,7 +6339,7 @@
     "abilities": [
       {
         "name": "Phantasm Grenade Launcher",
-        "description": "The bearer’s unit has the **Smoke** and **Grenades** keywords."
+        "description": "The bearer’s unit has the Grenades keyword."
       },
       {
         "name": "Invulnerable Save",
@@ -6486,9 +6372,7 @@
       "Wych Cult",
       "Faction: Drukhari",
       "Mounted",
-      "Fly",
-      "Grenades",
-      "Smoke"
+      "Fly"
     ]
   },
   {
@@ -6570,7 +6454,7 @@
       },
       {
         "name": "Incubi Shrine Token",
-        "description": "Once per battle for each Incubi Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a Klaivex or Incubi model in this unit to an unmodified 6."
+        "description": "Once per battle for each Incubi Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit to an unmodified 6.\n\n\nFor every 5 models in this unit, it can have 1 Incubi Shrine token."
       }
     ],
     "special_rules": [
@@ -6741,16 +6625,7 @@
       "Kabal",
       "Faction: Drukhari",
       "Battleline",
-      "Infantry",
-      "Attacks Dx Weapon",
-      "Assault Weapon",
-      "Assault Weapon",
-      "Assault Weapon",
-      "Damage Dx Weapon",
-      "Assault Weapon",
-      "Assault Weapon",
-      "Smoke",
-      "Grenades"
+      "Infantry"
     ]
   },
   {
@@ -7032,7 +6907,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 110,
+      "base": 115,
       "variants": []
     },
     "composition": {
@@ -7271,7 +7146,7 @@
       "variants": [
         {
           "models": 3,
-          "points": 140
+          "points": 130
         }
       ]
     },
@@ -7373,9 +7248,7 @@
       "Aeldari",
       "Faction: Drukhari",
       "Fly",
-      "Mounted",
-      "Damage Dx Weapon",
-      "Damage Dx Weapon"
+      "Mounted"
     ]
   },
   {
@@ -7558,10 +7431,7 @@
       "Infantry",
       "Jump Pack",
       "Blades for Hire",
-      "Scourges with Heavy Weapons",
-      "Damage Dx Weapon",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon"
+      "Scourges with Heavy Weapons"
     ]
   },
   {
@@ -7801,10 +7671,7 @@
       "Haemonculus Covens",
       "Faction: Drukhari",
       "Monster",
-      "Fly",
-      "Extra Attacks Weapon",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon"
+      "Fly"
     ]
   },
   {
@@ -7923,7 +7790,7 @@
       "OC": "1"
     },
     "invuln_save": "6+",
-    "transport": "This model has a transport capacity of 6 **Drukhari Infantry ** models (excluding **Jump Pack** models). \n\nBefore the battle, at the start of the Declare Battle Formations step, you can select one **Kabalite Warriors**, **Hand of the Archon** or **Wyches** unit from your army that has not already been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this model; the other can start the battle embarked within another **Transport**, or it can be deployed as a separate unit.",
+    "transport": "This model has a transport capacity of 6 **Drukhari Infantry ** models (excluding **Jump Pack** models). \n\nBefore the battle, at the start of the Declare Battle Formations step, you can select one **Kabalite Warriors** or **Wyches** unit from your army that has not already been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this model; the other can start the battle embarked within another **Transport**, or it can be deployed as a separate unit.",
     "weapons": {
       "ranged": [
         {
@@ -8105,8 +7972,7 @@
       "Faction: Drukhari",
       "Aircraft",
       "Vehicle",
-      "Fly",
-      "Attacks Dx Weapon"
+      "Fly"
     ]
   },
   {
@@ -8116,15 +7982,15 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 60,
+      "base": 65,
       "variants": [
         {
           "models": 5,
-          "points": 100
+          "points": 105
         },
         {
           "models": 8,
-          "points": 120
+          "points": 130
         }
       ]
     },
@@ -8224,6 +8090,11 @@
     ],
     "special_rules": [
       "Anti-",
+      "Heavy",
+      "Precision",
+      "Torrent",
+      "Devastating Wounds",
+      "Pistol",
       "Power from Pain"
     ],
     "keywords": [
@@ -8342,8 +8213,7 @@
       "Faction: Drukhari",
       "Battleline",
       "Infantry",
-      "Grenades",
-      "Damage Dx Weapon"
+      "Grenades"
     ]
   },
   {
@@ -8630,8 +8500,7 @@
       "Fly",
       "Faction: Asuryani",
       "Hornet",
-      "Aeldari",
-      "Damage Dx Weapon"
+      "Aeldari"
     ]
   },
   {
@@ -8794,8 +8663,7 @@
       "Fly",
       "Faction: Asuryani",
       "Lynx",
-      "Aeldari",
-      "Damage Dx Weapon"
+      "Aeldari"
     ]
   },
   {
@@ -9018,11 +8886,7 @@
       "Titanic",
       "Walker",
       "Monster",
-      "Aeldari",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon",
-      "Damage Dx Weapon",
-      "Attacks Dx Weapon"
+      "Aeldari"
     ]
   },
   {
@@ -9256,12 +9120,7 @@
       "Walker",
       "Monster",
       "Aeldari",
-      "Wraith Construct",
-      "Attacks Dx Weapon",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon"
+      "Wraith Construct"
     ]
   },
   {
@@ -9373,8 +9232,7 @@
       "Monster",
       "Fly",
       "Wraith Construct",
-      "Aeldari",
-      "Attacks Dx Weapon"
+      "Aeldari"
     ]
   },
   {
@@ -9482,8 +9340,7 @@
       "Fly",
       "Faction: Asuryani",
       "Warp Hunter",
-      "Aeldari",
-      "Attacks Dx Weapon"
+      "Aeldari"
     ]
   },
   {
@@ -9644,10 +9501,7 @@
       "Wraith Construct",
       "Wraithseer",
       "Psyker",
-      "Aeldari",
-      "Psychic Weapon",
-      "Psychic Weapon",
-      "Damage Dx Weapon"
+      "Aeldari"
     ]
   },
   {
@@ -9885,10 +9739,7 @@
       "Psyker",
       "Faction: Asuryani",
       "Aeldari",
-      "Bonesinger",
-      "Melee Weapon",
-      "Psychic Weapon",
-      "Damage Dx Weapon"
+      "Bonesinger"
     ]
   },
   {
@@ -10178,7 +10029,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Blast"
+          "Keywords": "-"
         },
         {
           "name": "Phoenix pulse laser",
@@ -10234,12 +10085,7 @@
     "keywords": [
       "Vehicle",
       "Faction: Asuryani",
-      "Aeldari",
-      "Aircraft",
-      "Fly",
-      "Phoenix",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon"
+      "Aeldari"
     ]
   },
   {
@@ -10339,8 +10185,7 @@
       "Titanic",
       "Vampire Hunter",
       "Faction: Asuryani",
-      "Aeldari",
-      "Damage Dx Weapon"
+      "Aeldari"
     ]
   },
   {
@@ -10435,8 +10280,7 @@
       "Transport",
       "Vampire Raider",
       "Faction: Asuryani",
-      "Aeldari",
-      "Damage Dx Weapon"
+      "Aeldari"
     ]
   },
   {
@@ -10694,8 +10538,7 @@
       "Kabal",
       "Fly",
       "Aeldari",
-      "Reaper",
-      "Extra Attacks Weapon"
+      "Reaper"
     ]
   },
   {
@@ -10829,10 +10672,7 @@
       "Warlock",
       "Aeldari",
       "Fly",
-      "Ynnari",
-      "Psychic Weapon",
-      "Psychic Weapon",
-      "Psychic Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -10926,10 +10766,7 @@
       "Infantry",
       "Aeldari",
       "Archon",
-      "Faction: Ynnari",
-      "Melee Weapon",
-      "Ranged Weapon",
-      "Ranged Weapon"
+      "Faction: Ynnari"
     ]
   },
   {
@@ -10939,7 +10776,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 135,
+      "base": 120,
       "variants": []
     },
     "composition": {
@@ -11247,8 +11084,7 @@
       "Infantry",
       "Aeldari",
       "Vibro Cannon Platform",
-      "Ynnari",
-      "Attacks Dx Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -11258,7 +11094,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 75,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -11278,64 +11114,14 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Bright Lance",
-          "Range": "48\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "12",
-          "AP": "-3",
-          "D": "D6+2",
-          "Keywords": "-"
-        },
-        {
-          "name": "Scatter Laser",
-          "Range": "36\"",
-          "A": "6",
-          "BS": "3+",
-          "S": "5",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Sustained Hits 2"
-        },
-        {
-          "name": "Starcannon",
-          "Range": "36\"",
+          "name": "Twin Shuriken Catapult",
+          "Range": "18\"",
           "A": "2",
-          "BS": "2+",
-          "S": "8",
-          "AP": "-3",
-          "D": "2",
-          "Keywords": "-"
-        },
-        {
-          "name": "Shuriken Cannon",
-          "Range": "24\"",
-          "A": "3",
-          "BS": "3+",
-          "S": "6",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Lethal Hits"
-        },
-        {
-          "name": "➤ Missile Launcher - Starshot",
-          "Range": "48\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "10",
-          "AP": "-2",
-          "D": "D6",
-          "Keywords": "-"
-        },
-        {
-          "name": "➤ Missile Launcher - Sunburst",
-          "Range": "48\"",
-          "A": "D6",
           "BS": "3+",
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Blast"
+          "Keywords": "Assault, Twin Linked"
         }
       ],
       "melee": [
@@ -11359,9 +11145,8 @@
     ],
     "special_rules": [
       "Deadly Demise 1",
-      "Sustained Hits",
-      "Lethal Hits",
-      "Blast",
+      "Assault",
+      "Twin-linked",
       "Battle Focus"
     ],
     "keywords": [
@@ -11493,9 +11278,7 @@
       "Faction: Asuryani",
       "Aeldari",
       "Wraithknight with Ghostglaive",
-      "Ynnari",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon"
+      "Ynnari"
     ]
   },
   {
@@ -11588,11 +11371,7 @@
       "Aeldari",
       "Character",
       "Infantry",
-      "Faction: Ynnari",
-      "Melee Weapon",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Damage Dx Weapon"
+      "Faction: Ynnari"
     ]
   },
   {
@@ -11678,8 +11457,7 @@
       "Battleline",
       "Infantry",
       "Grenades",
-      "Faction: Ynnari",
-      "Damage Dx Weapon"
+      "Faction: Ynnari"
     ]
   },
   {
@@ -11813,7 +11591,7 @@
           "name": "Splinter Pistol",
           "Range": "12\"",
           "A": "1",
-          "BS": "3+",
+          "BS": "2+",
           "S": "2",
           "AP": "0",
           "D": "1",
@@ -11886,9 +11664,7 @@
       "Aeldari",
       "Fly",
       "Mounted",
-      "Faction: Ynnari",
-      "Damage Dx Weapon",
-      "Damage Dx Weapon"
+      "Faction: Ynnari"
     ]
   },
   {
@@ -12164,7 +11940,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 75,
+      "base": 80,
       "variants": [
         {
           "models": 5,
@@ -12293,561 +12069,7 @@
       "Infantry",
       "Jump Pack",
       "Blades for Hire",
-      "Scourges with Shardcarbines",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon"
-    ]
-  },
-  {
-    "name": "Prince Yriel",
-    "id": "54dc-aa1f-817a-a5c5",
-    "type": "model",
-    "faction": "Aeldari",
-    "faction_type": "Xenos",
-    "points": {
-      "base": 95,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "7\"",
-      "T": "3",
-      "SV": "3+",
-      "W": "5",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "The Eye of Wrath",
-          "Range": "6\"",
-          "A": "3",
-          "BS": "2+",
-          "S": "6",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Assault, Pistol"
-        },
-        {
-          "name": "Shuriken Pistol",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "4",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Assault, Pistol"
-        }
-      ],
-      "melee": [
-        {
-          "name": "The Spear of Twilight",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "2+",
-          "S": "7",
-          "AP": "-3",
-          "D": "3",
-          "Keywords": "Lance"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Invulnerable Save (Prince Yriel)",
-        "description": "Prince Yriel has a 4+ Invulnerable save"
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Corsair Voidreavers\n- Corsair Voidscarred"
-      },
-      {
-        "name": "Piratical Hero",
-        "description": "While this model is leading a unit, each time a model in that unit makes an attack, that attack has the **[Sustained Hits 1]** ability and add 1 to the Hit roll."
-      },
-      {
-        "name": "Prince of Corsairs",
-        "description": "After both players have deployed their armies, if this model is on the battlefield (or any **Transport** it is embarked within is on the battlefield), select up to three **Aeldari** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
-      }
-    ],
-    "special_rules": [
-      "Leader",
-      "Battle Focus",
-      "Scouts 7\"",
-      "Assault",
-      "Pistol",
-      "Lance"
-    ],
-    "keywords": [
-      "Prince Yriel",
-      "Infantry",
-      "Character",
-      "Epic Hero",
-      "Faction: Asuryani",
-      "Aeldari",
-      "Anhrathe"
-    ]
-  },
-  {
-    "name": "Kharseth",
-    "id": "4273-173c-e850-4071",
-    "type": "model",
-    "faction": "Aeldari",
-    "faction_type": "Xenos",
-    "points": {
-      "base": 95,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "7\"",
-      "T": "3",
-      "SV": "6+",
-      "W": "4",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Dread of the Deep Void",
-          "Range": "24\"",
-          "A": "D6+2",
-          "BS": "3+",
-          "S": "3",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "Anti-Infantry 2+, Blast, Hazardous, Ignores Cover, Psychic"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Waystave",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "2+",
-          "S": "3",
-          "AP": "0",
-          "D": "3",
-          "Keywords": "Anti-Infantry 2+, Psychic"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Invulnerable Save (Kharseth)",
-        "description": "Kharseth has a 4+ Invulnerable save"
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Corsair Voidreavers\n- Corsair Voidscarred"
-      },
-      {
-        "name": "Aethersense (Psychic)",
-        "description": "Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of this model."
-      },
-      {
-        "name": "Fury of the Void (Psychic)",
-        "description": "In your Shooting phase, after this model’s unit has shot, select one enemy unit hit by one or more attacks made with this model’s Dread of the Deep Void. Until the end of the turn, that unit is riven. Each time an **Aeldari** model from your army makes an attack that targets a riven unit, add 1 to the Strength characteristic of that attack."
-      }
-    ],
-    "special_rules": [
-      "Scouts 7\"",
-      "Battle Focus",
-      "Leader",
-      "Anti-",
-      "Blast",
-      "Hazardous",
-      "Ignores Cover",
-      "Psychic"
-    ],
-    "keywords": [
-      "Infantry",
-      "Aeldari",
-      "Faction: Asuryani",
-      "Character",
-      "Epic Hero",
-      "Psyker",
-      "Anhrathe",
-      "Kharseth"
-    ]
-  },
-  {
-    "name": "Starfangs",
-    "id": "a074-87f8-810d-492a",
-    "type": "unit",
-    "faction": "Aeldari",
-    "faction_type": "Xenos",
-    "points": {
-      "base": 75,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "14\"",
-      "T": "6",
-      "SV": "3+",
-      "W": "6",
-      "LD": "7+",
-      "OC": "2"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Disintegrator Cannon",
-          "Range": "36\"",
-          "A": "3",
-          "BS": "3+",
-          "S": "6",
-          "AP": "-3",
-          "D": "2",
-          "Keywords": "Assault"
-        },
-        {
-          "name": "Starfang Grenade Launcher",
-          "Range": "36\"",
-          "A": "D3",
-          "BS": "3+",
-          "S": "6",
-          "AP": "-3",
-          "D": "2",
-          "Keywords": "Assault, Blast"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Wraithbone Hull",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "4+",
-          "S": "6",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "-"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Hallucinogen Grenades",
-        "description": "At the start of your opponent’s Shooting phase, this unit can use this ability. If it does, select one **Aeldari** Infantry unit from your army visible to and within 36\" of this unit: until the end of the phase, that unit has the Stealth ability."
-      }
-    ],
-    "special_rules": [
-      "Deadly Demise 1",
-      "Scouts 7\"",
-      "Assault",
-      "Blast",
-      "Battle Focus"
-    ],
-    "keywords": [
-      "Vehicle",
-      "Aeldari",
-      "Fly",
-      "Faction: Asuryani",
-      "Ynnari",
-      "Starfangs",
-      "Anhrathe",
-      "Grenades",
-      "Smoke"
-    ]
-  },
-  {
-    "name": "Archtormentor [Crucible]",
-    "id": "62f8-6a75-5ffb-e83b",
-    "type": "model",
-    "faction": "Aeldari",
-    "faction_type": "Xenos",
-    "points": {
-      "base": 60,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": null
-    },
-    "stats": {
-      "M": "8",
-      "T": "3",
-      "SV": "6+",
-      "W": "4",
-      "LD": "7+",
-      "OC": "1"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Invulnerable Save (Archtormentor)",
-        "description": "An Archtormentor has a 4+ Invulnerable save"
-      },
-      {
-        "name": "Hatred Eternal (Pain)",
-        "description": "In your Shooting phase or the Fight phase, when you select this model’s unit to shoot or fight, you can spend 1 Pain token to Empower that unit. While that unit is Empowered, each time a model in that unit makes an attack, you can re-roll the Hit roll."
-      },
-      {
-        "name": "Cruel Example",
-        "description": "Each time this model makes an attack that targets a CHARACTER unit, you can add 1 to the Wound roll. Each time this model’s unit destroys a CHARACTER model, you gain 1CP."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Wyches"
-      }
-    ],
-    "special_rules": [
-      "Leader",
-      "Power from Pain",
-      "Crucible"
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Crucible",
-      "Wych Cult",
-      "Aeldari",
-      "Faction: Drukhari",
-      "Archtormentor"
-    ]
-  },
-  {
-    "name": "Flesh Crafter [Crucible]",
-    "id": "b5a1-7e2b-7a1d-bbda",
-    "type": "model",
-    "faction": "Aeldari",
-    "faction_type": "Xenos",
-    "points": {
-      "base": 60,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": null
-    },
-    "stats": {
-      "M": "7\"",
-      "T": "4",
-      "SV": "5+",
-      "W": "5",
-      "LD": "7+",
-      "OC": "1"
-    },
-    "invuln_save": "6+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Invulnerable Save (Flesh Crafter)",
-        "description": "A Flesh Crafter has a 6+ Invulnerable save."
-      },
-      {
-        "name": "Fleshcraft (Pain)",
-        "description": "In your Command phase, you can spend 1 Pain token to Empower this model’s unit. Each time you do, you can return up to D3+1 destroyed Bodyguard models to that unit."
-      },
-      {
-        "name": "Pain Adept",
-        "description": "In your Command phase, if one or more models from your army with this ability are on the battlefield, roll one D6: on a 4+, you gain 1 Pain token."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Wracks"
-      }
-    ],
-    "special_rules": [
-      "Leader",
-      "Power from Pain",
-      "Crucible",
-      "Feel No Pain 5+"
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Crucible",
-      "Aeldari",
-      "Faction: Drukhari",
-      "Haemonculus Covens",
-      "Flesh Crafter"
-    ]
-  },
-  {
-    "name": "Craftworld Warleader [Crucible]",
-    "id": "8e2c-2234-8595-f191",
-    "type": "model",
-    "faction": "Aeldari",
-    "faction_type": "Xenos",
-    "points": {
-      "base": 75,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": null
-    },
-    "stats": {
-      "M": "7\"",
-      "T": "3",
-      "SV": "6+",
-      "W": "4",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Invulnerable Save (Craftworld Warleader)",
-        "description": "A Craftworld Warleader has a 4+ Invulnerable save."
-      },
-      {
-        "name": "Guided by Fate",
-        "description": "Each time this model makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Guardian Defenders\n- Storm Guardian\n- Warlock Conclave"
-      }
-    ],
-    "special_rules": [
-      "Crucible",
-      "Leader",
-      "Battle Focus"
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Aeldari",
-      "Craftworld Warleader",
-      "Faction: Asuryani",
-      "Crucible"
-    ]
-  },
-  {
-    "name": "Skyrunner [Crucible]",
-    "id": "915f-4ee6-3358-31ca",
-    "type": "model",
-    "faction": "Aeldari",
-    "faction_type": "Xenos",
-    "points": {
-      "base": 80,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": null
-    },
-    "stats": {
-      "M": "14\"",
-      "T": "4",
-      "SV": "6+",
-      "W": "5",
-      "LD": "6+",
-      "OC": "2"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Invulnerable Save (Skyrunner)",
-        "description": "A Craftworld Warleader has a 4+ Invulnerable save."
-      },
-      {
-        "name": "Winds of War",
-        "description": "This model’s unit is eligible to declare a charge in a turn in which it Advanced."
-      }
-    ],
-    "special_rules": [
-      "Crucible",
-      "Leader",
-      "Battle Focus"
-    ],
-    "keywords": [
-      "Character",
-      "Aeldari",
-      "Faction: Asuryani",
-      "Crucible",
-      "Mounted",
-      "Skyrunner",
-      "Fly"
-    ]
-  },
-  {
-    "name": "Ghost Warrior [Crucible]",
-    "id": "5578-f918-6e88-3d0e",
-    "type": "model",
-    "faction": "Aeldari",
-    "faction_type": "Xenos",
-    "points": {
-      "base": 160,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": null
-    },
-    "stats": {
-      "M": "8\"",
-      "T": "10",
-      "SV": "2+",
-      "W": "10",
-      "LD": "6+",
-      "OC": "3"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Awakened Spirit",
-        "description": "Each time this model makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
-      }
-    ],
-    "special_rules": [
-      "Crucible",
-      "Battle Focus",
-      "Deadly Demise 1"
-    ],
-    "keywords": [
-      "Character",
-      "Aeldari",
-      "Faction: Asuryani",
-      "Crucible",
-      "Monster",
-      "Walker",
-      "Ghost Warrior",
-      "Wraith Construct"
+      "Scourges with Shardcarbines"
     ]
   }
 ]

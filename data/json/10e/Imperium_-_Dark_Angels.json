@@ -6,7 +6,7 @@
     "faction": "Dark Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 125,
+      "base": 115,
       "variants": []
     },
     "composition": {
@@ -797,8 +797,7 @@
       "Nephilim Jetfighter",
       "Faction: Adeptus Astartes",
       "Faction: Dark Angels",
-      "Ravenwing",
-      "Damage Dx Weapon"
+      "Ravenwing"
     ]
   },
   {
@@ -1097,11 +1096,11 @@
     "faction": "Dark Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 80,
+      "base": 90,
       "variants": [
         {
           "models": 3,
-          "points": 160
+          "points": 180
         }
       ]
     },
@@ -1313,12 +1312,7 @@
       "Faction: Dark Angels",
       "Faction: Adeptus Astartes",
       "Ravenwing",
-      "Character",
-      "Character",
-      "Ravenwing",
-      "Ranged Weapon",
-      "Melee Weapon",
-      "Ranged Weapon"
+      "Character"
     ]
   },
   {
@@ -1868,14 +1862,7 @@
       "Deathwing",
       "Deathwing Strikemaster",
       "Terminator",
-      "Lieutenant",
-      "Melee Weapon",
-      "Melee Weapon",
-      "Melee Weapon",
-      "Melee Weapon",
-      "Melee Weapon",
-      "Melee Weapon",
-      "Melee Weapon"
+      "Lieutenant"
     ]
   },
   {

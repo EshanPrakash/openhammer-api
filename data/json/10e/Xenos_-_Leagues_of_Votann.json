@@ -256,7 +256,7 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 65,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -345,9 +345,7 @@
       "Faction: Leagues of Votann",
       "Infantry",
       "Character",
-      "Kâhl",
-      "Melee Weapon",
-      "Melee Weapon"
+      "Kâhl"
     ]
   },
   {
@@ -437,10 +435,7 @@
       "Infantry",
       "Character",
       "Exoarmour",
-      "Einhyr Champion",
-      "Melee Weapon",
-      "Damage Dx+0 Modifier",
-      "Melee Weapon"
+      "Einhyr Champion"
     ]
   },
   {
@@ -554,16 +549,7 @@
     "keywords": [
       "Faction: Leagues of Votann",
       "Infantry",
-      "Character",
-      "Character",
-      "Psyker",
-      "Grimnyr",
-      "Psychic Weapon",
-      "Melee Weapon",
-      "Damage Dx Weapon",
-      "Psychic Weapon",
-      "Ranged Weapon",
-      "Damage Dx Weapon"
+      "Character"
     ]
   },
   {
@@ -698,11 +684,7 @@
       "Faction: Leagues of Votann",
       "Infantry",
       "Character",
-      "Brôkhyr",
-      "Character",
-      "Iron-master",
-      "Melee Weapon",
-      "Ranged Weapon"
+      "Brôkhyr"
     ]
   },
   {
@@ -821,10 +803,7 @@
       "Faction: Leagues of Votann",
       "Infantry",
       "Exoarmour",
-      "Einhyr Hearthguard",
-      "Attacks Dx Weapon",
-      "Damage Dx+0 Modifier",
-      "Attacks Dx Weapon"
+      "Einhyr Hearthguard"
     ]
   },
   {
@@ -844,7 +823,7 @@
     },
     "composition": {
       "min_models": 0,
-      "max_models": 0
+      "max_models": 1
     },
     "stats": {
       "M": "6\"",
@@ -905,8 +884,7 @@
       "Faction: Leagues of Votann",
       "Infantry",
       "Cthonian",
-      "Beserks",
-      "Attacks Dx Weapon"
+      "Beserks"
     ]
   },
   {
@@ -1025,6 +1003,7 @@
     "special_rules": [
       "Prioritised Efficiency",
       "Scouts 9\"",
+      "Ignores Cover",
       "Sustained Hits"
     ],
     "keywords": [
@@ -1042,7 +1021,7 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 90,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -1364,6 +1343,7 @@
       "Heavy",
       "Blast",
       "Twin-linked",
+      "Indirect Fire",
       "One Shot"
     ],
     "keywords": [
@@ -1481,8 +1461,7 @@
       "Faction: Leagues of Votann",
       "Infantry",
       "Grenades",
-      "Hernkyn Yaegirs",
-      "Damage Dx Weapon"
+      "Hernkyn Yaegirs"
     ]
   },
   {
@@ -1492,7 +1471,7 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 95,
+      "base": 110,
       "variants": []
     },
     "composition": {
@@ -1647,19 +1626,17 @@
       "Character",
       "Infantry",
       "Memnyr Strategist",
-      "Faction: Leagues of Votann",
-      "Ranged Weapon",
-      "Melee Weapon"
+      "Faction: Leagues of Votann"
     ]
   },
   {
-    "name": "Arkanyst Evaluator",
+    "name": "Arcanyst Evaluator",
     "id": "e5c2-d1a0-b54d-65df",
     "type": "model",
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 65,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -1734,6 +1711,7 @@
     ],
     "special_rules": [
       "Prioritised Efficiency",
+      "Leader",
       "Deadly Demise 1",
       "Hazardous",
       "Rapid Fire"
@@ -1742,9 +1720,7 @@
       "Character",
       "Infantry",
       "Faction: Leagues of Votann",
-      "Arkanyst Evaluator",
-      "Ranged Weapon",
-      "Melee Weapon"
+      "Arcanyst Evaluator"
     ]
   },
   {
@@ -1841,8 +1817,7 @@
       "Hernkyn",
       "Kapricus",
       "Defenders",
-      "Faction: Leagues of Votann",
-      "Smoke"
+      "Faction: Leagues of Votann"
     ]
   },
   {
@@ -1922,7 +1897,6 @@
       "Prioritised Efficiency"
     ],
     "keywords": [
-      "Smoke",
       "Dedicated Transport",
       "Transport",
       "Vehicle",
@@ -1940,11 +1914,11 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 85,
+      "base": 90,
       "variants": [
         {
           "models": 4,
-          "points": 170
+          "points": 180
         }
       ]
     },
@@ -2031,11 +2005,11 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 85,
+      "base": 90,
       "variants": [
         {
           "models": 4,
-          "points": 170
+          "points": 180
         }
       ]
     },
@@ -2197,260 +2171,6 @@
       "Artillery",
       "Cthonian",
       "Earthshakers",
-      "Faction: Leagues of Votann"
-    ]
-  },
-  {
-    "name": "Living Ancestor [Crucible]",
-    "id": "0039-5b91-2e96-0e08",
-    "type": "model",
-    "faction": "Leagues of Votann",
-    "faction_type": "Xenos",
-    "points": {
-      "base": 70,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "5\"",
-      "T": "5",
-      "SV": "4+",
-      "W": "4",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Invulnerable Save (4+)",
-        "description": "This model has a 4+ invulnerable save."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units: **Hearthkyn Warriors**"
-      },
-      {
-        "name": "Grimnyr's Regard",
-        "description": "Once per battle, at the start of any phase, you can select one friendly **Leagues of Votann** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
-      }
-    ],
-    "special_rules": [
-      "Leader",
-      "Prioritised Efficiency"
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Faction: Leagues of Votann",
-      "Crucible",
-      "Psyker",
-      "Living Ancestor"
-    ]
-  },
-  {
-    "name": "Kinhost Commander [Crucible]",
-    "id": "05b6-7622-edbe-7a9a",
-    "type": "model",
-    "faction": "Leagues of Votann",
-    "faction_type": "Xenos",
-    "points": {
-      "base": 65,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "5\"",
-      "T": "5",
-      "SV": "3+",
-      "W": "4",
-      "LD": "7+",
-      "OC": "1"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Invulnerable Save (4+)",
-        "description": "This model has a 4+ invulnerable save."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units: **Einhyr Hearthguard, Hearthkyn Warriors**"
-      },
-      {
-        "name": "Seized Opportunity",
-        "description": "Once per phase, one model from your army with this ability can use it when its unit destroys an enemy unit. If it does, you gain 1YP."
-      }
-    ],
-    "special_rules": [
-      "Leader",
-      "Prioritised Efficiency"
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Faction: Leagues of Votann",
-      "Kinhost Commander",
-      "Crucible"
-    ]
-  },
-  {
-    "name": "Steeljack Elder [Crucible]",
-    "id": "4eaf-78d5-9195-0e36",
-    "type": "model",
-    "faction": "Leagues of Votann",
-    "faction_type": "Xenos",
-    "points": {
-      "base": 80,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "5\"",
-      "T": "6",
-      "SV": "2+",
-      "W": "5",
-      "LD": "7+",
-      "OC": "1"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units: **Ironkin Steeljacks with Heavy Volkanite Disintegrators, Ironkin Steeljacks with Melee Weapons**"
-      },
-      {
-        "name": "Forgewrought Skill",
-        "description": "Each time this model makes an attack, you can re-roll the Hit roll."
-      }
-    ],
-    "special_rules": [
-      "Leader",
-      "Prioritised Efficiency"
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Faction: Leagues of Votann",
-      "Crucible",
-      "Ironkin Steeljacks",
-      "Steeljack Elder"
-    ]
-  },
-  {
-    "name": "Berehk Stornbröw",
-    "id": "c7ea-1b76-c8c1-4786",
-    "type": "model",
-    "faction": "Leagues of Votann",
-    "faction_type": "Xenos",
-    "points": {
-      "base": 95,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "6",
-      "SV": "5+",
-      "W": "5",
-      "LD": "7+",
-      "OC": "1"
-    },
-    "invuln_save": "5+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": [
-        {
-          "name": "➤ Kromlôk's Revenge - graviton strikes",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "2+",
-          "S": "10",
-          "AP": "-2",
-          "D": "4",
-          "Keywords": "Anti-Monster 3+, Anti-Vehicle 3+, Sustained Hits 1"
-        },
-        {
-          "name": "➤ Kromlôk's Revenge - plasma sweeps",
-          "Range": "Melee",
-          "A": "8",
-          "WS": "2+",
-          "S": "7",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Sustained Hits 1"
-        },
-        {
-          "name": "Warforge gauntlets",
-          "Range": "Melee",
-          "A": "2",
-          "WS": "2+",
-          "S": "6",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "Extra Attacks, Sustained Hits 1"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Invulnerable Save (5+)",
-        "description": "This model has a 5+ invulnerable save."
-      },
-      {
-        "name": "Break the Foe",
-        "description": "Melee weapons equipped by models in this unit have the [Sustained Hits 1] ability."
-      },
-      {
-        "name": "Relentless Avalanche",
-        "description": "You can target this model's unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units: **Cthonian Beserks**"
-      }
-    ],
-    "special_rules": [
-      "Prioritised Efficiency",
-      "Leader",
-      "Feel No Pain 4+",
-      "Anti-",
-      "Sustained Hits",
-      "Extra Attacks"
-    ],
-    "keywords": [
-      "Epic Hero",
-      "Infantry",
-      "Character",
-      "Cthonian",
-      "Berehk Stornbröw",
       "Faction: Leagues of Votann"
     ]
   }

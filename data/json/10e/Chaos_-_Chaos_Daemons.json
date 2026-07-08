@@ -94,8 +94,7 @@
       "Daemon",
       "Khorne",
       "Skarbrand",
-      "Khorne non-Battleline",
-      "Attacks Dx Weapon"
+      "Khorne non-Battleline"
     ]
   },
   {
@@ -211,14 +210,7 @@
       "Khorne",
       "Bloodthirster",
       "Khorne non-Battleline",
-      "Shadow Legion",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Melee Weapon",
-      "Melee Weapon",
-      "Ranged Weapon",
-      "Melee Weapon",
-      "Ranged Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -536,9 +528,7 @@
       "Khorne",
       "Rendmaster on Blood Throne",
       "Khorne non-Battleline",
-      "Shadow Legion",
-      "Melee Weapon",
-      "Extra Attacks Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -561,7 +551,7 @@
       "SV": "7+",
       "W": "5",
       "LD": "7+",
-      "OC": "3"
+      "OC": "1"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -862,8 +852,7 @@
       "Khorne",
       "Flesh Hounds",
       "Khorne non-Battleline",
-      "Shadow Legion",
-      "Attacks Dx Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -951,8 +940,7 @@
       "Khorne",
       "Skull Cannon",
       "Khorne non-Battleline",
-      "Shadow Legion",
-      "Extra Attacks Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -1115,8 +1103,7 @@
       "Daemon",
       "Be'lakor",
       "Shadow Legion",
-      "Undivided",
-      "Psychic Weapon"
+      "Undivided"
     ]
   },
   {
@@ -1191,10 +1178,6 @@
       {
         "name": "Invulnerable Save",
         "description": "This model has a 4+ invulnerable save."
-      },
-      {
-        "name": "Daemonic Lord",
-        "description": "While this model is within 3\" of one or more friendly **Legiones Daemonica** Infantry units, this model has the Lone Operative ability."
       }
     ],
     "special_rules": [
@@ -1209,17 +1192,7 @@
       "Character",
       "Chaos",
       "Daemon",
-      "Daemon Prince of Chaos",
-      "Khorne",
-      "Khorne non-Battleline",
-      "Nurgle",
-      "Nurgle non-Battleline",
-      "Slaanesh",
-      "Slaanesh non-Battleline",
-      "Tzeentch",
-      "Tzeentch non-Battleline",
-      "Melee Weapon",
-      "Ranged Weapon"
+      "Daemon Prince of Chaos"
     ]
   },
   {
@@ -1309,17 +1282,7 @@
       "Chaos",
       "Daemon",
       "Daemon Prince of Chaos with wings",
-      "Fly",
-      "Khorne",
-      "Khorne non-Battleline",
-      "Nurgle",
-      "Nurgle non-Battleline",
-      "Slaanesh",
-      "Slaanesh non-Battleline",
-      "Tzeentch",
-      "Tzeentch non-Battleline",
-      "Melee Weapon",
-      "Ranged Weapon"
+      "Fly"
     ]
   },
   {
@@ -1329,7 +1292,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 295,
+      "base": 270,
       "variants": []
     },
     "composition": {
@@ -1364,8 +1327,8 @@
           "A": "D3+6",
           "BS": "2+",
           "S": "9",
-          "AP": "-2",
-          "D": "3",
+          "AP": "-3",
+          "D": "D3",
           "Keywords": "Blast, Indirect Fire, Hazardous, Psychic"
         }
       ],
@@ -1417,11 +1380,7 @@
       "Daemon",
       "Tzeentch",
       "Kairos Fateweaver",
-      "Tzeentch non-Battleline",
-      "Psychic Weapon",
-      "Damage Dx Weapon",
-      "Psychic Weapon",
-      "Damage Dx Weapon"
+      "Tzeentch non-Battleline"
     ]
   },
   {
@@ -1431,7 +1390,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 285,
+      "base": 260,
       "variants": []
     },
     "composition": {
@@ -1467,17 +1426,17 @@
           "BS": "2+",
           "S": "9",
           "AP": "-2",
-          "D": "3",
+          "D": "D3",
           "Keywords": "Hazardous, Psychic"
         },
         {
           "name": "Rod of sorcery",
-          "Range": "18\"",
+          "Range": "12\"",
           "A": "6",
           "BS": "2+",
           "S": "8",
           "AP": "-1",
-          "D": "2",
+          "D": "D3",
           "Keywords": "Psychic"
         }
       ],
@@ -1538,16 +1497,7 @@
       "Tzeentch",
       "Lord of Change",
       "Tzeentch non-Battleline",
-      "Shadow Legion",
-      "Psychic Weapon",
-      "Ranged Weapon",
-      "Psychic Weapon",
-      "Melee Weapon",
-      "Psychic Weapon",
-      "Ranged Weapon",
-      "Damage Dx Weapon",
-      "Melee Weapon",
-      "Extra Attacks Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -1645,9 +1595,7 @@
       "Daemon",
       "Tzeentch",
       "The Changeling",
-      "Tzeentch non-Battleline",
-      "Psychic Weapon",
-      "Psychic Weapon"
+      "Tzeentch non-Battleline"
     ]
   },
   {
@@ -1757,9 +1705,7 @@
       "Tzeentch",
       "Fateskimmer",
       "Tzeentch non-Battleline",
-      "Shadow Legion",
-      "Melee Weapon",
-      "Extra Attacks Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -2133,9 +2079,7 @@
       "Daemon",
       "Tzeentch",
       "Tzeentch Battleline",
-      "Shadow Legion",
-      "Blue",
-      "Psychic Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -2257,10 +2201,7 @@
       "Daemon",
       "Tzeentch",
       "Tzeentch Battleline",
-      "Shadow Legion",
-      "Blue",
-      "Pink",
-      "Psychic Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -2345,10 +2286,7 @@
       "Flamers",
       "Tzeentch non-Battleline",
       "Faction: Legiones Daemonica",
-      "Shadow Legion",
-      "Psychic Weapon",
-      "Psychic Weapon",
-      "Attacks Dx Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -2449,8 +2387,7 @@
       "Tzeentch",
       "Exalted Flamer",
       "Tzeentch non-Battleline",
-      "Shadow Legion",
-      "Melee Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -2621,8 +2558,7 @@
       "Burning Chariot",
       "Fly",
       "Tzeentch non-Battleline",
-      "Shadow Legion",
-      "Extra Attacks Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -2632,7 +2568,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 265,
+      "base": 250,
       "variants": []
     },
     "composition": {
@@ -2721,8 +2657,7 @@
       "Daemon",
       "Nurgle",
       "Rotigus",
-      "Nurgle non-Battleline",
-      "Psychic Weapon"
+      "Nurgle non-Battleline"
     ]
   },
   {
@@ -2850,13 +2785,7 @@
       "Nurgle",
       "Great Unclean One",
       "Nurgle non-Battleline",
-      "Shadow Legion",
-      "Ranged Weapon",
-      "Melee Weapon",
-      "Melee Weapon",
-      "Ranged Weapon",
-      "Melee Weapon",
-      "Extra Attacks Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -2934,8 +2863,7 @@
       "Nurgle",
       "Poxbringer",
       "Nurgle non-Battleline",
-      "Shadow Legion",
-      "Melee Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -2972,7 +2900,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "Pistol, Torrent"
+          "Keywords": "Ignores Cover, Torrent"
         }
       ],
       "melee": [
@@ -3024,10 +2952,7 @@
       "Nurgle",
       "Spoilpox Scrivener",
       "Nurgle non-Battleline",
-      "Shadow Legion",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Melee Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -3179,8 +3104,7 @@
       "Nurgle",
       "Sloppity Bilepiper",
       "Nurgle non-Battleline",
-      "Shadow Legion",
-      "Melee Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -3268,8 +3192,7 @@
       "Daemon",
       "Nurgle",
       "Horticulous Slimux",
-      "Nurgle non-Battleline",
-      "Extra Attacks Weapon"
+      "Nurgle non-Battleline"
     ]
   },
   {
@@ -3572,11 +3495,7 @@
       "Nurgle",
       "Plague Drones",
       "Nurgle non-Battleline",
-      "Shadow Legion",
-      "Attacks Dx Weapon",
-      "Extra Attacks Weapon",
-      "Attacks Dx Weapon",
-      "Extra Attacks Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -3640,7 +3559,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 340,
+      "base": 380,
       "variants": []
     },
     "composition": {
@@ -3750,9 +3669,7 @@
       "Daemon",
       "Slaanesh",
       "Shalaxi Helbane",
-      "Slaanesh non-Battleline",
-      "Psychic Weapon",
-      "Extra Attacks Weapon"
+      "Slaanesh non-Battleline"
     ]
   },
   {
@@ -3762,7 +3679,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 240,
+      "base": 270,
       "variants": []
     },
     "composition": {
@@ -3884,15 +3801,7 @@
       "Slaanesh",
       "Keeper of Secrets",
       "Slaanesh non-Battleline",
-      "Shadow Legion",
-      "Psychic Weapon",
-      "Ranged Weapon",
-      "Melee Weapon",
-      "Extra Attacks Weapon",
-      "Melee Weapon",
-      "Ranged Weapon",
-      "Melee Weapon",
-      "Extra Attacks Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -3991,9 +3900,7 @@
       "Slaanesh",
       "Infernal Enrapturess",
       "Slaanesh non-Battleline",
-      "Shadow Legion",
-      "Ranged Weapon",
-      "Melee Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -4191,9 +4098,7 @@
       "Daemon",
       "Slaanesh",
       "Syll'esske",
-      "Slaanesh non-Battleline",
-      "Extra Attacks Weapon",
-      "Psychic Weapon"
+      "Slaanesh non-Battleline"
     ]
   },
   {
@@ -4281,11 +4186,7 @@
       "Slaanesh",
       "Contorted Epitome",
       "Slaanesh non-Battleline",
-      "Shadow Legion",
-      "Melee Weapon",
-      "Extra Attacks Weapon",
-      "Attacks Dx Weapon",
-      "Melee Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -4398,13 +4299,7 @@
       "Slaanesh",
       "Tormentbringer",
       "Slaanesh non-Battleline",
-      "Shadow Legion",
-      "Melee Weapon",
-      "Ranged Weapon",
-      "Extra Attacks Weapon",
-      "Melee Weapon",
-      "Extra Attacks Weapon",
-      "Melee Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -4482,8 +4377,7 @@
       "Slaanesh",
       "Tranceweaver",
       "Slaanesh non-Battleline",
-      "Shadow Legion",
-      "Melee Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -4706,9 +4600,7 @@
       "Slaanesh",
       "Seekers",
       "Slaanesh non-Battleline",
-      "Shadow Legion",
-      "Extra Attacks Weapon",
-      "Extra Attacks Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -4810,9 +4702,7 @@
       "Slaanesh",
       "Hellflayer",
       "Slaanesh non-Battleline",
-      "Shadow Legion",
-      "Extra Attacks Weapon",
-      "Extra Attacks Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -4904,8 +4794,7 @@
       "Slaanesh",
       "Seeker Chariot",
       "Slaanesh non-Battleline",
-      "Shadow Legion",
-      "Extra Attacks Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -4997,8 +4886,7 @@
       "Slaanesh",
       "Exalted Seeker Chariot",
       "Slaanesh non-Battleline",
-      "Shadow Legion",
-      "Extra Attacks Weapon"
+      "Shadow Legion"
     ]
   },
   {
@@ -5061,14 +4949,6 @@
       "Feel No Pain 5+"
     ],
     "keywords": [
-      "Khorne",
-      "Khorne non-Battleline",
-      "Nurgle",
-      "Nurgle non-Battleline",
-      "Slaanesh",
-      "Slaanesh non-Battleline",
-      "Tzeentch",
-      "Tzeentch non-Battleline",
       "Faction: Legiones Daemonica",
       "Monster",
       "Chaos",
@@ -5139,15 +5019,7 @@
       "Monster",
       "Chaos",
       "Spined Chaos Beast",
-      "Shadow Legion",
-      "Khorne",
-      "Khorne non-Battleline",
-      "Nurgle",
-      "Nurgle non-Battleline",
-      "Slaanesh",
-      "Slaanesh non-Battleline",
-      "Tzeentch",
-      "Tzeentch non-Battleline"
+      "Shadow Legion"
     ]
   },
   {
@@ -5232,8 +5104,6 @@
       "Extra Attacks"
     ],
     "keywords": [
-      "Attacks Dx Weapon",
-      "Extra Attacks Weapon",
       "Faction: Legiones Daemonica",
       "Mounted",
       "Chaos",
@@ -5315,7 +5185,6 @@
       "Lethal Hits"
     ],
     "keywords": [
-      "Attacks Dx Weapon",
       "Faction: Legiones Daemonica",
       "Beast",
       "Chaos",
@@ -5525,10 +5394,7 @@
       "Daemon",
       "Tzeentch",
       "Aetaos'rau'keres",
-      "Tzeentch non-Battleline",
-      "Psychic Weapon",
-      "Psychic Weapon",
-      "Psychic Weapon"
+      "Tzeentch non-Battleline"
     ]
   },
   {
@@ -5732,9 +5598,7 @@
       "Daemon",
       "Slaanesh",
       "Zarakynel",
-      "Slaanesh non-Battleline",
-      "Extra Attacks Weapon",
-      "Psychic Weapon"
+      "Slaanesh non-Battleline"
     ]
   },
   {
@@ -5824,10 +5688,7 @@
       "Slaanesh",
       "Herald of Slaanesh",
       "Shadow Legion",
-      "Slaanesh non-Battleline",
-      "Melee Weapon",
-      "Extra Attacks Weapon",
-      "Melee Weapon"
+      "Slaanesh non-Battleline"
     ]
   },
   {
@@ -5877,7 +5738,7 @@
     "abilities": [
       {
         "name": "Prey on the Weak",
-        "description": "Each time this model makes an attack that targets an enemy unit that is Battle-shocked, add 1 to the Wound roll."
+        "description": "Each time this model makes an attack thattar gets an enemy unit that is Battle-shocked, add 1 to the Wound roll."
       },
       {
         "name": "Invulnerable Save",
@@ -5896,180 +5757,6 @@
       "Daemon",
       "Fly",
       "Furies",
-      "Shadow Legion",
-      "Khorne",
-      "Khorne non-Battleline",
-      "Nurgle",
-      "Nurgle non-Battleline",
-      "Slaanesh",
-      "Slaanesh non-Battleline",
-      "Tzeentch",
-      "Tzeentch non-Battleline"
-    ]
-  },
-  {
-    "name": "Daemonic Herald [Crucible]",
-    "id": "3a39-0b56-25e0-eff8",
-    "type": "model",
-    "faction": "Daemons",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 60,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "3",
-      "SV": "7+",
-      "W": "3",
-      "LD": "7+",
-      "OC": "1"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Daemonic Locus",
-        "description": "While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model, or D3 destroyed models with the **Battleline** keyword, to that unit."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following unit: **Infantry Daemon** units (excluding **Possessed** units) which share one of the following keywords with this model **Khorne, Nurgle, Slaanesh, Tzeentch**"
-      }
-    ],
-    "special_rules": [
-      "Deep Strike",
-      "Leader",
-      "The Shadow of Chaos",
-      "Warp Rifts"
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Chaos",
-      "Daemon",
-      "Summoned",
-      "Daemonic Herald",
-      "Crucible",
-      "Faction: Legiones Daemonica",
-      "Shadow Legion"
-    ]
-  },
-  {
-    "name": "Daemonic Charioteer [Crucible]",
-    "id": "8597-d6dd-511e-80ae",
-    "type": "model",
-    "faction": "Daemons",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 120,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "7",
-      "SV": "6+",
-      "W": "8",
-      "LD": "7+",
-      "OC": "3"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Malefic Impact",
-        "description": "Melee weapons equipped by models in this unit have the [Lance] ability."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following unit: **Mounted Daemon** units which share one of the following keywords with this model **Khorne, Nurgle, Slaanesh, Tzeentch**"
-      }
-    ],
-    "special_rules": [
-      "Deep Strike",
-      "Leader",
-      "The Shadow of Chaos",
-      "Warp Rifts"
-    ],
-    "keywords": [
-      "Character",
-      "Chaos",
-      "Daemon",
-      "Crucible",
-      "Mounted",
-      "Daemonic Charioteer",
-      "Faction: Legiones Daemonica",
-      "Shadow Legion"
-    ]
-  },
-  {
-    "name": "Immortal Champion [Crucible]",
-    "id": "3594-bf68-4a46-fbf8",
-    "type": "model",
-    "faction": "Daemons",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 180,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "8\"",
-      "T": "10",
-      "SV": "2+",
-      "W": "10",
-      "LD": "6+",
-      "OC": "3"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Infernal Attendants",
-        "description": "While this model is within 3\" of one or more friendly **Daemon Infantry** units, this model has the Lone Operative ability."
-      },
-      {
-        "name": "Font of Unreality",
-        "description": "Each time an attack is allocated to a friendly **Daemon** unit within 3\" of this model, subtract 1 from the Hit roll."
-      }
-    ],
-    "special_rules": [
-      "Deep Strike",
-      "The Shadow of Chaos",
-      "Warp Rifts",
-      "Deadly Demise D3"
-    ],
-    "keywords": [
-      "Character",
-      "Chaos",
-      "Daemon",
-      "Crucible",
-      "Faction: Legiones Daemonica",
-      "Monster",
-      "Immortal Champion",
       "Shadow Legion"
     ]
   }

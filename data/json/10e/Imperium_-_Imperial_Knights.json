@@ -21,7 +21,7 @@
       "LD": "5+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (5+*)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -46,7 +46,7 @@
           "Keywords": "Blast, Sustained Hits 1"
         },
         {
-          "name": "Questoris multi-laser",
+          "name": "Chainbreaker multi-laser",
           "Range": "36\"",
           "A": "4",
           "BS": "2+",
@@ -125,19 +125,7 @@
       "Epic Hero",
       "Character",
       "Imperium",
-      "Faction: Imperial Knights",
-      "Vehicle",
-      "Walker",
-      "Titanic",
-      "Towering",
-      "Canis Rex",
-      "Questoris",
-      "Character",
-      "Epic Hero",
-      "Infantry",
-      "Sir Hekhtur",
-      "Character",
-      "Epic Hero"
+      "Faction: Imperial Knights"
     ]
   },
   {
@@ -162,7 +150,7 @@
       "LD": "7+",
       "OC": "6"
     },
-    "invuln_save": "Invulnerable Save (5+*)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -217,8 +205,7 @@
       "Imperium",
       "Faction: Imperial Knights",
       "Warglaive",
-      "Armiger",
-      "Damage Dx Weapon"
+      "Armiger"
     ]
   },
   {
@@ -228,7 +215,7 @@
     "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 135,
+      "base": 140,
       "variants": []
     },
     "composition": {
@@ -243,7 +230,7 @@
       "LD": "7+",
       "OC": "6"
     },
-    "invuln_save": "Invulnerable Save (5+*)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -312,7 +299,7 @@
       "LD": "6+",
       "OC": "10"
     },
-    "invuln_save": "Invulnerable Save (5+*)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -367,8 +354,7 @@
       "Imperium",
       "Faction: Imperial Knights",
       "Knight Paladin",
-      "Questoris",
-      "Ranged Weapon"
+      "Questoris"
     ]
   },
   {
@@ -378,7 +364,7 @@
     "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 355,
+      "base": 375,
       "variants": []
     },
     "composition": {
@@ -393,7 +379,7 @@
       "LD": "6+",
       "OC": "10"
     },
-    "invuln_save": "Invulnerable Save (5+*)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -446,7 +432,7 @@
     "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 355,
+      "base": 375,
       "variants": []
     },
     "composition": {
@@ -461,7 +447,7 @@
       "LD": "6+",
       "OC": "10"
     },
-    "invuln_save": "Invulnerable Save (5+*)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [],
@@ -535,9 +521,7 @@
       "Imperium",
       "Faction: Imperial Knights",
       "Knight Gallant",
-      "Questoris",
-      "Melee Weapon",
-      "Melee Weapon"
+      "Questoris"
     ]
   },
   {
@@ -547,7 +531,7 @@
     "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 375,
+      "base": 385,
       "variants": []
     },
     "composition": {
@@ -562,7 +546,7 @@
       "LD": "6+",
       "OC": "10"
     },
-    "invuln_save": "Invulnerable Save (5+*)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -627,7 +611,7 @@
     "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 385,
+      "base": 395,
       "variants": []
     },
     "composition": {
@@ -642,7 +626,7 @@
       "LD": "6+",
       "OC": "10"
     },
-    "invuln_save": "Invulnerable Save (5+*)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -761,7 +745,7 @@
       "LD": "6+",
       "OC": "10"
     },
-    "invuln_save": "Invulnerable Save (5+*)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -844,10 +828,7 @@
       "Imperium",
       "Faction: Imperial Knights",
       "Knight Preceptor",
-      "Questoris",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Ranged Weapon"
+      "Questoris"
     ]
   },
   {
@@ -872,7 +853,7 @@
       "LD": "6+",
       "OC": "10"
     },
-    "invuln_save": "Invulnerable Save (5+*)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -952,12 +933,7 @@
       "Imperium",
       "Faction: Imperial Knights",
       "Knight Castellan",
-      "Dominus",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Melee Weapon",
-      "Ranged Weapon"
+      "Dominus"
     ]
   },
   {
@@ -982,7 +958,7 @@
       "LD": "6+",
       "OC": "10"
     },
-    "invuln_save": "Invulnerable Save (5+*)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1054,11 +1030,7 @@
       "Imperium",
       "Faction: Imperial Knights",
       "Knight Valiant",
-      "Dominus",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon"
+      "Dominus"
     ]
   },
   {
@@ -1083,7 +1055,7 @@
       "LD": "6+",
       "OC": "10"
     },
-    "invuln_save": "Invulnerable Save (5+*)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1182,7 +1154,7 @@
       "LD": "6+",
       "OC": "10"
     },
-    "invuln_save": "Invulnerable Save (5+*)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1274,9 +1246,7 @@
       "Imperium",
       "Faction: Imperial Knights",
       "Acastus",
-      "Knight Porphyrion",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon"
+      "Knight Porphyrion"
     ]
   },
   {
@@ -1301,7 +1271,7 @@
       "LD": "6+",
       "OC": "10"
     },
-    "invuln_save": "Invulnerable Save (4+)",
+    "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1345,6 +1315,10 @@
         "description": "You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
       },
       {
+        "name": "Invulnerable Save (4+)",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
         "name": "Lancer’s Duty (Bondsman)",
         "description": "While a model is affected by this ability, it is eligible to declare a charge in a turn in which it Advanced."
       }
@@ -1367,9 +1341,7 @@
       "Imperium",
       "Faction: Imperial Knights",
       "Knight Lancer",
-      "Cerastus",
-      "Melee Weapon",
-      "Ranged Weapon"
+      "Cerastus"
     ]
   },
   {
@@ -1394,7 +1366,7 @@
       "LD": "6+",
       "OC": "10"
     },
-    "invuln_save": "Invulnerable Save (5+*)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1459,9 +1431,7 @@
       "Imperium",
       "Faction: Imperial Knights",
       "Cerastus",
-      "Knight Castigator",
-      "Ranged Weapon",
-      "Melee Weapon"
+      "Knight Castigator"
     ]
   },
   {
@@ -1567,11 +1537,7 @@
       "Imperium",
       "Faction: Imperial Knights",
       "Cerastus",
-      "Knight Acheron",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon",
-      "Melee Weapon"
+      "Knight Acheron"
     ]
   },
   {
@@ -1697,11 +1663,7 @@
       "Imperium",
       "Faction: Imperial Knights",
       "Cerastus",
-      "Knight Atrapos",
-      "Ranged Weapon",
-      "Melee Weapon",
-      "Ranged Weapon",
-      "Attacks Dx Weapon"
+      "Knight Atrapos"
     ]
   },
   {
@@ -1723,10 +1685,10 @@
       "T": "11",
       "SV": "3+",
       "W": "26",
-      "LD": "6+",
+      "LD": "+6",
       "OC": "10"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1810,6 +1772,10 @@
         "description": "At the end of your Command phase, this model regains up to D3 lost wounds."
       },
       {
+        "name": "Invulnerable Save",
+        "description": "This model has a 5+ invulnerable save."
+      },
+      {
         "name": "Magaera’s Duty (Bondsman)",
         "description": "While a model is affected by this ability, each time that model makes a ranged attack that targets the closest eligible target, improve the Strength and Armour Penetration characteristics of that attack by 1."
       }
@@ -1832,9 +1798,7 @@
       "Imperium",
       "Faction: Imperial Knights",
       "Questoris",
-      "Knight Magaera",
-      "Ranged Weapon",
-      "Ranged Weapon"
+      "Knight Magaera"
     ]
   },
   {
@@ -1859,7 +1823,7 @@
       "LD": "6+",
       "OC": "10"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1939,6 +1903,10 @@
     },
     "abilities": [
       {
+        "name": "Invulnerable Save",
+        "description": "This model has a 5+ invulnerable save."
+      },
+      {
         "name": "Grav-pinned",
         "description": "In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Charge rolls made for that unit."
       },
@@ -1966,9 +1934,7 @@
       "Imperium",
       "Faction: Imperial Knights",
       "Questoris",
-      "Knight Styrix",
-      "Ranged Weapon",
-      "Ranged Weapon"
+      "Knight Styrix"
     ]
   },
   {
@@ -1993,7 +1959,7 @@
       "LD": "7+",
       "OC": "6"
     },
-    "invuln_save": "Invulnerable Save (5+*)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -2093,9 +2059,7 @@
       "Imperium",
       "Faction: Imperial Knights",
       "Armiger",
-      "Moirax",
-      "Attacks Dx Weapon",
-      "Attacks Dx Weapon"
+      "Moirax"
     ]
   },
   {
@@ -2105,7 +2069,7 @@
     "faction": "Imperial Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 415,
+      "base": 425,
       "variants": []
     },
     "composition": {
@@ -2120,7 +2084,7 @@
       "LD": "6+",
       "OC": "10"
     },
-    "invuln_save": "Invulnerable Save (4+*)",
+    "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -2194,6 +2158,10 @@
         "description": "Each time a ranged attack is allocated to an **Imperial Knights** model from your army, if that model is not fully visible to every model in the attacking unit because of this Knight Defender model, that model has the Benefit of Cover and a 4+ invulnerable save against that attack."
       },
       {
+        "name": "Invulnerable Save (4+*)",
+        "description": "This model has a 4+ invulnerable save against ranged attacks."
+      },
+      {
         "name": "Warden's Duty (Bondsman)",
         "description": "While a model is affected by this ability, each time an attack is allocated to that model, subtract 1 from the Damage characteristic of that attack."
       }
@@ -2220,160 +2188,7 @@
       "Imperium",
       "Faction: Imperial Knights",
       "Questoris",
-      "Knight Defender",
-      "Attacks Dx Weapon"
-    ]
-  },
-  {
-    "name": "Knight Destrier",
-    "id": "10d8-d702-f556-5d3c",
-    "type": "model",
-    "faction": "Imperial Knights",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 250,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "12\"",
-      "T": "10",
-      "SV": "3+",
-      "W": "18",
-      "LD": "6+",
-      "OC": "8"
-    },
-    "invuln_save": "Invulnerable Save (5+*)",
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Questoris heavy stubber",
-          "Range": "36\"",
-          "A": "6",
-          "BS": "3+",
-          "S": "4",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Assault, Rapid Fire 3"
-        },
-        {
-          "name": "Chastiser gatling cannon",
-          "Range": "24\"",
-          "A": "12",
-          "BS": "3+",
-          "S": "6",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Assault"
-        },
-        {
-          "name": "Frag bombard",
-          "Range": "24\"",
-          "A": "D6+3",
-          "BS": "3+",
-          "S": "7",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Assault, Blast, Rapid Fire D6+3"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Titanic feet",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "4+",
-          "S": "7",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "-"
-        },
-        {
-          "name": "➤ Bellatus reaper chainsword - strike",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "3+",
-          "S": "12",
-          "AP": "-3",
-          "D": "D3+3",
-          "Keywords": "-"
-        },
-        {
-          "name": "➤ Bellatus reaper chainsword - sweep",
-          "Range": "Melee",
-          "A": "10",
-          "WS": "3+",
-          "S": "8",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "-"
-        },
-        {
-          "name": "➤ Thundershock spear - strike",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "3+",
-          "S": "12",
-          "AP": "-3",
-          "D": "D3+3",
-          "Keywords": "Lance"
-        },
-        {
-          "name": "➤ Thundershock spear - sweep",
-          "Range": "Melee",
-          "A": "8",
-          "WS": "3+",
-          "S": "6",
-          "AP": "-3",
-          "D": "2",
-          "Keywords": "Lance"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Damaged: 1-6 Wounds Remaining",
-        "description": "While this model has 1-6 wounds remaining, subtract 4 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-      },
-      {
-        "name": "Thundercharge",
-        "description": "If this model is equipped with a thundershock spear and a bellatus reaper chainsword, add 2 to the Attacks characteristic of melee weapons equipped by this model."
-      },
-      {
-        "name": "Ram Jets",
-        "description": "Each time this unit is selected to make a Normal or Advance move, until the end of the phase, add D3\" to the Move characteristic of this model."
-      },
-      {
-        "name": "Saturation Fire",
-        "description": "Each time this model makes a ranged attack that targets a unit within range of one or more objective markers, that attack has the **[IGNORES COVER]** ability."
-      }
-    ],
-    "special_rules": [
-      "Deadly Demise D6",
-      "Super-Heavy Walker",
-      "Code Chivalric",
-      "Assault",
-      "Rapid Fire",
-      "Blast"
-    ],
-    "keywords": [
-      "Vehicle",
-      "Walker",
-      "Titanic",
-      "Towering",
-      "Character",
-      "Imperium",
-      "Faction: Imperial Knights",
-      "Bellatus",
-      "Knight Destrier",
-      "Ranged Weapon",
-      "Melee Weapon",
-      "Ranged Weapon",
-      "Ranged Weapon"
+      "Knight Defender"
     ]
   }
 ]

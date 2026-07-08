@@ -31,7 +31,7 @@
           "A": "1",
           "BS": "2+",
           "S": "8",
-          "AP": "-3",
+          "AP": "-2",
           "D": "2",
           "Keywords": "Hazardous, Pistol"
         },
@@ -94,11 +94,7 @@
       "Imperium",
       "Tacticus",
       "Faction: Adeptus Astartes",
-      "Faction: Black Templars",
-      "Epic Hero",
-      "Character",
-      "Grenades",
-      "Chaplain Grimaldus"
+      "Faction: Black Templars"
     ]
   },
   {
@@ -265,7 +261,6 @@
       "Templar Vows"
     ],
     "keywords": [
-      "Power Weapon",
       "Infantry",
       "Battleline",
       "Grenades",
@@ -388,8 +383,7 @@
       "Tacticus",
       "Faction: Adeptus Astartes",
       "Faction: Black Templars",
-      "Primaris Sword Brethren",
-      "Power Weapon"
+      "Primaris Sword Brethren"
     ]
   },
   {
@@ -399,7 +393,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 100,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -473,8 +467,7 @@
       "Tacticus",
       "Faction: Adeptus Astartes",
       "Emperor's Champion",
-      "Faction: Black Templars",
-      "Melee Weapon"
+      "Faction: Black Templars"
     ]
   },
   {
@@ -695,7 +688,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 150,
+      "base": 160,
       "variants": []
     },
     "composition": {
@@ -881,8 +874,7 @@
       "Repulsor",
       "Faction: Adeptus Astartes",
       "Transport",
-      "Faction: Black Templars",
-      "Damage Dx Weapon"
+      "Faction: Black Templars"
     ]
   },
   {
@@ -892,7 +884,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 235,
+      "base": 220,
       "variants": []
     },
     "composition": {
@@ -966,7 +958,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 70,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -1058,9 +1050,7 @@
       "Faction: Adeptus Astartes",
       "Faction: Black Templars",
       "Lieutenant",
-      "Castellan",
-      "Melee Weapon",
-      "Melee Weapon"
+      "Castellan"
     ]
   },
   {
@@ -1105,7 +1095,7 @@
           "A": "1",
           "BS": "2+",
           "S": "8",
-          "AP": "-3",
+          "AP": "-2",
           "D": "2",
           "Keywords": "Hazardous, Pistol"
         },
@@ -1154,8 +1144,6 @@
       "Pistol"
     ],
     "keywords": [
-      "Melee Weapon",
-      "Ranged Weapon",
       "Character",
       "Infantry",
       "Grenades",
@@ -1174,7 +1162,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 60,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -1246,9 +1234,7 @@
       "Tacticus",
       "Faction: Adeptus Astartes",
       "Faction: Black Templars",
-      "Execrator",
-      "Melee Weapon",
-      "Extra Attacks Weapon"
+      "Execrator"
     ]
   },
   {
@@ -1258,7 +1244,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 55,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -1310,7 +1296,6 @@
       "Lethal Hits"
     ],
     "keywords": [
-      "Melee Weapon",
       "Character",
       "Infantry",
       "Grenades",
@@ -1449,8 +1434,6 @@
       "Templar Vows"
     ],
     "keywords": [
-      "Power Weapon",
-      "Power Fist Weapon",
       "Infantry",
       "Grenades",
       "Imperium",
@@ -1528,7 +1511,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 100,
+      "base": 90,
       "variants": []
     },
     "composition": {

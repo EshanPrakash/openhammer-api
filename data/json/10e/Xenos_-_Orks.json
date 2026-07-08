@@ -21,7 +21,7 @@
       "LD": "7+",
       "OC": "5"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": "This model has a transport capacity of 22 **Orks Infantry** models. If this model is equipped with a killkannon, it has a transport capacity of 12 **Orks Infantry** models. Each **Mega Armour** or **Jump Pack** model takes up the space of 2 models. The **Ghazghkull Thraka** model takes up the space of 4 models.",
     "weapons": {
       "ranged": [
@@ -255,8 +255,7 @@
       "Battleline",
       "Beast Snagga",
       "Beast Snagga Boyz",
-      "Faction: Orks",
-      "Attacks Dx Weapon"
+      "Faction: Orks"
     ]
   },
   {
@@ -281,7 +280,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -330,7 +329,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- **Beast Snagga Boyz**"
+        "description": "This model can be attached to the following unit:\n- BEAST SNAGGA BOYZ"
       }
     ],
     "special_rules": [
@@ -347,9 +346,7 @@
       "Beast Snagga",
       "Beastboss",
       "Warboss",
-      "Faction: Orks",
-      "Melee Weapon",
-      "Ranged Weapon"
+      "Faction: Orks"
     ]
   },
   {
@@ -374,7 +371,7 @@
       "LD": "6+",
       "OC": "3"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -449,9 +446,7 @@
       "Beastboss on Squigosaur",
       "Faction: Orks",
       "Warboss",
-      "Mounted",
-      "Melee Weapon",
-      "Extra Attacks Weapon"
+      "Mounted"
     ]
   },
   {
@@ -573,8 +568,7 @@
       "Big Mek in Mega Armour",
       "Faction: Orks",
       "Mega Armour",
-      "Mek",
-      "Ranged Weapon"
+      "Mek"
     ]
   },
   {
@@ -720,7 +714,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Boyz**\n- **Lootas**\n- **Mek Gunz**\n- **Nobz**"
+        "description": "This model can be attached to the following units:\n- BOYZ\n- LOOTAZ\n- MEK GUNZ\n- NOBZ"
       },
       {
         "name": "Grot Assistant",
@@ -728,8 +722,8 @@
       }
     ],
     "special_rules": [
-      "Waaagh!",
-      "Leader"
+      "Leader",
+      "Waaagh!"
     ],
     "keywords": [
       "Character",
@@ -846,7 +840,7 @@
       "LD": "7+",
       "OC": "0"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -925,7 +919,7 @@
       "LD": "7+",
       "OC": "3"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1016,7 +1010,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1099,7 +1093,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1374,7 +1368,7 @@
       "LD": "7+",
       "OC": "0"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1440,8 +1434,7 @@
       "Aircraft",
       "Burna-bommer",
       "Faction: Orks",
-      "Speed Freeks",
-      "Attacks Dx Weapon"
+      "Speed Freeks"
     ]
   },
   {
@@ -1466,7 +1459,7 @@
       "LD": "7+",
       "OC": "0"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1535,7 +1528,7 @@
       "LD": "7+",
       "OC": "3"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1642,7 +1635,7 @@
       "LD": "6+",
       "OC": "3"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1719,10 +1712,7 @@
       "Deffkilla Wartrike",
       "Faction: Orks",
       "Character",
-      "Speed Freeks",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Melee Weapon"
+      "Speed Freeks"
     ]
   },
   {
@@ -1752,7 +1742,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1917,7 +1907,7 @@
       "LD": "8+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (4+)",
+    "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -1983,7 +1973,11 @@
         "description": "This unit can be attached to the following units:\n- **Boyz**\n- **Meganobz**\n- **Nobz**"
       },
       {
-        "name": "Invulnerable Save (2+*) [Makari]",
+        "name": "Invulnerable Save (4+): Ghazghkull",
+        "description": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Invulnerable Save (2+*): Makari",
         "description": "This model has a 2+ invulnerable save. You cannot re-roll invulnerable saving throws made for this model."
       }
     ],
@@ -1998,9 +1992,7 @@
       "Infantry",
       "Epic Hero",
       "Character",
-      "Faction: Orks",
-      "Ghazghkull Thraka",
-      "Warboss"
+      "Faction: Orks"
     ]
   },
   {
@@ -2025,7 +2017,7 @@
       "LD": "7+",
       "OC": "8"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": "This model has a transport capacity of 12 ORKS INFANTRY models (excluding GHAZGHKULL THRAKA). Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models.",
     "weapons": {
       "ranged": [
@@ -2240,7 +2232,7 @@
       "LD": "7+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (4+)",
+    "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -2427,9 +2419,7 @@
       "Beast Snagga",
       "Kill Rig",
       "Faction: Orks",
-      "Monster",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon"
+      "Monster"
     ]
   },
   {
@@ -2459,7 +2449,7 @@
       "LD": "8+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -2664,7 +2654,7 @@
       },
       {
         "name": "Patrol Squad",
-        "description": "At the start of the Declare Battle Formations step this unit can be split into two units, each containing five models.\n(when splitting a unit in this way, make a note of which models form each of the two new units. If you are splitting a unit that is equipped with 1 bomb squig and/or 1 distraction grot, only one of the new units can use that ability during the battle - make a note of which of the new units this will be)."
+        "description": "At the start of the Declare Battle Formations step this unit can be split into two units, each containing five models."
       },
       {
         "name": "Distraction Grot",
@@ -2706,7 +2696,7 @@
       "LD": "7+",
       "OC": "3"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -2774,8 +2764,7 @@
       "Kustom Boosta-blasta",
       "Faction: Orks",
       "Grenades",
-      "Speed Freeks",
-      "Attacks Dx Weapon"
+      "Speed Freeks"
     ]
   },
   {
@@ -2848,7 +2837,7 @@
       "LD": "7+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -3016,6 +3005,7 @@
     ],
     "special_rules": [
       "Waaagh!",
+      "Feel No Pain",
       "Twin-linked"
     ],
     "keywords": [
@@ -3048,7 +3038,7 @@
       "LD": "7+",
       "OC": "3"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -3196,9 +3186,7 @@
       "Character",
       "Infantry",
       "Mek",
-      "Faction: Orks",
-      "Melee Weapon",
-      "Melee Weapon"
+      "Faction: Orks"
     ]
   },
   {
@@ -3223,7 +3211,7 @@
       "LD": "8+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -3318,10 +3306,7 @@
       "Vehicle",
       "Mek Gunz",
       "Faction: Orks",
-      "Grots",
-      "Attacks Dx Weapon",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon"
+      "Grots"
     ]
   },
   {
@@ -3346,7 +3331,7 @@
       "LD": "7+",
       "OC": "8"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": "This model has a transport capacity of 12 ORKS INFANTRY models (excluding GHAZGHKULL THRAKA). Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models.",
     "weapons": {
       "ranged": [
@@ -3437,8 +3422,7 @@
       "Transport",
       "Walker",
       "Morkanaut",
-      "Faction: Orks",
-      "Damage Dx Weapon"
+      "Faction: Orks"
     ]
   },
   {
@@ -3463,7 +3447,7 @@
       "LD": "6+",
       "OC": "3"
     },
-    "invuln_save": "Invulnerable Save (4+)",
+    "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -3605,8 +3589,7 @@
       "Character",
       "Infantry",
       "Nob with Waaagh! Banner",
-      "Faction: Orks",
-      "Melee Weapon"
+      "Faction: Orks"
     ]
   },
   {
@@ -3783,8 +3766,7 @@
       "Infantry",
       "Beast Snagga",
       "Faction: Orks",
-      "Painboss",
-      "Melee Weapon"
+      "Painboss"
     ]
   },
   {
@@ -3887,7 +3869,7 @@
       "LD": "7+",
       "OC": "3"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -3972,7 +3954,7 @@
       "LD": "7+",
       "OC": "3"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -4052,7 +4034,7 @@
       "LD": "6+",
       "OC": "12"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": "This model has a transport capacity of 22 ORKS INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models. The GHAZGHKULL THRAKA model takes up the space of 15 models.",
     "weapons": {
       "ranged": [
@@ -4151,7 +4133,7 @@
       },
       {
         "name": "Stompin’ Forward",
-        "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding **Titanic** models) and terrain features that are 4\" or less in height as if they were not there."
+        "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
       }
     ],
     "special_rules": [
@@ -4167,10 +4149,7 @@
       "Towering",
       "Walker",
       "Stompa",
-      "Faction: Orks",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon",
-      "Attacks Dx Weapon"
+      "Faction: Orks"
     ]
   },
   {
@@ -4352,7 +4331,8 @@
       }
     ],
     "special_rules": [
-      "Waaagh!"
+      "Waaagh!",
+      "Pistol"
     ],
     "keywords": [
       "Infantry",
@@ -4383,7 +4363,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": "This model has a transport capacity of 12 ORKS INFANTRY models. Each MEGA ARMOUR model takes up the space of 2 models. It cannot transport JUMP PACK or GHAZGHKULL THRAKA models.",
     "weapons": {
       "ranged": [
@@ -4467,7 +4447,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -4574,7 +4554,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -4650,15 +4630,15 @@
       "Waaagh!",
       "Leader",
       "Pistol",
-      "Twin-linked"
+      "Twin-linked",
+      "Extra Attacks"
     ],
     "keywords": [
       "Warboss",
       "Character",
       "Infantry",
       "Grenades",
-      "Faction: Orks",
-      "Ranged Weapon"
+      "Faction: Orks"
     ]
   },
   {
@@ -4683,7 +4663,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -4718,7 +4698,7 @@
       },
       {
         "name": "Dead Brutal",
-        "description": "While the Waaagh! is active for your army, this model's 'uge choppa has a Damage characteristic of 3."
+        "description": "When you call a Waaagh!, until the start of the next battle round, this model's 'uge choppa has a Damage characteristic of 3."
       },
       {
         "name": "Leader",
@@ -4736,8 +4716,7 @@
       "Warboss in Mega Armour",
       "Faction: Orks",
       "Mega Armour",
-      "Warboss",
-      "Ranged Weapon"
+      "Warboss"
     ]
   },
   {
@@ -4762,7 +4741,7 @@
       "LD": "7+",
       "OC": "0"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -4840,9 +4819,6 @@
       "Rapid Fire"
     ],
     "keywords": [
-      "Attacks Dx Weapon",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon",
       "Vehicle",
       "Aircraft",
       "Fly",
@@ -4908,19 +4884,21 @@
         "description": "Once per turn, at the end of your Movement phase, one WEIRDBOY from your army can use this ability. If it does, roll one D6: on a 1, that WEIRDBOY’s unit suffers D6 mortal wounds; on a 2+, remove this WEIRDBOY’s unit from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
       },
       {
-        "name": "Waaagh! Energy",
-        "description": "While this model is leading a unit, add 1 to the Strength and Damage characteristics of this model’s ’Eadbanger weapon for every 5 models in that unit (rounding down), but while that unit contains 10 or more models, that weapon has the **[HAZARDOUS]** ability."
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- BOYZ"
       },
       {
-        "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- **Boyz**"
+        "name": "Waaagh! Energy",
+        "description": "While this model is leading a unit, add 1 to the Strength and Damage characteristics of this model’s ’Eadbanger weapon for every 5 models in that unit (rounding down), but while that unit contains 10 or more models, that weapon has the [HAZARDOUS] ability."
       }
     ],
     "special_rules": [
       "Deadly Demise D3",
       "Waaagh!",
+      "Leader",
       "Hazardous",
-      "Leader"
+      "Psychic",
+      "Precision"
     ],
     "keywords": [
       "Weirdboy",
@@ -4986,20 +4964,21 @@
         "description": "In your opponent’s Command phase, you can select one enemy unit within 18\" of and visible to this **Psyker** and roll one D6: on a 1, this **Psyker**’s unit suffers D3 mortal wounds; on a 2+, until the start of your opponent’s next Command phase, that enemy unit is confrazzled. While a unit is confrazzled, each time a Battle-shock or Leadership test is taken for it, subtract 2 from that test."
       },
       {
-        "name": "Unstable Oracle",
-        "description": "While this model is leading a unit, add 2 to the Attacks characteristic of this model’s Eyez of Mork weapon for every 5 models in that unit (rounding down), but while that unit contains 10 or more models, that weapon has the [HAZARDOUS] ability."
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- BEAST SNAGGA BOYZ"
       },
       {
-        "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- **Beast Snagga Boyz**"
+        "name": "Unstable Oracle",
+        "description": "While this model is leading a unit, add 2 to the Attacks characteristic of this model’s Eyez of Mork weapon for every 5 models in that unit (rounding down), but while that unit contains 10 or more models, that weapon has the [HAZARDOUS] ability."
       }
     ],
     "special_rules": [
       "Deadly Demise D3",
       "Feel No Pain 6+",
       "Waaagh!",
+      "Leader",
       "Hazardous",
-      "Leader"
+      "Psychic"
     ],
     "keywords": [
       "Character",
@@ -5007,8 +4986,7 @@
       "Wurrboy",
       "Psyker",
       "Beast Snagga",
-      "Faction: Orks",
-      "Melee Weapon"
+      "Faction: Orks"
     ]
   },
   {
@@ -5072,7 +5050,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- **Gretchin**"
+        "description": "This model can be attached to the following unit:\n- GRETCHIN"
       }
     ],
     "special_rules": [
@@ -5259,10 +5237,7 @@
       "Vehicle",
       "Grot Mega-Tank",
       "Faction: Orks",
-      "Grots",
-      "Damage Dx Weapon",
-      "Attacks Dx Weapon",
-      "Attacks Dx Weapon"
+      "Grots"
     ]
   },
   {
@@ -5464,8 +5439,7 @@
       "Towering",
       "Transport",
       "Gargantuan Squiggoth",
-      "Faction: Orks",
-      "Attacks Dx Weapon"
+      "Faction: Orks"
     ]
   },
   {
@@ -5569,8 +5543,7 @@
       "Titanic",
       "Transport",
       "Kill Tank",
-      "Faction: Orks",
-      "Attacks Dx Weapon"
+      "Faction: Orks"
     ]
   },
   {
@@ -5595,7 +5568,7 @@
       "LD": "7+",
       "OC": "5"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -5673,8 +5646,7 @@
       "Vehicle",
       "Mega Dread",
       "Walker",
-      "Faction: Orks",
-      "Attacks Dx Weapon"
+      "Faction: Orks"
     ]
   },
   {
@@ -5699,7 +5671,7 @@
       "LD": "7+",
       "OC": "5"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -5791,7 +5763,7 @@
       "LD": "7+",
       "OC": "3"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": "This model has a transport capacity of 12 ORKS INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models. This model cannot transport GHAZGHKULL THRAKA models.",
     "weapons": {
       "ranged": [
@@ -5899,7 +5871,7 @@
       "LD": "6+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -5971,8 +5943,7 @@
       "Speed Freeks",
       "Grenades",
       "Warboss",
-      "Faction: Orks",
-      "Melee Weapon"
+      "Faction: Orks"
     ]
   },
   {
@@ -5997,7 +5968,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -6092,7 +6063,7 @@
       },
       {
         "name": "Speed Freeks Mob",
-        "description": "If a model from your army with the Leader ability can be attached to a **Warbikers** unit, it can be attached to this unit instead."
+        "description": "If a model from your army with the Leader ability can be attached to a WARBIKERS unit, it can be attached to this unit instead."
       }
     ],
     "special_rules": [
@@ -6132,7 +6103,7 @@
       "LD": "7+",
       "OC": "4"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": "This model has a transport capacity of 6 ORKS INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models. This model cannot transport GHAZGHKULL THRAKA models.",
     "weapons": {
       "ranged": [
@@ -6300,7 +6271,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -6397,7 +6368,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -6463,7 +6434,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -6539,7 +6510,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -6615,7 +6586,7 @@
       "LD": "8+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -6695,8 +6666,7 @@
       "Artillery",
       "Big Gunz",
       "Faction: Orks",
-      "Grots",
-      "Attacks Dx Weapon"
+      "Grots"
     ]
   },
   {
@@ -6721,7 +6691,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -6829,7 +6799,7 @@
       "LD": "7+",
       "OC": "8"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": "This model has a transport capacity of 12 ORKS INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models. This model cannot transport GHAZGHKULL THRAKA models.",
     "weapons": {
       "ranged": [
@@ -6940,7 +6910,7 @@
       "LD": "7+",
       "OC": "8"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": "This model has a transport capacity of 22 ORKS INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models. The Ghazghkull Thraka model takes up the space of 18 models.",
     "weapons": {
       "ranged": [
@@ -7080,7 +7050,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": "This model has a transport capacity of 12 ORKS INFANTRY models. This model cannot transport GHAZGHKULL THRAKA, MEGA ARMOUR or JUMP PACK models.",
     "weapons": {
       "ranged": [
@@ -7206,7 +7176,7 @@
       "LD": "7+",
       "OC": "0"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -7277,8 +7247,7 @@
       "Aircraft",
       "Fighta-Bommer",
       "Faction: Orks",
-      "Speed Freeks",
-      "Attacks Dx Weapon"
+      "Speed Freeks"
     ]
   },
   {
@@ -7303,7 +7272,7 @@
       "LD": "7+",
       "OC": "0"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -7386,7 +7355,7 @@
       "LD": "7+",
       "OC": "5"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -7503,7 +7472,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -7548,8 +7517,7 @@
       "Speed Freeks",
       "Grot Bomm Launcha",
       "Faction: Orks",
-      "Grots",
-      "Attacks Dx Weapon"
+      "Grots"
     ]
   },
   {
@@ -7574,7 +7542,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (6+)",
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -7828,7 +7796,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -7984,7 +7952,9 @@
     ],
     "special_rules": [
       "Waaagh!",
-      "Leader"
+      "Leader",
+      "Devastating Wounds",
+      "Anti-"
     ],
     "keywords": [
       "Infantry",
@@ -8132,16 +8102,6 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Stikka (ranged)",
-          "Range": "9\"",
-          "A": "1",
-          "BS": "5+",
-          "S": "5",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Assault, Anti-Monster 4+, Anti-Vehicle 4+"
-        },
-        {
           "name": "Saddlegit weapons",
           "Range": "9\"",
           "A": "1",
@@ -8150,6 +8110,16 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Assault"
+        },
+        {
+          "name": "Stikka (ranged)",
+          "Range": "9\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Assault, Anti-Monster 4+, Anti-Vehicle 4+"
         }
       ],
       "melee": [
@@ -8177,9 +8147,10 @@
     },
     "abilities": [],
     "special_rules": [
+      "Assault",
       "Anti-",
       "Lance",
-      "Assault"
+      "Extra Attacks"
     ],
     "keywords": []
   },
@@ -8222,16 +8193,6 @@
       ],
       "melee": [
         {
-          "name": "Big choppa",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "3+",
-          "S": "6",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
-        },
-        {
           "name": "Squig jaws",
           "Range": "Melee",
           "A": "3",
@@ -8240,11 +8201,22 @@
           "AP": "-1",
           "D": "2",
           "Keywords": "Extra Attacks"
+        },
+        {
+          "name": "Big choppa",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
         }
       ]
     },
     "abilities": [],
     "special_rules": [
+      "Extra Attacks",
       "Anti-"
     ],
     "keywords": []
@@ -8344,7 +8316,8 @@
       "Devastating Wounds",
       "Anti-",
       "Hazardous",
-      "Twin-linked"
+      "Twin-linked",
+      "Pistol"
     ],
     "keywords": [
       "Faction: Orks",
@@ -8375,7 +8348,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -8450,7 +8423,7 @@
       "LD": "7+",
       "OC": "2"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -8498,284 +8471,6 @@
       "Grots",
       "Vehicle",
       "Walker"
-    ]
-  },
-  {
-    "name": "Hordeboss [Crucible]",
-    "id": "2ba9-e97a-909d-3ac5",
-    "type": "model",
-    "faction": "Orks",
-    "faction_type": "Xenos",
-    "points": {
-      "base": 75,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "5",
-      "SV": "4+",
-      "W": "5",
-      "LD": "7+",
-      "OC": "1"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "More Lads, More Swagger",
-        "description": "Improve this model's Leadership characteristic by 1 for every 5 models in this unit."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Boyz**\n- **Nobz**"
-      }
-    ],
-    "special_rules": [
-      "Waaagh!",
-      "Leader",
-      "Crucible"
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Faction: Orks",
-      "Hordeboss",
-      "Crucible",
-      "Grenades"
-    ]
-  },
-  {
-    "name": "Warphead [Crucible]",
-    "id": "54de-2004-bbc1-3ac6",
-    "type": "model",
-    "faction": "Orks",
-    "faction_type": "Xenos",
-    "points": {
-      "base": 65,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "5",
-      "SV": "5+",
-      "W": "4",
-      "LD": "7+",
-      "OC": "1"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Channellin' da Waaagh!",
-        "description": "Each time this model attacks with a Psychic weapon, until the end of the phase, improve the Attacks, Strength and Damage characteristics of that weapon by 1 for every 5 models in this unit. While this unit contains 10 or more models, those weapons have the **[HAZARDOUS]** ability."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Boyz**\n- **Nobz**\n- **Gretchin**"
-      }
-    ],
-    "special_rules": [
-      "Waaagh!",
-      "Deadly Demise D3",
-      "Hazardous",
-      "Leader",
-      "Crucible"
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Faction: Orks",
-      "Crucible",
-      "Psyker",
-      "Warphead"
-    ]
-  },
-  {
-    "name": "Upstart Gretchin [Crucible]",
-    "id": "6a69-8e75-49ae-408f",
-    "type": "model",
-    "faction": "Orks",
-    "faction_type": "Xenos",
-    "points": {
-      "base": 40,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "2",
-      "SV": "7+",
-      "W": "3",
-      "LD": "8+",
-      "OC": "2"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Skulkin' Grot",
-        "description": "While this model is leading a unit, models in that unit have the Infiltrators and Stealth abilities."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Gretchin**"
-      }
-    ],
-    "special_rules": [
-      "Waaagh!",
-      "Crucible",
-      "Infiltrators",
-      "Stealth",
-      "Leader"
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Faction: Orks",
-      "Crucible",
-      "Grenades",
-      "Grots",
-      "Upstart Gretchin"
-    ]
-  },
-  {
-    "name": "Wazdakka Gutsmek",
-    "id": "2ab7-ab71-0af4-5d39",
-    "type": "model",
-    "faction": "Orks",
-    "faction_type": "Xenos",
-    "points": {
-      "base": 175,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "14\"",
-      "T": "8",
-      "SV": "3+",
-      "W": "10",
-      "LD": "6+",
-      "OC": "3"
-    },
-    "invuln_save": "Invulnerable Save (4+)",
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Psyko-gatler",
-          "Range": "24\"",
-          "A": "12",
-          "BS": "4+",
-          "S": "6",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Assault, Sustained Hits 1"
-        },
-        {
-          "name": "Grabba dragga",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "10",
-          "AP": "-2",
-          "D": "3",
-          "Keywords": "Assault, Precision"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Fixit's wrench",
-          "Range": "Melee",
-          "A": "1",
-          "WS": "4+",
-          "S": "3",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Extra Attacks"
-        },
-        {
-          "name": "Grabba dragga",
-          "Range": "Melee",
-          "A": "6",
-          "WS": "2+",
-          "S": "10",
-          "AP": "-2",
-          "D": "3",
-          "Keywords": "Lance"
-        },
-        {
-          "name": "Speeding bulk and flaming exhaust",
-          "Range": "Melee",
-          "A": "6",
-          "WS": "2+",
-          "S": "5",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Extra Attacks"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Fixit da Grot",
-        "description": "At the start of your Command phase, this model regains up to D3 lost wounds."
-      },
-      {
-        "name": "Waaagh! Wazdakka",
-        "description": "If this model is your **Warlord**, **Warbiker** units from your army have the **Battleline** keyword."
-      },
-      {
-        "name": "Throttlerokkit Shokka Engine",
-        "description": "In your Command phase, select one of the abilities in the Throttlerokkit Shokka Engine section. Until the start of your next Command phase, this model has that ability."
-      }
-    ],
-    "special_rules": [
-      "Deadly Demise D3",
-      "Deep Strike",
-      "Lone Operative",
-      "Waaagh!",
-      "Extra Attacks",
-      "Sustained Hits",
-      "Assault",
-      "Precision",
-      "Lance"
-    ],
-    "keywords": [
-      "Epic Hero",
-      "Character",
-      "Faction: Orks",
-      "Wazdakka Gutsmek",
-      "Mounted",
-      "Vehicle",
-      "Speed Freeks",
-      "Smoke",
-      "Wazdakka Warlord Flag"
     ]
   }
 ]

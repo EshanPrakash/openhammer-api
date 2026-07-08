@@ -36,7 +36,7 @@
           "Keywords": "Assault, Heavy"
         },
         {
-          "name": "Boltstorm gauntlet",
+          "name": "Boltstorm Gauntlet",
           "Range": "12\"",
           "A": "3",
           "BS": "2+",
@@ -78,9 +78,9 @@
           "Keywords": "Extra Attacks"
         },
         {
-          "name": "Master-crafted power weapon",
+          "name": "Master-crafted Power Weapon",
           "Range": "Melee",
-          "A": "6",
+          "A": "5",
           "WS": "2+",
           "S": "5",
           "AP": "-2",
@@ -88,7 +88,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -124,20 +124,7 @@
       "Grenades",
       "Imperium",
       "Faction: Adeptus Astartes",
-      "Gravis",
-      "Infantry",
-      "Character",
-      "Captain",
-      "Imperium",
-      "Grenades",
-      "Gravis",
-      "Ranged Weapon",
-      "Melee Weapon",
-      "Extra Attacks Weapon",
-      "Melee Weapon",
-      "Extra Attacks Weapon",
-      "Melee Weapon",
-      "Extra Attacks Weapon"
+      "Gravis"
     ]
   },
   {
@@ -224,9 +211,7 @@
       "Imperium",
       "Captain",
       "Phobos",
-      "Faction: Adeptus Astartes",
-      "Ranged Weapon",
-      "Melee Weapon"
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -256,7 +241,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -316,7 +301,6 @@
       "Templar Vows"
     ],
     "keywords": [
-      "Melee Weapon",
       "Character",
       "Infantry",
       "Captain",
@@ -362,7 +346,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "Hand flamer",
+          "name": "Hand Flamer",
           "Range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -372,7 +356,7 @@
           "Keywords": "Ignores Cover, Pistol, Torrent"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -382,7 +366,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -404,7 +388,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -490,7 +474,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Hand flamer",
+          "name": "Hand Flamer",
           "Range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -500,7 +484,7 @@
           "Keywords": "Ignores Cover, Pistol, Torrent"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -510,7 +494,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -562,7 +546,7 @@
       ],
       "melee": [
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -582,7 +566,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -743,7 +727,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Hand flamer",
+          "name": "Hand Flamer",
           "Range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -753,7 +737,7 @@
           "Keywords": "Ignores Cover, Pistol, Torrent"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -763,7 +747,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -795,7 +779,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -805,7 +789,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -1168,7 +1152,7 @@
           "Keywords": "Anti-vehicle 2+, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -1178,7 +1162,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -1188,7 +1172,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -1228,7 +1212,7 @@
           "Keywords": "Melta 2"
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "➤ Plasma Gun - Standard",
           "Range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -1238,7 +1222,7 @@
           "Keywords": "Rapid Fire 1"
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "➤ Plasma Gun - Supercharge",
           "Range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -1308,7 +1292,7 @@
           "Keywords": "Heavy"
         },
         {
-          "name": "➤ Plasma cannon - standard",
+          "name": "➤ Plasma Cannon - Standard",
           "Range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -1318,7 +1302,7 @@
           "Keywords": "Blast, Heavy"
         },
         {
-          "name": "➤ Plasma cannon - supercharge",
+          "name": "➤ Plasma Cannon - Supercharge",
           "Range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -1350,7 +1334,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Twin lightning claws",
+          "name": "Twin Lightning Claws",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -1370,7 +1354,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "2",
           "WS": "3+",
@@ -1390,7 +1374,7 @@
           "Keywords": "Devastating Wounds"
         },
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -1724,7 +1708,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -1734,7 +1718,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -1746,7 +1730,7 @@
       ],
       "melee": [
         {
-          "name": "Master-crafted power weapon",
+          "name": "Master-crafted Power Weapon",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -1785,7 +1769,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 100,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -1805,7 +1789,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -1815,7 +1799,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -1835,7 +1819,7 @@
           "Keywords": "Melta 2, Pistol"
         },
         {
-          "name": "Hand flamer",
+          "name": "Hand Flamer",
           "Range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -1940,7 +1924,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -1950,7 +1934,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -1970,7 +1954,7 @@
           "Keywords": "Melta 2, Pistol"
         },
         {
-          "name": "Hand flamer",
+          "name": "Hand Flamer",
           "Range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -2143,7 +2127,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "5",
           "WS": "3+",
@@ -2153,7 +2137,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -2188,8 +2172,7 @@
       "Grenades",
       "Imperium",
       "Tacticus",
-      "Sternguard Veteran Squad",
-      "Faction: Adeptus Astartes"
+      "Sternguard Veteran Squad"
     ]
   },
   {
@@ -2305,7 +2288,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 95,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -2357,7 +2340,7 @@
       ],
       "melee": [
         {
-          "name": "Twin power fist",
+          "name": "Twin Power Fist",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -2420,7 +2403,7 @@
           "name": "Thunder Hammer",
           "Range": "Melee",
           "A": "3",
-          "WS": "3+",
+          "WS": "4+",
           "S": "8",
           "AP": "-2",
           "D": "2",
@@ -2429,7 +2412,7 @@
         {
           "name": "Twin Lightning Claws",
           "Range": "Melee",
-          "A": "6",
+          "A": "5",
           "WS": "3+",
           "S": "5",
           "AP": "-2",
@@ -2445,7 +2428,7 @@
       },
       {
         "name": "Terminatus Assault",
-        "description": "At the start of the Fight phase, each enemy unit within Engagement Range of this unit must take a Battle-Shock test."
+        "description": "Each time this unit ends a Charge move, each enemy unit within Engagement Range of this unit must take a Battle-shock test."
       },
       {
         "name": "Storm Shield",
@@ -2457,8 +2440,6 @@
       }
     ],
     "special_rules": [
-      "Devastating Wounds",
-      "Twin-linked",
       "Deep Strike",
       "Oath of Moment",
       "Templar Vows"
@@ -2498,7 +2479,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -2550,7 +2531,7 @@
       ],
       "melee": [
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -2570,7 +2551,7 @@
           "Keywords": "Anti-Vehicle 3+"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -2692,7 +2673,7 @@
       ],
       "melee": [
         {
-          "name": "Twin lightning claws",
+          "name": "Twin Lightning Claws",
           "Range": "Melee",
           "A": "5",
           "WS": "3+",
@@ -2702,7 +2683,7 @@
           "Keywords": "Twin-linked"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -2712,7 +2693,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -2756,8 +2737,7 @@
       "Imperium",
       "Terminator",
       "Relic Terminator Squad",
-      "Faction: Adeptus Astartes",
-      "Grenades"
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -2797,7 +2777,7 @@
           "Keywords": "Rapid Fire 3, Twin-linked"
         },
         {
-          "name": "Twin flamer",
+          "name": "Twin Flamer",
           "Range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -2807,7 +2787,7 @@
           "Keywords": "Ignores Cover, Torrent, Twin-linked"
         },
         {
-          "name": "Twin meltagun",
+          "name": "Twin Meltagun",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -2854,9 +2834,7 @@
       "Imperium",
       "Centurion Assault Squad",
       "Faction: Adeptus Astartes",
-      "Centurion",
-      "Grenades",
-      "Grenades"
+      "Centurion"
     ]
   },
   {
@@ -2866,7 +2844,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 175,
+      "base": 165,
       "variants": []
     },
     "composition": {
@@ -2916,7 +2894,7 @@
           "Keywords": "Blast"
         },
         {
-          "name": "Twin heavy bolter",
+          "name": "Twin Heavy Bolter",
           "Range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -2926,7 +2904,7 @@
           "Keywords": "Sustained Hits 1, Twin-linked"
         },
         {
-          "name": "Twin lascannon",
+          "name": "Twin Lascannon",
           "Range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -3120,7 +3098,7 @@
           "Keywords": "Ignores Cover, Torrent"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -3170,7 +3148,7 @@
           "Keywords": "Melta 2"
         },
         {
-          "name": "Twin lascannon",
+          "name": "Twin Lascannon",
           "Range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -3236,11 +3214,11 @@
     ],
     "keywords": [
       "Vehicle",
+      "Dreadnought",
       "Smoke",
       "Imperium",
       "Faction: Adeptus Astartes",
-      "Walker",
-      "Dreadnought"
+      "Walker"
     ]
   },
   {
@@ -3290,7 +3268,7 @@
           "Keywords": "Rapid Fire 6, Twin-linked"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -3374,10 +3352,9 @@
       "Walker",
       "Smoke",
       "Imperium",
-      "Ironclad Dreadnought",
-      "Faction: Adeptus Astartes",
       "Dreadnought",
-      "Grenades"
+      "Ironclad Dreadnought",
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -3387,7 +3364,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 205,
+      "base": 195,
       "variants": []
     },
     "composition": {
@@ -3477,7 +3454,7 @@
           "Keywords": "Ignores Cover, Torrent"
         },
         {
-          "name": "Onslaught gatling cannon",
+          "name": "Onslaught Gatling Cannon",
           "Range": "24\"",
           "A": "8",
           "BS": "3+",
@@ -3520,8 +3497,7 @@
       "Imperium",
       "Redemptor Dreadnought",
       "Faction: Adeptus Astartes",
-      "Dreadnought",
-      "Attacks Dx Weapon"
+      "Dreadnought"
     ]
   },
   {
@@ -3662,7 +3638,7 @@
           "Keywords": "Twin-linked"
         },
         {
-          "name": "Twin Icarus ironhail heavy stubber",
+          "name": "Twin Icarus Ironhail Heavy Stubber",
           "Range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -3672,7 +3648,7 @@
           "Keywords": "Anti-FLY 4+, Rapid Fire 3, Twin-linked"
         },
         {
-          "name": "Twin heavy bolter",
+          "name": "Twin Heavy Bolter",
           "Range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -3682,7 +3658,7 @@
           "Keywords": "Sustained Hits 1, Twin-linked"
         },
         {
-          "name": "Twin multi-melta",
+          "name": "Twin Multi-melta",
           "Range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -3739,11 +3715,11 @@
     ],
     "keywords": [
       "Vehicle",
+      "Dreadnought",
       "Walker",
       "Brutalis Dreadnought",
       "Imperium",
-      "Faction: Adeptus Astartes",
-      "Dreadnought"
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -3793,7 +3769,7 @@
           "Keywords": "Anti-vehicle 2+, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -3803,7 +3779,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -3823,7 +3799,7 @@
           "Keywords": "Melta 2, Pistol"
         },
         {
-          "name": "Hand flamer",
+          "name": "Hand Flamer",
           "Range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -3843,7 +3819,7 @@
           "Keywords": "Ignores Cover, Torrent"
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "➤ Plasma Gun - Standard",
           "Range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -3853,7 +3829,7 @@
           "Keywords": "Rapid Fire 1"
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "➤ Plasma Gun - Supercharge",
           "Range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -3885,7 +3861,7 @@
           "Keywords": "Sustained Hits 1"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -3905,7 +3881,7 @@
           "Keywords": "Devastating Wounds"
         },
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -3925,7 +3901,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Twin lightning claws",
+          "name": "Twin Lightning Claws",
           "Range": "Melee",
           "A": "5",
           "WS": "3+",
@@ -4005,7 +3981,7 @@
           "Keywords": "Anti-vehicle 2+, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -4015,7 +3991,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -4035,7 +4011,7 @@
           "Keywords": "Melta 2, Pistol"
         },
         {
-          "name": "Hand flamer",
+          "name": "Hand Flamer",
           "Range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -4055,7 +4031,7 @@
           "Keywords": "Ignores Cover, Torrent"
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "➤ Plasma Gun - Standard",
           "Range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -4065,7 +4041,7 @@
           "Keywords": "Rapid Fire 1"
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "➤ Plasma Gun - Supercharge",
           "Range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -4097,7 +4073,7 @@
           "Keywords": "Sustained Hits 1"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -4117,7 +4093,7 @@
           "Keywords": "Devastating Wounds"
         },
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -4137,7 +4113,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Twin lightning claws",
+          "name": "Twin Lightning Claws",
           "Range": "Melee",
           "A": "5",
           "WS": "3+",
@@ -4210,7 +4186,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "Twin bolt rifle",
+          "name": "Twin Bolt Rifle",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -4220,7 +4196,7 @@
           "Keywords": "Twin-linked"
         },
         {
-          "name": "Onslaught gatling cannon",
+          "name": "Onslaught Gatling Cannon",
           "Range": "24\"",
           "A": "8",
           "BS": "3+",
@@ -4308,7 +4284,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "Twin bolt rifle",
+          "name": "Twin Bolt Rifle",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -4386,7 +4362,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "Twin boltgun",
+          "name": "Twin Boltgun",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -4473,7 +4449,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Twin boltgun",
+          "name": "Twin Boltgun",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -4513,7 +4489,7 @@
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
         },
         {
-          "name": "Hand flamer",
+          "name": "Hand Flamer",
           "Range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -4543,7 +4519,7 @@
           "Keywords": "Melta 2, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -4553,7 +4529,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -4563,7 +4539,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -4593,7 +4569,7 @@
           "Keywords": "Melta 2"
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "➤ Plasma Gun - Standard",
           "Range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -4603,7 +4579,7 @@
           "Keywords": "Rapid Fire 1"
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "➤ Plasma Gun - Supercharge",
           "Range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -4655,7 +4631,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -4665,7 +4641,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "2",
           "WS": "3+",
@@ -4771,7 +4747,7 @@
           "Keywords": "Blast"
         },
         {
-          "name": "Twin boltgun",
+          "name": "Twin Boltgun",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -4811,7 +4787,7 @@
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
         },
         {
-          "name": "Hand flamer",
+          "name": "Hand Flamer",
           "Range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -4841,7 +4817,7 @@
           "Keywords": "Melta 2, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -4851,7 +4827,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -4861,7 +4837,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -4883,7 +4859,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -4893,7 +4869,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "2",
           "WS": "3+",
@@ -5160,7 +5136,7 @@
           "Keywords": "Blast"
         },
         {
-          "name": "Onslaught gatling cannon",
+          "name": "Onslaught Gatling Cannon",
           "Range": "24\"",
           "A": "8",
           "BS": "3+",
@@ -5220,7 +5196,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 135,
+      "base": 150,
       "variants": []
     },
     "composition": {
@@ -5302,8 +5278,7 @@
       "Fly",
       "Imperium",
       "Storm Speeder Thunderstrike",
-      "Faction: Adeptus Astartes",
-      "Attacks Dx Weapon"
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -5393,10 +5368,7 @@
       "Fly",
       "Vehicle",
       "Storm Speeder Hammerstrike",
-      "Faction: Adeptus Astartes",
-      "Damage Dx Weapon",
-      "Damage Dx Weapon",
-      "Damage Dx Weapon"
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -5426,7 +5398,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "➤ Typhoon missile launcher - frag",
+          "name": "➤ Typhoon Missile Launcher - Frag",
           "Range": "48\"",
           "A": "2D6",
           "BS": "3+",
@@ -5436,7 +5408,7 @@
           "Keywords": "Blast"
         },
         {
-          "name": "➤ Typhoon missile launcher - krak",
+          "name": "➤ Typhoon Missile Launcher - Krak",
           "Range": "48\"",
           "A": "2",
           "BS": "3+",
@@ -5736,7 +5708,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -5746,7 +5718,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -5905,7 +5877,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 90,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -6079,7 +6051,7 @@
           "Keywords": "Heavy, Melta 2"
         },
         {
-          "name": "➤ Plasma cannon - standard",
+          "name": "➤ Plasma Cannon - Standard",
           "Range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -6089,7 +6061,7 @@
           "Keywords": "Blast, Heavy"
         },
         {
-          "name": "➤ Plasma cannon - supercharge",
+          "name": "➤ Plasma Cannon - Supercharge",
           "Range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -6129,7 +6101,7 @@
           "Keywords": "Anti-vehicle 2+, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -6139,7 +6111,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -6147,6 +6119,16 @@
           "AP": "-2",
           "D": "1",
           "Keywords": "Pistol"
+        },
+        {
+          "name": "Storm Bolter",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
         },
         {
           "name": "Combi-weapon",
@@ -6181,7 +6163,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "2",
           "WS": "3+",
@@ -6201,7 +6183,7 @@
           "Keywords": "Devastating Wounds"
         },
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -6301,7 +6283,7 @@
           "Keywords": "Blast, Indirect Fire"
         },
         {
-          "name": "Vengor launcher",
+          "name": "Vengor Launcher",
           "Range": "48\"",
           "A": "D6",
           "BS": "2+",
@@ -6457,9 +6439,7 @@
       "Faction: Adeptus Astartes",
       "Imperium",
       "Thunderfire Cannon",
-      "Artillery",
-      "Extra Attacks Weapon",
-      "Extra Attacks Weapon"
+      "Artillery"
     ]
   },
   {
@@ -6587,7 +6567,7 @@
           "Keywords": "One Shot"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -6679,7 +6659,7 @@
           "Keywords": "One Shot"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -6769,7 +6749,7 @@
           "Keywords": "One Shot"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -6860,7 +6840,7 @@
           "Keywords": "One Shot"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -6980,7 +6960,7 @@
           "Keywords": "One Shot"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -7099,7 +7079,7 @@
           "Keywords": "Blast"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -7388,7 +7368,7 @@
           "Keywords": "One Shot"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -7428,8 +7408,7 @@
       "Smoke",
       "Imperium",
       "Faction: Adeptus Astartes",
-      "Vindicator",
-      "Damage Dx Weapon"
+      "Vindicator"
     ]
   },
   {
@@ -7489,7 +7468,7 @@
           "Keywords": "Melta 2"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -7499,7 +7478,7 @@
           "Keywords": "Rapid Fire 2"
         },
         {
-          "name": "Twin heavy bolter",
+          "name": "Twin Heavy Bolter",
           "Range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -7603,7 +7582,7 @@
           "Keywords": "Melta 2"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -7613,7 +7592,7 @@
           "Keywords": "Rapid Fire 2"
         },
         {
-          "name": "Twin assault cannon",
+          "name": "Twin Assault Cannon",
           "Range": "24\"",
           "A": "6",
           "BS": "3+",
@@ -7718,7 +7697,7 @@
           "Keywords": "Melta 2"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -7728,7 +7707,7 @@
           "Keywords": "Rapid Fire 2"
         },
         {
-          "name": "Twin assault cannon",
+          "name": "Twin Assault Cannon",
           "Range": "24\"",
           "A": "6",
           "BS": "3+",
@@ -7826,7 +7805,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Twin heavy bolter",
+          "name": "Twin Heavy Bolter",
           "Range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -7836,7 +7815,7 @@
           "Keywords": "Sustained Hits 1, Twin-linked"
         },
         {
-          "name": "Twin lascannon",
+          "name": "Twin Lascannon",
           "Range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -7909,7 +7888,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 230,
+      "base": 220,
       "variants": []
     },
     "composition": {
@@ -7979,7 +7958,7 @@
           "Keywords": "Rapid Fire 3"
         },
         {
-          "name": "Twin heavy bolter",
+          "name": "Twin Heavy Bolter",
           "Range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -7989,7 +7968,7 @@
           "Keywords": "Sustained Hits 1, Twin-linked"
         },
         {
-          "name": "Twin Icarus ironhail heavy stubber",
+          "name": "Twin Icarus Ironhail Heavy Stubber",
           "Range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -8093,7 +8072,7 @@
           "Keywords": "One Shot"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -8179,7 +8158,7 @@
           "Keywords": "One Shot"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -8189,7 +8168,7 @@
           "Keywords": "Rapid Fire 2"
         },
         {
-          "name": "Twin heavy bolter",
+          "name": "Twin Heavy Bolter",
           "Range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -8199,7 +8178,7 @@
           "Keywords": "Sustained Hits 1, Twin-linked"
         },
         {
-          "name": "Twin lascannon",
+          "name": "Twin Lascannon",
           "Range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -8324,7 +8303,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -8574,7 +8553,7 @@
           "Keywords": "Anti-Fly 2+"
         },
         {
-          "name": "Twin assault cannon",
+          "name": "Twin Assault Cannon",
           "Range": "24\"",
           "A": "6",
           "BS": "3+",
@@ -8594,7 +8573,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Twin heavy bolter",
+          "name": "Twin Heavy Bolter",
           "Range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -8604,7 +8583,7 @@
           "Keywords": "Sustained Hits 1, Twin-linked"
         },
         {
-          "name": "➤ Typhoon missile launcher - frag",
+          "name": "➤ Typhoon Missile Launcher - Frag",
           "Range": "48\"",
           "A": "2D6",
           "BS": "3+",
@@ -8614,7 +8593,7 @@
           "Keywords": "Blast"
         },
         {
-          "name": "➤ Typhoon missile launcher - krak",
+          "name": "➤ Typhoon Missile Launcher - Krak",
           "Range": "48\"",
           "A": "2",
           "BS": "3+",
@@ -8706,7 +8685,7 @@
           "Keywords": "Anti-Fly 2+, Twin-linked"
         },
         {
-          "name": "Twin assault cannon",
+          "name": "Twin Assault Cannon",
           "Range": "24\"",
           "A": "6",
           "BS": "3+",
@@ -8716,7 +8695,7 @@
           "Keywords": "Devastating wounds, Twin-linked"
         },
         {
-          "name": "➤ Typhoon missile launcher - frag",
+          "name": "➤ Typhoon Missile Launcher - Frag",
           "Range": "48\"",
           "A": "2D6",
           "BS": "3+",
@@ -8726,7 +8705,7 @@
           "Keywords": "Blast"
         },
         {
-          "name": "➤ Typhoon missile launcher - krak",
+          "name": "➤ Typhoon Missile Launcher - Krak",
           "Range": "48\"",
           "A": "2",
           "BS": "3+",
@@ -8736,7 +8715,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Twin heavy bolter",
+          "name": "Twin Heavy Bolter",
           "Range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -8746,7 +8725,7 @@
           "Keywords": "Sustained Hits 1, Twin-linked"
         },
         {
-          "name": "Twin lascannon",
+          "name": "Twin Lascannon",
           "Range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -8807,7 +8786,7 @@
       "max_models": 1
     },
     "stats": {
-      "M": "20+\"",
+      "M": "20\"+",
       "T": "10",
       "SV": "3+",
       "W": "14",
@@ -8859,7 +8838,7 @@
           "Keywords": "Rapid Fire 6, Twin-linked"
         },
         {
-          "name": "Twin assault cannon",
+          "name": "Twin Assault Cannon",
           "Range": "24\"",
           "A": "6",
           "BS": "3+",
@@ -8869,7 +8848,7 @@
           "Keywords": "Devastating wounds, Twin-linked"
         },
         {
-          "name": "Twin lascannon",
+          "name": "Twin Lascannon",
           "Range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -8879,7 +8858,7 @@
           "Keywords": "Twin-linked"
         },
         {
-          "name": "➤ Typhoon missile launcher - frag",
+          "name": "➤ Typhoon Missile Launcher - Frag",
           "Range": "48\"",
           "A": "2D6",
           "BS": "3+",
@@ -8889,7 +8868,7 @@
           "Keywords": "Blast"
         },
         {
-          "name": "➤ Typhoon missile launcher - krak",
+          "name": "➤ Typhoon Missile Launcher - Krak",
           "Range": "48\"",
           "A": "2",
           "BS": "3+",
@@ -8899,7 +8878,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Twin heavy bolter",
+          "name": "Twin Heavy Bolter",
           "Range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -8909,7 +8888,7 @@
           "Keywords": "Sustained Hits 1, Twin-linked"
         },
         {
-          "name": "Twin multi-melta",
+          "name": "Twin Multi-melta",
           "Range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -8958,8 +8937,7 @@
       "Fly",
       "Transport",
       "Stormraven Gunship",
-      "Faction: Adeptus Astartes",
-      "Attacks Dx Weapon"
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -9103,7 +9081,7 @@
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
         },
         {
-          "name": "Master-crafted boltgun",
+          "name": "Master-crafted Boltgun",
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
@@ -9113,7 +9091,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -9123,7 +9101,7 @@
           "Keywords": "Rapid Fire 2"
         },
         {
-          "name": "Hand flamer",
+          "name": "Hand Flamer",
           "Range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -9153,7 +9131,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -9163,7 +9141,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -9173,7 +9151,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "Twin boltgun",
+          "name": "Twin Boltgun",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -9185,7 +9163,7 @@
       ],
       "melee": [
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -9235,7 +9213,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Twin lightning claws",
+          "name": "Twin Lightning Claws",
           "Range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -9277,7 +9255,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 55,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -9327,7 +9305,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -9337,7 +9315,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -9347,7 +9325,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "Master-crafted bolter",
+          "name": "Master-crafted Bolt Rifle",
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
@@ -9359,7 +9337,7 @@
       ],
       "melee": [
         {
-          "name": "Master-crafted power weapon",
+          "name": "Master-crafted Power Weapon",
           "Range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -9379,7 +9357,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "4",
           "WS": "2+",
@@ -9414,8 +9392,7 @@
       "Imperium",
       "Tacticus",
       "Faction: Adeptus Astartes",
-      "Lieutenant",
-      "Ranged Weapon"
+      "Lieutenant"
     ]
   },
   {
@@ -9495,9 +9472,7 @@
       "Phobos",
       "Faction: Adeptus Astartes",
       "Lieutenant",
-      "Lieutenant in Reiver Armour",
-      "Melee Weapon",
-      "Ranged Weapon"
+      "Lieutenant in Reiver Armour"
     ]
   },
   {
@@ -9586,9 +9561,7 @@
       "Imperium",
       "Phobos",
       "Faction: Adeptus Astartes",
-      "Lieutenant",
-      "Ranged Weapon",
-      "Melee Weapon"
+      "Lieutenant"
     ]
   },
   {
@@ -9650,7 +9623,7 @@
       ],
       "melee": [
         {
-          "name": "Force weapon",
+          "name": "Force Weapon",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -9745,7 +9718,7 @@
       ],
       "melee": [
         {
-          "name": "Force weapon",
+          "name": "Force Weapon",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -9839,7 +9812,7 @@
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -9851,7 +9824,7 @@
       ],
       "melee": [
         {
-          "name": "Force weapon",
+          "name": "Force Weapon",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -9954,7 +9927,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -9974,7 +9947,7 @@
           "Keywords": "Anti-vehicle 2+, Pistol"
         },
         {
-          "name": "Hand flamer",
+          "name": "Hand Flamer",
           "Range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -10004,7 +9977,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -10014,7 +9987,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -10026,7 +9999,7 @@
       ],
       "melee": [
         {
-          "name": "Force weapon",
+          "name": "Force Weapon",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -10090,7 +10063,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Absolvor bolt pistol",
+          "name": "Absolvor Bolt Pistol",
           "Range": "18\"",
           "A": "1",
           "BS": "3+",
@@ -10102,7 +10075,7 @@
       ],
       "melee": [
         {
-          "name": "Crozius arcanum",
+          "name": "Crozius Arcanum",
           "Range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -10161,7 +10134,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -10173,7 +10146,7 @@
       ],
       "melee": [
         {
-          "name": "Crozius arcanum",
+          "name": "Crozius Arcanum",
           "Range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -10236,7 +10209,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Absolvor bolt pistol",
+          "name": "Absolvor Bolt Pistol",
           "Range": "18\"",
           "A": "1",
           "BS": "3+",
@@ -10246,7 +10219,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "Twin bolt rifle",
+          "name": "Twin Bolt Rifle",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -10258,7 +10231,7 @@
       ],
       "melee": [
         {
-          "name": "Crozius arcanum",
+          "name": "Crozius Arcanum",
           "Range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -10340,7 +10313,7 @@
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
         },
         {
-          "name": "Hand flamer",
+          "name": "Hand Flamer",
           "Range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -10360,7 +10333,7 @@
           "Keywords": "Anti-vehicle 2+, Pistol"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -10370,7 +10343,7 @@
           "Keywords": "Rapid Fire 2"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -10380,7 +10353,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -10412,7 +10385,7 @@
       ],
       "melee": [
         {
-          "name": "Crozius arcanum",
+          "name": "Crozius Arcanum",
           "Range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -10422,7 +10395,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "4",
           "WS": "2+",
@@ -10499,7 +10472,7 @@
           "name": "Grav-pistol",
           "Range": "12\"",
           "A": "1",
-          "BS": "2+",
+          "BS": "3+",
           "S": "4",
           "AP": "-1",
           "D": "2",
@@ -10508,7 +10481,7 @@
       ],
       "melee": [
         {
-          "name": "Omnissian power axe",
+          "name": "Omnissian Power Axe",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -10559,8 +10532,7 @@
       "Imperium",
       "Tacticus",
       "Faction: Adeptus Astartes",
-      "Techmarine",
-      "Ranged Weapon"
+      "Techmarine"
     ]
   },
   {
@@ -10600,7 +10572,7 @@
           "Keywords": "Heavy, Sustained Hits 1"
         },
         {
-          "name": "➤ Plasma cannon - standard",
+          "name": "➤ Plasma Cannon - Standard",
           "Range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -10610,7 +10582,7 @@
           "Keywords": "Blast, Heavy"
         },
         {
-          "name": "➤ Plasma cannon - supercharge",
+          "name": "➤ Plasma Cannon - Supercharge",
           "Range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -10685,7 +10657,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 85,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -10760,8 +10732,7 @@
       "Lieutenant with Combi-weapon",
       "Faction: Adeptus Astartes",
       "Phobos",
-      "Lieutenant",
-      "Melee Weapon"
+      "Lieutenant"
     ]
   },
   {
@@ -10841,9 +10812,7 @@
       "Grenades",
       "Faction: Adeptus Astartes",
       "Tacticus",
-      "Primaris Company Champion",
-      "Melee Weapon",
-      "Power Weapon"
+      "Primaris Company Champion"
     ]
   },
   {
@@ -10883,7 +10852,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "Absolvor bolt pistol",
+          "name": "Absolvor Bolt Pistol",
           "Range": "18\"",
           "A": "1",
           "BS": "3+",
@@ -10933,8 +10902,7 @@
       "Faction: Adeptus Astartes",
       "Tacticus",
       "Infantry",
-      "Apothecary",
-      "Ranged Weapon"
+      "Apothecary"
     ]
   },
   {
@@ -10964,7 +10932,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Absolvor bolt pistol",
+          "name": "Absolvor Bolt Pistol",
           "Range": "18\"",
           "A": "1",
           "BS": "3+",
@@ -11075,7 +11043,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -11214,7 +11182,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -11226,7 +11194,7 @@
       ],
       "melee": [
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -11236,7 +11204,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "4",
           "WS": "2+",
@@ -11276,7 +11244,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Twin lightning claws",
+          "name": "Twin Lightning Claws",
           "Range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -11353,7 +11321,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -11363,7 +11331,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -11393,7 +11361,7 @@
           "Keywords": "Melta 2, Pistol"
         },
         {
-          "name": "Hand flamer",
+          "name": "Hand Flamer",
           "Range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -11523,7 +11491,7 @@
           "Keywords": "Heavy, Melta 2"
         },
         {
-          "name": "➤ Plasma cannon - standard",
+          "name": "➤ Plasma Cannon - Standard",
           "Range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -11533,7 +11501,7 @@
           "Keywords": "Blast, Heavy"
         },
         {
-          "name": "➤ Plasma cannon - supercharge",
+          "name": "➤ Plasma Cannon - Supercharge",
           "Range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -11543,7 +11511,7 @@
           "Keywords": "Blast, Heavy, Hazardous"
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "➤ Plasma Gun - Standard",
           "Range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -11553,7 +11521,7 @@
           "Keywords": "Rapid Fire 1"
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "➤ Plasma Gun - Supercharge",
           "Range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -11563,7 +11531,7 @@
           "Keywords": "Rapid Fire 1, Hazardous"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -11605,7 +11573,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "2",
           "WS": "3+",
@@ -11615,7 +11583,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -11635,7 +11603,7 @@
           "Keywords": "Devastating Wounds"
         },
         {
-          "name": "Twin lightning claws",
+          "name": "Twin Lightning Claws",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -11712,7 +11680,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Absolvor bolt pistol",
+          "name": "Absolvor Bolt Pistol",
           "Range": "18\"",
           "A": "1",
           "BS": "3+",
@@ -11766,8 +11734,7 @@
       "Imperium",
       "Tacticus",
       "Judiciar",
-      "Faction: Adeptus Astartes",
-      "Melee Weapon"
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -11817,7 +11784,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "Master-crafted bolter",
+          "name": "Master-crafted Bolt Rifle",
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
@@ -11837,7 +11804,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -11847,7 +11814,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -11869,7 +11836,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -11879,9 +11846,9 @@
           "Keywords": "-"
         },
         {
-          "name": "Master-crafted power weapon",
+          "name": "Master-crafted Power Weapon",
           "Range": "Melee",
-          "A": "6",
+          "A": "5",
           "WS": "2+",
           "S": "5",
           "AP": "-2",
@@ -11914,8 +11881,7 @@
       "Grenades",
       "Imperium",
       "Tacticus",
-      "Faction: Adeptus Astartes",
-      "Ranged Weapon"
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -12021,8 +11987,7 @@
       "Vehicle",
       "Titanic",
       "Imperium",
-      "Astraeus",
-      "Attacks Dx Weapon"
+      "Astraeus"
     ]
   },
   {
@@ -12174,7 +12139,7 @@
           "Keywords": "One Shot"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -12318,7 +12283,7 @@
           "Keywords": "Melta 2"
         },
         {
-          "name": "Twin lascannon",
+          "name": "Twin Lascannon",
           "Range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -12328,7 +12293,7 @@
           "Keywords": "Twin-linked"
         },
         {
-          "name": "Twin heavy bolter",
+          "name": "Twin Heavy Bolter",
           "Range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -12458,7 +12423,7 @@
           "Keywords": "One Shot"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -12524,10 +12489,7 @@
       "Smoke",
       "Imperium",
       "Deimos Predator",
-      "Faction: Adeptus Astartes",
-      "Attacks Dx Weapon",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon"
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -12617,7 +12579,7 @@
           "Keywords": "Melta 2"
         },
         {
-          "name": "Twin lascannon",
+          "name": "Twin Lascannon",
           "Range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -12627,7 +12589,7 @@
           "Keywords": "Twin-linked"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -12820,7 +12782,7 @@
           "Keywords": "One Shot"
         },
         {
-          "name": "Twin assault cannon",
+          "name": "Twin Assault Cannon",
           "Range": "24\"",
           "A": "6",
           "BS": "3+",
@@ -12957,9 +12919,7 @@
       "Fly",
       "Imperium",
       "Caestus Assault Ram",
-      "Faction: Adeptus Astartes",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon"
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -13019,7 +12979,7 @@
           "Keywords": "Melta 2"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -13105,7 +13065,7 @@
           "Keywords": "Ignores Cover, Torrent"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -13347,7 +13307,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 250,
+      "base": 310,
       "variants": []
     },
     "composition": {
@@ -13417,7 +13377,7 @@
           "Keywords": "Melta 2"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -13558,9 +13518,7 @@
       "Imperium",
       "Imperial Space Marine",
       "Grenades",
-      "Faction: Adeptus Astartes",
-      "Ranged Weapon",
-      "Ranged Weapon"
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -13630,7 +13588,7 @@
           "Keywords": "Melta 2"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -13712,7 +13670,7 @@
           "Keywords": "One Shot"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -13722,7 +13680,7 @@
           "Keywords": "Rapid Fire 2"
         },
         {
-          "name": "Twin assault cannon",
+          "name": "Twin Assault Cannon",
           "Range": "24\"",
           "A": "6",
           "BS": "3+",
@@ -13732,7 +13690,7 @@
           "Keywords": "Devastating wounds, Twin-linked"
         },
         {
-          "name": "Twin heavy bolter",
+          "name": "Twin Heavy Bolter",
           "Range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -13742,7 +13700,7 @@
           "Keywords": "Sustained Hits 1, Twin-linked"
         },
         {
-          "name": "Twin lascannon",
+          "name": "Twin Lascannon",
           "Range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -13862,7 +13820,7 @@
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -13882,7 +13840,7 @@
           "Keywords": "Anti-vehicle 2+, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -13892,7 +13850,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -13902,7 +13860,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "Twin boltgun",
+          "name": "Twin Boltgun",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -13932,7 +13890,7 @@
           "Keywords": "Melta 2"
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "➤ Plasma Gun - Standard",
           "Range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -13942,7 +13900,7 @@
           "Keywords": "Rapid Fire 1"
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "➤ Plasma Gun - Supercharge",
           "Range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -13974,7 +13932,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -13994,7 +13952,7 @@
           "Keywords": "Devastating Wounds"
         },
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -14069,7 +14027,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "Twin boltgun",
+          "name": "Twin Boltgun",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -14118,8 +14076,7 @@
       "Grenades",
       "Imperium",
       "Company Champion",
-      "Faction: Adeptus Astartes",
-      "Melee Weapon"
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -14149,7 +14106,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Twin boltgun",
+          "name": "Twin Boltgun",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -14189,7 +14146,7 @@
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -14209,7 +14166,7 @@
           "Keywords": "Anti-vehicle 2+, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -14219,7 +14176,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -14241,7 +14198,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -14261,7 +14218,7 @@
           "Keywords": "Devastating Wounds"
         },
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -14333,7 +14290,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "Twin boltgun",
+          "name": "Twin Boltgun",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -14451,7 +14408,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -14461,7 +14418,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -14481,7 +14438,7 @@
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -14501,7 +14458,7 @@
           "Keywords": "Ignores Cover, Torrent"
         },
         {
-          "name": "Twin boltgun",
+          "name": "Twin Boltgun",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -14523,7 +14480,7 @@
           "Keywords": "Extra Attacks"
         },
         {
-          "name": "Omnissian power axe",
+          "name": "Omnissian Power Axe",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -14553,7 +14510,7 @@
           "Keywords": "Devastating Wounds"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -14606,12 +14563,7 @@
       "Grenades",
       "Imperium",
       "Techmarine",
-      "Faction: Adeptus Astartes",
-      "Ranged Weapon",
-      "Ranged Weapon",
-      "Melee Weapon",
-      "Extra Attacks Weapon",
-      "Ranged Weapon"
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -14640,16 +14592,6 @@
     "transport": null,
     "weapons": {
       "ranged": [
-        {
-          "name": "Twin boltgun",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Twin-linked"
-        },
         {
           "name": "➤ Smite - Witchfire",
           "Range": "24\"",
@@ -14691,7 +14633,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Storm bolter",
+          "name": "Storm Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -14721,7 +14663,7 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -14731,7 +14673,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -14743,7 +14685,7 @@
       ],
       "melee": [
         {
-          "name": "Force weapon",
+          "name": "Force Weapon",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -14926,8 +14868,7 @@
       "Vehicle",
       "Imperium",
       "Tarantula Air Defence Battery",
-      "Faction: Adeptus Astartes",
-      "Attacks Dx Weapon"
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -14957,7 +14898,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Hand flamer",
+          "name": "Hand Flamer",
           "Range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -14967,7 +14908,7 @@
           "Keywords": "Ignores Cover, Pistol, Torrent"
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "➤ Plasma Pistol - Supercharge",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -14977,7 +14918,7 @@
           "Keywords": "Hazardous, Pistol"
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "➤ Plasma Pistol - Standard",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -15009,7 +14950,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power weapon",
+          "name": "Power Weapon",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -15019,7 +14960,7 @@
           "Keywords": "-"
         },
         {
-          "name": "Power fist",
+          "name": "Power Fist",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -15171,463 +15112,7 @@
       "Imperium",
       "Tacticus",
       "Company Heroes",
-      "Faction: Adeptus Astartes",
-      "Ancient"
-    ]
-  },
-  {
-    "name": "Ferren Areios [Legends]",
-    "id": "dc83-f2ef-802a-5662",
-    "type": "model",
-    "faction": "Space Marines",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 80,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "4",
-      "SV": "2+",
-      "W": "5",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Heavy Bolt Pistol",
-          "Range": "18\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "4",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Pistol"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Relic Thunder Hammer",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "2+",
-          "S": "8",
-          "AP": "-2",
-          "D": "3",
-          "Keywords": "Devastating Wounds"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Assault Intercessor Squad\n- Bladeguard Veteran Squad\n- Company Heroes\n- Hellblaster Squad\n- Infernus Squad\n- Intercessor Squad\n- Sternguard Veteran Squad\n- Tactical Squad"
-      },
-      {
-        "name": "Master of Rites",
-        "description": "In your Command phase, select one of the following to apply to this model’s unit until the end of the turn: \n\n\n- This model’s unit is eligible to shoot in a turn in which it Advanced.\n\n\n- This model’s unit is eligible to declare a charge in a turn in it which it Advanced.\n\n\n- This model’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
-      },
-      {
-        "name": "Unrelenting and Uncompromising",
-        "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or all modifiers to\nthe Hit roll."
-      }
-    ],
-    "special_rules": [
-      "Oath of Moment",
-      "Leader",
-      "Devastating Wounds"
-    ],
-    "keywords": [
-      "Character",
-      "Epic Hero",
-      "Infantry",
-      "Captain",
-      "Grenades",
-      "Faction: Adeptus Astartes",
-      "Imperium",
-      "Tacticus",
-      "Ferren Areios"
-    ]
-  },
-  {
-    "name": "Champion of the Chapter [Crucible]",
-    "id": "74ba-6762-ef01-32d6",
-    "type": "model",
-    "faction": "Space Marines",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 70,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "4",
-      "SV": "3+",
-      "W": "4",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Exemplar Warrior",
-        "description": "Once per turn, when this model's unit is selected to shoot or fight, it can use this ability. If it does, until the end of the phase, each time this model makes an attack, you can re-roll the Wound Roll."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Tacticus** (Excluding **Character** and **Fly**)\n- **Tactical Squad**"
-      }
-    ],
-    "special_rules": [
-      "Oath of Moment",
-      "Templar Vows",
-      "Leader",
-      "Crucible"
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Grenades",
-      "Imperium",
-      "Champion of the Chapter",
-      "Tacticus",
-      "Faction: Adeptus Astartes",
-      "Crucible"
-    ]
-  },
-  {
-    "name": "Librarius Adept [Crucible]",
-    "id": "0385-0e03-0eac-d91c",
-    "type": "model",
-    "faction": "Space Marines",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 70,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "4",
-      "SV": "3+",
-      "W": "3",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Veil of Time (Psychic)",
-        "description": "Weapons equipped by models in this unit have the [Sustained Hits 1] ability"
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Tacticus** (Excluding **Character** and **Fly**)\n- **Tactical Squad**"
-      }
-    ],
-    "special_rules": [
-      "Leader",
-      "Oath of Moment",
-      "Crucible"
-    ],
-    "keywords": [
-      "Character",
-      "Infantry",
-      "Grenades",
-      "Imperium",
-      "Psyker",
-      "Tacticus",
-      "Faction: Adeptus Astartes",
-      "Librarius Adept",
-      "Crucible"
-    ]
-  },
-  {
-    "name": "Venerable Battle-Brother [Crucible]",
-    "id": "3fe2-9d72-8251-adb4",
-    "type": "model",
-    "faction": "Space Marines",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 160,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "8\"",
-      "T": "10",
-      "SV": "2+",
-      "W": "12",
-      "LD": "6+",
-      "OC": "4"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "➤ Ballistus Missile Launcher - Frag",
-          "Range": "48\"",
-          "A": "2D6",
-          "BS": "2+",
-          "S": "5",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Blast"
-        },
-        {
-          "name": "➤ Ballistus Missile Launcher - Krak",
-          "Range": "48\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "10",
-          "AP": "-2",
-          "D": "D6",
-          "Keywords": "-"
-        },
-        {
-          "name": "Brutalis Bolt Rifles",
-          "Range": "24\"",
-          "A": "4",
-          "BS": "2+",
-          "S": "4",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Twin-linked"
-        },
-        {
-          "name": "Onslaught gatling cannon",
-          "Range": "24\"",
-          "A": "8",
-          "BS": "2+",
-          "S": "5",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Devastating Wounds"
-        },
-        {
-          "name": "Ballistus Lascannon",
-          "Range": "48\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "12",
-          "AP": "-3",
-          "D": "D6+1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Heavy Onslaught Gatling Cannon",
-          "Range": "24\"",
-          "A": "12",
-          "BS": "2+",
-          "S": "6",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Devastating Wounds"
-        },
-        {
-          "name": "➤ Macro Plasma Incinerator - Standard",
-          "Range": "36\"",
-          "A": "D6+1",
-          "BS": "2+",
-          "S": "8",
-          "AP": "-3",
-          "D": "2",
-          "Keywords": "Blast"
-        },
-        {
-          "name": "➤ Macro Plasma Incinerator - Supercharge",
-          "Range": "36\"",
-          "A": "D6+1",
-          "BS": "2+",
-          "S": "9",
-          "AP": "-4",
-          "D": "3",
-          "Keywords": "Blast, Hazardous"
-        },
-        {
-          "name": "Twin Fragstorm Grenade Launcher",
-          "Range": "18\"",
-          "A": "D6",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Blast, Twin-linked"
-        },
-        {
-          "name": "Twin storm bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 2, Twin-linked"
-        },
-        {
-          "name": "Twin heavy bolter",
-          "Range": "36\"",
-          "A": "3",
-          "BS": "2+",
-          "S": "5",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Sustained Hits 1, Twin-linked"
-        },
-        {
-          "name": "Twin multi-melta",
-          "Range": "18\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "9",
-          "AP": "-4",
-          "D": "D6",
-          "Keywords": "Melta 2, Twin-linked"
-        },
-        {
-          "name": "Icarus rocket pod",
-          "Range": "24\"",
-          "A": "D3",
-          "BS": "2+",
-          "S": "8",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Anti-fly 2+"
-        },
-        {
-          "name": "Heavy Flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "5",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Ignores Cover, Torrent"
-        },
-        {
-          "name": "Twin Icarus ironhail heavy stubber",
-          "Range": "36\"",
-          "A": "3",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Anti-FLY 4+, Rapid Fire 3, Twin-linked"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Armoured Feet",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "2+",
-          "S": "7",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Brutalis Fists",
-          "Range": "Melee",
-          "A": "6",
-          "WS": "2+",
-          "S": "12",
-          "AP": "-2",
-          "D": "3",
-          "Keywords": "Twin-linked"
-        },
-        {
-          "name": "➤ Brutalis Talons - Strike",
-          "Range": "Melee",
-          "A": "6",
-          "WS": "2+",
-          "S": "12",
-          "AP": "-2",
-          "D": "3",
-          "Keywords": "Twin-linked"
-        },
-        {
-          "name": "➤ Brutalis Talons - Sweep",
-          "Range": "Melee",
-          "A": "10",
-          "WS": "2+",
-          "S": "7",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "Twin-linked"
-        },
-        {
-          "name": "Redemptor Fist",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "2+",
-          "S": "12",
-          "AP": "-2",
-          "D": "3",
-          "Keywords": "-"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Wisdom of the Ancients [Aura]",
-        "description": "When a friendly **Adeptus Astartes Infantry** unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1"
-      }
-    ],
-    "special_rules": [
-      "Oath of Moment",
-      "Templar Vows",
-      "Deadly Demise D3",
-      "Crucible",
-      "Blast",
-      "Twin-linked",
-      "Devastating Wounds",
-      "Hazardous",
-      "Rapid Fire",
-      "Sustained Hits",
-      "Melta",
-      "Anti-"
-    ],
-    "keywords": [
-      "Character",
-      "Vehicle",
-      "Dreadnought",
-      "Venerable Battle-Brother",
-      "Faction: Adeptus Astartes",
-      "Imperium",
-      "Walker",
-      "Crucible",
-      "Attacks Dx Weapon",
-      "Damage Dx Weapon",
-      "Attacks Dx Weapon"
+      "Faction: Adeptus Astartes"
     ]
   }
 ]

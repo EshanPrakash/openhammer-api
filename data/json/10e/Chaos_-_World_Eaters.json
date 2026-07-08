@@ -6,7 +6,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 340,
+      "base": 360,
       "variants": []
     },
     "composition": {
@@ -164,7 +164,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit: **Khorne Berzerkers**"
+        "description": "This model can be attached to the following unit: **Khorne Berserkers**"
       }
     ],
     "special_rules": [
@@ -249,7 +249,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Eightbound**, **Exalted Eightbound**, **Khorne Berzerkers**"
+        "description": "This model can be attached to the following units: **Eightbound**, **Exalted Eightbound**, **Khorne Berserkers**"
       },
       {
         "name": "Fire Riders",
@@ -277,8 +277,7 @@
       "Epic Hero",
       "Chaos",
       "Khorne",
-      "Lord Invocatus",
-      "Extra Attacks Weapon"
+      "Lord Invocatus"
     ]
   },
   {
@@ -371,10 +370,7 @@
       "Chaos",
       "Khorne",
       "Daemon",
-      "Daemon Prince",
-      "Not Extra Attacks",
-      "Melee Weapon",
-      "Ranged Weapon"
+      "Daemon Prince"
     ]
   },
   {
@@ -465,10 +461,7 @@
       "Khorne",
       "Daemon",
       "Daemon Prince",
-      "Fly",
-      "Not Extra Attacks",
-      "Melee Weapon",
-      "Ranged Weapon"
+      "Fly"
     ]
   },
   {
@@ -478,7 +471,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 105,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -556,7 +549,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Eightbound**, **Exalted Eightbound**, **Khorne Berzerkers**"
+        "description": "This model can be attached to the following units: **Eightbound**, **Exalted Eightbound**, **Khorne Berserkers**"
       }
     ],
     "special_rules": [
@@ -571,11 +564,7 @@
       "Character",
       "Chaos",
       "Khorne",
-      "Lord on Juggernaut",
-      "Melee Weapon",
-      "Extra Attacks Weapon",
-      "Not Extra Attacks",
-      "Melee Weapon"
+      "Lord on Juggernaut"
     ]
   },
   {
@@ -631,7 +620,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit: **Khorne Berzerkers**"
+        "description": "This model can be attached to the following unit: **Khorne Berserkers**"
       },
       {
         "name": "A Worthy Skull",
@@ -655,10 +644,7 @@
       "Character",
       "Chaos",
       "Khorne",
-      "Master of Executions",
-      "Not Extra Attacks",
-      "Melee Weapon",
-      "Ranged Weapon"
+      "Master of Executions"
     ]
   },
   {
@@ -988,15 +974,7 @@
       "Chaos",
       "Khorne",
       "Jakhals",
-      "Grenades",
-      "Jakhal",
-      "Jakhal",
-      "Jakhal",
-      "Jakhal",
-      "Jakhal",
-      "Jakhal",
-      "Jakhal",
-      "Jakhal"
+      "Grenades"
     ]
   },
   {
@@ -1484,7 +1462,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 250,
+      "base": 180,
       "variants": []
     },
     "composition": {
@@ -1492,39 +1470,19 @@
       "max_models": 1
     },
     "stats": {
-      "M": "14\"",
-      "T": "11",
+      "M": "10\"",
+      "T": "10",
       "SV": "3+",
-      "W": "18",
+      "W": "14",
       "LD": "6+",
       "OC": "5"
     },
-    "invuln_save": "Invulnerable Save (5+)",
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
         {
-          "name": "➤ Heavy missile launcher - frag",
-          "Range": "48\"",
-          "A": "2D6",
-          "BS": "4+",
-          "S": "5",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Blast, Rapid Fire 1"
-        },
-        {
-          "name": "➤ Heavy missile launcher - krak",
-          "Range": "48\"",
-          "A": "2",
-          "BS": "4+",
-          "S": "10",
-          "AP": "-2",
-          "D": "D6+1",
-          "Keywords": "Rapid Fire 1"
-        },
-        {
-          "name": "Hades battle cannon",
+          "name": "Defiler cannon",
           "Range": "48\"",
           "A": "D6+3",
           "BS": "4+",
@@ -1534,69 +1492,79 @@
           "Keywords": "Blast, Rapid Fire 3"
         },
         {
-          "name": "Ectoplasma destructor",
+          "name": "Reaper autocannon",
           "Range": "36\"",
-          "A": "D6",
+          "A": "4",
           "BS": "4+",
-          "S": "12",
-          "AP": "-3",
-          "D": "3",
-          "Keywords": "Blast, Rapid Fire 2"
-        },
-        {
-          "name": "Heavy baleflamer",
-          "Range": "12\"",
-          "A": "D6+3",
-          "BS": "N/A",
           "S": "7",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Ignores Cover, Torrent"
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Devastating Wounds, Rapid Fire 4, Sustained Hits 1"
         },
         {
-          "name": "Excruciator cannon",
-          "Range": "36\"",
-          "A": "6",
+          "name": "Twin heavy flamer",
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent, Twin-linked"
+        },
+        {
+          "name": "Combi-bolter",
+          "Range": "24\"",
+          "A": "2",
           "BS": "4+",
-          "S": "6",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 4"
+        },
+        {
+          "name": "Combi-weapon",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
+        },
+        {
+          "name": "Twin heavy bolter",
+          "Range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Rapid Fire 3"
+          "Keywords": "Rapid Fire 2, Sustained Hits 1, Twin-linked"
         },
         {
-          "name": "Magma cutter",
-          "Range": "12\"",
-          "A": "2",
-          "BS": "4+",
-          "S": "9",
-          "AP": "-4",
-          "D": "D6",
-          "Keywords": "Melta 2, Rapid Fire 1"
-        },
-        {
-          "name": "Hades lascannon",
+          "name": "Twin lascannon",
           "Range": "48\"",
-          "A": "2",
+          "A": "1",
           "BS": "4+",
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "Rapid Fire 1"
+          "Keywords": "Rapid Fire 1, Twin-linked"
         },
         {
-          "name": "Heavy reaper autocannon",
+          "name": "Havoc launcher",
           "Range": "48\"",
-          "A": "4",
+          "A": "D6",
           "BS": "4+",
-          "S": "9",
-          "AP": "-1",
-          "D": "3",
-          "Keywords": "Devastating Wounds, Rapid Fire 2, Sustained Hits 1"
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast"
         }
       ],
       "melee": [
         {
-          "name": "Shearing claws - strike",
+          "name": "Defiler claws",
           "Range": "Melee",
           "A": "6",
           "WS": "3+",
@@ -1606,31 +1574,25 @@
           "Keywords": "-"
         },
         {
-          "name": "Shearing claws - sweep",
+          "name": "Defiler scourge",
           "Range": "Melee",
-          "A": "12",
-          "WS": "3+",
-          "S": "6",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Electroscourge",
-          "Range": "Melee",
-          "A": "7",
+          "A": "3",
           "WS": "3+",
           "S": "12",
-          "AP": "-2",
+          "AP": "-1",
           "D": "2",
-          "Keywords": "Extra Attacks, Sustained Hits 2"
+          "Keywords": "Extra Attacks"
         }
       ]
     },
     "abilities": [
       {
         "name": "Scuttling Walker",
-        "description": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding **Titanic** models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move through friendly **Monster** and **Vehicle** models and sections of terrain features that are 4\" or less in height."
+      },
+      {
+        "name": "Invulnerable Save",
+        "description": "This model has a 5+ invulnerable save."
       },
       {
         "name": "Unleash Wrath",
@@ -1638,30 +1600,26 @@
       }
     ],
     "special_rules": [
-      "Deadly Demise D6",
+      "Deadly Demise D3",
       "Blessings of Khorne",
       "Blast",
       "Rapid Fire",
-      "Ignores Cover",
+      "Sustained Hits",
+      "Devastating Wounds",
       "Torrent",
-      "Melta"
+      "Ignores Cover",
+      "Twin-linked",
+      "Extra Attacks"
     ],
     "keywords": [
       "Faction: World Eaters",
       "Vehicle",
       "Walker",
+      "Smoke",
       "Chaos",
       "Khorne",
       "Daemon",
-      "Defiler",
-      "Damage Dx+0 Modifier",
-      "Damage Dx+0 Modifier",
-      "Attacks Dx Weapon",
-      "Attacks Dx+0 Modifier",
-      "Attacks Dx+0 Modifier",
-      "Attacks Dx Weapon",
-      "Attacks Dx+0 Modifier",
-      "Damage Dx Weapon"
+      "Defiler"
     ]
   },
   {
@@ -1671,7 +1629,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 165,
+      "base": 170,
       "variants": []
     },
     "composition": {
@@ -1933,15 +1891,7 @@
       "Walker",
       "Chaos",
       "Khorne",
-      "Helbrute",
-      "Helbrute melee weapon",
-      "Helbrute melee weapon",
-      "Helbrute melee weapon",
-      "Helbrute melee weapon",
-      "Damage Dx Weapon",
-      "Helbrute melee weapon",
-      "Helbrute melee weapon",
-      "Attacks Dx Weapon"
+      "Helbrute"
     ]
   },
   {
@@ -2121,8 +2071,7 @@
       "Chaos",
       "Khorne",
       "Daemon",
-      "Maulerfiend",
-      "Damage Dx Weapon"
+      "Maulerfiend"
     ]
   },
   {
@@ -2236,7 +2185,7 @@
       "T": "5",
       "SV": "4+",
       "W": "4",
-      "LD": "7+",
+      "LD": "7",
       "OC": "1"
     },
     "invuln_save": null,
@@ -2405,10 +2354,7 @@
       "Chaos",
       "Khorne",
       "Daemon",
-      "Lord of Skulls",
-      "Attacks Dx Weapon",
-      "Attacks Dx Weapon",
-      "Attacks Dx Weapon"
+      "Lord of Skulls"
     ]
   },
   {
@@ -2586,7 +2532,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 75,
+      "base": 85,
       "variants": []
     },
     "composition": {
@@ -2677,7 +2623,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 100,
+      "base": 85,
       "variants": []
     },
     "composition": {
@@ -2744,9 +2690,7 @@
       "Daemon",
       "Possessed",
       "Slaughterbound",
-      "Faction: World Eaters",
-      "Not Extra Attacks",
-      "Melee Weapon"
+      "Faction: World Eaters"
     ]
   },
   {
@@ -3178,185 +3122,6 @@
       "Faction: Blood Legions",
       "Summoned",
       "Flesh Hounds"
-    ]
-  },
-  {
-    "name": "Butcherlord [Crucible]",
-    "id": "85e5-721a-d505-3881",
-    "type": "model",
-    "faction": "World Eaters",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 90,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "8\"",
-      "T": "4",
-      "SV": "3+",
-      "W": "5",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Endless Hatred",
-        "description": "You can re-roll Charge rolls made for this model's unit."
-      },
-      {
-        "name": "Invulnerable Save (4+)",
-        "description": "This model has a 4+ invulnerable save."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following unit: **Khorne Berzerkers**"
-      }
-    ],
-    "special_rules": [
-      "Blessings of Khorne",
-      "Leader"
-    ],
-    "keywords": [
-      "Faction: World Eaters",
-      "Infantry",
-      "Character",
-      "Grenades",
-      "Chaos",
-      "Khorne",
-      "Butcherlord",
-      "Crucible"
-    ]
-  },
-  {
-    "name": "Eight-blessed Lord [Crucible]",
-    "id": "71ad-8562-f833-5872",
-    "type": "model",
-    "faction": "World Eaters",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 90,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "10\"",
-      "T": "6",
-      "SV": "3+",
-      "W": "7",
-      "LD": "6+",
-      "OC": "2"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": [
-        {
-          "name": "Bladed horn",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "3+",
-          "S": "6",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Extra Attacks, Lance"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Bloodthirst",
-        "description": "Add 2 to Charge rolls made for this unit."
-      },
-      {
-        "name": "Invulnerable Save (4+)",
-        "description": "This model has a 4+ invulnerable save."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following unit: **Khorne Berzerkers**"
-      }
-    ],
-    "special_rules": [
-      "Blessings of Khorne",
-      "Leader",
-      "Extra Attacks",
-      "Lance"
-    ],
-    "keywords": [
-      "Faction: World Eaters",
-      "Character",
-      "Chaos",
-      "Khorne",
-      "Mounted",
-      "Eight-blessed Lord",
-      "Crucible",
-      "Extra Attacks Weapon"
-    ]
-  },
-  {
-    "name": "Bloodcult Champion [Crucible]",
-    "id": "544e-3db3-4878-3db3",
-    "type": "model",
-    "faction": "World Eaters",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 60,
-      "variants": []
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "7\"",
-      "T": "4",
-      "SV": "6+",
-      "W": "3",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": "5+",
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Aura of Dark Glory",
-        "description": "Models in this unit have an invulnerable save characteristic of 5+."
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following unit: **Jakhals**"
-      }
-    ],
-    "special_rules": [
-      "Blessings of Khorne",
-      "Leader"
-    ],
-    "keywords": [
-      "Faction: World Eaters",
-      "Infantry",
-      "Character",
-      "Grenades",
-      "Khorne",
-      "Bloodcult Champion",
-      "Crucible"
     ]
   }
 ]

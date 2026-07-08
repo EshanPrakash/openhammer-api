@@ -6,7 +6,7 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 85,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -164,8 +164,7 @@
       "Vehicle",
       "Faction: Adeptus Astartes",
       "Baal Predator",
-      "Faction: Blood Angels",
-      "Attacks Dx Weapon"
+      "Faction: Blood Angels"
     ]
   },
   {
@@ -677,9 +676,8 @@
       "Death Company Dreadnought",
       "Faction: Adeptus Astartes",
       "Faction: Blood Angels",
-      "Death Company",
       "Dreadnought",
-      "Smoke"
+      "Death Company"
     ]
   },
   {
@@ -867,8 +865,7 @@
       "Death Company Marines with Jump Packs",
       "Tacticus",
       "Fly",
-      "Jump Pack",
-      "Death Company"
+      "Jump Pack"
     ]
   },
   {
@@ -960,9 +957,8 @@
       "Faction: Adeptus Astartes",
       "Faction: Blood Angels",
       "Furioso Dreadnought",
-      "Smoke",
       "Dreadnought",
-      "Attacks Dx Weapon"
+      "Smoke"
     ]
   },
   {
@@ -1217,10 +1213,7 @@
       "Faction: Adeptus Astartes",
       "Faction: Blood Angels",
       "Smoke",
-      "Dreadnought",
-      "Psychic Weapon",
-      "Psychic Weapon",
-      "Extra Attacks Weapon"
+      "Dreadnought"
     ]
   },
   {
@@ -1357,7 +1350,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: \n- **Assault Intercessor Squad**\n- **Bladeguard Veteran Squad**\n- **Desolation Squad**\n- **Devastator Squad**\n- **Hellblaster Squad**\n- **Infernus Squad**\n- **Intercessor Squad**\n- **Tactical Squad**\n- **Sternguard Veteran Squad**\n\n\nYou can attach this model to one of the above units, even if one **Captain, Chapter Master** or **Lieutenant** model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths"
+        "description": "This model can be attached to the following units:\n\n- Desolation Squad\n- Hellblaster Squad\n- Infernus Squad\n- Intercessor Squad\n\n- Devastator Squad\n- Tactical Squad\n- Assault Intercessor Squad\n- Sternguard Veteran Squad\n\nYou can attach this model to one of the above units, even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
       }
     ],
     "special_rules": [
@@ -1382,7 +1375,7 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 130,
+      "base": 140,
       "variants": []
     },
     "composition": {
@@ -1509,8 +1502,7 @@
       "Faction: Blood Angels",
       "Fly",
       "Jump Pack",
-      "Sanguinary Priest",
-      "Melee Weapon"
+      "Sanguinary Priest"
     ]
   },
   {
@@ -1577,8 +1569,7 @@
       "Imperium",
       "Sanguinary Priest",
       "Faction: Adeptus Astartes",
-      "Faction: Blood Angels",
-      "Melee Weapon"
+      "Faction: Blood Angels"
     ]
   },
   {
@@ -1643,8 +1634,6 @@
       "Pistol"
     ],
     "keywords": [
-      "Melee Weapon",
-      "Ranged Weapon",
       "Infantry",
       "Character",
       "Grenades",
@@ -1951,7 +1940,18 @@
           "Keywords": "Pistol"
         }
       ],
-      "melee": []
+      "melee": [
+        {
+          "name": "Power Fist",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
     },
     "abilities": [
       {
@@ -1969,12 +1969,6 @@
       "Oath of Moment"
     ],
     "keywords": [
-      "Pistol replacement",
-      "Pistol replacement",
-      "Pistol replacement",
-      "DCo Weapon Swap",
-      "DCo Weapon Swap",
-      "DCo Weapon Swap",
       "Infantry",
       "Grenades",
       "Imperium",
@@ -2058,7 +2052,7 @@
     "abilities": [
       {
         "name": "Driven by Fury",
-        "description": "In your opponent's Shooting phase, each time an enemy unit has shot, if this model was hit by one or more of those attacks, it can make a Driven by Fury move. To do so, roll one D6 and add 2 to the roll; this model moves a number of inches up to the result, but must finish as close as possible to the closest enemy unit [excluding Aircraft]. When doing so, this model can be moved within\nEngagement Range of that enemy unit. A model cannot make a Driven by Fury move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Driven by Fury move per phase."
+        "description": "In your opponent's Shooting phase, each time an enemy unit has shot, if this model was hit by one or more of those attacks, it can make a Driven by Fury move. To do so, roll one D6 and add 2 to the roll; this model moves a number of inches up to the result, but must finish as close as possible to the closest enemy unit [excluding Aircraft]. A model cannot make a Driven by Fury move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Driven by Fury move per phase."
       }
     ],
     "special_rules": [

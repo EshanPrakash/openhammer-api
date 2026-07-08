@@ -81,9 +81,7 @@
       "Imperium",
       "Watch Master",
       "Faction: Adeptus Astartes",
-      "Faction: Deathwatch",
-      "Ranged Weapon",
-      "Melee Weapon"
+      "Faction: Deathwatch"
     ]
   },
   {
@@ -308,8 +306,7 @@
       "Transport",
       "Corvus Blackstar",
       "Faction: Adeptus Astartes",
-      "Faction: Deathwatch",
-      "Smoke"
+      "Faction: Deathwatch"
     ]
   },
   {
@@ -512,10 +509,7 @@
       "Kill Team Cassius",
       "Deathwatch",
       "Faction: Agents of the Imperium",
-      "Ordo Xenos",
-      "Epic Hero",
-      "Character",
-      "Warlord"
+      "Ordo Xenos"
     ]
   },
   {
@@ -781,7 +775,7 @@
     "faction": "Deathwatch",
     "faction_type": "Imperium",
     "points": {
-      "base": 265,
+      "base": 250,
       "variants": []
     },
     "composition": {
@@ -1509,7 +1503,7 @@
       "max_models": 1
     },
     "stats": {
-      "M": "5\"",
+      "M": "6\"",
       "T": "6",
       "SV": "3+",
       "W": "3",
