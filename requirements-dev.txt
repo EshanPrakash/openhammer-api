@@ -1,0 +1,3 @@
+-r requirements.txt
+pytest
+httpx<0.28  # 0.28 dropped the `app=` shortcut that starlette 0.27.0's TestClient relies on

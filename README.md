@@ -9,6 +9,7 @@ REST API for Warhammer 40,000 unit data. Edition-namespaced — currently servin
 ## Table of Contents
 - [Usage](#usage)
 - [Quick Start (Local)](#quick-start-local)
+- [Testing](#testing)
 - [API Overview](#api-overview)
 - [Data Coverage](#data-coverage)
 - [API Endpoints](#api-endpoints)
@@ -95,6 +96,17 @@ docker run -p 8000:8000 openhammer-api
 ```
 
 Visit http://localhost:8000/docs for interactive documentation.
+
+---
+
+## Testing
+
+```bash
+pip install -r requirements-dev.txt
+pytest
+```
+
+Tests run entirely in-process against both editions (no live server or network access needed) and cover search/filter/sort behavior, pagination, error cases, and edition parity across all 29 endpoints.
 
 ---
 
