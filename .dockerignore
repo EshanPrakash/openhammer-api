@@ -1,5 +1,6 @@
 venv/
-data/BSData/
+data/BSData-10e/
+data/BSData-11e/
 __pycache__/
 .git/
 *.pyc

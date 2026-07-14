@@ -1,12 +1,15 @@
 import subprocess
 import os
 
-BSDATA_REPO_URL = "https://github.com/BSData/wh40k-10e"
-LOCAL_REPO_PATH = "./data/BSData"
+REPOS = [
+    ("https://github.com/BSData/wh40k-10e", "./data/BSData-10e"),
+    ("https://github.com/BSData/wh40k-11e", "./data/BSData-11e"),
+]
 
-if os.path.exists(LOCAL_REPO_PATH):
-    print("Updating existing BSData repository...")
-    subprocess.run(["git", "-C", LOCAL_REPO_PATH, "pull"], check=True)
-else:
-    print("Cloning BSData repository...")
-    subprocess.run(["git", "clone", BSDATA_REPO_URL, LOCAL_REPO_PATH], check=True)
+for repo_url, local_path in REPOS:
+    if os.path.exists(local_path):
+        print(f"Updating existing BSData repository at {local_path}...")
+        subprocess.run(["git", "-C", local_path, "pull"], check=True)
+    else:
+        print(f"Cloning BSData repository {repo_url}...")
+        subprocess.run(["git", "clone", repo_url, local_path], check=True)

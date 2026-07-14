@@ -1,6 +1,6 @@
 # OpenHammer API
 
-REST API for Warhammer 40,000 unit data. Edition-namespaced — currently serving 10th Edition (1,380 units across 35 factions).
+REST API for Warhammer 40,000 unit data. Edition-namespaced — currently serving 10th Edition (1,380 units across 35 factions) and 11th Edition (1,368 units across 35 factions).
 
 **Live API**: https://openhammer-api-production.up.railway.app
 
@@ -119,7 +119,7 @@ The OpenHammer API provides **29 endpoints** for accessing Warhammer 40K unit da
 ### Features
 
 - Edition-namespaced URLs — add new editions without any code changes
-- Automated monthly data sync via GitHub Actions (pulls latest BSData/wh40k-10e)
+- Automated monthly data sync via GitHub Actions (pulls latest BSData/wh40k-10e and BSData/wh40k-11e)
 - In-memory storage with <10ms response times
 - HTTP caching (1 hour)
 - Rate limiting (100 req/min per IP)
@@ -133,9 +133,9 @@ The OpenHammer API provides **29 endpoints** for accessing Warhammer 40K unit da
 
 ## Data Coverage
 
-**Current editions:** `10e`
+**Current editions:** `10e`, `11e`
 
-**10th Edition — 35 factions**
+Both editions cover the same 35 factions:
 
 - **Imperium**: 19 factions
 - **Chaos**: 7 factions
@@ -155,6 +155,13 @@ Aeldari, Genestealer Cults, Leagues of Votann, Necrons, Orks, Tyranids, T'au Emp
 
 #### Unaligned (2 groups)
 Titans, Unaligned Forces
+
+### Edition Totals
+
+| Edition | Units | Factions |
+|---------|-------|----------|
+| `10e` (10th Edition) | 1,380 | 35 |
+| `11e` (11th Edition) | 1,368 | 35 |
 
 ---
 
@@ -333,4 +340,4 @@ MIT License - see LICENSE file.
 
 All Warhammer 40,000 content is property of Games Workshop.
 
-Unit data sourced from [BSData/wh40k-10e](https://github.com/BSData/wh40k-10e).
+Unit data sourced from [BSData/wh40k-10e](https://github.com/BSData/wh40k-10e) and [BSData/wh40k-11e](https://github.com/BSData/wh40k-11e).

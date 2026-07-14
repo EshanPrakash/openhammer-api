@@ -1,0 +1,2926 @@
+[
+  {
+    "name": "Tervigon",
+    "id": "cd6d-87b3-125a-f372",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 160,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "➤ Massive scything talons - strike",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Massive scything talons - sweep",
+          "Range": "Melee",
+          "A": "8",
+          "WS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Massive crushing claws",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Spawn Termagants",
+        "description": "In your Command phase, you can select one friendly TERMAGANTS unit within 6\" of this model and return up to D3+3 destroyed TERMAGANT models to that unit. A TERMAGANTS unit cannot be selected for this ability more than once per phase."
+      },
+      {
+        "name": "Brood Progenitor (Aura, Psychic)",
+        "description": "While a friendly TERMAGANTS unit is within 6\" of this model, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6",
+      "Shadow in the Warp",
+      "Synapse"
+    ],
+    "keywords": [
+      "Character",
+      "Monster",
+      "Psyker",
+      "Great Devourer",
+      "Tervigon",
+      "Faction: Tyranids",
+      "Synapse"
+    ]
+  },
+  {
+    "name": "The Swarmlord",
+    "id": "13f7-1a3-eff-7393",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 210,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Synaptic Pulse",
+          "Range": "18\"",
+          "A": "D6+3",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Psychic, Torrent"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Bone Sabres",
+          "Range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Twin-linked"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Hive Commander",
+        "description": "At the start of your Command phase, if this model is on the battlefield, you gain 1CP"
+      },
+      {
+        "name": "Malign Presence (Aura)",
+        "description": "Once per turn, when your opponent targets a unit from their army within 12\" of this model with a **stratagem**, you can use this ability. If you do increase the CP cost of that use of that **stratagem** by 1CP."
+      },
+      {
+        "name": "Domination of the Hive Mind (Aura)",
+        "description": "While a friendly TYRANIDS unit is within 9\" of this model, that unit is within your army’s Synapse Range."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- **Tyrant Guard**"
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Shadow in the Warp",
+      "Synapse",
+      "Leader",
+      "Twin-linked",
+      "Torrent"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Faction: Tyranids",
+      "Monster",
+      "The Swarmlord",
+      "Great Devourer",
+      "Synapse",
+      "Psyker",
+      "Hive Tyrant",
+      "Leader"
+    ]
+  },
+  {
+    "name": "Broodlord",
+    "id": "b86a-b38a-380c-483d",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 80,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Broodlord Claws and Talons",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Devastating Wounds, Twin-linked"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Vicious Insight",
+        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+      },
+      {
+        "name": "Hypnotic Gaze (Psychic)",
+        "description": "At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- **Genestealers**"
+      }
+    ],
+    "special_rules": [
+      "Scouts 8\"",
+      "Synapse",
+      "Shadow in the Warp",
+      "Leader",
+      "Devastating Wounds",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Broodlord",
+      "Faction: Tyranids",
+      "Great Devourer",
+      "Vanguard Invader",
+      "Synapse",
+      "Leader"
+    ]
+  },
+  {
+    "name": "Old One Eye",
+    "id": "9184-9ab6-9238-f558",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 140,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "9",
+      "LD": "8+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "➤ Old One Eye’s claws and talons - Strike",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Old One Eye’s claws and talons - Sweep",
+          "Range": "Melee",
+          "A": "12",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Alpha Leader",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+      },
+      {
+        "name": "Unstoppable Monster",
+        "description": "At the start of each player’s Command phase, this model regains up to D3 lost wounds."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- **Carnifexes**"
+      }
+    ],
+    "special_rules": [
+      "Synapse",
+      "Feel No Pain 5+",
+      "Leader"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Monster",
+      "Character",
+      "Great Devourer",
+      "Old One Eye",
+      "Faction: Tyranids",
+      "Leader"
+    ]
+  },
+  {
+    "name": "Tyranid Warriors with Ranged Bio-Weapons",
+    "id": "a125-b6fb-2945-56a",
+    "type": "unit",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 60,
+      "variants": [
+        {
+          "models": 3,
+          "points": 120
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Deathspitter",
+          "Range": "24\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Spinefists",
+          "Range": "12\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Assault, Pistol, Twin-linked"
+        },
+        {
+          "name": "Venom cannon",
+          "Range": "36\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Barbed strangler",
+          "Range": "36\"",
+          "A": "D6+1",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Devourer",
+          "Range": "18\"",
+          "A": "5",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Tyranid Warrior claws and talons",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Adaptable Predators",
+        "description": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+      }
+    ],
+    "special_rules": [
+      "Shadow in the Warp",
+      "Synapse"
+    ],
+    "keywords": [
+      "Infantry",
+      "Tyranid Warriors with Ranged Bio-weapons",
+      "Faction: Tyranids",
+      "Synapse",
+      "Great Devourer"
+    ]
+  },
+  {
+    "name": "Tyranid Warriors with Melee Bio-Weapons",
+    "id": "5815-871c-9260-287a",
+    "type": "unit",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 75,
+      "variants": [
+        {
+          "models": 3,
+          "points": 150
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 2,
+      "max_models": 5
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Tyranid Warrior claws and talons",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Twin-linked"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Adaptive Instincts",
+        "description": "At the start of the Fight phase, select one of the following:\n- Aggression Imperative: Until the end of the phase, each time a model in this unit makes a melee attack, re-roll a Hit roll of 1.\n- Bioregeneration: Until the end of the phase, each time a saving throw if made for a model in this unit, re-roll a saving throw of 1."
+      }
+    ],
+    "special_rules": [
+      "Shadow in the Warp",
+      "Synapse"
+    ],
+    "keywords": [
+      "Infantry",
+      "Faction: Tyranids",
+      "Tyranid Warriors with Melee Bio-weapons",
+      "Great Devourer",
+      "Synapse",
+      "Tyranid Warriors"
+    ]
+  },
+  {
+    "name": "Hormagaunts",
+    "id": "f15b-9f9c-9bf0-8160",
+    "type": "unit",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 70,
+      "variants": [
+        {
+          "models": 11,
+          "points": 120
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Hormagaunt talons",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "3",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Bounding Leap",
+        "description": "This unit is eligible to declare a charge in a turn in which it Advanced."
+      }
+    ],
+    "special_rules": [
+      "Synapse"
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Great Devourer",
+      "Endless Multitude",
+      "Hormagaunts",
+      "Faction: Tyranids"
+    ]
+  },
+  {
+    "name": "Toxicrene",
+    "id": "30d0-521c-1d45-f57b",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 135,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "14",
+      "LD": "8+",
+      "OC": "4"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Massive toxic lashes",
+          "Range": "9\"",
+          "A": "2D6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Anti-infantry 2+"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Massive toxic lashes",
+          "Range": "Melee",
+          "A": "12",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Anti-infantry 2+"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Grasping Tendrils",
+        "description": "Each time an enemy unit (excluding Titanic units) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, you can roll one D6: on a 3+, that enemy unit must Remain Stationary instead."
+      },
+      {
+        "name": "Hypertoxic Miasma (Aura)",
+        "description": "At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Synapse",
+      "Anti"
+    ],
+    "keywords": [
+      "Monster",
+      "Great Devourer",
+      "Toxicrene",
+      "Faction: Tyranids"
+    ]
+  },
+  {
+    "name": "Tyrant Guard",
+    "id": "1645-5407-92c8-1441",
+    "type": "unit",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 80,
+      "variants": [
+        {
+          "models": 3,
+          "points": 160
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "4",
+      "LD": "8+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Scything talons and rending claws",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Bone cleaver, lash whip and rending claws",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Crushing claws and rending claws",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Twin-linked"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Guardian Organism",
+        "description": "While a CHARACTER model is leading this unit, that Character has the Feel No Pain 5+ ability"
+      }
+    ],
+    "special_rules": [
+      "Synapse",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Infantry",
+      "Great Devourer",
+      "Tyrant Guard",
+      "Faction: Tyranids"
+    ]
+  },
+  {
+    "name": "Neurotyrant",
+    "id": "1ae1-ed96-5100-eda5",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 115,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "8",
+      "SV": "4+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Neurotyrant claws and lashes",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Node Lash (Psychic)",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If the target is Battle-shocked, add 1 to the Wound roll as well."
+      },
+      {
+        "name": "Psychic Terror (Psychic)",
+        "description": "If one or more Neurotyrants from your army are on the battlefield when you unleash the Shadow in the Warp, subtract 1 from the Battle-shock test each enemy unit on the battlefield must take as a result."
+      },
+      {
+        "name": "Synaptic Relays",
+        "description": "In your Command phase, you can select up to two friendly Tyranids units within 18\" of this model’s unit. Until the start of your next Command phase, the selected units are always considered to be within Synapse Range of your army."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- **Neurogaunts**\n- **Tyrant Guard**\n- **Zoanthropes**"
+      }
+    ],
+    "special_rules": [
+      "Shadow in the Warp",
+      "Synapse",
+      "Leader"
+    ],
+    "keywords": [
+      "Character",
+      "Monster",
+      "Fly",
+      "Psyker",
+      "Great Devourer",
+      "Neurotyrant",
+      "Faction: Tyranids",
+      "Synapse",
+      "Leader"
+    ]
+  },
+  {
+    "name": "Maleceptor",
+    "id": "2c2d-a2f9-61a8-a6c6",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 180,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "4"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "➤ Massive scything talons - strike",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6+1",
+          "Keywords": "-"
+        },
+        {
+          "name": "➤ Massive scything talons - sweep",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Encephalic Diffusion (Aura, Psychic)",
+        "description": "While an enemy unit is within 6\" of this model, each time a model in that unit makes an attack, subtract 1 from the Hit roll, and, if that enemy unit is Below Half-strength, subtract 1 from the Wound roll as well."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Shadow in the Warp",
+      "Synapse"
+    ],
+    "keywords": [
+      "Monster",
+      "Psyker",
+      "Great Devourer",
+      "Malceptor",
+      "Faction: Tyranids",
+      "Synapse"
+    ]
+  },
+  {
+    "name": "Pyrovores",
+    "id": "d2c6-bd0b-3205-3319",
+    "type": "unit",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 45,
+      "variants": [
+        {
+          "models": 2,
+          "points": 65
+        },
+        {
+          "models": 3,
+          "points": 95
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "5",
+      "LD": "8+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Flamespurt",
+          "Range": "12\"",
+          "A": "D6+1",
+          "BS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Ignores Cover, Torrent, Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Chitin-barbed limbs",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Burning Spray",
+        "description": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise 1",
+      "Synapse",
+      "Ignores Cover",
+      "Torrent",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Pyrovores",
+      "Infantry",
+      "Great Devourer",
+      "Faction: Tyranids",
+      "Harvester"
+    ]
+  },
+  {
+    "name": "Haruspex",
+    "id": "6249-358f-27d7-ef60",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 125,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "14",
+      "LD": "8+",
+      "OC": "4"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Grasping tongue",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "D6+1",
+          "Keywords": "Precision"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Shovelling claws",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "14",
+          "AP": "-2",
+          "D": "D6+1",
+          "Keywords": "Extra Attacks"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Grisly Spectacle",
+        "description": "Each time this model is selected to fight, after resolving its attacks, if one or more enemy units were destroyed by those attacks, each enemy unit within 6\" of this model must take a Battle-shock test."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Synapse",
+      "Precision",
+      "Extra Attacks"
+    ],
+    "keywords": [
+      "Monster",
+      "Great Devourer",
+      "Haruspex",
+      "Faction: Tyranids",
+      "Harvester"
+    ]
+  },
+  {
+    "name": "Venomthropes",
+    "id": "b563-c6d3-d0e5-1b78",
+    "type": "unit",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 55,
+      "variants": [
+        {
+          "models": 3,
+          "points": 110
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "3",
+      "LD": "8+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Toxic lashes",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Anti-Infantry 2+"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Foul Spores (Aura)",
+        "description": "While a friendly TYRANIDS unit is within 6\" of this unit, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack. In addition, while a friendly TYRANIDS unit (excluding MONSTERS) is within 6\" of this unit, models in that unit have the Stealth ability"
+      }
+    ],
+    "special_rules": [
+      "Stealth",
+      "Synapse",
+      "Anti"
+    ],
+    "keywords": [
+      "Infantry",
+      "Fly",
+      "Faction: Tyranids",
+      "Venomthropes",
+      "Great Devourer"
+    ]
+  },
+  {
+    "name": "Neurogaunts",
+    "id": "8ccc-3f27-7e4e-da81",
+    "type": "unit",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 45,
+      "variants": [
+        {
+          "models": 11,
+          "points": 90
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 10,
+      "max_models": 20
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Chitinous claws and teeth",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Neurocytes",
+        "description": "While this unit is within Synapse Range of your friendly **Tyranids** unit (excluding **Neurogaunt** units), it has the **Synapse** keyword."
+      }
+    ],
+    "special_rules": [
+      "Synapse"
+    ],
+    "keywords": [
+      "Infantry",
+      "Great Devourer",
+      "Neurogaunts",
+      "Endless Multitude",
+      "Faction: Tyranids"
+    ]
+  },
+  {
+    "name": "Exocrine",
+    "id": "bbfd-5b01-5bd3-a28b",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 140,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "8+",
+      "OC": "4"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Bio-plasmic cannon",
+          "Range": "36\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Blast, Heavy"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Powerful limbs",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "7",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Symbiotic Targeting",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly TYRANIDS model makes an attack that targets that unit, re-roll a Hit roll of 1."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Synapse",
+      "Heavy",
+      "Blast"
+    ],
+    "keywords": [
+      "Monster",
+      "Great Devourer",
+      "Exocrine",
+      "Faction: Tyranids"
+    ]
+  },
+  {
+    "name": "Biovores",
+    "id": "3f2c-85ec-d83c-4a2f",
+    "type": "unit",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 60,
+      "variants": [
+        {
+          "models": 2,
+          "points": 100
+        },
+        {
+          "models": 3,
+          "points": 140
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "5",
+      "LD": "8+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Spore mine launcher",
+          "Range": "48\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Blast, Devastating Wounds, Heavy, Indirect Fire"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Chitin-barbed limbs",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Seed Spore Mines",
+        "description": "Once per turn, in your Shooting Phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with its ranged weapons. If it does, you can add one new **SPORE MINES** unit to your army and set it up anywhere on the battlefield that is wholly within 48\" of this unit and more than 8\" horizontally away from all enemy units. That **SPORE MINES** unit contains 1 model for each model in this unit."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise 1",
+      "Synapse",
+      "Blast",
+      "Devastating Wounds",
+      "Heavy",
+      "Indirect Fire"
+    ],
+    "keywords": [
+      "Infantry",
+      "Great Devourer",
+      "Biovore",
+      "Faction: Tyranids"
+    ]
+  },
+  {
+    "name": "Carnifexes",
+    "id": "9efd-5564-f0f5-21ea",
+    "type": "unit",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 90,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "8+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Bio-plasma",
+          "Range": "12\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Assault, Blast"
+        },
+        {
+          "name": "Spine banks",
+          "Range": "6\"",
+          "A": "5",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Assault"
+        },
+        {
+          "name": "Deathspitters with slimer maggots",
+          "Range": "24\"",
+          "A": "6",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Devourers with brainleech worms",
+          "Range": "18\"",
+          "A": "12",
+          "BS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Heavy venom cannon",
+          "Range": "36\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Blast"
+        },
+        {
+          "name": "Stranglethorn cannon",
+          "Range": "36\"",
+          "A": "D6+1",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Blast"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Chitinous claws and teeth",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Carnifex crushing claws",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "-"
+        },
+        {
+          "name": "Carnifex scything talons",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "-"
+        },
+        {
+          "name": "Carnifex extra scything talons",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Extra Attacks"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Blistering Assault",
+        "description": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit lost a wound as a result of those attacks, this unit can make a **surge move** of up to D6+2\"."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise 1",
+      "Synapse",
+      "Blast",
+      "Assault",
+      "Extra Attacks"
+    ],
+    "keywords": [
+      "Monster",
+      "Great Devourer",
+      "Carnifexes",
+      "Faction: Tyranids"
+    ]
+  },
+  {
+    "name": "Screamer-killer",
+    "id": "8e53-d4a-a69f-e71d",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 125,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "10",
+      "LD": "8+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Bio-plasmic scream",
+          "Range": "18\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Assault, Blast"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Screamer-killer talons",
+          "Range": "Melee",
+          "A": "10",
+          "WS": "3+",
+          "S": "10",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Death Scream",
+        "description": "In your Shooting phase, after this model has shot, select one unit hit by one or more of those attacks. That unit must take a Battle-shock test, subtracting 1 from that test."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise 1",
+      "Synapse",
+      "Assault",
+      "Blast"
+    ],
+    "keywords": [
+      "Monster",
+      "Great Devourer",
+      "Screamer-killer",
+      "Faction: Tyranids"
+    ]
+  },
+  {
+    "name": "Hive Guard",
+    "id": "ac7a-2560-c083-45b8",
+    "type": "unit",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 80,
+      "variants": [
+        {
+          "models": 4,
+          "points": 160
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "4",
+      "LD": "8+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Shockcannon",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "3",
+          "Keywords": "Anti-Vehicle 2+"
+        },
+        {
+          "name": "Impaler cannon",
+          "Range": "36\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Heavy, Indirect Fire"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Chitinous claws and teeth",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Defensive Stance",
+        "description": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if this unit is within range of an objective marker that you control."
+      }
+    ],
+    "special_rules": [
+      "Synapse",
+      "Anti",
+      "Heavy",
+      "Indirect Fire"
+    ],
+    "keywords": [
+      "Infantry",
+      "Great Devourer",
+      "Hive Guard",
+      "Faction: Tyranids"
+    ]
+  },
+  {
+    "name": "Tyrannofex",
+    "id": "1705-379b-330d-36d4",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 180,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "9\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "8+",
+      "OC": "5"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Powerful limbs",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "8",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Resilient Organism",
+        "description": "Once per battle, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6",
+      "Synapse"
+    ],
+    "keywords": [
+      "Monster",
+      "Great Devourer",
+      "Faction: Tyranids",
+      "Tyrannofex"
+    ]
+  },
+  {
+    "name": "Hive Crone",
+    "id": "93aa-dd13-de9d-402b",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 170,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "-",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "8+",
+      "OC": "-"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Drool cannon",
+          "Range": "12\"",
+          "A": "2D6",
+          "BS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Torrent"
+        },
+        {
+          "name": "Tentaclids",
+          "Range": "36\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "7",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "Anti-vehicle 4+, Devastating Wounds"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Scything wings",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Thorax spur",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "3+",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6",
+          "Keywords": "Anti-fly 2+, Extra Attacks"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Airborne Predator",
+        "description": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Synapse",
+      "Torrent",
+      "Anti",
+      "Devastating Wounds",
+      "Extra Attacks"
+    ],
+    "keywords": [
+      "Aircraft",
+      "Monster",
+      "Fly",
+      "Great Devourer",
+      "Hive Crone",
+      "Faction: Tyranids",
+      "Vanguard Invader"
+    ]
+  },
+  {
+    "name": "Harpy",
+    "id": "c679-b06a-750b-e7f7",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 185,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "-",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "8+",
+      "OC": "-"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Twin stranglethorn cannon",
+          "Range": "36\"",
+          "A": "D6+1",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Blast, Twin-linked"
+        },
+        {
+          "name": "Twin heavy venom cannon",
+          "Range": "36\"",
+          "A": "D3",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Blast, Twin-linked"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Scything wings",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Spore Mine Cysts",
+        "description": "At the end of your opponent’s Fight phase, you can do one of the following:\n- Select one **visible** enemy unit (excluding **Lone Operative** units) within 24\" of this unit and roll six D6 for that unit: for each 3+, that unit suffers 1 **mortal wound**.\n- Add a new **SPORE MINES** unit containing D3 models to your army and set it up anywhere on the battlefield that is within 6\" of this model and more than 8\" horizontally away from all enemy units. You cannot select this option for more than one model per turn."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Synapse",
+      "Blast",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Harpy",
+      "Monster",
+      "Fly",
+      "Aircraft",
+      "Great Devourer",
+      "Faction: Tyranids",
+      "Vanguard Invader"
+    ]
+  },
+  {
+    "name": "Sporocyst",
+    "id": "2cdd-3bf1-55e0-7641",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 145,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "-",
+      "T": "10",
+      "SV": "3+",
+      "W": "10",
+      "LD": "8+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Sporocyst bio-weapon",
+          "Range": "24\"",
+          "A": "10",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Hive Defences"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Flensing whips",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Seed Mucolids",
+        "description": "Once per turn, in your shooting phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with it's ranged weapons. If it does, you can add one new **MUCOLID SPORES** containing 1 model to your army and set it up anywhere on the battlefield that is wholly within 18\" of this model and more than 8\" horizontally away from all enemy units."
+      },
+      {
+        "name": "Hive Defences",
+        "description": "You can target this model with the Fire Overwatch stratagem for 0CP, and can do so even if you have already targeted a different unit with that stratagem this turn. This model can only be targeted with that Stratagem once per turn"
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Synapse"
+    ],
+    "keywords": [
+      "Monster",
+      "Sporocyst",
+      "Great Devourer",
+      "Faction: Tyranids"
+    ]
+  },
+  {
+    "name": "Psychophage",
+    "id": "b6ac-f091-a018-dab2",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 110,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "8+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Talons and betentacled maw",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Anti-Psyker 4+, Devastating Wounds"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Bio-stimulus",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly **TYRANIDS** unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
+      },
+      {
+        "name": "Feeding Frenzy",
+        "description": "Each time this model makes a melee attack that targets a unit that is below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half strength, add 1 to the Wound roll as well."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise 1",
+      "Synapse",
+      "Feel No Pain 5+",
+      "Anti",
+      "Devastating Wounds"
+    ],
+    "keywords": [
+      "Monster",
+      "Great Devourer",
+      "Psychophage",
+      "Faction: Tyranids",
+      "Harvester",
+      "Smoke"
+    ]
+  },
+  {
+    "name": "Barbgaunts",
+    "id": "6de-ccee-11b4-be3e",
+    "type": "unit",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 55,
+      "variants": [
+        {
+          "models": 5,
+          "points": 110
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "8+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Barblauncher",
+          "Range": "24\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast, Heavy"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Chitinous claws and teeth",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Disruption Bombardment",
+        "description": "In your Shooting phase, after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the end of your opponent’s next turn, that enemy unit is disrupted. While a unit is disrupted, subtract 2 from its Move characteristic, and subtract 2 from Advance and Charge rolls made for it."
+      }
+    ],
+    "special_rules": [
+      "Synapse",
+      "Blast",
+      "Heavy"
+    ],
+    "keywords": [
+      "Barbgaunts",
+      "Infantry",
+      "Great Devourer",
+      "Faction: Tyranids"
+    ]
+  },
+  {
+    "name": "Barbed Hierodule [Legends]",
+    "id": "afd0-a0ca-68c3-d912",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 340,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "18",
+      "LD": "8+",
+      "OC": "5"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Bio-cannon",
+          "Range": "48\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Blast"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Hierodule scything talons",
+          "Range": "Melee",
+          "A": "8",
+          "WS": "3+",
+          "S": "14",
+          "AP": "-2",
+          "D": "D3+3",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Overgrown Barbs",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit (excluding Titanic units) that was hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6",
+      "Blast"
+    ],
+    "keywords": [
+      "Faction: Tyranids",
+      "Monster",
+      "Great Devourer",
+      "Barbed Hierodule",
+      "Frame"
+    ]
+  },
+  {
+    "name": "Scythed Hierodule [Legends]",
+    "id": "218c-639e-22e0-59ce",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 330,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "18",
+      "LD": "8+",
+      "OC": "5"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Bio-acid spray",
+          "Range": "18\"",
+          "A": "3D6",
+          "BS": "N/A",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Torrent"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Hierodule scything talons",
+          "Range": "Melee",
+          "A": "10",
+          "WS": "3+",
+          "S": "14",
+          "AP": "-2",
+          "D": "D3+3",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Irresistible Force",
+        "description": "This model is eligible to declare a charge in a turn in which it Fell Back."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6",
+      "Torrent"
+    ],
+    "keywords": [
+      "Faction: Tyranids",
+      "Monster",
+      "Great Devourer",
+      "Scythed Hierodule",
+      "Frame"
+    ]
+  },
+  {
+    "name": "Harridan",
+    "id": "9b5c-3b5a-1f80-9a74",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 610,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "14\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "30",
+      "LD": "8+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": "This model has a transport capacity of 20 GARGOYLES models and 1 WINGED TYRANID PRIME model.",
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Dire bio-cannon",
+          "Range": "48\"",
+          "A": "D6+6",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Blast"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Gargantuan scything talons",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "14",
+          "AP": "-2",
+          "D": "D6",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Damaged: 1-10 wounds remaining",
+        "description": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Frenzied Metabolism",
+        "description": "Each time this model is selected to shoot, you can use this ability. If you do, until the end of the phase, each time this model makes an attack, add 1 to the Wound roll. After resolving those attacks, roll one D6: on a 2+, this model suffers D3 mortal wounds."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise 2D6",
+      "Hover",
+      "Synapse",
+      "Blast"
+    ],
+    "keywords": [
+      "Faction: Tyranids",
+      "Monster",
+      "Titanic",
+      "Fly",
+      "Transport",
+      "Great Devourer",
+      "Harridan",
+      "Frame"
+    ]
+  },
+  {
+    "name": "Hierophant",
+    "id": "fbc0-3a2b-1d7d-23d9",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 810,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "14",
+      "SV": "2+",
+      "W": "30",
+      "LD": "8+",
+      "OC": "12"
+    },
+    "invuln_save": "5+",
+    "transport": "This model has a transport capacity of 20 TYRANIDS INFANTRY models. Each model with a Wounds characteristic of more than 1 takes up the space of 3 models. This model cannot transport models that can FLY.",
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Bio-plasma torrent",
+          "Range": "12\"",
+          "A": "3D6",
+          "BS": "N/A",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Assault, Torrent"
+        },
+        {
+          "name": "Dire bio-cannon",
+          "Range": "48\"",
+          "A": "D6+6",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Blast"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Lashwhip pods",
+          "Range": "Melee",
+          "A": "10",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Extra Attacks"
+        },
+        {
+          "name": "Titanic scything talons",
+          "Range": "Melee",
+          "A": "8",
+          "WS": "3+",
+          "S": "20",
+          "AP": "-2",
+          "D": "D6+1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Damaged: 1-10 wounds remaining",
+        "description": "While this model has 1-10 wounds remaining, subtract 6 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Apex-beast",
+        "description": "Each time this model makes an attack that targets a unit that is Battle-shocked, add 1 to the Hit roll."
+      },
+      {
+        "name": "Stalking Forward",
+        "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise 2D6",
+      "Synapse",
+      "Assault",
+      "Torrent",
+      "Blast",
+      "Extra Attacks"
+    ],
+    "keywords": [
+      "Faction: Tyranids",
+      "Monster",
+      "Titanic",
+      "Towering",
+      "Transport",
+      "Great Devourer",
+      "Hierophant",
+      "Frame"
+    ]
+  },
+  {
+    "name": "Genestealers",
+    "id": "853e-48b8-4cc5-3704",
+    "type": "unit",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 75,
+      "variants": [
+        {
+          "models": 6,
+          "points": 140
+        }
+      ]
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Genestealers claws and talons",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Vanguard Predator",
+        "description": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target is within range of one or more objective markers, re-roll a Wound roll 1 as well."
+      }
+    ],
+    "special_rules": [
+      "Scouts 8\"",
+      "Synapse"
+    ],
+    "keywords": [
+      "Faction: Tyranids",
+      "Infantry",
+      "Great Devourer",
+      "Genestealers",
+      "Vanguard Invader"
+    ]
+  },
+  {
+    "name": "Dimachaeron [Legends]",
+    "id": "78ca-3743-c254-4404",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 200,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Massive scything talons",
+          "Range": "Melee",
+          "A": "10",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Twin-linked"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Digestion Spine",
+        "description": "Each time this model fights, after it has resolved its attacks, if one or more enemy models (excluding Vehicle models) were destroyed as the result of those attacks, this model regains up to D3 mortal wounds."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6",
+      "Twin-linked"
+    ],
+    "keywords": [
+      "Faction: Tyranids",
+      "Monster",
+      "Great Devourer",
+      "Dimachaeron",
+      "Frame"
+    ]
+  },
+  {
+    "name": "Sky-slasher Swarms [Legends]",
+    "id": "f46f-9d2b-1f97-aaf6",
+    "type": "unit",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 60,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "12\"",
+      "T": "2",
+      "SV": "6+",
+      "W": "4",
+      "LD": "8+",
+      "OC": "0"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Spinemaws",
+          "Range": "6\"",
+          "A": "4",
+          "BS": "5+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Pistol"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Claws and teeth",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "5+",
+          "S": "2",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Sustained Hits 1"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Chitinous Horrors",
+        "description": "While an enemy unit is within Engagement Range of one or more units with this ability, halve the Objective Control characteristic of models in that enemy unit."
+      }
+    ],
+    "special_rules": [
+      "Deep Strike",
+      "Sustained Hits",
+      "Pistol"
+    ],
+    "keywords": [
+      "Faction: Tyranids",
+      "Swarm",
+      "Great Devourer",
+      "Fly",
+      "Sky-slasher Swarms"
+    ]
+  },
+  {
+    "name": "Malanthrope [Legends]",
+    "id": "c17f-f55f-a3cb-530b",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 75,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Grasping tail",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Enhanced Toxic Miasma",
+        "description": "While this model is leading a unit, the range of that unit's Foul Spores Aura ability is increased to 9\"."
+      },
+      {
+        "name": "Prey Adaptation",
+        "description": "Each time this model's unit is selected to fight, select one of the following abilities to apply to all melee weapons equipped by models in that unit until the end of the phase:\n- **[SUSTAINED HITS 1]**\n- **[LANCE]**\n- **[LETHAL HITS]**"
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit: \n- **Venomthropes**"
+      }
+    ],
+    "special_rules": [
+      "Stealth",
+      "Lance",
+      "Lethal Hits",
+      "Sustained Hits",
+      "Leader"
+    ],
+    "keywords": [
+      "Faction: Tyranids",
+      "Infantry",
+      "Character",
+      "Fly",
+      "Great Devourer",
+      "Synapse",
+      "Leader"
+    ]
+  },
+  {
+    "name": "Norn Assimilator",
+    "id": "6a9b-8e2f-edac-fa2d",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 250,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Toxinjecter Harpoon",
+          "Range": "12\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "Harpooned"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Monstrous scything talons",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "-"
+        },
+        {
+          "name": "Toxinjecter Harpoon",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "Keywords": "Extra Attacks"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Harpoon Barbs",
+        "description": "Once per turn, when an enemy unit within Engagement Range of this unit is chosen to Fall Back, roll one D6; on a 2+, that unit suffers D6 mortal wounds."
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D6",
+      "Shadow in the Warp",
+      "Synapse",
+      "Extra Attacks"
+    ],
+    "keywords": [
+      "Monster",
+      "Great Devourer",
+      "Synapse",
+      "Norn Assimilator",
+      "Faction: Tyranids",
+      "Harvester"
+    ]
+  },
+  {
+    "name": "Norn Emissary",
+    "id": "5720-2873-8c2c-edc3",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 250,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "➤ Psychic tendril - neuroparasite",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "D3",
+          "Keywords": "Precision, Psychic"
+        },
+        {
+          "name": "➤ Psychic tendril - neurolance",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6",
+          "Keywords": "Melta 2, Psychic"
+        },
+        {
+          "name": "➤ Psychic tendril - neuroblast",
+          "Range": "18\"",
+          "A": "2D6",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Blast, Psychic"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Monstrous rending claws",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Extra Attacks"
+        },
+        {
+          "name": "Monstrous scything talons",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [],
+    "special_rules": [
+      "Deadly Demise D6",
+      "Shadow in the Warp",
+      "Synapse",
+      "Extra Attacks",
+      "Melta",
+      "Blast",
+      "Psychic"
+    ],
+    "keywords": [
+      "Monster",
+      "Psyker",
+      "Great Devourer",
+      "Faction: Tyranids",
+      "Synapse",
+      "Norn Emissary"
+    ]
+  },
+  {
+    "name": "Hive Tyrant",
+    "id": "3e96-8098-3401-77af",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 195,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": []
+    },
+    "abilities": [
+      {
+        "name": "Onslaught (Aura, Psychic)",
+        "description": "While a friendly **TYRANIDS** unit is within 6\" of this model, ranged weapons equipped by models in that unit have the **[ASSAULT]** and **[LETHAL HITS]** abilities."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- **Tyrant Guard**"
+      }
+    ],
+    "special_rules": [
+      "Deadly Demise D3",
+      "Shadow in the Warp",
+      "Synapse",
+      "Leader"
+    ],
+    "keywords": [
+      "Monster",
+      "Character",
+      "Psyker",
+      "Hive Tyrant",
+      "Faction: Tyranids",
+      "Great Devourer",
+      "Synapse",
+      "Leader"
+    ]
+  },
+  {
+    "name": "Tyranid Prime with Lash Whip",
+    "id": "31f9-9730-853c-6f13",
+    "type": "model",
+    "faction": "Tyranids",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 75,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [],
+      "melee": [
+        {
+          "name": "Rending claw",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "-"
+        },
+        {
+          "name": "Lash whip",
+          "Range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Extra Attacks"
+        },
+        {
+          "name": "Scything talons",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Alpha Warrior",
+        "description": "Weapons equipped by models in this model’s unit have the **[SUSTAINED HITS 1]** ability."
+      },
+      {
+        "name": "Aggressive Leader‑beast",
+        "description": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was **destroyed** by those attacks, this unit can make a **surge move** of up to D6\"."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- **Hormagaunts**\n- **Termagants**\n- **Tyranid Warriors with Melee Bio-weapons**\n- **Tyranid Warriors with Ranged Bio-weapons**"
+      }
+    ],
+    "special_rules": [
+      "Synapse",
+      "Shadow in the Warp",
+      "Sustained Hits",
+      "Leader",
+      "Extra Attacks"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Faction: Tyranids",
+      "Great Devourer",
+      "Synapse",
+      "Tyranid Prime with Lash Whip",
+      "Leader"
+    ]
+  }
+]
