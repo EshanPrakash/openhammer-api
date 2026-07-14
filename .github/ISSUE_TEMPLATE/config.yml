@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contributing / dev setup questions
+    url: https://github.com/EshanPrakash/openhammer-api/blob/main/CONTRIBUTING.md
+    about: How the project is put together, how to run it locally, and how to add a new edition
