@@ -6,6 +6,8 @@ REST API for Warhammer 40,000 unit data. Edition-namespaced — currently servin
 
 **Interactive Docs**: https://openhammer-api-production.up.railway.app/docs
 
+**Live MCP Server**: https://openhammer-mcp-production.up.railway.app/mcp
+
 ## Table of Contents
 - [Usage](#usage)
 - [Quick Start (Local)](#quick-start-local)
@@ -115,6 +117,18 @@ Tests run entirely in-process against both editions (no live server or network a
 
 `api/mcp_server.py` exposes the same unit/faction/weapon data as MCP tools, so an MCP client (Claude Code, Claude Desktop, claude.ai) can query it directly instead of making manual HTTP calls. Tools call the in-process data store directly rather than the REST API.
 
+### Connect to the hosted server
+
+The MCP server is live at **https://openhammer-mcp-production.up.railway.app/mcp** — no install needed.
+
+```bash
+claude mcp add --transport http openhammer https://openhammer-mcp-production.up.railway.app/mcp
+```
+
+Claude Desktop and claude.ai support the same URL as an HTTP/Streamable HTTP connector. This gives you 9 tools: `list_editions`, `list_factions`, `search_units`, `get_unit`, `compare_units`, `random_unit`, `faction_details`, `search_weapons`, `search_abilities_or_rules`.
+
+### Run it yourself
+
 Its dependencies are pinned separately in `requirements-mcp.txt`, since `mcp` needs newer starlette/anyio versions than the pinned `fastapi==0.104.1` in `requirements.txt` supports.
 
 **With Python:**
@@ -131,7 +145,7 @@ docker build -f Dockerfile.mcp -t openhammer-mcp .
 docker run -p 8001:8001 openhammer-mcp
 ```
 
-Both serve Streamable HTTP on port 8001 (or `$PORT`, if set). Point an MCP client at `http://<host>:8001/mcp` to get 9 tools: `list_editions`, `list_factions`, `search_units`, `get_unit`, `compare_units`, `random_unit`, `faction_details`, `search_weapons`, `search_abilities_or_rules`.
+Both serve Streamable HTTP on port 8001 (or `$PORT`, if set) at `/mcp`.
 
 ---
 
