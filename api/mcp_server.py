@@ -13,7 +13,7 @@ from mcp.server.fastmcp import FastMCP
 from starlette.requests import Request
 from starlette.responses import JSONResponse
 
-from api.data_loader import data_store
+from api.data_loader import data_store, sort_units
 
 mcp = FastMCP("OpenHammer", host="0.0.0.0", port=int(os.environ.get("PORT", 8001)))
 
@@ -83,14 +83,7 @@ def search_units(
     )
 
     if sort_by:
-        reverse = sort_by.startswith("-")
-        field = sort_by[1:] if reverse else sort_by
-        if field == "name":
-            results = sorted(results, key=lambda u: u.name.lower(), reverse=reverse)
-        elif field == "points":
-            results = sorted(results, key=lambda u: u.points.base or 0, reverse=reverse)
-        elif field == "faction":
-            results = sorted(results, key=lambda u: u.faction.lower(), reverse=reverse)
+        results = sort_units(results, sort_by)
 
     return [u.model_dump() for u in results[:limit]]
 

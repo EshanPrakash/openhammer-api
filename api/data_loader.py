@@ -98,6 +98,20 @@ class EditionStore:
         return results
 
 
+def sort_units(units: List[Unit], sort_by: str) -> List[Unit]:
+    """Sort a unit list by 'name', 'points', or 'faction' (prefix with '-' for descending)."""
+    reverse = sort_by.startswith('-')
+    field = sort_by[1:] if reverse else sort_by
+
+    if field == 'name':
+        return sorted(units, key=lambda u: u.name.lower(), reverse=reverse)
+    elif field == 'points':
+        return sorted(units, key=lambda u: u.points.base or 0, reverse=reverse)
+    elif field == 'faction':
+        return sorted(units, key=lambda u: u.faction.lower(), reverse=reverse)
+    return units
+
+
 class DataStore:
     """Multi-edition in-memory data store"""
 

@@ -10,7 +10,7 @@ from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
 from slowapi.middleware import SlowAPIMiddleware
-from api.data_loader import data_store
+from api.data_loader import data_store, sort_units
 from api.models import Unit, FactionInfo, StatsResponse
 from api.routers import units, weapons, abilities, factions, bulk
 
@@ -161,18 +161,7 @@ async def get_units(
     )
 
     if sort_by:
-        reverse = False
-        sort_field = sort_by
-        if sort_by.startswith('-'):
-            reverse = True
-            sort_field = sort_by[1:]
-
-        if sort_field == 'name':
-            results = sorted(results, key=lambda u: u.name.lower(), reverse=reverse)
-        elif sort_field == 'points':
-            results = sorted(results, key=lambda u: u.points.base if u.points.base else 0, reverse=reverse)
-        elif sort_field == 'faction':
-            results = sorted(results, key=lambda u: u.faction.lower(), reverse=reverse)
+        results = sort_units(results, sort_by)
 
     total = len(results)
     results = results[offset:offset + limit]
