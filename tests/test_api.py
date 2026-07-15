@@ -22,6 +22,10 @@ FACTION_TYPES = {"Imperium", "Chaos", "Xenos", "Unaligned"}
 
 @pytest.fixture(scope="session")
 def client():
+    # The suite reuses one client for 100+ requests well within a minute, which would
+    # otherwise trip the app's own 100/min rate limit; tests exercise business logic,
+    # not rate limiting, so disable it here.
+    app.state.limiter.enabled = False
     with TestClient(app) as c:
         yield c
 

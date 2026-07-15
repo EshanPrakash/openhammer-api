@@ -9,6 +9,7 @@ from typing import List, Optional
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
+from slowapi.middleware import SlowAPIMiddleware
 from api.data_loader import data_store
 from api.models import Unit, FactionInfo, StatsResponse
 from api.routers import units, weapons, abilities, factions, bulk
@@ -37,6 +38,12 @@ class CacheControlMiddleware(BaseHTTPMiddleware):
         return response
 
 
+app.add_middleware(CacheControlMiddleware)
+app.add_middleware(SlowAPIMiddleware)
+
+# Added last so it's outermost: add_middleware() inserts at the front of the stack,
+# so the most-recently-added middleware wraps everything below it. CORS needs to wrap
+# SlowAPIMiddleware so its 429 responses still get Access-Control-Allow-Origin headers.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -44,8 +51,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-app.add_middleware(CacheControlMiddleware)
 
 
 @app.on_event("startup")
