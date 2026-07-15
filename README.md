@@ -1,6 +1,6 @@
 # OpenHammer API
 
-REST API for Warhammer 40,000 unit data. Edition-namespaced — currently serving 10th Edition (1,380 units across 35 factions) and 11th Edition (1,368 units across 35 factions).
+REST API for Warhammer 40,000 unit data — also available as an **MCP server**, so Claude (or any MCP client) can query it directly instead of you making manual HTTP calls. Edition-namespaced — currently serving 10th Edition (1,380 units across 35 factions) and 11th Edition (1,368 units across 35 factions).
 
 **Live API**: https://openhammer-api-production.up.railway.app
 
@@ -147,6 +147,16 @@ docker run -p 8001:8001 openhammer-mcp
 
 Both serve Streamable HTTP on port 8001 (or `$PORT`, if set) at `/mcp`.
 
+### Testing
+
+```bash
+source venv-mcp/bin/activate
+pip install -r requirements-mcp-dev.txt
+pytest -c pytest-mcp.ini
+```
+
+Runs entirely in-process against the FastMCP instance via an in-memory client/server session (no live server, no network) and covers all 9 tools across both editions. Kept as a separate suite from `pytest` (which runs `tests/`) since it needs the `mcp` package.
+
 ---
 
 ## API Overview
@@ -169,6 +179,7 @@ The OpenHammer API provides **29 endpoints** for accessing Warhammer 40K unit da
 
 ### Features
 
+- **MCP server** — query the data conversationally through Claude instead of writing HTTP calls (see [MCP Server](#mcp-server))
 - Edition-namespaced URLs — add new editions without any code changes
 - Automated monthly data sync via GitHub Actions (pulls latest BSData/wh40k-10e and BSData/wh40k-11e)
 - In-memory storage with <10ms response times
