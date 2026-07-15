@@ -1,10 +1,12 @@
 venv/
+venv-mcp/
 data/BSData-10e/
 data/BSData-11e/
 __pycache__/
 .git/
 *.pyc
 tests/
+tests_mcp/
 scripts/
 .DS_Store
 *.md
