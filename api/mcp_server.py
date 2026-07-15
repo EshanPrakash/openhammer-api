@@ -10,10 +10,18 @@ import os
 from typing import List, Optional
 
 from mcp.server.fastmcp import FastMCP
+from starlette.requests import Request
+from starlette.responses import JSONResponse
 
 from api.data_loader import data_store
 
 mcp = FastMCP("OpenHammer", host="0.0.0.0", port=int(os.environ.get("PORT", 8001)))
+
+
+@mcp.custom_route("/", methods=["GET"])
+async def health(request: Request) -> JSONResponse:
+    """Plain 200 for platform healthchecks - the MCP protocol itself only lives at /mcp."""
+    return JSONResponse({"status": "ok"})
 
 
 def _get_store(edition: str):
