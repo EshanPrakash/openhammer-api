@@ -1,0 +1,1 @@
+mcp[cli]==1.28.1  # needs newer starlette/anyio than requirements.txt's fastapi==0.104.1 pin allows - install in its own venv (venv-mcp/), not the main app's

@@ -1,4 +1,5 @@
 venv/
+venv-mcp/
 data/BSData-10e/
 data/BSData-11e/
 .env

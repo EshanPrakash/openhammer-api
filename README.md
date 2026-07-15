@@ -10,6 +10,7 @@ REST API for Warhammer 40,000 unit data. Edition-namespaced — currently servin
 - [Usage](#usage)
 - [Quick Start (Local)](#quick-start-local)
 - [Testing](#testing)
+- [MCP Server](#mcp-server)
 - [API Overview](#api-overview)
 - [Data Coverage](#data-coverage)
 - [API Endpoints](#api-endpoints)
@@ -107,6 +108,30 @@ pytest
 ```
 
 Tests run entirely in-process against both editions (no live server or network access needed) and cover search/filter/sort behavior, pagination, error cases, and edition parity across all 29 endpoints.
+
+---
+
+## MCP Server
+
+`api/mcp_server.py` exposes the same unit/faction/weapon data as MCP tools, so an MCP client (Claude Code, Claude Desktop, claude.ai) can query it directly instead of making manual HTTP calls. Tools call the in-process data store directly rather than the REST API.
+
+Its dependencies are pinned separately in `requirements-mcp.txt`, since `mcp` needs newer starlette/anyio versions than the pinned `fastapi==0.104.1` in `requirements.txt` supports.
+
+**With Python:**
+```bash
+python3 -m venv venv-mcp
+source venv-mcp/bin/activate
+pip install -r requirements-mcp.txt
+python -m api.mcp_server
+```
+
+**With Docker:**
+```bash
+docker build -f Dockerfile.mcp -t openhammer-mcp .
+docker run -p 8001:8001 openhammer-mcp
+```
+
+Both serve Streamable HTTP on port 8001 (or `$PORT`, if set). Point an MCP client at `http://<host>:8001/mcp` to get 9 tools: `list_editions`, `list_factions`, `search_units`, `get_unit`, `compare_units`, `random_unit`, `faction_details`, `search_weapons`, `search_abilities_or_rules`.
 
 ---
 
