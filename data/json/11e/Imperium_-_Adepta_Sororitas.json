@@ -16,7 +16,7 @@
     "stats": {
       "M": "6\"",
       "T": "3",
-      "SV": "",
+      "SV": "6+",
       "W": "3",
       "LD": "7+",
       "OC": "1"
@@ -737,7 +737,7 @@
     "faction": "Adepta Sororitas",
     "faction_type": "Imperium",
     "points": {
-      "base": 75,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -747,7 +747,7 @@
     "stats": {
       "M": "6\"",
       "T": "3",
-      "SV": "",
+      "SV": "3+",
       "W": "3",
       "LD": "7+",
       "OC": "1"
@@ -803,7 +803,7 @@
     "faction": "Adepta Sororitas",
     "faction_type": "Imperium",
     "points": {
-      "base": 65,
+      "base": 55,
       "variants": []
     },
     "composition": {
@@ -813,7 +813,7 @@
     "stats": {
       "M": "6\"",
       "T": "3",
-      "SV": "",
+      "SV": "3+",
       "W": "3",
       "LD": "6+",
       "OC": "1"
@@ -881,7 +881,7 @@
     "faction": "Adepta Sororitas",
     "faction_type": "Imperium",
     "points": {
-      "base": 110,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -1001,7 +1001,7 @@
     "faction": "Adepta Sororitas",
     "faction_type": "Imperium",
     "points": {
-      "base": 115,
+      "base": 105,
       "variants": []
     },
     "composition": {
@@ -1047,7 +1047,7 @@
     "abilities": [
       {
         "name": "The Pulpit of Saint Holline’s Basilica",
-        "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll."
+        "description": "- This unit has Stealth.\n- Melee attacks that target this unit have ‑1 to hit rolls."
       },
       {
         "name": "Fiery Conviction",
@@ -1057,6 +1057,7 @@
     "special_rules": [
       "Acts of Faith",
       "Deadly Demise 1",
+      "Stealth",
       "Ignores Cover",
       "Twin-linked",
       "Torrent"
@@ -1200,7 +1201,7 @@
     "faction": "Adepta Sororitas",
     "faction_type": "Imperium",
     "points": {
-      "base": 185,
+      "base": 200,
       "variants": []
     },
     "composition": {
@@ -1883,7 +1884,7 @@
     "faction": "Adepta Sororitas",
     "faction_type": "Imperium",
     "points": {
-      "base": 75,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -2082,7 +2083,7 @@
     "stats": {
       "M": "12\"",
       "T": "3",
-      "SV": "2",
+      "SV": "2+",
       "W": "2",
       "LD": "7+",
       "OC": "1"
@@ -2189,16 +2190,6 @@
         }
       ],
       "melee": [
-        {
-          "name": "Armoured tracks",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "4+",
-          "S": "6",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "-"
-        },
         {
           "name": "Dozer Ram",
           "Range": "Melee",
@@ -2571,7 +2562,7 @@
         },
         {
           "name": "➤ Plasma gun - standard",
-          "Range": "12\"",
+          "Range": "24\"",
           "A": "1",
           "BS": "3+",
           "S": "7",
@@ -2581,7 +2572,7 @@
         },
         {
           "name": "➤ Plasma gun - supercharge",
-          "Range": "12\"",
+          "Range": "24\"",
           "A": "1",
           "BS": "3+",
           "S": "8",
@@ -2981,7 +2972,7 @@
     "faction": "Adepta Sororitas",
     "faction_type": "Imperium",
     "points": {
-      "base": 150,
+      "base": 135,
       "variants": []
     },
     "composition": {

@@ -547,7 +547,7 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 75,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -1477,7 +1477,7 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 95,
+      "base": 85,
       "variants": []
     },
     "composition": {
@@ -1828,7 +1828,7 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 75,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -2334,7 +2334,7 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 95,
+      "base": 85,
       "variants": []
     },
     "composition": {

@@ -482,8 +482,8 @@
     },
     "abilities": [
       {
-        "name": "Adaptive Instincts",
-        "description": "At the start of the Fight phase, select one of the following:\n- Aggression Imperative: Until the end of the phase, each time a model in this unit makes a melee attack, re-roll a Hit roll of 1.\n- Bioregeneration: Until the end of the phase, each time a saving throw if made for a model in this unit, re-roll a saving throw of 1."
+        "name": "Adaptive Instincts (Once per turn, per unit)",
+        "description": "In the Fight phase, when this unit is **selected to fight** or when an enemy unit targets this unit, you can select one of the following:\n▪ This unit’s melee attacks have +1 **S**.\n▪ <ins>Or</ins>: This unit has +1 **T**."
       }
     ],
     "special_rules": [
@@ -568,7 +568,7 @@
     "faction": "Tyranids",
     "faction_type": "Xenos",
     "points": {
-      "base": 135,
+      "base": 120,
       "variants": []
     },
     "composition": {
@@ -721,7 +721,7 @@
     "faction": "Tyranids",
     "faction_type": "Xenos",
     "points": {
-      "base": 115,
+      "base": 130,
       "variants": []
     },
     "composition": {
@@ -795,7 +795,7 @@
     "faction": "Tyranids",
     "faction_type": "Xenos",
     "points": {
-      "base": 180,
+      "base": 190,
       "variants": []
     },
     "composition": {
@@ -1054,7 +1054,7 @@
     "abilities": [
       {
         "name": "Foul Spores (Aura)",
-        "description": "While a friendly TYRANIDS unit is within 6\" of this unit, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack. In addition, while a friendly TYRANIDS unit (excluding MONSTERS) is within 6\" of this unit, models in that unit have the Stealth ability"
+        "description": "Friendly **TYRANIDS** units within 6' of this unit have **Stealth**."
       }
     ],
     "special_rules": [
@@ -1608,7 +1608,18 @@
     "invuln_save": null,
     "transport": null,
     "weapons": {
-      "ranged": [],
+      "ranged": [
+        {
+          "name": "Rupture cannon",
+          "Range": "48\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "18",
+          "AP": "-4",
+          "D": "D6+6",
+          "Keywords": "Heavy"
+        }
+      ],
       "melee": [
         {
           "name": "Powerful limbs",
@@ -1630,7 +1641,8 @@
     ],
     "special_rules": [
       "Deadly Demise D6",
-      "Synapse"
+      "Synapse",
+      "Heavy"
     ],
     "keywords": [
       "Monster",

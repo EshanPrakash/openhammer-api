@@ -608,8 +608,8 @@
         "description": "If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
       },
       {
-        "name": "Target Elimination",
-        "description": "Each time this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, add 2 to the Attacks characteristic of bolt rifles equipped by models in this unit and you can only select one enemy unit as the target of all of this unit's attacks"
+        "name": "Hail of Bolts",
+        "description": "In your Shooting phase, when this unit is selected to shoot, select up to one visible enemy unit. While making those attacks, this unit’s Bolt Rifle attacks that targeted that enemy unit have +2 A"
       }
     ],
     "special_rules": [
@@ -637,7 +637,7 @@
       "variants": [
         {
           "models": 6,
-          "points": 170
+          "points": 180
         }
       ]
     },
@@ -1789,7 +1789,7 @@
     "abilities": [
       {
         "name": "Bladeguard",
-        "description": "At the start of the Fight phase, you can select one of the following abilities to apply to models in this unit until the end of the phase:\n\n- Swords of the Imperium: Each time a model in this unit makes a melee attack, re-roll a Hit roll of 1.\n- Shields of the Imperium: Each time an invulnerable saving throw is made for a model in this unit, re-roll a saving throw of 1."
+        "description": "(Once per turn, per unit): In the Fight phase, when this unit is selected to fight or when an enemy unit targets this unit, you can select one of the following:\n\n\n▪ This unit’s melee attacks have +1 to hit rolls.\n▪ Or: Attacks that target this unit have ‑1 to hit rolls."
       }
     ],
     "special_rules": [
@@ -1814,11 +1814,11 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 100,
+      "base": 105,
       "variants": [
         {
           "models": 6,
-          "points": 200
+          "points": 210
         }
       ]
     },
@@ -1897,6 +1897,16 @@
           "AP": "-1",
           "D": "2",
           "Keywords": "Anti-vehicle 2+, Pistol"
+        },
+        {
+          "name": "Heavy Bolt Pistol",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Pistol"
         }
       ],
       "melee": [
@@ -1909,6 +1919,16 @@
           "AP": "-1",
           "D": "1",
           "Keywords": "-"
+        },
+        {
+          "name": "Master-crafted Power Weapon",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": ""
         }
       ]
     },
@@ -2099,7 +2119,7 @@
       "variants": [
         {
           "models": 6,
-          "points": 190
+          "points": 200
         }
       ]
     },
@@ -2349,11 +2369,11 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 90,
+      "base": 80,
       "variants": [
         {
           "models": 4,
-          "points": 180
+          "points": 165
         }
       ]
     },
@@ -4347,7 +4367,8 @@
       "Grenades",
       "Imperium",
       "Invader ATV",
-      "Faction: Adeptus Astartes"
+      "Faction: Adeptus Astartes",
+      "Frame"
     ]
   },
   {
@@ -5085,7 +5106,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 75,
+      "base": 85,
       "variants": []
     },
     "composition": {
@@ -5168,11 +5189,11 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 120,
+      "base": 125,
       "variants": [
         {
           "models": 4,
-          "points": 240
+          "points": 250
         }
       ]
     },
@@ -5349,7 +5370,8 @@
       "Fly",
       "Imperium",
       "Faction: Adeptus Astartes",
-      "Storm Speeder Hailstrike"
+      "Storm Speeder Hailstrike",
+      "Frame"
     ]
   },
   {
@@ -5441,7 +5463,8 @@
       "Fly",
       "Imperium",
       "Storm Speeder Thunderstrike",
-      "Faction: Adeptus Astartes"
+      "Faction: Adeptus Astartes",
+      "Frame"
     ]
   },
   {
@@ -5451,7 +5474,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 130,
+      "base": 140,
       "variants": []
     },
     "composition": {
@@ -5531,7 +5554,8 @@
       "Fly",
       "Vehicle",
       "Storm Speeder Hammerstrike",
-      "Faction: Adeptus Astartes"
+      "Faction: Adeptus Astartes",
+      "Frame"
     ]
   },
   {
@@ -7978,7 +8002,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 240,
+      "base": 255,
       "variants": []
     },
     "composition": {
@@ -8133,7 +8157,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 75,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -8220,7 +8244,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 95,
+      "base": 85,
       "variants": []
     },
     "composition": {
@@ -8326,7 +8350,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 80,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -8470,7 +8494,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 70,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -8520,7 +8544,8 @@
       "Imperium",
       "Drop Pod",
       "Transport",
-      "Dedicated Transport"
+      "Dedicated Transport",
+      "Frame"
     ]
   },
   {
@@ -9132,7 +9157,8 @@
       "Fortification",
       "Imperium",
       "Hammerfall Bunker",
-      "Faction: Adeptus Astartes"
+      "Faction: Adeptus Astartes",
+      "Frame"
     ]
   },
   {
@@ -9662,7 +9688,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 60,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -10472,6 +10498,16 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Close-Quarters"
+        },
+        {
+          "name": "Absolvor bolt pistol",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Pistol"
         }
       ],
       "melee": [
@@ -10744,7 +10780,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 85,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -11947,7 +11983,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- COMPANY HEROES, CRUSADER SQUAD\n- DEATHWATCH VETERANS\n- DECIMUS KILL TEAM\n- FORTIS KILL TEAM\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD\n- VICTRIX HONOUR GUARD\n\n* This model cannot be attached to a Bladeguard Veteran Squad unless it is equipped with a relic shield, and cannot be attached to a Hellblaster Squad unless it is equipped with a plasma pistol."
+        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- COMPANY HEROES, CRUSADER SQUAD\n- DEATHWATCH VETERANS\n- DECIMUS KILL TEAM\n- FORTIS KILL TEAM\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD\n- VICTRIX HONOUR GUARD\n"
       }
     ],
     "special_rules": [
@@ -12159,7 +12195,6 @@
       "Vehicle",
       "Titanic",
       "Fly",
-      "Aircraft",
       "Transport",
       "Imperium",
       "Thunderhawk Gunship"
@@ -12929,7 +12964,7 @@
       "max_models": 1
     },
     "stats": {
-      "M": "20+\"",
+      "M": "14\"",
       "T": "10",
       "SV": "3+",
       "W": "18",
@@ -15188,10 +15223,6 @@
       {
         "name": "Command Squad",
         "description": "While a Character model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
-      },
-      {
-        "name": "Company Heroes",
-        "description": "You must attach one Captain or Chapter Master model to this unit. If this is not possible, this unit does not take part in the battle and counts as having been destroyed."
       }
     ],
     "special_rules": [
@@ -15671,7 +15702,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 70,
+      "base": 80,
       "variants": []
     },
     "composition": {
@@ -15749,7 +15780,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 95,
+      "base": 105,
       "variants": []
     },
     "composition": {
@@ -15839,98 +15870,6 @@
       "Imperium",
       "Land Speeder",
       "Faction: Adeptus Astartes"
-    ]
-  },
-  {
-    "name": "Vanguard Veteran Squad (Armageddon)",
-    "id": "c2b8-e7ef-084b-ed30",
-    "type": "unit",
-    "faction": "Space Marines",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 100,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "12\"",
-      "T": "4",
-      "SV": "3+",
-      "W": "2",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Heavy Bolt Pistol",
-          "Range": "18\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "4",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Pistol"
-        },
-        {
-          "name": "➤ Plasma pistol - standard",
-          "Range": "12\"",
-          "A": "D3",
-          "BS": "3+",
-          "S": "7",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "Close-Quarters"
-        },
-        {
-          "name": "➤ Plasma pistol - supercharge",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "8",
-          "AP": "-3",
-          "D": "2",
-          "Keywords": "Hazardous, Close-Quarters"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Master-crafted Power Weapon",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "3+",
-          "S": "5",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": ""
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Vanguard Assault",
-        "description": "Vanguard Assault: In a turn in which this unit made a charge move, this unit’s melee weapons have [LETHAL HITS]"
-      }
-    ],
-    "special_rules": [
-      "Oath of Moment",
-      "Templar Vows",
-      "Deep Strike",
-      "Close-quarters"
-    ],
-    "keywords": [
-      "Infantry",
-      "Explosives",
-      "Jump Pack",
-      "Vanguard Veteran Squad with Jump Packs",
-      "Faction: Adeptus Astartes",
-      "Fly",
-      "Imperium"
     ]
   }
 ]

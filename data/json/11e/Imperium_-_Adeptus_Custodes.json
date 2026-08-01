@@ -6,7 +6,7 @@
     "faction": "Adeptus Custodes",
     "faction_type": "Imperium",
     "points": {
-      "base": 65,
+      "base": 55,
       "variants": []
     },
     "composition": {
@@ -202,7 +202,7 @@
     "faction": "Adeptus Custodes",
     "faction_type": "Imperium",
     "points": {
-      "base": 75,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -483,11 +483,11 @@
     "faction": "Adeptus Custodes",
     "faction_type": "Imperium",
     "points": {
-      "base": 210,
+      "base": 200,
       "variants": [
         {
           "models": 4,
-          "points": 260
+          "points": 250
         }
       ]
     },
@@ -1091,7 +1091,7 @@
     "stats": {
       "M": "6\"",
       "T": "6",
-      "SV": "",
+      "SV": "2+",
       "W": "7",
       "LD": "5+",
       "OC": "2"
@@ -2025,11 +2025,11 @@
     "faction": "Adeptus Custodes",
     "faction_type": "Imperium",
     "points": {
-      "base": 160,
+      "base": 150,
       "variants": [
         {
           "models": 4,
-          "points": 320
+          "points": 300
         }
       ]
     },
@@ -2768,8 +2768,7 @@
       "Fly",
       "Imperium",
       "Orion Assault Dropship",
-      "Faction: Adeptus Custodes",
-      "Frame"
+      "Faction: Adeptus Custodes"
     ]
   },
   {
@@ -2835,7 +2834,7 @@
     "abilities": [
       {
         "name": "Infernus Firebomb",
-        "description": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move. Until the end of the turn, models in that unit cannot have the Benefit of Cover. In addition, roll one D6 for each model in that unit: for each 6, that unit suffers 1 mortal wound."
+        "description": "At the end of your Movement phase, select one **visible** enemy unit (excluding **AIRCRAFT/Lone Operative** units) within 24\" of this unit: \n- That enemy unit cannot have the **benefit of cover** until the end of your next Shooting phase. \n- Roll one D6 for each model in that enemy unit: for each 6, that enemy unit suffers 1 **mortal wound**."
       },
       {
         "name": "Damaged: 1-7 wounds remaining",
@@ -2853,8 +2852,7 @@
       "Aircraft",
       "Fly",
       "Imperium",
-      "Ares Gunship",
-      "Frame"
+      "Ares Gunship"
     ]
   },
   {

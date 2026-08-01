@@ -126,7 +126,7 @@
     "faction": "T'au Empire",
     "faction_type": "Xenos",
     "points": {
-      "base": 80,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -2038,7 +2038,7 @@
     "faction": "T'au Empire",
     "faction_type": "Xenos",
     "points": {
-      "base": 80,
+      "base": 85,
       "variants": []
     },
     "composition": {
@@ -2487,7 +2487,7 @@
         },
         {
           "models": 3,
-          "points": 240
+          "points": 255
         }
       ]
     },
@@ -2597,7 +2597,7 @@
     "faction": "T'au Empire",
     "faction_type": "Xenos",
     "points": {
-      "base": 180,
+      "base": 190,
       "variants": []
     },
     "composition": {
@@ -2731,7 +2731,7 @@
     "faction": "T'au Empire",
     "faction_type": "Xenos",
     "points": {
-      "base": 140,
+      "base": 150,
       "variants": []
     },
     "composition": {
@@ -2966,7 +2966,7 @@
     "faction": "T'au Empire",
     "faction_type": "Xenos",
     "points": {
-      "base": 85,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -3168,8 +3168,7 @@
       "Fly",
       "Razorshark Strike Fighter",
       "Faction: T'au Empire",
-      "Non-Kroot",
-      "Frame"
+      "Non-Kroot"
     ]
   },
   {
@@ -3280,8 +3279,7 @@
       "Fly",
       "Sun Shark Bomber",
       "Faction: T'au Empire",
-      "Non-Kroot",
-      "Frame"
+      "Non-Kroot"
     ]
   },
   {
@@ -3458,7 +3456,7 @@
     "faction": "T'au Empire",
     "faction_type": "Xenos",
     "points": {
-      "base": 360,
+      "base": 375,
       "variants": []
     },
     "composition": {
@@ -4477,7 +4475,7 @@
     "faction": "T'au Empire",
     "faction_type": "Xenos",
     "points": {
-      "base": 325,
+      "base": 375,
       "variants": []
     },
     "composition": {
@@ -4633,8 +4631,7 @@
       "Fly",
       "Tiger Shark",
       "Faction: T'au Empire",
-      "Non-Kroot",
-      "Frame"
+      "Non-Kroot"
     ]
   },
   {
@@ -4756,8 +4753,7 @@
       "Fly",
       "Faction: T'au Empire",
       "AX-1-0 Tiger Shark",
-      "Non-Kroot",
-      "Frame"
+      "Non-Kroot"
     ]
   },
   {

@@ -926,7 +926,7 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 140,
+      "base": 125,
       "variants": []
     },
     "composition": {
@@ -982,7 +982,7 @@
     "abilities": [
       {
         "name": "Sanctuary (Psychic)",
-        "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll."
+        "description": "- This unit has **Stealth**.\n- Melee attacks that target this unit have -1 to **hit rolls**."
       },
       {
         "name": "Hammer Aflame (Psychic)",
@@ -997,6 +997,7 @@
       "Deep Strike",
       "Leader",
       "Gate of Infinity",
+      "Stealth",
       "Psychic",
       "Devastating Wounds"
     ],
@@ -1348,7 +1349,7 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 85,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -1448,7 +1449,7 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 80,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -1649,8 +1650,7 @@
       "Aircraft",
       "Fly",
       "Smoke",
-      "Imperium",
-      "Frame"
+      "Imperium"
     ]
   },
   {
@@ -1813,8 +1813,7 @@
       "Vehicle",
       "Transport",
       "Fly",
-      "Imperium",
-      "Frame"
+      "Imperium"
     ]
   },
   {
@@ -1932,8 +1931,7 @@
       "Aircraft",
       "Vehicle",
       "Fly",
-      "Imperium",
-      "Frame"
+      "Imperium"
     ]
   },
   {
@@ -2634,11 +2632,11 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 120,
+      "base": 115,
       "variants": [
         {
           "models": 6,
-          "points": 240
+          "points": 230
         }
       ]
     },
@@ -2860,8 +2858,7 @@
       "Vehicle",
       "Fly",
       "Transport",
-      "Imperium",
-      "Frame"
+      "Imperium"
     ]
   },
   {
@@ -2987,7 +2984,7 @@
           "BS": "3+",
           "S": "10",
           "AP": "-1",
-          "D": "2",
+          "D": "3",
           "Keywords": "Psychic"
         },
         {

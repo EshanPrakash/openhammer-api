@@ -6,7 +6,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 130,
+      "base": 120,
       "variants": []
     },
     "composition": {
@@ -87,7 +87,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 350,
+      "base": 340,
       "variants": []
     },
     "composition": {
@@ -189,7 +189,8 @@
       "Monster",
       "Fly",
       "Epic Hero",
-      "Character"
+      "Character",
+      "Mobile"
     ]
   },
   {
@@ -442,7 +443,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 60,
+      "base": 55,
       "variants": []
     },
     "composition": {
@@ -1560,7 +1561,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 130,
+      "base": 120,
       "variants": []
     },
     "composition": {
@@ -1640,7 +1641,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 80,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -1723,7 +1724,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 340,
+      "base": 315,
       "variants": []
     },
     "composition": {
@@ -1804,6 +1805,10 @@
       {
         "name": "Monarch of the Hunt",
         "description": "At the start of the first battle round, select one enemy unit to be this model's quarry. Each time this model makes a melee attack that targets its quarry, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model's quarry is destroyed, select one new enemy unit to be this model's quarry."
+      },
+      {
+        "name": "Damaged: 1-7 wounds remaining",
+        "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
     "special_rules": [
@@ -2340,7 +2345,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 290,
+      "base": 300,
       "variants": []
     },
     "composition": {

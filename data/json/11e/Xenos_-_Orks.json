@@ -890,8 +890,7 @@
       "Fly",
       "Blitza-bommer",
       "Faction: Orks",
-      "Speed Freeks",
-      "Frame"
+      "Speed Freeks"
     ]
   },
   {
@@ -967,7 +966,7 @@
     "abilities": [
       {
         "name": "Billowing Fumes (Aura)",
-        "description": "While an enemy unit (excluding MONSTERS and VEHICLES) is within 6\" of this model, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        "description": "While an enemy unit (excluding **MONSTER/VEHICLE** units) is within 6\" of this unit, when that enemy unit is **selected to shoot**, that unit’s targets have the **benefit of cover** until that unit has shot."
       }
     ],
     "special_rules": [
@@ -1042,7 +1041,7 @@
       },
       {
         "name": "Kunnin’ Infiltrator (Once per battle, per army)",
-        "description": "In your Movement phase, if this unit is unengaged, you can use this ability. If you do:\n- Place this unit in strategic reserves.\n- This unit has Deep Strike until the end of the phase."
+        "description": "In your Movement phase, if this unit is unengaged, you can use this ability. If you do:\n- Place this unit in strategic reserves.\n- This unit has **Deep Strike**.\n- This unit must make an **ingress move** this phase (including in your first turn)."
       }
     ],
     "special_rules": [
@@ -1156,7 +1155,7 @@
       "variants": [
         {
           "models": 10,
-          "points": 150
+          "points": 160
         }
       ]
     },
@@ -1217,6 +1216,36 @@
           "Keywords": "Blast"
         },
         {
+          "name": "Kustom shoota",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
+        },
+        {
+          "name": "Kombi-shoota",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": ""
+        },
+        {
+          "name": "Kombi-rokkit",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "10",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": ""
+        },
+        {
           "name": "Kombi-weapon",
           "Range": "24\"",
           "A": "1",
@@ -1274,10 +1303,6 @@
       {
         "name": "Get Da Good Bitz",
         "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
-      },
-      {
-        "name": "Bodyguard",
-        "description": "If this unit has a Starting Strength of 20, you can attach up to two Leader units to it instead of one (but only if one of those is a **WARBOSS** unit). If you do, and this unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths."
       }
     ],
     "special_rules": [
@@ -1428,8 +1453,7 @@
       "Aircraft",
       "Burna-bommer",
       "Faction: Orks",
-      "Speed Freeks",
-      "Frame"
+      "Speed Freeks"
     ]
   },
   {
@@ -1498,8 +1522,7 @@
       "Aircraft",
       "Dakkajet",
       "Faction: Orks",
-      "Speed Freeks",
-      "Frame"
+      "Speed Freeks"
     ]
   },
   {
@@ -1877,7 +1900,7 @@
       },
       {
         "name": "Invulnerable Save (2+*)",
-        "description": "You cannot re-roll invulnerable saving throws made for this model."
+        "description": "While a friendly Makari model is on the battlefield, you cannot re‑roll **save rolls** for this unit."
       }
     ],
     "special_rules": [
@@ -2107,8 +2130,7 @@
       "Beast Snagga",
       "Hunta Rig",
       "Faction: Orks",
-      "Monster",
-      "Frame"
+      "Monster"
     ]
   },
   {
@@ -2315,8 +2337,7 @@
       "Beast Snagga",
       "Kill Rig",
       "Faction: Orks",
-      "Monster",
-      "Frame"
+      "Monster"
     ]
   },
   {
@@ -2902,7 +2923,7 @@
     "faction": "Orks",
     "faction_type": "Xenos",
     "points": {
-      "base": 45,
+      "base": 55,
       "variants": []
     },
     "composition": {
@@ -3375,7 +3396,7 @@
     "faction": "Orks",
     "faction_type": "Xenos",
     "points": {
-      "base": 60,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -3417,6 +3438,10 @@
         "description": "At the end of your Movement phase, select one friendly BEAST SNAGGA CHARACTER model within 3\" of this model. That model is healed and regains up to 3 lost wounds. Each model can only be healed once per turn"
       },
       {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- **BEAST SNAGGA BOYZ**"
+      },
+      {
         "name": "Grot Orderly",
         "description": "Once per battle, in your Command phase, if the bearer is leading a unit that is below its Starting Strength, you can return up to D3 destroyed Bodyguard models to that unit.\n\n**Designer’s Note:** *Place a Grot Orderly token next to the unit, removing it once this ability has been used.*"
       }
@@ -3424,6 +3449,7 @@
     "special_rules": [
       "Feel No Pain 5+",
       "Waaagh!",
+      "Leader",
       "Anti"
     ],
     "keywords": [
@@ -3442,7 +3468,7 @@
     "faction": "Orks",
     "faction_type": "Xenos",
     "points": {
-      "base": 80,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -3504,7 +3530,7 @@
     ],
     "special_rules": [
       "Waaagh!",
-      "Leader"
+      "Support"
     ],
     "keywords": [
       "Infantry",
@@ -3662,7 +3688,7 @@
     "abilities": [
       {
         "name": "Shokk Tunnel",
-        "description": "Each time this model is selected to Advance, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models instead of making an Advance move (this model is still considered to have Advanced this turn)."
+        "description": "In your Movement phase, when this unit is selected to make an **advance move**, you can use this ability. If you do:\n- That move has no **maximum distance**.\n- This unit can move through all types of model (including enemy models and **MONSTER/VEHICLE** models).\n- After moving, your unit must be more than 8\" horizontally from all enemy units."
       }
     ],
     "special_rules": [
@@ -4015,7 +4041,7 @@
     "faction": "Orks",
     "faction_type": "Xenos",
     "points": {
-      "base": 65,
+      "base": 55,
       "variants": []
     },
     "composition": {
@@ -4207,7 +4233,7 @@
     "faction": "Orks",
     "faction_type": "Xenos",
     "points": {
-      "base": 75,
+      "base": 85,
       "variants": []
     },
     "composition": {
@@ -4237,7 +4263,7 @@
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
         },
         {
-          "name": "Twin slugga",
+          "name": "Twin sluggas",
           "Range": "12\"",
           "A": "2",
           "BS": "5+",
@@ -4245,6 +4271,16 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Pistol, Twin-linked"
+        },
+        {
+          "name": "Kustom shoota",
+          "Range": "18\"",
+          "A": "4",
+          "BS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
         }
       ],
       "melee": [
@@ -4267,6 +4303,16 @@
           "AP": "-1",
           "D": "2",
           "Keywords": "-"
+        },
+        {
+          "name": "Kustom choppa",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Cleave 1"
         },
         {
           "name": "Power klaw",
@@ -4298,7 +4344,8 @@
       "Waaagh!",
       "Leader",
       "Pistol",
-      "Twin-linked"
+      "Twin-linked",
+      "Cleave"
     ],
     "keywords": [
       "Warboss",
@@ -8152,7 +8199,7 @@
     "faction": "Orks",
     "faction_type": "Xenos",
     "points": {
-      "base": 100,
+      "base": 115,
       "variants": []
     },
     "composition": {
@@ -8231,7 +8278,7 @@
     "faction": "Orks",
     "faction_type": "Xenos",
     "points": {
-      "base": 75,
+      "base": 85,
       "variants": []
     },
     "composition": {
@@ -8314,7 +8361,7 @@
       "variants": [
         {
           "models": 10,
-          "points": 150
+          "points": 160
         }
       ]
     },
@@ -8365,16 +8412,6 @@
           "Keywords": "Rapid Fire 2"
         },
         {
-          "name": "Kombi-rokkit",
-          "Range": "24\"",
-          "A": "1",
-          "BS": "5+",
-          "S": "10",
-          "AP": "-2",
-          "D": "3",
-          "Keywords": ""
-        },
-        {
           "name": "Kombi-shoota",
           "Range": "24\"",
           "A": "2",
@@ -8382,6 +8419,16 @@
           "S": "4",
           "AP": "0",
           "D": "1",
+          "Keywords": ""
+        },
+        {
+          "name": "Kombi-rokkit",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "10",
+          "AP": "-2",
+          "D": "3",
           "Keywords": ""
         }
       ],

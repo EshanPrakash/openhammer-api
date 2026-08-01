@@ -6,7 +6,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 350,
+      "base": 330,
       "variants": []
     },
     "composition": {
@@ -181,7 +181,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 110,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -451,7 +451,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 105,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -630,11 +630,11 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 180,
+      "base": 170,
       "variants": [
         {
           "models": 10,
-          "points": 345
+          "points": 330
         }
       ]
     },
@@ -716,11 +716,11 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 175,
+      "base": 165,
       "variants": [
         {
           "models": 5,
-          "points": 350
+          "points": 330
         }
       ]
     },
@@ -964,11 +964,11 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 135,
+      "base": 125,
       "variants": [
         {
           "models": 3,
-          "points": 270
+          "points": 255
         }
       ]
     },
@@ -1028,11 +1028,11 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 140,
+      "base": 130,
       "variants": [
         {
           "models": 3,
-          "points": 280
+          "points": 265
         }
       ]
     },
@@ -1194,7 +1194,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 135,
+      "base": 130,
       "variants": []
     },
     "composition": {
@@ -1316,7 +1316,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 135,
+      "base": 130,
       "variants": []
     },
     "composition": {
@@ -1616,7 +1616,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 160,
+      "base": 140,
       "variants": []
     },
     "composition": {
@@ -1969,7 +1969,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 145,
+      "base": 140,
       "variants": []
     },
     "composition": {
@@ -2055,7 +2055,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 85,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -2926,7 +2926,7 @@
       "variants": [
         {
           "models": 4,
-          "points": 180
+          "points": 190
         }
       ]
     },

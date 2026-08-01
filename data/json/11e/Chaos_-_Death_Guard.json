@@ -952,7 +952,7 @@
         },
         {
           "models": 8,
-          "points": 190
+          "points": 180
         }
       ]
     },
@@ -1748,7 +1748,7 @@
       "variants": [
         {
           "models": 4,
-          "points": 320
+          "points": 305
         }
       ]
     },
@@ -2878,7 +2878,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 85,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -2971,7 +2971,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 400,
+      "base": 390,
       "variants": []
     },
     "composition": {
@@ -4758,7 +4758,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 290,
+      "base": 300,
       "variants": []
     },
     "composition": {

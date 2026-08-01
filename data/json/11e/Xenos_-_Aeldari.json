@@ -214,7 +214,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 85,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -375,7 +375,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 80,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -535,7 +535,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 265,
+      "base": 250,
       "variants": []
     },
     "composition": {
@@ -793,8 +793,7 @@
       "Faction: Asuryani",
       "Aeldari",
       "Aspect Warrior",
-      "Ynnari",
-      "Frame"
+      "Ynnari"
     ]
   },
   {
@@ -931,7 +930,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 80,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -1176,7 +1175,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Guardian Defenders\n- Storm Guardians\n- Warlock Conclave"
+        "description": "This model can be attached to the following units:\n- **GUARDIAN DEFENDERS**\n- **STORM GUARDIANS**\n- **WARLOCK CONCLAVE**\n\nIf this model is not already attached to a unit, you can attach this model to a unit, even if one **WARLOCKS** unit has already been attached to it."
       }
     ],
     "special_rules": [
@@ -1294,7 +1293,8 @@
       "Vehicle",
       "Faction: Asuryani",
       "Aeldari",
-      "Ynnari"
+      "Ynnari",
+      "Frame"
     ]
   },
   {
@@ -1304,7 +1304,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 70,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -1418,7 +1418,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 70,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -1771,7 +1771,8 @@
       "Vehicle",
       "Faction: Asuryani",
       "Aeldari",
-      "Ynnari"
+      "Ynnari",
+      "Frame"
     ]
   },
   {
@@ -2015,8 +2016,7 @@
       "Wraith Construct",
       "Faction: Asuryani",
       "Aeldari",
-      "Ynnari",
-      "Frame"
+      "Ynnari"
     ]
   },
   {
@@ -2586,7 +2586,8 @@
       "Vehicle",
       "Night Spinner",
       "Faction: Asuryani",
-      "Aeldari"
+      "Aeldari",
+      "Frame"
     ]
   },
   {
@@ -2682,7 +2683,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 60,
+      "base": 50,
       "variants": []
     },
     "composition": {
@@ -2779,11 +2780,11 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 105,
+      "base": 100,
       "variants": [
         {
           "models": 3,
-          "points": 210
+          "points": 200
         }
       ]
     },
@@ -2908,7 +2909,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 95,
+      "base": 90,
       "variants": [
         {
           "models": 3,
@@ -3005,11 +3006,11 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 105,
+      "base": 95,
       "variants": [
         {
           "models": 2,
-          "points": 210
+          "points": 190
         }
       ]
     },
@@ -3086,12 +3087,13 @@
     "abilities": [
       {
         "name": "Acrobatic Grace",
-        "description": "Each time an attack targets this unit, subtract 1 from the Hit roll."
+        "description": "- This unit has **Stealth**.\n- Melee attacks that target this unit have ‑1 to **hit rolls**."
       }
     ],
     "special_rules": [
       "Battle Focus",
       "Disparate Paths",
+      "Stealth",
       "Anti",
       "Devastating Wounds"
     ],
@@ -3261,7 +3263,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 80,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -3326,7 +3328,8 @@
       "Aeldari",
       "Faction: Harlequins",
       "Harlequin Allies",
-      "Corsairs and Travelling Players"
+      "Corsairs and Travelling Players",
+      "Frame"
     ]
   },
   {
@@ -3634,7 +3637,8 @@
       "Infantry",
       "Aeldari",
       "D-Cannon Platform",
-      "Ynnari"
+      "Ynnari",
+      "Frame"
     ]
   },
   {
@@ -3644,7 +3648,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 100,
+      "base": 95,
       "variants": [
         {
           "models": 5,
@@ -3927,7 +3931,7 @@
     "abilities": [
       {
         "name": "Inevitable Death",
-        "description": "Once in each of your opponent's turns, if this model is on the battlefield when another friendly Aeldari unit is destroyed, just after removing the last model in that unit, you can remove this model from the battlefield and set it up as close as possible to where that destroyed model was destroyed and not within Engagement Range of one or more enemy units."
+        "description": "Once in each of your opponent's turns, if this model is on the battlefield when another friendly Aeldari unit is destroyed, just after removing the last model in that unit, you can remove this model from the battlefield and set it up as close as possible to where that destroyed model was destroyed and not within Engagement Range of one or more enemy units. Doing so does not prevent this model from being eligible to move."
       },
       {
         "name": "Ethereal Form",
@@ -4177,7 +4181,8 @@
       "Harlequin Allies",
       "Faction: Harlequins",
       "Aeldari",
-      "Corsairs and Travelling Players"
+      "Corsairs and Travelling Players",
+      "Frame"
     ]
   },
   {
@@ -4187,7 +4192,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 115,
+      "base": 105,
       "variants": [
         {
           "models": 5,
@@ -4317,7 +4322,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 125,
+      "base": 115,
       "variants": []
     },
     "composition": {
@@ -4457,7 +4462,8 @@
       "Transport",
       "Faction: Asuryani",
       "Aeldari",
-      "Ynnari"
+      "Ynnari",
+      "Frame"
     ]
   },
   {
@@ -4521,7 +4527,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 415,
+      "base": 385,
       "variants": []
     },
     "composition": {
@@ -5147,7 +5153,7 @@
       },
       {
         "name": "Shadowfield",
-        "description": "You cannot re-roll invulnerable saving throws made for the bearer. The first time an invulnerable saving throw made for the bearer is failed, until the end of the battle, the bearer has no invulnerable save."
+        "description": "While this model has an **InSv**, this unit cannot re‑roll **save rolls**. When this model loses a wound (excluding from **mortal wounds**), this model has no **InSv** until the end of the battle."
       },
       {
         "name": "Soul Trap",
@@ -5714,7 +5720,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 85,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -5817,7 +5823,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 100,
+      "base": 110,
       "variants": []
     },
     "composition": {
@@ -6035,8 +6041,7 @@
       "Faction: Drukhari",
       "Aircraft",
       "Vehicle",
-      "Fly",
-      "Frame"
+      "Fly"
     ]
   },
   {
@@ -6369,7 +6374,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 70,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -6560,8 +6565,7 @@
       "Faction: Drukhari",
       "Aircraft",
       "Vehicle",
-      "Fly",
-      "Frame"
+      "Fly"
     ]
   },
   {
@@ -7334,7 +7338,7 @@
       "LD": "6+",
       "OC": "20"
     },
-    "invuln_save": "4+",
+    "invuln_save": "4+*",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -7436,10 +7440,6 @@
         "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
       },
       {
-        "name": "Invulnerable Save",
-        "description": "Models in this unit have a 4+ invulnerable save against ranged attacks."
-      },
-      {
         "name": "Flawless Poise",
         "description": "This model is eligible to shoot and declare a charge in a turn in which it Fell Back."
       }
@@ -7458,7 +7458,8 @@
       "Walker",
       "Monster",
       "Aeldari",
-      "Wraith Construct"
+      "Wraith Construct",
+      "Frame"
     ]
   },
   {
@@ -7483,7 +7484,7 @@
       "LD": "6+",
       "OC": "16"
     },
-    "invuln_save": "4+",
+    "invuln_save": "4+*",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -7533,16 +7534,12 @@
     },
     "abilities": [
       {
-        "name": "Invulnerable Save",
-        "description": "Models in this unit have a 4+ invulnerable save against ranged attacks."
-      },
-      {
         "name": "Damaged: 1-10 Wounds Remaining",
         "description": "While this model has 1-10 wounds remaining, subtract 8 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
       },
       {
         "name": "Titanic Advance",
-        "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding Titanic models) and terrain features that are 4\" or less in height as if they were not there."
+        "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding **Titanic** models) and terrain features that are 4\" or less in height as if they were not there."
       },
       {
         "name": "Towering Wraith Construct",
@@ -7570,7 +7567,8 @@
       "Monster",
       "Fly",
       "Wraith Construct",
-      "Aeldari"
+      "Aeldari",
+      "Frame"
     ]
   },
   {
@@ -8896,7 +8894,12 @@
     "faction_type": "Xenos",
     "points": {
       "base": 85,
-      "variants": []
+      "variants": [
+        {
+          "models": 2,
+          "points": 160
+        }
+      ]
     },
     "composition": {
       "min_models": 1,
@@ -9022,7 +9025,8 @@
       "Aeldari",
       "Infantry",
       "Shadow Weaver Platform",
-      "Ynnari"
+      "Ynnari",
+      "Frame"
     ]
   },
   {
@@ -9098,7 +9102,8 @@
       "Infantry",
       "Aeldari",
       "Vibro Cannon Platform",
-      "Ynnari"
+      "Ynnari",
+      "Frame"
     ]
   },
   {
@@ -9235,7 +9240,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 405,
+      "base": 380,
       "variants": []
     },
     "composition": {
@@ -9526,7 +9531,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 80,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -9599,7 +9604,8 @@
       "Fly",
       "Vehicle",
       "Transport",
-      "Faction: Ynnari"
+      "Faction: Ynnari",
+      "Frame"
     ]
   },
   {
@@ -9609,7 +9615,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 70,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -9688,7 +9694,8 @@
       "Dedicated Transport",
       "Transport",
       "Vehicle",
-      "Faction: Ynnari"
+      "Faction: Ynnari",
+      "Frame"
     ]
   },
   {
@@ -10064,7 +10071,7 @@
       "LD": "7+",
       "OC": "1"
     },
-    "invuln_save": null,
+    "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [],
@@ -10121,7 +10128,7 @@
       "LD": "7+",
       "OC": "1"
     },
-    "invuln_save": null,
+    "invuln_save": "6+",
     "transport": null,
     "weapons": {
       "ranged": [],

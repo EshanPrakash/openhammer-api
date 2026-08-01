@@ -363,7 +363,8 @@
       "Tech-Priest",
       "Faction: Adeptus Mechanicus",
       "Imperium",
-      "Cult Mechanicus"
+      "Cult Mechanicus",
+      "Mobile"
     ]
   },
   {
@@ -619,7 +620,7 @@
       },
       {
         "name": "Repulsor Grid",
-        "description": "Each time a ranged attack is allocated to a **Kastelan Robot** model in this unit, on an unmodified saving throw of 6, the attacking unit suffers 1 mortal wound after it has finished making its attacks."
+        "description": "When an enemy unit targets this unit with ranged attacks, until that enemy unit has shot, when this unit makes a save roll: \n- On an unmodified 6, that enemy unit suffers 1 mortal wound after that enemy unit has shot."
       }
     ],
     "special_rules": [
@@ -649,7 +650,7 @@
       "variants": [
         {
           "models": 3,
-          "points": 320
+          "points": 310
         }
       ]
     },
@@ -742,7 +743,7 @@
       "variants": [
         {
           "models": 3,
-          "points": 210
+          "points": 200
         }
       ]
     },
@@ -1205,7 +1206,7 @@
       "variants": [
         {
           "models": 3,
-          "points": 120
+          "points": 110
         }
       ]
     },
@@ -1276,6 +1277,7 @@
     "special_rules": [
       "Scouts 9\"",
       "Doctrina Imperatives",
+      "Stealth",
       "Devastating Wounds",
       "Lone Operative 15\""
     ],
@@ -1299,7 +1301,7 @@
       "variants": [
         {
           "models": 3,
-          "points": 110
+          "points": 100
         }
       ]
     },
@@ -1391,6 +1393,7 @@
     ],
     "special_rules": [
       "Doctrina Imperatives",
+      "Stealth",
       "Anti",
       "Devastating Wounds",
       "Extra Attacks",
@@ -1657,7 +1660,8 @@
     ],
     "special_rules": [
       "Support",
-      "Doctrina Imperatives"
+      "Doctrina Imperatives",
+      "Stealth"
     ],
     "keywords": [
       "Marshal",
@@ -1795,6 +1799,7 @@
     "special_rules": [
       "Scouts 6\"",
       "Doctrina Imperatives",
+      "Stealth",
       "Heavy",
       "Precision",
       "Rapid Fire",
@@ -1819,7 +1824,7 @@
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
-      "base": 90,
+      "base": 85,
       "variants": []
     },
     "composition": {
@@ -1938,6 +1943,7 @@
     ],
     "special_rules": [
       "Doctrina Imperatives",
+      "Stealth",
       "Anti",
       "Heavy",
       "Precision",
@@ -2074,7 +2080,7 @@
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
-      "base": 85,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -2681,6 +2687,10 @@
       {
         "name": "Battle Protocols",
         "description": "At the start of the battle, if this model is leading a **Kastelan Robots** unit, that unit enters Aegis Protocols (see below). In your Command phase, if this model is leading a **Kastelan Robots** unit, you can select one protocol from those listed below for that unit to enter. Once a unit enters a protocol, it remains in that protocol until it enters a different one\n- Protector Protocol: Add 2 to the Attacks characteristic of ranged weapons equipped by **Kastelan Robot** models in that unit.\n- Conqueror Protocol: Add 2 to the Attacks characteristic of melee weapons equipped by **Kastelan Robot** models in that unit.\n- Aegis Protocol: Add 1 to the Toughness characteristic of **Kastelan Robot** models in that unit."
+      },
+      {
+        "name": "Data-severed",
+        "description": "If there are no KASTELAN ROBOT models in this unit: \n- This unit loses VEHICLE. \n- This unit has INFANTRY."
       }
     ],
     "special_rules": [
@@ -3743,10 +3753,6 @@
       {
         "name": "Rod of the War Forge",
         "description": "In your Command phase, select one of the abilities in the Icon of War section. Until the start of your next Command phase, this model has that ability."
-      },
-      {
-        "name": "Cybernetic Augmentation",
-        "description": "This model can move through terrain features, but cannot end a move within a wall, a floor, etc. This model can be set up or end a move on any floor level of **Ruins**, but if that level is not the ground floor, it can only do so if its base does not overhang the floor at that level."
       }
     ],
     "special_rules": [
@@ -3764,7 +3770,8 @@
       "Faction: Adeptus Mechanicus",
       "Imperium",
       "Cult Mechanicus",
-      "Thulia Ghuld"
+      "Thulia Ghuld",
+      "Mobile"
     ]
   },
   {
@@ -3774,7 +3781,7 @@
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
-      "base": 115,
+      "base": 105,
       "variants": []
     },
     "composition": {

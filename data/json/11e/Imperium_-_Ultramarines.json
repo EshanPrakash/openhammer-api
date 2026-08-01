@@ -169,7 +169,7 @@
     "faction": "Ultramarines",
     "faction_type": "Imperium",
     "points": {
-      "base": 95,
+      "base": 85,
       "variants": []
     },
     "composition": {
@@ -239,7 +239,7 @@
       },
       {
         "name": "Master of Prescience (Psychic)",
-        "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll. In addition, once per battle round, you can target that unit with one of the following Stratagems for 0CP: Counter-offensive; Fire Overwatch; Go to Ground;\nHeroic Intervention."
+        "description": "▪ This unit has Stealth.\n▪ Melee attacks that target this unit have ‑1 to hit rolls.\n▪ (Once per battle round, per army) When you target this unit with the Counteroffensive/Fire Overwatch/Heroic Intervention stratagem, that use is ‑1 CP."
       },
       {
         "name": "Leader",
@@ -360,7 +360,7 @@
     "faction": "Ultramarines",
     "faction_type": "Imperium",
     "points": {
-      "base": 340,
+      "base": 355,
       "variants": []
     },
     "composition": {
@@ -445,7 +445,8 @@
       "Roboute Guilliman",
       "Faction: Adeptus Astartes",
       "Faction: Ultramarines",
-      "Monster"
+      "Monster",
+      "Mobile"
     ]
   },
   {
@@ -700,7 +701,7 @@
     "faction": "Ultramarines",
     "faction_type": "Imperium",
     "points": {
-      "base": 95,
+      "base": 105,
       "variants": []
     },
     "composition": {
@@ -964,7 +965,7 @@
     "faction": "Ultramarines",
     "faction_type": "Imperium",
     "points": {
-      "base": 140,
+      "base": 155,
       "variants": []
     },
     "composition": {
@@ -1047,7 +1048,7 @@
     "faction": "Ultramarines",
     "faction_type": "Imperium",
     "points": {
-      "base": 95,
+      "base": 105,
       "variants": []
     },
     "composition": {
@@ -1156,7 +1157,7 @@
       "variants": [
         {
           "models": 4,
-          "points": 220
+          "points": 230
         }
       ]
     },
@@ -1249,7 +1250,7 @@
     "faction": "Ultramarines",
     "faction_type": "Imperium",
     "points": {
-      "base": 90,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -1344,7 +1345,7 @@
     "faction": "Ultramarines",
     "faction_type": "Imperium",
     "points": {
-      "base": 110,
+      "base": 120,
       "variants": []
     },
     "composition": {

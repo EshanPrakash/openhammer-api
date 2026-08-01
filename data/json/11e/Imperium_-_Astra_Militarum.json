@@ -226,7 +226,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 450,
+      "base": 415,
       "variants": []
     },
     "composition": {
@@ -346,7 +346,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 420,
+      "base": 385,
       "variants": []
     },
     "composition": {
@@ -442,7 +442,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 450,
+      "base": 415,
       "variants": []
     },
     "composition": {
@@ -749,7 +749,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 65,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -950,7 +950,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 85,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -1263,7 +1263,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 415,
+      "base": 380,
       "variants": []
     },
     "composition": {
@@ -1472,7 +1472,7 @@
     "abilities": [
       {
         "name": "Covert Stealth Team",
-        "description": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield. In your next Movement phase, set it up anywhere on the battlefield that is more than 8\" horizontally away from all enemy models."
+        "description": "At the end of your opponent’s turn, if this unit is **unengaged**, you can use this ability. If you do:\n- Place this unit in **strategic reserves**.\n- This unit has **Deep Strike** until the start of your next Shooting phase.\n- This unit must make an **ingress move** in your next Movement phase (including in your first turn)."
       },
       {
         "name": "Tanith Camo-cloaks",
@@ -1508,7 +1508,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 420,
+      "base": 385,
       "variants": []
     },
     "composition": {
@@ -3096,7 +3096,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 410,
+      "base": 375,
       "variants": []
     },
     "composition": {
@@ -3267,7 +3267,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 430,
+      "base": 395,
       "variants": []
     },
     "composition": {
@@ -3369,7 +3369,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 465,
+      "base": 430,
       "variants": []
     },
     "composition": {
@@ -3470,7 +3470,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 235,
+      "base": 215,
       "variants": []
     },
     "composition": {
@@ -3676,7 +3676,7 @@
     "abilities": [
       {
         "name": "Death Befitting An Officer",
-        "description": "When this model is destroyed, roll one D6: on a 2+, do not remove it from play - it can, after the attacking model’s unit has finished making its attacks, shoot as if it were your Shooting phase and as if it had its full wounds remaining. This model is then removed from play."
+        "description": "In your opponent’s Shooting phase, when this unit is **destroyed**, before this unit’s **deadly demise** roll, roll one D6: \n- On a 2+, do not remove this unit from the battlefield. After the attacking unit has shot, this unit can shoot using **normal shooting**, but while doing so this unit can only target that enemy unit. When this unit has shot, or at the end of the phase (whichever comes first), resolve this unit’s **deadly demise** roll, then this unit is removed from the battlefield."
       },
       {
         "name": "Vox-net",
@@ -3706,7 +3706,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 75,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -3786,7 +3786,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 85,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -4008,12 +4008,12 @@
       "max_models": 1
     },
     "stats": {
-      "M": "20+\"",
+      "M": "14\"",
       "T": "10",
       "SV": "2+",
       "W": "14",
       "LD": "7+",
-      "OC": "0"
+      "OC": "-"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 **Astra Militarum Infantry** models. Each **Ogryn** model takes up the space of 3 models. It cannot transport **Artillery** models.",
@@ -4103,9 +4103,7 @@
       "Transport",
       "Vehicle",
       "Fly",
-      "Aircraft",
-      "Imperium",
-      "Frame"
+      "Imperium"
     ]
   },
   {
@@ -10000,7 +9998,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 65,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -10297,12 +10295,17 @@
       {
         "name": "Leader",
         "description": "This model can be attached to the following unit:\n- **Death Riders**"
+      },
+      {
+        "name": "Leading the Charge",
+        "description": "Each time this model's unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the **[DEVASTATING WOUNDS]** ability."
       }
     ],
     "special_rules": [
       "Voice Of Command",
       "Feel No Pain 6+",
       "Leader",
+      "Devastating Wounds",
       "Anti",
       "Extra Attacks"
     ],
@@ -11412,7 +11415,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 130,
+      "base": 120,
       "variants": []
     },
     "composition": {
@@ -11471,7 +11474,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Power klaw",
@@ -11481,7 +11484,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -11841,7 +11844,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 75,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -11901,9 +11904,109 @@
       "Smoke",
       "Squadron",
       "Vehicle",
-      "Centaur RSv",
+      "Centaur RSV",
       "Dedicated Transport",
       "Transport"
+    ]
+  },
+  {
+    "name": "Ciaphas Cain [Legends]",
+    "id": "4aa7-5845-84ad-2d7d",
+    "type": "model",
+    "faction": "Astra Militarum",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 70,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "invuln_save": "5+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Laspistols",
+          "Range": "12\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "3",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Precision"
+        },
+        {
+          "name": "Meltagun",
+          "Range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "Keywords": "Melta 2"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Chainsword and gun butt",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "3",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": ""
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Unparalleled Luck (Once per battle, per army)",
+        "description": "At the start of a phase, you can use this ability. if you do, this model has 2+ InSv."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- **CADIAN SHOCK TROOPS**\n- **CATACHAN JUNGLE FIGHTERS**\n- **DEATH KORPS OF KRIEG**\n- **KASRKIN**\n- **TEMPESTUS SCIONS**"
+      },
+      {
+        "name": "Psychic Blank",
+        "description": "This model has Feel No Pain 4+ against **psychic attacks** and **mortal wounds**."
+      },
+      {
+        "name": "Hero of the Imperium (Aura)",
+        "description": "While a friendly **ASTRA MILITARUM** unit is within 6\" of this model, that unit can re-roll **battle-shock rolls**."
+      },
+      {
+        "name": "Trapped by Excuses",
+        "description": "In the Deploy Armies step, you must set this unit up on the battlefield, or embarked within a **TRANSPORT** unit that is set up on the battlefield. Abilities that allow you to redeploy a unit or place a unit in **strategic reserves** cannot affect this unit or a **TRANSPORT** unit this unit is embarked within."
+      }
+    ],
+    "special_rules": [
+      "Voice Of Command",
+      "Stealth",
+      "Leader",
+      "Precision",
+      "Melta"
+    ],
+    "keywords": [
+      "Faction: Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Officer",
+      "Leader",
+      "Ciaphas Cain"
     ]
   }
 ]

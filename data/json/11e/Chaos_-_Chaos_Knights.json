@@ -95,7 +95,7 @@
     "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
-      "base": 140,
+      "base": 135,
       "variants": []
     },
     "composition": {
@@ -404,7 +404,7 @@
     "faction": "Chaos Knights",
     "faction_type": "Chaos",
     "points": {
-      "base": 140,
+      "base": 135,
       "variants": []
     },
     "composition": {
@@ -728,7 +728,7 @@
           "S": "18",
           "AP": "-4",
           "D": "D6+3",
-          "Keywords": "-"
+          "Keywords": "Devastating Wounds: Monster/Vehicle"
         },
         {
           "name": "Diabolus heavy stubber",
@@ -791,7 +791,7 @@
       },
       {
         "name": "Obsessive Ruthlessness",
-        "description": "Each time this model makes a ranged attack that targets a **Monster** or **Vehicle** unit, that attack has the [DEVASTATING WOUNDS] ability."
+        "description": "This unit’s ranged attacks that target a MONSTER/VEHICLE unit can ignore modifiers to this unit’s: \n- BS. \n- Hit rolls and wound rolls."
       }
     ],
     "special_rules": [
@@ -966,7 +966,7 @@
           "S": "12",
           "AP": "0",
           "D": "3",
-          "Keywords": "Devastating Wounds"
+          "Keywords": "Devastating Wounds, Ignores Cover"
         }
       ],
       "melee": [
@@ -1008,7 +1008,8 @@
       "Harbingers of Dread",
       "Extra Attacks",
       "Sustained Hits",
-      "Devastating Wounds"
+      "Devastating Wounds",
+      "Ignores Cover"
     ],
     "keywords": [
       "Faction: Chaos Knights",
@@ -2217,7 +2218,7 @@
         {
           "name": "Darkflame lance",
           "Range": "18\"",
-          "A": "2D6",
+          "A": "D6+6",
           "BS": "N/A",
           "S": "8",
           "AP": "-1",
@@ -2227,7 +2228,7 @@
         {
           "name": "Terrorpulse missiles",
           "Range": "36\"",
-          "A": "2D6",
+          "A": "D6+6",
           "BS": "3+",
           "S": "8",
           "AP": "-2",

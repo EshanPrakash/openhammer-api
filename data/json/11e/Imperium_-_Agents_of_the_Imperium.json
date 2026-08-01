@@ -192,7 +192,7 @@
     "faction": "Agents of the Imperium",
     "faction_type": "Imperium",
     "points": {
-      "base": 110,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -327,7 +327,7 @@
       },
       {
         "name": "Acrobatic Escape",
-        "description": "At the end of the Fight phase, if this model is within Engagement Range of one or more enemy units, it can make a Fall Back move of up to D6\". In addition, at the end of your opponent's turn, if this model is not within 3\" of one or more enemy units, you can remove it from the battlefield and then, in the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 8\" horizontally away from all enemy models. If the battle ends and this model is not on the battlefield, it is destroyed."
+        "description": "- At the end of the Fight phase, if this unit is engaged, this unit can make a fall-back move of up to D6\". \n- At the end of your opponent’s turn, if this unit is more than 3\" from all enemy units, you can use this ability. If you do: \n- Place this unit in strategic reserves. \n- This unit must make an ingress move in your next Movement phase (including in your first turn)."
       },
       {
         "name": "Decoy Targets",
@@ -2198,7 +2198,12 @@
     "faction_type": "Imperium",
     "points": {
       "base": 50,
-      "variants": []
+      "variants": [
+        {
+          "models": 1,
+          "points": 60
+        }
+      ]
     },
     "composition": {
       "min_models": 1,
@@ -2360,7 +2365,7 @@
     "faction": "Agents of the Imperium",
     "faction_type": "Imperium",
     "points": {
-      "base": 190,
+      "base": 175,
       "variants": []
     },
     "composition": {
@@ -2474,7 +2479,7 @@
     "faction": "Agents of the Imperium",
     "faction_type": "Imperium",
     "points": {
-      "base": 70,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -2607,7 +2612,7 @@
     "faction": "Agents of the Imperium",
     "faction_type": "Imperium",
     "points": {
-      "base": 75,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -2927,7 +2932,7 @@
     "faction": "Agents of the Imperium",
     "faction_type": "Imperium",
     "points": {
-      "base": 100,
+      "base": 90,
       "variants": []
     },
     "composition": {

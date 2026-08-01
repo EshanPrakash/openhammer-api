@@ -676,7 +676,7 @@
       "variants": [
         {
           "models": 4,
-          "points": 180
+          "points": 190
         }
       ]
     },
@@ -1246,7 +1246,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 295,
+      "base": 305,
       "variants": []
     },
     "composition": {
@@ -1306,7 +1306,7 @@
       },
       {
         "name": "One Head Looks Back (Aura)",
-        "description": "Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP (this is not cumulative with any other rules that would increase the CP cost of that Stratagem)."
+        "description": "Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do, increase the CP cost of that use of that stratagem by 1CP."
       }
     ],
     "special_rules": [
@@ -1340,7 +1340,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 300,
+      "base": 320,
       "variants": []
     },
     "composition": {
@@ -1657,7 +1657,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 80,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -1717,7 +1717,7 @@
       },
       {
         "name": "Fluxmaster",
-        "description": "While this model is leading a unit, each time an attack is made against that unit, subtract 1 form the Hit roll."
+        "description": "- This unit has Stealth. \n- Melee attacks that target this unit have ‑1 to hit rolls."
       },
       {
         "name": "Altered Reality (Psychic)",
@@ -2380,8 +2380,7 @@
       "Tzeentch",
       "Screamers",
       "Tzeentch non-Battleline",
-      "Shadow Legion",
-      "Frame"
+      "Shadow Legion"
     ]
   },
   {
@@ -3230,8 +3229,13 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 70,
-      "variants": []
+      "base": 75,
+      "variants": [
+        {
+          "models": 2,
+          "points": 140
+        }
+      ]
     },
     "composition": {
       "min_models": 1,
@@ -3440,7 +3444,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 340,
+      "base": 315,
       "variants": []
     },
     "composition": {

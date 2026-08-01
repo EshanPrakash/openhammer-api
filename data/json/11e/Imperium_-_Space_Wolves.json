@@ -6,7 +6,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 110,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -209,7 +209,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 85,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -434,7 +434,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 105,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -611,7 +611,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 100,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -3740,7 +3740,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 55,
+      "base": 50,
       "variants": []
     },
     "composition": {
@@ -4684,62 +4684,6 @@
     ]
   },
   {
-    "name": "Wolf Guard Headtakers",
-    "id": "d4ef-1ddc-1ed5-5156",
-    "type": "unit",
-    "faction": "Space Wolves",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 85,
-      "variants": [
-        {
-          "models": 4,
-          "points": 230
-        }
-      ]
-    },
-    "composition": {
-      "min_models": null,
-      "max_models": 3
-    },
-    "stats": {
-      "M": "10\"",
-      "T": "4",
-      "SV": "6+",
-      "W": "1",
-      "LD": "8+",
-      "OC": "0"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Let Loose the Wolves",
-        "description": "At the start of the Declare Battle Formations step, split this unit into two units, one containing all of it's HEADTAKERS models and one containing all of its HUNTING WOLVES models, with new Starting Strengths accordingly."
-      },
-      {
-        "name": "Headhunters",
-        "description": "At the start of the battle, select one unit from your opponent's army to be this unit's quarry. Weapons equipped by HEADTAKERS models in this unit have the [DEVASTATING WOUNDS] and [PRECISION] abilities while targeting it's quarry. Each time this unit's quarry is destroyed, select one new enemy unit to be this unit's quarry. This ability can be used even if this unit is embarked within\na Transport"
-      },
-      {
-        "name": "Hunting Hounds",
-        "description": "While this unit is within 6\" of one or more friendly SPACE WOLVES CHARACTER models (excluding WULFEN models), if this unit is not Battle-shocked, HUNTING WOLVES models in it have an Objective Control characteristic of 1"
-      }
-    ],
-    "special_rules": [
-      "Oath of Moment"
-    ],
-    "keywords": [
-      "Infantry",
-      "Faction: Adeptus Astartes",
-      "Faction: Space Wolves"
-    ]
-  },
-  {
     "name": "Wulfen with Storm Shields",
     "id": "4c72-3f0c-7f94-af96",
     "type": "unit",
@@ -4875,17 +4819,87 @@
     ]
   },
   {
+    "name": "Wolf Guard Headtakers",
+    "id": "c135-aa4c-6d86-2e05",
+    "type": "model",
+    "faction": "Space Wolves",
+    "faction_type": "Imperium",
+    "points": {
+      "base": null,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Pistol"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Master-crafted Power Weapon",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        },
+        {
+          "name": "Paired Master-crafted Power Weapons",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "-"
+        }
+      ]
+    },
+    "abilities": [],
+    "special_rules": [],
+    "keywords": [
+      "Infantry",
+      "Imperium",
+      "Tacticus",
+      "Wolf Guard",
+      "Headtakers"
+    ]
+  },
+  {
     "name": "Wolf Scouts",
     "id": "ee6b-3815-3a1a-6458",
     "type": "unit",
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 95,
+      "base": 90,
       "variants": [
         {
           "models": 12,
-          "points": 190
+          "points": 180
         }
       ]
     },

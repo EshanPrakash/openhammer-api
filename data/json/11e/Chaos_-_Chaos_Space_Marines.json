@@ -6,7 +6,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 285,
+      "base": 295,
       "variants": []
     },
     "composition": {
@@ -194,7 +194,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 120,
+      "base": 130,
       "variants": []
     },
     "composition": {
@@ -2017,11 +2017,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 180,
+      "base": 175,
       "variants": [
         {
           "models": 6,
-          "points": 360
+          "points": 350
         }
       ]
     },
@@ -2253,11 +2253,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 125,
+      "base": 135,
       "variants": [
         {
           "models": 6,
-          "points": 250
+          "points": 270
         }
       ]
     },
@@ -2335,7 +2335,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 110,
+      "base": 120,
       "variants": []
     },
     "composition": {
@@ -2978,7 +2978,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 205,
+      "base": 220,
       "variants": []
     },
     "composition": {
@@ -3572,7 +3572,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 135,
+      "base": 145,
       "variants": []
     },
     "composition": {
@@ -3682,7 +3682,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 140,
+      "base": 150,
       "variants": []
     },
     "composition": {
@@ -4310,7 +4310,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 75,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -4576,11 +4576,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 180,
+      "base": 170,
       "variants": [
         {
           "models": 10,
-          "points": 345
+          "points": 330
         }
       ]
     },
@@ -4801,7 +4801,7 @@
         },
         {
           "models": 8,
-          "points": 190
+          "points": 180
         }
       ]
     },
@@ -6810,7 +6810,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 180,
+      "base": 165,
       "variants": []
     },
     "composition": {
@@ -7638,7 +7638,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 90,
+      "base": 80,
       "variants": []
     },
     "composition": {
@@ -7954,11 +7954,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 110,
+      "base": 100,
       "variants": [
         {
           "models": 6,
-          "points": 190
+          "points": 180
         }
       ]
     },
@@ -8232,7 +8232,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 135,
+      "base": 145,
       "variants": []
     },
     "composition": {
@@ -8498,7 +8498,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 70,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -8909,7 +8909,7 @@
       },
       {
         "name": "Daemonforge",
-        "description": "Each time this unit makes a Dark Pact, until the end of the phase, each time this model makes an attack, re-roll a Wound roll of 1. In addition, once per battle, when this unit makes a Dark Pact, before making the resulting Leadership test, you can declare it will overcharge its daemonforge. If it does: \n- If the resulting Leadership test is failed, this model suffers 3 mortal wounds instead of D3 mortal wounds.\n- Until the end of the phase, each time this model makes an attack, you can re-roll the Wound roll."
+        "description": "Each time this unit makes a Dark Pact, until the end of the phase, each time this model makes an attack, re-roll a Wound roll of 1."
       }
     ],
     "special_rules": [

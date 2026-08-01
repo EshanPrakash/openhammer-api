@@ -6,7 +6,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 110,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -94,7 +94,8 @@
       "Imperium",
       "Tacticus",
       "Faction: Adeptus Astartes",
-      "Faction: Black Templars"
+      "Faction: Black Templars",
+      "Chaplain"
     ]
   },
   {
@@ -104,7 +105,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 120,
+      "base": 110,
       "variants": []
     },
     "composition": {
@@ -502,7 +503,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 100,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -1298,7 +1299,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 85,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -1588,7 +1589,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 245,
+      "base": 255,
       "variants": []
     },
     "composition": {
@@ -1958,7 +1959,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 60,
+      "base": 50,
       "variants": []
     },
     "composition": {
@@ -2060,7 +2061,7 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 45,
+      "base": 40,
       "variants": []
     },
     "composition": {

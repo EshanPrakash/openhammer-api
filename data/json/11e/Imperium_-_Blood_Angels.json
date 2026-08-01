@@ -1926,7 +1926,7 @@
       },
       {
         "name": "Miraculous Savior",
-        "description": "(Once per battle, per army) At the end of your opponent's Charge phase (excluding the first battle round), you can select one enemy unit that made a charge move this phase. This unit can make an ingress move and must be set up engaged with that enemy unit."
+        "description": "(Once per battle, per army) At the end of your opponent's Charge phase (excluding the first battle round), you can select one enemy unit that made a charge move this phase. This unit can make an ingress move and must be set up engaged with that enemy unit. . That move does not prevent this unit from being eligible to move"
       }
     ],
     "special_rules": [

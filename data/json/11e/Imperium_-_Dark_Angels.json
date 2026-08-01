@@ -177,7 +177,7 @@
     "faction": "Dark Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 105,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -247,7 +247,7 @@
       },
       {
         "name": "Grand Master of the Ravenwing",
-        "description": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced. If that unit is already eligible to shoot and declare a charge in a turn in which it Advanced, add 1 to Advance and Charge rolls made for that unit instead."
+        "description": "▪ This unit’s ranged attacks have [ASSAULT].\n▪ When this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n▪ This unit has MOBILE"
       },
       {
         "name": "Cut Off Their Escape",
@@ -483,7 +483,7 @@
     "faction": "Dark Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 285,
+      "base": 265,
       "variants": []
     },
     "composition": {
@@ -576,7 +576,8 @@
       "Faction: Dark Angels",
       "Faction: Adeptus Astartes",
       "Primarch",
-      "Lion El'Jonson"
+      "Lion El'Jonson",
+      "Mobile"
     ]
   },
   {
@@ -667,7 +668,7 @@
     "faction": "Dark Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 195,
+      "base": 180,
       "variants": []
     },
     "composition": {
@@ -743,7 +744,7 @@
     "abilities": [
       {
         "name": "Lightning-fast Manoeuvres",
-        "description": "Each time a ranged attack targets this model, subtract 1 from the Hit roll. If that attack was made by a model that can Fly, subtract 1 from the Wound roll as well."
+        "description": "Ranged attacks that target this unit have ‑1 to wound rolls"
       },
       {
         "name": "Damaged: 1-3 Wounds Remaining",
@@ -834,12 +835,8 @@
     },
     "abilities": [
       {
-        "name": "Invulnerable Save",
-        "description": "5+"
-      },
-      {
         "name": "Stasis Bomb",
-        "description": "Once per battle, one model from your army with this ability can use it after it ends a Normal move. If it does, you can select one enemy unit (excluding Aircraft) that model moved over this phase. That unit suffers D3 mortal wounds and you must roll one D6: on a 1-3, that unit cannot Advance or Fall Back in your opponent’s next Movement phase; on a 4-6, that unit must Remain Stationary in your opponent’s next Movement phase. Each model can only use this ability once per battle."
+        "description": " At the end of your opponent’s Fight phase, select one visible enemy unit (excluding AIRCRAFT/Lone Operative units) within 24\" of this unit. That enemy unit is slowed until the end of your opponent’s next Movement phase:\n\n\n▪ While a unit is slowed, in your opponent’s Movement phase, when that unit is selected to move, unless that unit remains stationary, roll one D6:\n    ▫ On a 1-4, that unit suffers D3 mortal wounds and that unit has -2\" M.\n    ▫ On a 5-6, that unit suffers 2D3 mortal wounds and that unit has -3\" M.’"
       },
       {
         "name": "Damaged: 1-3 Wounds Remaining",
@@ -872,7 +869,7 @@
     "faction": "Dark Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 120,
+      "base": 130,
       "variants": []
     },
     "composition": {
@@ -982,7 +979,7 @@
     "faction": "Dark Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 80,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -1042,7 +1039,7 @@
       },
       {
         "name": "Icon of Old Caliban (Aura)",
-        "description": "While a friendly Adeptus Astartes unit is within 6\" of this model, models in that unit have the Stealth ability and each time a ranged attack targets that unit, that unit has the Benefit of Cover against that attack."
+        "description": "Friendly ADEPTUS ASTARTES units within 6\" of this unit have Stealth"
       }
     ],
     "special_rules": [
@@ -1104,26 +1101,6 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "➤ Plasma talon - Standard",
-          "Range": "18\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "7",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "Rapid Fire 1"
-        },
-        {
-          "name": "➤ Plasma talon - Supercharged",
-          "Range": "18\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "8",
-          "AP": "-3",
-          "D": "2",
-          "Keywords": "Hazardous, Rapid Fire 1"
-        },
-        {
           "name": "➤ Astartes grenade launcher - krak",
           "Range": "24\"",
           "A": "1",
@@ -1142,6 +1119,26 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Blast"
+        },
+        {
+          "name": "➤ Plasma talon - Standard",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Rapid Fire 1"
+        },
+        {
+          "name": "➤ Plasma talon - Supercharged",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Hazardous, Rapid Fire 1"
         }
       ],
       "melee": [
@@ -1169,10 +1166,7 @@
     ],
     "special_rules": [
       "Oath of Moment",
-      "Pistol",
-      "Devastating Wounds",
-      "Hazardous",
-      "Rapid Fire"
+      "Pistol"
     ],
     "keywords": [
       "Mounted",
@@ -1191,7 +1185,7 @@
     "faction": "Dark Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 115,
+      "base": 105,
       "variants": []
     },
     "composition": {
@@ -1286,7 +1280,7 @@
     },
     "abilities": [
       {
-        "name": "Leader",
+        "name": "Support",
         "description": "This unit can be attached to the following units:\n- Outrider Squad\n- Ravenwing Black Knights"
       },
       {
@@ -1304,10 +1298,7 @@
     ],
     "special_rules": [
       "Oath of Moment",
-      "Devastating Wounds",
-      "Pistol",
-      "Hazardous",
-      "Rapid Fire"
+      "Pistol"
     ],
     "keywords": [
       "Mounted",
@@ -1317,7 +1308,8 @@
       "Faction: Dark Angels",
       "Faction: Adeptus Astartes",
       "Ravenwing",
-      "Character"
+      "Character",
+      "Support"
     ]
   },
   {
@@ -1604,7 +1596,7 @@
       "variants": [
         {
           "models": 3,
-          "points": 170
+          "points": 160
         }
       ]
     },
@@ -1665,7 +1657,7 @@
       },
       {
         "name": "Braziers of Judgement",
-        "description": "While a Character model is leading this unit, each time an attack targets this unit, subtract 1 from the Hit roll."
+        "description": "Inner Circle Companions, Braziers of Judgement ability Change to:\n\n\n▪ This unit has Stealth.\n▪ Melee attacks that target this unit have ‑1 to hit rolls."
       },
       {
         "name": "Emnity for the Unworthy",
