@@ -85,7 +85,7 @@
           "S": "10",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -207,7 +207,7 @@
           "S": "12",
           "AP": "-2",
           "D": "4",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Reaver power fist - strike",
@@ -217,7 +217,7 @@
           "S": "20",
           "AP": "-4",
           "D": "14",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Reaver power fist - sweep",
@@ -227,7 +227,7 @@
           "S": "12",
           "AP": "-3",
           "D": "6",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -307,7 +307,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Nemesis quake cannon",
@@ -379,7 +379,7 @@
           "S": "12",
           "AP": "-2",
           "D": "4",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -454,7 +454,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Ardex-defensor mauler",
@@ -464,7 +464,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Arioch power claw",
@@ -556,7 +556,7 @@
           "S": "12",
           "AP": "-2",
           "D": "4",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Arioch power claw - strike",
@@ -566,7 +566,7 @@
           "S": "20",
           "AP": "-4",
           "D": "24",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Arioch power claw - sweep",
@@ -576,7 +576,7 @@
           "S": "12",
           "AP": "-3",
           "D": "8",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },

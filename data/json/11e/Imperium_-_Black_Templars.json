@@ -55,7 +55,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close Combat Weapon",
@@ -65,7 +65,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -76,11 +76,15 @@
       },
       {
         "name": "Temple Relics",
-        "description": "In your Command phase, if this unit contains one or more Cenobyte Servitor models, select one Temple Relics ability (see left). Until the start of your next Command phase, this unit’s Chaplain Grimaldus model has that ability.\n\n\nBanner of the Emperor Victorious: Add 1 to Advance and Charge rolls for this unit\n\n\nColumn of the Major Alter: Add 1 to the Toughness characteristic of models in this unit\n\n\nWater from the Stoup of Elucidation: Improve the Armour Penetration characteristic of melee weapons equipped by models in this unit by 1."
+        "description": "In your Command phase, if this unit contains one or more Cenobyte Servitor models, select one Temple Relics ability (see left). Until the start of your next Command phase, this unit’s Chaplain Grimaldus model has that ability.\n\n\nBanner of the Emperor Victorious: Add 1 to Advance and Charge rolls for this unit.\n\n\nColumn of the Major Alter: Add 1 to the Toughness characteristic of models in this unit.\n\n\nWater from the Stoup of Elucidation: Improve the Armour Penetration characteristic of melee weapons equipped by models in this unit by 1."
       },
       {
         "name": "Leader",
         "description": "This unit can be attached to the following units:\n\n- Assault Intercessor Squad\n- Infernus Squad\n- Intercessor Squad\n- Crusader Squad\n- Sword Brethren"
+      },
+      {
+        "name": "Servitors",
+        "description": "If this unit's Chaplain Grimaldus model is ever destroyed, all of this units remaining Cenobyte Servitor models are also destroyed. While embarking within a TRANSPORT and while embarked within a TRANSPORT, each Cenobyte Servitor model in this unit takes up the space of 0 models. "
       }
     ],
     "special_rules": [
@@ -95,7 +99,8 @@
       "Tacticus",
       "Faction: Adeptus Astartes",
       "Faction: Black Templars",
-      "Chaplain"
+      "Chaplain",
+      "Leader"
     ]
   },
   {
@@ -144,7 +149,7 @@
           "S": "6",
           "AP": "-3",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Sword of the High Marshals - Strike",
@@ -154,7 +159,7 @@
           "S": "8",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -187,7 +192,8 @@
       "High Marshal Helbrecht",
       "Infantry",
       "Faction: Black Templars",
-      "Chapter Master"
+      "Chapter Master",
+      "Leader"
     ]
   },
   {
@@ -301,7 +307,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -321,7 +327,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -354,15 +360,15 @@
     "faction": "Black Templars",
     "faction_type": "Imperium",
     "points": {
-      "base": 105,
+      "base": 100,
       "variants": [
         {
           "models": 5,
-          "points": 130
+          "points": 125
         },
         {
           "models": 10,
-          "points": 260
+          "points": 250
         }
       ]
     },
@@ -493,7 +499,7 @@
       "Tacticus",
       "Faction: Adeptus Astartes",
       "Faction: Black Templars",
-      "Primaris Sword Brethren"
+      "Sword Brethren Squad"
     ]
   },
   {
@@ -552,7 +558,7 @@
           "S": "6",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -588,7 +594,8 @@
       "Tacticus",
       "Faction: Adeptus Astartes",
       "Emperor's Champion",
-      "Faction: Black Templars"
+      "Faction: Black Templars",
+      "Leader"
     ]
   },
   {
@@ -650,7 +657,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Heavy Bolter",
@@ -872,7 +879,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -882,7 +889,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -892,7 +899,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -902,7 +909,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -912,7 +919,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin Lightning Claws",
@@ -1053,7 +1060,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1164,7 +1171,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1267,7 +1274,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1346,7 +1353,7 @@
           "S": "8",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Ironhail Skytalon Array",
@@ -1408,7 +1415,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1501,7 +1508,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin heavy bolter",
@@ -1541,7 +1548,7 @@
           "S": "10",
           "AP": "-3",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1553,7 +1560,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1656,7 +1663,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Ironhail Heavy Stubber",
@@ -1718,7 +1725,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1829,7 +1836,7 @@
       },
       {
         "name": "Prioritised Eradication",
-        "description": "Each time a model in this model's unit makes a melee attack that destroys one or more enemy units, roll one D6: on a 4+, you gain 1 CP"
+        "description": "Each time a model in this model's unit makes a melee attack that destroys one or more enemy units, roll one D6: on a 4+, you gain 1 CP."
       }
     ],
     "special_rules": [
@@ -1847,7 +1854,8 @@
       "Faction: Adeptus Astartes",
       "Faction: Black Templars",
       "Lieutenant",
-      "Castellan"
+      "Castellan",
+      "Support"
     ]
   },
   {
@@ -1931,7 +1939,7 @@
       },
       {
         "name": "Pious Fervour",
-        "description": "Each time this model's unit is selected to fight, until the end of the phase, add 1 to the Attacks characteristic of this model's Master-Crafted Power Weapon for each enemy unit within 6\" of this model (to a maximum of +3)"
+        "description": "Each time this model's unit is selected to fight, until the end of the phase, add 1 to the Attacks characteristic of this model's Master-Crafted Power Weapon for each enemy unit within 6\" of this model (to a maximum of +3)."
       }
     ],
     "special_rules": [
@@ -1949,7 +1957,8 @@
       "Faction: Adeptus Astartes",
       "Faction: Black Templars",
       "Marshal",
-      "Captain"
+      "Captain",
+      "Leader"
     ]
   },
   {
@@ -2008,7 +2017,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Master-crafted Power Weapon",
@@ -2051,7 +2060,8 @@
       "Tacticus",
       "Faction: Adeptus Astartes",
       "Faction: Black Templars",
-      "Execrator"
+      "Execrator",
+      "Leader"
     ]
   },
   {
@@ -2132,7 +2142,8 @@
       "Imperium",
       "Faction: Adeptus Astartes",
       "Faction: Black Templars",
-      "Crusade Ancient"
+      "Crusade Ancient",
+      "Support"
     ]
   },
   {
@@ -2221,7 +2232,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2347,7 +2358,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -2357,7 +2368,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power Weapon",
@@ -2367,7 +2378,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power Fist",
@@ -2377,7 +2388,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2470,7 +2481,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Chainfist",
@@ -2490,7 +2501,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power Fist",
@@ -2500,7 +2511,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2588,7 +2599,7 @@
           "S": "6",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },

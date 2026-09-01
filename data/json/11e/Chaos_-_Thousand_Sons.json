@@ -89,7 +89,8 @@
       "Tzeentch",
       "Fly",
       "Mounted",
-      "Ahriman"
+      "Ahriman",
+      "Leader"
     ]
   },
   {
@@ -146,7 +147,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Inferno combi-bolter",
@@ -178,7 +179,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -286,7 +287,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -298,7 +299,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -406,7 +407,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -418,7 +419,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -508,7 +509,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -667,7 +668,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -698,7 +699,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 90,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -757,7 +758,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -790,7 +791,8 @@
       "Psyker",
       "Chaos",
       "Tzeentch",
-      "Exalted Sorcerer"
+      "Exalted Sorcerer",
+      "Leader"
     ]
   },
   {
@@ -859,7 +861,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -874,7 +876,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit: **Rubric Marines, Tzaangor Enlightened**"
+        "description": "This model can be attached to the following unit: **Rubric Marines, Tzaangor Enlightened, Tzaangor Enlightened with Fatecaster Greatbows**"
       }
     ],
     "special_rules": [
@@ -894,7 +896,8 @@
       "Exalted Sorcerer",
       "Fly",
       "Grenades",
-      "Mounted"
+      "Mounted",
+      "Leader"
     ]
   },
   {
@@ -941,7 +944,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -953,7 +956,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Forgefiend jaws",
@@ -963,7 +966,7 @@
           "S": "7",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1050,7 +1053,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin inferno heavy bolter",
@@ -1112,7 +1115,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Helbrute hammer",
@@ -1122,7 +1125,7 @@
           "S": "14",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power scourge",
@@ -1132,7 +1135,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1182,7 +1185,7 @@
       "SV": "3+",
       "W": "12",
       "LD": "6+",
-      "OC": "-"
+      "OC": "0"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1196,7 +1199,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Baleflamer",
@@ -1252,7 +1255,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 95,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -1344,7 +1347,8 @@
       "Psyker",
       "Chaos",
       "Tzeentch",
-      "Infernal Master"
+      "Infernal Master",
+      "Leader"
     ]
   },
   {
@@ -1500,7 +1504,7 @@
           "S": "14",
           "AP": "-2",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Lasher tendrils",
@@ -1600,7 +1604,7 @@
           "S": "7",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Mutalith claws",
@@ -1610,7 +1614,7 @@
           "S": "10",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1710,7 +1714,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Warpflamer",
@@ -1752,7 +1756,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1844,7 +1848,7 @@
           "S": "10",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Heavy warpflamer",
@@ -1886,7 +1890,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1920,7 +1924,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 85,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -1979,7 +1983,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2017,7 +2021,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 95,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -2153,7 +2157,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -2256,7 +2260,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -2456,7 +2460,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Tzaangor Enlightened, Tzaangors**"
+        "description": "This model can be attached to the following units: **Tzaangor Enlightened, Tzaangor Enlightened with Fatecaster Greatbows, Tzaangors**"
       }
     ],
     "special_rules": [
@@ -2530,7 +2534,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2606,7 +2610,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2683,7 +2687,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -2695,7 +2699,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2716,182 +2720,6 @@
       "Tzeentch",
       "Hell Talon",
       "Faction: Thousand Sons"
-    ]
-  },
-  {
-    "name": "Sorcerer on Disc of Tzeentch [Legends]",
-    "id": "ef19-b2dd-72ae-4f96",
-    "type": "model",
-    "faction": "Thousand Sons",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 80,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "12\"",
-      "T": "4",
-      "SV": "3+",
-      "W": "5",
-      "LD": "6+",
-      "OC": "1"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "➤ Infernal Gaze - witchfire",
-          "Range": "24\"",
-          "A": "D6",
-          "BS": "3+",
-          "S": "5",
-          "AP": "-1",
-          "D": "D3",
-          "Keywords": "Psychic"
-        },
-        {
-          "name": "➤ Infernal Gaze - focused witchfire",
-          "Range": "24\"",
-          "A": "D6",
-          "BS": "3+",
-          "S": "6",
-          "AP": "-2",
-          "D": "D3",
-          "Keywords": "Devastating Wounds, Hazardous, Psychic"
-        },
-        {
-          "name": "Bolt pistol",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Pistol"
-        },
-        {
-          "name": "Combi-bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 2"
-        },
-        {
-          "name": "➤ Plasma pistol - standard",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "7",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "Pistol"
-        },
-        {
-          "name": "➤ Plasma pistol - supercharge",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "8",
-          "AP": "-3",
-          "D": "2",
-          "Keywords": "Hazardous, Pistol"
-        },
-        {
-          "name": "Combi-weapon",
-          "Range": "24\"",
-          "A": "1",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Force weapon",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "3+",
-          "S": "6",
-          "AP": "-1",
-          "D": "D3",
-          "Keywords": "Psychic"
-        },
-        {
-          "name": "Accursed weapon",
-          "Range": "Melee",
-          "A": "6",
-          "WS": "2+",
-          "S": "5",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "-"
-        },
-        {
-          "name": "Power fist",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "2+",
-          "S": "8",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "-"
-        },
-        {
-          "name": "Astartes chainsword",
-          "Range": "Melee",
-          "A": "5",
-          "WS": "3+",
-          "S": "4",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "-"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- RUBRIC MARINES"
-      },
-      {
-        "name": "Flames of Change (Psychic)",
-        "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
-      },
-      {
-        "name": "Altered Reality (Psychic)",
-        "description": "Once per battle round, after a Hit roll, a Wound roll or a saving throw is made for this model, you can change the result of that roll to a 6."
-      }
-    ],
-    "special_rules": [
-      "Leader",
-      "Psychic",
-      "Devastating Wounds",
-      "Hazardous",
-      "Pistol",
-      "Rapid Fire",
-      "Anti"
-    ],
-    "keywords": [
-      "Faction: Thousand Sons",
-      "Infantry",
-      "Character",
-      "Grenades",
-      "Psyker",
-      "Fly",
-      "Chaos",
-      "Tzeentch",
-      "Sorcerer",
-      "Disc of Tzeentch"
     ]
   },
   {
@@ -2980,7 +2808,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes chainsword",
@@ -2990,7 +2818,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Accursed weapon",
@@ -3000,7 +2828,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -3010,7 +2838,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Paired accursed weapons",
@@ -3148,7 +2976,7 @@
           "S": "10",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3226,7 +3054,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3509,7 +3337,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3594,8 +3422,8 @@
       "Daemon",
       "Tzeentch",
       "Summoned",
-      "Screamers",
-      "Faction: Scintillating Legions"
+      "Faction: Scintillating Legions",
+      "Screamers"
     ]
   },
   {
@@ -3664,7 +3492,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Yellow claws (ref. only)",
@@ -3674,7 +3502,7 @@
           "S": "2",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Pink claws",
@@ -3684,7 +3512,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3778,7 +3606,7 @@
           "S": "2",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Blue claws",
@@ -3788,7 +3616,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4075,7 +3903,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Heavy reaper autocannon",
@@ -4105,7 +3933,7 @@
           "S": "10",
           "AP": "-2",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Hades battle cannon",
@@ -4145,7 +3973,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Pyraflux magma cutter",
@@ -4167,7 +3995,7 @@
           "S": "16",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Shearing claws - sweep",
@@ -4177,7 +4005,7 @@
           "S": "6",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Electroscourge",

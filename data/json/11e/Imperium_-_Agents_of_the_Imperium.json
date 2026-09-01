@@ -55,7 +55,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -431,7 +431,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Death Cult power blade",
@@ -451,7 +451,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -489,7 +489,8 @@
       "Imperium",
       "Rogue Trader Entourage",
       "Voidfarers",
-      "Voidfarer Character"
+      "Voidfarer Character",
+      "Leader"
     ]
   },
   {
@@ -568,7 +569,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Vicious bite",
@@ -578,7 +579,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -655,7 +656,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -742,7 +743,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Executioner shotgun",
@@ -784,7 +785,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Excruciator maul",
@@ -794,7 +795,7 @@
           "S": "4",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -815,8 +816,8 @@
     "special_rules": [
       "Assigned Agents",
       "Feel No Pain",
-      "Ignores Cover",
       "Blast",
+      "Ignores Cover",
       "Precision",
       "Rapid Fire",
       "Assault",
@@ -897,7 +898,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Executioner shotgun",
@@ -939,7 +940,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1026,7 +1027,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1063,7 +1064,8 @@
       "Imperium",
       "Inquisitor",
       "Draxus",
-      "Ordo Xenos"
+      "Ordo Xenos",
+      "Leader"
     ]
   },
   {
@@ -1137,7 +1139,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: BATTLELIINE IMPERIUM INFANTRY, EXACTION SQUAD, GREY KNIGHTS TERMINATOR SQUAD, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SUBDUCTOR SQUAD, VIGILANT SQUAD"
+        "description": "This model can be attached to the following units: BATTLELINE IMPERIUM INFANTRY, EXACTION SQUAD, GREY KNIGHTS TERMINATOR SQUAD, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SUBDUCTOR SQUAD, VIGILANT SQUAD"
       },
       {
         "name": "Glovodan Psyber-eagle",
@@ -1161,7 +1163,8 @@
       "Imperium",
       "Inquisitor",
       "Coteaz",
-      "Ordo Malleus"
+      "Ordo Malleus",
+      "Leader"
     ]
   },
   {
@@ -1220,7 +1223,7 @@
           "S": "4",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1257,7 +1260,8 @@
       "Imperium",
       "Inquisitor",
       "Greyfax",
-      "Ordo Hereticus"
+      "Ordo Hereticus",
+      "Leader"
     ]
   },
   {
@@ -1306,7 +1310,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1403,7 +1407,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Force weapon",
@@ -1447,7 +1451,8 @@
       "Grenades",
       "Imperium",
       "Inquisitor",
-      "Faction: Agents of the Imperium"
+      "Faction: Agents of the Imperium",
+      "Leader"
     ]
   },
   {
@@ -1484,7 +1489,7 @@
           "S": "4",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Mind Assault",
@@ -1543,7 +1548,8 @@
       "Imperium",
       "Inquisitor",
       "Eisenhorn",
-      "Ordo Xenos"
+      "Ordo Xenos",
+      "Leader"
     ]
   },
   {
@@ -1592,7 +1598,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1666,7 +1672,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1691,7 +1697,8 @@
       "Imperium",
       "Neyam Shai Murad",
       "Voidfarers",
-      "Voidfarer Character"
+      "Voidfarer Character",
+      "Leader"
     ]
   },
   {
@@ -1767,7 +1774,8 @@
       "Imperium",
       "Janus Draik",
       "Voidfarer Character",
-      "Voidfarers"
+      "Voidfarers",
+      "Leader"
     ]
   },
   {
@@ -1842,6 +1850,26 @@
           "Keywords": "Melta 2"
         },
         {
+          "name": "➤ Plasma gun - standard",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Rapid Fire 1"
+        },
+        {
+          "name": "➤ Plasma gun - supercharge",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Hazardous, Rapid Fire 1"
+        },
+        {
           "name": "Flamer",
           "Range": "12\"",
           "A": "D6",
@@ -1861,7 +1889,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1877,6 +1905,7 @@
       "Ignores Cover",
       "Pistol",
       "Hazardous",
+      "Rapid Fire",
       "Torrent"
     ],
     "keywords": [
@@ -1964,7 +1993,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Force weapon",
@@ -2009,7 +2038,8 @@
       "Grenades",
       "Terminator",
       "Imperium",
-      "Inquisitor"
+      "Inquisitor",
+      "Leader"
     ]
   },
   {
@@ -2089,7 +2119,8 @@
       "Imperium",
       "Voidfarers",
       "Navigator",
-      "Voidfarer Character"
+      "Voidfarer Character",
+      "Leader"
     ]
   },
   {
@@ -2148,7 +2179,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Zealot's vindictor",
@@ -2158,7 +2189,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2187,7 +2218,8 @@
       "Imperium",
       "Ordo Hereticus",
       "Ministorum Priest",
-      "Faction: Agents of the Imperium"
+      "Faction: Agents of the Imperium",
+      "Support"
     ]
   },
   {
@@ -2301,7 +2333,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Eviscerator",
@@ -2566,7 +2598,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -2578,7 +2610,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2661,7 +2693,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2864,7 +2896,7 @@
           "S": "3",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Chainsword",
@@ -2874,7 +2906,7 @@
           "S": "3",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -2884,7 +2916,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3011,7 +3043,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3157,7 +3189,7 @@
           "S": "10",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Jokaero weapons - scattered",
@@ -3179,7 +3211,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3210,7 +3242,8 @@
       "Infantry",
       "Imperium",
       "Character",
-      "Jokaero Weaponsmith"
+      "Jokaero Weaponsmith",
+      "Leader"
     ]
   },
   {
@@ -3287,7 +3320,7 @@
           "S": "10",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -3299,7 +3332,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3489,7 +3522,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Long Vigil melee weapon",
@@ -3499,7 +3532,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes chainsword",
@@ -3509,7 +3542,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3695,7 +3728,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fists",
@@ -3794,7 +3827,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Long Vigil ranged weapon",
@@ -3844,7 +3877,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -3856,7 +3889,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -3866,7 +3899,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Long Vigil melee weapon",
@@ -3876,7 +3909,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin lightning claws",
@@ -3906,7 +3939,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3945,10 +3978,10 @@
       "Grenades",
       "Imperium",
       "Faction: Agents of the Imperium",
-      "Kill Team",
       "Kill Team Cassius",
       "Deathwatch",
-      "Ordo Xenos"
+      "Ordo Xenos",
+      "Kill Team"
     ]
   },
   {
@@ -4070,7 +4103,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Boltgun",
@@ -4080,7 +4113,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Long Vigil ranged weapon",
@@ -4132,7 +4165,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Long Vigil melee weapon",
@@ -4142,7 +4175,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power Fist",
@@ -4152,7 +4185,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -4162,7 +4195,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin lightning claws",
@@ -4378,7 +4411,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Paired combat blades",
@@ -4520,7 +4553,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Long Vigil melee weapon",
@@ -4530,7 +4563,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Xenophase blade",
@@ -4611,7 +4644,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4646,7 +4679,8 @@
       "Faction: Agents of the Imperium",
       "Deathwatch",
       "Watch Captain Artemis",
-      "Ordo Xenos"
+      "Ordo Xenos",
+      "Leader"
     ]
   },
   {
@@ -4683,7 +4717,7 @@
           "S": "4",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -4726,7 +4760,8 @@
       "Faction: Agents of the Imperium",
       "Watch Master",
       "Deathwatch",
-      "Ordo Xenos"
+      "Ordo Xenos",
+      "Leader"
     ]
   },
   {
@@ -4835,7 +4870,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Death Cult blades",
@@ -4855,7 +4890,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4947,7 +4982,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Hydraulic vox-ram",
@@ -4957,7 +4992,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4994,7 +5029,8 @@
       "Character",
       "Inquisitor",
       "Ostromandeus",
-      "Faction: Agents of the Imperium"
+      "Faction: Agents of the Imperium",
+      "Leader"
     ]
   },
   {
@@ -5053,7 +5089,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Combat knife",
@@ -5226,7 +5262,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5314,7 +5350,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Infernus heavy bolter - heavy bolter",
@@ -5346,7 +5382,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5479,7 +5515,8 @@
       "Grenades",
       "Imperium",
       "Martial Agent",
-      "Crucible"
+      "Crucible",
+      "Leader"
     ]
   },
   {
@@ -5589,7 +5626,8 @@
       "Crucible",
       "Vehicle",
       "Walker",
-      "Enthroned Agent"
+      "Enthroned Agent",
+      "Leader"
     ]
   },
   {
@@ -5648,7 +5686,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Garralisk's claws and teeth",
@@ -5691,7 +5729,8 @@
       "Grenades",
       "Ordo Xenos",
       "Inquisitor",
-      "Kroyle"
+      "Kroyle",
+      "Leader"
     ]
   }
 ]

@@ -34,7 +34,7 @@
           "S": "6",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -254,7 +254,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Quad lascannon",
@@ -337,7 +337,7 @@
           "S": "10",
           "AP": "-2",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy bolter",
@@ -430,7 +430,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -486,7 +486,7 @@
           "S": "16",
           "AP": "-4",
           "D": "4",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy bolter",
@@ -725,7 +725,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Primaris castellan launcher",
@@ -858,7 +858,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -925,7 +925,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -997,7 +997,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Quad lascannon",
@@ -1609,7 +1609,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },

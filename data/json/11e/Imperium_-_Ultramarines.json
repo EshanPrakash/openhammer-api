@@ -126,7 +126,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -261,7 +261,8 @@
       "Psyker",
       "Chief Librarian Tigurius",
       "Faction: Adeptus Astartes",
-      "Faction: Ultramarines"
+      "Faction: Ultramarines",
+      "Leader"
     ]
   },
   {
@@ -320,7 +321,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -495,7 +496,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -578,7 +579,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -738,7 +739,7 @@
           "S": "4",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -782,7 +783,8 @@
       "Imperium",
       "Faction: Adeptus Astartes",
       "Faction: Ultramarines",
-      "Tacticus"
+      "Tacticus",
+      "Leader"
     ]
   },
   {
@@ -829,7 +831,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -841,7 +843,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1038,7 +1040,8 @@
       "Chapter Master",
       "Marneus Calgar",
       "Faction: Adeptus Astartes",
-      "Faction: Ultramarines"
+      "Faction: Ultramarines",
+      "Leader"
     ]
   },
   {
@@ -1143,7 +1146,8 @@
       "Sicarius",
       "Cato",
       "Faction: Adeptus Astartes",
-      "Faction: Ultramarines"
+      "Faction: Ultramarines",
+      "Leader"
     ]
   },
   {
@@ -1197,7 +1201,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Blades of Honour",
@@ -1238,9 +1242,9 @@
       "Infantry",
       "Imperium",
       "Tacticus",
-      "Honor Guard",
-      "Victrix",
-      "Faction: Ultramarines"
+      "Faction: Ultramarines",
+      "Victrix Honour Guard",
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -1335,7 +1339,8 @@
       "Grenades",
       "Captain",
       "Faction: Adeptus Astartes",
-      "Faction: Ultramarines"
+      "Faction: Ultramarines",
+      "Leader"
     ]
   },
   {
@@ -1414,7 +1419,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Master-crafted power weapon",
@@ -1424,7 +1429,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power Weapon",
@@ -1434,7 +1439,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Force Stave",
@@ -1458,10 +1463,6 @@
         "description": "After both players have deployed their armies, if this unit is on the battlefield (or any Transport it\nis embarked within is on the battlefield), select up to three Adeptus Astartes units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
       },
       {
-        "name": "Heroes of Ultramar",
-        "description": "At the start of the Declare Battle Formations step, this unit can join one of the following units. This\nunit then counts as part of that unit for the rest of the battle, and that unit’s Starting Strength is\nincreased accordingly.\n\n\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n\n\nThis unit cannot join an Attached unit, and only Captain Titus can join a unit this unit has joined."
-      },
-      {
         "name": "Storm Shield",
         "description": "The bearer has a 4+ Invulnerable save."
       },
@@ -1483,7 +1484,8 @@
       "Tacticus",
       "Faction: Adeptus Astartes",
       "Faction: Ultramarines",
-      "Wardens of Ultramar"
+      "Wardens of Ultramar",
+      "Support"
     ]
   }
 ]

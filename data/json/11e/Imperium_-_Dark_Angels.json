@@ -84,7 +84,8 @@
       "Faction: Dark Angels",
       "Faction: Adeptus Astartes",
       "Chapter Master",
-      "Deathwing"
+      "Deathwing",
+      "Leader"
     ]
   },
   {
@@ -167,7 +168,8 @@
       "Imperium",
       "Belial",
       "Terminator",
-      "Deathwing"
+      "Deathwing",
+      "Leader"
     ]
   },
   {
@@ -177,7 +179,7 @@
     "faction": "Dark Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 95,
+      "base": 105,
       "variants": []
     },
     "composition": {
@@ -274,7 +276,8 @@
       "Faction: Dark Angels",
       "Faction: Adeptus Astartes",
       "Ravenwing",
-      "Frame"
+      "Frame",
+      "Leader"
     ]
   },
   {
@@ -381,7 +384,8 @@
       "Faction: Dark Angels",
       "Faction: Adeptus Astartes",
       "Librarian",
-      "Deathwing"
+      "Deathwing",
+      "Leader"
     ]
   },
   {
@@ -430,7 +434,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Crozius Arcanum and Power Weapon - sweep",
@@ -440,7 +444,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -473,7 +477,8 @@
       "Asmodai",
       "Chaplain",
       "Tacticus",
-      "Deathwing"
+      "Deathwing",
+      "Leader"
     ]
   },
   {
@@ -658,7 +663,8 @@
       "Faction: Adeptus Astartes",
       "Lazarus",
       "Tacticus",
-      "Deathwing"
+      "Deathwing",
+      "Leader"
     ]
   },
   {
@@ -725,7 +731,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -737,7 +743,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -829,7 +835,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -938,15 +944,11 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
     "abilities": [
-      {
-        "name": "Invulnerable Save",
-        "description": "5+"
-      },
       {
         "name": "Storm of Vengeance",
         "description": "Once per turn, in your opponent’s Shooting phase, when another friendly Adeptus Astartes unit within 6\" of this model is destroyed, one model with this ability can use it. If it does, after the attacking unit has finished making its attacks, that model can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
@@ -1028,7 +1030,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1108,7 +1110,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Astartes grenade launcher - frag",
@@ -1222,7 +1224,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Astartes grenade launcher - frag",
@@ -1274,7 +1276,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1357,7 +1359,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Great Weapon of the Unforgiven",
@@ -1516,7 +1518,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1528,7 +1530,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power Fist",
@@ -1538,7 +1540,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Chainfist",
@@ -1657,7 +1659,7 @@
       },
       {
         "name": "Braziers of Judgement",
-        "description": "Inner Circle Companions, Braziers of Judgement ability Change to:\n\n\n▪ This unit has Stealth.\n▪ Melee attacks that target this unit have ‑1 to hit rolls."
+        "description": "▪ This unit has Stealth.\n▪ Melee attacks that target this unit have ‑1 to hit rolls."
       },
       {
         "name": "Emnity for the Unworthy",
@@ -1672,9 +1674,9 @@
       "Imperium",
       "Faction: Dark Angels",
       "Tacticus",
-      "Inner Circle Companions",
       "Faction: Adeptus Astartes",
-      "Deathwing"
+      "Deathwing",
+      "Inner Circle Companions"
     ]
   },
   {
@@ -1733,7 +1735,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1819,7 +1821,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Chainfist",
@@ -1839,7 +1841,7 @@
           "S": "6",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power Fist",
@@ -1849,7 +1851,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -2013,7 +2015,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -2025,7 +2027,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Chainfist",
@@ -2055,7 +2057,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin lightning claws",
@@ -2089,52 +2091,16 @@
         "description": "Once per battle, in any phase, just after a mortal wound is allocated to an Adeptus Astartes model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds."
       },
       {
-        "name": "Invulnerable Save",
-        "description": "4+"
-      },
-      {
         "name": "Astartes Banner",
         "description": "While this unit contains an Ancient, add 1 to the Objective Control characteristic of its models."
-      },
-      {
-        "name": "Invulnerable Save",
-        "description": "4+"
       },
       {
         "name": "Narthecium",
         "description": "While this unit contains an Apothecary, in your Command phase, you can return 1 destroyed model (excluding Character models) to this unit."
       },
       {
-        "name": "Invulnerable Save",
-        "description": "4+"
-      },
-      {
         "name": "Honour or Death",
         "description": "While this unit contains a Company Champion, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic Intervention Stratagem for 0CP."
-      },
-      {
-        "name": "Invulnerable Save",
-        "description": "4+"
-      },
-      {
-        "name": "Invulnerable Save",
-        "description": "4+"
-      },
-      {
-        "name": "Invulnerable Save",
-        "description": "4+"
-      },
-      {
-        "name": "Invulnerable Save",
-        "description": "4+"
-      },
-      {
-        "name": "Invulnerable Save",
-        "description": "4+"
-      },
-      {
-        "name": "Invulnerable Save",
-        "description": "4+"
       },
       {
         "name": "Storm Shield",

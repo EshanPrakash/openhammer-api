@@ -70,7 +70,8 @@
       "Chaplain",
       "Faction: Adeptus Astartes",
       "Faction: Blood Angels",
-      "Astorath"
+      "Astorath",
+      "Leader"
     ]
   },
   {
@@ -169,7 +170,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -336,7 +337,7 @@
           "S": "4",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -433,7 +434,7 @@
           "S": "4",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -669,7 +670,8 @@
       "Jump Pack",
       "Tacticus",
       "Chapter Master",
-      "Commander Dante"
+      "Commander Dante",
+      "Leader"
     ]
   },
   {
@@ -828,7 +830,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Bolt pistol",
@@ -900,7 +902,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -910,7 +912,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -920,7 +922,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -940,7 +942,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -999,7 +1001,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Bolt pistol",
@@ -1061,7 +1063,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -1071,7 +1073,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -1081,7 +1083,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -1091,7 +1093,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -1136,7 +1138,7 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 120,
+      "base": 115,
       "variants": [
         {
           "models": 6,
@@ -1220,7 +1222,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -1230,7 +1232,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -1240,7 +1242,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Eviscerator",
@@ -1348,7 +1350,7 @@
           "S": "12",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Blood Talons",
@@ -1558,7 +1560,8 @@
       "Lemartes",
       "Faction: Adeptus Astartes",
       "Faction: Blood Angels",
-      "Jump Pack"
+      "Jump Pack",
+      "Leader"
     ]
   },
   {
@@ -1647,7 +1650,7 @@
           "S": "12",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Furioso Force Halberd",
@@ -1698,7 +1701,7 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 125,
+      "base": 120,
       "variants": [
         {
           "models": 4,
@@ -1752,7 +1755,7 @@
           "S": "6",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Encarmine Spear",
@@ -1847,7 +1850,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1887,7 +1890,7 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 130,
+      "base": 120,
       "variants": []
     },
     "composition": {
@@ -1994,7 +1997,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2008,12 +2011,12 @@
         "description": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
       },
       {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Assault Squad with Jump Packs\n- Vanguard Veteran Squad with Jump packs\n- Assault Intercessors with Jump Packs\n\nYou can attach this model to one of the above units, even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "name": "Support",
+        "description": "This model can be attached to the following units:\n\n- Assault Squad with Jump Packs\n- Vanguard Veteran Squad with Jump packs\n- Assault Intercessors with Jump Packs\n"
       }
     ],
     "special_rules": [
-      "Leader",
+      "Support",
       "Oath of Moment"
     ],
     "keywords": [
@@ -2072,7 +2075,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Bolt pistol",
@@ -2164,7 +2167,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -2174,7 +2177,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -2194,7 +2197,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2282,7 +2285,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Relic Weapon",
@@ -2292,7 +2295,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Master-crafted Chainsword",
@@ -2302,7 +2305,7 @@
           "S": "4",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2325,7 +2328,8 @@
       "Captain",
       "Faction: Adeptus Astartes",
       "Faction: Blood Angels",
-      "Tacticus"
+      "Tacticus",
+      "Leader"
     ]
   },
   {
@@ -2372,7 +2376,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -2384,7 +2388,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Relic Weapon",
@@ -2394,7 +2398,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Master-crafted Chainsword",
@@ -2404,7 +2408,7 @@
           "S": "4",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2434,7 +2438,8 @@
       "Faction: Adeptus Astartes",
       "Faction: Blood Angels",
       "Tacticus",
-      "Death Company"
+      "Death Company",
+      "Leader"
     ]
   },
   {
@@ -2501,7 +2506,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -2513,7 +2518,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Relic Weapon",
@@ -2523,7 +2528,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -2533,7 +2538,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2566,7 +2571,8 @@
       "Imperium",
       "Jump Pack",
       "Tacticus",
-      "Death Company"
+      "Death Company",
+      "Leader"
     ]
   },
   {
@@ -2618,7 +2624,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Bolt Rifle",
@@ -2690,7 +2696,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Eviscerator",
@@ -2720,7 +2726,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -2730,7 +2736,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close Combat Weapon",
@@ -2740,7 +2746,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power Fist",
@@ -2750,7 +2756,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2883,7 +2889,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -2903,7 +2909,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -2913,7 +2919,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3104,7 +3110,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Bolt pistol",
@@ -3166,7 +3172,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -3176,7 +3182,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -3186,7 +3192,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -3196,7 +3202,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",

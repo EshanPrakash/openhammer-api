@@ -45,7 +45,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -143,7 +143,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -224,7 +224,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -314,7 +314,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Mechadendrite hive",
@@ -429,11 +429,10 @@
       }
     ],
     "special_rules": [
-      "Feel No Pain 5+",
+      "Feel No Pain 4+",
       "Doctrina Imperatives",
       "Pistol",
-      "Sustained Hits",
-      "Lethal Hits"
+      "Sustained Hits"
     ],
     "keywords": [
       "Electro-Priests",
@@ -496,7 +495,7 @@
     ],
     "special_rules": [
       "Doctrina Imperatives",
-      "Feel No Pain 5+",
+      "Feel No Pain 4+",
       "Devastating Wounds"
     ],
     "keywords": [
@@ -515,11 +514,11 @@
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
-      "base": 160,
+      "base": 150,
       "variants": [
         {
           "models": 2,
-          "points": 320
+          "points": 300
         }
       ]
     },
@@ -710,7 +709,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -721,7 +720,8 @@
       }
     ],
     "special_rules": [
-      "Doctrina Imperatives"
+      "Doctrina Imperatives",
+      "Feel No Pain 5+"
     ],
     "keywords": [
       "Breachers",
@@ -801,7 +801,7 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Kataphron plasma culverin - supercharge",
@@ -823,7 +823,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -834,7 +834,8 @@
       }
     ],
     "special_rules": [
-      "Doctrina Imperatives"
+      "Doctrina Imperatives",
+      "Feel No Pain 5+"
     ],
     "keywords": [
       "Destroyers",
@@ -886,7 +887,7 @@
           "Range": "36\"",
           "A": "3D3",
           "BS": "4+",
-          "S": "10",
+          "S": "9",
           "AP": "-2",
           "D": "2",
           "Keywords": "Blast, Sustained Hits 1"
@@ -951,7 +952,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1001,7 +1002,7 @@
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
-      "base": 80,
+      "base": 75,
       "variants": [
         {
           "models": 5,
@@ -1043,7 +1044,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1065,7 +1066,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1101,11 +1102,11 @@
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
-      "base": 80,
+      "base": 75,
       "variants": [
         {
           "models": 5,
-          "points": 160
+          "points": 150
         }
       ]
     },
@@ -1165,7 +1166,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1256,7 +1257,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1381,7 +1382,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1471,7 +1472,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Taser goad",
@@ -1640,14 +1641,14 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
     "abilities": [
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n- **Skitarii Rangers**\n- **Skitarii Vanguard**"
+        "description": "This model can be attached to the following units:\n**HASTARII EXTERMINATORS, HASTARII FUSILIERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SKITARII RANGERS, SKITARII VANGUARD**"
       },
       {
         "name": "Control Edict",
@@ -1661,7 +1662,8 @@
     "special_rules": [
       "Support",
       "Doctrina Imperatives",
-      "Stealth"
+      "Stealth",
+      "Feel No Pain 5+"
     ],
     "keywords": [
       "Marshal",
@@ -1716,7 +1718,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Transuranic arquebus",
@@ -1756,7 +1758,7 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1768,7 +1770,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Alpha combat weapon",
@@ -1778,7 +1780,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1790,16 +1792,12 @@
       {
         "name": "Enhanced data-tether",
         "description": "Each time you select the bearer’s unit\nas the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
-      },
-      {
-        "name": "Omnispex",
-        "description": "Ranged weapons equipped by models in the bearer’s unit have the IGNORES COVER ability."
       }
     ],
     "special_rules": [
       "Scouts 6\"",
       "Doctrina Imperatives",
-      "Stealth",
+      "Feel No Pain 5+",
       "Heavy",
       "Precision",
       "Rapid Fire",
@@ -1901,7 +1899,7 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1913,7 +1911,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Alpha combat weapon",
@@ -1923,7 +1921,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1935,15 +1933,11 @@
       {
         "name": "Enhanced data-tether",
         "description": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
-      },
-      {
-        "name": "Omnispex",
-        "description": "Ranged weapons equipped by models in the bearer’s unit have the IGNORES COVER ability."
       }
     ],
     "special_rules": [
       "Doctrina Imperatives",
-      "Stealth",
+      "Feel No Pain 5+",
       "Anti",
       "Heavy",
       "Precision",
@@ -2024,7 +2018,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -2036,7 +2030,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2119,7 +2113,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2247,7 +2241,7 @@
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
-      "base": 65,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -2294,7 +2288,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Eradication ray - focused",
@@ -2304,7 +2298,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Volkite blaster",
@@ -2326,14 +2320,14 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Corpuscarii Electro-Priests\n- Fulgurite Electro-Priests\n- Kataphron Breachers\n- Kataphron Destroyers\n- Skitarii Rangers\n- Skitarii Vanguard"
+        "description": "This model can be attached to the following units:\n**CORPUSCARII ELECTRO-PRIESTS, FULGURITE ELECTRO-PRIESTS, HASTARII EXTERMINATORS, HASTARII FUSILIERS, KATAPHRON BREACHERS, KATAPHRON DESTROYERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SERVITOR BATTLECLADE, SKITARII RANGERS, SKITARII VANGUARD**"
       },
       {
         "name": "Lord of the Machine Cult",
@@ -2418,7 +2412,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2437,7 +2431,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Corpuscarii Electro-Priests\n- Fulgurite Electro-Priests\n- Kataphron Breachers\n- Kataphron Destroyers\n- Servitors\n- Skitarii Rangers\n- Skitarii Vanguard"
+        "description": "This model can be attached to the following units:\n**CORPUSCARII ELECTRO-PRIESTS, FULGURITE ELECTRO-PRIESTS, KATAPHRON BREACHERS, KATAPHRON DESTROYERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SKITARII RANGERS, SKITARII VANGUARD**"
       }
     ],
     "special_rules": [
@@ -2512,14 +2506,14 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Corpuscarii Electro-Priests\n- Fulgurite Electro-Priests\n- Kataphron Breachers\n- Kataphron Destroyers\n- Skitarii Rangers\n- Skitarii Vanguard"
+        "description": "This model can be attached to the following units:\n**CORPUSCARII ELECTRO-PRIESTS, FULGURITE ELECTRO-PRIESTS, HASTARII EXTERMINATORS, HASTARII FUSILIERS, KATAPHRON BREACHERS, KATAPHRON DESTROYERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SERVITOR BATTLECLADE, SKITARII RANGERS, SKITARII VANGUARD**"
       },
       {
         "name": "Galvanic Field",
@@ -2609,7 +2603,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n- Corpuscarii Electro-Priests\n- Fulgurite Electro-Priests\n- Kataphron Breachers\n- Kataphron Destroyers\n- Skitarii Rangers\n- Skitarii Vanguard"
+        "description": "This model can be attached to the following units:\n**CORPUSCARII ELECTRO-PRIESTS, FULGURITE ELECTRO-PRIESTS, HASTARII EXTERMINATORS, HASTARII FUSILIERS, KATAPHRON BREACHERS, KATAPHRON DESTROYERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SERVITOR BATTLECLADE, SKITARII RANGERS, SKITARII VANGUARD**"
       }
     ],
     "special_rules": [
@@ -2675,18 +2669,18 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
     "abilities": [
       {
         "name": "Support",
-        "description": "This model must be attached to the following unit:\n- **Kastelan Robots**\n\nYou must attach this model to a Kastelan Robots unit, even if one or more other Cybernetica Datasmith models havealready been attached to it. In such cases, if that bodyguard unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths. If you cannot attach this model to a Kastelan Robots unit, this model cannot be deployed and counts as having been destroyed during the first battle round. While attached to a Kastelan Robots unit, this model loses the INFANTRY keyword."
+        "description": "This model must be attached to the following unit:\n- **Kastelan Robots**\n\nYou must attach this model to a **Kastelan Robots** unit, even if one or more other **Cybernetica Datasmith** models have already been attached to it. In such cases, if that bodyguard unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths. If you cannot attach this model to a **Kastelan Robots** unit, this model cannot be deployed and counts as having been destroyed during the first battle round. While attached to a **Kastelan Robots** unit, this model loses the INFANTRY keyword."
       },
       {
         "name": "Battle Protocols",
-        "description": "At the start of the battle, if this model is leading a **Kastelan Robots** unit, that unit enters Aegis Protocols (see below). In your Command phase, if this model is leading a **Kastelan Robots** unit, you can select one protocol from those listed below for that unit to enter. Once a unit enters a protocol, it remains in that protocol until it enters a different one\n- Protector Protocol: Add 2 to the Attacks characteristic of ranged weapons equipped by **Kastelan Robot** models in that unit.\n- Conqueror Protocol: Add 2 to the Attacks characteristic of melee weapons equipped by **Kastelan Robot** models in that unit.\n- Aegis Protocol: Add 1 to the Toughness characteristic of **Kastelan Robot** models in that unit."
+        "description": "At the start of the battle, if this model is leading a **Kastelan Robots** unit, that unit enters Aegis Protocols (see below). In your Command phase, if this model is leading a **Kastelan Robots** unit, you can select one protocol from those listed below for that unit to enter. Once a unit enters a protocol, it remains in that protocol until it enters a different one.\n- Protector Protocol: Add 2 to the Attacks characteristic of ranged weapons equipped by **Kastelan Robot** models in that unit.\n- Conqueror Protocol: Add 2 to the Attacks characteristic of melee weapons equipped by **Kastelan Robot** models in that unit.\n- Aegis Protocol: Add 1 to the Toughness characteristic of **Kastelan Robot** models in that unit."
       },
       {
         "name": "Data-severed",
@@ -2701,11 +2695,11 @@
     "keywords": [
       "Cybernetica Datasmith",
       "Tech-Priest",
-      "Infantry",
       "Character",
       "Imperium",
       "Faction: Adeptus Mechanicus",
-      "Legio Cybernetica"
+      "Legio Cybernetica",
+      "Vehicle"
     ]
   },
   {
@@ -2769,7 +2763,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Arc lance",
@@ -2795,14 +2789,11 @@
       {
         "name": "Enhanced data-tether",
         "description": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
-      },
-      {
-        "name": "Omnispex",
-        "description": "Ranged weapons equipped by models in the bearer’s unit have the IGNORES COVER ability."
       }
     ],
     "special_rules": [
       "Doctrina Imperatives",
+      "Feel No Pain 5+",
       "Anti",
       "Devastating Wounds",
       "Lance"
@@ -2881,12 +2872,12 @@
         {
           "name": "Alpha close combat weapon",
           "Range": "Melee",
-          "A": "4",
-          "WS": "4",
+          "A": "2",
+          "WS": "4+",
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Close combat weapon",
@@ -2896,7 +2887,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2912,14 +2903,11 @@
       {
         "name": "Enhanced data-tether",
         "description": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
-      },
-      {
-        "name": "Omnispex",
-        "description": "Ranged weapons equipped by models in the bearer’s unit have the IGNORES COVER ability."
       }
     ],
     "special_rules": [
       "Doctrina Imperatives",
+      "Feel No Pain 5+",
       "Assault",
       "Heavy"
     ],
@@ -3048,7 +3036,7 @@
   {
     "name": "Sydonian Skatros",
     "id": "52e7-9347-3f16-9eec",
-    "type": "unit",
+    "type": "model",
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
@@ -3111,7 +3099,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3209,7 +3197,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3320,7 +3308,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Servitor's tools",
@@ -3330,7 +3318,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3456,7 +3444,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Servo-claw",
@@ -3466,7 +3454,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3482,6 +3470,7 @@
     ],
     "special_rules": [
       "Doctrina Imperatives",
+      "Feel No Pain 5+",
       "Devastating Wounds",
       "Pistol",
       "Anti",
@@ -3719,7 +3708,7 @@
           "S": "10",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Rod of the War Forge - sweep",
@@ -3729,7 +3718,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3840,7 +3829,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -3850,7 +3839,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3866,7 +3855,8 @@
     ],
     "special_rules": [
       "Sustained Hits",
-      "Doctrina Imperatives"
+      "Doctrina Imperatives",
+      "Feel No Pain 5+"
     ],
     "keywords": [
       "Imperium",
@@ -3921,7 +3911,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -3933,7 +3923,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -3943,7 +3933,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3959,7 +3949,8 @@
     ],
     "special_rules": [
       "Ignores Cover",
-      "Doctrina Imperatives"
+      "Doctrina Imperatives",
+      "Feel No Pain 5+"
     ],
     "keywords": [
       "Imperium",

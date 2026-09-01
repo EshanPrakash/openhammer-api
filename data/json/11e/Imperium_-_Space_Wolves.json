@@ -45,7 +45,7 @@
           "S": "6",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Axe Morkai - Strike",
@@ -55,7 +55,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Tyrnak and Fenrir",
@@ -80,7 +80,7 @@
       },
       {
         "name": "Guile of the Wolf (Aura)",
-        "description": "Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that usage of that Stratagem by 1CP P (this is not cumulative with any other rules that increase the CP cost of that Stratagem)"
+        "description": "Once per turn, when your opponent targets a unit from their army within 12” of this model with a stratagem, you can use this ability. If you do increase the CP cost of that use of that stratagem by 1CP."
       },
       {
         "name": "Embarking within Transports",
@@ -102,7 +102,8 @@
       "Imperium",
       "Terminator",
       "Chapter Master",
-      "Logan Grimnar"
+      "Logan Grimnar",
+      "Leader"
     ]
   },
   {
@@ -151,7 +152,7 @@
           "S": "6",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Axe Morkai - Strike",
@@ -161,7 +162,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Flurry of teeth and claws",
@@ -302,7 +303,8 @@
       "Psyker",
       "Imperium",
       "Njal Stormcaller",
-      "Tacticus"
+      "Tacticus",
+      "Leader"
     ]
   },
   {
@@ -379,7 +381,7 @@
           "S": "10",
           "AP": "-3",
           "D": "5",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -507,7 +509,8 @@
       "Epic Hero",
       "Imperium",
       "Terminator",
-      "Arjac Rockfist"
+      "Arjac Rockfist",
+      "Leader"
     ]
   },
   {
@@ -601,7 +604,8 @@
       "Grenades",
       "Imperium",
       "Ulrik the Slayer",
-      "Wolf Priest"
+      "Wolf Priest",
+      "Leader"
     ]
   },
   {
@@ -683,7 +687,8 @@
       "Grenades",
       "Tacticus",
       "Captain",
-      "Ragnar Blackmane"
+      "Ragnar Blackmane",
+      "Leader"
     ]
   },
   {
@@ -813,7 +818,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Crushing teeth and claws",
@@ -1004,7 +1009,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder hammer",
@@ -1024,7 +1029,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Chainfist",
@@ -1054,7 +1059,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1142,7 +1147,7 @@
           "S": "4",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Plasma pistol - supercharge",
@@ -1194,7 +1199,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Relic Weapon",
@@ -1204,7 +1209,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -1224,7 +1229,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin lightning claws",
@@ -1342,7 +1347,7 @@
           "S": "4",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Storm bolter",
@@ -1374,7 +1379,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -1384,7 +1389,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder hammer",
@@ -1414,7 +1419,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1517,7 +1522,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -1527,7 +1532,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1627,7 +1632,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -1637,7 +1642,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -1647,7 +1652,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1711,7 +1716,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Combi-weapon",
@@ -1773,7 +1778,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1859,7 +1864,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1903,11 +1908,11 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 150,
+      "base": 155,
       "variants": [
         {
           "models": 6,
-          "points": 300
+          "points": 310
         }
       ]
     },
@@ -1977,7 +1982,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -1987,7 +1992,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2021,11 +2026,11 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 80,
+      "base": 95,
       "variants": [
         {
           "models": 6,
-          "points": 160
+          "points": 190
         }
       ]
     },
@@ -2226,7 +2231,7 @@
           "S": "10",
           "AP": "-2",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Fenrisian great axe - sweep",
@@ -2236,7 +2241,7 @@
           "S": "6",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Great wolf claw",
@@ -2246,7 +2251,7 @@
           "S": "10",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2430,7 +2435,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Bolt pistol",
@@ -2524,7 +2529,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2674,7 +2679,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -2684,7 +2689,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -2694,7 +2699,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -2704,7 +2709,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2782,7 +2787,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Flamer",
@@ -2954,7 +2959,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -2964,7 +2969,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -2974,7 +2979,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -2984,7 +2989,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3281,7 +3286,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Combi-weapon",
@@ -3313,7 +3318,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -3323,7 +3328,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -3333,7 +3338,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -3343,7 +3348,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -3455,7 +3460,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Combi-weapon",
@@ -3487,7 +3492,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -3497,7 +3502,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -3507,7 +3512,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -3517,7 +3522,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -3631,7 +3636,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Combi-weapon",
@@ -3663,7 +3668,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -3673,7 +3678,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Chainfist",
@@ -3789,7 +3794,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3824,7 +3829,8 @@
       "Character",
       "Imperium",
       "Techmarine",
-      "Iron Priest"
+      "Iron Priest",
+      "Leader"
     ]
   },
   {
@@ -3862,7 +3868,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3939,7 +3945,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Combi-weapon",
@@ -4121,7 +4127,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -4131,7 +4137,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -4141,7 +4147,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -4151,7 +4157,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -4181,7 +4187,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4292,7 +4298,7 @@
           "S": "10",
           "AP": "-3",
           "D": "5",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -4304,7 +4310,7 @@
           "S": "12",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Fenrisian great axe - strike",
@@ -4314,7 +4320,7 @@
           "S": "10",
           "AP": "-2",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Fenrisian great axe - sweep",
@@ -4324,7 +4330,7 @@
           "S": "6",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4394,7 +4400,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Helfrost pistol - dispersed",
@@ -4436,7 +4442,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Servo-arm",
@@ -4531,7 +4537,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4556,7 +4562,8 @@
       "Tacticus",
       "Wolf Priest",
       "Faction: Space Wolves",
-      "Faction: Adeptus Astartes"
+      "Faction: Adeptus Astartes",
+      "Leader"
     ]
   },
   {
@@ -4613,7 +4620,7 @@
           "S": "4",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Master-crafted Heavy Bolt Pistol",
@@ -4645,7 +4652,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4680,7 +4687,8 @@
       "Wolf Guard",
       "Battle Leader",
       "Faction: Adeptus Astartes",
-      "Faction: Space Wolves"
+      "Faction: Space Wolves",
+      "Leader"
     ]
   },
   {
@@ -4864,7 +4872,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Paired Master-crafted Power Weapons",
@@ -4874,7 +4882,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4939,7 +4947,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Combat Blade",

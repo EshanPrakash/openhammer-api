@@ -149,7 +149,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Laser Lance",
@@ -169,7 +169,7 @@
           "S": "4",
           "AP": "-3",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -180,7 +180,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- **Corsair Cloud Dancer Band**\n\n- **Windriders**\n"
+        "description": "This model can be attached to the following unit:\n- **Corsair Cloud Dancer Band**\n- **Windriders**\n"
       },
       {
         "name": "Ride the WInd",
@@ -203,7 +203,6 @@
       "Fly",
       "Faction: Asuryani",
       "Aeldari",
-      "Frame",
       "Leader"
     ]
   },
@@ -323,7 +322,7 @@
           "S": "6",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -347,7 +346,11 @@
     ],
     "special_rules": [
       "Battle Focus",
+      "Fights First",
       "Leader",
+      "Infiltrators",
+      "Stealth",
+      "Scouts 7\"",
       "Sustained Hits",
       "Anti",
       "Pistol",
@@ -484,7 +487,7 @@
           "S": "6",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -574,7 +577,7 @@
           "S": "16",
           "AP": "-4",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ The Wailing Doom - Sweep",
@@ -584,7 +587,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -738,7 +741,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Starcannon",
@@ -748,7 +751,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Bright Lance",
@@ -758,7 +761,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -770,7 +773,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -803,11 +806,11 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 100,
+      "base": 95,
       "variants": [
         {
           "models": 5,
-          "points": 210
+          "points": 200
         }
       ]
     },
@@ -897,7 +900,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -957,7 +960,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -969,7 +972,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1005,11 +1008,11 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 75,
+      "base": 70,
       "variants": [
         {
           "models": 5,
-          "points": 150
+          "points": 140
         }
       ]
     },
@@ -1059,7 +1062,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Diresword",
@@ -1069,7 +1072,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Power Glaive",
@@ -1079,7 +1082,7 @@
           "S": "5",
           "AP": "-3",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1111,7 +1114,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 130,
+      "base": 120,
       "variants": []
     },
     "composition": {
@@ -1232,7 +1235,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin Shuriken Catapult",
@@ -1264,7 +1267,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1512,7 +1515,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Warlock Skyrunners\n- Windriders"
+        "description": "This model can be attached to the following units:\n- **Warlock Skyrunners**\n- **Windriders**"
       }
     ],
     "special_rules": [
@@ -1629,7 +1632,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Dragon Axe",
@@ -1639,7 +1642,7 @@
           "S": "6",
           "AP": "-4",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1743,7 +1746,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1831,7 +1834,7 @@
           "S": "5",
           "AP": "-4",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1915,7 +1918,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1930,7 +1933,9 @@
       }
     ],
     "special_rules": [
-      "Battle Focus"
+      "Battle Focus",
+      "Fights First",
+      "Feel No Pain 4+*"
     ],
     "keywords": [
       "Guardian Defenders",
@@ -1989,7 +1994,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2191,7 +2196,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2388,7 +2393,7 @@
       },
       {
         "name": "The Scorpion's Bite",
-        "description": "Melee weapons equipped by the bearer have the [DEVASTATING WOUNDS] ability when targeting units without the Titanic keyword"
+        "description": "Melee weapons equipped by the bearer have the **[DEVASTATING WOUNDS]** ability when targeting units without the **Titanic** keyword."
       }
     ],
     "special_rules": [
@@ -2456,7 +2461,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2558,7 +2563,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2651,7 +2656,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2755,6 +2760,7 @@
       "Leader",
       "Battle Focus",
       "Disparate Paths",
+      "Infiltrators",
       "Psychic",
       "Pistol",
       "Assault",
@@ -2864,7 +2870,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Star Lance",
@@ -2973,7 +2979,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3058,7 +3064,7 @@
           "S": "7",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -3070,7 +3076,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Zephyrglaive",
@@ -3080,7 +3086,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3183,7 +3189,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 55,
+      "base": 50,
       "variants": []
     },
     "composition": {
@@ -3302,7 +3308,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3339,7 +3345,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 110,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -3354,7 +3360,7 @@
       "LD": "7+",
       "OC": "0"
     },
-    "invuln_save": "5+",
+    "invuln_save": null,
     "transport": null,
     "weapons": {
       "ranged": [
@@ -3398,7 +3404,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Power sword",
@@ -3408,7 +3414,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3427,7 +3433,9 @@
       }
     ],
     "special_rules": [
-      "Battle Focus"
+      "Battle Focus",
+      "Fights First",
+      "Feel No Pain 4+*"
     ],
     "keywords": [
       "Storm Guardians",
@@ -3521,7 +3529,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Biting blade",
@@ -3616,7 +3624,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3732,7 +3740,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Power Sword",
@@ -3742,7 +3750,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3779,7 +3787,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 90,
+      "base": 80,
       "variants": []
     },
     "composition": {
@@ -3841,7 +3849,7 @@
         "description": "While this model is leading a unit, other Character models attached to that unit have the Feel No Pain 4+ ability."
       },
       {
-        "name": "Leader",
+        "name": "Support",
         "description": "This model can be attached to the following units:\n- **CORSAIR REAVER BAND**\n- **CORSAIR VOIDREAVERS**\n- **CORSAIR VOIDSCARRED**\n- **GUARDIAN DEFENDERS**\n- **STORM GUARDIANS**\n- **YNNARI INCUBI**\n- **YNNARI KABALITE WARRIORS**\n- **YNNARI WYCHES**\n\nYou can attach this unit to one of the above units, even if Yvraine has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
       },
       {
@@ -3852,7 +3860,8 @@
     "special_rules": [
       "Battle Focus",
       "Disparate Paths",
-      "Leader",
+      "Support",
+      "Fights First",
       "Precision",
       "Sustained Hits",
       "Anti",
@@ -3865,7 +3874,7 @@
       "Character",
       "Faction: Ynnari",
       "Aeldari",
-      "Leader"
+      "Support"
     ]
   },
   {
@@ -3914,7 +3923,7 @@
           "S": "12",
           "AP": "-4",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Vilith-zhar - Sweep",
@@ -3924,7 +3933,7 @@
           "S": "6",
           "AP": "-4",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4053,7 +4062,7 @@
         "description": "While this model is leading a unit, each time a model in that unit makes a Pile In or Consolidate move, it can move up to 6\" instead of 3\". In addition, it does not need to end that move closer to the closest enemy model, provided it ends as close as possible to the closest enemy unit."
       },
       {
-        "name": "Cegorach’s Favour:",
+        "name": "Cegorach’s Favour",
         "description": "Each time this model makes a melee attack you can re-roll a Hit roll of 1 and add 1 to the Wound roll."
       }
     ],
@@ -4133,7 +4142,7 @@
           "S": "12",
           "AP": "-3",
           "D": "4",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Voidweaver Haywire Cannon",
@@ -4155,7 +4164,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4266,7 +4275,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Powerblades",
@@ -4431,7 +4440,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4594,7 +4603,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -4606,7 +4615,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4697,7 +4706,7 @@
           "S": "10",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Aeldari Missile Launcher - Sunburst",
@@ -4717,7 +4726,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Scatter Laser",
@@ -4747,7 +4756,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -4759,7 +4768,7 @@
           "S": "10",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Ghostglaive - Sweep",
@@ -4769,7 +4778,7 @@
           "S": "7",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Wraithbone Fists",
@@ -4779,7 +4788,7 @@
           "S": "7",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4795,6 +4804,7 @@
     ],
     "special_rules": [
       "Deadly Demise 1",
+      "Feel No Pain 6+",
       "Assault",
       "Ignores Cover",
       "Torrent",
@@ -4846,7 +4856,7 @@
           "S": "14",
           "AP": "-4",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "D-Scythe",
@@ -4868,7 +4878,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4883,6 +4893,7 @@
       }
     ],
     "special_rules": [
+      "Feel No Pain 6+",
       "Torrent"
     ],
     "keywords": [
@@ -4966,6 +4977,7 @@
       "Battle Focus",
       "Leader",
       "Disparate Paths",
+      "Feel No Pain 4+",
       "Devastating Wounds",
       "Anti",
       "Psychic"
@@ -5016,7 +5028,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Ghostaxe",
@@ -5026,7 +5038,7 @@
           "S": "7",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5044,7 +5056,9 @@
         "description": "The bearer has a 4+ invulnerable save."
       }
     ],
-    "special_rules": [],
+    "special_rules": [
+      "Feel No Pain 6+"
+    ],
     "keywords": [
       "Wraithblades",
       "Infantry",
@@ -5130,7 +5144,7 @@
           "S": "4",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5163,6 +5177,7 @@
     "special_rules": [
       "Leader",
       "Power from Pain",
+      "Feel No Pain 4+",
       "Assault",
       "Anti",
       "Pistol",
@@ -5587,7 +5602,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Demiklaives - Dual Blades",
@@ -5597,7 +5612,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Demiklaives - Single Blade",
@@ -5607,7 +5622,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5747,7 +5762,7 @@
           "S": "6",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Dark Lance",
@@ -5757,7 +5772,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -5769,7 +5784,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5850,7 +5865,7 @@
           "S": "6",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Dark Lance",
@@ -5860,7 +5875,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -5872,7 +5887,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5969,7 +5984,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Disintegrator Cannon",
@@ -5979,7 +5994,7 @@
           "S": "6",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Splinter Cannon",
@@ -6011,7 +6026,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6090,7 +6105,7 @@
       },
       {
         "name": "Storm of Blades",
-        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[Sustained Hits 1]** ability."
+        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability."
       },
       {
         "name": "Leader",
@@ -6195,7 +6210,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -6207,7 +6222,7 @@
           "S": "7",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Talos Ichor Injector",
@@ -6227,7 +6242,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Talos Gauntlet",
@@ -6237,7 +6252,7 @@
           "S": "9",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6423,14 +6438,14 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
     "abilities": [
       {
         "name": "Aerialists",
-        "description": "At the end of the Fight phase, if there are no models currently embarked within this **TRANSPORT**, you can select one friendly **DRUKHARI INFANTRY** unit that has 6 or fewer models that is wholly within 6\" of this **TRANSPORT** (you cannot select a unit that can **FLY**). Unless that unit is within Engagement Range of one or more enemy units, it can embark within this **TRANSPORT**. That unit can embark within this **TRANSPORT** in a turn it disembarked from this **TRANSPORT**."
+        "description": "At the end of the Fight phase, if there are no models currently embarked within this **TRANSPORT**, you can select one friendly **DRUKHARI INFANTRY** unit that has 6 or fewer models that is wholly within 6\" of this **TRANSPORT** (you cannot select a unit that can **FLY**). Unless that unit is within Engagement Range of one or more enemy units, it can embark within this **TRANSPORT**. That unit can embark within this **TRANSPORT** in a turn it disembarked from a **TRANSPORT**."
       },
       {
         "name": "Rapid Deployment (Pain)",
@@ -6474,12 +6489,12 @@
       "max_models": 2
     },
     "stats": {
-      "M": "20+\"",
+      "M": "-",
       "T": "9",
       "SV": "4+",
       "W": "12",
       "LD": "7+",
-      "OC": "0"
+      "OC": "-"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -6513,7 +6528,7 @@
           "S": "14",
           "AP": "-4",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Dark Scythe",
@@ -6523,7 +6538,7 @@
           "S": "8",
           "AP": "-4",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -6535,7 +6550,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6614,7 +6629,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6640,8 +6655,7 @@
       "Fly",
       "Faction: Asuryani",
       "Cobra",
-      "Aeldari",
-      "Frame"
+      "Aeldari"
     ]
   },
   {
@@ -6690,7 +6704,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6715,8 +6729,7 @@
       "Vehicle",
       "Fly",
       "Titanic",
-      "Aeldari",
-      "Frame"
+      "Aeldari"
     ]
   },
   {
@@ -6753,7 +6766,7 @@
           "S": "10",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Aeldari Missile Launcher - Sunburst",
@@ -6773,7 +6786,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Scatter Laser",
@@ -6783,7 +6796,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Shuriken Cannon",
@@ -6803,7 +6816,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Hornet Pulse Laser",
@@ -6813,7 +6826,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -6825,7 +6838,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6846,8 +6859,7 @@
       "Fly",
       "Faction: Asuryani",
       "Hornet",
-      "Aeldari",
-      "Frame"
+      "Aeldari"
     ]
   },
   {
@@ -6884,7 +6896,7 @@
           "S": "8",
           "AP": "-2",
           "D": "4",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -6896,7 +6908,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6979,7 +6991,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -7003,8 +7015,7 @@
       "Fly",
       "Faction: Asuryani",
       "Lynx",
-      "Aeldari",
-      "Frame"
+      "Aeldari"
     ]
   },
   {
@@ -7063,7 +7074,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -7088,8 +7099,7 @@
       "Aircraft",
       "Faction: Asuryani",
       "Nightwing",
-      "Aeldari",
-      "Frame"
+      "Aeldari"
     ]
   },
   {
@@ -7156,7 +7166,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Shuriken Cannon",
@@ -7176,7 +7186,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -7188,7 +7198,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -7279,7 +7289,7 @@
           "S": "6",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -7291,7 +7301,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -7350,7 +7360,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "D-bombard",
@@ -7370,7 +7380,7 @@
           "S": "18",
           "AP": "-4",
           "D": "6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Phantom starcannon",
@@ -7380,7 +7390,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Pulse laser",
@@ -7390,7 +7400,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -7402,7 +7412,7 @@
           "S": "12",
           "AP": "-2",
           "D": "4",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Wraith glaive - strike",
@@ -7412,7 +7422,7 @@
           "S": "18",
           "AP": "-4",
           "D": "12",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Wraith glaive - sweep",
@@ -7422,7 +7432,7 @@
           "S": "8",
           "AP": "-3",
           "D": "4",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -7528,7 +7538,7 @@
           "S": "10",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -7647,7 +7657,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -7676,8 +7686,7 @@
       "Fly",
       "Faction: Asuryani",
       "Warp Hunter",
-      "Aeldari",
-      "Frame"
+      "Aeldari"
     ]
   },
   {
@@ -7724,7 +7733,7 @@
           "S": "10",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Aeldari Missile Launcher - Sunburst",
@@ -7744,7 +7753,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Scatter Laser",
@@ -7754,7 +7763,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Shuriken Cannon",
@@ -7774,7 +7783,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Wraithseer D-Cannon",
@@ -7864,7 +7873,7 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Pulse Disintegrators",
+          "name": "Pulse disintegrators",
           "Range": "36\"",
           "A": "12",
           "BS": "3+",
@@ -7876,14 +7885,14 @@
       ],
       "melee": [
         {
-          "name": "Dire Scythe Blades",
+          "name": "Dire scythe blades",
           "Range": "Melee",
-          "A": "6",
+          "A": "9",
           "WS": "4+",
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": "Devastating Wounds"
         }
       ]
     },
@@ -7905,16 +7914,14 @@
       "Deadly Demise D6",
       "Deep Strike",
       "Firing Deck 16",
-      "Power from Pain",
-      "Assault"
+      "Power from Pain"
     ],
     "keywords": [
       "Vehicle",
       "Transport",
       "Fly",
       "Faction: Drukhari",
-      "Aeldari",
-      "Frame"
+      "Aeldari"
     ]
   },
   {
@@ -7963,7 +7970,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8039,11 +8046,11 @@
       },
       {
         "name": "Way of the Shaper (Psychic)",
-        "description": "While this model is leading a unit, Wraith Construct models in that unit have the Feel No Pain 6+ ability."
+        "description": "While this model is leading a unit, **Wraith Construct** models in that unit have the Feel No Pain 6+ ability."
       },
       {
         "name": "Bonesinger",
-        "description": "While this model is within 3\" of one or more friendly Wraith Construct or Asuryani Vehicle units, unless it is leading a unit, this model has the Lone Operative ability."
+        "description": "While this model is within 3\" of one or more friendly **Wraith Construct** or **Asuryani Vehicle** units, unless it is leading a unit, this model has the Lone Operative ability."
       },
       {
         "name": "Psytronome Shaper",
@@ -8131,7 +8138,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8158,8 +8165,7 @@
       "Fly",
       "Firestorm",
       "Faction: Asuryani",
-      "Aeldari",
-      "Frame"
+      "Aeldari"
     ]
   },
   {
@@ -8206,7 +8212,7 @@
           "S": "10",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin shuriken cannon",
@@ -8228,7 +8234,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8255,8 +8261,7 @@
       "Aeldari",
       "Aircraft",
       "Fly",
-      "Phoenix",
-      "Frame"
+      "Phoenix"
     ]
   },
   {
@@ -8293,7 +8298,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin Pulse Laser",
@@ -8325,7 +8330,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8351,8 +8356,7 @@
       "Titanic",
       "Vampire Hunter",
       "Faction: Asuryani",
-      "Aeldari",
-      "Frame"
+      "Aeldari"
     ]
   },
   {
@@ -8389,7 +8393,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin Pulse Laser",
@@ -8411,7 +8415,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8442,8 +8446,7 @@
       "Transport",
       "Vampire Raider",
       "Faction: Asuryani",
-      "Aeldari",
-      "Frame"
+      "Aeldari"
     ]
   },
   {
@@ -8481,7 +8484,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8538,7 +8541,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Splinterstorm cannon",
@@ -8560,7 +8563,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8587,8 +8590,7 @@
       "Fly",
       "Aircraft",
       "Aeldari",
-      "Raven Strike Fighter",
-      "Frame"
+      "Raven Strike Fighter"
     ]
   },
   {
@@ -8625,7 +8627,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Storm vortex projector - blast",
@@ -8647,7 +8649,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Prow blade",
@@ -8690,8 +8692,7 @@
       "Kabal",
       "Fly",
       "Aeldari",
-      "Reaper",
-      "Frame"
+      "Reaper"
     ]
   },
   {
@@ -8765,7 +8766,7 @@
       },
       {
         "name": "Reborn Mastermind",
-        "description": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratgem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
+        "description": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
       },
       {
         "name": "Shadow Field",
@@ -8893,7 +8894,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 85,
+      "base": 80,
       "variants": [
         {
           "models": 2,
@@ -8926,7 +8927,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9005,7 +9006,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9073,7 +9074,7 @@
           "S": "9",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -9085,7 +9086,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9145,7 +9146,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Scatter Laser",
@@ -9165,7 +9166,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Shuriken Cannon",
@@ -9185,7 +9186,7 @@
           "S": "10",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Missile Launcher - Sunburst",
@@ -9207,7 +9208,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9297,7 +9298,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -9309,7 +9310,7 @@
           "S": "16",
           "AP": "-3",
           "D": "6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Titanic Ghostglaive - Sweep",
@@ -9319,7 +9320,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9419,7 +9420,7 @@
       },
       {
         "name": "Storm of Blades",
-        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability."
       },
       {
         "name": "Leader",
@@ -9482,7 +9483,7 @@
           "S": "4",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Demiklaives - Dual Blades",
@@ -9502,7 +9503,7 @@
           "S": "4",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9515,6 +9516,7 @@
     "special_rules": [
       "Battle Focus",
       "Disparate Paths",
+      "Fights First",
       "Twin-linked"
     ],
     "keywords": [
@@ -9558,7 +9560,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Dark Lance",
@@ -9568,7 +9570,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -9580,7 +9582,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9664,7 +9666,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9769,6 +9771,7 @@
       "Leader",
       "Power from Pain",
       "Feel No Pain 5+",
+      "Feel No Pain 4+",
       "Devastating Wounds",
       "Hazardous",
       "Extra Attacks"
@@ -10020,7 +10023,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -10084,11 +10087,11 @@
       },
       {
         "name": "Cruel Example",
-        "description": "Each time this model makes an attack that targets a CHARACTER unit, you can add 1 to the Wound roll. Each time this model’s unit destroys a CHARACTER model, you gain 1CP."
+        "description": "Each time this model makes an attack that targets a **CHARACTER** unit, you can add 1 to the Wound roll. Each time this model’s unit destroys a **CHARACTER** model, you gain 1CP."
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Wyches"
+        "description": "This model can be attached to the following units:\n- **Wyches**"
       }
     ],
     "special_rules": [
@@ -10145,7 +10148,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Wracks"
+        "description": "This model can be attached to the following units:\n- **Wracks**"
       }
     ],
     "special_rules": [
@@ -10199,7 +10202,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Guardian Defenders\n- Storm Guardian\n- Warlock Conclave"
+        "description": "This model can be attached to the following units:\n- **Guardian Defenders**\n- **Storm Guardian**\n- **Warlock Conclave**"
       }
     ],
     "special_rules": [
@@ -10248,6 +10251,10 @@
       {
         "name": "Winds of War",
         "description": "This model’s unit is eligible to declare a charge in a turn in which it Advanced."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- **Windriders**\n"
       }
     ],
     "special_rules": [
@@ -10313,6 +10320,295 @@
       "Walker",
       "Ghost Warrior",
       "Wraith Construct"
+    ]
+  },
+  {
+    "name": "Leystalker",
+    "id": "f66d-451d-f4ae-c2e9",
+    "type": "model",
+    "faction": "Aeldari",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 80,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Long Rifle",
+          "Range": "36\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Devastating Wounds: non-Monster/Vehicle, Precision"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Drakesteed Fangs and Talons",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Extra Attacks"
+        },
+        {
+          "name": "Hunting Blades",
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "3",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": ""
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Panicked Quarry",
+        "description": "In your Shooting phase, when this unit has shot, select one enemy unit (excluding **MONSTER/VEHICLE** units) hit by those attacks. That enemy unit makes a **battle‑shock roll**, with ‑1 to that **battle‑shock roll**."
+      }
+    ],
+    "special_rules": [
+      "Battle Focus",
+      "Lone Operative",
+      "Stealth",
+      "Scouts 9\"",
+      "Precision",
+      "Devastating Wounds"
+    ],
+    "keywords": [
+      "Character",
+      "Faction: Asuryani",
+      "Aeldari",
+      "Mounted",
+      "Exodite",
+      "Mobile",
+      "Leystalker",
+      "Ynnari"
+    ]
+  },
+  {
+    "name": "Stonesinger",
+    "id": "09eb-a43e-0524-28f5",
+    "type": "model",
+    "faction": "Aeldari",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 60,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Solar Carbine",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
+        },
+        {
+          "name": "Song of Waning",
+          "Range": "24\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Anti-Monster/Vehicle 3+, Psychic"
+        },
+        {
+          "name": "Venomcrest Spit",
+          "Range": "12\"",
+          "A": "3",
+          "BS": "-",
+          "S": "3",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Anti-non-Monster/Vehicle 3+, Blast 1, Torrent"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Drakesteed Fangs and Talons",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Extra Attacks"
+        },
+        {
+          "name": "Stone Stave",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "3",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "ANTI-non‑MONSTER/VEHICLE 2+, PSYCHIC"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Elemental Ensnarement",
+        "description": "At the end of your Fight phase, if this unit is not **battle‑shocked**, you can use this ability. If you do, roll one D6:\n- On a 1, this unit is **battle‑shocked**.\n- Select one **visible** enemy **MONSTER/VEHICLE** unit (excluding **TITANIC** units) within 18\" of this unit. That enemy unit is **ensnared** until the start of your next turn:\n    - While a unit is **ensnared**, that unit has ‑2\" **M** and cannot be **pinned**."
+      },
+      {
+        "name": "Support",
+        "description": "This model can be attached to the following unit:\n- **DRAGON KNIGHTS**\n"
+      }
+    ],
+    "special_rules": [
+      "Battle Focus",
+      "Support",
+      "Psychic",
+      "Anti",
+      "Blast",
+      "Torrent"
+    ],
+    "keywords": [
+      "Character",
+      "Faction: Asuryani",
+      "Aeldari",
+      "Mounted",
+      "Exodite",
+      "Mobile",
+      "Psyker",
+      "Support",
+      "Stonesinger",
+      "Ynnari"
+    ]
+  },
+  {
+    "name": "Clanblade",
+    "id": "cd29-5c1d-1a53-0537",
+    "type": "model",
+    "faction": "Aeldari",
+    "faction_type": "Xenos",
+    "points": {
+      "base": 70,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Solar Carbine",
+          "Range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Drakesteed Fangs and Talons",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Extra Attacks"
+        },
+        {
+          "name": "Moonblades",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Lethal Hits, Twin-linked"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Cornered Prey",
+        "description": "When an enemy unit **engaged** with this unit is selected to make a **fall‑back move**, that enemy unit must use the **desperate escape mode**. If that enemy unit is **battle‑shocked**, ‑1 from those **hazard rolls**."
+      },
+      {
+        "name": "Blade of the Clans",
+        "description": "This unit’s melee attacks have **[SUSTAINED HITS 1]**."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- **DRAGON KNIGHTS**\n"
+      }
+    ],
+    "special_rules": [
+      "Battle Focus",
+      "Leader",
+      "Sustained Hits",
+      "Twin-linked",
+      "Lethal Hits"
+    ],
+    "keywords": [
+      "Character",
+      "Faction: Asuryani",
+      "Aeldari",
+      "Mounted",
+      "Exodite",
+      "Mobile",
+      "Leader",
+      "Clanblade",
+      "Ynnari"
     ]
   }
 ]

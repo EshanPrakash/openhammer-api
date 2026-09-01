@@ -86,7 +86,7 @@
       },
       {
         "name": "Hammerhand (Psychic)",
-        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [Lethal Hits] ability."
+        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
       },
       {
         "name": "Eye of Judgement (Psychic)",
@@ -318,7 +318,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -436,7 +436,6 @@
       "Deep Strike",
       "Gate of Infinity",
       "Leader",
-      "Feel No Pain",
       "Psychic",
       "Anti",
       "Rapid Fire",
@@ -497,7 +496,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -519,7 +518,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -864,7 +863,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Nemesis daemon greathammer",
@@ -997,7 +996,6 @@
       "Deep Strike",
       "Leader",
       "Gate of Infinity",
-      "Stealth",
       "Psychic",
       "Devastating Wounds"
     ],
@@ -1087,7 +1085,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -1099,7 +1097,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1208,7 +1206,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1239,7 +1237,7 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 250,
+      "base": 260,
       "variants": []
     },
     "composition": {
@@ -1318,7 +1316,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1418,7 +1416,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1498,7 +1496,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1587,7 +1585,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Skyhammer missile launcher",
@@ -1607,7 +1605,7 @@
           "S": "10",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Icarus stormcannon",
@@ -1629,7 +1627,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1697,7 +1695,7 @@
           "S": "10",
           "AP": "-3",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin assault cannon",
@@ -1767,7 +1765,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin multi-melta",
@@ -1789,7 +1787,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1890,7 +1888,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Skyhammer missile launcher",
@@ -1912,7 +1910,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2030,7 +2028,7 @@
           "S": "12",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2147,7 +2145,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2363,7 +2361,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2394,11 +2392,11 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 110,
+      "base": 105,
       "variants": [
         {
           "models": 6,
-          "points": 220
+          "points": 210
         }
       ]
     },
@@ -2478,7 +2476,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2602,7 +2600,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2716,7 +2714,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2785,7 +2783,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Thunderhawk heavy cannon",
@@ -2827,7 +2825,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2965,7 +2963,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy flamer",
@@ -3007,7 +3005,7 @@
           "S": "12",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Armoured feet",
@@ -3017,7 +3015,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Nemesis doomglaive",
@@ -3158,7 +3156,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },

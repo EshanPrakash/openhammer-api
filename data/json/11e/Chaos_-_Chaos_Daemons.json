@@ -45,7 +45,7 @@
           "S": "16",
           "AP": "-4",
           "D": "6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Slaughter and Carnage - sweep",
@@ -55,7 +55,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -147,7 +147,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -159,7 +159,7 @@
           "S": "16",
           "AP": "-4",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Great axe of Khorne - sweep",
@@ -169,7 +169,7 @@
           "S": "10",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -314,7 +314,7 @@
           "S": "6",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -386,7 +386,7 @@
           "S": "6",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Juggernaut's bladed horn",
@@ -440,7 +440,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 150,
+      "base": 160,
       "variants": []
     },
     "composition": {
@@ -468,7 +468,7 @@
           "S": "6",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Attendant's hellblades",
@@ -638,7 +638,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -676,7 +676,7 @@
       "variants": [
         {
           "models": 4,
-          "points": 190
+          "points": 200
         }
       ]
     },
@@ -705,7 +705,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Juggernaut's bladed horn",
@@ -792,7 +792,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -827,7 +827,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 90,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -876,7 +876,7 @@
           "S": "6",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1098,7 +1098,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1110,7 +1110,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Hellforged weapons - sweep",
@@ -1120,7 +1120,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1187,7 +1187,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1199,7 +1199,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Hellforged weapons - sweep",
@@ -1209,7 +1209,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1966,7 +1966,7 @@
           "S": "2",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Blue claws",
@@ -1976,7 +1976,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2080,7 +2080,7 @@
           "S": "2",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Blue claws (ref. only)",
@@ -2090,7 +2090,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Pink claws",
@@ -2100,7 +2100,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2184,7 +2184,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2271,7 +2271,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2439,7 +2439,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Screamer bites",
@@ -2469,14 +2469,14 @@
     ],
     "keywords": [
       "Faction: Legiones Daemonica",
-      "Mounted",
       "Chaos",
       "Daemon",
-      "Tzeentch",
       "Burning Chariot",
       "Fly",
       "Tzeentch non-Battleline",
-      "Shadow Legion"
+      "Shadow Legion",
+      "Tzeentch",
+      "Mounted"
     ]
   },
   {
@@ -2618,7 +2618,7 @@
           "S": "7",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -2705,7 +2705,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 55,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -3229,11 +3229,11 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 75,
+      "base": 80,
       "variants": [
         {
           "models": 2,
-          "points": 140
+          "points": 150
         }
       ]
     },
@@ -3560,7 +3560,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 255,
+      "base": 265,
       "variants": []
     },
     "composition": {
@@ -3629,7 +3629,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Ritual knife",
@@ -3914,7 +3914,7 @@
           "S": "7",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Scourging whip",
@@ -3975,7 +3975,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 100,
+      "base": 115,
       "variants": []
     },
     "composition": {
@@ -4245,7 +4245,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 90,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -4313,7 +4313,7 @@
       "variants": [
         {
           "models": 4,
-          "points": 180
+          "points": 190
         }
       ]
     },
@@ -4376,7 +4376,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 80,
+      "base": 85,
       "variants": [
         {
           "models": 6,
@@ -4758,7 +4758,7 @@
           "S": "10",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4818,7 +4818,7 @@
           "S": "12",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5041,7 +5041,7 @@
           "S": "8",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -5053,7 +5053,7 @@
           "S": "16",
           "AP": "-4",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Axe of Khorne - sweep",
@@ -5063,7 +5063,7 @@
           "S": "10",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5360,7 +5360,7 @@
           "S": "9",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5524,7 +5524,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5585,7 +5585,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit: **Infantry Daemon** units (excluding **Possessed** units) which share one of the following keywords with this model **Khorne, Nurgle, Slaanesh, Tzeentch**"
+        "description": "This model can be attached to the following units: **Infantry Daemon** units (excluding **Possessed** units) which share one of the following keywords with this model **Khorne, Nurgle, Slaanesh, Tzeentch**"
       }
     ],
     "special_rules": [

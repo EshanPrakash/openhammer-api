@@ -34,7 +34,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Scribe's staff",
@@ -44,18 +44,18 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
     "abilities": [
       {
         "name": "Auto-Tapestry of the Emperor's Judgement",
-        "description": "While this unit is leading a unit and contains an Aestred Thurga model, weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability"
+        "description": "While this unit is leading a unit and contains an Aestred Thurga model, weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
       },
       {
         "name": "Recount the Deeds of the Saints",
-        "description": "While this unit is leading a unit and contains and Agathae Dolan model, each time that unit destroys an enemy unit, you gain 1 Miracle dice. When that Agathae Dolan model is destroyed, you gain D3 Miracle dice."
+        "description": "While this unit is leading a unit and contains an Agathae Dolan model, each time that unit destroys an enemy unit, you gain 1 Miracle dice. When that Agathae Dolan model is destroyed, you gain D3 Miracle dice."
       }
     ],
     "special_rules": [
@@ -70,7 +70,8 @@
       "Faction: Adepta Sororitas",
       "Grenades",
       "Infantry",
-      "Sororitas Character"
+      "Sororitas Character",
+      "Leader"
     ]
   },
   {
@@ -132,7 +133,8 @@
       "Infantry",
       "Imperium",
       "Faction: Adepta Sororitas",
-      "Penitent"
+      "Penitent",
+      "Arco-flagellants"
     ]
   },
   {
@@ -241,7 +243,7 @@
           "S": "4",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Hallowed Chainsword",
@@ -251,7 +253,7 @@
           "S": "3",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -289,7 +291,8 @@
       "Grenades",
       "Canoness",
       "Faction: Adepta Sororitas",
-      "Sororitas Character"
+      "Sororitas Character",
+      "Leader"
     ]
   },
   {
@@ -378,7 +381,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -466,7 +469,7 @@
       },
       {
         "name": "Mysterious Saviours",
-        "description": "You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do: \n- That use is ‑1 **CP**. \n- That use does not prevent any uses of that **stratagem** on other units this phase.'"
+        "description": "You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do: \n- That use is ‑1 **CP**. \n- That use does not prevent any uses of that **stratagem** on other units this phase."
       }
     ],
     "special_rules": [
@@ -521,7 +524,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -549,7 +552,8 @@
       "Imperium",
       "Dialogus",
       "Faction: Adepta Sororitas",
-      "Sororitas Character"
+      "Sororitas Character",
+      "Support"
     ]
   },
   {
@@ -587,7 +591,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -616,7 +620,8 @@
       "Imperium",
       "Dogmata",
       "Faction: Adepta Sororitas",
-      "Sororitas Character"
+      "Sororitas Character",
+      "Support"
     ]
   },
   {
@@ -695,7 +700,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -765,7 +770,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -793,7 +798,8 @@
       "Imperium",
       "Hospitaller",
       "Faction: Adepta Sororitas",
-      "Sororitas Character"
+      "Sororitas Character",
+      "Support"
     ]
   },
   {
@@ -842,7 +848,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -960,7 +966,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1040,7 +1046,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1070,7 +1076,8 @@
       "Junith Eruita",
       "Faction: Adepta Sororitas",
       "Mounted",
-      "Sororitas Character"
+      "Sororitas Character",
+      "Leader"
     ]
   },
   {
@@ -1238,7 +1245,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Paragon missile launcher - sanctorum",
@@ -1358,7 +1365,7 @@
           "S": "4",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1370,10 +1377,15 @@
       {
         "name": "Rapturous Blows",
         "description": "Each time this model’s unit is selected to fight, you can discard 1 Miracle dice. If you do, then until the end of the phase, each time a melee attack made by this model scores a wound, the target of that attack suffers 1 mortal wound in addition to any normal damage."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- Battle Sisters Squad\n- Celestian Sacresants\n- Dominion Squad\n- Retributor Squad\n- Sisters Novitiate Squad"
       }
     ],
     "special_rules": [
-      "Acts of Faith"
+      "Acts of Faith",
+      "Leader"
     ],
     "keywords": [
       "Infantry",
@@ -1382,7 +1394,8 @@
       "Imperium",
       "Palatine",
       "Faction: Adepta Sororitas",
-      "Sororitas Character"
+      "Sororitas Character",
+      "Leader"
     ]
   },
   {
@@ -1471,7 +1484,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Paragon War Mace",
@@ -1481,7 +1494,7 @@
           "S": "12",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1673,7 +1686,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Zealot's vindictor",
@@ -1683,7 +1696,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1713,7 +1726,8 @@
       "Faction: Adepta Sororitas",
       "Ministorum Priest",
       "Penitent",
-      "Sororitas Character"
+      "Sororitas Character",
+      "Leader"
     ]
   },
   {
@@ -1849,7 +1863,7 @@
     "abilities": [
       {
         "name": "Healing Tears",
-        "description": "While this unit contains a Celestine model, in your Command phase, if this unit is below its Starting Strength, either one destroyed Geminae Superia model or up to D3 other Bodyguard models are returned to this unit."
+        "description": "While this unit contains a Celestine model, in your Command phase, you can return 1 destroyed Geminae Superia model to this unit."
       },
       {
         "name": "Lifewards",
@@ -1874,7 +1888,8 @@
       "Grenades",
       "Imperium",
       "Epic Hero",
-      "Jump Pack"
+      "Jump Pack",
+      "Leader"
     ]
   },
   {
@@ -1933,7 +1948,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2009,7 +2024,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2063,7 +2078,8 @@
       "Imperium",
       "Triumph of Saint Katherine",
       "Faction: Adepta Sororitas",
-      "Sororitas Character"
+      "Sororitas Character",
+      "Leader"
     ]
   },
   {
@@ -2112,7 +2128,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2198,7 +2214,7 @@
           "S": "7",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2277,7 +2293,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -2287,7 +2303,7 @@
           "S": "4",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Holy Eviscerator",
@@ -2321,7 +2337,8 @@
       "Jump Pack",
       "Fly",
       "Imperium",
-      "Sororitas Character"
+      "Sororitas Character",
+      "Leader"
     ]
   },
   {
@@ -2364,7 +2381,7 @@
           "S": "4",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2484,7 +2501,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2600,7 +2617,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Sanctifier melee weapon",
@@ -2610,7 +2627,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Burning hands",
@@ -2800,7 +2817,8 @@
       "Infantry",
       "Grenades",
       "Imperium",
-      "Celestian Insidiants"
+      "Celestian Insidiants",
+      "Celestian"
     ]
   },
   {
@@ -2854,7 +2872,8 @@
       "Militant Commander",
       "Faction: Adepta Sororitas",
       "Crucible",
-      "Sororitas Character"
+      "Sororitas Character",
+      "Leader"
     ]
   },
   {
@@ -2907,7 +2926,8 @@
       "Faction: Adepta Sororitas",
       "Crucible",
       "Inspiring Devotee",
-      "Sororitas Character"
+      "Sororitas Character",
+      "Leader"
     ]
   },
   {
@@ -2962,7 +2982,8 @@
       "Walker",
       "Reliquant Knight",
       "Paragon Warsuits",
-      "Sororitas Character"
+      "Sororitas Character",
+      "Leader"
     ]
   },
   {

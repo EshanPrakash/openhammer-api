@@ -55,7 +55,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -65,7 +65,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Relic Chainsword",
@@ -124,7 +124,8 @@
       "Grenades",
       "Imperium",
       "Faction: Adeptus Astartes",
-      "Gravis"
+      "Gravis",
+      "Leader"
     ]
   },
   {
@@ -183,7 +184,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -211,7 +212,8 @@
       "Imperium",
       "Captain",
       "Phobos",
-      "Faction: Adeptus Astartes"
+      "Faction: Adeptus Astartes",
+      "Leader"
     ]
   },
   {
@@ -270,7 +272,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Relic Fist",
@@ -280,7 +282,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -306,7 +308,8 @@
       "Captain",
       "Faction: Adeptus Astartes",
       "Imperium",
-      "Terminator"
+      "Terminator",
+      "Leader"
     ]
   },
   {
@@ -385,7 +388,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -395,7 +398,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Relic Weapon",
@@ -405,7 +408,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -444,7 +447,8 @@
       "Faction: Adeptus Astartes",
       "Fly",
       "Jump Pack",
-      "Tacticus"
+      "Tacticus",
+      "Leader"
     ]
   },
   {
@@ -536,7 +540,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Astartes grenade launcher - frag",
@@ -558,7 +562,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -568,7 +572,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -578,7 +582,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -598,7 +602,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -687,13 +691,13 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
     "abilities": [
       {
-        "name": "Purge the Foe",
+        "name": "Incendiary Terror",
         "description": "In your Shooting phase, after this unit has shot, you can select one enemy Infantry unit hit by one or more of those attacks made with a pyreblaster. That enemy unit must take a Battle-shock test, subtracting 1 from that test."
       }
     ],
@@ -791,7 +795,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -801,7 +805,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -811,7 +815,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -916,7 +920,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1001,7 +1005,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1169,7 +1173,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Grav-pistol",
@@ -1361,7 +1365,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin lightning claws",
@@ -1381,7 +1385,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -1391,7 +1395,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -1411,7 +1415,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1473,7 +1477,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Bolt pistol",
@@ -1545,7 +1549,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -1555,7 +1559,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Combat Knife",
@@ -1565,7 +1569,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1674,7 +1678,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1782,7 +1786,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1918,7 +1922,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Master-crafted Power Weapon",
@@ -2063,7 +2067,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Vanguard Veteran Weapon",
@@ -2073,7 +2077,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2199,7 +2203,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -2209,7 +2213,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -2219,7 +2223,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -2229,7 +2233,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2322,7 +2326,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2624,7 +2628,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -2636,7 +2640,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Chainfist",
@@ -2656,7 +2660,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2741,7 +2745,7 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Plasma Blaster - Supercharge",
@@ -2793,7 +2797,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -2803,7 +2807,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Chainfist",
@@ -3024,7 +3028,7 @@
           "S": "6",
           "AP": "-1",
           "D": "3",
-          "Keywords": "Anti-vehicle 2+"
+          "Keywords": "Anti-Vehicle 2+"
         }
       ],
       "melee": [
@@ -3036,7 +3040,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3048,9 +3052,7 @@
     ],
     "special_rules": [
       "Oath of Moment",
-      "Templar Vows",
-      "Heavy",
-      "Anti"
+      "Templar Vows"
     ],
     "keywords": [
       "Infantry",
@@ -3146,7 +3148,7 @@
           "S": "14",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3238,7 +3240,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Assault Cannon",
@@ -3300,7 +3302,7 @@
           "S": "12",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -3310,7 +3312,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3420,7 +3422,7 @@
           "S": "12",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Dreadnought Chainfist",
@@ -3440,7 +3442,7 @@
           "S": "14",
           "AP": "-3",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3586,7 +3588,7 @@
           "S": "12",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3657,7 +3659,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Ballistus Missile Launcher - Frag",
@@ -3677,7 +3679,7 @@
           "S": "10",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -3689,7 +3691,7 @@
           "S": "7",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3986,7 +3988,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -4006,7 +4008,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -4016,7 +4018,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin lightning claws",
@@ -4203,7 +4205,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -4223,7 +4225,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -4233,7 +4235,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin lightning claws",
@@ -4348,7 +4350,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4462,7 +4464,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -4472,7 +4474,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4570,7 +4572,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4670,7 +4672,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Combi-weapon",
@@ -4802,7 +4804,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -4812,7 +4814,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -4822,7 +4824,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -4842,7 +4844,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4913,7 +4915,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Astartes grenade launcher - frag",
@@ -4953,7 +4955,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Combi-weapon",
@@ -5035,7 +5037,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -5045,7 +5047,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -5055,7 +5057,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -5075,7 +5077,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5155,7 +5157,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5253,7 +5255,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5349,7 +5351,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5408,7 +5410,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunderstrike Las-talon",
@@ -5418,7 +5420,7 @@
           "S": "9",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin Icarus Rocket Pod",
@@ -5440,7 +5442,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5501,7 +5503,7 @@
           "S": "9",
           "AP": "-3",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Krakstorm Grenade Launcher",
@@ -5511,7 +5513,7 @@
           "S": "9",
           "AP": "-1",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Melta Destroyer",
@@ -5533,7 +5535,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5602,7 +5604,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Multi-melta",
@@ -5634,7 +5636,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5734,7 +5736,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5849,7 +5851,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5951,7 +5953,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -6053,7 +6055,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -6115,7 +6117,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Bolt pistol",
@@ -6257,7 +6259,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -6267,7 +6269,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -6277,7 +6279,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -6297,7 +6299,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -6409,7 +6411,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -6500,7 +6502,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Gunner's Servo Arms",
@@ -6605,7 +6607,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -6693,7 +6695,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -6785,7 +6787,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -6875,7 +6877,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -6964,7 +6966,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Heavy Bolter",
@@ -6986,7 +6988,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -7074,7 +7076,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Heavy Bolter",
@@ -7096,7 +7098,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -7205,7 +7207,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -7305,7 +7307,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -7407,7 +7409,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -7497,7 +7499,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -7595,7 +7597,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -7607,7 +7609,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -7722,7 +7724,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -7759,7 +7761,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 250,
+      "base": 260,
       "variants": []
     },
     "composition": {
@@ -7838,7 +7840,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -7915,7 +7917,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin heavy bolter",
@@ -7955,7 +7957,7 @@
           "S": "10",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -7967,7 +7969,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -8079,7 +8081,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Macro Plasma Incinerator - Standard",
@@ -8121,7 +8123,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -8206,7 +8208,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -8313,7 +8315,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -8407,7 +8409,7 @@
           "S": "8",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Ironhail Skytalon Array",
@@ -8449,7 +8451,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -8604,7 +8606,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -8678,7 +8680,7 @@
           "S": "10",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Icarus Stormcannon",
@@ -8718,7 +8720,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Skyhammer Missile Launcher",
@@ -8740,7 +8742,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -8820,7 +8822,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin heavy bolter",
@@ -8862,7 +8864,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -8932,7 +8934,7 @@
           "S": "10",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin assault cannon",
@@ -8992,7 +8994,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin heavy bolter",
@@ -9024,7 +9026,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -9100,7 +9102,7 @@
           "S": "10",
           "AP": "-2",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Hammerfall Heavy Bolter Array",
@@ -9215,7 +9217,7 @@
           "S": "4",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Storm bolter",
@@ -9297,7 +9299,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Relic Weapon",
@@ -9307,7 +9309,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -9327,7 +9329,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -9337,7 +9339,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -9449,7 +9451,7 @@
           "S": "4",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -9461,7 +9463,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -9471,7 +9473,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -9481,14 +9483,14 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
     "abilities": [
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- COMPANY HEROES\n- CRUSADER SQUAD\n- DEATHWATCH VETERANS\n- DECIMUS KILL TEAM\n- FORTIS KILL TEAM\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD\n\nYou can attach this model to a unit it can lead even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- COMPANY HEROES\n- CRUSADER SQUAD\n- DEATHWATCH VETERANS\n- DECIMUS KILL TEAM\n- FORTIS KILL TEAM\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD\n\n"
       },
       {
         "name": "Storm Shield",
@@ -9509,7 +9511,8 @@
       "Imperium",
       "Tacticus",
       "Faction: Adeptus Astartes",
-      "Lieutenant"
+      "Lieutenant",
+      "Support"
     ]
   },
   {
@@ -9569,7 +9572,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following unit:\n\n- REIVER SQUAD\n\nYou can attach this model a unit it can lead even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "description": "This model can be attached to the following unit:\n\n- REIVER SQUAD\n\n"
       }
     ],
     "special_rules": [
@@ -9589,7 +9592,8 @@
       "Phobos",
       "Faction: Adeptus Astartes",
       "Lieutenant",
-      "Lieutenant in Reiver Armour"
+      "Lieutenant in Reiver Armour",
+      "Support"
     ]
   },
   {
@@ -9636,7 +9640,7 @@
           "S": "4",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -9659,7 +9663,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n\n- INCURSOR SQUAD\n- INFILTRATOR SQUAD\n- REIVER SQUAD\n- SPECTRUS KILL TEAM\n\nYou can attach this model to a unit it can lead units even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "description": "This model can be attached to the following units:\n\n- INCURSOR SQUAD\n- INFILTRATOR SQUAD\n- REIVER SQUAD\n- SPECTRUS KILL TEAM\n\n"
       }
     ],
     "special_rules": [
@@ -9678,7 +9682,8 @@
       "Imperium",
       "Phobos",
       "Faction: Adeptus Astartes",
-      "Lieutenant"
+      "Lieutenant",
+      "Support"
     ]
   },
   {
@@ -9773,7 +9778,8 @@
       "Psyker",
       "Faction: Adeptus Astartes",
       "Tacticus",
-      "Librarian"
+      "Librarian",
+      "Leader"
     ]
   },
   {
@@ -9869,7 +9875,8 @@
       "Faction: Adeptus Astartes",
       "Phobos",
       "Librarian",
-      "Infantry"
+      "Infantry",
+      "Leader"
     ]
   },
   {
@@ -9879,7 +9886,7 @@
     "faction": "Space Marines",
     "faction_type": "Imperium",
     "points": {
-      "base": 75,
+      "base": 85,
       "variants": []
     },
     "composition": {
@@ -9974,7 +9981,8 @@
       "Psyker",
       "Terminator",
       "Librarian",
-      "Faction: Adeptus Astartes"
+      "Faction: Adeptus Astartes",
+      "Leader"
     ]
   },
   {
@@ -10041,7 +10049,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Storm bolter",
@@ -10199,7 +10207,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -10221,7 +10229,8 @@
       "Tacticus",
       "Imperium",
       "Faction: Adeptus Astartes",
-      "Chaplain"
+      "Chaplain",
+      "Leader"
     ]
   },
   {
@@ -10270,7 +10279,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -10296,7 +10305,8 @@
       "Terminator",
       "Chaplain",
       "Imperium",
-      "Faction: Adeptus Astartes"
+      "Faction: Adeptus Astartes",
+      "Leader"
     ]
   },
   {
@@ -10355,7 +10365,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -10380,7 +10390,8 @@
       "Imperium",
       "Grenades",
       "Chaplain",
-      "Faction: Adeptus Astartes"
+      "Faction: Adeptus Astartes",
+      "Leader"
     ]
   },
   {
@@ -10487,7 +10498,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Bolt pistol",
@@ -10519,7 +10530,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -10529,7 +10540,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -10556,7 +10567,8 @@
       "Chaplain",
       "Faction: Adeptus Astartes",
       "Fly",
-      "Jump Pack"
+      "Jump Pack",
+      "Leader"
     ]
   },
   {
@@ -10603,7 +10615,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -10615,7 +10627,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Servo-arm",
@@ -10659,7 +10671,8 @@
       "Imperium",
       "Tacticus",
       "Faction: Adeptus Astartes",
-      "Techmarine"
+      "Techmarine",
+      "Leader"
     ]
   },
   {
@@ -10738,7 +10751,7 @@
           "S": "6",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close Combat Weapon",
@@ -10748,7 +10761,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -10994,7 +11007,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -11009,7 +11022,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD \n- CRUSADER SQUAD \n- DEATHWATCH VETERANS \n- DECIMUS KILL TEAM \n- DESOLATION SQUAD \n- DEVASTATOR SQUAD \n- FORTIS KILL TEAM\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD\n\n\nYou can attach this model to one of the above units even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD \n- CRUSADER SQUAD \n- DEATHWATCH VETERANS \n- DECIMUS KILL TEAM \n- DESOLATION SQUAD \n- DEVASTATOR SQUAD \n- FORTIS KILL TEAM\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD\n"
       }
     ],
     "special_rules": [
@@ -11025,7 +11038,8 @@
       "Faction: Adeptus Astartes",
       "Tacticus",
       "Infantry",
-      "Apothecary"
+      "Apothecary",
+      "Support"
     ]
   },
   {
@@ -11074,7 +11088,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -11089,7 +11103,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n\n- AGGRESSOR SQUAD\n- ERADICATOR SQUAD\n- HEAVY INTERCESSOR SQUAD\n- INDOMITOR KILL TEAM\n\nYou can attach this model to one of the above units even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "description": "This model can be attached to the following units:\n\n- AGGRESSOR SQUAD\n- ERADICATOR SQUAD\n- HEAVY INTERCESSOR SQUAD\n- INDOMITOR KILL TEAM\n\n"
       }
     ],
     "special_rules": [
@@ -11163,7 +11177,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -11173,7 +11187,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -11184,7 +11198,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD \n- CRUSADER SQUAD \n- DEATHWATCH VETERANS \n- DECIMUS KILL TEAM \n- DESOLATION SQUAD \n- DEVASTATOR SQUAD \n- FORTIS KILL TEAM\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD\n\nYou can attach this model to one of the above units even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD \n- CRUSADER SQUAD \n- DEATHWATCH VETERANS \n- DECIMUS KILL TEAM \n- DESOLATION SQUAD \n- DEVASTATOR SQUAD \n- FORTIS KILL TEAM\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD\n"
       }
     ],
     "special_rules": [
@@ -11199,7 +11213,8 @@
       "Imperium",
       "Tacticus",
       "Faction: Adeptus Astartes",
-      "Ancient"
+      "Ancient",
+      "Support"
     ]
   },
   {
@@ -11248,7 +11263,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -11279,7 +11294,7 @@
     ]
   },
   {
-    "name": "Ancient in Terminator Armor",
+    "name": "Ancient in Terminator Armour",
     "id": "fc7f-8176-c10c-ca8",
     "type": "model",
     "faction": "Space Marines",
@@ -11334,7 +11349,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -11344,7 +11359,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -11374,7 +11389,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -11404,7 +11419,8 @@
       "Imperium",
       "Terminator",
       "Ancient",
-      "Faction: Adeptus Astartes"
+      "Faction: Adeptus Astartes",
+      "Support"
     ]
   },
   {
@@ -11501,7 +11517,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Combi-weapon",
@@ -11673,7 +11689,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -11683,7 +11699,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Champion's Blade",
@@ -11713,7 +11729,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -11723,7 +11739,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -11857,7 +11873,8 @@
       "Imperium",
       "Tacticus",
       "Judiciar",
-      "Faction: Adeptus Astartes"
+      "Faction: Adeptus Astartes",
+      "Leader"
     ]
   },
   {
@@ -11904,7 +11921,7 @@
           "S": "4",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Heavy Bolt Pistol",
@@ -11956,7 +11973,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -11966,7 +11983,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Master-crafted power weapon",
@@ -11976,7 +11993,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -12000,7 +12017,8 @@
       "Grenades",
       "Imperium",
       "Tacticus",
-      "Faction: Adeptus Astartes"
+      "Faction: Adeptus Astartes",
+      "Leader"
     ]
   },
   {
@@ -12057,7 +12075,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Plasma eradicator - standard",
@@ -12234,7 +12252,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Helios Launcher",
@@ -12276,7 +12294,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -12388,7 +12406,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Multi-melta",
@@ -12430,7 +12448,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -12580,7 +12598,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -12726,7 +12744,7 @@
           "S": "12",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -12806,7 +12824,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -12818,7 +12836,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -12919,7 +12937,7 @@
           "S": "12",
           "AP": "-3",
           "D": "4",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -13116,7 +13134,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -13210,7 +13228,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Assault Cannon",
@@ -13272,7 +13290,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Dreadnought Combat Weapon",
@@ -13282,7 +13300,7 @@
           "S": "12",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -13292,7 +13310,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -13383,7 +13401,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -13462,7 +13480,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Hunter-killer missile",
@@ -13514,7 +13532,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -13603,7 +13621,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -13725,7 +13743,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -13847,7 +13865,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -13925,7 +13943,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Bolt pistol",
@@ -14047,7 +14065,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -14057,7 +14075,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -14077,7 +14095,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -14250,7 +14268,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Combi-weapon",
@@ -14312,7 +14330,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -14322,7 +14340,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -14342,7 +14360,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -14426,7 +14444,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -14552,7 +14570,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Grav Pistol",
@@ -14594,7 +14612,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes Chainsword",
@@ -14604,7 +14622,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Thunder Hammer",
@@ -14624,7 +14642,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Servo-arm",
@@ -14757,7 +14775,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Storm bolter",
@@ -14893,7 +14911,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -14975,7 +14993,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -15079,7 +15097,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -15089,7 +15107,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -15099,7 +15117,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -15169,7 +15187,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Master-crafted Bolt Rifle",
@@ -15201,7 +15219,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Master-crafted Power Weapon",
@@ -15478,7 +15496,7 @@
           "S": "10",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Brutalis Bolt Rifles",
@@ -15518,7 +15536,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Heavy Onslaught Gatling Cannon",
@@ -15620,7 +15638,7 @@
           "S": "7",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Brutalis Fists",
@@ -15660,7 +15678,7 @@
           "S": "12",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -15751,7 +15769,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -15849,7 +15867,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },

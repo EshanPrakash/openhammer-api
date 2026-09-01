@@ -45,7 +45,7 @@
           "S": "10",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -89,7 +89,7 @@
     "faction": "Salamanders",
     "faction_type": "Imperium",
     "points": {
-      "base": 85,
+      "base": 95,
       "variants": []
     },
     "composition": {

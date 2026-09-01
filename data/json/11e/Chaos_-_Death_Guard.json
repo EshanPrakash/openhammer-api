@@ -252,7 +252,8 @@
       "Nurgle",
       "Psyker",
       "Typhus",
-      "Terminator"
+      "Terminator",
+      "Leader"
     ]
   },
   {
@@ -361,7 +362,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin lightning claws",
@@ -398,7 +399,8 @@
       "Chaos",
       "Nurgle",
       "Grenades",
-      "Chaos Lord"
+      "Chaos Lord",
+      "Leader"
     ]
   },
   {
@@ -513,7 +515,8 @@
       "Chaos",
       "Nurgle",
       "Chaos Lord",
-      "Terminator"
+      "Terminator",
+      "Leader"
     ]
   },
   {
@@ -597,7 +600,8 @@
       "Chaos",
       "Nurgle",
       "Lord of Virulence",
-      "Terminator"
+      "Terminator",
+      "Leader"
     ]
   },
   {
@@ -677,7 +681,8 @@
       "Nurgle",
       "Grenades",
       "Lord of Contagion",
-      "Terminator"
+      "Terminator",
+      "Leader"
     ]
   },
   {
@@ -832,7 +837,8 @@
       "Nurgle",
       "Psyker",
       "Sorcerer",
-      "Terminator"
+      "Terminator",
+      "Leader"
     ]
   },
   {
@@ -934,7 +940,8 @@
       "Chaos",
       "Nurgle",
       "Psyker",
-      "Malignant Plaguecaster"
+      "Malignant Plaguecaster",
+      "Leader"
     ]
   },
   {
@@ -1187,7 +1194,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Flamer",
@@ -1227,7 +1234,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1239,7 +1246,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1331,7 +1338,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 60,
+      "base": 50,
       "variants": []
     },
     "composition": {
@@ -1409,7 +1416,8 @@
       "Character",
       "Chaos",
       "Nurgle",
-      "Noxious Blightbringer"
+      "Noxious Blightbringer",
+      "Leader"
     ]
   },
   {
@@ -1419,7 +1427,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 65,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -1458,7 +1466,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1486,7 +1494,8 @@
       "Chaos",
       "Nurgle",
       "Grenades",
-      "Foul Blightspawn"
+      "Foul Blightspawn",
+      "Leader"
     ]
   },
   {
@@ -1577,7 +1586,8 @@
       "Chaos",
       "Nurgle",
       "Grenades",
-      "Biologus Putrifier"
+      "Biologus Putrifier",
+      "Leader"
     ]
   },
   {
@@ -1636,7 +1646,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1660,7 +1670,8 @@
       "Character",
       "Chaos",
       "Nurgle",
-      "Tallyman"
+      "Tallyman",
+      "Leader"
     ]
   },
   {
@@ -1734,7 +1745,8 @@
       "Character",
       "Chaos",
       "Nurgle",
-      "Plague Surgeon"
+      "Plague Surgeon",
+      "Leader"
     ]
   },
   {
@@ -1869,7 +1881,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Combi-bolter",
@@ -1951,7 +1963,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power scourge",
@@ -1961,7 +1973,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Helbrute hammer",
@@ -1971,7 +1983,7 @@
           "S": "14",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Helbrute fist",
@@ -1981,7 +1993,7 @@
           "S": "12",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2024,11 +2036,11 @@
       "variants": [
         {
           "models": 4,
-          "points": 185
+          "points": 180
         },
         {
           "models": 6,
-          "points": 370
+          "points": 360
         }
       ]
     },
@@ -2118,7 +2130,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Flail of corruption",
@@ -2190,7 +2202,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2221,7 +2233,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 100,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -2408,7 +2420,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 185,
+      "base": 170,
       "variants": []
     },
     "composition": {
@@ -2487,7 +2499,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2572,7 +2584,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Combi-bolter",
@@ -2604,7 +2616,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2713,7 +2725,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -2725,7 +2737,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2834,7 +2846,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -2846,7 +2858,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2937,7 +2949,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2971,7 +2983,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 390,
+      "base": 375,
       "variants": []
     },
     "composition": {
@@ -3304,7 +3316,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Nurgling's claws and teeth",
@@ -3324,7 +3336,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Accursed weapon",
@@ -3334,7 +3346,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -3344,7 +3356,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Paired accursed weapons",
@@ -3390,7 +3402,8 @@
       "Chaos",
       "Nurgle",
       "Chaos Lord",
-      "Palanquin of Nurgle"
+      "Palanquin of Nurgle",
+      "Leader"
     ]
   },
   {
@@ -3439,7 +3452,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Hideous mutations",
@@ -3449,7 +3462,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3519,7 +3532,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3597,7 +3610,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -3609,7 +3622,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3817,7 +3830,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -3827,7 +3840,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes chainsword",
@@ -3837,7 +3850,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3875,7 +3888,8 @@
       "Chaos",
       "Nurgle",
       "Sorcerer",
-      "Palanquin of Nurgle"
+      "Palanquin of Nurgle",
+      "Leader"
     ]
   },
   {
@@ -3918,7 +3932,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4031,7 +4045,8 @@
       "Grenades",
       "Chaos",
       "Nurgle",
-      "Lord of Poxes"
+      "Lord of Poxes",
+      "Leader"
     ]
   },
   {
@@ -4078,7 +4093,7 @@
           "S": "7",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -4651,7 +4666,8 @@
       "Psyker",
       "Chaos",
       "Nurgle",
-      "Plague Sorcerer"
+      "Plague Sorcerer",
+      "Leader"
     ]
   },
   {
@@ -4703,7 +4719,8 @@
       "Chaos",
       "Nurgle",
       "Grenades",
-      "Plague Lord"
+      "Plague Lord",
+      "Leader"
     ]
   },
   {
@@ -4748,7 +4765,8 @@
       "Grenades",
       "Chaos",
       "Nurgle",
-      "Tri-lobe Vectors"
+      "Tri-lobe Vectors",
+      "Leader"
     ]
   },
   {

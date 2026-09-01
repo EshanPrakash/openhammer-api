@@ -64,7 +64,8 @@
       "Epic Hero",
       "Cryptek",
       "Chronomancer",
-      "Orikan the Diviner"
+      "Orikan the Diviner",
+      "Support"
     ]
   },
   {
@@ -111,7 +112,7 @@
           "S": "6",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -154,7 +155,8 @@
       "Character",
       "Epic Hero",
       "Noble",
-      "Imotekh the Stormlord"
+      "Imotekh the Stormlord",
+      "Leader"
     ]
   },
   {
@@ -232,7 +234,8 @@
       "Character",
       "Epic Hero",
       "Noble",
-      "Anrakyr the Traveller"
+      "Anrakyr the Traveller",
+      "Leader"
     ]
   },
   {
@@ -291,6 +294,8 @@
     "special_rules": [
       "Leader",
       "Reanimation Protocols",
+      "Feel No Pain 4+",
+      "Fights First",
       "Devastating Wounds",
       "Precision"
     ],
@@ -299,7 +304,8 @@
       "Infantry",
       "Character",
       "Epic Hero",
-      "Vargard Obyron"
+      "Vargard Obyron",
+      "Leader"
     ]
   },
   {
@@ -336,7 +342,7 @@
           "S": "9",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -348,7 +354,7 @@
           "S": "9",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Impaling legs",
@@ -424,7 +430,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -436,7 +442,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -456,7 +462,9 @@
     ],
     "special_rules": [
       "Leader",
-      "Reanimation Protocols"
+      "Reanimation Protocols",
+      "Feel No Pain 4+",
+      "Fights First"
     ],
     "keywords": [
       "Faction: Necrons",
@@ -464,7 +472,8 @@
       "Character",
       "Epic Hero",
       "Noble",
-      "Nemesor Zahndrekh"
+      "Nemesor Zahndrekh",
+      "Leader"
     ]
   },
   {
@@ -517,7 +526,7 @@
       },
       {
         "name": "Surrogate Hosts",
-        "description": "At the start of your Command phase, if this model is on the battlefield, you can select one other friendly NECRONS INFANTRY CHARACTER model on the battlefield (excluding SKORPEKH LORD or EPIC HERO models). The selected model is destroyed (ignoring any rules that are triggered when a model is destroyed) and this model is put\nin its place, with all of its wounds remaining (if the selected model was leading a unit, this model now attaches to that unit as its Leader)."
+        "description": "At the start of your Command phase, if this model is on the battlefield, you can select one other friendly NECRONS INFANTRY CHARACTER model on the battlefield (excluding SKORPEKH LORD or EPIC HERO models). The selected model is destroyed (ignoring any rules that are triggered when a model is destroyed) and this model is put in its place, with all of its wounds remaining (if the selected model was leading a unit, this model now attaches to that unit as its Leader)."
       }
     ],
     "special_rules": [
@@ -531,7 +540,8 @@
       "Character",
       "Epic Hero",
       "Noble",
-      "Trazyn the Infinite"
+      "Trazyn the Infinite",
+      "Leader"
     ]
   },
   {
@@ -580,7 +590,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -608,7 +618,8 @@
       "Faction: Necrons",
       "Infantry",
       "Character",
-      "Royal Warden"
+      "Royal Warden",
+      "Leader"
     ]
   },
   {
@@ -618,7 +629,7 @@
     "faction": "Necrons",
     "faction_type": "Xenos",
     "points": {
-      "base": 90,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -657,7 +668,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Hyperphase harvester",
@@ -667,7 +678,7 @@
           "S": "10",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -695,7 +706,8 @@
       "Infantry",
       "Character",
       "Destroyer Cult",
-      "Skorpekh Lord"
+      "Skorpekh Lord",
+      "Leader"
     ]
   },
   {
@@ -705,7 +717,7 @@
     "faction": "Necrons",
     "faction_type": "Xenos",
     "points": {
-      "base": 70,
+      "base": 80,
       "variants": []
     },
     "composition": {
@@ -732,7 +744,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -754,7 +766,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -788,7 +800,8 @@
       "Character",
       "Fly",
       "Destroyer Cult",
-      "Lokhust Lord"
+      "Lokhust Lord",
+      "Leader"
     ]
   },
   {
@@ -825,7 +838,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -847,7 +860,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -870,7 +883,8 @@
       "Infantry",
       "Character",
       "Noble",
-      "Lord"
+      "Lord",
+      "Leader"
     ]
   },
   {
@@ -927,7 +941,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -949,7 +963,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1027,7 +1041,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1059,7 +1073,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1078,7 +1092,8 @@
       "Infantry",
       "Character",
       "Noble",
-      "Overlord"
+      "Overlord",
+      "Leader"
     ]
   },
   {
@@ -1115,7 +1130,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1127,7 +1142,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1147,7 +1162,8 @@
     ],
     "special_rules": [
       "Support",
-      "Reanimation Protocols"
+      "Reanimation Protocols",
+      "Feel No Pain 5+"
     ],
     "keywords": [
       "Faction: Necrons",
@@ -1155,7 +1171,8 @@
       "Character",
       "Fly",
       "Cryptek",
-      "Technomancer"
+      "Technomancer",
+      "Support"
     ]
   },
   {
@@ -1192,7 +1209,7 @@
           "S": "6",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1204,7 +1221,7 @@
           "S": "6",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1231,7 +1248,8 @@
       "Infantry",
       "Character",
       "Cryptek",
-      "Psychomancer"
+      "Psychomancer",
+      "Support"
     ]
   },
   {
@@ -1280,7 +1298,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1309,7 +1327,8 @@
       "Infantry",
       "Character",
       "Cryptek",
-      "Chronomancer"
+      "Chronomancer",
+      "Support"
     ]
   },
   {
@@ -1319,7 +1338,7 @@
     "faction": "Necrons",
     "faction_type": "Xenos",
     "points": {
-      "base": 55,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -1346,7 +1365,7 @@
           "S": "7",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1358,7 +1377,7 @@
           "S": "7",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1385,7 +1404,8 @@
       "Infantry",
       "Character",
       "Cryptek",
-      "Plasmancer"
+      "Plasmancer",
+      "Support"
     ]
   },
   {
@@ -1395,7 +1415,7 @@
     "faction": "Necrons",
     "faction_type": "Xenos",
     "points": {
-      "base": 80,
+      "base": 85,
       "variants": [
         {
           "models": 11,
@@ -1449,7 +1469,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1465,10 +1485,10 @@
     ],
     "special_rules": [
       "Reanimation Protocols",
-      "Assault",
+      "Feel No Pain 5+",
+      "Fights First",
       "Lethal Hits",
-      "Rapid Fire",
-      "Scouts 5\""
+      "Rapid Fire"
     ],
     "keywords": [
       "Faction: Necrons",
@@ -1538,7 +1558,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1554,6 +1574,8 @@
     ],
     "special_rules": [
       "Reanimation Protocols",
+      "Feel No Pain 5+",
+      "Fights First",
       "Lethal Hits",
       "Assault",
       "Sustained Hits",
@@ -1600,7 +1622,7 @@
           "S": "6",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1612,7 +1634,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1680,7 +1702,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1775,6 +1797,7 @@
     ],
     "special_rules": [
       "Reanimation Protocols",
+      "Fights First",
       "Devastating Wounds"
     ],
     "keywords": [
@@ -1834,7 +1857,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1953,7 +1976,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1965,7 +1988,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1980,7 +2003,7 @@
       },
       {
         "name": "Cryptek Retinue",
-        "description": "At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a CRYPTEK model (a unit cannot have more than one CRYPTOTHRALLS unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that  Bodyguard unit’s Starting Strength is increased accordingly."
+        "description": "At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a CRYPTEK model (a unit cannot have more than one CRYPTOTHRALLS unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly."
       }
     ],
     "special_rules": [
@@ -1989,7 +2012,8 @@
     "keywords": [
       "Faction: Necrons",
       "Infantry",
-      "Cryptothralls"
+      "Cryptothralls",
+      "Canoptek Retinue"
     ]
   },
   {
@@ -2032,7 +2056,7 @@
           "S": "7",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2043,7 +2067,8 @@
       }
     ],
     "special_rules": [
-      "Reanimation Protocols"
+      "Reanimation Protocols",
+      "Feel No Pain 5+"
     ],
     "keywords": [
       "Faction: Necrons",
@@ -2128,7 +2153,7 @@
           "S": "7",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2203,7 +2228,7 @@
           "S": "10",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2270,7 +2295,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -2292,7 +2317,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2387,7 +2412,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Canoptek tail blades",
@@ -2561,7 +2586,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2666,7 +2691,7 @@
       "variants": [
         {
           "models": 4,
-          "points": 145
+          "points": 150
         }
       ]
     },
@@ -2695,19 +2720,20 @@
           "S": "4",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
     "abilities": [
       {
         "name": "Tunnelling Horrors",
-        "description": "At the end of your opponent’s turn, if this unit is unengaged, you can use this ability. If you do: \n- Place this unit in strategic reserves. \n- This unit must make an ingress move in your next Movement phase (including in your first turn).’"
+        "description": "At the end of your opponent’s turn, if this unit is unengaged, you can use this ability. If you do: \n- Place this unit in strategic reserves. \n- This unit must make an ingress move in your next Movement phase (including in your first turn)."
       }
     ],
     "special_rules": [
       "Reanimation Protocols",
-      "Deep Strike"
+      "Deep Strike",
+      "Feel No Pain 5+"
     ],
     "keywords": [
       "Faction: Necrons",
@@ -2787,7 +2813,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2871,7 +2897,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Particle caster",
@@ -2893,7 +2919,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Voidblade",
@@ -2903,7 +2929,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2965,7 +2991,7 @@
           "S": "4",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Particle caster",
@@ -2987,7 +3013,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Whip coils",
@@ -2997,7 +3023,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3008,7 +3034,8 @@
       }
     ],
     "special_rules": [
-      "Reanimation Protocols"
+      "Reanimation Protocols",
+      "Feel No Pain 5+"
     ],
     "keywords": [
       "Faction: Necrons",
@@ -3084,7 +3111,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3165,7 +3192,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3191,7 +3218,8 @@
       "Faction: Necrons",
       "Vehicle",
       "Fly",
-      "Doomsday Ark"
+      "Doomsday Ark",
+      "Frame"
     ]
   },
   {
@@ -3213,7 +3241,7 @@
         },
         {
           "models": 4,
-          "points": 170
+          "points": 175
         }
       ]
     },
@@ -3253,7 +3281,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3265,6 +3293,7 @@
     ],
     "special_rules": [
       "Reanimation Protocols",
+      "Feel No Pain 5+",
       "Lethal Hits"
     ],
     "keywords": [
@@ -3331,7 +3360,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3343,6 +3372,7 @@
     ],
     "special_rules": [
       "Reanimation Protocols",
+      "Feel No Pain 5+",
       "Heavy",
       "Sustained Hits",
       "Rapid Fire",
@@ -3412,7 +3442,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3489,7 +3519,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3561,14 +3591,14 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
     "abilities": [
       {
         "name": "Invasion Beams",
-        "description": "At the end of the Fight phase, if there are no models currently embarked within this TRANSPORT, you can select one friendly NECRONS INFANTRY unit wholly within 6\" of this TRANSPORT. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this TRANSPORT. That unit can embark within this TRANSPORT in a turn it disembarked from this TRANSPORT."
+        "description": "At the end of the Fight phase, if there are no models currently embarked within this **TRANSPORT**, you can select one friendly **NECRONS INFANTRY** unit wholly within 6\" of this **TRANSPORT**. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this **TRANSPORT**."
       },
       {
         "name": "Damaged: 1-4 wounds remaining",
@@ -3592,8 +3622,7 @@
       "Vehicle",
       "Fly",
       "Transport",
-      "Night Scythe",
-      "Frame"
+      "Night Scythe"
     ]
   },
   {
@@ -3652,7 +3681,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3726,7 +3755,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3807,7 +3836,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3909,7 +3938,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3920,7 +3949,7 @@
       },
       {
         "name": "Eternity Gate",
-        "description": "In your movement phase (excluding the first battle round), you can select one friendly NECRONS INFANTRY unit that is either in strategic reserves or on the battlefield (if you select a unit on the battlefield, remove that unit from the battlefield and place it into strategic reserves). That unit can make an ingress move, and must be set up wholly within 6\" of this unit and not engaged with any enemy units. That unit cannot make a charge move this turn."
+        "description": "In your movement phase (excluding the first battle round), you can select one friendly NECRONS INFANTRY unit that is either in strategic reserves or on the battlefield (if you select a unit on the battlefield, remove that unit from the battlefield and place it into strategic reserves). That unit can make an ingress move, and while making that ingress move, that unit must be set up wholly within 6\" of this unit and unengaged (instead of more than 8\" horizontally from all enemy units), even if that is within your opponent’s deployment zone. That unit cannot make a charge move this turn."
       }
     ],
     "special_rules": [
@@ -3997,7 +4026,7 @@
           "S": "14",
           "AP": "-4",
           "D": "6",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -4019,7 +4048,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4101,7 +4130,7 @@
           "S": "6",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": []
@@ -4246,7 +4275,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4319,7 +4348,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4428,7 +4457,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4509,7 +4538,7 @@
           "S": "24",
           "AP": "-4",
           "D": "D6+4",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -4521,7 +4550,7 @@
           "S": "14",
           "AP": "-3",
           "D": "5",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Titanic forelimbs - sweep",
@@ -4531,7 +4560,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4771,7 +4800,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4796,8 +4825,7 @@
       "Vehicle",
       "Aircraft",
       "Fly",
-      "Night Shroud",
-      "Frame"
+      "Night Shroud"
     ]
   },
   {
@@ -4854,7 +4882,8 @@
       "Character",
       "Noble",
       "Overlord",
-      "Overlord with Translocation Shroud"
+      "Overlord with Translocation Shroud",
+      "Leader"
     ]
   },
   {
@@ -4891,7 +4920,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Tesla caster",
@@ -4923,7 +4952,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5000,7 +5029,7 @@
           "S": "4",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -5012,7 +5041,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5035,7 +5064,8 @@
       "Faction: Necrons",
       "Beast",
       "Canoptek",
-      "Tomb Crawlers"
+      "Tomb Crawlers",
+      "Canoptek Retinue"
     ]
   },
   {
@@ -5094,7 +5124,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5110,6 +5140,10 @@
       {
         "name": "Support",
         "description": "This model can be attached to the following units: **Canoptek Macrocytes, Immortals, Necron Warriors**. \n"
+      },
+      {
+        "name": "Vanguard Protocols",
+        "description": "If this model is attached to a **Canoptek Macrocytes** unit during the Declare Battle Formations step, this model has the Scouts 8\" ability."
       }
     ],
     "special_rules": [
@@ -5124,7 +5158,8 @@
       "Infantry",
       "Character",
       "Cryptek",
-      "Geomancer"
+      "Geomancer",
+      "Support"
     ]
   },
   {
@@ -5183,7 +5218,7 @@
           "S": "10",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5373,7 +5408,7 @@
     ]
   },
   {
-    "name": "Tomb Citadel Walls",
+    "name": "Tomb Citadel Walls [Legends]",
     "id": "d3ee-bc80-1eea-6463",
     "type": "model",
     "faction": "Necrons",

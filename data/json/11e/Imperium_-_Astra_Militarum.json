@@ -103,7 +103,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Autocannon",
@@ -113,7 +113,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Lascannon",
@@ -123,7 +123,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy flamer",
@@ -185,7 +185,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Close combat weapon",
@@ -195,7 +195,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -253,7 +253,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Demolisher cannon",
@@ -283,7 +283,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin heavy bolter",
@@ -315,7 +315,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -373,7 +373,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin heavy bolter",
@@ -405,7 +405,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -469,7 +469,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin heavy bolter",
@@ -501,7 +501,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -572,7 +572,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -684,7 +684,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Chainsword",
@@ -694,7 +694,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Close combat weapon",
@@ -704,7 +704,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Power fist",
@@ -714,7 +714,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -726,10 +726,15 @@
       {
         "name": "Get Back in the Fight",
         "description": "While this model is leading a unit, that unit is eligible to shoot in a turn in which it Fell Back."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units: **Cadian Shock Troops**, **Kasrkin**"
       }
     ],
     "special_rules": [
-      "Voice Of Command"
+      "Voice Of Command",
+      "Leader"
     ],
     "keywords": [
       "Cadian Castellan",
@@ -836,7 +841,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Meltagun",
@@ -888,7 +893,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Power weapon",
@@ -898,7 +903,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Chainsword",
@@ -908,7 +913,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Close combat weapon",
@@ -918,7 +923,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -926,10 +931,16 @@
       {
         "name": "Cadia Stands!",
         "description": "While this unit contains an **OFFICER** model and this unit is within range of an objective, this unit can re-roll battle‑shock rolls."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit: **Cadian Shock Troops**"
       }
     ],
     "special_rules": [
-      "Voice Of Command"
+      "Voice Of Command",
+      "Leader",
+      "Feel No Pain 4+"
     ],
     "keywords": [
       "Faction: Astra Militarum",
@@ -1017,7 +1028,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Storm bolter",
@@ -1049,7 +1060,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1142,17 +1153,17 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Chainsword",
           "Range": "Melee",
           "A": "4",
-          "WS": "4+",
+          "WS": "3+",
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1230,7 +1241,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1290,7 +1301,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin heavy bolter",
@@ -1322,7 +1333,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1445,7 +1456,7 @@
           "S": "3",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Straight silver knife",
@@ -1455,7 +1466,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Mkoll's straight silver knife",
@@ -1535,7 +1546,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Demolisher cannon",
@@ -1565,7 +1576,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin heavy bolter",
@@ -1597,7 +1608,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1728,7 +1739,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1802,7 +1813,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1977,7 +1988,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Konstantin's hooves",
@@ -2072,7 +2083,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2153,7 +2164,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Meltagun",
@@ -2255,7 +2266,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Tempestus dagger",
@@ -2265,7 +2276,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2291,7 +2302,8 @@
       "Deep Strike",
       "Voice Of Command",
       "Leader",
-      "Sustained Hits"
+      "Sustained Hits",
+      "Feel No Pain 4+"
     ],
     "keywords": [
       "Militarum Tempestus",
@@ -2436,7 +2448,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Huge knife",
@@ -2446,7 +2458,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Ripper gun",
@@ -2456,7 +2468,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Bullgryn maul",
@@ -2466,7 +2478,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2575,7 +2587,7 @@
       },
       {
         "name": "Malign Wardings (Psychic)",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks"
+        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
       }
     ],
     "special_rules": [
@@ -2642,7 +2654,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Servo-arm",
@@ -2659,7 +2671,7 @@
     "abilities": [
       {
         "name": "Vengeance for the Omnissiah",
-        "description": "If a friendly **Astra Militarum Vehicle** model is destroyed within 12\" of this model, until the end of the battle, this model’s Enginseer axe has an Attacks characteristic of 6"
+        "description": "If a friendly **Astra Militarum Vehicle** model is destroyed within 12\" of this model, until the end of the battle, this model’s Enginseer axe has an Attacks characteristic of 6."
       },
       {
         "name": "Omnissiah’s Blessing",
@@ -2667,7 +2679,7 @@
       },
       {
         "name": "Enginseer",
-        "description": "While this model is within 3\" of one or more friendly **Astra Militarum Vehicle** units, this model has the Lone Operative ability"
+        "description": "While this model is within 3\" of one or more friendly **Astra Militarum Vehicle** units, this model has the Lone Operative ability."
       },
       {
         "name": "Leader",
@@ -2744,7 +2756,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Oppressor cannon",
@@ -2764,7 +2776,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Pulveriser cannon",
@@ -2816,7 +2828,7 @@
           "S": "7",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2888,7 +2900,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Lascannon",
@@ -2898,7 +2910,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy flamer",
@@ -2958,7 +2970,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -2970,7 +2982,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Sentinel chainsaw",
@@ -2980,7 +2992,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3051,7 +3063,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3123,7 +3135,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin heavy bolter",
@@ -3155,7 +3167,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3304,7 +3316,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy stubber",
@@ -3336,7 +3348,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3406,7 +3418,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Stormsword siege cannon",
@@ -3438,7 +3450,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3470,7 +3482,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 215,
+      "base": 195,
       "variants": []
     },
     "composition": {
@@ -3567,7 +3579,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Exterminator autocannon",
@@ -3597,7 +3609,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy flamer",
@@ -3669,7 +3681,7 @@
           "S": "7",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3755,7 +3767,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3885,7 +3897,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3959,7 +3971,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4057,7 +4069,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Lascannon",
@@ -4067,7 +4079,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -4079,7 +4091,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4152,7 +4164,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4233,7 +4245,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy flamer",
@@ -4253,7 +4265,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Multi-laser",
@@ -4263,7 +4275,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Volkite caliver",
@@ -4325,7 +4337,7 @@
           "S": "7",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4457,7 +4469,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy bolter",
@@ -4477,7 +4489,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy stubber",
@@ -4509,7 +4521,7 @@
           "S": "7",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4597,7 +4609,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy bolter",
@@ -4617,7 +4629,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy stubber",
@@ -4649,7 +4661,7 @@
           "S": "7",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4738,7 +4750,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Lascannon",
@@ -4748,7 +4760,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy stubber",
@@ -4780,7 +4792,7 @@
           "S": "7",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4858,7 +4870,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy bolter",
@@ -4878,7 +4890,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy flamer",
@@ -4920,7 +4932,7 @@
           "S": "7",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4991,7 +5003,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5063,7 +5075,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5123,7 +5135,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Stormblade plasma blastgun - standard",
@@ -5205,7 +5217,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5336,7 +5348,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5467,7 +5479,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5598,7 +5610,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5708,7 +5720,7 @@
           "S": "7",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5802,7 +5814,7 @@
           "S": "7",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5902,7 +5914,7 @@
           "S": "7",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6001,7 +6013,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy bolter",
@@ -6031,7 +6043,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -6043,7 +6055,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6110,7 +6122,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Avenger bolt cannon",
@@ -6132,7 +6144,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6190,7 +6202,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Lightning hellstrike rack",
@@ -6212,7 +6224,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6232,8 +6244,7 @@
       "Fly",
       "Aircraft",
       "Imperium",
-      "Voss-pattern Lightning",
-      "Frame"
+      "Voss-pattern Lightning"
     ]
   },
   {
@@ -6312,7 +6323,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6334,8 +6345,7 @@
       "Vehicle",
       "Fly",
       "Imperium",
-      "Vulture Gunship",
-      "Frame"
+      "Vulture Gunship"
     ]
   },
   {
@@ -6382,7 +6392,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -6394,7 +6404,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6422,8 +6432,7 @@
       "Fly",
       "Aircraft",
       "Imperium",
-      "Marauder Bomber",
-      "Frame"
+      "Marauder Bomber"
     ]
   },
   {
@@ -6502,7 +6511,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6529,8 +6538,7 @@
       "Fly",
       "Aircraft",
       "Imperium",
-      "Marauder Destroyer",
-      "Frame"
+      "Marauder Destroyer"
     ]
   },
   {
@@ -6589,7 +6597,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6657,7 +6665,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6716,7 +6724,7 @@
           "S": "9",
           "AP": "-4",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6803,7 +6811,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6892,7 +6900,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -6912,8 +6920,7 @@
       "Imperium",
       "Transport",
       "Valkyrie Sky Talon",
-      "Faction: Astra Militarum",
-      "Frame"
+      "Faction: Astra Militarum"
     ]
   },
   {
@@ -6960,7 +6967,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Multi-laser",
@@ -6970,7 +6977,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -6982,7 +6989,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -7002,8 +7009,7 @@
       "Aquila Lander",
       "Transport",
       "Imperium",
-      "Faction: Astra Militarum",
-      "Frame"
+      "Faction: Astra Militarum"
     ]
   },
   {
@@ -7090,7 +7096,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy flamer",
@@ -7110,7 +7116,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -7122,7 +7128,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -7242,7 +7248,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -7332,7 +7338,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy stubber",
@@ -7414,7 +7420,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Sergeant's close combat weapon",
@@ -7424,7 +7430,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -7510,7 +7516,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -7588,7 +7594,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy bolter",
@@ -7640,7 +7646,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -7741,7 +7747,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -7830,7 +7836,7 @@
           "S": "2",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -7905,7 +7911,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Medical scalpels",
@@ -7915,7 +7921,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -7926,7 +7932,7 @@
       },
       {
         "name": "Mindlock",
-        "description": "While this unit contains a Quartermaster Revenant model, improve the Weapon Skill characteristic of this unit's Medical scalpels by 1"
+        "description": "While this unit contains a Quartermaster Revenant model, improve the Weapon Skill characteristic of this unit's Medical scalpels by 1."
       },
       {
         "name": "Leader",
@@ -8025,7 +8031,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8124,7 +8130,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8227,7 +8233,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8308,7 +8314,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8380,7 +8386,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8501,7 +8507,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8573,7 +8579,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8632,7 +8638,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8652,8 +8658,7 @@
       "Imperium",
       "Transport",
       "Arvus Lighter",
-      "Faction: Astra Militarum",
-      "Frame"
+      "Faction: Astra Militarum"
     ]
   },
   {
@@ -8722,7 +8727,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8742,8 +8747,7 @@
       "Vehicle",
       "Fly",
       "Imperium",
-      "Transport",
-      "Frame"
+      "Transport"
     ]
   },
   {
@@ -8792,7 +8796,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -8866,7 +8870,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Savage claws",
@@ -8946,7 +8950,7 @@
           "S": "10",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9017,7 +9021,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9091,7 +9095,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9205,7 +9209,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9277,7 +9281,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9343,7 +9347,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy bolter",
@@ -9395,7 +9399,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9483,7 +9487,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -9495,7 +9499,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9586,7 +9590,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9696,7 +9700,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9763,7 +9767,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Stormhammer cannon",
@@ -9793,7 +9797,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy bolter",
@@ -9845,7 +9849,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -9903,7 +9907,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Hunter-killer missile",
@@ -9965,7 +9969,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -10105,7 +10109,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Flamer",
@@ -10147,7 +10151,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Power weapon",
@@ -10157,7 +10161,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Close combat weapon",
@@ -10167,7 +10171,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Chainsword",
@@ -10177,7 +10181,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Trench club",
@@ -10187,7 +10191,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -10212,6 +10216,7 @@
     "special_rules": [
       "Voice Of Command",
       "Leader",
+      "Feel No Pain 4+",
       "Hazardous",
       "Feel No Pain 6+"
     ],
@@ -10395,7 +10400,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy flamer",
@@ -10497,7 +10502,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Chainsword",
@@ -10507,7 +10512,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Power fist",
@@ -10517,7 +10522,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Power weapon",
@@ -10527,14 +10532,26 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
-    "abilities": [],
+    "abilities": [
+      {
+        "name": "Gung-ho Command",
+        "description": "While this unit contains an **Officer**, ranged weapons equipped by models in this unit have the **[ASSAULT]** ability."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit: **Catachan Jungle Fighters**"
+      }
+    ],
     "special_rules": [
       "Voice Of Command",
-      "Scouts 6\""
+      "Scouts 6\"",
+      "Assault",
+      "Leader",
+      "Feel No Pain 4+"
     ],
     "keywords": [
       "Faction: Astra Militarum",
@@ -10592,7 +10609,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Pulveriser cannon",
@@ -10652,7 +10669,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Oppressor cannon",
@@ -10674,7 +10691,7 @@
           "S": "7",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -10760,7 +10777,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Power weapon",
@@ -10770,7 +10787,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -10812,7 +10829,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 60,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -10881,7 +10898,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -10997,7 +11014,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -11070,7 +11087,7 @@
           "S": "2",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -11180,7 +11197,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Close combat weapon",
@@ -11190,7 +11207,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Dirk",
@@ -11225,6 +11242,7 @@
     "special_rules": [
       "Voice Of Command",
       "Leader",
+      "Feel No Pain 4+",
       "One Shot",
       "Blast",
       "Precision"
@@ -11564,7 +11582,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -11678,7 +11696,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -11811,7 +11829,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -11883,7 +11901,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -11995,6 +12013,7 @@
       "Voice Of Command",
       "Stealth",
       "Leader",
+      "Feel No Pain 4+*",
       "Precision",
       "Melta"
     ],

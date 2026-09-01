@@ -39,7 +39,7 @@
           "S": "7",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -100,7 +100,7 @@
           "S": "12",
           "AP": "-2",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -116,11 +116,16 @@
       {
         "name": "Regenerating Gene-mass",
         "description": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit:\n- **ABERRANTS**"
       }
     ],
     "special_rules": [
       "Deep Strike",
-      "Feel No Pain"
+      "Feel No Pain",
+      "Leader"
     ],
     "keywords": [
       "Abominant",
@@ -190,7 +195,7 @@
           "S": "9",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy mortar",
@@ -212,7 +217,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -296,14 +301,14 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
     "abilities": [
       {
         "name": "Nexus of Devotion",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability. If that unit has the HYBRID METAMORPHS keyword, models in that unit have the Feel No Pain 4+ ability instead."
+        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability. If that unit has the **HYBRID METAMORPHS** keyword, models in that unit have the Feel No Pain 4+ ability instead."
       },
       {
         "name": "Summon the Cult",
@@ -317,7 +322,8 @@
     "special_rules": [
       "Deep Strike",
       "Scouts 6\"",
-      "Leader"
+      "Leader",
+      "Feel No Pain 4+"
     ],
     "keywords": [
       "Acolyte Iconward",
@@ -378,7 +384,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Atalan small arms",
@@ -398,7 +404,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Atalan incinerator",
@@ -430,7 +436,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Atalan power weapon",
@@ -440,7 +446,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -534,7 +540,7 @@
     "abilities": [
       {
         "name": "Twisted Science",
-        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
       },
       {
         "name": "Biological Warfare",
@@ -552,7 +558,8 @@
     "special_rules": [
       "Deep Strike",
       "Lethal Hits",
-      "Support"
+      "Support",
+      "Feel No Pain 4+"
     ],
     "keywords": [
       "Biophagus",
@@ -609,7 +616,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -629,7 +636,8 @@
     ],
     "special_rules": [
       "Deep Strike",
-      "Support"
+      "Support",
+      "Feel No Pain 4+"
     ],
     "keywords": [
       "Clamavus",
@@ -726,7 +734,7 @@
           "S": "10",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -818,7 +826,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -904,7 +912,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Metamorph mutations - sweep",
@@ -914,7 +922,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Leader's Bio-weapons",
@@ -924,7 +932,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1004,7 +1012,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1080,7 +1088,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1143,14 +1151,14 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
     "abilities": [
       {
         "name": "Sudden Assault",
-        "description": "While this model is leading a unit, models in that unit have the Fights First ability"
+        "description": "While this model is leading a unit, models in that unit have the **Fights First** ability."
       },
       {
         "name": "Bodyguard",
@@ -1245,7 +1253,8 @@
     ],
     "special_rules": [
       "Deep Strike",
-      "Leader"
+      "Leader",
+      "Feel No Pain 4+"
     ],
     "keywords": [
       "Magus",
@@ -1376,7 +1385,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Anointed pistol",
@@ -1398,7 +1407,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Power weapon",
@@ -1408,7 +1417,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Chainsword",
@@ -1418,7 +1427,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1493,7 +1502,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1504,7 +1513,7 @@
       },
       {
         "name": "Cult Infiltration",
-        "description": "At the start of each player’s Command phase, if this model is on the battlefield, you can select one of your Cult Ambush markers that is on the battlefield and has not been moved this turn and move it up to 6\""
+        "description": "At the start of each player’s Command phase, if this model is on the battlefield, you can select one of your Cult Ambush markers that is on the battlefield and has not been moved this turn and move it up to 6\"."
       },
       {
         "name": "Leader",
@@ -1513,7 +1522,8 @@
     ],
     "special_rules": [
       "Deep Strike",
-      "Support"
+      "Support",
+      "Feel No Pain 4+"
     ],
     "keywords": [
       "Nexos",
@@ -1566,7 +1576,7 @@
     "abilities": [
       {
         "name": "Might From Beyond",
-        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[DEVASTATING WOUNDS]** ability."
       },
       {
         "name": "Cosmic Horror (Psychic)",
@@ -1579,11 +1589,16 @@
       {
         "name": "Supreme Commander",
         "description": "- You cannot include more than one **Patriarch** model in your army.\n- If this model is in your army, it must be your **Warlord**."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n- PURESTRAIN GENESTEALERS"
       }
     ],
     "special_rules": [
       "Deep Strike",
       "Infiltrators",
+      "Leader",
       "Devastating Wounds",
       "Twin-linked"
     ],
@@ -1653,7 +1668,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1673,7 +1688,8 @@
     ],
     "special_rules": [
       "Deep Strike",
-      "Leader"
+      "Leader",
+      "Feel No Pain 4+"
     ],
     "keywords": [
       "Primus",
@@ -1724,7 +1740,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1812,7 +1828,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1899,7 +1915,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1968,7 +1984,7 @@
           "S": "12",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2057,14 +2073,14 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
     "abilities": [
       {
         "name": "Bio-horror Disruption (Psychic)",
-        "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
       },
       {
         "name": "Psionic Shield (Psychic)",
@@ -2077,7 +2093,8 @@
     ],
     "special_rules": [
       "Deep Strike",
-      "Leader"
+      "Leader",
+      "Feel No Pain 4+"
     ],
     "keywords": [
       "Character",

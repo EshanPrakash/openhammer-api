@@ -55,7 +55,7 @@
           "S": "7",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Medusan Manipuli",
@@ -105,7 +105,8 @@
       "Gravis",
       "Faction: Adeptus Astartes",
       "Faction: Iron Hands",
-      "Iron Father Ferrios"
+      "Iron Father Ferrios",
+      "Leader"
     ]
   },
   {
@@ -197,7 +198,8 @@
       "Captain",
       "Faction: Iron Hands",
       "Faction: Adeptus Astartes",
-      "Caanok Var"
+      "Caanok Var",
+      "Leader"
     ]
   }
 ]

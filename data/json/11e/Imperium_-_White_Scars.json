@@ -82,7 +82,8 @@
       "Faction: Adeptus Astartes",
       "Faction: White Scars",
       "Kor'sarro Khan",
-      "Tacticus"
+      "Tacticus",
+      "Leader"
     ]
   },
   {
@@ -151,7 +152,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -185,7 +186,8 @@
       "Captain",
       "Faction: Adeptus Astartes",
       "Faction: White Scars",
-      "Suboden Khan"
+      "Suboden Khan",
+      "Leader"
     ]
   }
 ]

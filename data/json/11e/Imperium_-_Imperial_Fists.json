@@ -53,7 +53,7 @@
       },
       {
         "name": "Inspiring Commander",
-        "description": "‘If you include this model in your army, until the end of the battle, non-Character models in Terminator Assault Squad and Terminator Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+        "description": "If you include this model in your army, until the end of the battle, non-Character models in Terminator Assault Squad and Terminator Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
       }
     ],
     "special_rules": [
@@ -71,7 +71,8 @@
       "Terminator",
       "Faction: Adeptus Astartes",
       "Faction: Imperial Fists",
-      "Darnath Lysander"
+      "Darnath Lysander",
+      "Leader"
     ]
   },
   {
@@ -120,7 +121,7 @@
           "S": "12",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -152,7 +153,8 @@
       "Tor Garadon",
       "Faction: Adeptus Astartes",
       "Imperium",
-      "Faction: Imperial Fists"
+      "Faction: Imperial Fists",
+      "Leader"
     ]
   },
   {
@@ -201,7 +203,7 @@
           "S": "8",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -239,7 +241,8 @@
       "Chapter Master",
       "Faction: Adeptus Astartes",
       "Faction: Imperial Fists",
-      "Pedro Kantor"
+      "Pedro Kantor",
+      "Leader"
     ]
   }
 ]

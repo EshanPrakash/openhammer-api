@@ -77,7 +77,8 @@
       "Chaos",
       "Slaanesh",
       "Faction: Emperor's Children",
-      "Lucius the Eternal"
+      "Lucius the Eternal",
+      "Leader"
     ]
   },
   {
@@ -200,7 +201,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 80,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -269,7 +270,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -279,7 +280,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Rapture lash",
@@ -334,6 +335,8 @@
     "special_rules": [
       "Leader",
       "Thrill Seekers",
+      "Infiltrators",
+      "Scouts 6\"",
       "Extra Attacks",
       "Lance",
       "Precision"
@@ -345,7 +348,8 @@
       "Grenades",
       "Chaos",
       "Slaanesh",
-      "Lord Exultant"
+      "Lord Exultant",
+      "Leader"
     ]
   },
   {
@@ -394,7 +398,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -404,7 +408,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -433,7 +437,8 @@
       "Chaos",
       "Slaanesh",
       "Faction: Emperor's Children",
-      "Lord Kakophonist"
+      "Lord Kakophonist",
+      "Leader"
     ]
   },
   {
@@ -535,7 +540,8 @@
       "Chaos",
       "Slaanesh",
       "Grenades",
-      "Sorcerer"
+      "Sorcerer",
+      "Leader"
     ]
   },
   {
@@ -572,7 +578,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -584,7 +590,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Hellforged weapons - sweep",
@@ -594,7 +600,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -660,7 +666,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -672,7 +678,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Hellforged weapons - sweep",
@@ -682,7 +688,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -823,7 +829,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power sword",
@@ -833,7 +839,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -843,7 +849,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -946,7 +952,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power sword",
@@ -956,7 +962,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Duelling sabre",
@@ -1045,7 +1051,7 @@
           "S": "6",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1064,8 +1070,7 @@
       }
     ],
     "special_rules": [
-      "Thrill Seekers",
-      "Fights First"
+      "Thrill Seekers"
     ],
     "keywords": [
       "Infantry",
@@ -1167,7 +1172,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1233,7 +1238,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1309,7 +1314,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Combi-weapon",
@@ -1331,7 +1336,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1436,7 +1441,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power sword",
@@ -1446,7 +1451,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1489,7 +1494,7 @@
       "SV": "3+",
       "W": "14",
       "LD": "7+",
-      "OC": "-"
+      "OC": "0"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1513,7 +1518,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1600,7 +1605,7 @@
           "S": "14",
           "AP": "-2",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Lasher tendrils",
@@ -1690,7 +1695,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1841,7 +1846,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 255,
+      "base": 265,
       "variants": []
     },
     "composition": {
@@ -1910,7 +1915,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Ritual knife",
@@ -1965,7 +1970,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 90,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -2038,7 +2043,7 @@
       "variants": [
         {
           "models": 4,
-          "points": 180
+          "points": 190
         }
       ]
     },
@@ -2098,7 +2103,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 80,
+      "base": 85,
       "variants": [
         {
           "models": 6,
@@ -2227,7 +2232,8 @@
       "Chaos",
       "Slaanesh",
       "Excruciator",
-      "Crucible"
+      "Crucible",
+      "Leader"
     ]
   },
   {
@@ -2280,7 +2286,8 @@
       "Chaos",
       "Slaanesh",
       "Crucible",
-      "Champion of Excess"
+      "Champion of Excess",
+      "Leader"
     ]
   },
   {
@@ -2335,7 +2342,8 @@
       "Chaos",
       "Slaanesh",
       "Crucible",
-      "Flawless Champion"
+      "Flawless Champion",
+      "Leader"
     ]
   },
   {
@@ -2372,7 +2380,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Heavy reaper autocannon",
@@ -2402,7 +2410,7 @@
           "S": "10",
           "AP": "-2",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Hades battle cannon",
@@ -2442,7 +2450,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Magma cutter",
@@ -2474,7 +2482,7 @@
           "S": "6",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Electroscourge",

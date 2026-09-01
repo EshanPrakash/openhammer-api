@@ -73,7 +73,8 @@
       "Infantry",
       "Character",
       "Epic Hero",
-      "Ûthar the Destined"
+      "Ûthar the Destined",
+      "Leader"
     ]
   },
   {
@@ -83,7 +84,7 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 100,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -120,7 +121,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Ion blaster",
@@ -130,7 +131,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Theyn's pistol",
@@ -192,7 +193,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Theyn's melee weapon",
@@ -202,7 +203,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Plasma knife",
@@ -212,7 +213,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -279,7 +280,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Volkanite disintegrator",
@@ -301,7 +302,7 @@
           "S": "8",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Forgewrought plasma axe",
@@ -311,7 +312,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -337,7 +338,8 @@
       "Faction: Leagues of Votann",
       "Infantry",
       "Character",
-      "Kâhl"
+      "Kâhl",
+      "Leader"
     ]
   },
   {
@@ -374,7 +376,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -386,7 +388,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Darkstar axe",
@@ -396,7 +398,7 @@
           "S": "6",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -427,7 +429,8 @@
       "Infantry",
       "Character",
       "Exoarmour",
-      "Einhyr Champion"
+      "Einhyr Champion",
+      "Leader"
     ]
   },
   {
@@ -484,7 +487,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -506,7 +509,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -537,7 +540,8 @@
     "keywords": [
       "Faction: Leagues of Votann",
       "Infantry",
-      "Character"
+      "Character",
+      "Leader"
     ]
   },
   {
@@ -594,7 +598,7 @@
           "S": "6",
           "AP": "-3",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -616,7 +620,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Plasma torch",
@@ -626,7 +630,7 @@
           "S": "6",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Manipulator arms",
@@ -636,7 +640,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -651,7 +655,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- HEARTHKYN WARRIORS\n- BRÔKHYR THUNDERKYN"
+        "description": "This model can be attached to the following units:\n- HEARTHKYN WARRIORS\n- BRÔKHYR THUNDERKYN"
       },
       {
         "name": "Unit Composition",
@@ -672,7 +676,8 @@
       "Faction: Leagues of Votann",
       "Infantry",
       "Character",
-      "Brôkhyr"
+      "Brôkhyr",
+      "Leader"
     ]
   },
   {
@@ -746,7 +751,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Plasma blade gauntlet",
@@ -756,7 +761,7 @@
           "S": "6",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Graviton hammer",
@@ -785,8 +790,7 @@
       "Blast",
       "Rapid Fire",
       "Devastating Wounds",
-      "Anti",
-      "Deep Strike"
+      "Anti"
     ],
     "keywords": [
       "Faction: Leagues of Votann",
@@ -802,11 +806,11 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 100,
+      "base": 95,
       "variants": [
         {
           "models": 5,
-          "points": 200
+          "points": 190
         }
       ]
     },
@@ -863,7 +867,6 @@
     "special_rules": [
       "Prioritised Efficiency",
       "Feel No Pain 4+",
-      "Deep Strike",
       "Anti",
       "Twin-linked",
       "Blast",
@@ -935,7 +938,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "HYLas rotary cannon",
@@ -967,7 +970,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1083,7 +1086,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1127,7 +1130,7 @@
       "variants": [
         {
           "models": 3,
-          "points": 160
+          "points": 170
         }
       ]
     },
@@ -1187,7 +1190,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1318,7 +1321,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1430,7 +1433,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Plasma knife",
@@ -1440,7 +1443,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1526,7 +1529,7 @@
           "S": "6",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1552,7 +1555,8 @@
       "Infantry",
       "Character",
       "Buri Aegnirssen",
-      "Faction: Leagues of Votann"
+      "Faction: Leagues of Votann",
+      "Leader"
     ]
   },
   {
@@ -1601,7 +1605,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1628,7 +1632,8 @@
       "Character",
       "Infantry",
       "Memnyr Strategist",
-      "Faction: Leagues of Votann"
+      "Faction: Leagues of Votann",
+      "Leader"
     ]
   },
   {
@@ -1697,7 +1702,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1731,8 +1736,13 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 65,
-      "variants": []
+      "base": 70,
+      "variants": [
+        {
+          "models": 2,
+          "points": 140
+        }
+      ]
     },
     "composition": {
       "min_models": 1,
@@ -1790,7 +1800,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1865,7 +1875,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1877,7 +1887,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1919,7 +1929,7 @@
       "variants": [
         {
           "models": 4,
-          "points": 160
+          "points": 170
         }
       ]
     },
@@ -1969,7 +1979,7 @@
           "S": "6",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Plasma sword",
@@ -2006,11 +2016,11 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 80,
+      "base": 75,
       "variants": [
         {
           "models": 4,
-          "points": 160
+          "points": 150
         }
       ]
     },
@@ -2087,7 +2097,7 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 110,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -2146,7 +2156,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2223,7 +2233,8 @@
       "Faction: Leagues of Votann",
       "Crucible",
       "Psyker",
-      "Living Ancestor"
+      "Living Ancestor",
+      "Leader"
     ]
   },
   {
@@ -2273,7 +2284,8 @@
       "Infantry",
       "Faction: Leagues of Votann",
       "Kinhost Commander",
-      "Crucible"
+      "Crucible",
+      "Leader"
     ]
   },
   {
@@ -2324,7 +2336,8 @@
       "Faction: Leagues of Votann",
       "Crucible",
       "Ironkin Steeljacks",
-      "Steeljack Elder"
+      "Steeljack Elder",
+      "Leader"
     ]
   },
   {
@@ -2414,7 +2427,8 @@
       "Character",
       "Cthonian",
       "Berehk Stornbröw",
-      "Faction: Leagues of Votann"
+      "Faction: Leagues of Votann",
+      "Leader"
     ]
   }
 ]

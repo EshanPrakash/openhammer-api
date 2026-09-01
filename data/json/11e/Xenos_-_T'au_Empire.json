@@ -43,7 +43,7 @@
           "S": "7",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "High-energy fusion blaster",
@@ -63,7 +63,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -75,7 +75,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -153,7 +153,7 @@
           "S": "8",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -165,7 +165,7 @@
           "S": "10",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Dawn Blade - sweep",
@@ -175,7 +175,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -245,7 +245,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Burst cannon",
@@ -255,7 +255,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Airbursting fragmentation projector",
@@ -275,7 +275,7 @@
           "S": "7",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Cyclic ion blaster - overcharge",
@@ -315,7 +315,7 @@
           "S": "8",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -327,7 +327,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -392,7 +392,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Burst cannon",
@@ -402,7 +402,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Airbursting fragmentation projector",
@@ -422,7 +422,7 @@
           "S": "7",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Cyclic ion blaster - overcharge",
@@ -462,7 +462,7 @@
           "S": "8",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -474,7 +474,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -539,7 +539,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Burst cannon",
@@ -549,7 +549,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Airbursting fragmentation projector",
@@ -569,7 +569,7 @@
           "S": "7",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Cyclic ion blaster - overcharge",
@@ -609,7 +609,7 @@
           "S": "8",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "High-output burst cannon",
@@ -619,7 +619,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -631,7 +631,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -709,7 +709,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -776,7 +776,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -800,8 +800,7 @@
     ],
     "special_rules": [
       "For The Greater Good",
-      "Leader",
-      "Feel No Pain"
+      "Leader"
     ],
     "keywords": [
       "Character",
@@ -847,7 +846,7 @@
           "S": "2",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Supreme honour blade",
@@ -857,7 +856,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1000,7 +999,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1110,7 +1109,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin pulse carbine",
@@ -1142,7 +1141,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1167,8 +1166,7 @@
       "Vehicle",
       "Longstrike",
       "Faction: T'au Empire",
-      "Non-Kroot",
-      "Frame"
+      "Non-Kroot"
     ]
   },
   {
@@ -1215,7 +1213,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Pulse rifle",
@@ -1247,7 +1245,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1341,7 +1339,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1438,7 +1436,7 @@
           "S": "4",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -1450,7 +1448,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1541,7 +1539,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Krootox fists",
@@ -1625,7 +1623,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Missile pod",
@@ -1635,7 +1633,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Plasma rifle",
@@ -1645,7 +1643,7 @@
           "S": "8",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Airbursting fragmentation projector",
@@ -1665,7 +1663,7 @@
           "S": "7",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Cyclic ion blaster - overcharge",
@@ -1697,7 +1695,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1759,7 +1757,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Fusion blaster",
@@ -1791,7 +1789,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1891,7 +1889,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Cyclic ion raker - overcharge",
@@ -1913,7 +1911,7 @@
           "S": "6",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2004,7 +2002,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2075,7 +2073,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Semi-automatic grenade launcher - EMP",
@@ -2095,7 +2093,7 @@
           "S": "6",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Ion rifle - standard",
@@ -2135,7 +2133,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -2147,7 +2145,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2172,11 +2170,11 @@
     "special_rules": [
       "Scouts 7\"",
       "For The Greater Good",
-      "Infiltrators",
       "Ignores Cover",
       "Hazardous",
       "Heavy",
-      "Devastating Wounds"
+      "Devastating Wounds",
+      "Infiltrators"
     ],
     "keywords": [
       "Infantry",
@@ -2240,7 +2238,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Piranha fusion blaster",
@@ -2272,7 +2270,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2378,7 +2376,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2447,7 +2445,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2567,7 +2565,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2578,8 +2576,7 @@
       }
     ],
     "special_rules": [
-      "For The Greater Good",
-      "Feel No Pain"
+      "For The Greater Good"
     ],
     "keywords": [
       "Vehicle",
@@ -2624,7 +2621,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Ion accelerator - standard",
@@ -2634,7 +2631,7 @@
           "S": "9",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Ion accelerator - overcharge",
@@ -2654,7 +2651,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin fusion blaster",
@@ -2696,7 +2693,7 @@
           "S": "6",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2798,7 +2795,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin pulse carbine",
@@ -2830,7 +2827,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2902,7 +2899,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin pulse carbine",
@@ -2934,7 +2931,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2993,7 +2990,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin pulse carbine",
@@ -3035,7 +3032,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3124,7 +3121,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Accelerator burst cannon",
@@ -3134,7 +3131,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -3146,7 +3143,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3235,7 +3232,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin missile pod",
@@ -3257,7 +3254,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3575,7 +3572,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3661,7 +3658,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3763,7 +3760,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Close combat weapon",
@@ -3773,7 +3770,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Ritual blade",
@@ -3783,11 +3780,16 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
-    "abilities": [],
+    "abilities": [
+      {
+        "name": "Pech'ra",
+        "description": "Ranged weapons equipped by the bearer’s unit have the **[IGNORES COVER]** ability."
+      }
+    ],
     "special_rules": [
       "Infiltrators",
       "Stealth",
@@ -3845,7 +3847,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -3857,7 +3859,7 @@
           "S": "6",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -3916,7 +3918,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Ionic discharge cannon - standard",
@@ -3956,7 +3958,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -3968,7 +3970,7 @@
           "S": "6",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4047,7 +4049,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4068,8 +4070,7 @@
       "Markerlight",
       "Tetras",
       "Faction: T'au Empire",
-      "Non-Kroot",
-      "Frame"
+      "Non-Kroot"
     ]
   },
   {
@@ -4128,7 +4129,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4188,7 +4189,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Smart missile system",
@@ -4248,7 +4249,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy rail cannon array",
@@ -4280,7 +4281,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4350,7 +4351,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Swiftstrike railgun",
@@ -4370,7 +4371,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Ion cannon - standard",
@@ -4400,7 +4401,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Cyclic ion blaster - standard",
@@ -4410,7 +4411,7 @@
           "S": "7",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Cyclic ion blaster - overcharge",
@@ -4442,7 +4443,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4464,8 +4465,7 @@
       "Fly",
       "Barracuda",
       "Faction: T'au Empire",
-      "Non-Kroot",
-      "Frame"
+      "Non-Kroot"
     ]
   },
   {
@@ -4475,7 +4475,7 @@
     "faction": "T'au Empire",
     "faction_type": "Xenos",
     "points": {
-      "base": 375,
+      "base": 395,
       "variants": []
     },
     "composition": {
@@ -4502,7 +4502,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Cyclic ion blaster - standard",
@@ -4512,7 +4512,7 @@
           "S": "7",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Cyclic ion blaster - overcharge",
@@ -4532,7 +4532,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Ion cannon - standard",
@@ -4562,7 +4562,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Swiftstrike railgun",
@@ -4604,7 +4604,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4668,7 +4668,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin heavy rail cannon",
@@ -4688,7 +4688,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Cyclic ion blaster - standard",
@@ -4698,7 +4698,7 @@
           "S": "7",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Cyclic ion blaster - overcharge",
@@ -4730,7 +4730,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4800,7 +4800,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy rail cannon",
@@ -4820,7 +4820,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Ion cannon - standard",
@@ -4852,7 +4852,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4925,7 +4925,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Long-barrelled burst cannon",
@@ -4935,7 +4935,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -4947,7 +4947,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -4974,8 +4974,7 @@
       "Transport",
       "Orca Dropship",
       "Faction: T'au Empire",
-      "Non-Kroot",
-      "Frame"
+      "Non-Kroot"
     ]
   },
   {
@@ -5012,7 +5011,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin burst cannon",
@@ -5034,7 +5033,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5129,7 +5128,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5191,7 +5190,7 @@
           "S": "8",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Fusion blaster",
@@ -5211,7 +5210,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Rail rifle",
@@ -5233,7 +5232,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5254,8 +5253,7 @@
       "Fly",
       "Faction: T'au Empire",
       "TX42 Piranha",
-      "Non-Kroot",
-      "Frame"
+      "Non-Kroot"
     ]
   },
   {
@@ -5314,7 +5312,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5388,7 +5386,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5476,7 +5474,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Twin hazard burst cannon",
@@ -5498,7 +5496,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5697,7 +5695,7 @@
           "S": "8",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Missile pod",
@@ -5707,7 +5705,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -5719,7 +5717,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5755,7 +5753,7 @@
     "faction": "T'au Empire",
     "faction_type": "Xenos",
     "points": {
-      "base": 90,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -5782,7 +5780,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "T'au flamer",
@@ -5804,7 +5802,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5879,7 +5877,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -5894,7 +5892,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- **Kroot Carnivores**\n- **Kroot Farstalkers**"
+        "description": "This model can be attached to the following units:\n- **Kroot Carnivores**\n- **Kroot Farstalkers**"
       }
     ],
     "special_rules": [
@@ -5969,7 +5967,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Bladestave and prey-hook",
@@ -5990,7 +5988,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- **Kroot Carnivores**\n- **Kroot Farstalkers**"
+        "description": "This model can be attached to the following units:\n- **Kroot Carnivores**\n- **Kroot Farstalkers**"
       }
     ],
     "special_rules": [
@@ -6062,7 +6060,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- **Kroot Carnivores**\n- **Kroot Farstalkers**"
+        "description": "This model can be attached to the following units:\n- **Kroot Carnivores**\n- **Kroot Farstalkers**"
       },
       {
         "name": "Rites of Feasting",
@@ -6070,7 +6068,7 @@
       },
       {
         "name": "Ritual Butchery",
-        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability."
       }
     ],
     "special_rules": [
@@ -6078,7 +6076,6 @@
       "Scouts 7\"",
       "Stealth",
       "Leader",
-      "Feel No Pain",
       "Sustained Hits"
     ],
     "keywords": [
@@ -6157,7 +6154,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Hunting javelin",
@@ -6326,7 +6323,8 @@
       "Crucible",
       "Grenades",
       "Faction: T'au Empire",
-      "Shas'nel"
+      "Shas'nel",
+      "Leader"
     ]
   },
   {
@@ -6381,7 +6379,8 @@
       "Faction: T'au Empire",
       "Fly",
       "Battlesuit",
-      "Battlesuit Veteran"
+      "Battlesuit Veteran",
+      "Leader"
     ]
   },
   {
@@ -6431,7 +6430,8 @@
       "Crucible",
       "Faction: T'au Empire",
       "Kroot",
-      "Kinband Champion"
+      "Kinband Champion",
+      "Leader"
     ]
   }
 ]

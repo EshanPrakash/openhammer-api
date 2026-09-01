@@ -137,7 +137,7 @@
           "S": "7",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -148,7 +148,7 @@
       },
       {
         "name": "The Betrayer",
-        "description": "At the end of your Charge phase, if this model is leading a unit and that unit is not within Engagement Range of one or more enemy units, you must take a Leadership test for this model. If that test is failed, one Bodyguard model of your choice in that unit is destroyed."
+        "description": "At the end of your Charge phase, if this unit is on the battlefield, is **unengaged**, and contains a **bodyguard** model, this unit makes a **leadership roll**: \n- If that **leadership roll** is failed, one **bodyguard** model in this unit is **destroyed**."
       },
       {
         "name": "Berserker Frenzy",
@@ -314,7 +314,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Hellforged weapons - sweep",
@@ -324,7 +324,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -403,7 +403,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Hellforged weapons - sweep",
@@ -413,7 +413,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -510,7 +510,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -630,11 +630,11 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 170,
+      "base": 160,
       "variants": [
         {
           "models": 10,
-          "points": 330
+          "points": 320
         }
       ]
     },
@@ -674,7 +674,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Khornate eviscerator",
@@ -684,7 +684,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -696,6 +696,7 @@
     ],
     "special_rules": [
       "Blessings of Khorne",
+      "Deep Strike",
       "Hazardous",
       "Pistol"
     ],
@@ -800,7 +801,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Accursed weapon",
@@ -810,7 +811,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Chainfist",
@@ -905,7 +906,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Mauler chainblade",
@@ -915,7 +916,7 @@
           "S": "4",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Skullsmasher and mangler",
@@ -925,7 +926,7 @@
           "S": "4",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Paired manglers",
@@ -935,7 +936,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -997,7 +998,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1009,7 +1010,8 @@
     ],
     "special_rules": [
       "Scouts 6\"",
-      "Blessings of Khorne"
+      "Blessings of Khorne",
+      "Deep Strike"
     ],
     "keywords": [
       "Faction: World Eaters",
@@ -1161,7 +1163,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1271,7 +1273,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1283,7 +1285,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1393,7 +1395,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -1405,7 +1407,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1556,7 +1558,7 @@
           "S": "16",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Shearing claws - sweep",
@@ -1566,7 +1568,7 @@
           "S": "6",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Electroscourge",
@@ -1665,7 +1667,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Forgefiend jaws",
@@ -1675,7 +1677,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1825,7 +1827,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Helbrute hammer",
@@ -1835,7 +1837,7 @@
           "S": "14",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power scourge",
@@ -1845,7 +1847,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1897,7 +1899,7 @@
       "SV": "3+",
       "W": "12",
       "LD": "6+",
-      "OC": "-"
+      "OC": "0"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1945,8 +1947,8 @@
     ],
     "special_rules": [
       "Deadly Demise D3",
-      "Hover",
       "Blessings of Khorne",
+      "Hover",
       "Anti",
       "Devastating Wounds",
       "Ignores Cover",
@@ -2008,7 +2010,7 @@
           "S": "14",
           "AP": "-2",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Lasher tendrils",
@@ -2114,7 +2116,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2176,7 +2178,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2285,7 +2287,7 @@
           "S": "16",
           "AP": "-4",
           "D": "8",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Great cleaver of Khorne - sweep",
@@ -2295,7 +2297,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2383,7 +2385,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -2395,7 +2397,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2465,7 +2467,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2555,7 +2557,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2615,7 +2617,7 @@
           "S": "10",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2640,7 +2642,9 @@
     "special_rules": [
       "Leader",
       "Deadly Demise D3",
-      "Blessings of Khorne"
+      "Blessings of Khorne",
+      "Deep Strike",
+      "Scouts 6\""
     ],
     "keywords": [
       "Character",
@@ -2648,9 +2652,9 @@
       "Chaos",
       "Khorne",
       "Daemon",
-      "Possessed",
       "Slaughterbound",
-      "Faction: World Eaters"
+      "Faction: World Eaters",
+      "Possessed"
     ]
   },
   {
@@ -2699,7 +2703,7 @@
           "S": "16",
           "AP": "-4",
           "D": "6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Slaughter and Carnage - sweep",
@@ -2709,7 +2713,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2798,7 +2802,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -2810,7 +2814,7 @@
           "S": "16",
           "AP": "-4",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Great axe of Khorne - sweep",
@@ -2820,7 +2824,7 @@
           "S": "10",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2892,7 +2896,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2955,7 +2959,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Bladed horn",
@@ -3039,7 +3043,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },

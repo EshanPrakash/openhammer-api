@@ -233,7 +233,7 @@
           "S": "8",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -248,7 +248,7 @@
       },
       {
         "name": "Hamadrya’s Knowledge (Psychic)",
-        "description": "Once per battle round, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model’s unit, if this model’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D3+3\"."
+        "description": "Once per battle round, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model’s unit, if this model’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D3+3\"."
       }
     ],
     "special_rules": [
@@ -304,7 +304,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -316,7 +316,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Hellforged weapons - sweep",
@@ -326,7 +326,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -391,7 +391,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -403,7 +403,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Hellforged weapons - sweep",
@@ -413,7 +413,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -499,7 +499,7 @@
           "S": "5",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Surgeon Acolyte's tools",
@@ -509,7 +509,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -540,7 +540,10 @@
       "Extra Attacks"
     ],
     "keywords": [
-      "Epic Hero"
+      "Epic Hero",
+      "Chaos",
+      "Chaos Undivided",
+      "Infantry"
     ]
   },
   {
@@ -799,7 +802,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes chainblade",
@@ -809,7 +812,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -819,7 +822,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -830,7 +833,7 @@
       },
       {
         "name": "Chance for Glory",
-        "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength, Attacks, Armour\nPenetration and Damage characteristics of melee weapons equipped by this model by 1."
+        "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength, Attacks, Armour Penetration and Damage characteristics of melee weapons equipped by this model by 1."
       }
     ],
     "special_rules": [
@@ -903,7 +906,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Chainfist",
@@ -933,7 +936,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1214,7 +1217,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Baleflamer",
@@ -1459,7 +1462,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1487,7 +1490,8 @@
       "Character",
       "Grenades",
       "Chaos",
-      "Exalted Champion"
+      "Exalted Champion",
+      "Support"
     ]
   },
   {
@@ -1525,7 +1529,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -1535,7 +1539,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1635,7 +1639,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -1645,7 +1649,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Commune stave",
@@ -1761,7 +1765,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Heavy bolter",
@@ -1823,7 +1827,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Accursed weapon",
@@ -1833,7 +1837,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -1977,7 +1981,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Blasphemous appendages",
@@ -1987,7 +1991,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2081,7 +2085,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Paired accursed weapons",
@@ -2182,7 +2186,8 @@
       "Character",
       "Grenades",
       "Chaos",
-      "Master of Executions"
+      "Master of Executions",
+      "Support"
     ]
   },
   {
@@ -2225,7 +2230,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2307,7 +2312,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2362,7 +2367,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -2374,7 +2379,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2468,7 +2473,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -2478,7 +2483,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2554,7 +2559,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Mutations",
@@ -2564,7 +2569,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -2574,7 +2579,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2716,7 +2721,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Havoc lascannon",
@@ -2726,7 +2731,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Havoc missile launcher - frag",
@@ -2746,7 +2751,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Havoc reaper chaincannon",
@@ -2756,7 +2761,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Havoc heavy bolter",
@@ -2778,7 +2783,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -2788,7 +2793,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2885,7 +2890,7 @@
           "S": "9",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -2944,7 +2949,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": []
@@ -3188,7 +3193,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -3200,7 +3205,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Chainsword",
@@ -3210,7 +3215,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -3220,7 +3225,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3337,7 +3342,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Close combat weapon",
@@ -3347,7 +3352,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Great weapon",
@@ -3357,7 +3362,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Corrupted stave",
@@ -3428,7 +3433,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Ogryn weapons",
@@ -3438,7 +3443,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3519,7 +3524,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Combi-weapon",
@@ -3541,7 +3546,7 @@
           "S": "8",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3639,7 +3644,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -3651,7 +3656,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3749,7 +3754,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -3761,7 +3766,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3851,7 +3856,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -3919,7 +3924,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -3931,7 +3936,7 @@
           "S": "6",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Forgefiend jaws",
@@ -3941,7 +3946,7 @@
           "S": "7",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4018,7 +4023,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin heavy bolter",
@@ -4080,7 +4085,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Helbrute fist",
@@ -4090,7 +4095,7 @@
           "S": "12",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Helbrute hammer",
@@ -4100,7 +4105,7 @@
           "S": "14",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power scourge",
@@ -4110,7 +4115,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4155,12 +4160,12 @@
       "max_models": 1
     },
     "stats": {
-      "M": "12+",
+      "M": "12\"",
       "T": "9",
       "SV": "3+",
       "W": "12",
       "LD": "6+",
-      "OC": "-"
+      "OC": "0"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4174,7 +4179,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Baleflamer",
@@ -4270,7 +4275,7 @@
           "S": "14",
           "AP": "-2",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Lasher tendrils",
@@ -4359,7 +4364,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4429,7 +4434,7 @@
           "S": "14",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Gorestorm cannon",
@@ -4471,7 +4476,7 @@
           "S": "16",
           "AP": "-4",
           "D": "8",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Great cleaver of Khorne - sweep",
@@ -4481,7 +4486,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4548,7 +4553,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4576,11 +4581,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 170,
+      "base": 160,
       "variants": [
         {
           "models": 10,
-          "points": 330
+          "points": 320
         }
       ]
     },
@@ -4609,7 +4614,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Khornate eviscerator",
@@ -4619,7 +4624,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -4712,7 +4717,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Warpflamer",
@@ -4754,7 +4759,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5008,7 +5013,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": [
@@ -5020,7 +5025,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5099,7 +5104,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -5239,7 +5244,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -5249,7 +5254,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes chainsword",
@@ -5259,14 +5264,14 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- RUBRIC MARINES"
+        "description": "This model can be attached to the following unit: CHOSEN, LEGIONARIES\n"
       },
       {
         "name": "Flames of Change (Psychic)",
@@ -5423,7 +5428,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -5433,7 +5438,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes chainsword",
@@ -5443,14 +5448,14 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- PLAGUE MARINES"
+        "description": "This model can be attached to the following unit: CHOSEN, LEGIONARIES"
       },
       {
         "name": "Gift of Poxes (Psychic)",
@@ -5566,7 +5571,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Nurgling's claws and teeth",
@@ -5586,7 +5591,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Accursed weapon",
@@ -5596,7 +5601,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -5606,7 +5611,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Paired accursed weapons",
@@ -5623,7 +5628,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- CHOSEN\n- LEGIONARIES\n- PLAGUE MARINES"
+        "description": "This model can be attached to the following unit:\n- CHOSEN\n- LEGIONARIES\n"
       },
       {
         "name": "Revolting Regeneration",
@@ -5735,7 +5740,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes chainsword",
@@ -5745,7 +5750,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Accursed weapon",
@@ -5755,7 +5760,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -5765,7 +5770,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Paired accursed weapons",
@@ -5782,7 +5787,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- CHOSEN\n- LEGIONARIES\n- RUBRIC MARINES"
+        "description": "This model can be attached to the following unit:\n- CHOSEN\n- LEGIONARIES\n"
       },
       {
         "name": "Lord of Fate",
@@ -5903,7 +5908,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes chainsword",
@@ -5913,7 +5918,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Accursed weapon",
@@ -5923,7 +5928,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -5933,7 +5938,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Paired accursed weapons",
@@ -5950,7 +5955,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- CHAOS BIKERS\n- KHORNE BERZERKERS"
+        "description": "This model can be attached to the following unit:\n- CHAOS BIKERS\n"
       },
       {
         "name": "Bloody Stampede",
@@ -6062,7 +6067,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Lashing tongue",
@@ -6082,7 +6087,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Accursed weapon",
@@ -6092,7 +6097,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -6102,7 +6107,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Paired accursed weapons",
@@ -6271,7 +6276,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -6281,7 +6286,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes chainsword",
@@ -6291,7 +6296,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -6376,7 +6381,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Hideous mutations",
@@ -6386,7 +6391,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -6546,7 +6551,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power weapon",
@@ -6556,7 +6561,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -6566,7 +6571,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -6717,7 +6722,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -6838,7 +6843,7 @@
           "S": "9",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Fleshmetal weapons - clawed sweeps",
@@ -6848,7 +6853,7 @@
           "S": "6",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "➤ Fleshmetal weapons - thunderous blows",
@@ -6858,7 +6863,7 @@
           "S": "12",
           "AP": "-4",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -6915,7 +6920,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Ogryn power drill",
@@ -6925,7 +6930,7 @@
           "S": "10",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -7227,7 +7232,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -7237,7 +7242,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes chainsword",
@@ -7247,7 +7252,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -7322,7 +7327,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Befouled fangs and claws",
@@ -7332,7 +7337,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -7439,7 +7444,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Astartes chainsword",
@@ -7449,7 +7454,7 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Accursed weapon",
@@ -7459,7 +7464,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -7469,7 +7474,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Paired accursed weapons",
@@ -7602,7 +7607,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ],
       "melee": []
@@ -7697,7 +7702,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -7707,7 +7712,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Twin lightning claws",
@@ -7794,7 +7799,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -7907,7 +7912,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Heavy stubber",
@@ -8038,7 +8043,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Nostraman chainblade",
@@ -8058,7 +8063,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Nostraman chainglaive",
@@ -8192,7 +8197,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power sword",
@@ -8202,7 +8207,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -8311,7 +8316,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Force stave",
@@ -8341,7 +8346,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Bionic gauntlet",
@@ -8351,7 +8356,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -8363,10 +8368,6 @@
       {
         "name": "Plunder",
         "description": "Once per battle, after this unit ends a Normal move, you can select one visible enemy unit within 12\" of it and roll one D6: on a 2+, that enemy unit suffers D3+1 mortal wounds."
-      },
-      {
-        "name": "Masters of the Maelstrom",
-        "description": "At the start of the Declare Battle Formations step, this unit can join one of the following units. This unit then counts as part of that unit for the rest of the battle, and that unit’s Starting Strength is increased accordingly.\n- **Chosen, Legionaries, Red Corsairs Raiders**\n\n\nThis unit cannot join an Attached unit, and only **Huron Blackheart** can join a unit this unit has joined."
       },
       {
         "name": "Choice Samples",
@@ -8388,7 +8389,8 @@
       "Chaos",
       "Chaos Undivided",
       "Masters of the Maelstrom",
-      "Faction: Heretic Astartes"
+      "Faction: Heretic Astartes",
+      "Support"
     ]
   },
   {
@@ -8452,7 +8454,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Power fist",
@@ -8462,7 +8464,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -8567,7 +8569,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         }
       ]
     },
@@ -8648,7 +8650,8 @@
       "Chaos",
       "Exalted Champion",
       "Faction: Heretic Astartes",
-      "Crucible"
+      "Crucible",
+      "Leader"
     ]
   },
   {
@@ -8686,7 +8689,7 @@
       },
       {
         "name": "Gift of Chaos (Psychic)",
-        "description": "Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [PSYCHIC} ability. That unit must take a Leadership test. If it fails, it suffers D3 mortal wounds."
+        "description": "Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [PSYCHIC] ability. That unit must take a Leadership test. If it fails, it suffers D3 mortal wounds."
       }
     ],
     "special_rules": [
@@ -8701,7 +8704,8 @@
       "Psyker",
       "Sorcerous Champion",
       "Faction: Heretic Astartes",
-      "Crucible"
+      "Crucible",
+      "Leader"
     ]
   },
   {
@@ -8786,7 +8790,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Heavy reaper autocannon",
@@ -8816,7 +8820,7 @@
           "S": "10",
           "AP": "-2",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Hades battle cannon",
@@ -8856,7 +8860,7 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Magma cutter",
@@ -8878,7 +8882,7 @@
           "S": "16",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Shearing claws - sweep",
@@ -8888,7 +8892,7 @@
           "S": "6",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": null
         },
         {
           "name": "Electroscourge",

@@ -95,7 +95,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -150,7 +150,7 @@
       "LD": "7+",
       "OC": "6"
     },
-    "invuln_save": "Invulnerable Save (5+*)",
+    "invuln_save": "5+*",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -174,7 +174,7 @@
           "S": "10",
           "AP": "-3",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Reaper chain-cleaver - sweep",
@@ -184,7 +184,7 @@
           "S": "8",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -242,7 +242,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -254,7 +254,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -540,7 +540,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy flamer",
@@ -613,7 +613,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy flamer",
@@ -665,7 +665,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -767,7 +767,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": []
@@ -872,7 +872,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -967,7 +967,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1064,7 +1064,7 @@
           "S": "10",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1142,7 +1142,7 @@
           "S": "9",
           "AP": "-1",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Lascannon",
@@ -1152,7 +1152,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Acastus ironstorm missile pod",
@@ -1184,7 +1184,7 @@
           "S": "10",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1266,7 +1266,7 @@
           "S": "10",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1342,7 +1342,7 @@
           "S": "14",
           "AP": "-4",
           "D": "6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Tempest warblade - sweep",
@@ -1352,7 +1352,7 @@
           "S": "9",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1436,7 +1436,7 @@
           "S": "14",
           "AP": "-4",
           "D": "6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Reaper chainfist - sweep",
@@ -1446,7 +1446,7 @@
           "S": "9",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1660,7 +1660,7 @@
           "S": "14",
           "AP": "-4",
           "D": "6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Reaper chainsword - sweep",
@@ -1670,7 +1670,7 @@
           "S": "9",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Hekaton siege claw - strike",
@@ -1680,7 +1680,7 @@
           "S": "20",
           "AP": "-3",
           "D": "8",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Hekaton siege claw - sweep",
@@ -1690,7 +1690,7 @@
           "S": "10",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1785,7 +1785,7 @@
           "S": "14",
           "AP": "-4",
           "D": "6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Reaper chainsword - sweep",
@@ -1795,7 +1795,7 @@
           "S": "9",
           "AP": "-3",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Hekaton siege claw - strike",
@@ -1805,7 +1805,7 @@
           "S": "20",
           "AP": "-3",
           "D": "8",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Hekaton siege claw - sweep",
@@ -1815,7 +1815,7 @@
           "S": "10",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1931,7 +1931,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Siege claw",
@@ -1941,7 +1941,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2056,7 +2056,7 @@
           "S": "8",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2156,7 +2156,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Bellatus reaper chainsword - strike",
@@ -2166,7 +2166,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D3+3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Bellatus reaper chainsword - sweep",
@@ -2176,7 +2176,7 @@
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Thundershock spear - strike",

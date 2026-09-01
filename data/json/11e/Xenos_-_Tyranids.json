@@ -34,7 +34,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Massive scything talons - sweep",
@@ -44,7 +44,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Massive crushing claws",
@@ -54,7 +54,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -144,7 +144,7 @@
       },
       {
         "name": "Domination of the Hive Mind (Aura)",
-        "description": "While a friendly TYRANIDS unit is within 9\" of this model, that unit is within your army’s Synapse Range."
+        "description": "While a friendly **TYRANIDS** unit is within 9\" of this model, that unit is within your army’s Synapse Range."
       },
       {
         "name": "Leader",
@@ -214,7 +214,7 @@
     "abilities": [
       {
         "name": "Vicious Insight",
-        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+        "description": "While this model is leading a unit, weapons equipped by models in that unit have the **[DEVASTATING WOUNDS]** ability."
       },
       {
         "name": "Hypnotic Gaze (Psychic)",
@@ -280,7 +280,7 @@
           "S": "14",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Old One Eye’s claws and talons - Sweep",
@@ -290,7 +290,7 @@
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -362,7 +362,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Spinefists",
@@ -402,7 +402,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -414,7 +414,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -426,7 +426,8 @@
     ],
     "special_rules": [
       "Shadow in the Warp",
-      "Synapse"
+      "Synapse",
+      "Stealth"
     ],
     "keywords": [
       "Infantry",
@@ -488,7 +489,8 @@
     ],
     "special_rules": [
       "Shadow in the Warp",
-      "Synapse"
+      "Synapse",
+      "Stealth"
     ],
     "keywords": [
       "Infantry",
@@ -539,7 +541,7 @@
           "S": "3",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -644,7 +646,7 @@
       "variants": [
         {
           "models": 3,
-          "points": 160
+          "points": 170
         }
       ]
     },
@@ -673,7 +675,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Bone cleaver, lash whip and rending claws",
@@ -683,7 +685,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Crushing claws and rending claws",
@@ -700,7 +702,7 @@
     "abilities": [
       {
         "name": "Guardian Organism",
-        "description": "While a CHARACTER model is leading this unit, that Character has the Feel No Pain 5+ ability"
+        "description": "While a **Character** model is leading this unit, that **Character** has the Feel No Pain 5+ ability."
       }
     ],
     "special_rules": [
@@ -749,7 +751,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -763,8 +765,8 @@
         "description": "If one or more Neurotyrants from your army are on the battlefield when you unleash the Shadow in the Warp, subtract 1 from the Battle-shock test each enemy unit on the battlefield must take as a result."
       },
       {
-        "name": "Synaptic Relays",
-        "description": "In your Command phase, you can select up to two friendly Tyranids units within 18\" of this model’s unit. Until the start of your next Command phase, the selected units are always considered to be within Synapse Range of your army."
+        "name": "Neuroloids",
+        "description": "In your Command phase, you can select up to two friendly **Tyranids** units within 18\" of this model’s unit. Until the start of your next Command phase, the selected units are always considered to be within Synapse Range of your army.\n\n**Designer's Note:** *Place a Neuroloid token next to each select unit to remind you.*"
       },
       {
         "name": "Leader",
@@ -795,7 +797,7 @@
     "faction": "Tyranids",
     "faction_type": "Xenos",
     "points": {
-      "base": 190,
+      "base": 180,
       "variants": []
     },
     "composition": {
@@ -823,7 +825,7 @@
           "S": "9",
           "AP": "-2",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "➤ Massive scything talons - sweep",
@@ -833,7 +835,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -852,7 +854,7 @@
       "Monster",
       "Psyker",
       "Great Devourer",
-      "Malceptor",
+      "Maleceptor",
       "Faction: Tyranids",
       "Synapse"
     ]
@@ -864,15 +866,15 @@
     "faction": "Tyranids",
     "faction_type": "Xenos",
     "points": {
-      "base": 45,
+      "base": 40,
       "variants": [
         {
           "models": 2,
-          "points": 65
+          "points": 70
         },
         {
           "models": 3,
-          "points": 95
+          "points": 100
         }
       ]
     },
@@ -912,7 +914,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1054,7 +1056,7 @@
     "abilities": [
       {
         "name": "Foul Spores (Aura)",
-        "description": "Friendly **TYRANIDS** units within 6' of this unit have **Stealth**."
+        "description": "Friendly **TYRANIDS** units within 6\" of this unit have **Stealth**."
       }
     ],
     "special_rules": [
@@ -1110,7 +1112,7 @@
           "S": "3",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1138,7 +1140,7 @@
     "faction": "Tyranids",
     "faction_type": "Xenos",
     "points": {
-      "base": 140,
+      "base": 135,
       "variants": []
     },
     "composition": {
@@ -1177,7 +1179,7 @@
           "S": "7",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1255,7 +1257,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1334,7 +1336,7 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Devourers with brainleech worms",
@@ -1344,7 +1346,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Heavy venom cannon",
@@ -1376,7 +1378,7 @@
           "S": "6",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Carnifex crushing claws",
@@ -1386,7 +1388,7 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Carnifex scything talons",
@@ -1396,7 +1398,7 @@
           "S": "9",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Carnifex extra scything talons",
@@ -1476,7 +1478,7 @@
           "S": "10",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1560,7 +1562,7 @@
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1590,7 +1592,7 @@
     "faction": "Tyranids",
     "faction_type": "Xenos",
     "points": {
-      "base": 180,
+      "base": 170,
       "variants": []
     },
     "composition": {
@@ -1629,7 +1631,7 @@
           "S": "8",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1707,7 +1709,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Thorax spur",
@@ -1801,7 +1803,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -1873,7 +1875,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2014,7 +2016,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2082,7 +2084,7 @@
           "S": "14",
           "AP": "-2",
           "D": "D3+3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2150,7 +2152,7 @@
           "S": "14",
           "AP": "-2",
           "D": "D3+3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2218,7 +2220,7 @@
           "S": "14",
           "AP": "-2",
           "D": "D6",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2245,8 +2247,7 @@
       "Fly",
       "Transport",
       "Great Devourer",
-      "Harridan",
-      "Frame"
+      "Harridan"
     ]
   },
   {
@@ -2315,7 +2316,7 @@
           "S": "20",
           "AP": "-2",
           "D": "D6+1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2392,7 +2393,7 @@
           "S": "4",
           "AP": "-2",
           "D": "1",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2404,7 +2405,8 @@
     ],
     "special_rules": [
       "Scouts 8\"",
-      "Synapse"
+      "Synapse",
+      "Stealth"
     ],
     "keywords": [
       "Faction: Tyranids",
@@ -2575,7 +2577,7 @@
           "S": "5",
           "AP": "0",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2607,7 +2609,8 @@
       "Fly",
       "Great Devourer",
       "Synapse",
-      "Leader"
+      "Leader",
+      "Malanthrope"
     ]
   },
   {
@@ -2656,7 +2659,7 @@
           "S": "9",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Toxinjecter Harpoon",
@@ -2767,7 +2770,7 @@
           "S": "9",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
@@ -2880,7 +2883,7 @@
           "S": "8",
           "AP": "-2",
           "D": "3",
-          "Keywords": "-"
+          "Keywords": ""
         },
         {
           "name": "Lash whip",
@@ -2900,7 +2903,7 @@
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "-"
+          "Keywords": ""
         }
       ]
     },
