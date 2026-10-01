@@ -374,11 +374,11 @@
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
-      "base": 65,
+      "base": 60,
       "variants": [
         {
           "models": 5,
-          "points": 130
+          "points": 120
         }
       ]
     },
@@ -450,11 +450,11 @@
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
-      "base": 70,
+      "base": 65,
       "variants": [
         {
           "models": 5,
-          "points": 140
+          "points": 130
         }
       ]
     },
@@ -645,11 +645,11 @@
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
-      "base": 150,
+      "base": 140,
       "variants": [
         {
           "models": 3,
-          "points": 310
+          "points": 290
         }
       ]
     },
@@ -853,7 +853,7 @@
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
-      "base": 155,
+      "base": 150,
       "variants": []
     },
     "composition": {
@@ -1207,7 +1207,7 @@
       "variants": [
         {
           "models": 3,
-          "points": 110
+          "points": 105
         }
       ]
     },
@@ -1302,7 +1302,7 @@
       "variants": [
         {
           "models": 3,
-          "points": 100
+          "points": 95
         }
       ]
     },
@@ -1648,7 +1648,7 @@
     "abilities": [
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n**HASTARII EXTERMINATORS, HASTARII FUSILIERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SKITARII RANGERS, SKITARII VANGUARD**"
+        "description": "This model can be attached to the following units: HASTARII EXTERMINATORS, HASTARII FUSILIERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SKITARII RANGERS, SKITARII VANGUARD"
       },
       {
         "name": "Control Edict",
@@ -2327,7 +2327,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n**CORPUSCARII ELECTRO-PRIESTS, FULGURITE ELECTRO-PRIESTS, HASTARII EXTERMINATORS, HASTARII FUSILIERS, KATAPHRON BREACHERS, KATAPHRON DESTROYERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SERVITOR BATTLECLADE, SKITARII RANGERS, SKITARII VANGUARD**"
+        "description": "This model can be attached to the following units: CORPUSCARII ELECTRO-PRIESTS, FULGURITE ELECTRO-PRIESTS, HASTARII EXTERMINATORS, HASTARII FUSILIERS, KATAPHRON BREACHERS, KATAPHRON DESTROYERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SERVITOR BATTLECLADE, SKITARII RANGERS, SKITARII VANGUARD"
       },
       {
         "name": "Lord of the Machine Cult",
@@ -2431,7 +2431,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n**CORPUSCARII ELECTRO-PRIESTS, FULGURITE ELECTRO-PRIESTS, KATAPHRON BREACHERS, KATAPHRON DESTROYERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SKITARII RANGERS, SKITARII VANGUARD**"
+        "description": "This model can be attached to the following units: CORPUSCARII ELECTRO-PRIESTS, FULGURITE ELECTRO-PRIESTS, KATAPHRON BREACHERS, KATAPHRON DESTROYERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SKITARII RANGERS, SKITARII VANGUARD"
       }
     ],
     "special_rules": [
@@ -2513,7 +2513,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n**CORPUSCARII ELECTRO-PRIESTS, FULGURITE ELECTRO-PRIESTS, HASTARII EXTERMINATORS, HASTARII FUSILIERS, KATAPHRON BREACHERS, KATAPHRON DESTROYERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SERVITOR BATTLECLADE, SKITARII RANGERS, SKITARII VANGUARD**"
+        "description": "This model can be attached to the following units: CORPUSCARII ELECTRO-PRIESTS, FULGURITE ELECTRO-PRIESTS, HASTARII EXTERMINATORS, HASTARII FUSILIERS, KATAPHRON BREACHERS, KATAPHRON DESTROYERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SERVITOR BATTLECLADE, SKITARII RANGERS, SKITARII VANGUARD"
       },
       {
         "name": "Galvanic Field",
@@ -2603,7 +2603,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n**CORPUSCARII ELECTRO-PRIESTS, FULGURITE ELECTRO-PRIESTS, HASTARII EXTERMINATORS, HASTARII FUSILIERS, KATAPHRON BREACHERS, KATAPHRON DESTROYERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SERVITOR BATTLECLADE, SKITARII RANGERS, SKITARII VANGUARD**"
+        "description": "This model can be attached to the following units: CORPUSCARII ELECTRO-PRIESTS, FULGURITE ELECTRO-PRIESTS, HASTARII EXTERMINATORS, HASTARII FUSILIERS, KATAPHRON BREACHERS, KATAPHRON DESTROYERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SERVITOR BATTLECLADE, SKITARII RANGERS, SKITARII VANGUARD"
       }
     ],
     "special_rules": [
@@ -2630,7 +2630,7 @@
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
-      "base": 25,
+      "base": 20,
       "variants": []
     },
     "composition": {
@@ -2676,7 +2676,7 @@
     "abilities": [
       {
         "name": "Support",
-        "description": "This model must be attached to the following unit:\n- **Kastelan Robots**\n\nYou must attach this model to a **Kastelan Robots** unit, even if one or more other **Cybernetica Datasmith** models have already been attached to it. In such cases, if that bodyguard unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths. If you cannot attach this model to a **Kastelan Robots** unit, this model cannot be deployed and counts as having been destroyed during the first battle round. While attached to a **Kastelan Robots** unit, this model loses the INFANTRY keyword."
+        "description": "This model must be attached to the following unit: KASTELAN ROBOTS"
       },
       {
         "name": "Battle Protocols",
@@ -3030,7 +3030,8 @@
       "Imperium",
       "Transport",
       "Dedicated Transport",
-      "Terrax-pattern Termite"
+      "Terrax-pattern Termite",
+      "Frame"
     ]
   },
   {
@@ -3040,7 +3041,7 @@
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
-      "base": 50,
+      "base": 45,
       "variants": []
     },
     "composition": {
@@ -3143,11 +3144,11 @@
       "variants": [
         {
           "models": 2,
-          "points": 100
+          "points": 95
         },
         {
           "models": 3,
-          "points": 150
+          "points": 140
         }
       ]
     },
@@ -3355,7 +3356,7 @@
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
-      "base": 65,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -3770,7 +3771,7 @@
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
-      "base": 105,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -3874,7 +3875,7 @@
     "faction": "Adeptus Mechanicus",
     "faction_type": "Imperium",
     "points": {
-      "base": 115,
+      "base": 105,
       "variants": []
     },
     "composition": {

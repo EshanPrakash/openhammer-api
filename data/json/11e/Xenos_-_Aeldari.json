@@ -213,7 +213,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 75,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -933,7 +933,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 70,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -1307,7 +1307,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 65,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -1548,7 +1548,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 120,
+      "base": 110,
       "variants": [
         {
           "models": 5,
@@ -2504,7 +2504,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 170,
+      "base": 165,
       "variants": []
     },
     "composition": {
@@ -2919,7 +2919,7 @@
       "variants": [
         {
           "models": 3,
-          "points": 175
+          "points": 165
         }
       ]
     },
@@ -3012,11 +3012,11 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 95,
+      "base": 90,
       "variants": [
         {
           "models": 2,
-          "points": 190
+          "points": 180
         }
       ]
     },
@@ -3121,7 +3121,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 115,
+      "base": 105,
       "variants": []
     },
     "composition": {
@@ -3850,7 +3850,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n- **CORSAIR REAVER BAND**\n- **CORSAIR VOIDREAVERS**\n- **CORSAIR VOIDSCARRED**\n- **GUARDIAN DEFENDERS**\n- **STORM GUARDIANS**\n- **YNNARI INCUBI**\n- **YNNARI KABALITE WARRIORS**\n- **YNNARI WYCHES**\n\nYou can attach this unit to one of the above units, even if Yvraine has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "description": "This model can be attached to the following units:\n- **CORSAIR REAVER BAND**\n- **CORSAIR VOIDREAVERS**\n- **CORSAIR VOIDSCARRED**\n- **GUARDIAN DEFENDERS**\n- **STORM GUARDIANS**\n- **YNNARI KABALITE WARRIORS**\n- **YNNARI WYCHES**\n\nYou can attach this unit to one of the above units, even if Yvraine has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
       },
       {
         "name": "Servant of the Whispering God",
@@ -3884,7 +3884,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 245,
+      "base": 230,
       "variants": []
     },
     "composition": {
@@ -4912,7 +4912,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 100,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -5790,28 +5790,12 @@
     },
     "abilities": [
       {
-        "name": "Aethersails",
-        "description": "While one or more **Drukhari** units are embarked within this model, you can re-roll Advance and Charge rolls made for this model."
-      },
-      {
         "name": "Splinter Racks (Pain)",
         "description": "In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered, if one or more units are embarked within this model, each time this model makes an attack with a ranged weapon that has the **Anti** ability, you can re-roll the Hit roll."
       },
       {
         "name": "Vanguard of the Dark City",
-        "description": "At the start of your Command phase, select one of the abilities in the Vanguard of the Dark City section (see left) for this model. Until the start of your next Command phase, this model has that ability."
-      },
-      {
-        "name": "Masters of the Shadowed Sky",
-        "description": "At the end of your Command phase, if this model is within range of an objective marker you control, and if one or more **Kabalite Warriors** units are embarked within it, that objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase."
-      },
-      {
-        "name": "Speed of the Kill",
-        "description": "Each time a **Wyches** unit disembarks from this model (excluding Emergency Disembarkations), models in that **Wyches** unit must be setup wholly within 6\" of this model."
-      },
-      {
-        "name": "Visions of Butchery",
-        "description": "While one or more **Wracks** units are embarked within this model, for each **Wracks** model embarked within this model, add 1 to the Attacks characteristic of this model's Bladevanes and chainsnares."
+        "description": "At the start of your Command phase, select one of the abilities in the Vanguard of the Dark City section for this model. Until the start of your next Command phase, this model has that ability."
       }
     ],
     "special_rules": [
@@ -6138,11 +6122,11 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 75,
+      "base": 70,
       "variants": [
         {
           "models": 1,
-          "points": 150
+          "points": 140
         }
       ]
     },
@@ -9888,7 +9872,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 85,
+      "base": 80,
       "variants": []
     },
     "composition": {
@@ -10329,7 +10313,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 80,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -10414,7 +10398,7 @@
     "faction": "Aeldari",
     "faction_type": "Xenos",
     "points": {
-      "base": 60,
+      "base": 55,
       "variants": []
     },
     "composition": {

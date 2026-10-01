@@ -49,7 +49,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Prosecutors\n- Vigilators\n- Witchseekers"
+        "description": "This model can be attached to the following units: PROSECUTORS, VIGILATORS, WITCHSEEKERS"
       }
     ],
     "special_rules": [
@@ -79,19 +79,19 @@
     "faction": "Adeptus Custodes",
     "faction_type": "Imperium",
     "points": {
-      "base": 110,
+      "base": 120,
       "variants": [
         {
           "models": 3,
-          "points": 165
+          "points": 180
         },
         {
           "models": 4,
-          "points": 280
+          "points": 300
         },
         {
           "models": 6,
-          "points": 340
+          "points": 360
         }
       ]
     },
@@ -126,7 +126,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
           "Keywords": "Assault"
@@ -136,7 +136,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
           "Keywords": "Assault"
@@ -239,8 +239,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         }
@@ -344,7 +344,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Custodian Guard\n- Custodian Guard with Adrasite and Pyrithite Spears\n- Custodian Wardens\n- Sagittarum Custodians"
+        "description": "This model can be attached to the following units: CUSTODIAN GUARD, CUSTODIAN GUARD WITH ADRASITE AND PYRITHITE SPEARS, CUSTODIAN WARDENS, SAGITTARUM CUSTODIANS"
       },
       {
         "name": "Martial Inspiration",
@@ -379,11 +379,11 @@
     "faction": "Adeptus Custodes",
     "faction_type": "Imperium",
     "points": {
-      "base": 170,
+      "base": 180,
       "variants": [
         {
           "models": 5,
-          "points": 215
+          "points": 225
         }
       ]
     },
@@ -408,7 +408,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
           "Keywords": "Assault"
@@ -418,7 +418,7 @@
           "Range": "12\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
           "Keywords": "Assault, Pistol"
@@ -488,11 +488,11 @@
     "faction": "Adeptus Custodes",
     "faction_type": "Imperium",
     "points": {
-      "base": 200,
+      "base": 210,
       "variants": [
         {
           "models": 4,
-          "points": 250
+          "points": 260
         }
       ]
     },
@@ -517,7 +517,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
           "Keywords": "Assault"
@@ -527,7 +527,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
           "Keywords": "Assault"
@@ -624,8 +624,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "2",
           "Keywords": "Rapid Fire 1"
         }
@@ -692,7 +692,7 @@
     "faction": "Adeptus Custodes",
     "faction_type": "Imperium",
     "points": {
-      "base": 45,
+      "base": 50,
       "variants": []
     },
     "composition": {
@@ -716,8 +716,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 1"
         }
@@ -785,7 +785,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
           "Keywords": "Assault"
@@ -795,7 +795,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
           "Keywords": "Assault"
@@ -805,7 +805,7 @@
           "Range": "12\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
           "Keywords": "Assault, Pistol"
@@ -871,7 +871,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Custodian Guard\n- Custodian Guard with Adrasite and Pyrithite Spears\n- Custodian Wardens\n- Sagittarum Custodians"
+        "description": "This model can be attached to the following units: CUSTODIAN GUARD, CUSTODIAN GUARD WITH ADRASITE AND PYRITHITE SPEARS, CUSTODIAN WARDENS, SAGITTARUM CUSTODIANS"
       }
     ],
     "special_rules": [
@@ -932,7 +932,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
           "Keywords": "Assault"
@@ -942,7 +942,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
           "Keywords": "Assault"
@@ -974,7 +974,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Allarus Custodians\n- Aquilon Custodians"
+        "description": "This model can be attached to the following units: ALLARUS CUSTODIANS, AQUILON CUSTODIANS"
       },
       {
         "name": "Auramite and Adamantite",
@@ -1004,7 +1004,7 @@
     "faction": "Adeptus Custodes",
     "faction_type": "Imperium",
     "points": {
-      "base": 140,
+      "base": 150,
       "variants": []
     },
     "composition": {
@@ -1028,7 +1028,7 @@
           "Range": "18\"",
           "A": "3",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
           "Keywords": "Rapid Fire 3, Twin-linked"
@@ -1060,7 +1060,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Agamatus Custodians\n- Vertus Praetors"
+        "description": "This model can be attached to the following units: AGAMATUS CUSTODIANS, VERTUS PRAETORS"
       },
       {
         "name": "Sweeping Advance",
@@ -1142,7 +1142,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Custodian Guard\n- Custodian Guard with Adrasite and Pyrithite Spears\n- Custodian Wardens\n- Sagittarum Custodians"
+        "description": "This model can be attached to the following units: CUSTODIAN GUARD, CUSTODIAN GUARD WITH ADRASITE AND PYRITHITE SPEARS, CUSTODIAN WARDENS, SAGITTARUM CUSTODIANS"
       },
       {
         "name": "Captain-General",
@@ -1177,7 +1177,7 @@
     "faction": "Adeptus Custodes",
     "faction_type": "Imperium",
     "points": {
-      "base": 110,
+      "base": 120,
       "variants": []
     },
     "composition": {
@@ -1201,7 +1201,7 @@
           "Range": "24\"",
           "A": "3",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
           "Keywords": "Assault"
@@ -1223,7 +1223,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Custodian Guard\n- Custodian Guard with Adrasite and Pyrithite Spears\n- Custodian Wardens\n- Sagittarum Custodians"
+        "description": "This model can be attached to the following units: CUSTODIAN GUARD, CUSTODIAN GUARD WITH ADRASITE AND PYRITHITE SPEARS, CUSTODIAN WARDENS, SAGITTARUM CUSTODIANS"
       },
       {
         "name": "Golden Laurels",
@@ -1283,8 +1283,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -1395,8 +1395,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid fire 2"
         },
@@ -1458,7 +1458,7 @@
     "faction": "Adeptus Custodes",
     "faction_type": "Imperium",
     "points": {
-      "base": 145,
+      "base": 155,
       "variants": []
     },
     "composition": {
@@ -1492,7 +1492,7 @@
           "Range": "18\"",
           "A": "3",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
           "Keywords": "Rapid Fire 3, Twin-linked"
@@ -1919,7 +1919,7 @@
       },
       {
         "name": "From Golden Light",
-        "description": "Once per battle, at the end of your opponent's turn, if this unit is not whithin Engagement Range of one or more enemy units, you can remove it from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+        "description": "Once per battle, at the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves�"
       }
     ],
     "special_rules": [
@@ -2705,7 +2705,7 @@
       "max_models": 2
     },
     "stats": {
-      "M": "20+\"",
+      "M": "14\"",
       "T": "12",
       "SV": "2+",
       "W": "22",
@@ -2713,7 +2713,7 @@
       "OC": "0"
     },
     "invuln_save": "5+",
-    "transport": "This model has a transport capacity of 12 ADEPTUS CUSTODES INFANTRY models. This model can also transport 1 VENERABLE CONTEMPTOR DREADNOUGHt, 1 CONTEMPTOR-ACHILLUS DREADNOUGHT or 1 CONTEMPTOR GALATUS-DREADNOUGHT; while doing so, its transport capacity is reduced to 6 ADEPTUS CUSTODES INFANTRY models.",
+    "transport": "This model has a transport capacity of 12 ADEPTUS CUSTODES INFANTRY models. This model can also transport 1 VENERABLE CONTEMPTOR DREADNOUGHT, 1 CONTEMPTOR-ACHILLUS DREADNOUGHT or 1 CONTEMPTOR GALATUS-DREADNOUGHT; while doing so, its transport capacity is reduced to 6 ADEPTUS CUSTODES INFANTRY models.",
     "weapons": {
       "ranged": [
         {
@@ -2780,7 +2780,6 @@
     "keywords": [
       "Vehicle",
       "Transport",
-      "Aircraft",
       "Fly",
       "Imperium",
       "Orion Assault Dropship",

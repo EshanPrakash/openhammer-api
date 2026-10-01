@@ -60,7 +60,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- COMPANY HEROES\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- TACTICAL SQUAD"
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, COMMAND SQUAD, COMPANY HEROES, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD"
       },
       {
         "name": "Inspiring Commander",
@@ -167,7 +167,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: \n\n\nOUTRIDER SQUAD"
+        "description": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD"
       }
     ],
     "special_rules": [

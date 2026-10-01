@@ -49,7 +49,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n- IMMORTALS\n- NECRON WARRIORS\n"
+        "description": "This model can be attached to the following units: IMMORTALS, NECRON WARRIORS\n"
       }
     ],
     "special_rules": [
@@ -131,7 +131,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- IMMORTALS\n- LYCHGUARD\n- NECRON WARRIORS"
+        "description": "This model can be attached to the following units: IMMORTALS, LYCHGUARD, NECRON WARRIORS"
       },
       {
         "name": "Grand Strategist",
@@ -212,7 +212,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- IMMORTALS"
+        "description": "This model can be attached to the following units: IMMORTALS"
       },
       {
         "name": "Lord of the Pyrrhian Eternals",
@@ -280,7 +280,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- IMMORTALS\n- LYCHGUARD\n- NECRON WARRIORS\nYou can attach this model to one of the above units even if NEMESOR ZAHNDREKH has already been attached to it. If it is, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "description": "This model can be attached to the following units: IMMORTALS, LYCHGUARD, NECRON WARRIORS\n\nYou can attach this model to one of the above units even if NEMESOR ZAHNDREKH has already been attached to it. If it is, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
       },
       {
         "name": "Ghostwalk Mantle",
@@ -449,7 +449,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- IMMORTALS\n- LYCHGUARD\n- NECRON WARRIORS"
+        "description": "This model can be attached to the following units: IMMORTALS, LYCHGUARD, NECRON WARRIORS"
       },
       {
         "name": "Transient Madness",
@@ -483,7 +483,7 @@
     "faction": "Necrons",
     "faction_type": "Xenos",
     "points": {
-      "base": 65,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -518,7 +518,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- IMMORTALS\n- LYCHGUARD\n- NECRON WARRIORS"
+        "description": "This model can be attached to the following units: IMMORTALS, LYCHGUARD, NECRON WARRIORS"
       },
       {
         "name": "Ancient Collector",
@@ -597,7 +597,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- IMMORTALS\n- NECRON WARRIORS"
+        "description": "This model can be attached to the following units: IMMORTALS, NECRON WARRIORS"
       },
       {
         "name": "Adaptive Strategy",
@@ -685,7 +685,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- SKORPEKH DESTROYERS"
+        "description": "This model can be attached to the following units: SKORPEKH DESTROYERS"
       },
       {
         "name": "United In Destruction",
@@ -773,7 +773,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- LOKHUST DESTROYERS\n- LOKHUST HEAVY DESTROYERS"
+        "description": "This model can be attached to the following units: LOKHUST DESTROYERS, LOKHUST HEAVY DESTROYERS"
       },
       {
         "name": "Destroyer Cult",
@@ -872,10 +872,15 @@
       {
         "name": "The Lord’s Will",
         "description": "While this model is leading a unit, you can target that unit with Stratagems even when it is Battle-shocked."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units: IMMORTALS, LYCHGUARD, NECRON WARRIORS"
       }
     ],
     "special_rules": [
       "Reanimation Protocols",
+      "Leader",
       "Devastating Wounds"
     ],
     "keywords": [
@@ -1081,10 +1086,15 @@
       {
         "name": "Implacable Resilience",
         "description": "Each time an attack is allocated to this model, subtract 1 from that attack’s Damage characteristic."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units: IMMORTALS, LYCHGUARD, NECRON WARRIORS"
       }
     ],
     "special_rules": [
       "Reanimation Protocols",
+      "Leader",
       "Devastating Wounds"
     ],
     "keywords": [
@@ -1149,7 +1159,7 @@
     "abilities": [
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n- CANOPTEK WRAITHS\n- IMMORTALS\n- NECRON WARRIORS"
+        "description": "This model can be attached to the following units: CANOPTEK WRAITHS, IMMORTALS, NECRON WARRIORS"
       },
       {
         "name": "Rites of Reanimation",
@@ -1182,7 +1192,7 @@
     "faction": "Necrons",
     "faction_type": "Xenos",
     "points": {
-      "base": 55,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -1228,7 +1238,7 @@
     "abilities": [
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n- IMMORTALS\n- NECRON WARRIORS"
+        "description": "This model can be attached to the following units: IMMORTALS, NECRON WARRIORS"
       },
       {
         "name": "Nightmare Shroud (Aura)",
@@ -1305,7 +1315,7 @@
     "abilities": [
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n- IMMORTALS\n- NECRON WARRIORS\n"
+        "description": "This model can be attached to the following units: IMMORTALS, NECRON WARRIORS\n"
       },
       {
         "name": "Timesplinter Mantle",
@@ -1384,7 +1394,7 @@
     "abilities": [
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n- IMMORTALS\n- NECRON WARRIORS\n"
+        "description": "This model can be attached to the following units: IMMORTALS, NECRON WARRIORS\n"
       },
       {
         "name": "Harbinger of Destruction",
@@ -1504,11 +1514,11 @@
     "faction": "Necrons",
     "faction_type": "Xenos",
     "points": {
-      "base": 70,
+      "base": 65,
       "variants": [
         {
           "models": 6,
-          "points": 140
+          "points": 130
         }
       ]
     },
@@ -2178,8 +2188,9 @@
       "Faction: Necrons",
       "Vehicle",
       "Walker",
-      "Triarch Stalker",
-      "Frame"
+      "Frame",
+      "Stalker",
+      "Triarch"
     ]
   },
   {
@@ -3052,7 +3063,7 @@
     "faction": "Necrons",
     "faction_type": "Xenos",
     "points": {
-      "base": 95,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -3143,7 +3154,7 @@
     "faction": "Necrons",
     "faction_type": "Xenos",
     "points": {
-      "base": 210,
+      "base": 200,
       "variants": []
     },
     "composition": {
@@ -3241,7 +3252,7 @@
         },
         {
           "models": 4,
-          "points": 175
+          "points": 190
         }
       ]
     },
@@ -3393,7 +3404,7 @@
     "faction": "Necrons",
     "faction_type": "Xenos",
     "points": {
-      "base": 140,
+      "base": 130,
       "variants": []
     },
     "composition": {
@@ -4667,7 +4678,8 @@
       "Vehicle",
       "Towering",
       "Titanic",
-      "Gauss Pylon"
+      "Gauss Pylon",
+      "Frame"
     ]
   },
   {
@@ -4871,10 +4883,15 @@
       {
         "name": "Translocation Shroud",
         "description": "Each time this model's unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit. In addition, each time a model in that unit makes a Normal, Advance or Fall Back move, until that move is finished, it can move horizontally through models and terrain features (it cannot finish a move on top of another model or its base)."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units: IMMORTALS, LYCHGUARD, NECRON WARRIORS"
       }
     ],
     "special_rules": [
-      "Reanimation Protocols"
+      "Reanimation Protocols",
+      "Leader"
     ],
     "keywords": [
       "Faction: Necrons",
@@ -4992,7 +5009,7 @@
     "faction": "Necrons",
     "faction_type": "Xenos",
     "points": {
-      "base": 50,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -5139,7 +5156,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units: **Canoptek Macrocytes, Immortals, Necron Warriors**. \n"
+        "description": "This model can be attached to the following units: CANOPTEK MACROCYTES, IMMORTALS, NECRON WARRIORS\n"
       },
       {
         "name": "Vanguard Protocols",
@@ -5169,7 +5186,7 @@
     "faction": "Necrons",
     "faction_type": "Xenos",
     "points": {
-      "base": 185,
+      "base": 195,
       "variants": []
     },
     "composition": {
@@ -5244,11 +5261,12 @@
       "Reanimation Protocols",
       "Deep Strike",
       "Fights First",
-      "Feel No Pain 5+",
+      "Feel No Pain 5+*",
       "Extra Attacks",
       "Ignores Cover",
       "Pistol",
-      "Sustained Hits"
+      "Sustained Hits",
+      "Feel No Pain 5+"
     ],
     "keywords": [
       "Faction: Necrons",

@@ -6,7 +6,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 120,
+      "base": 130,
       "variants": []
     },
     "composition": {
@@ -15,7 +15,7 @@
     },
     "stats": {
       "M": "8\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "6",
       "LD": "6+",
@@ -51,7 +51,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Flawless Blades**"
+        "description": "This model can be attached to the following units: FLAWLESS BLADES"
       },
       {
         "name": "Duellist’s Hubris",
@@ -201,7 +201,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 90,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -210,7 +210,7 @@
     },
     "stats": {
       "M": "7\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "5",
       "LD": "6+",
@@ -225,8 +225,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Pistol"
         },
@@ -267,10 +267,10 @@
           "Range": "Melee",
           "A": "6",
           "WS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Power fist",
@@ -329,7 +329,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Infractors; Tormentors**"
+        "description": "This model can be attached to the following units: INFRACTORS, TORMENTORS"
       }
     ],
     "special_rules": [
@@ -368,7 +368,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "6",
       "LD": "6+",
@@ -405,17 +405,17 @@
           "Range": "Melee",
           "A": "6",
           "WS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         }
       ]
     },
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Emperor's Children Terminator Squad; Noise Marines**"
+        "description": "This model can be attached to the following units: CHAOS TERMINATORS, NOISE MARINES"
       },
       {
         "name": "Obsessive Annunciation",
@@ -457,7 +457,7 @@
     },
     "stats": {
       "M": "7\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "4",
       "LD": "6+",
@@ -472,13 +472,13 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Pistol"
         },
         {
-          "name": "Agonising Energies - witchfire",
+          "name": "➤ Agonising Energies - witchfire",
           "Range": "18\"",
           "A": "D6",
           "BS": "3+",
@@ -488,7 +488,7 @@
           "Keywords": "Psychic"
         },
         {
-          "name": "Agonising Energies - focused witchfire",
+          "name": "➤ Agonising Energies - focused witchfire",
           "Range": "18\"",
           "A": "D6",
           "BS": "3+",
@@ -514,7 +514,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Infractors; Noise Marines; Tormentors**"
+        "description": "This model can be attached to the following units: INFRACTORS, NOISE MARINES, TORMENTORS"
       },
       {
         "name": "Warped Interference (Psychic)",
@@ -551,7 +551,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 170,
+      "base": 165,
       "variants": []
     },
     "composition": {
@@ -725,11 +725,11 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 80,
+      "base": 85,
       "variants": [
         {
           "models": 5,
-          "points": 160
+          "points": 170
         }
       ]
     },
@@ -739,7 +739,7 @@
     },
     "stats": {
       "M": "7\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "2",
       "LD": "6+",
@@ -754,8 +754,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Pistol"
         },
@@ -784,8 +784,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Precision"
         },
@@ -846,10 +846,10 @@
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         }
       ]
     },
@@ -888,11 +888,11 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 85,
+      "base": 95,
       "variants": [
         {
           "models": 5,
-          "points": 160
+          "points": 175
         }
       ]
     },
@@ -902,7 +902,7 @@
     },
     "stats": {
       "M": "7\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "2",
       "LD": "6+",
@@ -917,8 +917,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Pistol"
         },
@@ -969,7 +969,7 @@
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
           "Keywords": "Precision"
@@ -1036,8 +1036,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Pistol"
         }
@@ -1088,7 +1088,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 145,
+      "base": 155,
       "variants": [
         {
           "models": 6,
@@ -1102,7 +1102,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "3",
       "LD": "6+",
@@ -1113,12 +1113,22 @@
     "weapons": {
       "ranged": [
         {
+          "name": "Combi-bolter",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
+        },
+        {
           "name": "Combi-weapon",
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         },
@@ -1267,7 +1277,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 220,
+      "base": 210,
       "variants": []
     },
     "composition": {
@@ -1317,12 +1327,22 @@
           "Keywords": null
         },
         {
+          "name": "Combi-bolter",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
+        },
+        {
           "name": "Combi-weapon",
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         }
@@ -1372,7 +1392,7 @@
     "faction": "Emperor's Children",
     "faction_type": "Chaos",
     "points": {
-      "base": 145,
+      "base": 160,
       "variants": []
     },
     "composition": {
@@ -1383,7 +1403,7 @@
       "M": "6\"",
       "T": "5",
       "SV": "3+",
-      "W": "2",
+      "W": "3",
       "LD": "6+",
       "OC": "1"
     },
@@ -1438,10 +1458,10 @@
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Power sword",
@@ -1666,6 +1686,16 @@
     "weapons": {
       "ranged": [
         {
+          "name": "Combi-bolter",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
+        },
+        {
           "name": "Havoc launcher",
           "Range": "48\"",
           "A": "D6",
@@ -1680,8 +1710,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         }

@@ -289,7 +289,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- DEATHWATCH TERMINATOR SQUAD\n- DEATHWING KNIGHTS\n- DEATHWING TERMINATOR SQUAD\n- TERMINATOR ASSAULT SQUAD\n- TERMINATOR SQUAD"
+        "description": "This model can be attached to the following units: DEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, RELIC TERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD"
       },
       {
         "name": "Unstoppable Valour",
@@ -429,7 +429,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSORS WITH JUMP PACKS\n- SANGUINARY GUARD\n- TALONSTRIKE KILL TEAM\n- VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSORS WITH JUMP PACKS, ASSAULT SQUAD WITH JUMP PACKS, SANGUINARY GUARD, TALONSTRIKE KILL TEAM, VANGUARD VETERAN SQUAD WITH JUMP PACKS"
       }
     ],
     "special_rules": [
@@ -9350,7 +9350,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Bike Squad\n- Outrider Squad"
+        "description": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD"
       }
     ],
     "special_rules": [
@@ -9490,7 +9490,7 @@
     "abilities": [
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- COMPANY HEROES\n- CRUSADER SQUAD\n- DEATHWATCH VETERANS\n- DECIMUS KILL TEAM\n- FORTIS KILL TEAM\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD\n\n"
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, COMMAND SQUAD, COMPANY HEROES, CRUSADER SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD\n"
       },
       {
         "name": "Storm Shield",
@@ -9763,7 +9763,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- DEATHWATCH VETERANS\n- DECIMUS KILL TEAM\n- DESOLATION SQUAD\n- DEVASTATOR SQUAD\n- FORTIS KILL TEAM\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- TACTICAL SQUAD"
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, DESOLATION SQUAD, DEVASTATOR SQUAD, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD"
       }
     ],
     "special_rules": [
@@ -9966,7 +9966,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- DEATHWATCH TERMINATOR SQUAD\n- DEATHWING KNIGHTS\n- DEATHWING TERMINATOR SQUAD\n- TERMINATOR ASSAULT SQUAD\n- TERMINATOR SQUAD"
+        "description": "This model can be attached to the following units: DEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, RELIC TERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD"
       }
     ],
     "special_rules": [
@@ -10214,7 +10214,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- CRUSADER SQUAD\n- DEATH COMPANY MARINES\n- DEATH COMPANY MARINES WITH BOLT RIFLES\n- DEATHWATCH VETERANS\n- DECIMUS KILL TEAM\n- FORTIS KILL TEAM\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD"
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, CRUSADER SQUAD, DEATH COMPANY MARINES, DEATH COMPANY MARINES WITH BOLT RIFLES, DEATHWATCH VETERANS, DECIMUS KILL TEAM, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD"
       }
     ],
     "special_rules": [
@@ -10290,7 +10290,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- DEATHWATCH TERMINATOR SQUAD\n- DEATHWING KNIGHTS\n- DEATHWING TERMINATOR SQUAD\n- TERMINATOR ASSAULT SQUAD\n- TERMINATOR SQUAD"
+        "description": "This model can be attached to the following units: DEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, RELIC TERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD"
       }
     ],
     "special_rules": [
@@ -10376,7 +10376,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- OUTRIDER SQUAD\n- RAVENWING BLACK KNIGHTS"
+        "description": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD, RAVENWING BLACK KNIGHTS"
       }
     ],
     "special_rules": [
@@ -10551,7 +10551,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSORS WITH JUMP PACKS\n- DEATH COMPANY MARINES WITH JUMP PACKS\n- TALONSTRIKE KILL TEAM\n- VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSORS WITH JUMP PACKS, ASSAULT SQUAD WITH JUMP PACKS, DEATH COMPANY MARINES WITH JUMP PACKS, TALONSTRIKE KILL TEAM, VANGUARD VETERAN SQUAD WITH JUMP PACKS"
       }
     ],
     "special_rules": [
@@ -10656,7 +10656,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- CRUSADER SQUAD\n- DECIMUS KILL TEAM\n- DESOLATION SQUAD\n- DEVASTATOR SQUAD\n- FORTIS KILL TEAM\n- INTERCESSOR SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD"
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, CRUSADER SQUAD, DECIMUS KILL TEAM, DESOLATION SQUAD, DEVASTATOR SQUAD, FORTIS KILL TEAM, INTERCESSOR SQUAD, SWORD BRETHREN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD"
       }
     ],
     "special_rules": [
@@ -10843,7 +10843,7 @@
       },
       {
         "name": "Evade and Survive",
-        "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move"
+        "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move"
       },
       {
         "name": "Lone Survivor",
@@ -10932,7 +10932,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Assault Intercessor Squad\n- Bladeguard Veteran Squad\n- Infernus Squad\n- Intercessor Squad\n- Sternguard Veteran Squad"
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD"
       }
     ],
     "special_rules": [
@@ -11022,7 +11022,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD \n- CRUSADER SQUAD \n- DEATHWATCH VETERANS \n- DECIMUS KILL TEAM \n- DESOLATION SQUAD \n- DEVASTATOR SQUAD \n- FORTIS KILL TEAM\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD\n"
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, CRUSADER SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, DESOLATION SQUAD, DEVASTATOR SQUAD, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD\n"
       }
     ],
     "special_rules": [
@@ -11198,7 +11198,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD \n- CRUSADER SQUAD \n- DEATHWATCH VETERANS \n- DECIMUS KILL TEAM \n- DESOLATION SQUAD \n- DEVASTATOR SQUAD \n- FORTIS KILL TEAM\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD\n"
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, CRUSADER SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, DESOLATION SQUAD, DEVASTATOR SQUAD, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD\n"
       }
     ],
     "special_rules": [
@@ -11400,7 +11400,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n\n- DEATHWATCH TERMINATOR SQUAD\n- DEATHWING KNIGHTS\n- DEATHWING TERMINATOR SQUAD\n- TERMINATOR ASSAULT SQUAD\n- TERMINATOR SQUAD\n\nYou can attach this model to one of the above units even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "description": "This model can be attached to the following units: DEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, RELIC TERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD"
       },
       {
         "name": "Terminator Storm Shield",
@@ -11857,7 +11857,11 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- CRUSADER SQUAD\n- DEATHWATCH VETERANS\n- DECIMUS KILL TEAM\n- FORTIS KILL TEAM\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD"
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, CRUSADER SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, FORTIS KILL TEAM, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD"
+      },
+      {
+        "name": "Support",
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD"
       }
     ],
     "special_rules": [
@@ -11873,8 +11877,7 @@
       "Imperium",
       "Tacticus",
       "Judiciar",
-      "Faction: Adeptus Astartes",
-      "Leader"
+      "Faction: Adeptus Astartes"
     ]
   },
   {
@@ -12000,7 +12003,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- COMPANY HEROES, CRUSADER SQUAD\n- DEATHWATCH VETERANS\n- DECIMUS KILL TEAM\n- FORTIS KILL TEAM\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD\n- VICTRIX HONOUR GUARD\n"
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, COMMAND SQUAD, COMPANY HEROES, CRUSADER SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD, VICTRIX HONOUR GUARD\n"
       }
     ],
     "special_rules": [
@@ -13635,8 +13638,8 @@
         "description": "While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability."
       },
       {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Assault Squad\n- Command Squad\n- Tactical Squad\n- Vanguard Veteran Squad\n- Devastator Squad\n\nYou can attach this model to one of the above units even if one Character model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "name": "Support",
+        "description": "This model can be attached to the following units: ASSAULT SQUAD, COMMAND SQUAD, DEVASTATOR SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD"
       }
     ],
     "special_rules": [
@@ -14196,7 +14199,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Bike Squad\n- Outrider Squad"
+        "description": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD"
       }
     ],
     "special_rules": [
@@ -14367,7 +14370,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Bike Squad\n- Outrider Squad"
+        "description": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD"
       },
       {
         "name": "Unbreakable Duty",
@@ -14451,7 +14454,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Bike Squad\n- Outrider Squad"
+        "description": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD"
       },
       {
         "name": "Gene Seed Recovery",
@@ -14673,7 +14676,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Bike Squad\n- Outrider Squad"
+        "description": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD"
       },
       {
         "name": "Techmarine",
@@ -14844,7 +14847,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Bike Squad\n- Outrider Squad"
+        "description": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD"
       },
       {
         "name": "Mental Fortress",
@@ -15314,7 +15317,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Assault Intercessor Squad\n- Bladeguard Veteran Squad\n- Company Heroes\n- Hellblaster Squad\n- Infernus Squad\n- Intercessor Squad\n- Sternguard Veteran Squad\n- Tactical Squad"
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, COMMAND SQUAD, COMPANY HEROES, HELLBLASTER SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD"
       },
       {
         "name": "Master of Rites",
@@ -15322,7 +15325,7 @@
       },
       {
         "name": "Unrelenting and Uncompromising",
-        "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or all modifiers to\nthe Hit roll."
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or all modifiers to the Hit roll."
       }
     ],
     "special_rules": [
@@ -15888,6 +15891,169 @@
       "Imperium",
       "Land Speeder",
       "Faction: Adeptus Astartes"
+    ]
+  },
+  {
+    "name": "Judiciar Xacharus [Legends]",
+    "id": "be42-655d-472b-d89e",
+    "type": "model",
+    "faction": "Space Marines",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 75,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "5+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Absolvor bolt pistol",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Pistol"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Executioner Relic Blade",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Devastating Wounds, Precision"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Tempormortis",
+        "description": "While this model is leading a unit, that unit has the Fights First ability."
+      },
+      {
+        "name": "Indomitable Assault",
+        "description": "Each time this model in this unit makes a Consolidation move, it can move up to 6\" instead of up to 3\"."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- CRUSADER SQUAD\n- DEATHWATCH VETERANS\n- DECIMUS KILL TEAM\n- FORTIS KILL TEAM\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD"
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Oath of Moment",
+      "Templar Vows",
+      "Devastating Wounds",
+      "Precision"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Tacticus",
+      "Judiciar",
+      "Faction: Adeptus Astartes",
+      "Leader",
+      "Faction: Blood Ravens",
+      "Epic Hero",
+      "Xacharus"
+    ]
+  },
+  {
+    "name": "Chaplain Kastiel [Legends]",
+    "id": "c550-de70-074f-9210",
+    "type": "model",
+    "faction": "Space Marines",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 70,
+      "variants": []
+    },
+    "composition": {
+      "min_models": null,
+      "max_models": 3
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "5+",
+      "OC": "1"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Absolvor bolt pistol",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Pistol"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Crozius arcanum",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": null
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- CRUSADER SQUAD\n- DEATH COMPANY MARINES\n- DEATH COMPANY MARINES WITH BOLT RIFLES\n- DEATHWATCH VETERANS\n- DECIMUS KILL TEAM\n- FORTIS KILL TEAM\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INNER CIRCLE COMPANIONS\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- SWORD BRETHREN SQUAD\n- TACTICAL SQUAD"
+      },
+      {
+        "name": "Zealot's Fervour",
+        "description": "This model's unit is eligible to charge in a turn in which it fell back"
+      }
+    ],
+    "special_rules": [
+      "Leader",
+      "Oath of Moment",
+      "Templar Vows"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Tacticus",
+      "Imperium",
+      "Faction: Adeptus Astartes",
+      "Chaplain",
+      "Leader",
+      "Epic Hero",
+      "Faction: Blood Ravens",
+      "Kastiel",
+      "Grenades"
     ]
   }
 ]

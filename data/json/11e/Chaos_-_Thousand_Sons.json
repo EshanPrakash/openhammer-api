@@ -6,7 +6,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 100,
+      "base": 105,
       "variants": []
     },
     "composition": {
@@ -15,7 +15,7 @@
     },
     "stats": {
       "M": "10\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "6",
       "LD": "6+",
@@ -30,8 +30,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "-1",
+          "S": "5",
+          "AP": "-2",
           "D": "1",
           "Keywords": "Pistol"
         },
@@ -70,7 +70,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit: **Rubric Marines, Tzaangor Enlightened, Tzaangor Enlightened with Fatecaster Greatbows**"
+        "description": "This model can be attached to the following unit: RUBRIC MARINES, TZAANGOR ENLIGHTENED, TZAANGOR ENLIGHTENED WITH FATECASTER GREATBOWS"
       }
     ],
     "special_rules": [
@@ -154,7 +154,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "1",
           "Keywords": "Rapid Fire 2"
@@ -164,7 +164,7 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "1",
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
@@ -254,7 +254,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "1",
           "Keywords": "Rapid Fire 2"
@@ -264,7 +264,7 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "1",
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
@@ -374,7 +374,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "1",
           "Keywords": "Rapid Fire 2"
@@ -384,7 +384,7 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "1",
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
@@ -484,7 +484,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "1",
           "Keywords": "Rapid Fire 2"
@@ -494,7 +494,7 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "1",
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
@@ -643,7 +643,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "1",
           "Keywords": "Rapid Fire 2"
@@ -653,7 +653,7 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "1",
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
@@ -699,7 +699,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 95,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -708,7 +708,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "5",
       "LD": "6+",
@@ -723,8 +723,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "-1",
+          "S": "5",
+          "AP": "-2",
           "D": "1",
           "Keywords": "Pistol"
         },
@@ -773,7 +773,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit: **Rubric Marines**"
+        "description": "This model can be attached to the following unit: RUBRIC MARINES"
       }
     ],
     "special_rules": [
@@ -802,7 +802,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 90,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -811,7 +811,7 @@
     },
     "stats": {
       "M": "10\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "6",
       "LD": "6+",
@@ -826,8 +826,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "-1",
+          "S": "5",
+          "AP": "-2",
           "D": "1",
           "Keywords": "Pistol"
         },
@@ -876,7 +876,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit: **Rubric Marines, Tzaangor Enlightened, Tzaangor Enlightened with Fatecaster Greatbows**"
+        "description": "This model can be attached to the following unit: RUBRIC MARINES, TZAANGOR ENLIGHTENED, TZAANGOR ENLIGHTENED WITH FATECASTER GREATBOWS"
       }
     ],
     "special_rules": [
@@ -1020,7 +1020,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "1",
           "Keywords": "Rapid Fire 2"
@@ -1255,7 +1255,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 100,
+      "base": 105,
       "variants": []
     },
     "composition": {
@@ -1264,7 +1264,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "4",
       "LD": "6+",
@@ -1279,8 +1279,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "-1",
+          "S": "5",
+          "AP": "-2",
           "D": "1",
           "Keywords": "Pistol"
         },
@@ -1329,7 +1329,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit: **Rubric Marines**"
+        "description": "This model can be attached to the following unit: RUBRIC MARINES"
       }
     ],
     "special_rules": [
@@ -1652,11 +1652,11 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 100,
+      "base": 115,
       "variants": [
         {
           "models": 5,
-          "points": 190
+          "points": 210
         }
       ]
     },
@@ -1666,7 +1666,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "3",
       "LD": "6+",
@@ -1691,8 +1691,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "-1",
+          "S": "5",
+          "AP": "-2",
           "D": "1",
           "Keywords": "Pistol"
         },
@@ -1711,7 +1711,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "1",
           "Keywords": ""
@@ -1753,7 +1753,7 @@
           "Range": "Melee",
           "A": "2",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "0",
           "D": "1",
           "Keywords": ""
@@ -1796,11 +1796,11 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 180,
+      "base": 200,
       "variants": [
         {
           "models": 5,
-          "points": 385
+          "points": 425
         }
       ]
     },
@@ -1810,7 +1810,7 @@
     },
     "stats": {
       "M": "5\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "4",
       "LD": "6+",
@@ -1835,7 +1835,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "1",
           "Keywords": "Rapid Fire 2"
@@ -1924,7 +1924,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 95,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -1933,7 +1933,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "4",
       "LD": "6+",
@@ -1948,8 +1948,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "-1",
+          "S": "5",
+          "AP": "-2",
           "D": "1",
           "Keywords": "Pistol"
         },
@@ -1990,7 +1990,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit: **Rubric Marines**"
+        "description": "This model can be attached to the following unit: RUBRIC MARINES"
       },
       {
         "name": "Twisted Sorceries (Psychic)",
@@ -2021,7 +2021,7 @@
     "faction": "Thousand Sons",
     "faction_type": "Chaos",
     "points": {
-      "base": 100,
+      "base": 110,
       "variants": []
     },
     "composition": {
@@ -2030,7 +2030,7 @@
     },
     "stats": {
       "M": "5\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "5",
       "LD": "6+",
@@ -2055,7 +2055,7 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "1",
           "Keywords": "Rapid Fire 2"
@@ -2065,7 +2065,7 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "1",
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
@@ -2087,7 +2087,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit: **Scarab Occult Terminators**"
+        "description": "This model can be attached to the following unit: SCARAB OCCULT TERMINATORS"
       },
       {
         "name": "Marked by Fate (Psychic)",
@@ -2460,7 +2460,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Tzaangor Enlightened, Tzaangor Enlightened with Fatecaster Greatbows, Tzaangors**"
+        "description": "This model can be attached to the following units: TZAANGOR ENLIGHTENED, TZAANGOR ENLIGHTENED WITH FATECASTER GREATBOWS, TZAANGORS"
       }
     ],
     "special_rules": [

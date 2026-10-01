@@ -2828,46 +2828,6 @@
           "AP": "-1",
           "D": "1",
           "Keywords": "Pistol"
-        },
-        {
-          "name": "Hand flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "3",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Ignores Cover, Pistol, Torrent"
-        },
-        {
-          "name": "Inferno Pistol",
-          "Range": "6\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "8",
-          "AP": "-4",
-          "D": "D3",
-          "Keywords": "Melta 2, Pistol"
-        },
-        {
-          "name": "➤ Plasma pistol - supercharge",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "8",
-          "AP": "-3",
-          "D": "2",
-          "Keywords": "Hazardous, Pistol"
-        },
-        {
-          "name": "➤ Plasma pistol - standard",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "7",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "Pistol"
         }
       ],
       "melee": [
@@ -2935,8 +2895,7 @@
     ],
     "special_rules": [
       "Feel No Pain 6+",
-      "Oath of Moment",
-      "Pistol"
+      "Oath of Moment"
     ],
     "keywords": [
       "Infantry",

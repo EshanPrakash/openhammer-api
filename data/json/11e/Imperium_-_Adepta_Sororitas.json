@@ -50,6 +50,10 @@
     },
     "abilities": [
       {
+        "name": "Leader",
+        "description": "This unit can be attached to the following units: BATTLE SISTERS SQUAD, CELESTIAN INSIDIANTS, CELESTIAN SACRESANTS, CRUSADERS, DOMINION SQUAD, RETRIBUTOR SQUAD, SISTERS NOVITIATE SQUAD"
+      },
+      {
         "name": "Auto-Tapestry of the Emperor's Judgement",
         "description": "While this unit is leading a unit and contains an Aestred Thurga model, weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
       },
@@ -60,6 +64,7 @@
     ],
     "special_rules": [
       "Acts of Faith",
+      "Leader",
       "Pistol"
     ],
     "keywords": [
@@ -263,6 +268,10 @@
         "description": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 2+ invulnerable save."
       },
       {
+        "name": "Leader",
+        "description": "This unit can be attached to the following units: BATTLE SISTERS SQUAD, CELESTIAN INSIDIANTS, CELESTIAN SACRESANTS, CRUSADERS, DOMINION SQUAD, RETRIBUTOR SQUAD, SISTERS NOVITIATE SQUAD"
+      },
+      {
         "name": "Null Rod",
         "description": "Models in the bearer’s unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks."
       },
@@ -273,6 +282,7 @@
     ],
     "special_rules": [
       "Acts of Faith",
+      "Leader",
       "Ignores Cover",
       "Torrent",
       "One Shot",
@@ -539,7 +549,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n- Battle Sisters Squad\n- Celestian Sacresants\n- Dominion Squad\n- Retributor Squad\n- Sisters Novitiate Squad\nThis model can be attached to a Battle Sisters Squad, even if one Canoness, Palatine, Junith Eruita, or Aestred Thurga unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "description": "This model can be attached to the following units: BATTLE SISTERS SQUAD, CELESTIAN INSIDIANTS, CELESTIAN SACRESANTS, CRUSADERS, DOMINION SQUAD, RETRIBUTOR SQUAD, SISTERS NOVITIATE SQUAD"
       }
     ],
     "special_rules": [
@@ -606,7 +616,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n- Battle Sisters Squad\n- Celestian Sacresants\n- Dominion Squad\n- Retributor Squad\nThis model can be attached to a Battle Sisters Squad, even if one Canoness, Palatine, Junith Eruita, or Aestred Thurga unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "description": "This model can be attached to the following units: BATTLE SISTERS SQUAD, CELESTIAN INSIDIANTS, CELESTIAN SACRESANTS, CRUSADERS, DOMINION SQUAD, RETRIBUTOR SQUAD"
       }
     ],
     "special_rules": [
@@ -785,7 +795,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n- Battle Sisters Squad\n- Celestian Sacresants\n- Dominion Squad\n- Retributor Squad\n- Sisters Novitiate Squad\nThis model can be attached to a Battle Sisters Squad, even if one Canoness, Palatine, Junith Eruita, or Aestred Thurga unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "description": "This model can be attached to the following units: BATTLE SISTERS SQUAD, CELESTIAN INSIDIANTS, CELESTIAN SACRESANTS, CRUSADERS, DOMINION SQUAD, RETRIBUTOR SQUAD, SISTERS NOVITIATE SQUAD"
       }
     ],
     "special_rules": [
@@ -863,7 +873,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n- Battle Sisters Squad\n- Celestian Sacresants\n- Dominion Squad\n- Retributor Squad\nThis model can be attached to a Battle Sisters Squad, even if one Canoness, Palatine, Junith Eruita, or Aestred Thurga unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "description": "This model can be attached to the following units: BATTLE SISTERS SQUAD, CELESTIAN INSIDIANTS, CELESTIAN SACRESANTS, CRUSADERS, DOMINION SQUAD, RETRIBUTOR SQUAD"
       }
     ],
     "special_rules": [
@@ -1058,12 +1068,17 @@
       {
         "name": "Fiery Conviction",
         "description": "If this model is on the battlefield at the start\nof your Command phase, you can choose one of the following:\n- Discard 1 Miracle dice and gain 1CP.\n- Take a Leadership test for this model, if that test is passed, gain 1CP."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units: BATTLE SISTERS SQUAD, CELESTIAN INSIDIANTS, CELESTIAN SACRESANTS, CRUSADERS, DOMINION SQUAD, RETRIBUTOR SQUAD, SISTERS NOVITIATE SQUAD"
       }
     ],
     "special_rules": [
       "Acts of Faith",
       "Deadly Demise 1",
       "Stealth",
+      "Leader",
       "Ignores Cover",
       "Twin-linked",
       "Torrent"
@@ -1208,7 +1223,7 @@
     "faction": "Adepta Sororitas",
     "faction_type": "Imperium",
     "points": {
-      "base": 200,
+      "base": 215,
       "variants": []
     },
     "composition": {
@@ -1380,7 +1395,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Battle Sisters Squad\n- Celestian Sacresants\n- Dominion Squad\n- Retributor Squad\n- Sisters Novitiate Squad"
+        "description": "This model can be attached to the following units: BATTLE SISTERS SQUAD, CELESTIAN INSIDIANTS, CELESTIAN SACRESANTS, CRUSADERS, DOMINION SQUAD, RETRIBUTOR SQUAD, SISTERS NOVITIATE SQUAD"
       }
     ],
     "special_rules": [
@@ -1405,7 +1420,7 @@
     "faction": "Adepta Sororitas",
     "faction_type": "Imperium",
     "points": {
-      "base": 180,
+      "base": 165,
       "variants": []
     },
     "composition": {
@@ -1712,10 +1727,15 @@
       {
         "name": "Holy Mission",
         "description": "If this model is attached to a Dominion Squad during the Declare Battle Formations step, it gains the Scouts 6\" ability. If this model is attached to a Sisters Novitiate Squad during the Declare Battle Formations step, it gains the Infiltrators ability."
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following units: ARCO-FLAGELLANTS, BATTLE SISTERS SQUAD, CELESTIAN INSIDIANTS, CRUSADERS, DOMINION SQUAD, SANCTIFIERS, SISTERS NOVITIATE SQUAD"
       }
     ],
     "special_rules": [
       "Acts of Faith",
+      "Leader",
       "Ignores Cover",
       "Torrent"
     ],
@@ -1817,7 +1837,7 @@
     "faction": "Adepta Sororitas",
     "faction_type": "Imperium",
     "points": {
-      "base": 150,
+      "base": 135,
       "variants": []
     },
     "composition": {
@@ -1872,11 +1892,16 @@
       {
         "name": "Miraculous Intervention",
         "description": "The first time this unit’s Celestine model is destroyed, roll one D6 at the end of the phase. On a 2+, set that Celestine model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining."
+      },
+      {
+        "name": "Leader",
+        "description": "This unit can be attached to the following units: SERAPHIM SQUAD, ZEPHYRIM SQUAD"
       }
     ],
     "special_rules": [
       "Acts of Faith",
       "Deep Strike",
+      "Leader",
       "Torrent",
       "Ignores Cover",
       "Devastating Wounds"
@@ -2064,10 +2089,15 @@
       {
         "name": "Solemn Procession",
         "description": "Each time you gain 1 Miracle dice at the start of the battle round, if this model is on the battlefield, do not roll one D6 to determine the value of that Miracle dice; it has a value of 6.’"
+      },
+      {
+        "name": "Leader",
+        "description": "This model can be attached to the following unit: BATTLE SISTERS SQUAD, CRUSADERS"
       }
     ],
     "special_rules": [
       "Acts of Faith",
+      "Leader",
       "Pistol"
     ],
     "keywords": [
@@ -2244,7 +2274,8 @@
       "Imperium",
       "Sororitas Rhino",
       "Faction: Adepta Sororitas",
-      "Repressor"
+      "Repressor",
+      "Frame"
     ]
   },
   {
@@ -2321,11 +2352,16 @@
       {
         "name": "Divine Deliverance",
         "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by the model and those weapons have the [DEVASTATING WOUNDS] ability"
+      },
+      {
+        "name": "Leader",
+        "description": "This unit can be attached to the following units: SERAPHIM SQUAD, ZEPHYRIM SQUAD"
       }
     ],
     "special_rules": [
       "Acts of Faith",
       "Deep Strike",
+      "Leader",
       "Sustained Hits"
     ],
     "keywords": [
@@ -2452,7 +2488,8 @@
       "Faction: Adepta Sororitas",
       "Imperium",
       "Towering",
-      "Battle Sanctum"
+      "Battle Sanctum",
+      "Frame"
     ]
   },
   {
@@ -2701,7 +2738,7 @@
     "faction": "Adepta Sororitas",
     "faction_type": "Imperium",
     "points": {
-      "base": 120,
+      "base": 115,
       "variants": []
     },
     "composition": {

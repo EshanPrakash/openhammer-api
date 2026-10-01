@@ -1451,7 +1451,8 @@
       "Imperium",
       "Faction: Adeptus Astartes",
       "Impulsor",
-      "Faction: Black Templars"
+      "Faction: Black Templars",
+      "Frame"
     ]
   },
   {
@@ -2635,7 +2636,8 @@
       "Tacticus",
       "Faction: Adeptus Astartes",
       "Emperor's Champion",
-      "Faction: Black Templars"
+      "Faction: Black Templars",
+      "Leader"
     ]
   }
 ]

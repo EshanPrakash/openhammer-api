@@ -79,7 +79,8 @@
       "Faction: Adeptus Astartes",
       "Faction: Salamanders",
       "Imperium",
-      "Tacticus"
+      "Tacticus",
+      "Leader"
     ]
   },
   {
@@ -179,7 +180,8 @@
       "Vulkan He'stan",
       "Faction: Adeptus Astartes",
       "Faction: Salamanders",
-      "Tacticus"
+      "Tacticus",
+      "Leader"
     ]
   }
 ]

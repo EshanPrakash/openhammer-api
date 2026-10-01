@@ -1280,7 +1280,7 @@
     "faction": "T'au Empire",
     "faction_type": "Xenos",
     "points": {
-      "base": 90,
+      "base": 80,
       "variants": []
     },
     "composition": {

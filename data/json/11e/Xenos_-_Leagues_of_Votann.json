@@ -6,7 +6,7 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 90,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -56,7 +56,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- Einhyr Hearthguard\n- Hearthkyn Warriors"
+        "description": "This model can be attached to the following units: EINHYR HEARTHGUARD, HEARTHKYN WARRIORS"
       },
       {
         "name": "Grim Efficiency",
@@ -323,7 +323,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- EINHYR HEARTHGUARD\n- HEARTHKYN WARRIORS"
+        "description": "This model can be attached to the following units: EINHYR HEARTHGUARD, HEARTHKYN WARRIORS"
       },
       {
         "name": "Seized Opportunity",
@@ -405,7 +405,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- EINHYR HEARTHGUARD"
+        "description": "This model can be attached to the following unit: EINHYR HEARTHGUARD"
       },
       {
         "name": "Exemplar of the Einhyr",
@@ -516,7 +516,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- HEARTHKYN WARRIORS"
+        "description": "This model can be attached to the following unit: HEARTHKYN WARRIORS"
       },
       {
         "name": "Fortify (Psychic)",
@@ -655,7 +655,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- HEARTHKYN WARRIORS\n- BRÔKHYR THUNDERKYN"
+        "description": "This model can be attached to the following units:BRÔKHYR THUNDERKYN, HEARTHKYN WARRIORS"
       },
       {
         "name": "Unit Composition",
@@ -806,11 +806,11 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 95,
+      "base": 90,
       "variants": [
         {
           "models": 5,
-          "points": 190
+          "points": 180
         }
       ]
     },
@@ -886,11 +886,11 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 80,
+      "base": 85,
       "variants": [
         {
           "models": 3,
-          "points": 160
+          "points": 170
         }
       ]
     },
@@ -1620,7 +1620,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Ironkin Steeljacks with Heavy Volkanite Disintegrators**, **Ironkin Steeljacks with Melee Weapons**"
+        "description": "This model can be attached to the following units: IRONKIN STEELJACKS WITH HEAVY VOLKANITE DISINTEGRATORS, IRONKIN STEELJACKS WITH MELEE WEAPONS"
       }
     ],
     "special_rules": [
@@ -1736,11 +1736,11 @@
     "faction": "Leagues of Votann",
     "faction_type": "Xenos",
     "points": {
-      "base": 70,
+      "base": 75,
       "variants": [
         {
           "models": 2,
-          "points": 140
+          "points": 150
         }
       ]
     },
@@ -2410,7 +2410,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Cthonian Beserks**"
+        "description": "This model can be attached to the following units: CTHONIAN BESERKS"
       }
     ],
     "special_rules": [

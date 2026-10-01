@@ -69,7 +69,7 @@
         "description": "When this unit is **selected to shoot**, until this unit has shot: \n- Enemy units do not have Lone Operative. \n- Hidden enemy units have +15\" detection range.'"
       },
       {
-        "name": "Micromelta Round",
+        "name": "Micromelta Rounds",
         "description": "This model’s exitus rifle has the [ANTI‑MONSTER 4+] and [ANTI‑VEHICLE 4+] abilities."
       }
     ],
@@ -246,7 +246,7 @@
       },
       {
         "name": "Intra-neural Biotech",
-        "description": "Once per battle round, you can target this model with the Heroic Intervention or Counter‑offensive Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
+        "description": "You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do: \n- That use is -1 CP. \n- That use does not prevent any uses of that stratagem on other units this phase."
       }
     ],
     "special_rules": [
@@ -1238,7 +1238,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: EXACTION SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SISTERS OF BATTLE SQUAD, SUBDUCTOR SQUAD, VIGILANT SQUAD"
+        "description": "This model can be attached to the following units: BATTLELINE IMPERIUM INFANTRY, EXACTION SQUAD, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SANCTIFIERS, SISTERS OF BATTLE SQUAD, SUBDUCTOR SQUAD, VIGILANT SQUAD"
       }
     ],
     "special_rules": [
@@ -1518,7 +1518,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: \n- DEATHWATCH KILL TEAM (including FORTIS KILL TEAM, INDOMITOR KILL TEAM, PROTEUS KILL TEAM and SPECTRUS KILL TEAM) \n- DAEMONHOST\n- EXACTION SQUAD \n- IMPERIUM BATTLELINE INFANTRY \n- IMPERIAL NAVY BREACHERS\n- INQUISITORIAL AGENTS\n- SUBDUCTOR SQUAD\n- VIGILANT SQUAD"
+        "description": "This model can be attached to the following units: DAEMONHOST, DEATHWATCH KILL TEAM, DEATHWATCH TERMINATOR SQUAD, EXACTION SQUAD, FORTIS KILL TEAM, IMPERIAL NAVY BREACHERS, INDOMITOR KILL TEAM, INQUISITORIAL AGENTS, PROTEUS KILL TEAM, SPECTRUS KILL TEAM, SUBDUCTOR SQUAD, VIGILANT SQUAD"
       },
       {
         "name": "Malus Codicium",
@@ -1679,7 +1679,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- IMPERIAL NAVY BREACHERS\n- VOIDSMEN-AT-ARMS"
+        "description": "This model can be attached to the following units: IMPERIAL NAVY BREACHERS, VOIDSMEN-AT-ARMS"
       }
     ],
     "special_rules": [
@@ -1754,7 +1754,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- IMPERIAL NAVY BREACHERS\n- VOIDSMEN-AT-ARMS"
+        "description": "This model can be attached to the following units: IMPERIAL NAVY BREACHERS, VOIDSMEN-AT-ARMS"
       }
     ],
     "special_rules": [
@@ -2010,7 +2010,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: \n- DEATHWATCH KILL TEAM (including FORTIS KILL TEAM, INDOMITOR KILL TEAM, PROTEUS KILL TEAM and SPECTRUS KILL TEAM) \n- DEATHWATCH TERMINATOR SQUAD\n- EXACTION SQUAD \n\n- GREY KNIGHTS TERMINATOR SQUAD\n- IMPERIUM BATTLELINE INFANTRY \n- IMPERIAL NAVY BREACHERS\n- INQUISITORIAL AGENTS\n- SISTERS OF BATTLE SQUAD\n- SUBDUCTOR SQUAD\n- VIGILANT SQUAD"
+        "description": "This model can be attached to the following units: DEATHWATCH KILL TEAM, DEATHWATCH TERMINATOR SQUAD, EXACTION SQUAD, FORTIS KILL TEAM, GREY KNIGHTS TERMINATOR SQUAD, IMPERIAL NAVY BREACHERS, INDOMITOR KILL TEAM, INQUISITORIAL AGENTS, PROTEUS KILL TEAM, SISTERS OF BATTLE SQUAD, SPECTRUS KILL TEAM, SUBDUCTOR SQUAD, VIGILANT SQUAD"
       },
       {
         "name": "Psychic Gifts",
@@ -2204,7 +2204,7 @@
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units: INQUISITORIAL AGENTS, IMPERIAL NAVY BREACHERS, SUBDUCTOR SQUAD, EXACTION SQUAD, VIGILANT SQUAD, SISTERS OF BATTLE SQUAD.\n\n\n*You can attach this model to an INQUISITORIAL AGENTS unit, even if one INQUISITOR unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strength.*"
+        "description": "This model can be attached to the following units: EXACTION SQUAD, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SANCTIFIERS, SISTERS OF BATTLE SQUAD, SUBDUCTOR SQUAD, VIGILANT SQUAD"
       }
     ],
     "special_rules": [
@@ -2406,7 +2406,7 @@
     },
     "stats": {
       "M": "5\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "3",
       "LD": "6+",
@@ -2421,8 +2421,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -2678,8 +2678,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         }
@@ -2980,7 +2980,7 @@
       "OC": "2"
     },
     "invuln_save": "6+",
-    "transport": null,
+    "transport": "This model has a transport capacity of 6 ORDO HERETICUS INFANTRY models.\n\nAt the start of the Declare Battle Formations step, you can select one SISTERS OF BATTLE SQUAD from your army. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this TRANSPORT; the other can start the battle embarked within another TRANSPORT, or it can be deployed as a separate unit.",
     "weapons": {
       "ranged": [
         {
@@ -3048,10 +3048,6 @@
       ]
     },
     "abilities": [
-      {
-        "name": "Transport",
-        "description": "This model has a transport capacity of 6 ORDO HERETICUS INFANTRY models.\n\nAt the start of the Declare Battle Formations step, you can select one SISTERS OF BATTLE SQUAD from your army. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this TRANSPORT; the other can start the battle embarked within another TRANSPORT, or it can be deployed as a separate unit."
-      },
       {
         "name": "Purge and Cleanse",
         "description": "Each time this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
@@ -3222,7 +3218,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: \n- Inquisitorial Agents\n\n*You can attach this model to an INQUISITORIAL AGENTS unit, even if one INQUISITOR unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.*"
+        "description": "This model can be attached to the following units: INQUISITORIAL AGENTS"
       },
       {
         "name": "Inquisitorial Agent",
@@ -3269,7 +3265,7 @@
       "OC": "0"
     },
     "invuln_save": null,
-    "transport": null,
+    "transport": "This model has a transport capacity of 12 DEATHWATCH INFANTRY models.",
     "weapons": {
       "ranged": [
         {
@@ -3346,10 +3342,6 @@
         "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       },
       {
-        "name": "Transport",
-        "description": "This model has a transport capacity of 12 DEATHWATCH INFANTRY models."
-      },
-      {
         "name": "Auspex Array",
         "description": "Ranged weapons equipped by the bearer have the [IGNORES COVER] ability."
       },
@@ -3409,7 +3401,7 @@
       "OC": "1"
     },
     "invuln_save": null,
-    "transport": null,
+    "transport": "This unit cannot embark within an IMPERIAL RHINO.",
     "weapons": {
       "ranged": [
         {
@@ -3554,10 +3546,6 @@
       {
         "name": "Attached Unit",
         "description": "If a CHARACTER from your army with the Leader ability can be attached to an DEATHWATCH KILL TEAM, it can be attached to this unit instead."
-      },
-      {
-        "name": "Transport",
-        "description": "This unit cannot embark within an IMPERIAL RHINO."
       }
     ],
     "special_rules": [
@@ -3605,7 +3593,7 @@
       "OC": "1"
     },
     "invuln_save": null,
-    "transport": null,
+    "transport": "This unit cannot embark within an IMPERIAL RHINO.",
     "weapons": {
       "ranged": [
         {
@@ -3750,10 +3738,6 @@
       {
         "name": "Attached Unit",
         "description": "If a CHARACTER unit from your army can be attached to a DEATHWATCH KILL TEAM, it can be attached to this unit instead."
-      },
-      {
-        "name": "Transport",
-        "description": "This unit cannot embark within an IMPERIAL RHINO."
       },
       {
         "name": "Jump pack",
@@ -4318,7 +4302,7 @@
       "OC": "1"
     },
     "invuln_save": null,
-    "transport": null,
+    "transport": "This unit cannot embark within an IMPERIAL RHINO.",
     "weapons": {
       "ranged": [
         {
@@ -4443,10 +4427,6 @@
       {
         "name": "Spectrus Doctrines",
         "description": "At the end of your opponent’s turn, if this unit is more than 6\" away from all enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves. It will arrive back on the battlefield in the Reinforcements step of your next Movement phase."
-      },
-      {
-        "name": "Transport",
-        "description": "This unit cannot embark within an IMPERIAL RHINO."
       },
       {
         "name": "Helix Gauntlet",
@@ -4605,7 +4585,7 @@
     "faction": "Agents of the Imperium",
     "faction_type": "Imperium",
     "points": {
-      "base": 65,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -4659,7 +4639,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: AQUILA KILL TEAM, DEATHWATCH KILL TEAM"
+        "description": "This model can be attached to the following units: AQUILA KILL TEAM, DEATHWATCH KILL TEAM, DEATHWATCH TERMINATOR SQUAD, FORTIS KILL TEAM, INDOMITOR KILL TEAM, PROTEUS KILL TEAM, SPECTRUS KILL TEAM"
       }
     ],
     "special_rules": [
@@ -4690,7 +4670,7 @@
     "faction": "Agents of the Imperium",
     "faction_type": "Imperium",
     "points": {
-      "base": 95,
+      "base": 105,
       "variants": []
     },
     "composition": {
@@ -4744,7 +4724,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: AQUILA KILL TEAM, DEATHWATCH KILL TEAM"
+        "description": "This model can be attached to the following units: AQUILA KILL TEAM, DEATHWATCH KILL TEAM, DEATHWATCH TERMINATOR SQUAD, FORTIS KILL TEAM, INDOMITOR KILL TEAM, PROTEUS KILL TEAM, SPECTRUS KILL TEAM"
       }
     ],
     "special_rules": [
@@ -5007,7 +4987,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: EXACTION SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SISTERS OF BATTLE SQUAD, SUBDUCTOR SQUAD, VIGILANT SQUAD"
+        "description": "This model can be attached to the following units: EXACTION SQUAD, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SISTERS OF BATTLE SQUAD, SUBDUCTOR SQUAD, VIGILANT SQUAD"
       },
       {
         "name": "Vox-skull",

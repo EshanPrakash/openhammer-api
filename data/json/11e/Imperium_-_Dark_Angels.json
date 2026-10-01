@@ -1491,16 +1491,6 @@
           "Keywords": "Ignores Cover, Torrent"
         },
         {
-          "name": "Storm bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 2"
-        },
-        {
           "name": "➤ Cyclone missile launcher - frag",
           "Range": "36\"",
           "A": "2D6",
@@ -1519,6 +1509,16 @@
           "AP": "-2",
           "D": "D6",
           "Keywords": null
+        },
+        {
+          "name": "Storm bolter",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
         }
       ],
       "melee": [

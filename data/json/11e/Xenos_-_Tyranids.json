@@ -6,7 +6,7 @@
     "faction": "Tyranids",
     "faction_type": "Xenos",
     "points": {
-      "base": 160,
+      "base": 150,
       "variants": []
     },
     "composition": {
@@ -252,7 +252,7 @@
     "faction": "Tyranids",
     "faction_type": "Xenos",
     "points": {
-      "base": 140,
+      "base": 130,
       "variants": []
     },
     "composition": {
@@ -723,7 +723,7 @@
     "faction": "Tyranids",
     "faction_type": "Xenos",
     "points": {
-      "base": 130,
+      "base": 120,
       "variants": []
     },
     "composition": {
@@ -1972,11 +1972,11 @@
     "faction": "Tyranids",
     "faction_type": "Xenos",
     "points": {
-      "base": 55,
+      "base": 50,
       "variants": [
         {
           "models": 5,
-          "points": 110
+          "points": 100
         }
       ]
     },

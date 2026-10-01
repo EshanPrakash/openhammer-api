@@ -655,7 +655,7 @@
     "faction": "Genestealer Cults",
     "faction_type": "Xenos",
     "points": {
-      "base": 120,
+      "base": 110,
       "variants": []
     },
     "composition": {
@@ -1463,7 +1463,7 @@
     "faction": "Genestealer Cults",
     "faction_type": "Xenos",
     "points": {
-      "base": 60,
+      "base": 50,
       "variants": []
     },
     "composition": {
@@ -1619,7 +1619,7 @@
     "faction": "Genestealer Cults",
     "faction_type": "Xenos",
     "points": {
-      "base": 70,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -1866,7 +1866,7 @@
     "faction": "Genestealer Cults",
     "faction_type": "Xenos",
     "points": {
-      "base": 65,
+      "base": 60,
       "variants": []
     },
     "composition": {

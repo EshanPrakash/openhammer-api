@@ -6,7 +6,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 295,
+      "base": 300,
       "variants": []
     },
     "composition": {
@@ -15,7 +15,7 @@
     },
     "stats": {
       "M": "5\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "9",
       "LD": "5+",
@@ -70,7 +70,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- CHAOS TERMINATOR SQUAD\n- CHOSEN"
+        "description": "This model can be attached to the following units: CHAOS TERMINATOR SQUAD, CHOSEN"
       }
     ],
     "special_rules": [
@@ -88,7 +88,8 @@
       "Terminator",
       "Chaos Undivided",
       "Chaos",
-      "Abaddon the Despoiler"
+      "Abaddon the Despoiler",
+      "Leader"
     ]
   },
   {
@@ -98,7 +99,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 90,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -107,7 +108,7 @@
     },
     "stats": {
       "M": "12\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "5",
       "LD": "6+",
@@ -154,7 +155,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- RAPTORS"
+        "description": "This model can be attached to the following units: RAPTORS"
       },
       {
         "name": "Head Taker",
@@ -184,7 +185,8 @@
       "Jump Pack",
       "Chaos",
       "Chaos Undivided",
-      "Haarken Worldclaimer"
+      "Haarken Worldclaimer",
+      "Leader"
     ]
   },
   {
@@ -194,7 +196,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 130,
+      "base": 135,
       "variants": []
     },
     "composition": {
@@ -203,7 +205,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "5",
+      "T": "6",
       "SV": "3+",
       "W": "5",
       "LD": "6+",
@@ -240,7 +242,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Chosen** \n- **Chaos Terminator Squad** \n- **Legionaries** \n- **Masters of the Maelstrom** \n- **Red Corsairs Raiders**"
+        "description": "This model can be attached to the following units: CHAOS TERMINATOR SQUAD, CHOSEN, LEGIONARIES, RED CORSAIRS RAIDERS\n"
       },
       {
         "name": "Lord of Badab (Aura)",
@@ -267,7 +269,8 @@
       "Epic Hero",
       "Chaos",
       "Chaos Undivided",
-      "Huron Blackheart"
+      "Huron Blackheart",
+      "Leader"
     ]
   },
   {
@@ -277,7 +280,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 165,
+      "base": 155,
       "variants": []
     },
     "composition": {
@@ -364,7 +367,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 180,
+      "base": 170,
       "variants": []
     },
     "composition": {
@@ -450,7 +453,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 100,
+      "base": 110,
       "variants": []
     },
     "composition": {
@@ -459,7 +462,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "6+",
       "W": "1",
       "LD": "7+",
@@ -520,7 +523,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- ACCURSED CULTISTS\n- CHOSEN\n- CULTIST MOB\n- LEGIONARIES"
+        "description": "This model can be attached to the following units: ACCURSED CULTISTS, CHOSEN, CULTIST MOB, CULTIST MOB WITH FIREARMS, LEGIONARIES, NEGAVOLT CULTISTS, RED CORSAIRS RAIDERS"
       },
       {
         "name": "Surgeon Acolyte",
@@ -543,7 +546,8 @@
       "Epic Hero",
       "Chaos",
       "Chaos Undivided",
-      "Infantry"
+      "Infantry",
+      "Leader"
     ]
   },
   {
@@ -553,7 +557,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 90,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -562,7 +566,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "5",
       "LD": "6+",
@@ -577,7 +581,7 @@
           "Range": "12\"",
           "A": "6",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
           "Keywords": "Assault, Pistol, Sustained Hits 1"
@@ -599,7 +603,7 @@
           "Range": "Melee",
           "A": "6",
           "WS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
           "Keywords": "Sustained Hits 1"
@@ -651,7 +655,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 60,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -660,7 +664,7 @@
     },
     "stats": {
       "M": "8\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "4",
       "LD": "6+",
@@ -707,7 +711,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- CHOSEN\n- LEGIONARIES\n- POSSESSED"
+        "description": "This model can be attached to the following units: CHOSEN, LEGIONARIES, NEMESIS CLAW, POSSESSED, RED CORSAIRS RAIDERS"
       },
       {
         "name": "Daemonkin (Psychic)",
@@ -733,7 +737,8 @@
       "Character",
       "Psyker",
       "Chaos",
-      "Master of Possession"
+      "Master of Possession",
+      "Leader"
     ]
   },
   {
@@ -743,7 +748,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 90,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -752,7 +757,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "5",
       "LD": "6+",
@@ -829,7 +834,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- CHOSEN\n- LEGIONARIES"
+        "description": "This model can be attached to the following units: CHOSEN, LEGIONARIES, NEMESIS CLAW, RED CORSAIRS RAIDERS"
       },
       {
         "name": "Chance for Glory",
@@ -847,7 +852,8 @@
       "Character",
       "Grenades",
       "Chaos",
-      "Chaos Lord"
+      "Chaos Lord",
+      "Leader"
     ]
   },
   {
@@ -857,7 +863,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 85,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -866,7 +872,7 @@
     },
     "stats": {
       "M": "5\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "6",
       "LD": "6+",
@@ -943,7 +949,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- CHAOS TERMINATOR SQUAD"
+        "description": "This model can be attached to the following units: CHAOS TERMINATOR SQUAD"
       },
       {
         "name": "Formidably Resilient",
@@ -966,7 +972,8 @@
       "Chaos",
       "Terminator",
       "Chaos Lord in Terminator Armour",
-      "Chaos Lord"
+      "Chaos Lord",
+      "Leader"
     ]
   },
   {
@@ -976,7 +983,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 60,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -985,7 +992,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "4",
       "LD": "6+",
@@ -1032,7 +1039,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- CHOSEN\n- LEGIONARIES"
+        "description": "This model can be attached to the following units: CHOSEN, LEGIONARIES, NEMESIS CLAW, RED CORSAIRS RAIDERS"
       },
       {
         "name": "Prescience (Psychic)",
@@ -1054,7 +1061,8 @@
       "Psyker",
       "Grenades",
       "Chaos",
-      "Sorcerer"
+      "Sorcerer",
+      "Leader"
     ]
   },
   {
@@ -1064,7 +1072,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 80,
+      "base": 85,
       "variants": []
     },
     "composition": {
@@ -1073,7 +1081,7 @@
     },
     "stats": {
       "M": "5\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "5",
       "LD": "6+",
@@ -1108,8 +1116,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -1118,8 +1126,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         }
@@ -1140,7 +1148,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- CHAOS TERMINATOR SQUAD"
+        "description": "This model can be attached to the following units: CHAOS TERMINATOR SQUAD"
       },
       {
         "name": "Warptime (Psychic)",
@@ -1170,7 +1178,8 @@
       "Psyker",
       "Chaos",
       "Terminator",
-      "Sorcerer in Terminator Armour"
+      "Sorcerer in Terminator Armour",
+      "Leader"
     ]
   },
   {
@@ -1180,7 +1189,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 160,
+      "base": 155,
       "variants": []
     },
     "composition": {
@@ -1308,7 +1317,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 60,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -1317,7 +1326,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "4",
       "LD": "6+",
@@ -1396,7 +1405,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Chosen, Havocs, Legionaires**"
+        "description": "This model can be attached to the following units: CHOSEN, HAVOCS, LEGIONARIES, NEMESIS CLAW, RED CORSAIRS RAIDERS"
       }
     ],
     "special_rules": [
@@ -1413,7 +1422,8 @@
       "Infantry",
       "Character",
       "Chaos",
-      "Warpsmith"
+      "Warpsmith",
+      "Leader"
     ]
   },
   {
@@ -1469,7 +1479,7 @@
     "abilities": [
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n- CHOSEN\n- LEGIONARIES\n\nYou can attach this model to one of the above units even if one other CHARACTER model has already been attached to it (a unit cannot have two EXALTED CHAMPIONS attached to it). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "description": "This model can be attached to the following units: CHOSEN,  LEGIONARIES\n"
       },
       {
         "name": "Dark Champion",
@@ -1501,7 +1511,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 65,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -1510,7 +1520,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "6+",
       "W": "1",
       "LD": "7+",
@@ -1546,7 +1556,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- ACCURSED CULTISTS\n- CHOSEN\n- CULTIST MOB\n- LEGIONARIES"
+        "description": "This model can be attached to the following units: ACCURSED CULTISTS, CHOSEN, CULTIST MOB, CULTIST MOB WITH FIREARMS, LEGIONARIES, NEGAVOLT CULTISTS, NEMESIS CLAW, RED CORSAIRS RAIDERS"
       },
       {
         "name": "Dark Zealotry",
@@ -1570,7 +1580,8 @@
       "Faction: Heretic Astartes",
       "Infantry",
       "Grenades",
-      "Chaos"
+      "Chaos",
+      "Leader"
     ]
   },
   {
@@ -1666,7 +1677,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- ACCURSED CULTISTS\n- CULTIST MOB"
+        "description": "This model can be attached to the following units: ACCURSED CULTISTS, CULTIST MOB, CULTIST MOB WITH FIREARMS, NEGAVOLT CULTISTS"
       },
       {
         "name": "Faithful Flock",
@@ -1693,7 +1704,8 @@
       "Infantry",
       "Grenades",
       "Dark Commune",
-      "Chaos"
+      "Chaos",
+      "Leader"
     ]
   },
   {
@@ -1703,11 +1715,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 90,
+      "base": 95,
       "variants": [
         {
           "models": 6,
-          "points": 170
+          "points": 180
         }
       ]
     },
@@ -1717,7 +1729,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "2",
       "LD": "6+",
@@ -1824,10 +1836,10 @@
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Accursed weapon",
@@ -1952,7 +1964,7 @@
       "variants": [
         {
           "models": 9,
-          "points": 195
+          "points": 185
         }
       ]
     },
@@ -2021,11 +2033,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 175,
+      "base": 185,
       "variants": [
         {
           "models": 6,
-          "points": 350
+          "points": 370
         }
       ]
     },
@@ -2035,7 +2047,7 @@
     },
     "stats": {
       "M": "5\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "3",
       "LD": "6+",
@@ -2050,8 +2062,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         },
@@ -2128,7 +2140,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 70,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -2137,7 +2149,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "4",
       "LD": "6+",
@@ -2163,7 +2175,7 @@
     "abilities": [
       {
         "name": "Support",
-        "description": "This model can be attached to the following units:\n- CHOSEN\n- LEGIONARIES\n\nYou can attach this model to one of the above units even if one other CHARACTER model has already been attached to it (a unit cannot have two MASTERS OF EXECUTIONS attached to it). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "description": "This model can be attached to the following units: CHOSEN, LEGIONARIES, NEMESIS CLAW, RED CORSAIRS RAIDERS"
       },
       {
         "name": "Warp-sighted Butcher",
@@ -2197,11 +2209,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 120,
+      "base": 130,
       "variants": [
         {
           "models": 6,
-          "points": 250
+          "points": 260
         }
       ]
     },
@@ -2227,10 +2239,10 @@
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "5",
+          "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": null
+          "Keywords": ""
         }
       ]
     },
@@ -2258,11 +2270,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 135,
+      "base": 140,
       "variants": [
         {
           "models": 6,
-          "points": 270
+          "points": 280
         }
       ]
     },
@@ -2272,7 +2284,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "3",
       "LD": "6+",
@@ -2287,8 +2299,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         }
@@ -2409,11 +2421,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 70,
+      "base": 80,
       "variants": [
         {
           "models": 4,
-          "points": 130
+          "points": 150
         }
       ]
     },
@@ -2458,8 +2470,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         }
@@ -2470,10 +2482,10 @@
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Power fist",
@@ -2515,11 +2527,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 110,
+      "base": 115,
       "variants": [
         {
           "models": 6,
-          "points": 210
+          "points": 225
         }
       ]
     },
@@ -2529,7 +2541,7 @@
     },
     "stats": {
       "M": "12\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "2",
       "LD": "6+",
@@ -2576,10 +2588,10 @@
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         }
       ]
     },
@@ -2618,11 +2630,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 125,
+      "base": 130,
       "variants": [
         {
           "models": 6,
-          "points": 280
+          "points": 290
         }
       ]
     },
@@ -2632,7 +2644,7 @@
     },
     "stats": {
       "M": "12\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "2",
       "LD": "6+",
@@ -2684,7 +2696,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 125,
+      "base": 135,
       "variants": []
     },
     "composition": {
@@ -2695,7 +2707,7 @@
       "M": "5\"",
       "T": "5",
       "SV": "3+",
-      "W": "2",
+      "W": "3",
       "LD": "6+",
       "OC": "1"
     },
@@ -2790,10 +2802,10 @@
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         }
       ]
     },
@@ -3076,7 +3088,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 70,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -3450,7 +3462,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This unit can be attached to the following unit:\n- TRAITOR GUARDSMAN SQUAD"
+        "description": "This unit can be attached to the following unit: TRAITOR GUARDSMAN SQUAD"
       },
       {
         "name": "Brutal Example",
@@ -3467,7 +3479,8 @@
     ],
     "keywords": [
       "Character",
-      "Damned"
+      "Damned",
+      "Leader"
     ]
   },
   {
@@ -3531,8 +3544,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         }
@@ -3577,7 +3590,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 145,
+      "base": 140,
       "variants": []
     },
     "composition": {
@@ -3621,8 +3634,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         },
@@ -3687,7 +3700,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 150,
+      "base": 145,
       "variants": []
     },
     "composition": {
@@ -3731,8 +3744,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         },
@@ -3797,7 +3810,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 185,
+      "base": 180,
       "variants": []
     },
     "composition": {
@@ -3841,8 +3854,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         }
@@ -3887,7 +3900,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 160,
+      "base": 155,
       "variants": []
     },
     "composition": {
@@ -3976,7 +3989,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 130,
+      "base": 125,
       "variants": []
     },
     "composition": {
@@ -4236,7 +4249,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 130,
+      "base": 125,
       "variants": []
     },
     "composition": {
@@ -4349,8 +4362,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         }
@@ -4581,11 +4594,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 160,
+      "base": 170,
       "variants": [
         {
           "models": 10,
-          "points": 320
+          "points": 330
         }
       ]
     },
@@ -4595,7 +4608,7 @@
     },
     "stats": {
       "M": "8\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "2",
       "LD": "6+",
@@ -4611,10 +4624,10 @@
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Khornate eviscerator",
@@ -4632,6 +4645,10 @@
       {
         "name": "Blood Surge",
         "description": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6 and add 2 to the roll: models in this unit move a number of inches up to this result, but this unit must finish that move as close as possible to the closest enemy unit (excluding **Aircraft**). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Blood Surge move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Blood Surge move per phase."
+      },
+      {
+        "name": "Murderous Charge",
+        "description": "If this unit made a charge move this turn, this unit’s melee attacks have +1 S."
       }
     ],
     "special_rules": [
@@ -4655,11 +4672,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 100,
+      "base": 115,
       "variants": [
         {
           "models": 5,
-          "points": 190
+          "points": 210
         }
       ]
     },
@@ -4669,7 +4686,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "3",
       "LD": "6+",
@@ -4694,8 +4711,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "-1",
+          "S": "5",
+          "AP": "-2",
           "D": "1",
           "Keywords": "Pistol"
         },
@@ -4714,10 +4731,10 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Warpflamer",
@@ -4756,10 +4773,10 @@
           "Range": "Melee",
           "A": "2",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         }
       ]
     },
@@ -4806,7 +4823,7 @@
         },
         {
           "models": 8,
-          "points": 180
+          "points": 175
         }
       ]
     },
@@ -4831,18 +4848,18 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits"
         },
         {
-          "name": "Plague bolt pistol",
+          "name": "Bolt pistol",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits"
         },
@@ -4893,8 +4910,8 @@
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits"
         },
@@ -5299,7 +5316,8 @@
       "Tzeentch",
       "Sorcerer",
       "Disc of Tzeentch",
-      "Faction: Heretic Astartes"
+      "Faction: Heretic Astartes",
+      "Leader"
     ]
   },
   {
@@ -5482,7 +5500,8 @@
       "Chaos",
       "Nurgle",
       "Sorcerer",
-      "Palanquin of Nurgle"
+      "Palanquin of Nurgle",
+      "Leader"
     ]
   },
   {
@@ -5628,7 +5647,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- CHOSEN\n- LEGIONARIES\n"
+        "description": "This model can be attached to the following unit: CHOSEN, LEGIONARIES\n"
       },
       {
         "name": "Revolting Regeneration",
@@ -5651,7 +5670,8 @@
       "Nurgle",
       "Chaos Lord",
       "Palanquin of Nurgle",
-      "Faction: Heretic Astartes"
+      "Faction: Heretic Astartes",
+      "Leader"
     ]
   },
   {
@@ -5787,7 +5807,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- CHOSEN\n- LEGIONARIES\n"
+        "description": "This model can be attached to the following unit: CHOSEN, LEGIONARIES\n"
       },
       {
         "name": "Lord of Fate",
@@ -5809,7 +5829,8 @@
       "Chaos",
       "Tzeentch",
       "Chaos Lord",
-      "Disc of Tzeentch"
+      "Disc of Tzeentch",
+      "Leader"
     ]
   },
   {
@@ -5955,7 +5976,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- CHAOS BIKERS\n"
+        "description": "This model can be attached to the following unit: CHAOS BIKERS\n"
       },
       {
         "name": "Bloody Stampede",
@@ -5978,7 +5999,8 @@
       "Chaos",
       "Khorne",
       "Chaos Lord",
-      "Juggernaut"
+      "Juggernaut",
+      "Leader"
     ]
   },
   {
@@ -6124,7 +6146,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- CHAOS BIKERS"
+        "description": "This model can be attached to the following unit: CHAOS BIKERS"
       },
       {
         "name": "Cut Off Their Escape",
@@ -6147,7 +6169,8 @@
       "Chaos",
       "Slaanesh",
       "Chaos Lord",
-      "Steed of Slaanesh"
+      "Steed of Slaanesh",
+      "Leader"
     ]
   },
   {
@@ -6303,7 +6326,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- CHAOS BIKERS"
+        "description": "This model can be attached to the following unit: CHAOS BIKERS"
       },
       {
         "name": "Infernal Speed",
@@ -6332,7 +6355,8 @@
       "Chaos",
       "Slaanesh",
       "Sorcerer",
-      "Steed of Slaanesh"
+      "Steed of Slaanesh",
+      "Leader"
     ]
   },
   {
@@ -6586,7 +6610,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- TRAITOR GUARDSMEN SQUAD\n- RENEGADE HEAVY WEAPONS SQUAD"
+        "description": "This model can be attached to the following units: RENEGADE HEAVY WEAPONS SQUAD, TRAITOR GUARDSMEN SQUAD"
       }
     ],
     "special_rules": [
@@ -6603,7 +6627,8 @@
       "Grenades",
       "Chaos",
       "Renegade Enforcer",
-      "Damned"
+      "Damned",
+      "Leader"
     ]
   },
   {
@@ -7024,7 +7049,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- ACCURSED CULTISTS\n- CULTIST MOB\n- NEGAVOLT CULTISTS"
+        "description": "This model can be attached to the following units: ACCURSED CULTISTS, CULTIST MOB, CULTIST MOB WITH FIREARMS, NEGAVOLT CULTISTS"
       },
       {
         "name": "Cursed Wardings (Psychic)",
@@ -7051,7 +7076,8 @@
       "Psyker",
       "Chaos",
       "Rogue Psyker",
-      "Damned"
+      "Damned",
+      "Leader"
     ]
   },
   {
@@ -7259,7 +7285,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- CHAOS BIKERS"
+        "description": "This model can be attached to the following unit: CHAOS BIKERS"
       },
       {
         "name": "Prescience (Psychic)",
@@ -7284,7 +7310,8 @@
       "Grenades",
       "Psyker",
       "Chaos",
-      "Sorcerer on Bike"
+      "Sorcerer on Bike",
+      "Leader"
     ]
   },
   {
@@ -7491,7 +7518,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- CHAOS BIKERS"
+        "description": "This model can be attached to the following unit: CHAOS BIKERS"
       },
       {
         "name": "Swift Assault",
@@ -7510,7 +7537,8 @@
       "Character",
       "Grenades",
       "Chaos",
-      "Chaos Lord on Bike"
+      "Chaos Lord on Bike",
+      "Leader"
     ]
   },
   {
@@ -7643,7 +7671,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 80,
+      "base": 85,
       "variants": []
     },
     "composition": {
@@ -7652,7 +7680,7 @@
     },
     "stats": {
       "M": "12\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "5",
       "LD": "6+",
@@ -7729,7 +7757,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- RAPTORS"
+        "description": "This model can be attached to the following units: RAPTORS"
       },
       {
         "name": "Cruel Hunter",
@@ -7750,7 +7778,8 @@
       "Infantry",
       "Fly",
       "Grenades",
-      "Chaos"
+      "Chaos",
+      "Leader"
     ]
   },
   {
@@ -7814,7 +7843,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- ACCURSED CULTISTS\n- CULTIST MOB"
+        "description": "This model can be attached to the following units: ACCURSED CULTISTS, CULTIST MOB, CULTIST MOB WITH FIREARMS, NEGAVOLT CULTISTS"
       }
     ],
     "special_rules": [
@@ -7830,7 +7859,8 @@
       "Grenades",
       "Chaos",
       "Damned",
-      "Cultist Firebrand"
+      "Cultist Firebrand",
+      "Leader"
     ]
   },
   {
@@ -7959,11 +7989,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 100,
+      "base": 105,
       "variants": [
         {
           "models": 6,
-          "points": 180
+          "points": 190
         }
       ]
     },
@@ -7973,7 +8003,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "2",
       "LD": "6+",
@@ -8050,7 +8080,7 @@
           "Range": "Melee",
           "A": "5",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
           "Keywords": "Sustained Hits 1"
@@ -8128,7 +8158,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 145,
+      "base": 160,
       "variants": []
     },
     "composition": {
@@ -8139,7 +8169,7 @@
       "M": "6\"",
       "T": "5",
       "SV": "3+",
-      "W": "2",
+      "W": "3",
       "LD": "6+",
       "OC": "1"
     },
@@ -8194,10 +8224,10 @@
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Power sword",
@@ -8237,7 +8267,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 145,
+      "base": 150,
       "variants": []
     },
     "composition": {
@@ -8370,12 +8400,17 @@
         "description": "Once per battle, after this unit ends a Normal move, you can select one visible enemy unit within 12\" of it and roll one D6: on a 2+, that enemy unit suffers D3+1 mortal wounds."
       },
       {
+        "name": "Support",
+        "description": "This unit can be attached to the following units: CHOSEN, LEGIONARIES, RED CORSAIRS RAIDERS"
+      },
+      {
         "name": "Choice Samples",
         "description": "While this unit's Garreon the Corpsemaster model is on the battlefield, in your Command phase, select one of the following: you can return one destroyed model (excluding **Character** models) to this unit, or, if one or more **Heretic Astartes Infantry** units from your army are below Starting Strength and within 3\" of this unit, you gain 1CP."
       }
     ],
     "special_rules": [
       "Dark Pacts",
+      "Support",
       "Pistol",
       "Psychic",
       "Precision",
@@ -8400,11 +8435,11 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 110,
+      "base": 120,
       "variants": [
         {
           "models": 6,
-          "points": 210
+          "points": 220
         }
       ]
     },
@@ -8414,7 +8449,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "3",
       "LD": "6+",
@@ -8500,7 +8535,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 60,
+      "base": 65,
       "variants": []
     },
     "composition": {
@@ -8509,7 +8544,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "5",
       "LD": "6+",
@@ -8584,7 +8619,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Chosen, Legionaries, Red Corsairs Raiders**"
+        "description": "This model can be attached to the following units: CHOSEN, LEGIONARIES, NEMESIS CLAW, RED CORSAIRS RAIDERS"
       }
     ],
     "special_rules": [
@@ -8598,7 +8633,8 @@
       "Character",
       "Infantry",
       "Chaos",
-      "Red Corsairs Reave-captain"
+      "Red Corsairs Reave-captain",
+      "Leader"
     ]
   },
   {
@@ -8941,7 +8977,7 @@
     "faction": "Chaos Space Marines",
     "faction_type": "Chaos",
     "points": {
-      "base": 120,
+      "base": 130,
       "variants": []
     },
     "composition": {
@@ -8950,7 +8986,7 @@
     },
     "stats": {
       "M": "5\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "6",
       "LD": "6+",
@@ -9015,7 +9051,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Chaos Terminator Squad, Mutilators, Obliterators.**"
+        "description": "This model can be attached to the following units: CHAOS TERMINATOR SQUAD, MUTILATORS, OBLITERATORS"
       }
     ],
     "special_rules": [
@@ -9037,7 +9073,8 @@
       "Chaos",
       "Chaos Undivided",
       "Terminator",
-      "Kravek Morne"
+      "Kravek Morne",
+      "Leader"
     ]
   }
 ]

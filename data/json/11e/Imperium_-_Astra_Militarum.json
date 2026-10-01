@@ -415,7 +415,7 @@
         "description": "In your Shooting phase, just after selecting a target for this model’s tremor cannon, the target unit and every other enemy **Infantry** unit within 3\" of that unit must take a Battle-shock test."
       },
       {
-        "name": "Transport",
+        "name": "Banehammer",
         "description": "This model has a transport capacity of 26 **Astra Militarum Infantry models**. Each **Ogryn** model takes up the space of 3 models. It cannot transport **Artillery** models."
       }
     ],
@@ -1640,7 +1640,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 125,
+      "base": 115,
       "variants": []
     },
     "composition": {
@@ -1949,7 +1949,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 130,
+      "base": 120,
       "variants": []
     },
     "composition": {
@@ -8971,8 +8971,7 @@
       "Squadron",
       "Smoke",
       "Sentinel Powerlifter",
-      "Faction: Astra Militarum",
-      "Frame"
+      "Faction: Astra Militarum"
     ]
   },
   {
@@ -10239,7 +10238,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 75,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -11433,7 +11432,7 @@
     "faction": "Astra Militarum",
     "faction_type": "Imperium",
     "points": {
-      "base": 120,
+      "base": 110,
       "variants": []
     },
     "composition": {
@@ -11647,7 +11646,8 @@
       "Vehicle",
       "Squadron",
       "Commissar Graves",
-      "Character"
+      "Character",
+      "Frame"
     ]
   },
   {
@@ -11730,7 +11730,8 @@
       "Commissar Graves",
       "Character",
       "Infantry",
-      "Leader"
+      "Leader",
+      "Officer"
     ]
   },
   {
@@ -11852,7 +11853,8 @@
       "Vehicle",
       "Squadron",
       "Smoke",
-      "Hippogriff AFV"
+      "Hippogriff AFV",
+      "Frame"
     ]
   },
   {
@@ -11924,7 +11926,8 @@
       "Vehicle",
       "Centaur RSV",
       "Dedicated Transport",
-      "Transport"
+      "Transport",
+      "Frame"
     ]
   },
   {

@@ -6,7 +6,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 195,
+      "base": 185,
       "variants": []
     },
     "composition": {
@@ -94,7 +94,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 170,
+      "base": 160,
       "variants": []
     },
     "composition": {
@@ -181,7 +181,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 100,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -226,7 +226,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Blightlord Terminators**\n- **Deathshroud Terminators**\n- **Poxwalkers**"
+        "description": "This model can be attached to the following units: BLIGHTLORD TERMINATORS, DEATHSHROUD TERMINATORS, POXWALKERS"
       },
       {
         "name": "The Destroyer Hive",
@@ -379,7 +379,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- PLAGUE MARINES"
+        "description": "This model can be attached to the following unit: PLAGUE MARINES"
       }
     ],
     "special_rules": [
@@ -496,7 +496,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- BLIGHTLORD TERMINATORS\n- DEATHSHROUD TERMINATORS"
+        "description": "This model can be attached to the following units: BLIGHTLORD TERMINATORS, DEATHSHROUD TERMINATORS"
       }
     ],
     "special_rules": [
@@ -526,7 +526,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 100,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -580,7 +580,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Blightlord Terminators**\n- **Deathshroud Terminators**"
+        "description": "This model can be attached to the following units: BLIGHTLORD TERMINATORS, DEATHSHROUD TERMINATORS"
       }
     ],
     "special_rules": [
@@ -611,7 +611,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 120,
+      "base": 110,
       "variants": []
     },
     "composition": {
@@ -664,7 +664,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Blightlord Terminators**\n- **Deathshroud Terminators**"
+        "description": "This model can be attached to the following units: BLIGHTLORD TERMINATORS, DEATHSHROUD TERMINATORS"
       }
     ],
     "special_rules": [
@@ -808,7 +808,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- BLIGHTLORD TERMINATORS\n- DEATHSHROUD TERMINATORS"
+        "description": "This model can be attached to the following units: BLIGHTLORD TERMINATORS, DEATHSHROUD TERMINATORS"
       },
       {
         "name": "Putrescent Vitality (Psychic)",
@@ -872,8 +872,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits, Pistol"
         },
@@ -922,7 +922,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n**Plague Marines**, **Poxwalkers**"
+        "description": "This model can be attached to the following units: PLAGUE MARINES, POXWALKERS"
       }
     ],
     "special_rules": [
@@ -959,7 +959,7 @@
         },
         {
           "models": 8,
-          "points": 180
+          "points": 175
         }
       ]
     },
@@ -984,8 +984,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits, Pistol"
         },
@@ -994,8 +994,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits"
         },
@@ -1086,8 +1086,8 @@
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits"
         },
@@ -1402,7 +1402,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Plague Marines**, **Poxwalkers**\n*You can attach this model to a **Plague Marines** or **Poxwalkers** unit, even if one other Leader unit has already been attached to it (you cannot attach more than one of the same Leader to the same unit). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.*"
+        "description": "This model can be attached to the following units: PLAGUE MARINES, POXWALKERS"
       }
     ],
     "special_rules": [
@@ -1463,10 +1463,10 @@
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         }
       ]
     },
@@ -1551,8 +1551,8 @@
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits"
         }
@@ -1643,10 +1643,10 @@
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         }
       ]
     },
@@ -1705,8 +1705,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits, Pistol"
         }
@@ -1756,7 +1756,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 160,
+      "base": 150,
       "variants": [
         {
           "models": 4,
@@ -1844,7 +1844,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 110,
+      "base": 105,
       "variants": []
     },
     "composition": {
@@ -1888,8 +1888,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits, Rapid Fire 2"
         },
@@ -2036,11 +2036,11 @@
       "variants": [
         {
           "models": 4,
-          "points": 180
+          "points": 185
         },
         {
           "models": 6,
-          "points": 360
+          "points": 370
         }
       ]
     },
@@ -2065,8 +2065,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         },
@@ -2075,8 +2075,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits, Rapid Fire 2"
         },
@@ -2127,10 +2127,10 @@
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Flail of corruption",
@@ -2591,8 +2591,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits, Rapid Fire 2"
         },
@@ -2601,8 +2601,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         }
@@ -2648,7 +2648,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 135,
+      "base": 130,
       "variants": []
     },
     "composition": {
@@ -2692,8 +2692,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits, Rapid Fire 2"
         },
@@ -2702,8 +2702,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         },
@@ -2769,7 +2769,7 @@
     "faction": "Death Guard",
     "faction_type": "Chaos",
     "points": {
-      "base": 145,
+      "base": 140,
       "variants": []
     },
     "composition": {
@@ -2813,8 +2813,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits, Rapid Fire 2"
         },
@@ -2823,8 +2823,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         },
@@ -2914,8 +2914,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits, Rapid Fire 2"
         },
@@ -2934,8 +2934,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         }
@@ -3118,8 +3118,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits"
         }
@@ -3130,8 +3130,8 @@
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits"
         }
@@ -4021,7 +4021,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n- **Plague Marines**"
+        "description": "This model can be attached to the following units: PLAGUE MARINES"
       },
       {
         "name": "Gift of Poxes",

@@ -200,7 +200,8 @@
       "Epic Hero",
       "Imperium",
       "Chapter Master",
-      "Logan Grimnar on Stormrider"
+      "Logan Grimnar on Stormrider",
+      "Leader"
     ]
   },
   {
@@ -769,7 +770,8 @@
       "Grenades",
       "Imperium",
       "Captain",
-      "Krom Dragongaze"
+      "Krom Dragongaze",
+      "Leader"
     ]
   },
   {
@@ -860,7 +862,8 @@
       "Grenades",
       "Imperium",
       "Captain",
-      "Harald Deathwolf"
+      "Harald Deathwolf",
+      "Leader"
     ]
   },
   {
@@ -950,7 +953,8 @@
       "Character",
       "Epic Hero",
       "Imperium",
-      "Canis Wolfborn"
+      "Canis Wolfborn",
+      "Leader"
     ]
   },
   {
@@ -1090,7 +1094,8 @@
       "Character",
       "Imperium",
       "Terminator",
-      "Wolf Guard Battle Leader in Terminator Armour"
+      "Wolf Guard Battle Leader in Terminator Armour",
+      "Leader"
     ]
   },
   {
@@ -1270,7 +1275,8 @@
       "Grenades",
       "Imperium",
       "Captain",
-      "Wolf Lord on Thunderwolf"
+      "Wolf Lord on Thunderwolf",
+      "Leader"
     ]
   },
   {
@@ -1426,7 +1432,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n\n- Thunderwolf Cavalry\n\nYou can attach this model to the above unit even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        "description": "This model can be attached to the following unit:\n\n- Thunderwolf Cavalry\n"
       },
       {
         "name": "Aggressive Hunter",
@@ -1448,7 +1454,8 @@
       "Character",
       "Grenades",
       "Imperium",
-      "Wolf Guard Battle Leader on Thunderwolf"
+      "Wolf Guard Battle Leader on Thunderwolf",
+      "Leader"
     ]
   },
   {
@@ -1898,7 +1905,8 @@
       "Epic Hero",
       "Grenades",
       "Imperium",
-      "Lukas the Trickster"
+      "Lukas the Trickster",
+      "Leader"
     ]
   },
   {
@@ -2046,7 +2054,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": "6+",
+    "invuln_save": "6+*",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -3374,8 +3382,8 @@
     },
     "abilities": [
       {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Blood Claws\n- Grey Hunters\n- Long Fangs\n\nYou must attach this model to one of the above units, and can do so even if one or more Character units have already been attached to that unit, but a unit can never include more than one Pack Leader model. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed."
+        "name": "Support",
+        "description": "This model can be attached to the following units:\n\n- Blood Claws\n- Grey Hunters\n- Long Fangs\n"
       },
       {
         "name": "Storm Shield",
@@ -3383,7 +3391,8 @@
       }
     ],
     "special_rules": [
-      "Oath of Moment"
+      "Oath of Moment",
+      "Support"
     ],
     "keywords": [
       "Faction: Adeptus Astartes",
@@ -3393,7 +3402,8 @@
       "Grenades",
       "Imperium",
       "Pack Leader",
-      "Wolf Guard Pack Leader"
+      "Wolf Guard Pack Leader",
+      "Support"
     ]
   },
   {
@@ -3548,8 +3558,8 @@
     },
     "abilities": [
       {
-        "name": "Leader",
-        "description": "This model can be attached to the following unit:\n\n- Skyclaws\n\nYou must attach this model to the above unit, and can do so even if one or more Character units have already been attached to that unit, but a unit can never include more than one Pack Leader model. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed."
+        "name": "Support",
+        "description": "This model can be attached to the following unit: Skyclaws\n\n\n"
       },
       {
         "name": "Storm Shield",
@@ -3557,7 +3567,8 @@
       }
     ],
     "special_rules": [
-      "Oath of Moment"
+      "Oath of Moment",
+      "Support"
     ],
     "keywords": [
       "Faction: Adeptus Astartes",
@@ -3569,7 +3580,8 @@
       "Grenades",
       "Imperium",
       "Pack Leader",
-      "Wolf Guard Pack Leader with Jump Pack"
+      "Wolf Guard Pack Leader with Jump Pack",
+      "Support"
     ]
   },
   {
@@ -3714,8 +3726,8 @@
     },
     "abilities": [
       {
-        "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Blood Claws\n- Grey Hunters\n- Long Fangs\n\nYou must attach this model to one of the above units, and can do so even if one or more Character units have already been attached to that unit, but a unit can never include more than one Pack Leader model. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed."
+        "name": "Support",
+        "description": "This model can be attached to the following units:\n\n- Blood Claws\n- Grey Hunters\n- Long Fangs\n"
       },
       {
         "name": "Storm Shield",
@@ -3724,6 +3736,7 @@
     ],
     "special_rules": [
       "Oath of Moment",
+      "Support",
       "Blast"
     ],
     "keywords": [
@@ -3735,7 +3748,8 @@
       "Imperium",
       "Terminator",
       "Pack Leader",
-      "Wolf Guard Pack Leader in Terminator Armour"
+      "Wolf Guard Pack Leader in Terminator Armour",
+      "Support"
     ]
   },
   {
@@ -3882,12 +3896,8 @@
         "description": "Each time this model makes an attack that targets an enemy unit that is Below Half-strength, add 1 to the Hit roll and add 1 to the Wound roll."
       },
       {
-        "name": "Invulnerable Save",
-        "description": "6+"
-      },
-      {
-        "name": "Leader",
-        "description": "This model can be attached to the following unit:\n\n- Fenrisian Wolves\n\nYou must attach this model to the above unit, even if Canis Wolfborn has been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed."
+        "name": "Support",
+        "description": "This model can be attached to the following unit:\n\n- Fenrisian Wolves\n\n"
       },
       {
         "name": "Wolfkin",
@@ -3895,7 +3905,8 @@
       }
     ],
     "special_rules": [
-      "Oath of Moment"
+      "Oath of Moment",
+      "Support"
     ],
     "keywords": [
       "Faction: Adeptus Astartes",
@@ -3903,7 +3914,8 @@
       "Beast",
       "Character",
       "Imperium",
-      "Cyberwolf"
+      "Cyberwolf",
+      "Support"
     ]
   },
   {
@@ -4488,7 +4500,8 @@
       "Imperium",
       "Iron Priest",
       "Faction: Adeptus Astartes",
-      "Faction: Space Wolves"
+      "Faction: Space Wolves",
+      "Leader"
     ]
   },
   {
@@ -4781,7 +4794,7 @@
       "variants": [
         {
           "models": 4,
-          "points": 220
+          "points": 230
         }
       ]
     },
@@ -4827,7 +4840,7 @@
     ]
   },
   {
-    "name": "Wolf Guard Headtakers",
+    "name": "Wolf Guard Headtaker w/ Storm Shield",
     "id": "c135-aa4c-6d86-2e05",
     "type": "model",
     "faction": "Space Wolves",
@@ -4848,7 +4861,7 @@
       "LD": "6+",
       "OC": "1"
     },
-    "invuln_save": null,
+    "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
@@ -4868,16 +4881,6 @@
           "name": "Master-crafted Power Weapon",
           "Range": "Melee",
           "A": "4",
-          "WS": "3+",
-          "S": "5",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": null
-        },
-        {
-          "name": "Paired Master-crafted Power Weapons",
-          "Range": "Melee",
-          "A": "6",
           "WS": "3+",
           "S": "5",
           "AP": "-2",
@@ -4986,6 +4989,66 @@
       "Wolf Scouts",
       "Faction: Adeptus Astartes",
       "Faction: Space Wolves"
+    ]
+  },
+  {
+    "name": "Wolf Guard Headtaker w/ paired weapons",
+    "id": "da7c-dd1e-c52f-76c9",
+    "type": "model",
+    "faction": "Space Wolves",
+    "faction_type": "Imperium",
+    "points": {
+      "base": null,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "invuln_save": null,
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Pistol"
+        }
+      ],
+      "melee": [
+        {
+          "name": "Paired Master-crafted Power Weapons",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": null
+        }
+      ]
+    },
+    "abilities": [],
+    "special_rules": [],
+    "keywords": [
+      "Infantry",
+      "Imperium",
+      "Tacticus",
+      "Wolf Guard",
+      "Headtakers"
     ]
   }
 ]

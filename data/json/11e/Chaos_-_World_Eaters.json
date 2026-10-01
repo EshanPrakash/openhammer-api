@@ -97,7 +97,7 @@
     },
     "stats": {
       "M": "8\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "5",
       "LD": "6+",
@@ -156,7 +156,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit: **Khorne Berzerkers**"
+        "description": "This model can be attached to the following unit: KHORNE BERZERKERS"
       }
     ],
     "special_rules": [
@@ -205,8 +205,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Pistol"
         }
@@ -237,7 +237,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Eightbound**, **Exalted Eightbound**, **Khorne Berzerkers**"
+        "description": "This model can be attached to the following units: EIGHTBOUND, EXALTED EIGHTBOUND, KHORNE BERZERKERS"
       },
       {
         "name": "Fire Riders",
@@ -525,7 +525,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Eightbound**, **Exalted Eightbound**, **Khorne Berzerkers**"
+        "description": "This model can be attached to the following units: EIGHTBOUND, EXALTED EIGHTBOUND, KHORNE BERZERKERS"
       }
     ],
     "special_rules": [
@@ -559,7 +559,7 @@
     },
     "stats": {
       "M": "8\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "4",
       "LD": "6+",
@@ -574,8 +574,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Pistol"
         }
@@ -596,7 +596,7 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit: **Khorne Berzerkers**"
+        "description": "This model can be attached to the following unit: KHORNE BERZERKERS"
       },
       {
         "name": "A Worthy Skull",
@@ -624,104 +624,17 @@
     ]
   },
   {
-    "name": "Khorne Berzerkers",
-    "id": "f909-00c7-8ba4-018a",
-    "type": "unit",
-    "faction": "World Eaters",
-    "faction_type": "Chaos",
-    "points": {
-      "base": 160,
-      "variants": [
-        {
-          "models": 10,
-          "points": 320
-        }
-      ]
-    },
-    "composition": {
-      "min_models": 5,
-      "max_models": 4
-    },
-    "stats": {
-      "M": "8\"",
-      "T": "4",
-      "SV": "3+",
-      "W": "2",
-      "LD": "6+",
-      "OC": "2"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Bolt pistol",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "4+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Pistol"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Chainblade",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "3+",
-          "S": "4",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": null
-        },
-        {
-          "name": "Khornate eviscerator",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "3+",
-          "S": "8",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": null
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Blood Surge",
-        "description": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6+2\"."
-      }
-    ],
-    "special_rules": [
-      "Blessings of Khorne",
-      "Deep Strike",
-      "Hazardous",
-      "Pistol"
-    ],
-    "keywords": [
-      "Faction: World Eaters",
-      "Infantry",
-      "Battleline",
-      "Grenades",
-      "Chaos",
-      "Khorne",
-      "Berzerkers"
-    ]
-  },
-  {
     "name": "Chaos Terminators",
     "id": "45f6-8429-a1d9-2a51",
     "type": "unit",
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 165,
+      "base": 175,
       "variants": [
         {
           "models": 5,
-          "points": 330
+          "points": 350
         }
       ]
     },
@@ -731,7 +644,7 @@
     },
     "stats": {
       "M": "7\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "3",
       "LD": "6+",
@@ -746,8 +659,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
         },
@@ -756,8 +669,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 4"
         },
@@ -866,7 +779,7 @@
       "variants": [
         {
           "models": 10,
-          "points": 130
+          "points": 120
         }
       ]
     },
@@ -969,7 +882,7 @@
       "variants": [
         {
           "models": 3,
-          "points": 255
+          "points": 250
         }
       ]
     },
@@ -1034,7 +947,7 @@
       "variants": [
         {
           "models": 3,
-          "points": 265
+          "points": 260
         }
       ]
     },
@@ -1084,7 +997,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 220,
+      "base": 200,
       "variants": []
     },
     "composition": {
@@ -1138,8 +1051,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 4"
         },
@@ -1148,8 +1061,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
         }
@@ -1240,8 +1153,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 4"
         },
@@ -1250,8 +1163,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
         },
@@ -1362,8 +1275,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 4"
         },
@@ -1372,8 +1285,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
         },
@@ -1732,8 +1645,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 4"
         },
@@ -2081,8 +1994,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 4"
         },
@@ -2101,8 +2014,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
         }
@@ -2498,7 +2411,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 75,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -2589,7 +2502,7 @@
     "faction": "World Eaters",
     "faction_type": "Chaos",
     "points": {
-      "base": 100,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -2632,7 +2545,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: **Eightbound**, **Exalted Eightbound**"
+        "description": "This model can be attached to the following units: EIGHTBOUND, EXALTED EIGHTBOUND"
       },
       {
         "name": "Lord of the Eightbound",

@@ -6,7 +6,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 315,
+      "base": 330,
       "variants": []
     },
     "composition": {
@@ -276,7 +276,8 @@
       "Khorne",
       "Skulltaker",
       "Khorne non-Battleline",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -348,7 +349,8 @@
       "Bloodmaster",
       "Khorne non-Battleline",
       "Shadow Legion",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -430,7 +432,8 @@
       "Skullmaster",
       "Khorne non-Battleline",
       "Shadow Legion",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -600,7 +603,8 @@
       "Karanak",
       "Khorne non-Battleline",
       "Faction: Legiones Daemonica",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -676,7 +680,7 @@
       "variants": [
         {
           "models": 4,
-          "points": 200
+          "points": 210
         }
       ]
     },
@@ -748,7 +752,7 @@
     "faction": "Daemons",
     "faction_type": "Chaos",
     "points": {
-      "base": 75,
+      "base": 80,
       "variants": [
         {
           "models": 6,
@@ -1647,7 +1651,8 @@
       "Fateskimmer",
       "Tzeentch non-Battleline",
       "Shadow Legion",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -1743,7 +1748,8 @@
       "Fluxmaster",
       "Tzeentch non-Battleline",
       "Shadow Legion",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -1907,7 +1913,8 @@
       "Changecaster",
       "Tzeentch non-Battleline",
       "Shadow Legion",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -2311,7 +2318,8 @@
       "Exalted Flamer",
       "Tzeentch non-Battleline",
       "Shadow Legion",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -2770,7 +2778,8 @@
       "Poxbringer",
       "Nurgle non-Battleline",
       "Shadow Legion",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -2856,7 +2865,8 @@
       "Spoilpox Scrivener",
       "Nurgle non-Battleline",
       "Shadow Legion",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -2929,7 +2939,8 @@
       "Nurgle",
       "Epidemius",
       "Nurgle non-Battleline",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -3002,7 +3013,8 @@
       "Sloppity Bilepiper",
       "Nurgle non-Battleline",
       "Shadow Legion",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -3087,7 +3099,8 @@
       "Nurgle",
       "Horticulous Slimux",
       "Nurgle non-Battleline",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -3774,7 +3787,8 @@
       "Infernal Enrapturess",
       "Slaanesh non-Battleline",
       "Shadow Legion",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -3965,7 +3979,8 @@
       "Daemon",
       "Slaanesh",
       "Syll'esske",
-      "Slaanesh non-Battleline"
+      "Slaanesh non-Battleline",
+      "Leader"
     ]
   },
   {
@@ -4050,7 +4065,8 @@
       "Contorted Epitome",
       "Slaanesh non-Battleline",
       "Shadow Legion",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -4160,7 +4176,8 @@
       "Tormentbringer",
       "Slaanesh non-Battleline",
       "Shadow Legion",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -4235,7 +4252,8 @@
       "Tranceweaver",
       "Slaanesh non-Battleline",
       "Shadow Legion",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {
@@ -5481,7 +5499,8 @@
       "Herald of Slaanesh",
       "Shadow Legion",
       "Slaanesh non-Battleline",
-      "Non-Monster Character"
+      "Non-Monster Character",
+      "Leader"
     ]
   },
   {

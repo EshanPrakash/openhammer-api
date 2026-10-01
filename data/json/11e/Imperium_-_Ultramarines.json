@@ -159,7 +159,8 @@
       "Chaplain Cassius",
       "Imperium",
       "Faction: Adeptus Astartes",
-      "Faction: Ultramarines"
+      "Faction: Ultramarines",
+      "Leader"
     ]
   },
   {
@@ -243,7 +244,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- DESOLATION SQUAD\n- DEVASTATOR SQUAD\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- TACTICAL SQUAD"
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, DESOLATION SQUAD, DEVASTATOR SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD"
       }
     ],
     "special_rules": [
@@ -612,7 +613,8 @@
       "Imperium",
       "Sergeant Telion",
       "Faction: Adeptus Astartes",
-      "Faction: Ultramarines"
+      "Faction: Ultramarines",
+      "Leader"
     ]
   },
   {
@@ -766,7 +768,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- COMPANY HEROES\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- TACTICAL SQUAD"
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, COMMAND SQUAD, COMPANY HEROES, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD, VICTRIX HONOUR GUARD"
       }
     ],
     "special_rules": [
@@ -1021,7 +1023,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n\n- AGGRESSOR SQUAD\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- COMPANY HEROES\n- ERADICATOR SQUAD\n- HEAVY INTERCESSOR SQUAD\n- INFERNUS SQUAD\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- TACTICAL SQUAD\n- TERMINATOR ASSAULT SQUAD\n- TERMINATOR SQUAD\n- VICTRIX HONOUR GUARD"
+        "description": "This model can be attached to the following units: AGGRESSOR SQUAD, ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, COMMAND SQUAD, COMPANY HEROES, ERADICATOR SQUAD STERNGUARD VETERAN SQUAD TERMINATOR SQUAD, HEAVY INTERCESSOR SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, RELIC TERMINATOR SQUAD, TACTICAL SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD, VANGUARD VETERAN SQUAD, VICTRIX HONOUR GUARD"
       }
     ],
     "special_rules": [
@@ -1303,7 +1305,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Anti-infantry 2+"
+          "Keywords": "Anti-Infantry 2+"
         }
       ]
     },
@@ -1314,11 +1316,11 @@
       },
       {
         "name": "Honour of Ultramar",
-        "description": "If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+,\ndo not remove it from play. This model can fight after the attacking unit has finished making its attacks. If one or more enemy models are destroyed as a result of those attacks, this model regains D3 lost wounds and is not destroyed; otherwise, it is removed from play."
+        "description": "If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. This model can fight after the attacking unit has finished making its attacks. If one or more enemy models are destroyed as a result of those attacks, this model regains D3 lost wounds and is not destroyed; otherwise, it is removed from play."
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: \n\n\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- COMPANY HEROES\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- VICTRIX HONOUR GUARD\n- WARDENS OF ULTRAMAR"
+        "description": "This model can be attached to the following units: \n\n- ASSAULT INTERCESSOR SQUAD\n- ASSAULT SQUAD\n- BLADEGUARD VETERAN SQUAD\n- COMMAND SQUAD\n- COMPANY HEROES\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- VANGUARD VETERAN SQUAD\n- VICTRIX HONOUR GUARD\n- WARDENS OF ULTRAMAR"
       }
     ],
     "special_rules": [
@@ -1461,6 +1463,10 @@
       {
         "name": "Strategium Command",
         "description": "After both players have deployed their armies, if this unit is on the battlefield (or any Transport it\nis embarked within is on the battlefield), select up to three Adeptus Astartes units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+      },
+      {
+        "name": "Support",
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD"
       },
       {
         "name": "Storm Shield",

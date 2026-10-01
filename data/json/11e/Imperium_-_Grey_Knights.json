@@ -6,7 +6,7 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 95,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -15,7 +15,7 @@
     },
     "stats": {
       "M": "5\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "6",
       "LD": "6+",
@@ -30,8 +30,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -177,7 +177,8 @@
       "Leader",
       "Deep Strike",
       "Gate of Infinity",
-      "Psychic"
+      "Psychic",
+      "Rapid Fire"
     ],
     "keywords": [
       "Epic Hero",
@@ -198,7 +199,7 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 70,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -207,7 +208,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "4",
       "LD": "6+",
@@ -222,8 +223,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         }
@@ -279,7 +280,7 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 65,
+      "base": 70,
       "variants": []
     },
     "composition": {
@@ -288,7 +289,7 @@
     },
     "stats": {
       "M": "5\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "5",
       "LD": "5+",
@@ -303,8 +304,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         }
@@ -355,7 +356,7 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 90,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -364,7 +365,7 @@
     },
     "stats": {
       "M": "5\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "5",
       "LD": "6+",
@@ -389,8 +390,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -399,8 +400,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-infantry 4+, Devastating Wounds, Rapid Fire 1"
         }
@@ -459,7 +460,7 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 70,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -468,7 +469,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "4",
       "LD": "6+",
@@ -562,7 +563,7 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 100,
+      "base": 105,
       "variants": []
     },
     "composition": {
@@ -571,7 +572,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "5",
       "LD": "6+",
@@ -586,8 +587,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -657,7 +658,7 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 95,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -666,7 +667,7 @@
     },
     "stats": {
       "M": "5\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "7",
       "LD": "6+",
@@ -681,8 +682,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -764,7 +765,7 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 200,
+      "base": 210,
       "variants": []
     },
     "composition": {
@@ -773,7 +774,7 @@
     },
     "stats": {
       "M": "8\"",
-      "T": "8",
+      "T": "9",
       "SV": "2+",
       "W": "13",
       "LD": "6+",
@@ -925,7 +926,7 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 125,
+      "base": 130,
       "variants": []
     },
     "composition": {
@@ -934,7 +935,7 @@
     },
     "stats": {
       "M": "5\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "7",
       "LD": "6+",
@@ -949,8 +950,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -1042,8 +1043,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -1151,8 +1152,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -1191,8 +1192,8 @@
           "Range": "24\"",
           "A": "6",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 6, Twin-Linked"
         }
@@ -1261,8 +1262,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -1371,8 +1372,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -1471,8 +1472,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -1682,8 +1683,8 @@
           "Range": "24\"",
           "A": "6",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 6, Twin-Linked"
         },
@@ -2003,8 +2004,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -2061,11 +2062,11 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 125,
+      "base": 135,
       "variants": [
         {
           "models": 6,
-          "points": 250
+          "points": 270
         }
       ]
     },
@@ -2075,7 +2076,7 @@
     },
     "stats": {
       "M": "12\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "2",
       "LD": "6+",
@@ -2090,8 +2091,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -2142,7 +2143,7 @@
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "0",
           "D": "1",
           "Keywords": ""
@@ -2196,16 +2197,6 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Storm bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 2"
-        },
-        {
           "name": "Scourging",
           "Range": "18\"",
           "A": "3",
@@ -2214,6 +2205,16 @@
           "AP": "-2",
           "D": "2",
           "Keywords": "Anti-Daemon 2+, Ignores Cover, Psychic"
+        },
+        {
+          "name": "Storm bolter",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
         }
       ],
       "melee": [
@@ -2250,7 +2251,8 @@
     "special_rules": [
       "Deep Strike",
       "Leader",
-      "Gate of Infinity"
+      "Gate of Infinity",
+      "Rapid Fire"
     ],
     "keywords": [
       "Epic Hero",
@@ -2272,7 +2274,7 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 195,
+      "base": 205,
       "variants": []
     },
     "composition": {
@@ -2281,7 +2283,7 @@
     },
     "stats": {
       "M": "8\"",
-      "T": "8",
+      "T": "9",
       "SV": "2+",
       "W": "13",
       "LD": "6+",
@@ -2392,11 +2394,11 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 105,
+      "base": 115,
       "variants": [
         {
           "models": 6,
-          "points": 210
+          "points": 230
         }
       ]
     },
@@ -2406,7 +2408,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "2",
       "LD": "6+",
@@ -2421,8 +2423,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -2473,7 +2475,7 @@
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "0",
           "D": "1",
           "Keywords": ""
@@ -2506,11 +2508,11 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 130,
+      "base": 145,
       "variants": [
         {
           "models": 6,
-          "points": 260
+          "points": 290
         }
       ]
     },
@@ -2520,7 +2522,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "2",
       "LD": "6+",
@@ -2535,8 +2537,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -2597,7 +2599,7 @@
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "0",
           "D": "1",
           "Keywords": ""
@@ -2630,11 +2632,11 @@
     "faction": "Grey Knights",
     "faction_type": "Imperium",
     "points": {
-      "base": 115,
+      "base": 125,
       "variants": [
         {
           "models": 6,
-          "points": 230
+          "points": 250
         }
       ]
     },
@@ -2644,7 +2646,7 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "2",
       "LD": "6+",
@@ -2659,8 +2661,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -2711,7 +2713,7 @@
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "0",
           "D": "1",
           "Keywords": ""
@@ -3038,6 +3040,7 @@
     "special_rules": [
       "Deadly Demise D3",
       "Gate of Infinity",
+      "Rapid Fire",
       "Blast"
     ],
     "keywords": [
@@ -3077,16 +3080,6 @@
     "weapons": {
       "ranged": [
         {
-          "name": "Storm bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 2"
-        },
-        {
           "name": "Hunter-killer missile",
           "Range": "48\"",
           "A": "1",
@@ -3095,6 +3088,16 @@
           "AP": "-3",
           "D": "D6",
           "Keywords": "One Shot"
+        },
+        {
+          "name": "Storm bolter",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
         },
         {
           "name": "Twin assault cannon",
@@ -3168,6 +3171,7 @@
     ],
     "special_rules": [
       "Deadly Demise D3",
+      "Rapid Fire",
       "Twin-linked",
       "Psychic"
     ],
@@ -3178,7 +3182,8 @@
       "Transport",
       "Smoke",
       "Imperium",
-      "Relic Razorback"
+      "Relic Razorback",
+      "Frame"
     ]
   },
   {
