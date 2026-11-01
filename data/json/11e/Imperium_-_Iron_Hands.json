@@ -19,7 +19,8 @@
       "SV": "2+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -30,20 +31,20 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Gorgon's Wrath",
           "Range": "36\"",
           "A": "3",
           "BS": "2+",
-          "S": "5",
+          "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Sustained Hits 2"
+          "Keywords": "Rapid Fire 2, Sustained Hits 2"
         }
       ],
       "melee": [
@@ -62,7 +63,7 @@
           "Range": "Melee",
           "A": "2",
           "WS": "3+",
-          "S": "8",
+          "S": "10",
           "AP": "-2",
           "D": "3",
           "Keywords": "Extra Attacks"
@@ -72,28 +73,26 @@
     "abilities": [
       {
         "name": "Rites of Tempering",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability"
+        "description": "Attacks that target this unit with a S greater than this unit’s T have -1 to wound rolls."
       },
       {
         "name": "Iron Father",
-        "description": "While this model is within 3\" of one or more friendly Adeptus Astartes Vehicle units, it has the Lone Operative ability."
+        "description": "While this model is within 3\" of a friendly ADEPTUS ASTARTES VEHICLE unit, this model has Lone Operative."
       },
       {
         "name": "Master of the Forge",
-        "description": "In your Command phase, select one friendly Adeptus Astartes Vehicle model within 3\" of this model. That model regains up to 3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. You cannot select a unit for this ability that has already been selected for the Blessing of the Omnissiah ability this phase, and vice versa."
+        "description": "In your Movement phase, at the start or end of this unit’s move, you can select one friendly Adeptus Astartes Vehicle model within 3\" of this model:\n\n\n- That Vehicle model heals 3 wounds.\n- That Vehicle model’s attacks can ignore modifiers to the following until the start of your next Movement phase:\n- BS.\n- Hit rolls and wound rolls."
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- AGGRESSOR SQUAD\n- ERADICATOR SQUAD\n- HEAVY INTERCESSOR SQUAD"
-      },
-      {
-        "name": "Inspiring Commander",
-        "description": "If you include this model in your army, until the end of the battle, non-Character models in Heavy\nIntercessor Squad units from your army have an Objective Control characteristic of 3 while they are\nnot Battle-shocked."
+        "description": "This model can be attached to the following units:\nAGGRESSOR SQUAD, ERADICATOR SQUAD WITH HEAVY BOLTERS, ERADICATOR SQUAD WITH MELTA RIFLES, HEAVY INTERCESSOR SQUAD"
       }
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
+      "Feel No Pain 5+",
+      "Transhuman Strategist",
       "Sustained Hits",
       "Extra Attacks"
     ],
@@ -116,7 +115,7 @@
     "faction": "Iron Hands",
     "faction_type": "Imperium",
     "points": {
-      "base": 90,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -125,11 +124,12 @@
     },
     "stats": {
       "M": "5\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -140,54 +140,46 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         }
       ],
       "melee": [
         {
-          "name": "Axiom - Strike",
+          "name": "Axiom",
           "Range": "Melee",
           "A": "5",
           "WS": "2+",
           "S": "8",
-          "AP": "-2",
+          "AP": "-3",
           "D": "2",
-          "Keywords": null
-        },
-        {
-          "name": "Axiom - Sweep",
-          "Range": "Melee",
-          "A": "10",
-          "WS": "2+",
-          "S": "5",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": null
+          "Keywords": "Cleave 1"
         }
       ]
     },
     "abilities": [
       {
         "name": "Cold and Calculating",
-        "description": "Each time a model in this model’s unit makes an attack that targets a Monster or Vehicle unit, that\nattack has the [LETHAL HITS] ability. Each time a model in this model’s unit makes an attack that targets any other unit, that attack has the [SUSTAINED HITS 1] ability."
+        "description": "In your Shooting phase or the Fight phase, when this unit is selected to attack, you can select one of the following for this unit’s attacks to have:\n\n\n- [Lethal Hits: Monster/Vehicle].\n- Or: [Sustained Hits 1: non-[Monster/Vehicle]\n- Or: If the tactical doctrine is active for this unit, [Lethal Hits: Monster/Vehicle] and [Sustained Hits 1: non-Monster/Vehicle]"
       },
       {
         "name": "Cerebrex Logic Engine",
-        "description": "- At the start of the Declare Battle Formations step, you can select one Adeptus Astartes Infantry unit from your army. Until the end of the battle, that unit gains the Scouts 6\" ability.\n\n\n- After both players have deployed their armies, you can select one Adeptus Astartes unit from your army and redeploy it. When doing so, you can set that unit up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+        "description": "In the Declare Battle Formations step, you can select one friendly **Adeptus Astartes Infantry** unit. That unit has Scouts 6\"."
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: \n\n\n- TERMINATOR ASSAULT SQUAD\n- TERMINATOR SQUAD"
+        "description": "This model can be attached to the following units: \nTERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD"
       }
     ],
     "special_rules": [
       "Feel No Pain 5+",
       "Deep Strike",
       "Leader",
-      "Oath of Moment"
+      "Combat Doctrines",
+      "Transhuman Strategist",
+      "Cleave"
     ],
     "keywords": [
       "Infantry",

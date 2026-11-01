@@ -19,7 +19,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -116,7 +117,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -205,7 +207,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -290,7 +293,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -304,7 +308,7 @@
           "S": "5",
           "AP": "-2",
           "D": "1",
-          "Keywords": "Anti-INFANTRY 2+, Precision, Torrent"
+          "Keywords": "Anti-INFANTRY 2+, Blast 2, Torrent"
         }
       ],
       "melee": [
@@ -341,9 +345,10 @@
       "Fights First",
       "Infiltrators",
       "Anti",
-      "Precision",
       "Torrent",
-      "Lethal Hits"
+      "Blast",
+      "Lethal Hits",
+      "Precision"
     ],
     "keywords": [
       "Faction: Agents of the Imperium",
@@ -375,7 +380,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -513,7 +519,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -630,7 +637,8 @@
       "SV": "3+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -699,7 +707,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -854,7 +863,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "28.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -991,7 +1001,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1088,7 +1099,8 @@
       "SV": "2+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1187,7 +1199,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1284,7 +1297,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "~32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1361,7 +1375,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1475,7 +1490,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1572,7 +1588,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1646,7 +1663,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1721,7 +1739,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1803,7 +1822,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1937,7 +1957,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2062,7 +2083,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2143,7 +2165,8 @@
       "SV": "6+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2247,7 +2270,8 @@
       "SV": "5+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2410,7 +2434,8 @@
       "SV": "2+",
       "W": "3",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2524,7 +2549,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 13 INQUISITOR INFANTRY and INQUISITORIAL AGENT models. It cannot transport TERMINATOR models.",
@@ -2657,7 +2683,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 AGENTS OF THE IMPERIUM INFANTRY models. It cannot transport TERMINATOR or OFFICIO ASSASSINORUM models.",
@@ -2740,7 +2767,8 @@
       "SV": "3+",
       "W": "1",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -2977,7 +3005,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": "6+",
     "transport": "This model has a transport capacity of 6 ORDO HERETICUS INFANTRY models.\n\nAt the start of the Declare Battle Formations step, you can select one SISTERS OF BATTLE SQUAD from your army. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this TRANSPORT; the other can start the battle embarked within another TRANSPORT, or it can be deployed as a separate unit.",
@@ -3093,7 +3122,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "25mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3171,7 +3201,8 @@
       "SV": "5+",
       "W": "2",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3254,7 +3285,7 @@
     },
     "composition": {
       "min_models": 2,
-      "max_models": 1
+      "max_models": 2
     },
     "stats": {
       "M": "14\"",
@@ -3262,7 +3293,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "6+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 DEATHWATCH INFANTRY models.",
@@ -3273,8 +3305,8 @@
           "Range": "24\"",
           "A": "6",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 6, Twin-Linked"
         },
@@ -3284,9 +3316,9 @@
           "A": "6",
           "BS": "3+",
           "S": "6",
-          "AP": "0",
+          "AP": "-2",
           "D": "1",
-          "Keywords": "Devastating Wounds, Twin-Linked"
+          "Keywords": "Sustained Hits 1, Twin-Linked"
         },
         {
           "name": "Twin lascannon",
@@ -3295,18 +3327,18 @@
           "BS": "3+",
           "S": "12",
           "AP": "-3",
-          "D": "D6+1",
+          "D": "D3+3",
           "Keywords": "Twin-Linked"
         },
         {
           "name": "Blackstar rocket launcher",
           "Range": "30\"",
-          "A": "D6+1",
+          "A": "4",
           "BS": "3+",
           "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": "Blast"
+          "Keywords": "Blast 1"
         },
         {
           "name": "Stormstrike missile launcher",
@@ -3335,7 +3367,7 @@
     "abilities": [
       {
         "name": "Blackstar Cluster Launcher",
-        "description": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 5+, that unit suffers 1 mortal wound."
+        "description": "In your Movement phase, when this unit ends a normal move, select up to one enemy unit this unit moved over during that move and roll six D6:\n\n\n- For each 4+, that unit suffers 1 mortal wound."
       },
       {
         "name": "Damaged: 1-5 Wounds Remaining",
@@ -3344,10 +3376,6 @@
       {
         "name": "Auspex Array",
         "description": "Ranged weapons equipped by the bearer have the [IGNORES COVER] ability."
-      },
-      {
-        "name": "Infernum Halo-launcher",
-        "description": "The bearer has the SMOKE keyword."
       }
     ],
     "special_rules": [
@@ -3356,9 +3384,9 @@
       "Stealth",
       "Rapid Fire",
       "Twin-linked",
-      "Devastating Wounds",
-      "Blast",
-      "Ignores Cover"
+      "Ignores Cover",
+      "Sustained Hits",
+      "Blast"
     ],
     "keywords": [
       "Fly",
@@ -3369,8 +3397,7 @@
       "Retinue",
       "Corvus Blackstar",
       "Ordo Xenos",
-      "Deathwatch",
-      "Frame"
+      "Smoke"
     ]
   },
   {
@@ -3398,7 +3425,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": "This unit cannot embark within an IMPERIAL RHINO.",
@@ -3590,7 +3618,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": "This unit cannot embark within an IMPERIAL RHINO.",
@@ -3787,7 +3816,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "75x42mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3811,7 +3841,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": null
+          "Keywords": "\n"
         },
         {
           "name": "Long Vigil ranged weapon",
@@ -3993,7 +4023,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4097,7 +4128,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": null
+          "Keywords": "\n"
         },
         {
           "name": "Long Vigil ranged weapon",
@@ -4137,7 +4168,7 @@
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Ignores cover, Torrent"
+          "Keywords": "Ignores Cover, Torrent"
         }
       ],
       "melee": [
@@ -4263,7 +4294,10 @@
       "Devastating Wounds",
       "Blast",
       "Heavy",
-      "Rapid Fire"
+      "Rapid Fire",
+      "Sustained Hits",
+      "Torrent",
+      "Ignores Cover"
     ],
     "keywords": [
       "Infantry",
@@ -4299,7 +4333,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": "This unit cannot embark within an IMPERIAL RHINO.",
@@ -4487,7 +4522,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "75x42mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -4594,11 +4630,12 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4607,8 +4644,8 @@
         {
           "name": "Hellfire Extremis",
           "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
+          "A": "3",
+          "BS": "-",
           "S": "4",
           "AP": "-1",
           "D": "1",
@@ -4621,21 +4658,21 @@
           "Range": "Melee",
           "A": "6",
           "WS": "2+",
-          "S": "5",
+          "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": null
+          "Keywords": ""
         }
       ]
     },
     "abilities": [
       {
         "name": "Tactical Instinct",
-        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        "description": "This unit's attacks have [Sustained Hits 1]."
       },
       {
         "name": "Unstoppable Champion",
-        "description": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 1 wound remaining."
+        "description": "At the end of a phase in which this model is destroyed, roll one D6:\n- On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed, unengaged with 3 wounds remaining."
       },
       {
         "name": "Leader",
@@ -4657,10 +4694,10 @@
       "Grenades",
       "Imperium",
       "Faction: Agents of the Imperium",
-      "Deathwatch",
       "Watch Captain Artemis",
       "Ordo Xenos",
-      "Leader"
+      "Leader",
+      "Captain"
     ]
   },
   {
@@ -4679,11 +4716,12 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4694,10 +4732,10 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": null
+          "Keywords": ""
         }
       ],
       "melee": [
@@ -4708,23 +4746,27 @@
           "WS": "2+",
           "S": "6",
           "AP": "-2",
-          "D": "D3",
+          "D": "2",
           "Keywords": "Lance"
         }
       ]
     },
     "abilities": [
       {
-        "name": "Strategic Knowledge",
-        "description": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+        "name": "Strategic Acumen",
+        "description": "n your Command phase, you can use this ability. If you do, select one combat doctrine to be active for this unit until the start of your next Command phase."
       },
       {
-        "name": "Rites of Battle",
-        "description": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+        "name": "Watch Master",
+        "description": "This model’s attacks that target a Character unit can:\n- Re-roll hit rolls of 1.\n- Re-roll wound rolls of 1."
       },
       {
         "name": "Leader",
         "description": "This model can be attached to the following units: AQUILA KILL TEAM, DEATHWATCH KILL TEAM, DEATHWATCH TERMINATOR SQUAD, FORTIS KILL TEAM, INDOMITOR KILL TEAM, PROTEUS KILL TEAM, SPECTRUS KILL TEAM"
+      },
+      {
+        "name": "Purgatus Quarry",
+        "description": "At the start of the first battle round, select up to one enemy unit to be this unit’s **hunted**:\n- This unit’s attacks that target this unit’s **hunted** unit can re-roll **wound rolls** of 1.\n- Each time this unit’s **hunted** is **destroyed**, select up to one enemy unit to be this unit’s **hunted**."
       }
     ],
     "special_rules": [
@@ -4734,14 +4776,12 @@
     "keywords": [
       "Character",
       "Infantry",
-      "Captain",
-      "Grenades",
       "Imperium",
       "Faction: Agents of the Imperium",
       "Watch Master",
-      "Deathwatch",
       "Ordo Xenos",
-      "Leader"
+      "Leader",
+      "Explosives"
     ]
   },
   {
@@ -4764,7 +4804,8 @@
       "SV": "6+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4936,7 +4977,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "8+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -5014,249 +5056,6 @@
     ]
   },
   {
-    "name": "Deathwatch Veteran w/ carbine",
-    "id": "050d-797a-bb9a-2e8b",
-    "type": "model",
-    "faction": "Agents of the Imperium",
-    "faction_type": "Imperium",
-    "points": {
-      "base": null,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "4",
-      "SV": "3+",
-      "W": "2",
-      "LD": "6+",
-      "OC": "2"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Special-issue bolt pistol",
-          "Range": "18\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "4",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Pistol, Precision, Lethal Hits"
-        },
-        {
-          "name": "Deathwatch marksman bolt carbine",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "5",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Heavy, Lethal Hits"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Close combat weapon",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": null
-        },
-        {
-          "name": "Combat knife",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "3+",
-          "S": "4",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Precision"
-        }
-      ]
-    },
-    "abilities": [],
-    "special_rules": [
-      "Heavy",
-      "Lethal Hits",
-      "Precision"
-    ],
-    "keywords": [
-      "Tacticus"
-    ]
-  },
-  {
-    "name": "Deathwatch Veteran w/ heavy thunder hammer",
-    "id": "df47-6883-78e7-d725",
-    "type": "model",
-    "faction": "Agents of the Imperium",
-    "faction_type": "Imperium",
-    "points": {
-      "base": null,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "4",
-      "SV": "3+",
-      "W": "2",
-      "LD": "6+",
-      "OC": "2"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Bolt pistol",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Pistol, Lethal Hits"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Power weapon",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "3+",
-          "S": "5",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Sustained Hits 1"
-        },
-        {
-          "name": "Heavy thunder hammer",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "4+",
-          "S": "10",
-          "AP": "-2",
-          "D": "3",
-          "Keywords": "Devastating Wounds"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Astartes shield",
-        "description": "The bearer has a 4+ invulnerable save."
-      }
-    ],
-    "special_rules": [
-      "Devastating Wounds"
-    ],
-    "keywords": [
-      "Tacticus"
-    ]
-  },
-  {
-    "name": "Deathwatch Veteran w/ stalker bolt rifle",
-    "id": "3435-d900-05e9-19e6",
-    "type": "model",
-    "faction": "Agents of the Imperium",
-    "faction_type": "Imperium",
-    "points": {
-      "base": null,
-      "variants": []
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "6\"",
-      "T": "4",
-      "SV": "3+",
-      "W": "2",
-      "LD": "6+",
-      "OC": "2"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Bolt pistol",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Pistol, Lethal Hits"
-        },
-        {
-          "name": "➤ Plasma incinerator - Standard",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "7",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "Assault, Heavy"
-        },
-        {
-          "name": "➤ Plasma incinerator - Supercharge",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "8",
-          "AP": "-3",
-          "D": "2",
-          "Keywords": "Assault, Hazardous, Heavy"
-        },
-        {
-          "name": "Stalker bolt rifle",
-          "Range": "30\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "5",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Heavy, Lethal Hits, Precision"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Close combat weapon",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": null
-        }
-      ]
-    },
-    "abilities": [],
-    "special_rules": [
-      "Heavy",
-      "Lethal Hits",
-      "Precision"
-    ],
-    "keywords": [
-      "Tacticus"
-    ]
-  },
-  {
     "name": "Gravis Veteran w/ infernus heavy bolter",
     "id": "77a2-7703-4d4f-f30d",
     "type": "model",
@@ -5276,7 +5075,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5287,20 +5087,20 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol, Lethal Hits"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Frag cannon",
           "Range": "18\"",
-          "A": "D3",
+          "A": "2",
           "BS": "3+",
           "S": "7",
           "AP": "-2",
           "D": "2",
-          "Keywords": "Blast, Heavy, Lethal Hits, Rapid Fire D3"
+          "Keywords": "Blast 1, Heavy, Lethal Hits, Rapid Fire 1"
         },
         {
           "name": "Hellstorm bolt rifle",
@@ -5313,56 +5113,56 @@
           "Keywords": "Assault, Heavy, Lethal Hits"
         },
         {
-          "name": "➤ Astartes grenade launcher - frag",
+          "name": "➤ Grenade Launcher (Frag)",
           "Range": "24\"",
-          "A": "D3",
+          "A": "4",
           "BS": "3+",
           "S": "4",
-          "AP": "0",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Blast"
+          "Keywords": "Blast 1"
         },
         {
-          "name": "➤ Astartes grenade launcher - krak",
+          "name": "➤ Grenade Launcher (Krak)",
           "Range": "24\"",
           "A": "1",
           "BS": "3+",
-          "S": "9",
+          "S": "10",
           "AP": "-2",
-          "D": "D3",
-          "Keywords": null
+          "D": "3",
+          "Keywords": "Rapid Fire 1"
         },
         {
-          "name": "➤ Infernus heavy bolter - heavy bolter",
+          "name": "➤ Infernus heavy bolter (Bolt)",
           "Range": "36\"",
           "A": "3",
           "BS": "3+",
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Sustained Hits 1"
+          "Keywords": "Heavy, Rapid Fire 2, Sustained Hits 1"
         },
         {
-          "name": "➤ Infernus heavy bolter - heavy flamer",
+          "name": "➤ Infernus heavy bolter (Infernus)",
           "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
+          "A": "3",
+          "BS": "-",
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Ignores cover, Torrent"
+          "Keywords": "Blast 1, Torrent"
         }
       ],
       "melee": [
         {
-          "name": "Close combat weapon",
+          "name": "Knives and Fists",
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         }
       ]
     },
@@ -5374,8 +5174,7 @@
       "Rapid Fire",
       "Assault",
       "Sustained Hits",
-      "Torrent",
-      "Ignores Cover"
+      "Torrent"
     ],
     "keywords": [
       "Gravis"
@@ -5397,11 +5196,12 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5415,7 +5215,7 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - Supercharge",
@@ -5425,7 +5225,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "Hazardous, Pistol"
+          "Keywords": "Close-quarters, Hazardous"
         }
       ],
       "melee": [
@@ -5436,13 +5236,16 @@
           "WS": "3+",
           "S": "5",
           "AP": "-2",
-          "D": "2",
+          "D": "1",
           "Keywords": "Sustained Hits 1"
         }
       ]
     },
     "abilities": [],
-    "special_rules": [],
+    "special_rules": [
+      "Hazardous",
+      "Close-quarters"
+    ],
     "keywords": []
   },
   {
@@ -5465,7 +5268,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -5519,7 +5323,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -5577,7 +5382,8 @@
       "SV": "3+",
       "W": "9",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "-"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -5630,7 +5436,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "~32mm"
     },
     "invuln_save": "4+",
     "transport": null,

@@ -19,7 +19,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -103,7 +104,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "~32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -226,7 +228,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -391,7 +394,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -551,7 +555,8 @@
       "SV": "2+",
       "W": "14",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "80mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -640,7 +645,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -727,7 +733,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "6+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -824,7 +831,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -946,7 +954,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1026,7 +1035,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1127,7 +1137,8 @@
       "SV": "6+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1221,7 +1232,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm Flying"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 6 **AELDARI INFANTRY** models. Each **WRAITH CONSTRUCT** model takes the space of 2 models. It cannot transport **JUMP PACK** models or **YNNARI** models (excluding **ASURYANI**, **YVRAINE** and **THE VISARCH** models).",
@@ -1320,7 +1332,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1434,7 +1447,8 @@
       "SV": "6+",
       "W": "5",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm Flying"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1566,7 +1580,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1690,7 +1705,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm Flying"
     },
     "invuln_save": null,
     "transport": null,
@@ -1798,7 +1814,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1892,7 +1909,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1968,7 +1986,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "6+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2049,7 +2068,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": "4+* / 5+",
     "transport": null,
@@ -2160,7 +2180,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2255,7 +2276,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2338,7 +2360,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2435,7 +2458,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2517,7 +2541,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm Flying"
     },
     "invuln_save": null,
     "transport": null,
@@ -2620,7 +2645,8 @@
       "SV": "5+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -2701,7 +2727,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2804,7 +2831,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2933,7 +2961,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -3030,7 +3059,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3134,7 +3164,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3202,7 +3233,8 @@
       "SV": "6+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3282,7 +3314,8 @@
       "SV": "4+",
       "W": "6",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": "4+",
     "transport": "This model has a transport capacity of 6 Harlequins Infantry models.",
@@ -3358,7 +3391,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3473,7 +3507,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3588,7 +3623,8 @@
       "SV": "4+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3674,7 +3710,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3800,7 +3837,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3897,7 +3935,8 @@
       "SV": "2+",
       "W": "12",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "80mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3992,7 +4031,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4108,7 +4148,8 @@
       "SV": "4+",
       "W": "6",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4219,7 +4260,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4344,7 +4386,8 @@
       "SV": "3+",
       "W": "13",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": "5+",
     "transport": "This model has a transport capacity of 12 **ASURYANI INFANTRY** models. Each **WRAITH CONSTRUCT** model takes the space of 2 models. It cannot transport **JUMP PACK** models or **YNNARI** models (excluding **ASURYANI**, **YVRAINE** and **THE VISARCH** models).",
@@ -4495,7 +4538,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "6+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -4549,7 +4593,8 @@
       "SV": "2+",
       "W": "18",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -4672,7 +4717,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "8+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -4842,7 +4888,8 @@
       "SV": "2+",
       "W": "3",
       "LD": "8+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -4925,7 +4972,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "75x42mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -5013,7 +5061,8 @@
       "SV": "2+",
       "W": "3",
       "LD": "8+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5088,7 +5137,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "2+*",
     "transport": null,
@@ -5213,7 +5263,8 @@
       "SV": "6+",
       "W": "3",
       "LD": "8+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -5325,7 +5376,8 @@
       "SV": "3+",
       "W": "7",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -5413,7 +5465,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -5496,7 +5549,8 @@
       "SV": "5+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -5587,7 +5641,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -5671,7 +5726,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -5748,7 +5804,8 @@
       "SV": "4+",
       "W": "10",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": "6+",
     "transport": "This model has a transport capacity of 11 **Drukhari Infantry ** models (excluding **Jump Pack** models).",
@@ -5835,7 +5892,8 @@
       "SV": "4+",
       "W": "11",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm Flying"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -5924,7 +5982,8 @@
       "SV": "4+",
       "W": "10",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -6063,7 +6122,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -6140,7 +6200,8 @@
       "SV": "3+",
       "W": "7",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -6296,7 +6357,8 @@
       "SV": "6+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -6386,7 +6448,8 @@
       "SV": "4+",
       "W": "6",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "60mm Flying"
     },
     "invuln_save": "6+",
     "transport": "This model has a transport capacity of 6 **DRUKHARI INFANTRY** models (excluding **JUMP PACK** models).\n\nBefore the battle, at the start of the Declare Battle Formations step, you can select one **KABALITE WARRIORS**, **HAND OF THE ARCHON** or **WYCHES** unit from your army that has not already been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this model; the other can start the battle embarked within another **TRANSPORT**, or it can be deployed as a separate unit.",
@@ -6478,7 +6541,8 @@
       "SV": "4+",
       "W": "12",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -6587,7 +6651,8 @@
       "SV": "2+",
       "W": "24",
       "LD": "6+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -6662,7 +6727,8 @@
       "SV": "2+",
       "W": "24",
       "LD": "6+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -6736,7 +6802,8 @@
       "SV": "3+",
       "W": "8",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -6866,7 +6933,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -6949,7 +7017,8 @@
       "SV": "3+",
       "W": "16",
       "LD": "6+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "120x92mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -7022,7 +7091,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "6+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -7106,7 +7176,8 @@
       "SV": "2+",
       "W": "18",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -7249,7 +7320,8 @@
       "SV": "3+",
       "W": "1",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -7330,7 +7402,8 @@
       "SV": "2+",
       "W": "55",
       "LD": "6+",
-      "OC": "20"
+      "OC": "20",
+      "Base": "Hull"
     },
     "invuln_save": "4+*",
     "transport": null,
@@ -7476,7 +7549,8 @@
       "SV": "2+",
       "W": "30",
       "LD": "6+",
-      "OC": "16"
+      "OC": "16",
+      "Base": "Hull"
     },
     "invuln_save": "4+*",
     "transport": null,
@@ -7585,7 +7659,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -7693,7 +7768,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -7850,7 +7926,8 @@
       "SV": "4+",
       "W": "18",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "120x92mm"
     },
     "invuln_save": "5+",
     "transport": "This model has a transport capacity of 16 **Drukhari Infantry** models. Each **Grotesque** model takes up the space of 3 models. This model cannot transport models that can **Fly**.",
@@ -7928,7 +8005,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -8004,7 +8082,8 @@
       "SV": "6+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -8076,7 +8155,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 6 Aeldari Infantry models. Each Wraith Construct model takes the space of 2 models. It cannot transport Jump Pack models",
@@ -8172,7 +8252,8 @@
       "SV": "3+",
       "W": "16",
       "LD": "6+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -8268,7 +8349,8 @@
       "SV": "3+",
       "W": "30",
       "LD": "6+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "Hull"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -8363,7 +8445,8 @@
       "SV": "3+",
       "W": "30",
       "LD": "6+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "170x109mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -8453,7 +8536,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -8511,7 +8595,8 @@
       "SV": "4+",
       "W": "10",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "120x92mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -8597,7 +8682,8 @@
       "SV": "4+",
       "W": "11",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "100mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -8699,7 +8785,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "2+*",
     "transport": null,
@@ -8793,7 +8880,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -8896,7 +8984,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -8954,7 +9043,8 @@
       "SV": "4+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -9034,7 +9124,8 @@
       "SV": "4+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -9116,7 +9207,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": null,
     "transport": null,
@@ -9238,7 +9330,8 @@
       "SV": "2+",
       "W": "18",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -9357,7 +9450,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -9452,7 +9546,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -9530,7 +9625,8 @@
       "SV": "4+",
       "W": "10",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": "6+",
     "transport": "This model has a transport capacity of 11 models from the following units: The Visarch, Ynnari Archon, Ynnari Incubi, Ynnari Kabalite Warriors, Ynnari Succubus, Ynnari Wyches, Yvraine.",
@@ -9614,7 +9710,8 @@
       "SV": "4+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "60mm Flying"
     },
     "invuln_save": "6+",
     "transport": "This model has a transport capacity of 6 models from the following units: **The Visarch**, **Ynnari Archon**, **Ynnari Incubi**, **Ynnari Kabalite Warriors**, **Ynnari Succubus**, **Ynnari Wyches**, **Yvraine**.\n\nBefore the battle, at the start of the Declare Battle Formations step, you can select one **YNNARI KABALITE WARRIORS** or **YNNARI WYCHES** unit from your army that has not already been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this **TRANSPORT**; the other can start the battle embarked within another **TRANSPORT**, or it can be deployed as a separate unit.",
@@ -9704,7 +9801,8 @@
       "SV": "4+",
       "W": "5",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -9792,7 +9890,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -9885,7 +9984,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -9971,7 +10071,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -10056,7 +10157,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -10113,7 +10215,8 @@
       "SV": "5+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -10171,7 +10274,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -10223,7 +10327,8 @@
       "SV": "6+",
       "W": "5",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60x35.5mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -10276,7 +10381,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -10326,7 +10432,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "75x42mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -10411,7 +10518,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "75x42mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -10522,7 +10630,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "75x42mm"
     },
     "invuln_save": null,
     "transport": null,

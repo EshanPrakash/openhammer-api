@@ -19,7 +19,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -139,7 +140,8 @@
       "SV": "2+",
       "W": "8",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -231,7 +233,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "~50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -378,7 +381,8 @@
       "SV": "2+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -525,7 +529,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -683,7 +688,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -761,7 +767,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -831,7 +838,8 @@
       "SV": "5+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -903,7 +911,8 @@
       "SV": "6+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -973,7 +982,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1055,7 +1065,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1189,7 +1200,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1293,7 +1305,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1392,7 +1405,8 @@
       "SV": "6+",
       "W": "1",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "28.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1503,7 +1517,8 @@
       "SV": "5+",
       "W": "5",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1599,7 +1614,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1743,7 +1759,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1835,7 +1852,8 @@
       "SV": "2+",
       "W": "12",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "105x70mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1966,7 +1984,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2049,7 +2068,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2214,7 +2234,8 @@
       "SV": "4+",
       "W": "7",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": null,
     "transport": null,
@@ -2320,7 +2341,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2430,7 +2452,8 @@
       "SV": "6+",
       "W": "1",
       "LD": "8+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "28.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2499,7 +2522,8 @@
       "SV": "2+",
       "W": "8",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2607,7 +2631,8 @@
       "SV": "2+",
       "W": "14",
       "LD": "7+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2741,7 +2766,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm Flying"
     },
     "invuln_save": null,
     "transport": null,
@@ -2875,7 +2901,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm Flying"
     },
     "invuln_save": null,
     "transport": null,
@@ -2976,7 +3003,8 @@
       "SV": "3+",
       "W": "13",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 T’AU EMPIRE INFANTRY models. It cannot transport BATTLESUIT, KROOT or VESPID STINGWINGS models.",
@@ -3077,7 +3105,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3188,7 +3217,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3299,7 +3329,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": "5+",
     "transport": "This model has a transport capacity of 11 T’AU EMPIRE INFANTRY models. It cannot transport BATTLESUIT, KROOT or VESPID STINGWINGS models. If this model is equipped with a Tidewall defence platform, it has a transport capacity of 22 T’AU INFANTRY models instead.",
@@ -3347,7 +3378,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 11 T’AU EMPIRE INFANTRY models. It cannot transport BATTLESUIT, KROOT or VESPID STINGWINGS models.",
@@ -3409,7 +3441,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 11 T’AU EMPIRE INFANTRY models. It cannot transport BATTLESUIT, KROOT or VESPID STINGWINGS models.",
@@ -3466,7 +3499,8 @@
       "SV": "2+",
       "W": "20",
       "LD": "7+",
-      "OC": "6"
+      "OC": "6",
+      "Base": "170x109mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3632,7 +3666,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3694,7 +3729,8 @@
       "SV": "6+",
       "W": "1",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "28.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3823,7 +3859,8 @@
       "SV": "2+",
       "W": "15",
       "LD": "7+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "120x92mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3904,7 +3941,8 @@
       "SV": "2+",
       "W": "15",
       "LD": "7+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "120x92mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4023,7 +4061,8 @@
       "SV": "4+",
       "W": "7",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -4093,7 +4132,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "60mm Flying"
     },
     "invuln_save": null,
     "transport": null,
@@ -4175,7 +4215,8 @@
       "SV": "2+",
       "W": "30",
       "LD": "7+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "160mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4337,7 +4378,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4488,7 +4530,8 @@
       "SV": "3+",
       "W": "18",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "160mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4654,7 +4697,8 @@
       "SV": "3+",
       "W": "18",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "160mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4776,7 +4820,8 @@
       "SV": "2+",
       "W": "60",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "Unique"
     },
     "invuln_save": "5+",
     "transport": "This model has a transport capacity of all of the following:\n- 200 T’AU EMPIRE INFANTRY or TACTICAL DRONE models\n- 4 DEVILFISH, SKY RAY GUNSHIP or HAMMERHEAD models\n- 8 BATTLESUIT models with a Wounds characteristic of 9 or less",
@@ -4911,7 +4956,8 @@
       "SV": "3+",
       "W": "28",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 48 T’AU EMPIRE INFANTRY models. This model can also transport up to 6 BATTLESUIT models (these models take up the space of a number of models equal to their Wounds characteristic, e.g. a BATTLESUIT with a Wounds characteristic of 8 would take up the space of 8 models). This model cannot transport KROOT or VESPID STINGWINGS models.",
@@ -4997,7 +5043,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "8+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5072,7 +5119,8 @@
       "SV": "4+",
       "W": "10",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "65mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5176,7 +5224,8 @@
       "SV": "4+",
       "W": "7",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5276,7 +5325,8 @@
       "SV": "5+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5350,7 +5400,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -5450,7 +5501,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5542,7 +5594,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "8+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -5589,7 +5642,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "8+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -5681,7 +5735,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5766,7 +5821,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5851,7 +5907,8 @@
       "SV": "6+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5931,7 +5988,8 @@
       "SV": "6+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -6027,7 +6085,8 @@
       "SV": "6+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -6108,7 +6167,8 @@
       "SV": "5+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "90x52.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -6217,7 +6277,8 @@
       "SV": "5+",
       "W": "5",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -6294,7 +6355,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -6347,7 +6409,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -6403,7 +6466,8 @@
       "SV": "6+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,

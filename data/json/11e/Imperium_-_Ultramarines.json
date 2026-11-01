@@ -19,7 +19,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -64,7 +65,7 @@
       }
     ],
     "special_rules": [
-      "Oath of Moment",
+      "Combat Doctrines",
       "Leader",
       "Pistol",
       "Lethal Hits"
@@ -100,7 +101,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "5+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -146,7 +148,7 @@
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Anti",
       "Devastating Wounds",
       "Ignores Cover",
@@ -170,7 +172,7 @@
     "faction": "Ultramarines",
     "faction_type": "Imperium",
     "points": {
-      "base": 85,
+      "base": 115,
       "variants": []
     },
     "composition": {
@@ -179,11 +181,12 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
-      "W": "4",
+      "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -194,30 +197,20 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
-          "name": "➤ Storm of the Emperor’s Wrath - Witchfire",
+          "name": "Storm of the Emperor’s Wrath",
           "Range": "18\"",
-          "A": "D6",
+          "A": "D3+6",
           "BS": "2+",
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "Blast, Psychic"
-        },
-        {
-          "name": "➤ Storm of the Emperor’s Wrath - Focused Witchfire",
-          "Range": "18\"",
-          "A": "2D6",
-          "BS": "2+",
-          "S": "6",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Blast, Hazardous, Psychic"
+          "Keywords": "Blast 1, Psychic"
         }
       ],
       "melee": [
@@ -225,10 +218,10 @@
           "name": "Rod of Tigurius",
           "Range": "Melee",
           "A": "5",
-          "WS": "3+",
+          "WS": "2+",
           "S": "7",
           "AP": "-2",
-          "D": "D3",
+          "D": "2",
           "Keywords": "Psychic"
         }
       ]
@@ -236,22 +229,31 @@
     "abilities": [
       {
         "name": "Hood of Hellfire",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds."
+        "description": "This unit has Feel No Pain 4+ against psychic attacks and mortal wounds."
       },
       {
-        "name": "Master of Prescience (Psychic)",
-        "description": "▪ This unit has Stealth.\n▪ Melee attacks that target this unit have ‑1 to hit rolls.\n▪ (Once per battle round, per army) When you target this unit with the Counteroffensive/Fire Overwatch/Heroic Intervention stratagem, that use is ‑1 CP."
+        "name": "Prescience (Psychic level 2)",
+        "description": null
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, DESOLATION SQUAD, DEVASTATOR SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD"
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, DESOLATION SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD"
+      },
+      {
+        "name": "Telepathic Assault (Psychic level 1)",
+        "description": null
+      },
+      {
+        "name": "Chief Librarian (psyker level 3)",
+        "description": "This model has the psychic abilities listed in the Psychic Abilities section."
       }
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
+      "Transhuman Strategist",
+      "Librarius",
       "Blast",
-      "Hazardous",
       "Psychic"
     ],
     "keywords": [
@@ -263,7 +265,8 @@
       "Chief Librarian Tigurius",
       "Faction: Adeptus Astartes",
       "Faction: Ultramarines",
-      "Leader"
+      "Leader",
+      "Explosives"
     ]
   },
   {
@@ -286,7 +289,8 @@
       "SV": "2+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -346,7 +350,7 @@
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Pistol",
       "Twin-linked"
     ],
@@ -362,7 +366,7 @@
     "faction": "Ultramarines",
     "faction_type": "Imperium",
     "points": {
-      "base": 355,
+      "base": 415,
       "variants": []
     },
     "composition": {
@@ -371,11 +375,12 @@
     },
     "stats": {
       "M": "8\"",
-      "T": "9",
+      "T": "10",
       "SV": "2+",
-      "W": "10",
+      "W": "16",
       "LD": "5+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "60mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -383,13 +388,13 @@
       "ranged": [
         {
           "name": "Hand of Dominion",
-          "Range": "30\"",
-          "A": "2",
+          "Range": "36\"",
+          "A": "4",
           "BS": "2+",
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "Rapid Fire 2"
+          "Keywords": "Rapid Fire 2, Sustained Hits 1"
         }
       ],
       "melee": [
@@ -406,38 +411,42 @@
         {
           "name": "The Emperor's Sword",
           "Range": "Melee",
-          "A": "14",
+          "A": "10",
           "WS": "2+",
-          "S": "8",
+          "S": "10",
           "AP": "-3",
           "D": "2",
-          "Keywords": "Devastating Wounds"
+          "Keywords": "Cleave 2, Devastating Wounds"
         }
       ]
     },
     "abilities": [
       {
         "name": "Author of the Codex",
-        "description": "At the Start of your Command phase, select two Author of the Codex abilities (see left). Until the start of your next Command phase, this model has those abilities.’\n\nPrimarch of the XIII (Aura): While a friendly Adeptus Astartes unit is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit and you can re-roll Battle-shock and Leadership tests taken for that unit.\n\nMaster of Battle: After you have selected an enemy unit using the Oath of Moment ability, select a second enemy unit. Until the start of your next Command phase, if your Oath of Moment target is destroyed, that second enemy unit becomes your Oath of Moment target until you select a new one.\n\nSupreme Strategist: Once per battle round, you can target one friendly ADEPTUS ASTARTES unit within 12\" of this model with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+        "description": "In your Movement phase, you can select one visible friendly ADEPTUS ASTARTES unit within 12\" of this model, and select one Combat Doctrine. That Combat Doctrine is active for that unit in addition to any other Combat Doctrines that are active for that unit until the start of your next Command phase. "
       },
       {
-        "name": "Ultramarines Bodyguard",
-        "description": "While this model is within 3\" of one or more friendly Adeptus Astartes Infantry units, this model has the Lone Operative ability"
-      },
-      {
-        "name": "Armour of Fate",
-        "description": "The first time this model is destroyed, roll one D6 at the end of the phase: on a 3+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with 6 wounds remaining."
+        "name": "Leader of Astartes",
+        "description": "While this unit is within 3\" of a friendly **Adeptus Astartes Infantry** unit, this unit has Lone Operative."
       },
       {
         "name": "Supreme Commander",
         "description": "If this model is in your army, it must be your Warlord."
+      },
+      {
+        "name": "Primarch of the XIII (Aura)",
+        "description": "While a Friendly ADEPTUS ASTARTES unit is within 6\" of this unit, that unit's attacks can: \n- Re-roll hit rolls of 1\n- Re-roll wound rolls of 1"
       }
     ],
     "special_rules": [
-      "Oath of Moment",
+      "Combat Doctrines",
+      "Feel No Pain 5+",
+      "Transhuman Strategist",
       "Lethal Hits",
       "Rapid Fire",
-      "Devastating Wounds"
+      "Sustained Hits",
+      "Devastating Wounds",
+      "Cleave"
     ],
     "keywords": [
       "Epic Hero",
@@ -471,7 +480,8 @@
       "SV": "2+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -482,10 +492,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -512,7 +522,7 @@
       }
     ],
     "special_rules": [
-      "Oath of Moment"
+      "Combat Doctrines"
     ],
     "keywords": [
       "Infantry",
@@ -544,7 +554,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -555,10 +566,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Quietus",
@@ -603,7 +614,7 @@
       "Stealth",
       "Scouts",
       "Infiltrators",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Precision"
     ],
     "keywords": [
@@ -637,7 +648,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -684,7 +696,7 @@
       }
     ],
     "special_rules": [
-      "Oath of Moment",
+      "Combat Doctrines",
       "Anti",
       "Pistol"
     ],
@@ -717,7 +729,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -728,10 +741,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Invictus",
@@ -773,7 +786,7 @@
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Sustained Hits"
     ],
     "keywords": [
@@ -809,7 +822,8 @@
       "SV": "2+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -820,10 +834,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Close-Quarters"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Boltgun",
@@ -868,7 +882,7 @@
       }
     ],
     "special_rules": [
-      "Oath of Moment"
+      "Combat Doctrines"
     ],
     "keywords": [
       "Infantry",
@@ -899,7 +913,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -910,10 +925,10 @@
           "Range": "18\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -946,7 +961,7 @@
     "special_rules": [
       "Feel No Pain 5+",
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Anti Infantry 2+"
     ],
     "keywords": [
@@ -963,13 +978,13 @@
     ]
   },
   {
-    "name": "Marneus Calgar in Armour of Antilochus",
+    "name": "Marneus Calgar",
     "id": "a136-76f7-34d1-8035",
     "type": "model",
     "faction": "Ultramarines",
     "faction_type": "Imperium",
     "points": {
-      "base": 155,
+      "base": 180,
       "variants": []
     },
     "composition": {
@@ -982,7 +997,8 @@
       "SV": "2+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~50mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -993,45 +1009,57 @@
           "Range": "18\"",
           "A": "4",
           "BS": "2+",
-          "S": "4",
-          "AP": "-1",
+          "S": "5",
+          "AP": "-2",
           "D": "2",
-          "Keywords": "Pistol, Twin-linked"
+          "Keywords": "Close-quarters, Twin-linked"
         }
       ],
       "melee": [
         {
-          "name": "Gauntlets of Ultramar",
+          "name": "➤ Gauntlets of Ultramar",
           "Range": "Melee",
           "A": "6",
           "WS": "2+",
-          "S": "8",
+          "S": "10",
           "AP": "-3",
           "D": "3",
           "Keywords": "Twin-linked"
+        },
+        {
+          "name": "➤ Gauntlets of Ultramar (Overhead Smash)",
+          "Range": "Melee",
+          "A": "1",
+          "WS": "2+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D3+3",
+          "Keywords": "Extra Attacks, Twin-linked"
         }
       ]
     },
     "abilities": [
       {
-        "name": "Inspiring Leader",
-        "description": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
-      },
-      {
         "name": "Master Tactician",
-        "description": "At the start of your Command phase, if this unit’s Marneus Calgar model is your **Warlord** and is on the battlefield, you gain 1CP."
+        "description": "In your Movement phase, you can select one visible friendly **Adeptus Astartes** unit within 9\" of this model, and select one combat doctrine. That combat doctrine is active for that unit until the start of your next Command phase."
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: AGGRESSOR SQUAD, ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, COMMAND SQUAD, COMPANY HEROES, ERADICATOR SQUAD STERNGUARD VETERAN SQUAD TERMINATOR SQUAD, HEAVY INTERCESSOR SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, RELIC TERMINATOR SQUAD, TACTICAL SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD, VANGUARD VETERAN SQUAD, VICTRIX HONOUR GUARD"
+        "description": "This model can be attached to the following units: AGGRESSOR SQUAD, ASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, COMPANY HEROES, ERADICATOR SQUAD WITH HEAVY BOLTERS, ERADICATOR SQUAD WITH MELTA RIFLES, HEAVY INTERCESSOR SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD, VANGUARD VETERAN SQUAD, VICTRIX HONOUR GUARD"
+      },
+      {
+        "name": "Thunderhawk Insertion",
+        "description": "In the Declare Battle Formations step, you can select one friendly **Gravis/Phobos/Tacticus** unit. That unit has Deep Strike."
       }
     ],
     "special_rules": [
       "Deep Strike",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Leader",
-      "Pistol",
-      "Twin-linked"
+      "Transhuman Strategist",
+      "Close-quarters",
+      "Twin-linked",
+      "Extra Attacks"
     ],
     "keywords": [
       "Epic Hero",
@@ -1053,7 +1081,7 @@
     "faction": "Ultramarines",
     "faction_type": "Imperium",
     "points": {
-      "base": 105,
+      "base": 115,
       "variants": []
     },
     "composition": {
@@ -1062,11 +1090,12 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1080,14 +1109,14 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
         {
           "name": "➤ Talassarian Tempest Blade - Strike",
           "Range": "Melee",
-          "A": "4",
+          "A": "5",
           "WS": "2+",
           "S": "6",
           "AP": "-3",
@@ -1097,7 +1126,7 @@
         {
           "name": "➤ Talassarian Tempest Blade - Coup de Grace",
           "Range": "Melee",
-          "A": "6",
+          "A": "7",
           "WS": "2+",
           "S": "5",
           "AP": "-2",
@@ -1119,21 +1148,25 @@
     "abilities": [
       {
         "name": "Knight Champion of Macragge",
-        "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model’s unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        "description": "(Once per phase, per army)\nIn your opponent’s Movement phase, when an enemy unit ends a move within 8\" of this unit, if this unit is unengaged, this unit can make a normal move of up to 6\"."
       },
       {
         "name": "Honour or Death",
-        "description": "You can target this unit with the Heroic Intervention Stratagem for 0CP, even if you have already used\nthat Stratagem on a different unit this phase."
+        "description": "When you target this unit with the Heroic Intervention stratagem, that use is -1 CP."
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units: \n\n\n- VICTRIX HONOUR GUARD\n\n\nYou can attach this model to the above unit even if a Marneus Calgar unit has already been attached\nto it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate\nunits, with their original Starting Strengths"
+        "description": "This model can be attached to the following units: \nVICTRIX HONOUR GUARD\n"
+      },
+      {
+        "name": "Captain of the Honour Guard",
+        "description": "If your army includes a Marneus Calgar unit, replace this unit’s Leader ability with the Support ability (this unit can still be attached to the same units)."
       }
     ],
     "special_rules": [
-      "Support",
-      "Oath of Moment",
-      "Pistol",
+      "Combat Doctrines",
+      "Transhuman Strategist",
+      "Close-quarters",
       "Sustained Hits",
       "Devastating Wounds",
       "Precision"
@@ -1149,7 +1182,8 @@
       "Cato",
       "Faction: Adeptus Astartes",
       "Faction: Ultramarines",
-      "Leader"
+      "Leader",
+      "Explosives"
     ]
   },
   {
@@ -1159,11 +1193,11 @@
     "faction": "Ultramarines",
     "faction_type": "Imperium",
     "points": {
-      "base": 110,
+      "base": 120,
       "variants": [
         {
           "models": 4,
-          "points": 230
+          "points": 250
         }
       ]
     },
@@ -1173,11 +1207,12 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "3",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1188,10 +1223,10 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": null
+          "Keywords": "Assault, Rapid Fire 1"
         }
       ],
       "melee": [
@@ -1210,7 +1245,7 @@
           "Range": "Melee",
           "A": "6",
           "WS": "2+",
-          "S": "5",
+          "S": "6",
           "AP": "-2",
           "D": "2",
           "Keywords": "Precision, Twin-linked"
@@ -1219,34 +1254,32 @@
     },
     "abilities": [
       {
-        "name": "Ultramarines Honour Guard",
-        "description": "While a Captain or Chapter Master model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll"
+        "name": "Honour Guard of Macragge",
+        "description": "Attacks that target this unit have -1 to wound rolls."
       },
       {
         "name": "Glory of Ultramar",
-        "description": "In your opponent’s Shooting phase, each time an enemy unit has shot, if any models from this unit\nwere destroyed as a result of those attacks, this unit can make a Surge move. To do so, roll one D6: models in this unit move a number of inches up to the result, but this unit must end that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, those models can be\nmoved within Engagement Range of that enemy unit. This unit cannot make a Surge move while it is Battle‑shocked or within Engagement Range of one or more enemy units, and can only make one Surge move per phase."
-      },
-      {
-        "name": "Attached Unit",
-        "description": "If a Captain or Chapter Master unit from your army can be attached to a Company Heroes unit, it can\nbe attached to this unit instead."
+        "description": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed by those attacks, this unit can make a surge move of up to D6\"."
       },
       {
         "name": "Banner of Macragge",
-        "description": "Once per battle, at the start of the Fight phase, the bearer can use this ability. If it does, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in the bearer’s unit."
+        "description": "- At the end of your Movement phase, if this unit is controlling an objective, that objective is secured.\n- (Once per battle, per army) When this unit is selected to fight, you can use this ability. If you do, this unit’s melee attacks have +1 A and S."
       }
     ],
     "special_rules": [
-      "Oath of Moment",
+      "Combat Doctrines",
+      "Assault",
+      "Rapid Fire",
       "Precision",
       "Twin-linked"
     ],
     "keywords": [
       "Infantry",
       "Imperium",
-      "Tacticus",
       "Faction: Ultramarines",
       "Victrix Honour Guard",
-      "Faction: Adeptus Astartes"
+      "Faction: Adeptus Astartes",
+      "Tacticus"
     ]
   },
   {
@@ -1256,7 +1289,7 @@
     "faction": "Ultramarines",
     "faction_type": "Imperium",
     "points": {
-      "base": 100,
+      "base": 115,
       "variants": []
     },
     "composition": {
@@ -1265,11 +1298,12 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1280,20 +1314,20 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Master-crafted Bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Assault, Heavy"
+          "Keywords": "Assault, Heavy, Rapid Fire 1"
         }
       ],
       "melee": [
@@ -1305,31 +1339,37 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Anti-Infantry 2+"
+          "Keywords": "Anti-Non-Monster/Vehicle 2+"
         }
       ]
     },
     "abilities": [
       {
         "name": "Press the Attack",
-        "description": "Weapons equipped by models in this model’s unit have the [SUSTAINED HITS 1] ability"
+        "description": "This unit’s melee attacks have:\n\n\n- [Sustained Hits 1: non-Monster/Vehicle].\n- Or: If the assault doctrine is active for this unit, [Sustained Hits 1]."
       },
       {
         "name": "Honour of Ultramar",
-        "description": "If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. This model can fight after the attacking unit has finished making its attacks. If one or more enemy models are destroyed as a result of those attacks, this model regains D3 lost wounds and is not destroyed; otherwise, it is removed from play."
+        "description": "n the fight phase, when this model is destroyed, if this unit has not been selected to fight this phase, roll one D6:\n- On a 2+, do not remove this model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), this model is removed from the battlefield."
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units: \n\n- ASSAULT INTERCESSOR SQUAD\n- ASSAULT SQUAD\n- BLADEGUARD VETERAN SQUAD\n- COMMAND SQUAD\n- COMPANY HEROES\n- HELLBLASTER SQUAD\n- INFERNUS SQUAD\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- VANGUARD VETERAN SQUAD\n- VICTRIX HONOUR GUARD\n- WARDENS OF ULTRAMAR"
+        "description": "This model can be attached to the following units: \nASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, HELLBLASTER SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD"
+      },
+      {
+        "name": "Righteous Fury",
+        "description": "(Once per battle, per army)\nIn the Fight phase, you can use this ability. If you do, this unit’s melee attacks have +1 S, and when this unit has fought:\n- This model heals D3 wounds.\n- Or: If this model destroyed an enemy model this phase, this model heals 2D3 wounds"
       }
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Feel No Pain 5+",
+      "Transhuman Strategist",
       "Anti",
       "Assault",
-      "Heavy"
+      "Heavy",
+      "Rapid Fire"
     ],
     "keywords": [
       "Titus",
@@ -1338,11 +1378,11 @@
       "Epic Hero",
       "Imperium",
       "Tacticus",
-      "Grenades",
       "Captain",
       "Faction: Adeptus Astartes",
       "Faction: Ultramarines",
-      "Leader"
+      "Leader",
+      "Explosives"
     ]
   },
   {
@@ -1352,7 +1392,7 @@
     "faction": "Ultramarines",
     "faction_type": "Imperium",
     "points": {
-      "base": 120,
+      "base": 115,
       "variants": []
     },
     "composition": {
@@ -1365,31 +1405,42 @@
       "SV": "4+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
-    "invuln_save": null,
+    "invuln_save": "5+",
     "transport": null,
     "weapons": {
       "ranged": [
         {
-          "name": "Bolt Rifle",
+          "name": "➤ Bolt Rifle - Focused Fire",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Heavy, Rapid Fire 1"
+        },
+        {
+          "name": "➤ Bolt Rifle - Saturation",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Assault, Heavy"
+          "Keywords": "Assault, Rapid Fire 1"
         },
         {
           "name": "Heavy Bolt Pistol",
           "Range": "18\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Archeotech Laspistol",
@@ -1399,29 +1450,29 @@
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Astropathic Blast",
           "Range": "12\"",
-          "A": "D6",
+          "A": "3",
           "BS": "3+",
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Blast, Psychic"
+          "Keywords": "Blast 1, Psychic"
         }
       ],
       "melee": [
         {
-          "name": "Close combat weapon",
+          "name": "Ceramite Fists",
           "Range": "Melee",
           "A": "4",
-          "WS": "2+",
-          "S": "4",
+          "WS": "3+",
+          "S": "5",
           "AP": "0",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Master-crafted power weapon",
@@ -1452,29 +1503,31 @@
           "AP": "-2",
           "D": "2",
           "Keywords": "Psychic"
+        },
+        {
+          "name": "Ultramarian Combat Weapons",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": ""
         }
       ]
     },
     "abilities": [
       {
-        "name": "Second Company Banner",
-        "description": "While this unit contains Ancient Gadriel, add 1 to the Objective Control characteristic of models in this unit. While this unit contains Ancient Gadriel and Captain Titus, improve the Leadership characteristic of models in this unit by 1 as well."
+        "name": "Raise the  Banner",
+        "description": "At the end of your Movement phase, if this unit is controlling an objective, that objective is secured."
       },
       {
         "name": "Strategium Command",
-        "description": "After both players have deployed their armies, if this unit is on the battlefield (or any Transport it\nis embarked within is on the battlefield), select up to three Adeptus Astartes units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        "description": "When both players have deployed their armies, you can redeploy up to three friendly Adeptus Astartes units. When doing so, you can set those units up in strategic reserves, regardless of how many units are already in strategic reserves."
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD"
-      },
-      {
-        "name": "Storm Shield",
-        "description": "The bearer has a 4+ Invulnerable save."
-      },
-      {
-        "name": "Refractor Field",
-        "description": "The bearer has a 5+ invulnerable save."
+        "description": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD"
       }
     ],
     "special_rules": [
@@ -1485,13 +1538,105 @@
     "keywords": [
       "Infantry",
       "Epic Hero",
-      "Grenades",
       "Imperium",
       "Tacticus",
       "Faction: Adeptus Astartes",
       "Faction: Ultramarines",
       "Wardens of Ultramar",
-      "Support"
+      "Support",
+      "Explosives"
+    ]
+  },
+  {
+    "name": "Kaius Konorius",
+    "id": "3a3c-2481-fcc6-41cb",
+    "type": "model",
+    "faction": "Ultramarines",
+    "faction_type": "Imperium",
+    "points": {
+      "base": 100,
+      "variants": []
+    },
+    "composition": {
+      "min_models": 1,
+      "max_models": 1
+    },
+    "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1",
+      "Base": "-"
+    },
+    "invuln_save": "4+",
+    "transport": null,
+    "weapons": {
+      "ranged": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "Range": "18\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Close-quarters"
+        }
+      ],
+      "melee": [
+        {
+          "name": "➤ Severance and Rebuke - Strike",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "10",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": "Precision"
+        },
+        {
+          "name": "➤ Severance and Rebuke - Sweep",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Cleave 2"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Support",
+        "description": "This model can be attached to the following units: \nASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD, VICTRIX HONOUR GUARD"
+      },
+      {
+        "name": "Veteran Bodyguard",
+        "description": "While this model is attached to a unit, other Character models in this unit have Feel No Pain 4+."
+      },
+      {
+        "name": "Calgar’s Champion",
+        "description": "This model’s attacks that target a Character unit can:\n\n\n- Re-roll hit rolls of 1.\n- Re-roll wound rolls of 1."
+      }
+    ],
+    "special_rules": [
+      "Combat Doctrines",
+      "Support",
+      "Precision",
+      "Cleave"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Explosives",
+      "Infantry",
+      "Faction: Adeptus Astartes",
+      "Faction: Ultramarines",
+      "Character",
+      "Support",
+      "Tacticus"
     ]
   }
 ]

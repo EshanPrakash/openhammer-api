@@ -6,7 +6,7 @@
     "faction": "Salamanders",
     "faction_type": "Imperium",
     "points": {
-      "base": 80,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -15,11 +15,12 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -29,11 +30,11 @@
           "name": "Drakkis",
           "Range": "12\"",
           "A": "D6+3",
-          "BS": "N/A",
-          "S": "4",
+          "BS": "-",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Ignores Cover, Pistol, Torrent"
+          "Keywords": "Close-quarters, Torrent"
         }
       ],
       "melee": [
@@ -45,30 +46,31 @@
           "S": "10",
           "AP": "-2",
           "D": "3",
-          "Keywords": null
+          "Keywords": "Devastating Wounds"
         }
       ]
     },
     "abilities": [
       {
         "name": "Unto the Anvil",
-        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Wound roll."
+        "description": "This unit’s melee attacks can:\n\n\n- Re-roll wound rolls of 1.\n- Or: If the assault doctrine is active for this unit, re-roll wound rolls."
       },
       {
         "name": "Lord of the Pyroclasts",
-        "description": "While an enemy unit is within Engagement Range of this model, halve the Objective Control characteristic of models in that enemy unit"
+        "description": "While an enemy unit is engaged with this unit, that enemy unit has -1 OC."
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- BLADEGUARD VETERAN SQUAD\n- COMPANY HEROES\n- INFERNUS SQUAD\n- INTERCESSOR SQUAD\n- STERNGUARD VETERAN SQUAD\n- TACTICAL SQUAD"
+        "description": "This model can be attached to the following units:\nASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, COMPANY HEROES, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD"
       }
     ],
     "special_rules": [
-      "Oath of Moment",
+      "Combat Doctrines",
       "Leader",
-      "Ignores Cover",
+      "Transhuman Strategist",
+      "Close-quarters",
       "Torrent",
-      "Pistol"
+      "Devastating Wounds"
     ],
     "keywords": [
       "Epic Hero",
@@ -80,7 +82,8 @@
       "Faction: Salamanders",
       "Imperium",
       "Tacticus",
-      "Leader"
+      "Leader",
+      "Explosives"
     ]
   },
   {
@@ -90,7 +93,7 @@
     "faction": "Salamanders",
     "faction_type": "Imperium",
     "points": {
-      "base": 95,
+      "base": 105,
       "variants": []
     },
     "composition": {
@@ -99,11 +102,12 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -114,20 +118,20 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Gauntlet of the Forge",
           "Range": "12\"",
           "A": "D6+3",
-          "BS": "N/A",
+          "BS": "-",
           "S": "6",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Ignores Cover, Pistol, Torrent"
+          "Keywords": "Close-quarters, Torrent"
         }
       ],
       "melee": [
@@ -136,7 +140,7 @@
           "Range": "Melee",
           "A": "6",
           "WS": "2+",
-          "S": "6",
+          "S": "7",
           "AP": "-2",
           "D": "2",
           "Keywords": "Devastating Wounds"
@@ -146,28 +150,24 @@
     "abilities": [
       {
         "name": "Forgefather",
-        "description": "In your Shooting phase, select one enemy unit within 24\" of and visible to this model. Until the end of the phase, each time a friendly Adeptus Astartes model makes a ranged attack with a Torrent or Melta weapon that targets that enemy unit, you can re-roll the Wound roll"
+        "description": "In your Shooting phase, select one visible enemy unit within 24\" of this model. Friendly **Adeptus Astartes** units’ [Melta]/[Torrent] attacks that target that enemy unit have +2 S."
       },
       {
         "name": "Seeker of the Unfound",
-        "description": "The first time this model is set up on the battlefield, select one objective marker on the battlefield. While this model is within range of that objective marker, it has an Objective Control characteristic of 10, a Leadership characteristic of 5+ and the Feel No Pain 4+ ability."
+        "description": "The first time this model is set up on the battlefield, select one objective on the battlefield. While this model is within range of that objective, this model has:\n\n\n- 10 OC.\n- 5+ Ld.\n- Feel No Pain 4+."
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSOR SQUAD\n- COMPANY HEROES\n- INFERNUS SQUAD\n- TACTICAL SQUAD"
-      },
-      {
-        "name": "Inspiring Commander",
-        "description": "If you include this model in your army, until the end of the battle, non-Character models in Infernus Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+        "description": "This model can be attached to the following units:\nASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, COMPANY HEROES, ERADICATOR SQUAD WITH MELTA RIFLES, INFERNUS SQUAD, VANGUARD VETERAN SQUAD"
       }
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Feel No Pain 6+",
-      "Ignores Cover",
+      "Transhuman Strategist",
+      "Close-quarters",
       "Torrent",
-      "Pistol",
       "Devastating Wounds"
     ],
     "keywords": [

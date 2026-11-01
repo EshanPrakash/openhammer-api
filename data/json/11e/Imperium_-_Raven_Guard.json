@@ -6,7 +6,7 @@
     "faction": "Raven Guard",
     "faction_type": "Imperium",
     "points": {
-      "base": 100,
+      "base": 95,
       "variants": []
     },
     "composition": {
@@ -19,7 +19,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -33,7 +34,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Pistol, Precision"
+          "Keywords": "Close-quarters, Precision"
         }
       ],
       "melee": [
@@ -52,28 +53,24 @@
     "abilities": [
       {
         "name": "Trifold Path of Shadow",
-        "description": "While this model is leading a unit, models  in this unit cannot be targeted by ranged attacks unless the attacking model is within 12\"."
+        "description": "This unit has:\n\n- Stealth.\n- -3\" detection range."
       },
       {
         "name": "Echo of the Ravenspire",
-        "description": "At the end of your opponent’s turn, if this model’s unit is not within Engagement Range of any enemy models, you can remove it from the battlefield and place it into Strategic Reserves."
+        "description": "At the end of your opponent’s Fight phase, if this unit is unengaged, you can place this unit in strategic reserves."
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- ASSAULT INTERCESSORS WITH JUMP PACKS\n- VANGUARD VETERAN SQUAD WITH JUMP PACKS"
-      },
-      {
-        "name": "Inspiring Commander",
-        "description": "If you include this model in your army, until the end of the battle, non-Character models in Assault\nIntercessors with Jump Packs units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+        "description": "This model can be attached to the following units:\nASSAULT INTERCESSORS WITH JUMP PACKS, VANGUARD VETERAN SQUAD WITH JUMP PACKS"
       }
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Lone Operative",
       "Deep Strike",
-      "Stealth",
-      "Pistol",
+      "Transhuman Strategist",
+      "Close-quarters",
       "Precision",
       "Twin-linked"
     ],
@@ -86,10 +83,12 @@
       "Jump Pack",
       "Faction: Adeptus Astartes",
       "Faction: Raven Guard",
-      "Chapter Master",
       "Kayvaan Shrike",
       "Phobos",
-      "Leader"
+      "Leader",
+      "Smoke",
+      "Explosives",
+      "Captain"
     ]
   },
   {
@@ -99,7 +98,7 @@
     "faction": "Raven Guard",
     "faction_type": "Imperium",
     "points": {
-      "base": 100,
+      "base": 105,
       "variants": []
     },
     "composition": {
@@ -108,11 +107,12 @@
     },
     "stats": {
       "M": "14\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -123,10 +123,10 @@
           "Range": "18\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -138,29 +138,26 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "Sustained Hits 2, Twin-linked"
+          "Keywords": "Sustained Hits 2: non-MONSTER/VEHICLE, Twin-linked"
         }
       ]
     },
     "abilities": [
       {
-        "name": "Chapter Master of the Raven Guard",
-        "description": "At the start of the Declare Battle Formations step, if your army includes Aethon Shaan and Kayvaan\nShrike, until the end of the battle, your Kayvaan Shrike unit loses its Lone Operative ability and it\nreplaces its Chapter Master keyword with Captain."
-      },
-      {
         "name": "Master of Shadows",
-        "description": "In your Command phase, you can select one unit from your opponent’s army. Until the start of your next Command phase, each time an Adeptus Astartes unit from your army declares a charge while it is within 12\" of that enemy unit, you can re-roll the Charge roll, but it must declare that enemy unit as a target of that charge (if possible)."
+        "description": "In your Command phase, you can select one friendly **Adeptus Astartes** Infantry unit. You can re-roll charge rolls for that unit until the start of your next Command phase."
       },
       {
         "name": "Blackwing Mantle",
-        "description": "You can target this model’s unit with the Rapid Ingress and Heroic Intervention Stratagems for 0CP,\neven if you have already used that Stratagem on a different unit this phase."
+        "description": "(Once per phase, per army)\nYou can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase."
       }
     ],
     "special_rules": [
       "Deep Strike",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Stealth",
       "Lone Operative",
+      "Transhuman Strategist",
       "Sustained Hits",
       "Twin-linked"
     ],
@@ -176,7 +173,9 @@
       "Tacticus",
       "Chapter Master",
       "Aethon Shaan",
-      "Leader"
+      "Leader",
+      "Explosives",
+      "Smoke"
     ]
   }
 ]

@@ -19,7 +19,8 @@
       "SV": "3+",
       "W": "8",
       "LD": "8+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -80,7 +81,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -137,7 +139,8 @@
       "SV": "2+",
       "W": "18",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This FORTIFICATION has a transport capacity of 15 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more.",
@@ -210,7 +213,8 @@
       "SV": "2+",
       "W": "18",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This Fortification has a transport capacity of 15 Infantry models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-Character models with a Wounds characteristic of 4 or more",
@@ -303,7 +307,8 @@
       "SV": "2+",
       "W": "30",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This FORTIFICATION has a transport capacity of 20 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more.",
@@ -394,7 +399,8 @@
       "SV": "3+",
       "W": "7",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -472,7 +478,8 @@
       "SV": "2+",
       "W": "30",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This FORTIFICATION has a transport capacity of 30 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more.",
@@ -541,7 +548,8 @@
       "SV": "2+",
       "W": "18",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "~50mm"
     },
     "invuln_save": null,
     "transport": "This FORTIFICATION has a transport capacity of 20 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more.",
@@ -611,7 +619,8 @@
       "SV": "3+",
       "W": "18",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -785,7 +794,8 @@
       "SV": "3+",
       "W": "16",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -832,7 +842,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -899,7 +910,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -973,7 +985,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -1049,7 +1062,8 @@
       "SV": "3+",
       "W": "16",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1092,7 +1106,8 @@
       "SV": "2+",
       "W": "30",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This FORTIFICATION has a transport capacity of 30 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more.",
@@ -1165,7 +1180,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This Fortification has a transport capacity of 11 Infantry models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-Character models with a Wounds characteristic of 4 or more",
@@ -1233,7 +1249,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -1270,7 +1287,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -1307,7 +1325,8 @@
       "SV": "2+",
       "W": "80",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This FORTIFICATION has a transport capacity of 65 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more.",
@@ -1391,7 +1410,8 @@
       "SV": "2+",
       "W": "50",
       "LD": "6+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This FORTIFICATION has a transport capacity of 60 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more.",
@@ -1537,7 +1557,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "6+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -1594,7 +1615,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "6+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,

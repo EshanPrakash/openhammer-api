@@ -19,7 +19,8 @@
       "SV": "3+",
       "W": "16",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": "6+",
     "transport": "This model has a **transport capacity** of 22 **ORKS INFANTRY** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models. Each **GHAZGHKULL THRAKA** model takes up the space of 4 models.",
@@ -115,7 +116,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -213,7 +215,8 @@
       "SV": "4+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -289,7 +292,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "80mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -393,7 +397,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -542,7 +547,8 @@
       "SV": "4+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -616,7 +622,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a **transport capacity** of 11 **ORKS INFANTRY** models. It cannot transport **GHAZGHKULL THRAKA** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models.",
@@ -703,7 +710,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -783,7 +791,8 @@
       "SV": "5+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -865,7 +874,8 @@
       "SV": "4+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -951,7 +961,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1162,7 +1173,8 @@
       "SV": "5+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1205,7 +1217,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -1295,7 +1308,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -1365,7 +1379,8 @@
       "SV": "2+",
       "W": "8",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -1482,7 +1497,8 @@
       "SV": "4+",
       "W": "9",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "150x95mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1553,7 +1569,7 @@
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n- **NOBZ ON WARBIKES**\n- **SKORCHAS**\n- **WARBIKERS**\n- **WARBUGGIES**"
+        "description": "This model can be attached to the following unit:\n- **WARBIKERS**\n"
       }
     ],
     "special_rules": [
@@ -1597,7 +1613,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1683,7 +1700,8 @@
       "SV": "2+",
       "W": "16",
       "LD": "6+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "80mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1785,7 +1803,8 @@
       "SV": "2+",
       "W": "20",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "170x109mm"
     },
     "invuln_save": "6+",
     "transport": "This model has a **transport capacity** of 12 **ORKS INFANTRY** models It cannot transport **GHAZGHKULL THRAKA** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models.",
@@ -1912,7 +1931,8 @@
       "SV": "6+",
       "W": "1",
       "LD": "8+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1984,7 +2004,8 @@
       "SV": "3+",
       "W": "16",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "170x109mm"
     },
     "invuln_save": "6+",
     "transport": "This model has a **transport capacity** of 22 **BEAST SNAGGAS INFANTRY** models.",
@@ -2090,7 +2111,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2187,7 +2209,8 @@
       "SV": "3+",
       "W": "16",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "170x109mm"
     },
     "invuln_save": "6+",
     "transport": "This model has a **transport capacity** of 12 **BEAST SNAGGAS INFANTRY** models.",
@@ -2313,7 +2336,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "8+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -2401,7 +2425,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2553,7 +2578,8 @@
       "SV": "5+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2596,7 +2622,8 @@
       "SV": "5+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2685,7 +2712,8 @@
       "SV": "5+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2762,7 +2790,8 @@
       "SV": "2+",
       "W": "20",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "170x109mm"
     },
     "invuln_save": "5+",
     "transport": "This model has a **transport capacity** of 12 **ORKS INFANTRY** models. In cannot transport **GHAZGHKULL THRAKA** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models.",
@@ -2874,7 +2903,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "80mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2927,7 +2957,7 @@
     "abilities": [
       {
         "name": "Beast Snagga Following",
-        "description": "While this unit is within 3\" of a friendly **BEAST SNAGGA** unit (excluding **MONSTER CHARACER** units), this unit has **Lone Operative**."
+        "description": "While this unit is within 3\" of a friendly **BEAST SNAGGA** unit (excluding **MONSTER CHARACTER** units), this unit has **Lone Operative**."
       },
       {
         "name": "One Last Kill",
@@ -2971,7 +3001,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "40mm"
     },
     "invuln_save": "\n",
     "transport": null,
@@ -3043,7 +3074,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -3113,7 +3145,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3193,7 +3226,8 @@
       "SV": "4+",
       "W": "9",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "150x95mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -3276,7 +3310,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "75x42mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -3332,7 +3367,7 @@
           "S": "7",
           "AP": "-1",
           "D": "2",
-          "Keywords": "ANTI-MONSTER/VEHICLE 4+, CLEAVE 2+"
+          "Keywords": "ANTI-MONSTER/VEHICLE 4+, CLEAVE 2"
         },
         {
           "name": "Stikka (melee)",
@@ -3384,7 +3419,8 @@
       "SV": "2+",
       "W": "30",
       "LD": "6+",
-      "OC": "12"
+      "OC": "12",
+      "Base": "Hull"
     },
     "invuln_save": "5+",
     "transport": "This model has a **transport capacity** of 22 **ORKS INFANTRY** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models. Each **GHAZGHKULL THRAKA** model takes up the space of 4 models.",
@@ -3399,16 +3435,6 @@
           "AP": "0",
           "D": "1",
           "Keywords": "LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 2"
-        },
-        {
-          "name": "Twin big shoota",
-          "Range": "36\"",
-          "A": "3",
-          "BS": "5+",
-          "S": "5",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 2, Twin-linked"
         },
         {
           "name": "Deffkannon and Supa-rokkits",
@@ -3516,7 +3542,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3605,7 +3632,8 @@
       "SV": "4+",
       "W": "10",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": "6+",
     "transport": "This model has a **transport capacity** of 12 **ORKS INFANTRY** models. It cannot transport **GHAZGHKULL THRAKA/JUMP PACK** models. Each **MEGA ARMOUR** model takes up the space of 2 models.",
@@ -3721,7 +3749,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "75x42mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -3818,7 +3847,8 @@
       "SV": "4+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3946,7 +3976,8 @@
       "SV": "2+",
       "W": "7",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4021,7 +4052,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "150x95mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -4126,7 +4158,8 @@
       "SV": "5+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -4209,7 +4242,8 @@
       "SV": "5+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -4283,7 +4317,8 @@
       "SV": "4+",
       "W": "10",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -4336,7 +4371,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "8+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -4457,7 +4493,7 @@
     },
     "composition": {
       "min_models": 1,
-      "max_models": 1
+      "max_models": 2
     },
     "stats": {
       "M": "10\"",
@@ -4465,86 +4501,70 @@
       "SV": "3+",
       "W": "30",
       "LD": "7+",
-      "OC": "12"
+      "OC": "12",
+      "Base": "Hull"
     },
     "invuln_save": null,
-    "transport": "This model has a transport capacity of 20 ORKS INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models. GHAZGHKULL THRAKA takes up the space of 18 models. If this model is equipped with a supa-kannon, it has a transport capacity of 15 ORKS INFANTRY models.",
+    "transport": "This model has a transport capacity of 22 ORKS INFANTRY models. Each MEGA ARMOUR, JUMP PACK model takes up the space of 2 models. Each GHAZGHKULL THRAKA model takes up the space of 4 models.",
     "weapons": {
       "ranged": [
         {
-          "name": "➤ Kannon - shell",
-          "Range": "36\"",
-          "A": "1",
-          "BS": "5+",
-          "S": "9",
-          "AP": "-2",
-          "D": "D6",
-          "Keywords": ""
-        },
-        {
-          "name": "➤ Kannon - frag",
-          "Range": "36\"",
-          "A": "D6",
-          "BS": "5+",
-          "S": "5",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Blast"
-        },
-        {
           "name": "Supa-kannon",
           "Range": "60\"",
-          "A": "2D6",
+          "A": "8",
           "BS": "5+",
           "S": "12",
           "AP": "-2",
           "D": "3",
-          "Keywords": "Blast"
+          "Keywords": "Blast 1"
+        },
+        {
+          "name": "➤ Kannon - shell",
+          "Range": "36\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6+1",
+          "Keywords": "Rapid Fire 2"
+        },
+        {
+          "name": "➤ Kannon - frag",
+          "Range": "36\"",
+          "A": "6",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Blast 1, Rapid Fire 6"
         }
       ],
       "melee": [
         {
-          "name": "➤ Huge tusks - strike",
+          "name": "Huge tusks",
           "Range": "Melee",
           "A": "6",
           "WS": "3+",
           "S": "14",
           "AP": "-3",
           "D": "12",
-          "Keywords": "Lance"
-        },
-        {
-          "name": "➤ Huge tusks - sweep",
-          "Range": "Melee",
-          "A": "18",
-          "WS": "3+",
-          "S": "9",
-          "AP": "-2",
-          "D": "3",
-          "Keywords": ""
+          "Keywords": "Cleave 2"
         }
       ]
     },
     "abilities": [
       {
-        "name": "Gargantuan",
-        "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
-      },
-      {
         "name": "Walking Bastion",
-        "description": "This model does not suffer the penalty to its Hit rolls for making ranged attacks while enemy units are within Engagement Range of it."
-      },
-      {
-        "name": "Damaged: 1-10 Wounds Remaining",
-        "description": "While this model has 1-10 wounds remaining, subtract 6 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        "description": "This unit's attacks can ignore modifiers to:\n- BS/WS\n- Hit rolls"
       }
     ],
     "special_rules": [
-      "Firing Deck 20",
+      "Firing Deck 11",
       "Deadly Demise 2D6",
       "Waaagh!",
-      "Lance",
-      "Blast"
+      "Super-Heavy Walker",
+      "Damaged 10",
+      "Cleave"
     ],
     "keywords": [
       "Monster",
@@ -4576,7 +4596,8 @@
       "SV": "3+",
       "W": "24",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 Orks Infantry models. Each Mega Armour, Jump Pack model takes up the space of 2 models. Each Ghazghkull Thraka model takes up the space of 4 models.",
@@ -4701,7 +4722,7 @@
           "WS": "3+",
           "S": "10",
           "AP": "-2",
-          "D": "",
+          "D": "3",
           "Keywords": ""
         }
       ]
@@ -4751,7 +4772,8 @@
       "SV": "4+",
       "W": "12",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": "6+",
     "transport": "This model has a transport capacity of 12 Orks Infantry models. It cannot transport Ghazghkull Thraka models. Each Mega Armour, Jump Pack model takes up the space of 2 models.",
@@ -4861,7 +4883,8 @@
       "SV": "4+",
       "W": "7",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "75x42mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4965,7 +4988,8 @@
       "SV": "4+",
       "W": "7",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "105x70mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -5045,7 +5069,8 @@
       "SV": "3+",
       "W": "16",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -5112,6 +5137,16 @@
           "AP": "0",
           "D": "D6",
           "Keywords": "CLEAVE 2, EXTRA ATTACKS"
+        },
+        {
+          "name": "Crushin' Bulk",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "Keywords": "Cleave 1"
         }
       ]
     },
@@ -5124,7 +5159,8 @@
     "special_rules": [
       "Waaagh!",
       "Damaged 6",
-      "Deadly Demise D6"
+      "Deadly Demise D6",
+      "Cleave"
     ],
     "keywords": [
       "Vehicle",
@@ -5154,7 +5190,8 @@
       "SV": "4+",
       "W": "5",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "-"
     },
     "invuln_save": null,
     "transport": null,
@@ -5230,7 +5267,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5323,7 +5361,8 @@
       "SV": "5+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5377,7 +5416,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -5452,7 +5492,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -5524,7 +5565,8 @@
       "SV": "4+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5576,7 +5618,8 @@
       "SV": "5+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5630,7 +5673,8 @@
       "SV": "7+",
       "W": "3",
       "LD": "8+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "~25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5685,7 +5729,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -5788,7 +5833,8 @@
       "SV": "4+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5860,7 +5906,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "90mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -5943,7 +5990,8 @@
       "SV": "2+",
       "W": "8",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "60mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -6054,7 +6102,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -6126,7 +6175,8 @@
       "SV": "3+",
       "W": "16",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": "6+",
     "transport": "This model has a **transport capacity** of 12 **ORKS INFANTRY** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models. Each **GHAZGHKULL THRAKA** model takes up the space of 4 models.",

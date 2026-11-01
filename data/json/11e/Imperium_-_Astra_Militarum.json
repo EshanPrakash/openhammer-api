@@ -19,7 +19,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -79,7 +80,8 @@
       "SV": "2+",
       "W": "7",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "80mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -239,7 +241,8 @@
       "SV": "2+",
       "W": "24",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -359,7 +362,8 @@
       "SV": "2+",
       "W": "24",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -455,7 +459,8 @@
       "SV": "2+",
       "W": "24",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -546,7 +551,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -618,7 +624,8 @@
       "SV": "5+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -767,7 +774,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -974,7 +982,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 **Astra Militarum Infantry** models. Each **Ogryn** model takes up the space of 3 models. It cannot transport **Artillery** models.",
@@ -1107,7 +1116,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1215,7 +1225,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -1287,7 +1298,8 @@
       "SV": "2+",
       "W": "24",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 26 **Astra Militarum Infantry** models. Each **Ogryn** model takes up the space of 3 models. It cannot transport **Artillery** models.",
@@ -1380,7 +1392,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1532,7 +1545,8 @@
       "SV": "2+",
       "W": "24",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -1653,7 +1667,8 @@
       "SV": "2+",
       "W": "11",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -1787,7 +1802,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -1858,7 +1874,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1962,7 +1979,8 @@
       "SV": "3+",
       "W": "8",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "80mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2057,7 +2075,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -2130,7 +2149,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2336,7 +2356,8 @@
       "SV": "4+",
       "W": "6",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2412,7 +2433,8 @@
       "SV": "5+",
       "W": "6",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2526,7 +2548,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "2+",
     "transport": null,
@@ -2628,7 +2651,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2722,7 +2746,8 @@
       "SV": "2+",
       "W": "18",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -2876,7 +2901,8 @@
       "SV": "3+",
       "W": "7",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "80mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3037,7 +3063,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3121,7 +3148,8 @@
       "SV": "2+",
       "W": "24",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -3213,7 +3241,8 @@
       "SV": "5+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3292,7 +3321,8 @@
       "SV": "2+",
       "W": "24",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 40 **Astra Militarum Infantry** models. Each **Ogryn** model takes up the space of 3 models. It cannot transport **Artillery** models.",
@@ -3394,7 +3424,8 @@
       "SV": "2+",
       "W": "24",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -3495,7 +3526,8 @@
       "SV": "2+",
       "W": "13",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -3731,7 +3763,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 **Astra Militarum Infantry** models. Each **Ogryn** model takes up the space of 3 models. It cannot transport **Artillery** models.",
@@ -3811,7 +3844,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 **Militarum Tempestus Infantry** or **Astra Militarum Infantry Character** models.",
@@ -3945,7 +3979,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4025,7 +4060,8 @@
       "SV": "2+",
       "W": "14",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 **Astra Militarum Infantry** models. Each **Ogryn** model takes up the space of 3 models. It cannot transport **Artillery** models.",
@@ -4138,7 +4174,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -4211,7 +4248,8 @@
       "SV": "2+",
       "W": "12",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -4382,7 +4420,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "8+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -4435,7 +4474,8 @@
       "SV": "2+",
       "W": "18",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -4565,7 +4605,8 @@
       "SV": "2+",
       "W": "18",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -4706,7 +4747,8 @@
       "SV": "2+",
       "W": "18",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -4836,7 +4878,8 @@
       "SV": "2+",
       "W": "18",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -4977,7 +5020,8 @@
       "SV": "4+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -5049,7 +5093,8 @@
       "SV": "4+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -5121,7 +5166,8 @@
       "SV": "2+",
       "W": "24",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -5262,7 +5308,8 @@
       "SV": "2+",
       "W": "20",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -5393,7 +5440,8 @@
       "SV": "2+",
       "W": "20",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -5524,7 +5572,8 @@
       "SV": "2+",
       "W": "20",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -5654,7 +5703,8 @@
       "SV": "2+",
       "W": "18",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -5768,7 +5818,8 @@
       "SV": "2+",
       "W": "18",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 35 ASTRA MILITARUM INFANTRY models. Each Heavy Weapons Team model and Veteran Heavy Weapons Team model takes up the space of  2 models. Each OGRYN model takes up the space of 3 models. It cannot transport ARTILLERY models.",
@@ -5858,7 +5909,8 @@
       "SV": "2+",
       "W": "11",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -5959,7 +6011,8 @@
       "SV": "2+",
       "W": "20",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -6098,7 +6151,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -6188,7 +6242,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -6267,7 +6322,8 @@
       "SV": "2+",
       "W": "14",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -6368,7 +6424,8 @@
       "SV": "2+",
       "W": "20",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -6455,7 +6512,8 @@
       "SV": "2+",
       "W": "20",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -6561,7 +6619,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -6639,7 +6698,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -6709,7 +6769,8 @@
       "SV": "3+",
       "W": "8",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -6765,7 +6826,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -6854,7 +6916,8 @@
       "SV": "2+",
       "W": "14",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 1 TAUROS model or 2 ASTRA MILITARUM WALKER models.",
@@ -6943,7 +7006,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 Astra Militarum Infantry models. Each Heavy Weapons Team model and Veteran Heavy Weapons Team model takes up the space of 2 models. Each Ogryn model takes up the space of 3 models. It cannot transport Artillery models.",
@@ -7032,7 +7096,8 @@
       "SV": "2+",
       "W": "20",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -7172,7 +7237,8 @@
       "SV": "2+",
       "W": "20",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": "5+*",
     "transport": "This model has a transport capacity of 30 **Astra Militarum Infantry** models. Each Heavy Weapons Team model and Veteran Heavy Weapons Team model takes up the space of 2 models. Each **Ogryn** model takes up the space of 3 models. It cannot transport **Artillery** models.",
@@ -7294,7 +7360,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -7480,7 +7547,8 @@
       "SV": "3+",
       "W": "7",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 6 Astra Militarum Infantry models. Each Heavy Weapons Team model and Veteran Heavy Weapons Team model takes up the space of 2 models. It cannot transport Ogryn or Artillery models.",
@@ -7560,7 +7628,8 @@
       "SV": "2+",
       "W": "20",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -7691,7 +7760,8 @@
       "SV": "2+",
       "W": "13",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -7790,7 +7860,8 @@
       "SV": "6+",
       "W": "1",
       "LD": "8+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -7885,7 +7956,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "8+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -7975,7 +8047,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -8074,7 +8147,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "7",
-      "OC": "1"
+      "OC": "1",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -8177,7 +8251,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "80mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -8278,7 +8353,8 @@
       "SV": "5+",
       "W": "2",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -8360,7 +8436,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "130mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -8431,7 +8508,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -8553,7 +8631,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -8623,7 +8702,8 @@
       "SV": "3+",
       "W": "8",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 Astra Militarum Infantry models. Each Heavy Weapons Team model and Veteran Heavy Weapons Team model takes up the space of 2 models. It cannot transport Ogryn or Artillery models.",
@@ -8681,7 +8761,8 @@
       "SV": "2+",
       "W": "14",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -8770,7 +8851,8 @@
       "SV": "2+",
       "W": "18",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -8844,7 +8926,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~28.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -8935,7 +9018,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "80mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -8994,7 +9078,8 @@
       "SV": "3+",
       "W": "8",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -9068,7 +9153,8 @@
       "SV": "3+",
       "W": "8",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -9142,7 +9228,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -9254,7 +9341,8 @@
       "SV": "3+",
       "W": "8",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -9332,7 +9420,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -9442,7 +9531,8 @@
       "SV": "4+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -9543,7 +9633,8 @@
       "SV": "4+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -9633,7 +9724,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -9742,7 +9834,8 @@
       "SV": "2+",
       "W": "24",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -9892,7 +9985,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 Astra Militarum Infantry models. Each Heavy Weapons Team model and Veteran Heavy Weapons Team model takes up the space of 2 models. Each Ogryn model takes up the space of 3 models. It cannot transport Artillery models.",
@@ -10014,7 +10108,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -10251,7 +10346,8 @@
       "SV": "4+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "75x42mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -10345,7 +10441,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -10584,7 +10681,8 @@
       "SV": "2+",
       "W": "18",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -10740,7 +10838,8 @@
       "SV": "6+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -10841,7 +10940,8 @@
       "SV": "5+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -10947,7 +11047,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "130mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -11060,7 +11161,8 @@
       "SV": "6+",
       "W": "2",
       "LD": "8+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -11140,7 +11242,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -11278,7 +11381,8 @@
       "SV": "5+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -11332,7 +11436,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -11388,7 +11493,8 @@
       "SV": "3+",
       "W": "7",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "80mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -11445,7 +11551,8 @@
       "SV": "4+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -11557,7 +11664,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -11670,7 +11778,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -11754,7 +11863,8 @@
       "SV": "3+",
       "W": "7",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -11877,7 +11987,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 **Astra Militarum Infantry** models. Each **Ogryn** model takes up the space of 3 models. It cannot transport **Artillery** models.",
@@ -11950,7 +12061,8 @@
       "SV": "4+",
       "W": "5",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -12028,7 +12140,8 @@
       "Epic Hero",
       "Officer",
       "Leader",
-      "Ciaphas Cain"
+      "Ciaphas Cain",
+      "Commissar"
     ]
   }
 ]

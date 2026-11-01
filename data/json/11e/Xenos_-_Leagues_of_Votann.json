@@ -19,7 +19,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -97,7 +98,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "28.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -266,7 +268,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -362,7 +365,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -453,7 +457,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -564,7 +569,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -705,7 +711,8 @@
       "SV": "2+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -824,7 +831,8 @@
       "SV": "5+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -904,7 +912,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "90x52.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1030,7 +1039,8 @@
       "SV": "3+",
       "W": "9",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 6 **LEAGUES OF VOTANN INFANTRY **models. It cannot transport **ARTILLERY, EXOARMOUR, EXOFRAME** or **IRONKIN STEELJACKS** models.\n\nAt the start of the Declare Battle Formations step, you can select one **Hearthkyn Warriors** unit from your army that has not been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this **Transport**; the other can start the battle embarked within another **Transport**, or it can be deployed as a separate unit.",
@@ -1144,7 +1154,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1235,7 +1246,8 @@
       "SV": "2+",
       "W": "16",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 14 **LEAGUES OF VOTANN INFANTRY **models. Each **EXOARMOUR, EXOFRAME** or **IRONKIN STEELJACKS** model takes up the space of 2 models. It cannot transport **ARTILLERY** models.",
@@ -1377,7 +1389,8 @@
       "SV": "5+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1493,7 +1506,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1579,7 +1593,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1656,7 +1671,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1754,7 +1770,8 @@
       "SV": "4+",
       "W": "7",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "105x70mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1851,7 +1868,8 @@
       "SV": "4+",
       "W": "7",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "105x70mm"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 5 **Hernkyn Yaegir** models.\n\nAt the start of the Declare Battle Formations step, you can select one **Hernkyn Yaegir** unit from your army that has not been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this **Transport**; the other can start the battle embarked within another **Transport**, or it can be deployed as a separate unit.",
@@ -1943,7 +1961,8 @@
       "SV": "2+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2034,7 +2053,8 @@
       "SV": "2+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2110,7 +2130,8 @@
       "SV": "4+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2205,7 +2226,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2257,7 +2279,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2308,7 +2331,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2360,7 +2384,8 @@
       "SV": "5+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "5+",
     "transport": null,

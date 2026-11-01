@@ -19,7 +19,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "170x109mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -97,7 +98,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "170x109mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -198,7 +200,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "170x109mm"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 11 **Skitarii Infantry** or **Tech-priest Infantry** models. It cannot transport **Jump Pack, Kataphron** or **Sydonian Skatros** models.",
@@ -278,7 +281,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "105x70mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -392,7 +396,8 @@
       "SV": "7+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -468,7 +473,8 @@
       "SV": "7+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -532,7 +538,8 @@
       "SV": "2+",
       "W": "7",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -663,7 +670,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "60mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -757,7 +765,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "60mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -866,7 +875,8 @@
       "SV": "2+",
       "W": "11",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "130mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1020,7 +1030,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1120,7 +1131,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1221,7 +1233,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60x35.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1316,7 +1329,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60x35.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1436,7 +1450,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1534,7 +1549,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1615,7 +1631,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1694,7 +1711,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "25mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1835,7 +1853,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "25mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1974,7 +1993,8 @@
       "SV": "2+",
       "W": "12",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -2087,7 +2107,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 **Adeptus Mechanicus Infantry** models. It cannot transport **Jump Pack, Kataphron** or **Sydonian Skatros** models.",
@@ -2173,7 +2194,8 @@
       "SV": "3+",
       "W": "7",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "105x70mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2254,7 +2276,8 @@
       "SV": "2+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2376,7 +2399,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2470,7 +2494,8 @@
       "SV": "2+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2562,7 +2587,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2643,7 +2669,8 @@
       "SV": "2+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2727,7 +2754,8 @@
       "SV": "5+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2831,7 +2859,8 @@
       "SV": "5+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -2939,7 +2968,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 **Adeptus Mechanicus Infantry** models. It cannot transport **Jump Pack or Kataphron** models",
@@ -3054,7 +3084,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3162,7 +3193,8 @@
       "SV": "3+",
       "W": "7",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "105x70mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3253,7 +3285,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "8+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "25mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -3369,7 +3402,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~25mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -3510,7 +3544,8 @@
       "SV": "2+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3564,7 +3599,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3617,7 +3653,8 @@
       "SV": "3+",
       "W": "7",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "105x70mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3673,7 +3710,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "80mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3784,7 +3822,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3888,7 +3927,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~32mm"
     },
     "invuln_save": "5+",
     "transport": null,

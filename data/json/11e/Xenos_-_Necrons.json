@@ -19,7 +19,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -88,7 +89,8 @@
       "SV": "2+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -179,7 +181,8 @@
       "SV": "2+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -258,7 +261,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -328,7 +332,8 @@
       "SV": "2+",
       "W": "9",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "80mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -416,7 +421,8 @@
       "SV": "2+",
       "W": "6",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -496,7 +502,8 @@
       "SV": "2+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -564,7 +571,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -642,7 +650,8 @@
       "SV": "3+",
       "W": "7",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -730,7 +739,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -824,7 +834,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -912,7 +923,8 @@
       "SV": "3+",
       "W": "9",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm Flying"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1022,7 +1034,8 @@
       "SV": "2+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1126,7 +1139,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1205,7 +1219,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1282,7 +1297,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1361,7 +1377,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1443,7 +1460,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1532,7 +1550,8 @@
       "SV": "3+",
       "W": "1",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1618,7 +1637,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "8+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1686,7 +1706,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1766,7 +1787,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1841,7 +1863,8 @@
       "SV": "3+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1914,7 +1937,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1972,7 +1996,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "8+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2051,7 +2076,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2107,7 +2133,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "7+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "Hull"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2213,7 +2240,8 @@
       "SV": "3+",
       "W": "16",
       "LD": "6+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2292,7 +2320,8 @@
       "SV": "3+",
       "W": "16",
       "LD": "6+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "90mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2377,7 +2406,8 @@
       "SV": "3+",
       "W": "16",
       "LD": "6+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "80mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2486,7 +2516,8 @@
       "SV": "3+",
       "W": "16",
       "LD": "6+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "60mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2571,7 +2602,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "8+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2650,7 +2682,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "8+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2716,7 +2749,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2778,7 +2812,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm Flying"
     },
     "invuln_save": null,
     "transport": null,
@@ -2894,7 +2929,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2988,7 +3024,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "8+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3076,7 +3113,8 @@
       "SV": "3+",
       "W": "9",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm Flying"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3167,7 +3205,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "60mm Flying"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3266,7 +3305,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": null,
     "transport": null,
@@ -3335,7 +3375,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3417,7 +3458,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "8+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "90mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3504,7 +3546,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm Flying"
     },
     "invuln_save": "4+",
     "transport": "This model has a transport capacity of 10 NECRON WARRIOR models and 1 NECRONS INFANTRY CHARACTER model.",
@@ -3576,7 +3619,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 1 NECRONS INFANTRY unit.",
@@ -3656,7 +3700,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "7+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3740,7 +3785,8 @@
       "SV": "2+",
       "W": "24",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3821,7 +3867,8 @@
       "SV": "2+",
       "W": "24",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3903,7 +3950,8 @@
       "SV": "2+",
       "W": "22",
       "LD": "7+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "160mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -4003,7 +4051,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4127,7 +4176,8 @@
       "SV": "3+",
       "W": "7",
       "LD": "8+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -4191,7 +4241,8 @@
       "SV": "3+",
       "W": "9",
       "LD": "8+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4260,7 +4311,8 @@
       "SV": "3+",
       "W": "9",
       "LD": "8+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4333,7 +4385,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "8+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -4402,7 +4455,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4515,7 +4569,8 @@
       "SV": "3+",
       "W": "24",
       "LD": "7+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "Hull"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4622,7 +4677,8 @@
       "SV": "3+",
       "W": "22",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4702,7 +4758,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -4786,7 +4843,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -4860,7 +4918,8 @@
       "SV": "2+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4923,7 +4982,8 @@
       "SV": "4+",
       "W": "1",
       "LD": "8+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "28.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5022,7 +5082,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "8+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5105,7 +5166,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5199,7 +5261,8 @@
       "SV": "3+",
       "W": "9",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "80mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -5261,12 +5324,11 @@
       "Reanimation Protocols",
       "Deep Strike",
       "Fights First",
-      "Feel No Pain 5+*",
       "Extra Attacks",
       "Ignores Cover",
       "Pistol",
       "Sustained Hits",
-      "Feel No Pain 5+"
+      "Feel No Pain 5+*"
     ],
     "keywords": [
       "Faction: Necrons",
@@ -5297,7 +5359,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -5348,7 +5411,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5395,7 +5459,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "7+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "-"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -5445,7 +5510,8 @@
       "SV": "2+",
       "W": "50",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": "5+",
     "transport": null,

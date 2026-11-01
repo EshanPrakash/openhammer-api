@@ -6,7 +6,7 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 85,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -15,11 +15,12 @@
     },
     "stats": {
       "M": "12\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "5",
       "LD": "5+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -41,20 +42,20 @@
     "abilities": [
       {
         "name": "Redeemer of the Lost",
-        "description": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+        "description": "In the Fight phase, when a model in this unit is destroyed, if this unit has not been selected to fight this phase, roll one D6, with +1 to that roll if that model was engaged with an enemy unit with a T greater than or equal to this unit's T:\n\n- On a 4+, do not remove that model from the battlefield. When this unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
       },
       {
         "name": "Mass of Doom",
-        "description": "Each time this model’s unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+        "description": "If this unit made a charge move this turn, this unit's melee attacks have [DEVASTATING WOUNDS:non-MONSTER/VEHICLE]"
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following unit:\n\n- Death Company Marines with Jump Packs"
+        "description": "This model can be attached to the following unit:\nDeath Company Marines with Jump Packs"
       }
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Deep Strike",
       "Devastating Wounds",
       "Precision"
@@ -81,7 +82,7 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 125,
+      "base": 135,
       "variants": []
     },
     "composition": {
@@ -94,7 +95,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -107,7 +109,7 @@
           "BS": "2+",
           "S": "14",
           "AP": "-3",
-          "D": "D6",
+          "D": "D3+3",
           "Keywords": "One Shot"
         },
         {
@@ -115,20 +117,20 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
         {
           "name": "Heavy Flamer",
           "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
+          "A": "3",
+          "BS": "-",
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Assault, Ignores Cover, Torrent"
+          "Keywords": "Assault, Blast 2, Torrent"
         },
         {
           "name": "Heavy Bolter",
@@ -138,17 +140,17 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Assault, Sustained Hits 1"
+          "Keywords": "Assault, Rapid Fire 2, Sustained Hits 1"
         },
         {
           "name": "Baal Flamestorm Cannon",
           "Range": "18\"",
-          "A": "D6+3",
-          "BS": "N/A",
+          "A": "6",
+          "BS": "-",
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "Assault, Ignores Cover, Torrent"
+          "Keywords": "Assault, Blast 2, Torrent"
         },
         {
           "name": "Twin Assault Cannon",
@@ -156,9 +158,9 @@
           "A": "6",
           "BS": "3+",
           "S": "6",
-          "AP": "0",
+          "AP": "-2",
           "D": "1",
-          "Keywords": "Assault, Devastating wounds, Twin-linked"
+          "Keywords": "Assault, Sustained Hits 1, Twin-linked"
         }
       ],
       "melee": [
@@ -177,17 +179,18 @@
     "abilities": [
       {
         "name": "Overcharged Engines",
-        "description": "You can re-roll Advance rolls made for this model."
+        "description": "This unit can re-roll advance rolls."
       }
     ],
     "special_rules": [
-      "Oath of Moment",
+      "Combat Doctrines",
       "Deadly Demise D3",
-      "Ignores Cover",
+      "Damaged 4",
+      "Blast",
       "Torrent",
       "Assault",
       "Sustained Hits",
-      "Devastating Wounds",
+      "Rapid Fire",
       "Twin-linked"
     ],
     "keywords": [
@@ -220,7 +223,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -234,7 +238,7 @@
           "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -266,8 +270,9 @@
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
-      "Sustained Hits"
+      "Combat Doctrines",
+      "Sustained Hits",
+      "Pistol"
     ],
     "keywords": [
       "Epic Hero",
@@ -301,7 +306,8 @@
       "SV": "2+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -312,10 +318,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Blood Song",
@@ -361,7 +367,7 @@
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Anti",
       "Devastating Wounds",
       "Melta"
@@ -398,7 +404,8 @@
       "SV": "2+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -409,10 +416,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Blood Song",
@@ -458,7 +465,7 @@
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment"
+      "Combat Doctrines"
     ],
     "keywords": [
       "Character",
@@ -479,7 +486,7 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 110,
+      "base": 175,
       "variants": []
     },
     "composition": {
@@ -487,26 +494,37 @@
       "max_models": 1
     },
     "stats": {
-      "M": "7\"",
-      "T": "5",
+      "M": "8\"",
+      "T": "6",
       "SV": "2+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
-    "invuln_save": "5+",
+    "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
         {
-          "name": "➤ Plasma pistol - supercharge",
-          "Range": "12\"",
-          "A": "1",
+          "name": "➤ Fury of the Ancients - Witchfire",
+          "Range": "18\"",
+          "A": "3",
           "BS": "2+",
-          "S": "8",
-          "AP": "-3",
+          "S": "5",
+          "AP": "-1",
           "D": "2",
-          "Keywords": "Hazardous, Pistol"
+          "Keywords": "Assault, Close-quarters, Psychic"
+        },
+        {
+          "name": "➤ Fury of the Ancients - Focused Witchfire",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Assault, Close-quarters, Hazardous, Psychic"
         },
         {
           "name": "➤ Plasma pistol - standard",
@@ -516,27 +534,17 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Assault, Close-quarters"
         },
         {
-          "name": "➤ Fury of the Ancients - Witchfire",
-          "Range": "18\"",
-          "A": "3",
+          "name": "➤ Plasma pistol - supercharge",
+          "Range": "12\"",
+          "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "-1",
-          "D": "D3",
-          "Keywords": "Pistol, Psychic, Sustained Hits 1"
-        },
-        {
-          "name": "➤ Fury of the Ancients - Focused Witchfire",
-          "Range": "18\"",
-          "A": "3",
-          "BS": "2+",
-          "S": "5",
-          "AP": "-2",
-          "D": "D3",
-          "Keywords": "Hazardous, Pistol, Psychic, Sustained Hits 3"
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "Keywords": "Assault, Close-quarters"
         }
       ],
       "melee": [
@@ -545,31 +553,36 @@
           "Range": "Melee",
           "A": "6",
           "WS": "2+",
-          "S": "9",
+          "S": "10",
           "AP": "-3",
-          "D": "D3",
+          "D": "3",
           "Keywords": "Lethal Hits, Psychic"
         }
       ]
     },
     "abilities": [
       {
-        "name": "The Quickening [Psychic]",
-        "description": "This model is eligible to declare a charge in a turn which it Advanced."
+        "name": "The Quickening (psychic level 1)",
+        "description": null
       },
       {
-        "name": "Transfixing Gaze [Aura, Psychic]",
-        "description": "While an enemy unit is within 6\" of this model, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead."
+        "name": "Transfixing Gaze (psychic level 2)",
+        "description": null
+      },
+      {
+        "name": "Chief Librarian (Psyker level 3)",
+        "description": "This model has the psychic abilities listed in the Psychic Abilities section."
       }
     ],
     "special_rules": [
       "Lone Operative",
       "Fights First",
-      "Feel No Pain 4+",
-      "Oath of Moment",
+      "Feel No Pain 5+",
+      "Combat Doctrines",
+      "Transhuman Strategist",
       "Hazardous",
-      "Sustained Hits",
-      "Pistol",
+      "Assault",
+      "Close-quarters",
       "Psychic",
       "Lethal Hits"
     ],
@@ -577,12 +590,12 @@
       "Epic Hero",
       "Character",
       "Infantry",
-      "Grenades",
       "Tacticus",
       "Psyker",
       "Faction: Adeptus Astartes",
       "Faction: Blood Angels",
-      "Chief Librarian Mephiston"
+      "Chief Librarian Mephiston",
+      "Explosives"
     ]
   },
   {
@@ -592,7 +605,7 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 125,
+      "base": 140,
       "variants": []
     },
     "composition": {
@@ -601,25 +614,26 @@
     },
     "stats": {
       "M": "12\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
         {
-          "name": "Perdition",
-          "Range": "6\"",
+          "name": "Perdition Pistol",
+          "Range": "9\"",
           "A": "1",
           "BS": "2+",
-          "S": "9",
-          "AP": "-4",
-          "D": "D6",
-          "Keywords": "Melta 2, Pistol, Sustained Hits D3"
+          "S": "10",
+          "AP": "-3",
+          "D": "D3+2",
+          "Keywords": "Close-quarters, Melta 2, Sustained Hits 1"
         }
       ],
       "melee": [
@@ -638,11 +652,11 @@
     "abilities": [
       {
         "name": "Death Mask of Sanguinius",
-        "description": "At the start of the Fight phase, each enemy unit within 6\" of this model must take a Battle-shock test, subtracting 1 from that test when they do"
+        "description": "At the start of the Fight phase, each enemy unit within 6\" of this model makes a battle-shock roll, with -1 to that battle-shock roll."
       },
       {
         "name": "Lord Regent of the Imperium Nihilus",
-        "description": "While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit and each time a model in that unit makes an attack, add 1 to the Hit roll."
+        "description": "The assault doctrine and tactical doctrine are active for this unit in addition to any other combat doctrine."
       },
       {
         "name": "Leader",
@@ -652,9 +666,10 @@
     "special_rules": [
       "Leader",
       "Deep Strike",
-      "Oath of Moment",
+      "Combat Doctrines",
+      "Transhuman Strategist",
       "Melta",
-      "Pistol",
+      "Close-quarters",
       "Sustained Hits",
       "Lethal Hits"
     ],
@@ -662,7 +677,6 @@
       "Epic Hero",
       "Character",
       "Infantry",
-      "Grenades",
       "Imperium",
       "Fly",
       "Faction: Adeptus Astartes",
@@ -671,7 +685,8 @@
       "Tacticus",
       "Chapter Master",
       "Commander Dante",
-      "Leader"
+      "Leader",
+      "Explosives"
     ]
   },
   {
@@ -694,7 +709,8 @@
       "SV": "2+",
       "W": "8",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "~90mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -703,12 +719,12 @@
         {
           "name": "Heavy Flamer",
           "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
+          "A": "3",
+          "BS": "-",
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Ignores Cover, Torrent"
+          "Keywords": "Blast 2, Torrent"
         },
         {
           "name": "Storm Bolter",
@@ -767,7 +783,7 @@
     "special_rules": [
       "Feel No Pain 6+",
       "Deadly Demise 1",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Rapid Fire"
     ],
     "keywords": [
@@ -806,7 +822,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -837,40 +854,50 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Close-Quarters"
+          "Keywords": "Close-quarters"
         },
         {
-          "name": "Bolt Rifle",
+          "name": "➤ Bolt Rifle - Focused Fire",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Heavy, Rapid Fire 1"
+        },
+        {
+          "name": "➤ Bolt Rifle - Saturation",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Assault, Heavy"
+          "Keywords": "Assault, Rapid Fire 1"
         },
         {
           "name": "Heavy Bolt Pistol",
           "Range": "18\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Hand flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "3",
+          "Range": "9\"",
+          "A": "3",
+          "BS": "-",
+          "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "Ignores Cover, Pistol, Torrent"
+          "Keywords": "Close-quarters, Torrent"
         },
         {
           "name": "➤ Plasma pistol - supercharge",
@@ -880,7 +907,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "Hazardous, Pistol"
+          "Keywords": "Hazardous, Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - standard",
@@ -890,7 +917,7 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -905,14 +932,14 @@
           "Keywords": null
         },
         {
-          "name": "Astartes Chainsword",
+          "name": "Chainsword",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Power fist",
@@ -931,7 +958,7 @@
           "WS": "4+",
           "S": "8",
           "AP": "-2",
-          "D": "2",
+          "D": "3",
           "Keywords": "Devastating Wounds"
         },
         {
@@ -949,7 +976,7 @@
     "abilities": [],
     "special_rules": [
       "Feel No Pain 6+",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Blast"
     ],
     "keywords": [
@@ -987,7 +1014,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1008,10 +1036,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Close-Quarters"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - supercharge",
@@ -1021,7 +1049,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "Hazardous, Pistol"
+          "Keywords": "Hazardous, Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - standard",
@@ -1031,27 +1059,27 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Hand flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "3",
+          "Range": "9\"",
+          "A": "3",
+          "BS": "-",
+          "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "Ignores Cover, Pistol, Torrent"
+          "Keywords": "Close-quarters, Torrent"
         },
         {
           "name": "Inferno Pistol",
-          "Range": "6\"",
+          "Range": "9\"",
           "A": "1",
           "BS": "3+",
           "S": "8",
-          "AP": "-4",
-          "D": "D3",
-          "Keywords": "Melta 2, Pistol"
+          "AP": "-3",
+          "D": "D3+2",
+          "Keywords": "Close-quarters, Melta 1"
         }
       ],
       "melee": [
@@ -1066,14 +1094,14 @@
           "Keywords": null
         },
         {
-          "name": "Astartes Chainsword",
+          "name": "Chainsword",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Power fist",
@@ -1119,7 +1147,7 @@
     ],
     "special_rules": [
       "Feel No Pain 6+",
-      "Oath of Moment"
+      "Combat Doctrines"
     ],
     "keywords": [
       "Infantry",
@@ -1138,11 +1166,11 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 115,
+      "base": 130,
       "variants": [
         {
           "models": 6,
-          "points": 230
+          "points": 260
         }
       ]
     },
@@ -1152,11 +1180,12 @@
     },
     "stats": {
       "M": "12\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1167,10 +1196,10 @@
           "Range": "18\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - supercharge",
@@ -1180,7 +1209,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "Hazardous, Pistol"
+          "Keywords": "Hazardous, Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - standard",
@@ -1190,40 +1219,30 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Hand flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "3",
+          "Range": "9\"",
+          "A": "3",
+          "BS": "-",
+          "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "Ignores Cover, Pistol, Torrent"
+          "Keywords": "Close-quarters, Torrent"
         },
         {
           "name": "Inferno Pistol",
-          "Range": "6\"",
+          "Range": "9\"",
           "A": "1",
           "BS": "3+",
           "S": "8",
-          "AP": "-4",
-          "D": "D3",
-          "Keywords": "Melta 2, Pistol"
+          "AP": "-3",
+          "D": "D3+2",
+          "Keywords": "Close-quarters, Melta 1"
         }
       ],
       "melee": [
-        {
-          "name": "Astartes Chainsword",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "3+",
-          "S": "4",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": null
-        },
         {
           "name": "Power weapon",
           "Range": "Melee",
@@ -1248,32 +1267,37 @@
           "name": "Eviscerator",
           "Range": "Melee",
           "A": "3",
-          "WS": "4+",
+          "WS": "3+",
           "S": "7",
           "AP": "-2",
           "D": "2",
-          "Keywords": "Sustained Hits 1"
+          "Keywords": "Cleave 1"
+        },
+        {
+          "name": "Chainsword",
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": ""
         }
       ]
     },
     "abilities": [
       {
         "name": "Savage Fury",
-        "description": "You can re-roll Charge rolls made for this unit."
-      },
-      {
-        "name": "Attached Unit",
-        "description": "If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs, it can be attached to this unit instead"
+        "description": "This unit has +1 to charge rolls."
       }
     ],
     "special_rules": [
       "Feel No Pain 6+",
       "Deep Strike",
-      "Oath of Moment"
+      "Combat Doctrines"
     ],
     "keywords": [
       "Infantry",
-      "Grenades",
       "Imperium",
       "Faction: Adeptus Astartes",
       "Faction: Blood Angels",
@@ -1281,7 +1305,8 @@
       "Tacticus",
       "Fly",
       "Jump Pack",
-      "Death Company"
+      "Death Company",
+      "Explosives"
     ]
   },
   {
@@ -1304,7 +1329,8 @@
       "SV": "2+",
       "W": "8",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "~60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1325,8 +1351,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -1382,7 +1408,7 @@
     ],
     "special_rules": [
       "Deadly Demise 1",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Blast",
       "Rapid Fire"
     ],
@@ -1417,7 +1443,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1428,10 +1455,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -1463,7 +1490,7 @@
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Sustained Hits"
     ],
     "keywords": [
@@ -1485,7 +1512,7 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 100,
+      "base": 110,
       "variants": []
     },
     "composition": {
@@ -1494,11 +1521,12 @@
     },
     "stats": {
       "M": "12\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
-      "W": "4",
+      "W": "5",
       "LD": "5+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1510,32 +1538,32 @@
           "A": "1",
           "BS": "2+",
           "S": "5",
-          "AP": "-1",
+          "AP": "-2",
           "D": "2",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
         {
           "name": "The Blood Crozius",
           "Range": "Melee",
-          "A": "5",
+          "A": "6",
           "WS": "2+",
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "Lethal Hits"
+          "Keywords": "Cleave 1, Lethal Hits"
         }
       ]
     },
     "abilities": [
       {
         "name": "Guardian of the Lost",
-        "description": "While this model is leading a unit, each time an attack is allocated to a model in that unit, subtract 1 from the Damage characteristic of that attack."
+        "description": "Attacks that target this unit have -1 D."
       },
       {
         "name": "Fury Unbound",
-        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        "description": "This unit's melee attacks have [LETHAL HITS]."
       },
       {
         "name": "Leader",
@@ -1544,16 +1572,17 @@
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Deep Strike",
       "Feel No Pain 6+",
-      "Lethal Hits"
+      "Lethal Hits",
+      "Cleave",
+      "Close-quarters"
     ],
     "keywords": [
       "Epic Hero",
       "Character",
       "Infantry",
-      "Grenades",
       "Imperium",
       "Fly",
       "Chaplain",
@@ -1561,7 +1590,8 @@
       "Faction: Adeptus Astartes",
       "Faction: Blood Angels",
       "Jump Pack",
-      "Leader"
+      "Leader",
+      "Explosives"
     ]
   },
   {
@@ -1584,7 +1614,8 @@
       "SV": "2+",
       "W": "8",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "~60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1615,20 +1646,20 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
         {
           "name": "Heavy Flamer",
           "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
+          "A": "3",
+          "BS": "-",
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Ignores Cover, Torrent"
+          "Keywords": "Blast 2, Torrent"
         },
         {
           "name": "Meltagun",
@@ -1676,7 +1707,7 @@
     ],
     "special_rules": [
       "Deadly Demise 1",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Psychic",
       "Sustained Hits",
       "Hazardous",
@@ -1701,64 +1732,55 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 120,
+      "base": 135,
       "variants": [
         {
           "models": 4,
-          "points": 260
+          "points": 275
         }
       ]
     },
     "composition": {
       "min_models": 1,
-      "max_models": 1
+      "max_models": 2
     },
     "stats": {
       "M": "12\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "2",
+      "Base": ""
     },
     "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
         {
-          "name": "Inferno Pistol",
-          "Range": "6\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "8",
-          "AP": "-4",
-          "D": "D3",
-          "Keywords": "Melta 2, Pistol"
+          "name": "Angelus Boltgun",
+          "Range": "18\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Assault, Close-quarters"
         },
         {
-          "name": "Angelus Boltgun",
-          "Range": "12\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Pistol"
+          "name": "Inferno pistol",
+          "Range": "9\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "D3+2",
+          "Keywords": "Close-quarters, Melta 1"
         }
       ],
       "melee": [
         {
-          "name": "Encarmine Blade",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "2+",
-          "S": "6",
-          "AP": "-3",
-          "D": "2",
-          "Keywords": null
-        },
-        {
-          "name": "Encarmine Spear",
+          "name": "Encarmine Weapon",
           "Range": "Melee",
           "A": "4",
           "WS": "2+",
@@ -1772,36 +1794,29 @@
     "abilities": [
       {
         "name": "Angelic Visage",
-        "description": "Each time a melee attack targets this unit, subtract 1 from the Hit roll"
+        "description": "Melee attacks that target this unit have -1 to hit rolls."
       },
       {
         "name": "Heirs of Azkaellon",
-        "description": "While a Character model is leading this unit, each time a melee attack targets this unit, subtract 1 from the Wound roll."
-      },
-      {
-        "name": "Attached Unit",
-        "description": "If a Captain model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs, it can be attached to this unit instead."
-      },
-      {
-        "name": "Sanguinary Banner",
-        "description": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+        "description": "Attacks that target this unit with a S greater than this unit’s T have ‑1 to wound rolls."
       }
     ],
     "special_rules": [
       "Deep Strike",
-      "Oath of Moment",
-      "Lance",
-      "Pistol"
+      "Combat Doctrines",
+      "Close-quarters",
+      "Assault"
     ],
     "keywords": [
       "Infantry",
       "Fly",
-      "Grenades",
       "Imperium",
       "Faction: Adeptus Astartes",
       "Faction: Blood Angels",
       "Sanguinary Guard",
-      "Jump Pack"
+      "Jump Pack",
+      "Explosives",
+      "Tacticus"
     ]
   },
   {
@@ -1811,7 +1826,7 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 75,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -1820,11 +1835,12 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1836,9 +1852,9 @@
           "A": "1",
           "BS": "3+",
           "S": "5",
-          "AP": "-1",
+          "AP": "-2",
           "D": "2",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -1847,40 +1863,41 @@
           "Range": "Melee",
           "A": "5",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         }
       ]
     },
     "abilities": [
       {
-        "name": "Sanguinary Priest",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability"
+        "name": "Narthecium",
+        "description": "(Once per turn, per unit) In your Command phase, this unit heals D3+1 wounds."
       },
       {
         "name": "Blood Chalice",
-        "description": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+        "description": "This unit has +1 T."
       },
       {
         "name": "Support",
-        "description": "This model can be attached to the following units: \n- **Assault Intercessor Squad**\n- **Bladeguard Veteran Squad**\n- **Desolation Squad**\n- **Devastator Squad**\n- **Hellblaster Squad**\n- **Infernus Squad**\n- **Intercessor Squad**\n- **Tactical Squad**\n- **Sternguard Veteran Squad**\n\n\nYou can attach this model to one of the above units, even if one **Captain, Chapter Master** or **Lieutenant** model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths"
+        "description": "This model can be attached to the following units: \nASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, COMPANY HEROES, DESOLATION SQUAD, HELLBLASTER SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD\n"
       }
     ],
     "special_rules": [
       "Support",
-      "Oath of Moment"
+      "Combat Doctrines"
     ],
     "keywords": [
       "Character",
       "Infantry",
-      "Grenades",
       "Imperium",
       "Sanguinary Priest",
       "Faction: Adeptus Astartes",
       "Faction: Blood Angels",
-      "Tacticus"
+      "Tacticus",
+      "Explosives",
+      "Support"
     ]
   },
   {
@@ -1899,11 +1916,12 @@
     },
     "stats": {
       "M": "12\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "7",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1924,19 +1942,19 @@
     },
     "abilities": [
       {
-        "name": "Aura of Fervour (Aura)",
-        "description": "While a friendly Adeptus Astartes unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit"
+        "name": "Aura of Fervour",
+        "description": "Friendly ADEPTUS ASTARTES units within 12\" of this model can re-roll leadership rolls."
       },
       {
         "name": "Miraculous Savior",
-        "description": "(Once per battle, per army) At the end of your opponent's Charge phase (excluding the first battle round), you can select one enemy unit that made a charge move this phase. This unit can make an ingress move and must be set up engaged with that enemy unit. . That move does not prevent this unit from being eligible to move"
+        "description": "(Once per battle, per army) At the end of your opponent's Charge phase (excluding the first battle round), you can select one enemy unit that made a charge move this phase. This unit can make an ingress move and must be set up engaged with that enemy unit. That move does not prevent this unit from being eligible to move"
       }
     ],
     "special_rules": [
       "Lone Operative",
       "Deep Strike",
       "Fights First",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Devastating Wounds"
     ],
     "keywords": [
@@ -1948,7 +1966,8 @@
       "Jump Pack",
       "The Sanguinor",
       "Faction: Adeptus Astartes",
-      "Faction: Blood Angels"
+      "Faction: Blood Angels",
+      "Tacticus"
     ]
   },
   {
@@ -1971,7 +1990,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1982,10 +2002,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -2017,7 +2037,7 @@
     ],
     "special_rules": [
       "Support",
-      "Oath of Moment"
+      "Combat Doctrines"
     ],
     "keywords": [
       "Character",
@@ -2051,7 +2071,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "~40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2082,30 +2103,30 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Close-Quarters"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Hand flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "3",
+          "Range": "9\"",
+          "A": "3",
+          "BS": "-",
+          "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "Ignores Cover, Pistol, Torrent"
+          "Keywords": "Close-quarters, Torrent"
         },
         {
           "name": "Inferno Pistol",
-          "Range": "6\"",
+          "Range": "9\"",
           "A": "1",
           "BS": "3+",
           "S": "8",
-          "AP": "-4",
-          "D": "D3",
-          "Keywords": "Melta 2, Pistol"
+          "AP": "-3",
+          "D": "D3+2",
+          "Keywords": "Close-quarters, Melta 1"
         },
         {
           "name": "Grav-pistol",
@@ -2125,7 +2146,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "Hazardous, Pistol"
+          "Keywords": "Hazardous, Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - standard",
@@ -2135,7 +2156,7 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Combi-weapon",
@@ -2152,22 +2173,22 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         }
       ],
       "melee": [
         {
-          "name": "Astartes Chainsword",
+          "name": "Chainsword",
           "Range": "Melee",
           "A": "5",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Power weapon",
@@ -2186,7 +2207,7 @@
           "WS": "4+",
           "S": "8",
           "AP": "-2",
-          "D": "2",
+          "D": "3",
           "Keywords": "Devastating Wounds"
         },
         {
@@ -2217,7 +2238,7 @@
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment"
+      "Combat Doctrines"
     ],
     "keywords": [
       "Character",
@@ -2236,7 +2257,7 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 80,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -2245,11 +2266,12 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2257,20 +2279,20 @@
       "ranged": [
         {
           "name": "Inferno pistol",
-          "Range": "6\"",
+          "Range": "9\"",
           "A": "1",
           "BS": "2+",
           "S": "8",
-          "AP": "-4",
-          "D": "D3",
-          "Keywords": "Melta 2, Pistol"
+          "AP": "-3",
+          "D": "D3+2",
+          "Keywords": "Close-quarters, Melta 1"
         },
         {
           "name": "Heavy Bolt Pistol",
           "Range": "18\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
           "Keywords": "Pistol"
@@ -2295,29 +2317,30 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Master-crafted Chainsword",
           "Range": "Melee",
           "A": "7",
           "WS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": null
+          "Keywords": ""
         }
       ]
     },
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Assault Intercessor Squad\n- Infernus Squad\n- Intercessor Squad\n- Sternguard Veteran Squad\n- Company Heroes\n- Tactical Squad"
+        "description": "This model can be attached to the following units:\n\n- Assault Intercessor Squad\n- Company Heroes\n- Infernus Squad\n- Intercessor Squad\n- Sternguard Veteran Squad\n"
       }
     ],
     "special_rules": [
-      "Oath of Moment",
+      "Combat Doctrines",
       "Leader",
+      "Transhuman Strategist",
       "Pistol"
     ],
     "keywords": [
@@ -2339,7 +2362,7 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 70,
+      "base": 80,
       "variants": []
     },
     "composition": {
@@ -2348,11 +2371,12 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2360,86 +2384,85 @@
       "ranged": [
         {
           "name": "Inferno pistol",
-          "Range": "6\"",
+          "Range": "9\"",
           "A": "1",
           "BS": "2+",
           "S": "8",
-          "AP": "-4",
-          "D": "D3",
-          "Keywords": "Melta 2, Pistol"
+          "AP": "-3",
+          "D": "D3+2",
+          "Keywords": "Close-quarters, Melta 1"
         },
         {
           "name": "Heavy Bolt Pistol",
           "Range": "18\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
         {
+          "name": "Master-crafted Chainsword",
+          "Range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Sustained Hits 1"
+        },
+        {
           "name": "Power fist",
           "Range": "Melee",
-          "A": "5",
+          "A": "6",
           "WS": "2+",
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": null
+          "Keywords": ""
         },
         {
-          "name": "Relic Weapon",
-          "Range": "Melee",
-          "A": "6",
-          "WS": "2+",
-          "S": "5",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": null
-        },
-        {
-          "name": "Master-crafted Chainsword",
+          "name": "Relic weapon",
           "Range": "Melee",
           "A": "7",
           "WS": "2+",
-          "S": "4",
-          "AP": "-1",
+          "S": "6",
+          "AP": "-2",
           "D": "2",
-          "Keywords": null
+          "Keywords": ""
         }
       ]
     },
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Death Company Marines\n- Death Company Marines with Bolt Rifles"
+        "description": "This model can be attached to the following units:\nDeath Company Marines\n"
       },
       {
         "name": "Forlorn Hero",
-        "description": "While this model is leading a unit, unless that unit starts the battle embarked within a Transport, models in that unit have the Scouts 6\" ability"
-      },
-      {
-        "name": "Death Vision of Sanguinius",
-        "description": "If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy Warlord. On a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6+ that enemy unit suffers D3+3 mortal wounds."
+        "description": "This unit has Scouts 6\"."
       }
     ],
     "special_rules": [
-      "Feel No Pain 6+"
+      "Feel No Pain 6+",
+      "Combat Doctrines",
+      "Sustained Hits",
+      "Close-quarters"
     ],
     "keywords": [
       "Infantry",
       "Character",
-      "Grenades",
       "Imperium",
       "Captain",
       "Faction: Adeptus Astartes",
       "Faction: Blood Angels",
       "Tacticus",
       "Death Company",
-      "Leader"
+      "Leader",
+      "Explosives"
     ]
   },
   {
@@ -2449,7 +2472,7 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 75,
+      "base": 85,
       "variants": []
     },
     "composition": {
@@ -2458,11 +2481,12 @@
     },
     "stats": {
       "M": "12\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2470,13 +2494,13 @@
       "ranged": [
         {
           "name": "Hand flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "3",
+          "Range": "9\"",
+          "A": "3",
+          "BS": "-",
+          "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "Ignores Cover, Pistol, Torrent"
+          "Keywords": "Close-quarters, Torrent"
         },
         {
           "name": "➤ Plasma pistol - supercharge",
@@ -2486,7 +2510,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "Hazardous, Pistol"
+          "Keywords": "Hazardous, Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - standard",
@@ -2496,7 +2520,7 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Heavy Bolt Pistol",
@@ -2528,43 +2552,54 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": null
+          "Keywords": ""
+        },
+        {
+          "name": "Thunder Hammer",
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Devastating Wounds"
         },
         {
           "name": "Astartes Chainsword",
           "Range": "Melee",
-          "A": "7",
+          "A": "8",
           "WS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": "Sustained Hits 1"
         }
       ]
     },
     "abilities": [
       {
-        "name": "Death Vision of Sanguinius",
-        "description": "If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy Warlord. On a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6+ that enemy unit suffers D3+3 mortal wounds."
-      },
-      {
         "name": "Lost to Fury",
-        "description": "When this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability"
+        "description": "This unit's melee attacks have [SUSTAINED HITS 1]."
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Death Company Marines with Jump Packs"
+        "description": "This model can be attached to the following units:\nDeath Company Marines with Jump Packs"
+      },
+      {
+        "name": "Relic Shield",
+        "description": "This model has +1 W."
       }
     ],
     "special_rules": [
       "Feel No Pain 6+",
-      "Deep Strike"
+      "Deep Strike",
+      "Combat Doctrines",
+      "Sustained Hits"
     ],
     "keywords": [
       "Character",
       "Infantry",
       "Captain",
-      "Grenades",
       "Fly",
       "Faction: Blood Angels",
       "Faction: Adeptus Astartes",
@@ -2572,11 +2607,12 @@
       "Jump Pack",
       "Tacticus",
       "Death Company",
-      "Leader"
+      "Leader",
+      "Explosives"
     ]
   },
   {
-    "name": "Death Company Marines with Bolt Rifles",
+    "name": "Death Company Marines with Bolt Rifles [Legends]",
     "id": "4aab-3ca5-0435-ed5e",
     "type": "unit",
     "faction": "Blood Angels",
@@ -2600,7 +2636,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2627,44 +2664,54 @@
           "Keywords": null
         },
         {
-          "name": "Bolt Rifle",
+          "name": "➤ Bolt Rifle - Focused Fire",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Heavy, Rapid Fire 1"
+        },
+        {
+          "name": "➤ Bolt Rifle - Saturation",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Assault, Heavy"
+          "Keywords": "Assault, Rapid Fire 1"
         },
         {
           "name": "Bolt pistol",
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Close-Quarters"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Hand flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "3",
+          "Range": "9\"",
+          "A": "3",
+          "BS": "-",
+          "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "Ignores Cover, Pistol, Torrent"
+          "Keywords": "Close-quarters, Torrent"
         },
         {
           "name": "Inferno Pistol",
-          "Range": "6\"",
+          "Range": "9\"",
           "A": "1",
           "BS": "3+",
           "S": "8",
-          "AP": "-4",
-          "D": "D3",
-          "Keywords": "Melta 2, Pistol"
+          "AP": "-3",
+          "D": "D3+2",
+          "Keywords": "Close-quarters, Melta 1"
         },
         {
           "name": "➤ Plasma pistol - supercharge",
@@ -2674,7 +2721,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "Hazardous, Pistol"
+          "Keywords": "Hazardous, Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - standard",
@@ -2684,7 +2731,17 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
+        },
+        {
+          "name": "Bolt Rifle",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Assault, Heavy"
         }
       ],
       "melee": [
@@ -2702,11 +2759,11 @@
           "name": "Eviscerator",
           "Range": "Melee",
           "A": "3",
-          "WS": "4+",
+          "WS": "3+",
           "S": "7",
           "AP": "-2",
           "D": "2",
-          "Keywords": "Sustained Hits 1"
+          "Keywords": "Cleave 1"
         },
         {
           "name": "Thunder Hammer",
@@ -2715,7 +2772,7 @@
           "WS": "4+",
           "S": "8",
           "AP": "-2",
-          "D": "2",
+          "D": "3",
           "Keywords": "Devastating Wounds"
         },
         {
@@ -2729,14 +2786,14 @@
           "Keywords": null
         },
         {
-          "name": "Astartes Chainsword",
+          "name": "Chainsword",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Close Combat Weapon",
@@ -2772,7 +2829,7 @@
     ],
     "special_rules": [
       "Feel No Pain 6+",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Blast",
       "Assault",
       "Heavy"
@@ -2795,11 +2852,11 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 85,
+      "base": 90,
       "variants": [
         {
           "models": 6,
-          "points": 160
+          "points": 170
         }
       ]
     },
@@ -2809,11 +2866,12 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2824,10 +2882,50 @@
           "Range": "18\"",
           "A": "1",
           "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Close-quarters"
+        },
+        {
+          "name": "➤ Bolt Rifle - Focused Fire",
+          "Range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "Keywords": "Heavy, Rapid Fire 1"
+        },
+        {
+          "name": "➤ Bolt Rifle - Saturation",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Assault, Rapid Fire 1"
+        },
+        {
+          "name": "➤ Grenade Launcher - Krak",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": "Rapid Fire 1"
+        },
+        {
+          "name": "➤ Grenade Launcher - Frag",
+          "Range": "24\"",
+          "A": "4",
+          "BS": "3+",
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Blast 1"
         }
       ],
       "melee": [
@@ -2835,21 +2933,21 @@
           "name": "Eviscerator",
           "Range": "Melee",
           "A": "3",
-          "WS": "4+",
+          "WS": "3+",
           "S": "7",
           "AP": "-2",
           "D": "2",
-          "Keywords": "Sustained Hits 1"
+          "Keywords": "Cleave 1"
         },
         {
-          "name": "Astartes Chainsword",
+          "name": "Chainsword",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Thunder Hammer",
@@ -2858,7 +2956,7 @@
           "WS": "4+",
           "S": "8",
           "AP": "-2",
-          "D": "2",
+          "D": "3",
           "Keywords": "Devastating Wounds"
         },
         {
@@ -2880,22 +2978,30 @@
           "AP": "-2",
           "D": "2",
           "Keywords": null
+        },
+        {
+          "name": "Combat blade",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "Keywords": ""
         }
       ]
     },
     "abilities": [
       {
         "name": "An Honourable Death in Combat",
-        "description": "Each time a model in this unit makes an attack, that attack has the [SUSTAINED HITS 1] ability if this unit is below its Starting Strength, or the [SUSTAINED HITS 2] ability if this unit is Below Half-strength."
-      },
-      {
-        "name": "Attached Unit",
-        "description": "If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessor Squad, it can be attached to this unit instead."
+        "description": "This unit's attacks:\n- Have [SUSTAINED HITS 1], if this unit is below starting strength.\n- Or: have [SUSTAINED HITS 2], if this unit is below half-strength."
       }
     ],
     "special_rules": [
       "Feel No Pain 6+",
-      "Oath of Moment"
+      "Combat Doctrines",
+      "Rapid Fire",
+      "Blast"
     ],
     "keywords": [
       "Infantry",
@@ -2915,7 +3021,7 @@
     "faction": "Blood Angels",
     "faction_type": "Imperium",
     "points": {
-      "base": 150,
+      "base": 165,
       "variants": []
     },
     "composition": {
@@ -2923,12 +3029,13 @@
       "max_models": 1
     },
     "stats": {
-      "M": "8\"",
+      "M": "10\"",
       "T": "10",
       "SV": "2+",
       "W": "12",
       "LD": "6+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "90mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2940,16 +3047,16 @@
           "A": "3",
           "BS": "3+",
           "S": "4",
-          "AP": "0",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Anti-FLY 4+, Rapid Fire 3, Twin-linked"
+          "Keywords": "Anti-FLY 3+, Rapid Fire 3, Twin-linked"
         },
         {
           "name": "Blood Fist Bolt Rifles",
           "Range": "24\"",
           "A": "4",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
           "Keywords": "Twin-linked"
@@ -2962,17 +3069,17 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Sustained Hits 1, Twin-linked"
+          "Keywords": "Rapid Fire 2, Sustained Hits 1, Twin-linked"
         },
         {
-          "name": "Twin multi-melta",
+          "name": "Twin Multi-melta",
           "Range": "18\"",
           "A": "2",
           "BS": "3+",
-          "S": "9",
-          "AP": "-4",
-          "D": "D6",
-          "Keywords": "Melta 2, Twin-linked"
+          "S": "10",
+          "AP": "-3",
+          "D": "D3+2",
+          "Keywords": "Melta 3, Twin-linked"
         }
       ],
       "melee": [
@@ -2982,42 +3089,36 @@
           "A": "6",
           "WS": "3+",
           "S": "12",
-          "AP": "-2",
-          "D": "3",
+          "AP": "-3",
+          "D": "D3+3",
           "Keywords": "Twin-linked"
         },
         {
-          "name": "➤ Blood Talons - Strike",
+          "name": "Blood Talons",
           "Range": "Melee",
-          "A": "6",
+          "A": "8",
           "WS": "3+",
-          "S": "12",
+          "S": "10",
           "AP": "-2",
-          "D": "3",
-          "Keywords": "Twin-linked"
-        },
-        {
-          "name": "➤ Blood Talons - Sweep",
-          "Range": "Melee",
-          "A": "10",
-          "WS": "3+",
-          "S": "7",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "Twin-linked"
+          "D": "2",
+          "Keywords": "Cleave 2, Sustained Hits 1: Non-Monster/Vehicle, Twin-linked"
         }
       ]
     },
     "abilities": [
       {
         "name": "Driven by Fury",
-        "description": "In your opponent’s Shooting phase, when an enemy unit has shot, if this model lost a wound as a result of those attacks, this unit can make a surge move of up to D6+2"
+        "description": "In your opponent's Shooting phase, when an enemy unit has shot, if this unit was hit by those attacks, it can make a surge move of up to D6+1\"."
       }
     ],
     "special_rules": [
       "Deadly Demise D3",
       "Feel No Pain 6+",
-      "Twin-linked"
+      "Damaged 4",
+      "Twin-linked",
+      "Sustained Hits",
+      "Cleave",
+      "Melta"
     ],
     "keywords": [
       "Vehicle",
@@ -3055,7 +3156,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3076,10 +3178,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Close-Quarters"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - supercharge",
@@ -3089,7 +3191,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "Hazardous, Pistol"
+          "Keywords": "Hazardous, Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - standard",
@@ -3099,27 +3201,27 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Hand flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "3",
+          "Range": "9\"",
+          "A": "3",
+          "BS": "-",
+          "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "Ignores Cover, Pistol, Torrent"
+          "Keywords": "Close-quarters, Torrent"
         },
         {
           "name": "Inferno Pistol",
-          "Range": "6\"",
+          "Range": "9\"",
           "A": "1",
           "BS": "3+",
           "S": "8",
-          "AP": "-4",
-          "D": "D3",
-          "Keywords": "Melta 2, Pistol"
+          "AP": "-3",
+          "D": "D3+2",
+          "Keywords": "Close-quarters, Melta 1"
         }
       ],
       "melee": [
@@ -3134,14 +3236,14 @@
           "Keywords": null
         },
         {
-          "name": "Astartes Chainsword",
+          "name": "Chainsword",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Power fist",
@@ -3187,7 +3289,7 @@
     ],
     "special_rules": [
       "Feel No Pain 6+",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Deep Strike"
     ],
     "keywords": [

@@ -19,7 +19,8 @@
       "SV": "6+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -104,7 +105,8 @@
       "SV": "7+",
       "W": "2",
       "LD": "8+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -162,7 +164,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -325,7 +328,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -443,7 +447,8 @@
       "SV": "6+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -519,7 +524,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -586,7 +592,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -641,7 +648,7 @@
     "faction": "Adepta Sororitas",
     "faction_type": "Imperium",
     "points": {
-      "base": 180,
+      "base": 175,
       "variants": []
     },
     "composition": {
@@ -654,7 +661,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -765,7 +773,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -832,7 +841,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -887,7 +897,8 @@
       "Imperium",
       "Imagifier",
       "Faction: Adepta Sororitas",
-      "Sororitas Character"
+      "Sororitas Character",
+      "Support"
     ]
   },
   {
@@ -910,7 +921,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -1030,7 +1042,8 @@
       "SV": "2+",
       "W": "8",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1120,7 +1133,8 @@
       "SV": "4+",
       "W": "5",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -1236,7 +1250,8 @@
       "SV": "2+",
       "W": "8",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1344,7 +1359,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1433,7 +1449,8 @@
       "SV": "2+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1560,7 +1577,8 @@
       "SV": "4+",
       "W": "5",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -1665,7 +1683,8 @@
       "SV": "6+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1770,7 +1789,8 @@
       "SV": "3+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -1850,7 +1870,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1937,7 +1958,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -2023,7 +2045,8 @@
       "SV": "3+",
       "W": "18",
       "LD": "6+",
-      "OC": "6"
+      "OC": "6",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2088,7 +2111,7 @@
       },
       {
         "name": "Solemn Procession",
-        "description": "Each time you gain 1 Miracle dice at the start of the battle round, if this model is on the battlefield, do not roll one D6 to determine the value of that Miracle dice; it has a value of 6.’"
+        "description": "Each time you gain 1 Miracle dice at the start of your turn, if this model is on the battlefield, do not roll one D6 to determine the value of that Miracle dice; it has a value of 6."
       },
       {
         "name": "Leader",
@@ -2132,7 +2155,8 @@
       "SV": "2+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2188,7 +2212,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -2298,7 +2323,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2402,7 +2428,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2461,7 +2488,8 @@
       "SV": "3+",
       "W": "20",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -2512,7 +2540,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2588,7 +2617,8 @@
       "SV": "6+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2751,7 +2781,8 @@
       "SV": "3+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2878,7 +2909,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2933,7 +2965,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -2987,7 +3020,8 @@
       "SV": "2+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3043,7 +3077,8 @@
       "SV": "3+",
       "W": "8",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": "4+",
     "transport": null,

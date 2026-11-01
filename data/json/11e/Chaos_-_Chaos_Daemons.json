@@ -19,7 +19,8 @@
       "SV": "3+",
       "W": "20",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "100mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -113,7 +114,8 @@
       "SV": "3+",
       "W": "18",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -225,7 +227,8 @@
       "SV": "4+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -300,7 +303,8 @@
       "SV": "5+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -373,7 +377,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "90x52.5mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -456,7 +461,8 @@
       "SV": "4+",
       "W": "9",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -534,7 +540,8 @@
       "SV": "7+",
       "W": "5",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "75x42mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -627,7 +634,8 @@
       "SV": "7+",
       "W": "1",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -694,7 +702,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "90x52.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -770,7 +779,8 @@
       "SV": "7+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "60x35.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -844,7 +854,8 @@
       "SV": "4+",
       "W": "9",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -928,7 +939,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -982,7 +994,8 @@
       "SV": "3+",
       "W": "20",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "100mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1088,7 +1101,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1177,7 +1191,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1263,7 +1278,8 @@
       "SV": "6+",
       "W": "20",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "100mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1357,7 +1373,8 @@
       "SV": "6+",
       "W": "18",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "100mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1471,7 +1488,8 @@
       "SV": "7+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1566,7 +1584,8 @@
       "SV": "6+",
       "W": "9",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1675,7 +1694,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "60mm Flying"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1772,7 +1792,8 @@
       "SV": "6+",
       "W": "6",
       "LD": "8+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1841,7 +1862,8 @@
       "SV": "6+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1937,7 +1959,8 @@
       "SV": "7+",
       "W": "1",
       "LD": "8+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2041,7 +2064,8 @@
       "SV": "7+",
       "W": "1",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2165,7 +2189,8 @@
       "SV": "7+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2242,7 +2267,8 @@
       "SV": "7+",
       "W": "6",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "75x42mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2347,7 +2373,8 @@
       "SV": "6+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm Flying"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2411,7 +2438,8 @@
       "SV": "7+",
       "W": "9",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2507,7 +2535,8 @@
       "SV": "5+",
       "W": "22",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "130mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2602,7 +2631,8 @@
       "SV": "5+",
       "W": "20",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "130mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2645,7 +2675,7 @@
           "Range": "Melee",
           "A": "12",
           "WS": "2+",
-          "S": "6",
+          "S": "7",
           "AP": "-1",
           "D": "1",
           "Keywords": "Lethal Hits"
@@ -2726,7 +2756,8 @@
       "SV": "7+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2802,7 +2833,8 @@
       "SV": "7+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2889,7 +2921,8 @@
       "SV": "6+",
       "W": "8",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2963,7 +2996,8 @@
       "SV": "7+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3037,7 +3071,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "105x70mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3123,7 +3158,8 @@
       "SV": "7+",
       "W": "2",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3191,7 +3227,8 @@
       "SV": "7+",
       "W": "4",
       "LD": "8+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "40mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3260,7 +3297,8 @@
       "SV": "6+",
       "W": "7",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3329,7 +3367,8 @@
       "SV": "6+",
       "W": "5",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm Flying"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3415,7 +3454,8 @@
       "SV": "4+",
       "W": "9",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -3470,7 +3510,8 @@
       "SV": "3+",
       "W": "20",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "100mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3586,7 +3627,8 @@
       "SV": "5+",
       "W": "18",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "100mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3714,7 +3756,8 @@
       "SV": "7+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "60x35.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3811,7 +3854,8 @@
       "SV": "7+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3882,7 +3926,8 @@
       "SV": "6+",
       "W": "9",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4003,7 +4048,8 @@
       "SV": "5+",
       "W": "8",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "75x42mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4089,7 +4135,8 @@
       "SV": "5+",
       "W": "12",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4200,7 +4247,8 @@
       "SV": "7+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4276,7 +4324,8 @@
       "SV": "7+",
       "W": "1",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "25mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4345,7 +4394,8 @@
       "SV": "7+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "75x42mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4412,7 +4462,8 @@
       "SV": "7+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "60x35.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4487,7 +4538,8 @@
       "SV": "5+",
       "W": "7",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4585,7 +4637,8 @@
       "SV": "5+",
       "W": "7",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4673,7 +4726,8 @@
       "SV": "5+",
       "W": "12",
       "LD": "7+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4761,7 +4815,8 @@
       "SV": "4+",
       "W": "10",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "~50mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4821,7 +4876,8 @@
       "SV": "4+",
       "W": "12",
       "LD": "7+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "60mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4880,7 +4936,8 @@
       "SV": "6+",
       "W": "5",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4968,7 +5025,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -5045,7 +5103,8 @@
       "SV": "4+",
       "W": "24",
       "LD": "6+",
-      "OC": "6"
+      "OC": "6",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -5135,7 +5194,8 @@
       "SV": "6+",
       "W": "24",
       "LD": "6+",
-      "OC": "6"
+      "OC": "6",
+      "Base": "130mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -5159,7 +5219,7 @@
           "S": "10",
           "AP": "-2",
           "D": "D3",
-          "Keywords": "Psychic"
+          "Keywords": "Hazardous, Psychic"
         }
       ],
       "melee": [
@@ -5239,7 +5299,8 @@
       "SV": "5+",
       "W": "22",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "130mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -5332,7 +5393,8 @@
       "SV": "5+",
       "W": "20",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "105x70mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -5435,7 +5497,8 @@
       "SV": "7+",
       "W": "4",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60x35.5mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -5528,7 +5591,8 @@
       "SV": "7+",
       "W": "1",
       "LD": "8+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -5589,7 +5653,8 @@
       "SV": "7+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5646,7 +5711,8 @@
       "SV": "6+",
       "W": "8",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5702,7 +5768,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "~32mm"
     },
     "invuln_save": null,
     "transport": null,

@@ -24,7 +24,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -85,7 +86,8 @@
       "SV": "5+",
       "W": "5",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -161,7 +163,8 @@
       "SV": "3+",
       "W": "8",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -275,7 +278,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -360,7 +364,8 @@
       "SV": "5+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -497,7 +502,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -590,7 +596,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -668,7 +675,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 6 GENESTEALER CULTS INFANTRY models.",
@@ -780,7 +788,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 GENESTEALER CULTS INFANTRY models.",
@@ -876,7 +885,8 @@
       "SV": "5+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -976,7 +986,8 @@
       "SV": "5+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "60x35.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1062,7 +1073,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1136,7 +1148,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1203,7 +1216,8 @@
       "SV": "5+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1291,7 +1305,8 @@
       "SV": "5+",
       "W": "1",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1476,7 +1491,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1554,7 +1570,8 @@
       "SV": "4+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1632,7 +1649,8 @@
       "SV": "5+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1725,7 +1743,8 @@
       "SV": "5+",
       "W": "2",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1782,7 +1801,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1879,7 +1899,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1930,7 +1951,7 @@
       },
       {
         "name": "Cloaked Assassin",
-        "description": "If this model is equipped with a Sanctus Bio-dagger, enemy units cannot use the Fire Overwatch Stratagem to shoot at this model. Enemy units cannot target this unit with **snap shooting** attacks."
+        "description": "Enemy units cannot target this unit with **snap shooting** attacks."
       }
     ],
     "special_rules": [
@@ -1969,7 +1990,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -2037,7 +2059,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2126,7 +2149,8 @@
       "SV": "5+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2178,7 +2202,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2234,7 +2259,8 @@
       "SV": "5+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~50mm"
     },
     "invuln_save": "5+",
     "transport": null,

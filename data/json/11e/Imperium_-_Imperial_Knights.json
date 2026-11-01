@@ -19,7 +19,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "5+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "170x109mm"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -148,7 +149,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "7+",
-      "OC": "6"
+      "OC": "6",
+      "Base": "100mm"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -228,7 +230,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "7+",
-      "OC": "6"
+      "OC": "6",
+      "Base": "100mm"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -297,7 +300,8 @@
       "SV": "3+",
       "W": "26",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "170x109mm"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -370,7 +374,8 @@
       "SV": "3+",
       "W": "26",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "170x109mm"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -432,7 +437,8 @@
       "SV": "3+",
       "W": "26",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "170x109mm"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -526,7 +532,8 @@
       "SV": "3+",
       "W": "26",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "170x109mm"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -599,7 +606,8 @@
       "SV": "3+",
       "W": "26",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "170x109mm"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -713,7 +721,8 @@
       "SV": "3+",
       "W": "26",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "170x109mm"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -816,7 +825,8 @@
       "SV": "3+",
       "W": "28",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "170x109mm"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -921,7 +931,8 @@
       "SV": "3+",
       "W": "28",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "170x109mm"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -1018,7 +1029,8 @@
       "SV": "2+",
       "W": "30",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "Hull"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -1118,7 +1130,8 @@
       "SV": "2+",
       "W": "30",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "Hull"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -1230,7 +1243,8 @@
       "SV": "3+",
       "W": "28",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "170x109mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1316,7 +1330,8 @@
       "SV": "3+",
       "W": "28",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "170x109mm"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -1400,7 +1415,8 @@
       "SV": "3+",
       "W": "28",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "170x109mm"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -1497,7 +1513,8 @@
       "SV": "3+",
       "W": "28",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "170x109mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1614,7 +1631,8 @@
       "SV": "3+",
       "W": "26",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "170x109mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1739,7 +1757,8 @@
       "SV": "3+",
       "W": "26",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "170x109mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1865,7 +1884,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "7+",
-      "OC": "6"
+      "OC": "6",
+      "Base": "100mm"
     },
     "invuln_save": "5+*",
     "transport": null,
@@ -1990,7 +2010,8 @@
       "SV": "3+",
       "W": "26",
       "LD": "6+",
-      "OC": "10"
+      "OC": "10",
+      "Base": "170x109mm"
     },
     "invuln_save": "4+*",
     "transport": null,
@@ -2110,7 +2131,8 @@
       "SV": "3+",
       "W": "18",
       "LD": "6+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "150x95mm"
     },
     "invuln_save": "5+*",
     "transport": null,

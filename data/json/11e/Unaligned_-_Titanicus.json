@@ -19,7 +19,8 @@
       "SV": "2+",
       "W": "40",
       "LD": "6+",
-      "OC": "16"
+      "OC": "16",
+      "Base": "Hull"
     },
     "invuln_save": "5+ (Ranged)",
     "transport": null,
@@ -141,7 +142,8 @@
       "SV": "2+",
       "W": "60",
       "LD": "6+",
-      "OC": "20"
+      "OC": "20",
+      "Base": "Hull"
     },
     "invuln_save": "5+ (Ranged)",
     "transport": null,
@@ -283,7 +285,8 @@
       "SV": "2+",
       "W": "80",
       "LD": "6+",
-      "OC": "20"
+      "OC": "20",
+      "Base": "Hull"
     },
     "invuln_save": "5+ (Ranged)",
     "transport": null,
@@ -440,7 +443,8 @@
       "SV": "2+",
       "W": "100",
       "LD": "6+",
-      "OC": "30"
+      "OC": "30",
+      "Base": "Hull"
     },
     "invuln_save": "5+ (Ranged)",
     "transport": null,

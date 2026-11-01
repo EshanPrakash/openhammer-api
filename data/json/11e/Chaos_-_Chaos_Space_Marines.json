@@ -19,7 +19,8 @@
       "SV": "2+",
       "W": "9",
       "LD": "5+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "60mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -112,7 +113,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -209,7 +211,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -293,7 +296,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -380,7 +384,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -466,7 +471,8 @@
       "SV": "6+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -570,7 +576,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -668,7 +675,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -761,7 +769,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -814,10 +823,10 @@
           "Range": "Melee",
           "A": "7",
           "WS": "2+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Power fist",
@@ -876,7 +885,8 @@
       "SV": "2+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -887,8 +897,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -897,8 +907,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         }
@@ -996,7 +1006,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1085,7 +1096,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1202,7 +1214,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "6+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1213,8 +1226,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Pistol"
         },
@@ -1330,7 +1343,8 @@
       "SV": "2+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "60x35.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1446,7 +1460,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1524,7 +1539,8 @@
       "SV": "6+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1604,7 +1620,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -1691,7 +1708,6 @@
     "special_rules": [
       "Dark Pacts",
       "Leader",
-      "Pistol",
       "Sustained Hits",
       "Hazardous",
       "Psychic",
@@ -1733,7 +1749,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1758,16 +1775,6 @@
           "AP": "-4",
           "D": "D6",
           "Keywords": "Melta 2"
-        },
-        {
-          "name": "Flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Ignores Cover, Torrent"
         },
         {
           "name": "Havoc autocannon",
@@ -1862,13 +1869,9 @@
     "special_rules": [
       "Dark Pacts",
       "Psychic",
-      "Ignores Cover",
-      "Torrent",
       "Heavy",
       "Sustained Hits",
-      "Blast",
-      "Hazardous",
-      "Rapid Fire"
+      "Blast"
     ],
     "keywords": [
       "Faction: Heretic Astartes",
@@ -1904,7 +1907,8 @@
       "SV": "6+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1936,7 +1940,7 @@
     "abilities": [
       {
         "name": "For the Dark Gods",
-        "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+        "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's level of Control over that objective marker is greater than yours at the start or end of any phase."
       }
     ],
     "special_rules": [
@@ -1978,7 +1982,8 @@
       "SV": "6+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2051,7 +2056,8 @@
       "SV": "2+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2153,7 +2159,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2227,7 +2234,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2288,7 +2296,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2365,7 +2374,8 @@
       "SV": "3+",
       "W": "9",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "100mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2435,26 +2445,17 @@
     },
     "stats": {
       "M": "12\"",
-      "T": "5",
+      "T": "6",
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "75x42mm"
     },
     "invuln_save": null,
     "transport": null,
     "weapons": {
       "ranged": [
-        {
-          "name": "Flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Ignores Cover, Torrent"
-        },
         {
           "name": "Meltagun",
           "Range": "12\"",
@@ -2470,8 +2471,8 @@
           "Range": "24\"",
           "A": "1",
           "BS": "4+",
-          "S": "5",
-          "AP": "-1",
+          "S": "4",
+          "AP": "0",
           "D": "1",
           "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
         }
@@ -2506,11 +2507,7 @@
       }
     ],
     "special_rules": [
-      "Dark Pacts",
-      "Ignores Cover",
-      "Torrent",
-      "Hazardous",
-      "Rapid Fire"
+      "Dark Pacts"
     ],
     "keywords": [
       "Faction: Heretic Astartes",
@@ -2537,7 +2534,7 @@
     },
     "composition": {
       "min_models": 1,
-      "max_models": 1
+      "max_models": 2
     },
     "stats": {
       "M": "12\"",
@@ -2545,7 +2542,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2607,11 +2605,7 @@
     ],
     "special_rules": [
       "Dark Pacts",
-      "Deep Strike",
-      "Hazardous",
-      "Rapid Fire",
-      "Ignores Cover",
-      "Torrent"
+      "Deep Strike"
     ],
     "keywords": [
       "Faction: Heretic Astartes",
@@ -2648,7 +2642,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2709,7 +2704,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2817,10 +2813,6 @@
     ],
     "special_rules": [
       "Dark Pacts",
-      "Ignores Cover",
-      "Torrent",
-      "Hazardous",
-      "Rapid Fire",
       "Blast",
       "Sustained Hits"
     ],
@@ -2856,7 +2848,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -2947,7 +2940,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "6+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -3008,7 +3002,8 @@
       "SV": "2+",
       "W": "14",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "80mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3101,7 +3096,8 @@
       "SV": "5+",
       "W": "1",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3136,16 +3132,6 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Rapid Fire 1"
-        },
-        {
-          "name": "Flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Ignores Cover, Torrent"
         },
         {
           "name": "➤ Plasma gun - standard",
@@ -3251,8 +3237,6 @@
       "Dark Pacts",
       "Pistol",
       "Rapid Fire",
-      "Ignores Cover",
-      "Torrent",
       "Hazardous",
       "Melta",
       "Heavy",
@@ -3288,7 +3272,8 @@
       "SV": "5+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3430,7 +3415,8 @@
       "SV": "5+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -3503,7 +3489,8 @@
       "SV": "2+",
       "W": "16",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 **Heretic Astartes Infantry** (excluding **Obliterator** and **Jump Pack** models). Each **Possessed, Mutilators** and **Terminator** model takes up the space of 2 models.",
@@ -3603,7 +3590,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -3713,7 +3701,8 @@
       "SV": "3+",
       "W": "11",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -3823,7 +3812,8 @@
       "SV": "2+",
       "W": "11",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
@@ -3913,7 +3903,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4002,7 +3993,8 @@
       "SV": "2+",
       "W": "8",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -4178,7 +4170,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "6+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "120x92mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4262,7 +4255,8 @@
       "SV": "3+",
       "W": "12",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "120x92mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4341,7 +4335,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 **Heretic Astartes Infantry** models. It cannot transport **Terminator, Jump Pack, Mutilators, Obliterators** or **Possessed** models.",
@@ -4423,7 +4418,8 @@
       "SV": "3+",
       "W": "24",
       "LD": "6+",
-      "OC": "8"
+      "OC": "8",
+      "Base": "Hull"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4551,7 +4547,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -4612,7 +4609,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -4690,7 +4688,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -4829,7 +4828,7 @@
     },
     "composition": {
       "min_models": 1,
-      "max_models": 1
+      "max_models": 2
     },
     "stats": {
       "M": "5\"",
@@ -4837,7 +4836,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -4959,8 +4959,6 @@
     ],
     "special_rules": [
       "Lethal Hits",
-      "Hazardous",
-      "Rapid Fire",
       "Blast",
       "Anti",
       "Ignores Cover",
@@ -4996,7 +4994,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "6+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "120x92mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -5085,7 +5084,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "6+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "120x92mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -5165,7 +5165,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5340,7 +5341,8 @@
       "SV": "3+",
       "W": "7",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "~40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5524,7 +5526,8 @@
       "SV": "3+",
       "W": "8",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "~40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -5694,7 +5697,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -5853,7 +5857,8 @@
       "SV": "2+",
       "W": "7",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "~40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -6023,7 +6028,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "~40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -6193,7 +6199,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "~40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -6379,7 +6386,8 @@
       "SV": "6+",
       "W": "4",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -6460,7 +6468,8 @@
       "SV": "7+",
       "W": "1",
       "LD": "8+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -6519,7 +6528,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -6651,7 +6661,8 @@
       "SV": "5+",
       "W": "2",
       "LD": "7+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": null,
     "transport": "For the purposes of embarking within TRANSPORTS, each Renegade Heavy Weapons Team model counts as two models.",
@@ -6794,7 +6805,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": "For the purposes of embarking within TRANSPORTS, each Renegade Plague Ogryn model counts as one TERMINATOR model.",
@@ -6853,7 +6865,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "50mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -6930,7 +6943,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": "For the purposes of embarking within TRANSPORTS, each Renegade Ogryn Brute model counts as one TERMINATOR model.",
@@ -6996,7 +7010,8 @@
       "SV": "5+",
       "W": "3",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "2+",
     "transport": null,
@@ -7100,7 +7115,8 @@
       "SV": "7+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -7162,7 +7178,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "~40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -7339,7 +7356,8 @@
       "SV": "6+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -7405,7 +7423,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "~40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -7561,12 +7580,23 @@
       "SV": "3+",
       "W": "11",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": null,
     "weapons": {
       "ranged": [
+        {
+          "name": "Combi-bolter",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
+        },
         {
           "name": "➤ Plasma destroyer - standard",
           "Range": "36\"",
@@ -7649,6 +7679,7 @@
     "special_rules": [
       "Dark Pacts",
       "Deadly Demise D3",
+      "Rapid Fire",
       "Blast",
       "Hazardous",
       "Sustained Hits",
@@ -7684,7 +7715,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -7715,8 +7747,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Pistol"
         }
@@ -7802,7 +7834,8 @@
       "SV": "4+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -7888,7 +7921,8 @@
       "SV": "6+",
       "W": "1",
       "LD": "7+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -7913,16 +7947,6 @@
           "AP": "0",
           "D": "1",
           "Keywords": "Pistol"
-        },
-        {
-          "name": "Flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Ignores Cover, Torrent"
         },
         {
           "name": "➤ Cultist grenade launcher - frag",
@@ -7960,15 +7984,13 @@
     "abilities": [
       {
         "name": "For the Dark Gods",
-        "description": "At the end of your Command phase, if this unit is within range of an objective marker  you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+        "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's level of Control over that objective marker is greater than yours at the start or end of any phase."
       }
     ],
     "special_rules": [
       "Dark Pacts",
       "Pistol",
       "Rapid Fire",
-      "Ignores Cover",
-      "Torrent",
       "Blast",
       "Heavy"
     ],
@@ -8007,7 +8029,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -8052,16 +8075,6 @@
           "AP": "-4",
           "D": "D6",
           "Keywords": "Melta 2"
-        },
-        {
-          "name": "Flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Ignores Cover, Torrent"
         }
       ],
       "melee": [
@@ -8136,11 +8149,7 @@
       "Dark Pacts",
       "Sustained Hits",
       "Heavy",
-      "Blast",
-      "Ignores Cover",
-      "Torrent",
-      "Hazardous",
-      "Rapid Fire"
+      "Blast"
     ],
     "keywords": [
       "Infantry",
@@ -8171,7 +8180,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -8280,7 +8290,8 @@
       "SV": "4+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -8453,7 +8464,8 @@
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -8548,7 +8560,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -8559,8 +8572,8 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Pistol"
         },
@@ -8657,7 +8670,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -8710,7 +8724,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -8764,7 +8779,8 @@
       "SV": "2+",
       "W": "10",
       "LD": "6+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "120x92mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -8812,7 +8828,8 @@
       "SV": "3+",
       "W": "18",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "160mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -8990,7 +9007,8 @@
       "SV": "2+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -9011,8 +9029,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         }

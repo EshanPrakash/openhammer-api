@@ -19,7 +19,8 @@
       "SV": "2+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -129,7 +130,8 @@
       "SV": "2+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -212,7 +214,8 @@
       "SV": "2+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -293,7 +296,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "5+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -369,7 +373,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -473,7 +478,8 @@
       "SV": "2+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -576,7 +582,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -671,7 +678,8 @@
       "SV": "2+",
       "W": "7",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -778,7 +786,8 @@
       "SV": "2+",
       "W": "13",
       "LD": "6+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -939,7 +948,8 @@
       "SV": "2+",
       "W": "7",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1032,7 +1042,8 @@
       "SV": "2+",
       "W": "16",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 **Grey Knights Infantry** models. Each **Terminator** model takes up the space of 2 models.",
@@ -1141,7 +1152,8 @@
       "SV": "2+",
       "W": "16",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 16 **Grey Knights Infantry** models. Each **Terminator** model takes up the space of 2 models.",
@@ -1251,7 +1263,8 @@
       "SV": "2+",
       "W": "16",
       "LD": "6+",
-      "OC": "5"
+      "OC": "5",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 14 **Grey Knights Infantry** models. Each **Terminator** model takes up the space of 2 models",
@@ -1361,7 +1374,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 6 **Grey Knights Infantry** models. It cannot transport **Terminator** models.",
@@ -1461,7 +1475,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 **Grey Knights Infantry** models. It cannot transport **Terminator** models.",
@@ -1542,7 +1557,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "6+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1672,7 +1688,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "6+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 12 **Grey Knights Infantry** models and 1 **Grey Knights Venerable Dreadnought** model. Each **Terminator** model takes up the space of 2 models.",
@@ -1835,7 +1852,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "6+",
-      "OC": "-"
+      "OC": "-",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1953,7 +1971,8 @@
       "SV": "2+",
       "W": "8",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2080,7 +2099,8 @@
       "SV": "2+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2190,7 +2210,8 @@
       "SV": "2+",
       "W": "7",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2287,7 +2308,8 @@
       "SV": "2+",
       "W": "13",
       "LD": "6+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -2412,7 +2434,8 @@
       "SV": "2+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2526,7 +2549,8 @@
       "SV": "2+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2650,7 +2674,8 @@
       "SV": "2+",
       "W": "2",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2761,7 +2786,8 @@
       "SV": "2+",
       "W": "30",
       "LD": "6+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "Unique"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 30 **Grey Knights Infantry** models. Each **Terminator** model takes up the space of 2 models.",
@@ -2881,7 +2907,8 @@
       "SV": "2+",
       "W": "8",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "~60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3073,7 +3100,8 @@
       "SV": "3+",
       "W": "10",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "Hull"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 6 **Grey Knights Infantry** models. It cannot transport **Terminator** models.",
@@ -3206,7 +3234,8 @@
       "SV": "2+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3261,7 +3290,8 @@
       "SV": "2+",
       "W": "8",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3313,7 +3343,8 @@
       "SV": "2+",
       "W": "13",
       "LD": "6+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "120x92mm"
     },
     "invuln_save": "4+",
     "transport": null,

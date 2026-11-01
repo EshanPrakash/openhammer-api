@@ -6,7 +6,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 100,
+      "base": 150,
       "variants": []
     },
     "composition": {
@@ -15,11 +15,12 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "8",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "80mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -29,34 +30,14 @@
           "name": "Storm bolter",
           "Range": "24\"",
           "A": "2",
-          "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         }
       ],
       "melee": [
-        {
-          "name": "➤ Axe Morkai - Sweep",
-          "Range": "Melee",
-          "A": "10",
-          "WS": "2+",
-          "S": "6",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": null
-        },
-        {
-          "name": "➤ Axe Morkai - Strike",
-          "Range": "Melee",
-          "A": "6",
-          "WS": "2+",
-          "S": "8",
-          "AP": "-2",
-          "D": "3",
-          "Keywords": null
-        },
         {
           "name": "Tyrnak and Fenrir",
           "Range": "Melee",
@@ -66,32 +47,50 @@
           "AP": "-1",
           "D": "1",
           "Keywords": "Extra Attacks"
+        },
+        {
+          "name": "➤ Axe Morkai - Sweep",
+          "Range": "Melee",
+          "A": "10",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "Keywords": "Cleave 1"
+        },
+        {
+          "name": "➤ Axe Morkai - Strike",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "10",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": ""
         }
       ]
     },
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Wolf Guard Terminators"
+        "description": "This model can be attached to the following units:\nTERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD, WOLF GUARD TERMINATORS"
       },
       {
         "name": "High King of Fenris",
-        "description": "Once per battle round, in your Movement phase, you can select one friendly Space Wolves unit that is in Reserves. If you do, until the end of the phase, for the purposes of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is."
+        "description": "(Once per battle round, per unit)\nIn your Movement phase, select up to one friendly **Space Wolves** unit in strategic reserves. If you do, when that unit makes an ingress move, treat the current battle round number as being one higher than it actually is."
       },
       {
-        "name": "Guile of the Wolf (Aura)",
-        "description": "Once per turn, when your opponent targets a unit from their army within 12” of this model with a stratagem, you can use this ability. If you do increase the CP cost of that use of that stratagem by 1CP."
-      },
-      {
-        "name": "Embarking within Transports",
-        "description": "This model can embark within friendly Adeptus Astartes Transport models that can transport Terminator models. When doing, it takes up the space of 4 Infantry models"
+        "name": "Guile of the Wolf",
+        "description": "At the start of each phase, the assault doctrine, devastator doctrine and tactical doctrine are active for this unit."
       }
     ],
     "special_rules": [
       "Deep Strike",
       "Leader",
-      "Oath of Moment",
-      "Extra Attacks"
+      "Combat Doctrines",
+      "Transhuman Strategist",
+      "Extra Attacks",
+      "Cleave"
     ],
     "keywords": [
       "Faction: Adeptus Astartes",
@@ -126,7 +125,8 @@
       "SV": "2+",
       "W": "12",
       "LD": "6+",
-      "OC": "4"
+      "OC": "4",
+      "Base": "~80mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -137,13 +137,23 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         }
       ],
       "melee": [
+        {
+          "name": "Flurry of teeth and claws",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Extra Attacks"
+        },
         {
           "name": "➤ Axe Morkai - Sweep",
           "Range": "Melee",
@@ -163,16 +173,6 @@
           "AP": "-2",
           "D": "3",
           "Keywords": null
-        },
-        {
-          "name": "Flurry of teeth and claws",
-          "Range": "Melee",
-          "A": "6",
-          "WS": "4+",
-          "S": "5",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Extra Attacks"
         }
       ]
     },
@@ -189,7 +189,7 @@
     "special_rules": [
       "Leader",
       "Deadly Demise D3",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Extra Attacks"
     ],
     "keywords": [
@@ -211,7 +211,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 75,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -220,11 +220,12 @@
     },
     "stats": {
       "M": "7\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -235,15 +236,15 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Close-Quarters"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "➤ Living Lightning - witchfire",
           "Range": "24\"",
-          "A": "D6",
+          "A": "D3+3",
           "BS": "3+",
           "S": "7",
           "AP": "-1",
@@ -253,10 +254,10 @@
         {
           "name": "➤ Living Lightning - focused witchfire",
           "Range": "24\"",
-          "A": "2D6",
+          "A": "D6+6",
           "BS": "3+",
           "S": "7",
-          "AP": "-1",
+          "AP": "-2",
           "D": "1",
           "Keywords": "Hazardous, Psychic, Sustained Hits 2"
         }
@@ -269,7 +270,7 @@
           "WS": "3+",
           "S": "7",
           "AP": "-1",
-          "D": "D3",
+          "D": "2",
           "Keywords": "Psychic, Sustained Hits 2"
         }
       ]
@@ -277,20 +278,32 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Blood Claws\n- Grey Hunters\n- Wolf Guard Headtakers"
+        "description": "This model can be attached to the following units:\nASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, BLOOD CLAWS, GREY HUNTERS, INTERCESSOR SQUAD, WOLF GUARD HEADTAKERS"
       },
       {
-        "name": "Wind Walker (Psychic)",
-        "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability and each time that unit advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit"
+        "name": "Wind Walker",
+        "description": "- This unit's ranged attacks have [ASSAULT].\n- When this unit is selected to make an advance move, this unit can change advance rolls to a 6."
       },
       {
-        "name": "Tempest's Wrath (Psychic)",
-        "description": "In your Shooting phase, after this model's unit has shot, select one enemy unit, (excluding MONSTERS and VEHICLES) hit by one or more of those attacks made with this model's Living Lightning weapon. Until the start of your next turn, that enemy is stormwracked. While a unit is stormwracked, subtract 6\" from the Range characteristic of ranged weapons equipped by models in that unit (to a minimum of 12\")"
+        "name": "Murderous Hurricane (psychic level 1)",
+        "description": null
+      },
+      {
+        "name": "High Rune Priest (psyker level 3)",
+        "description": "This model has the psychic abilities listed in the Psychic Abilities section."
+      },
+      {
+        "name": "Storm Caller (psychic level 1)",
+        "description": null
+      },
+      {
+        "name": "Tempest's Wrath (psychic level 1)",
+        "description": null
       }
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Psychic",
       "Sustained Hits",
       "Hazardous"
@@ -324,11 +337,12 @@
     },
     "stats": {
       "M": "9\"",
-      "T": "9",
+      "T": "10",
       "SV": "2+",
       "W": "8",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": "5+",
     "transport": null,
@@ -337,38 +351,38 @@
         {
           "name": "Heavy Flamer",
           "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
+          "A": "3",
+          "BS": "-",
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Ignores Cover, Torrent"
+          "Keywords": "Blast 2, Torrent"
         },
         {
           "name": "Assault cannon",
           "Range": "24\"",
           "A": "6",
-          "BS": "2+",
+          "BS": "3+",
           "S": "6",
-          "AP": "0",
+          "AP": "-2",
           "D": "1",
-          "Keywords": "Devastating Wounds"
+          "Keywords": "Sustained Hits 1"
         },
         {
           "name": "Multi-melta",
           "Range": "18\"",
           "A": "2",
           "BS": "2+",
-          "S": "9",
-          "AP": "-4",
-          "D": "D6",
-          "Keywords": "Melta 2"
+          "S": "10",
+          "AP": "-3",
+          "D": "D3+2",
+          "Keywords": "Melta 3"
         },
         {
           "name": "➤ Helfrost cannon - dispersed",
           "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
+          "A": "3",
+          "BS": "-",
           "S": "6",
           "AP": "-1",
           "D": "2",
@@ -401,19 +415,19 @@
     "abilities": [
       {
         "name": "Legendary Tenacity",
-        "description": "Each time an attack is allocated to this model, if the Strength characteristic of that attack is greater than this model's Toughness characteristic, subtract 1 from the Wound roll."
+        "description": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
       },
       {
         "name": "Ancient Tactician",
-        "description": "At the start of your Command phase, if this model is on the battlefield, you gain 1 CP"
+        "description": "(Once per turn, per army)\nWhen you target this unit with a stratagem, that use is -1CP"
       }
     ],
     "special_rules": [
       "Deadly Demise 1",
       "Feel No Pain 5+",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Lethal Hits",
-      "Devastating Wounds",
+      "Sustained Hits",
       "Melta",
       "Torrent"
     ],
@@ -437,7 +451,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 95,
+      "base": 105,
       "variants": []
     },
     "composition": {
@@ -446,11 +460,12 @@
     },
     "stats": {
       "M": "6\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "6",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "50mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -458,13 +473,13 @@
       "ranged": [
         {
           "name": "Foehammer",
-          "Range": "6\"",
+          "Range": "9\"",
           "A": "1",
           "BS": "2+",
-          "S": "8",
+          "S": "10",
           "AP": "-2",
           "D": "3",
-          "Keywords": "Anti-Monster 3+, Anti-Vehicle 3+, Assault"
+          "Keywords": "Anti-Monster/Vehicle 3+, Assault"
         }
       ],
       "melee": [
@@ -473,31 +488,31 @@
           "Range": "Melee",
           "A": "5",
           "WS": "2+",
-          "S": "8",
+          "S": "10",
           "AP": "-2",
           "D": "3",
-          "Keywords": "Anti-Monster 3+, Anti-Vehicle 3+, Precision"
+          "Keywords": "Anti-Monster/Vehicle 3+, Precision"
         }
       ]
     },
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Wolf Guard Terminators"
+        "description": "This model can be attached to the following units:\nTERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD, WOLF GUARD TERMINATORS"
       },
       {
         "name": "Anvil of Endurance",
-        "description": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6, on a 4+, do not remove the destroyed model from play. The destroyed model can fight after the attacking unit has finished making its attacks, and then is removed from play"
+        "description": "In the Fight phase, when a model in this unit is destroyed, if this unit has not been selected to fight this phase, roll one D6:\n\n\n- On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is then removed from the battlefield."
       },
       {
         "name": "Champion of the Kingsguard",
-        "description": "Each time this model makes a melee attack that targets a CHARACTER unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        "description": "This model’s attacks that target a **Character** unit:\n\n\n- Can re-roll hit rolls of 1.\n- Can re-roll wound rolls of 1."
       }
     ],
     "special_rules": [
       "Deep Strike",
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Anti",
       "Assault",
       "Precision"
@@ -521,7 +536,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 70,
+      "base": 90,
       "variants": []
     },
     "composition": {
@@ -530,11 +545,12 @@
     },
     "stats": {
       "M": "7\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "4",
       "LD": "5+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -548,7 +564,7 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - supercharge",
@@ -556,44 +572,44 @@
           "A": "1",
           "BS": "2+",
           "S": "8",
-          "AP": "-2",
+          "AP": "-3",
           "D": "2",
-          "Keywords": "Hazardous, Pistol"
+          "Keywords": "Close-quarters, Hazardous"
         }
       ],
       "melee": [
         {
-          "name": "Artificer crozius",
+          "name": "Artificer Crozius Arcanum",
           "Range": "Melee",
           "A": "5",
           "WS": "2+",
           "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
+          "Keywords": "Anti-Monster/Vehicle 4+"
         }
       ]
     },
     "abilities": [
       {
         "name": "Slayer’s Oath",
-        "description": "At the start of the battle, select one of the following keywords to be this model's Slayer's Oath: CHARACTER, VEHICLE or MONSTER. The first time this model's unit destroys a unit with this model's Slayer's Oath keyword, if your Detachment has a Saga, until the end of the battle, this model's unit receives the benefits of that Detachment rule as if that Saga had been completed."
+        "description": "At the start of the first battle round, you select up to one enemy **Character/Monster/Vehicle** unit to be this unit's **slayer's oath**:\n\n- This unit's attacks that target this unit's **slayer's oath** can ignore modifiers to your unit's:\n- BS and WS.\n- Hit rolls."
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Blood Claws\n- Grey Hunters\n- Wolf Guard Headtakers"
+        "description": "This model can be attached to the following units:\nASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, BLOOD CLAWS, GREY HUNTERS, INTERCESSOR SQUAD, WOLF GUARD HEADTAKERS"
       },
       {
         "name": "Oathbound",
-        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll. If that attack targets a unit that has this model's Slayer's Oath keyword (see above), add 1 to the Wound roll as well."
+        "description": "This unit's melee attacks have +1 to hit rolls.\n- Or: This unit's melee attacks that target this unit's slayer's oath have +1 to hit rolls and wound rolls."
       }
     ],
     "special_rules": [
       "Leader",
       "Feel No Pain 6+",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Hazardous",
-      "Pistol",
+      "Close-quarters",
       "Anti"
     ],
     "keywords": [
@@ -602,11 +618,11 @@
       "Infantry",
       "Character",
       "Epic Hero",
-      "Grenades",
       "Imperium",
       "Ulrik the Slayer",
       "Wolf Priest",
-      "Leader"
+      "Leader",
+      "Explosives"
     ]
   },
   {
@@ -616,7 +632,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 90,
+      "base": 100,
       "variants": []
     },
     "composition": {
@@ -625,11 +641,12 @@
     },
     "stats": {
       "M": "7\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -640,10 +657,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -662,20 +679,21 @@
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Blood Claws\n- Wolf Guard Headtakers"
+        "description": "This model can be attached to the following units:\n- Blood Claws\n- Wolf Guard Headtakers"
       },
       {
         "name": "War Howl",
-        "description": "While this model is leading a BLOOD CLAWS unit, each time a model in that unit makes a melee attack, you can re-roll the Wound roll. While this model is leading a WOLF GUARD HEADTAKERS UNIT, that unit is eligible to declare a charge in a turn in which it Advanced."
+        "description": "- While this model is attached to a Blood Claws unit, this unit's melee attacks have +1 S and [SUSTAINED HITS 1].\n- While this model is attached to a Wolf Guard Headtakers unit, when this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge."
       },
       {
         "name": "Battle-lust",
-        "description": "Each time this model ends a Charge move, until the end of the turn, add 2 to the Attacks characteristics of this model’s Frostfang."
+        "description": "If this unit made a charge move this turn, this model's melee attacks have +2 A."
       }
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
+      "Transhuman Strategist",
       "Sustained Hits"
     ],
     "keywords": [
@@ -685,11 +703,11 @@
       "Character",
       "Epic Hero",
       "Imperium",
-      "Grenades",
       "Tacticus",
       "Captain",
       "Ragnar Blackmane",
-      "Leader"
+      "Leader",
+      "Explosives"
     ]
   },
   {
@@ -712,7 +730,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -723,10 +742,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -758,7 +777,7 @@
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Lethal Hits"
     ],
     "keywords": [
@@ -794,7 +813,8 @@
       "SV": "3+",
       "W": "7",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -805,10 +825,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -850,7 +870,7 @@
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Extra Attacks"
     ],
     "keywords": [
@@ -886,7 +906,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -905,7 +926,7 @@
       ],
       "melee": [
         {
-          "name": "Crushing teeth and claws",
+          "name": "Teeth and claws",
           "Range": "Melee",
           "A": "3",
           "WS": "4+",
@@ -942,7 +963,7 @@
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Pistol",
       "Twin-linked"
     ],
@@ -977,7 +998,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "~40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1084,7 +1106,7 @@
     "special_rules": [
       "Leader",
       "Deep Strike",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Anti"
     ],
     "keywords": [
@@ -1118,7 +1140,8 @@
       "SV": "3+",
       "W": "6",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "60mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -1129,10 +1152,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Combi-weapon",
@@ -1162,7 +1185,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "Hazardous, Pistol"
+          "Keywords": "Hazardous, Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - standard",
@@ -1172,22 +1195,22 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Storm bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         }
       ],
       "melee": [
         {
-          "name": "Crushing teeth and claws",
+          "name": "Teeth and claws",
           "Range": "Melee",
           "A": "3",
           "WS": "4+",
@@ -1214,7 +1237,7 @@
           "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Thunder Hammer",
@@ -1223,7 +1246,7 @@
           "WS": "3+",
           "S": "8",
           "AP": "-2",
-          "D": "2",
+          "D": "3",
           "Keywords": "Devastating Wounds"
         },
         {
@@ -1264,7 +1287,7 @@
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Twin-linked"
     ],
     "keywords": [
@@ -1299,7 +1322,8 @@
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "~40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1330,10 +1354,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Combi-weapon",
@@ -1368,7 +1392,7 @@
       ],
       "melee": [
         {
-          "name": "Crushing teeth and claws",
+          "name": "Teeth and claws",
           "Range": "Melee",
           "A": "3",
           "WS": "4+",
@@ -1445,7 +1469,7 @@
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment"
+      "Combat Doctrines"
     ],
     "keywords": [
       "Faction: Adeptus Astartes",
@@ -1465,11 +1489,11 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 135,
+      "base": 150,
       "variants": [
         {
           "models": 11,
-          "points": 270
+          "points": 290
         }
       ]
     },
@@ -1479,11 +1503,12 @@
     },
     "stats": {
       "M": "7\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1494,10 +1519,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Close-Quarters"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - supercharge",
@@ -1507,7 +1532,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "Hazardous, Pistol"
+          "Keywords": "Hazardous, Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - standard",
@@ -1517,19 +1542,19 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
         {
-          "name": "Astartes Chainsword",
+          "name": "Chainsword",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Power weapon",
@@ -1546,21 +1571,21 @@
     "abilities": [
       {
         "name": "Berserk Charge",
-        "description": "This unit is eligible to declare a charge in a turn in which it Advanced"
+        "description": "When this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge."
       }
     ],
     "special_rules": [
-      "Oath of Moment"
+      "Combat Doctrines"
     ],
     "keywords": [
       "Faction: Adeptus Astartes",
       "Faction: Space Wolves",
       "Infantry",
       "Battleline",
-      "Grenades",
       "Imperium",
       "Blood Claws",
-      "Tacticus"
+      "Tacticus",
+      "Explosives"
     ]
   },
   {
@@ -1570,34 +1595,35 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 165,
+      "base": 180,
       "variants": []
     },
     "composition": {
-      "min_models": 1,
-      "max_models": 1
+      "min_models": 9,
+      "max_models": 9
     },
     "stats": {
       "M": "7\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
     "weapons": {
       "ranged": [
         {
-          "name": "Bolt pistol",
-          "Range": "12\"",
-          "A": "1",
+          "name": "Bolt Carbine",
+          "Range": "24\"",
+          "A": "3",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Close-Quarters"
+          "Keywords": "Assault, Rapid Fire 1"
         },
         {
           "name": "➤ Plasma pistol - supercharge",
@@ -1620,14 +1646,14 @@
           "Keywords": "Pistol"
         },
         {
-          "name": "Bolt Carbine",
-          "Range": "24\"",
-          "A": "2",
+          "name": "Bolt pistol",
+          "Range": "12\"",
+          "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Rapid Fire 1"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -1652,36 +1678,39 @@
           "Keywords": null
         },
         {
-          "name": "Astartes Chainsword",
+          "name": "Chainsword",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         }
       ]
     },
     "abilities": [
       {
         "name": "Cunning Hunters",
-        "description": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target is within range of an objective marker, you can re-roll the Wound roll instead."
+        "description": "In the Fight phase, if this unit is within range of an objective, this unit’s melee attacks:\n\n\n- Have +1 S.\n- Have +1 AP."
+      },
+      {
+        "name": "Old Greymanes",
+        "description": "In the Declare Battle Formations step, you can split this unit into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units)."
       }
     ],
     "special_rules": [
-      "Oath of Moment",
-      "Rapid Fire"
+      "Combat Doctrines"
     ],
     "keywords": [
       "Faction: Adeptus Astartes",
       "Faction: Space Wolves",
       "Infantry",
       "Battleline",
-      "Grenades",
       "Imperium",
       "Grey Hunters",
-      "Tacticus"
+      "Tacticus",
+      "Explosives"
     ]
   },
   {
@@ -1709,7 +1738,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "5+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1760,8 +1790,8 @@
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -1770,10 +1800,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Close-Quarters"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -1804,7 +1834,7 @@
       }
     ],
     "special_rules": [
-      "Oath of Moment"
+      "Combat Doctrines"
     ],
     "keywords": [
       "Faction: Adeptus Astartes",
@@ -1835,7 +1865,8 @@
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -1895,7 +1926,7 @@
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment"
+      "Combat Doctrines"
     ],
     "keywords": [
       "Faction: Adeptus Astartes",
@@ -1916,37 +1947,38 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 155,
+      "base": 180,
       "variants": [
         {
           "models": 6,
-          "points": 310
+          "points": 365
         }
       ]
     },
     "composition": {
-      "min_models": 1,
-      "max_models": 1
+      "min_models": 4,
+      "max_models": 9
     },
     "stats": {
       "M": "6\"",
-      "T": "5",
+      "T": "6",
       "SV": "2+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
     "weapons": {
       "ranged": [
         {
-          "name": "Storm Bolter",
+          "name": "Storm bolter",
           "Range": "24\"",
           "A": "2",
-          "BS": "2+",
-          "S": "4",
-          "AP": "0",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
@@ -1954,11 +1986,11 @@
           "name": "Assault Cannon",
           "Range": "24\"",
           "A": "6",
-          "BS": "2+",
+          "BS": "3+",
           "S": "6",
-          "AP": "0",
+          "AP": "-2",
           "D": "1",
-          "Keywords": "Devastating Wounds"
+          "Keywords": "Sustained Hits 1"
         }
       ],
       "melee": [
@@ -1977,13 +2009,13 @@
           "Range": "Melee",
           "A": "3",
           "WS": "3+",
-          "S": "7",
+          "S": "8",
           "AP": "-2",
           "D": "3",
           "Keywords": "Devastating Wounds"
         },
         {
-          "name": "Master-crafted Power Weapon",
+          "name": "Master-crafted power weapon",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -2011,11 +2043,10 @@
       }
     ],
     "special_rules": [
-      "Oath of Moment",
+      "Combat Doctrines",
       "Deep Strike",
       "Twin-linked",
-      "Devastating Wounds",
-      "Rapid Fire"
+      "Devastating Wounds"
     ],
     "keywords": [
       "Faction: Adeptus Astartes",
@@ -2052,7 +2083,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": "6+*",
     "transport": null,
@@ -2098,7 +2130,7 @@
     ],
     "special_rules": [
       "Scouts 6\"",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Anti",
       "Devastating Wounds",
       "Pistol",
@@ -2116,91 +2148,13 @@
     ]
   },
   {
-    "name": "Wulfen",
-    "id": "d937-bd7d-618d-4e2d",
-    "type": "unit",
-    "faction": "Space Wolves",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 85,
-      "variants": [
-        {
-          "models": 6,
-          "points": 170
-        }
-      ]
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "9\"",
-      "T": "6",
-      "SV": "4+",
-      "W": "2",
-      "LD": "7+",
-      "OC": "0"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Stormfrag auto-launcher",
-          "Range": "12\"",
-          "A": "D3",
-          "BS": "4+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Assault, Blast"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Wulfen Weapons",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "3+",
-          "S": "5",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": "Sustained Hits 1"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Savage Frenzy",
-        "description": "Each time an enemy unit, (excluding MONSTERS and VEHICLES) within Engagement Range of this unit Falls Back, all that models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from those tests."
-      },
-      {
-        "name": "Death Totem",
-        "description": "Each time the bearer makes a melee attack, re-roll a hit roll of 1."
-      }
-    ],
-    "special_rules": [
-      "Oath of Moment",
-      "Curse of the Wulfen",
-      "Sustained Hits"
-    ],
-    "keywords": [
-      "Faction: Adeptus Astartes",
-      "Faction: Space Wolves",
-      "Infantry",
-      "Imperium",
-      "Wulfen"
-    ]
-  },
-  {
     "name": "Wulfen Dreadnought",
     "id": "91fa-49ac-5b0a-c155",
     "type": "model",
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 135,
+      "base": 140,
       "variants": []
     },
     "composition": {
@@ -2213,24 +2167,45 @@
       "SV": "2+",
       "W": "8",
       "LD": "6+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
     "weapons": {
       "ranged": [
         {
-          "name": "Storm Bolter",
+          "name": "Storm bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
+        },
+        {
+          "name": "Heavy Flamer",
+          "Range": "12\"",
+          "A": "3",
+          "BS": "-",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Blast 2, Torrent"
         }
       ],
       "melee": [
+        {
+          "name": "Great wolf claw",
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "10",
+          "AP": "-3",
+          "D": "3",
+          "Keywords": null
+        },
         {
           "name": "➤ Fenrisian great axe - strike",
           "Range": "Melee",
@@ -2238,8 +2213,8 @@
           "WS": "3+",
           "S": "10",
           "AP": "-2",
-          "D": "D6+1",
-          "Keywords": null
+          "D": "D3+3",
+          "Keywords": ""
         },
         {
           "name": "➤ Fenrisian great axe - sweep",
@@ -2250,33 +2225,23 @@
           "AP": "-2",
           "D": "1",
           "Keywords": null
-        },
-        {
-          "name": "Great wolf claw",
-          "Range": "Melee",
-          "A": "6",
-          "WS": "3+",
-          "S": "10",
-          "AP": "-3",
-          "D": "3",
-          "Keywords": null
         }
       ]
     },
     "abilities": [
       {
         "name": "Bestial Rage",
-        "description": "Each time an enemy unit is selected to shoot, after that unit has shot, if this model lost one or more wounds as a result of those attacks, this model can make a Bestial Rage move. To do so, roll one D6, adding 2 to the result: this model can be moved a number of inches up to the result, but must finish that move as close as possible to the closest enemy unit(excluding AIRCRAFT). When doing so, this model can be moved within Engagement Range of that enemy unit. Each model can only make one Bestial Rage move per phase."
+        "description": "In your opponent's Shooting phase, when an enemy unit has shot, if this unit lost a wound as a result of those attacks, this unit can make a surge move of up to D6+1\"."
       },
       {
         "name": "Violent Fury",
-        "description": "If this model is equipped with two melee weapons, those weapon profiles have the TWIN-LINKED ability."
+        "description": "If this model is equipped with two melee weapons, melee attacks made by this unit have [TWIN-LINKED]."
       }
     ],
     "special_rules": [
       "Feel No Pain 6+",
       "Deadly Demise 1",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Curse of the Wulfen"
     ],
     "keywords": [
@@ -2309,31 +2274,32 @@
       "SV": "2+",
       "W": "8",
       "LD": "6+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
     "weapons": {
       "ranged": [
         {
-          "name": "Storm Bolter",
+          "name": "Storm bolter",
           "Range": "24\"",
           "A": "2",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
           "Keywords": "Rapid Fire 2"
         },
         {
           "name": "Heavy Flamer",
           "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
+          "A": "3",
+          "BS": "-",
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Ignores Cover, Torrent"
+          "Keywords": "Blast 2, Torrent"
         }
       ],
       "melee": [
@@ -2351,22 +2317,22 @@
     },
     "abilities": [
       {
-        "name": "Murder-maker [Aura]",
-        "description": "In the Fight phase, each time an attack targets a friendly WULFEN unit within 6\" of this model, if a model in that unit is destroyed as a result of that attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        "name": "Murder-maker",
+        "description": "In the Fight phase, each time an attack targets a friendly WULFEN unit within 6\" of In the Fight phase, when a friendly **Wulfen** model within 6\" of this unit is destroyed, if that model's unit has not been selected to fight this phase, roll one D6:\n\n\n- On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
       },
       {
         "name": "Force of Untamed Destruction",
         "description": "This model cannot be your WARLORD."
       },
       {
-        "name": "Beastial Fury",
-        "description": "You can re-roll Advance and Charge rolls made for this model."
+        "name": "Bestial Fury",
+        "description": "This unit:\n-Can re-roll advance rolls.\n-Can re-roll charge rolls."
       }
     ],
     "special_rules": [
       "Deadly Demise 1",
       "Feel No Pain 6+",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Curse of the Wulfen",
       "Twin-linked",
       "Sustained Hits"
@@ -2382,119 +2348,6 @@
       "Murderfang",
       "Wulfen",
       "Dreadnought"
-    ]
-  },
-  {
-    "name": "Thunderwolf Cavalry",
-    "id": "7a50-3722-8195-5877",
-    "type": "unit",
-    "faction": "Space Wolves",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 100,
-      "variants": [
-        {
-          "models": 4,
-          "points": 200
-        }
-      ]
-    },
-    "composition": {
-      "min_models": 3,
-      "max_models": 6
-    },
-    "stats": {
-      "M": "12\"",
-      "T": "6",
-      "SV": "3+",
-      "W": "4",
-      "LD": "6+",
-      "OC": "2"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "➤ Plasma pistol - supercharge",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "8",
-          "AP": "-3",
-          "D": "2",
-          "Keywords": "Hazardous, Pistol"
-        },
-        {
-          "name": "➤ Plasma pistol - standard",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "7",
-          "AP": "-2",
-          "D": "1",
-          "Keywords": "Pistol"
-        },
-        {
-          "name": "Boltgun",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": null
-        },
-        {
-          "name": "Bolt pistol",
-          "Range": "12\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Close-Quarters"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Wolf Guard Weapon",
-          "Range": "Melee",
-          "A": "4",
-          "WS": "3+",
-          "S": "5",
-          "AP": "-2",
-          "D": "2",
-          "Keywords": null
-        },
-        {
-          "name": "Crushing teeth and claws",
-          "Range": "Melee",
-          "A": "3",
-          "WS": "4+",
-          "S": "5",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Extra Attacks"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Thunderous Charge",
-        "description": "Each time a model in this unit makes a melee attack with its Wolf Guard weapon, if it made a Charge move this turn, add 1 to the Damage characteristic of that attack"
-      }
-    ],
-    "special_rules": [
-      "Oath of Moment"
-    ],
-    "keywords": [
-      "Faction: Adeptus Astartes",
-      "Faction: Space Wolves",
-      "Mounted",
-      "Grenades",
-      "Imperium",
-      "Thunderwolf Cavalry"
     ]
   },
   {
@@ -2522,7 +2375,8 @@
       "SV": "6+",
       "W": "1",
       "LD": "8+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2544,15 +2398,11 @@
     "abilities": [
       {
         "name": "Predatory Instinct",
-        "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, it can make a Normal move of up to D6\""
-      },
-      {
-        "name": "Hunting Hounds",
-        "description": "While this unit is within 6\" of one or more SPACE WOLVES CHARACTER models (excluding WULFEN models), if this unit is not Battle-shocked, models in it have an Objective Control characteristic of 1"
+        "description": "In your opponent's Movement phase, when an enemy unit ends a move within 8\" of this unit, if this unit is unengaged, this unit can make a normal move of up to D6\"."
       }
     ],
     "special_rules": [
-      "Oath of Moment"
+      "Combat Doctrines"
     ],
     "keywords": [
       "Faction: Adeptus Astartes",
@@ -2591,7 +2441,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2602,10 +2453,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Close-Quarters"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - supercharge",
@@ -2615,7 +2466,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "Hazardous, Pistol"
+          "Keywords": "Hazardous, Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - standard",
@@ -2625,7 +2476,7 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Flamer",
@@ -2733,7 +2584,7 @@
     ],
     "special_rules": [
       "Deep Strike",
-      "Oath of Moment"
+      "Combat Doctrines"
     ],
     "keywords": [
       "Faction: Adeptus Astartes",
@@ -2771,7 +2622,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -2782,10 +2634,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Close-Quarters"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Boltgun",
@@ -3016,7 +2868,7 @@
       }
     ],
     "special_rules": [
-      "Oath of Moment",
+      "Combat Doctrines",
       "Heavy",
       "Sustained Hits",
       "Anti",
@@ -3054,7 +2906,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "6+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 6 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
@@ -3122,7 +2975,7 @@
     "special_rules": [
       "Hover",
       "Deadly Demise D6",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Sustained Hits",
       "Torrent"
     ],
@@ -3157,7 +3010,8 @@
       "SV": "3+",
       "W": "14",
       "LD": "6+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "120x92mm"
     },
     "invuln_save": null,
     "transport": "This model has a transport capacity of 16 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
@@ -3215,7 +3069,7 @@
     "special_rules": [
       "Deadly Demise D6",
       "Hover",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Torrent",
       "Twin-linked"
     ],
@@ -3250,7 +3104,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3261,10 +3116,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Close-Quarters"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - supercharge",
@@ -3329,14 +3184,14 @@
           "Keywords": null
         },
         {
-          "name": "Astartes Chainsword",
+          "name": "Chainsword",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Power fist",
@@ -3365,7 +3220,7 @@
           "WS": "4+",
           "S": "8",
           "AP": "-2",
-          "D": "2",
+          "D": "3",
           "Keywords": "Devastating Wounds"
         },
         {
@@ -3391,7 +3246,7 @@
       }
     ],
     "special_rules": [
-      "Oath of Moment",
+      "Combat Doctrines",
       "Support"
     ],
     "keywords": [
@@ -3426,7 +3281,8 @@
       "SV": "3+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3437,10 +3293,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Close-Quarters"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - supercharge",
@@ -3505,14 +3361,14 @@
           "Keywords": null
         },
         {
-          "name": "Astartes Chainsword",
+          "name": "Chainsword",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Power fist",
@@ -3541,7 +3397,7 @@
           "WS": "4+",
           "S": "8",
           "AP": "-2",
-          "D": "2",
+          "D": "3",
           "Keywords": "Devastating Wounds"
         },
         {
@@ -3567,7 +3423,7 @@
       }
     ],
     "special_rules": [
-      "Oath of Moment",
+      "Combat Doctrines",
       "Support"
     ],
     "keywords": [
@@ -3604,7 +3460,8 @@
       "SV": "2+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -3623,12 +3480,12 @@
         {
           "name": "Heavy Flamer",
           "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
+          "A": "3",
+          "BS": "-",
           "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Ignores Cover, Torrent"
+          "Keywords": "Blast 2, Torrent"
         },
         {
           "name": "➤ Cyclone missile launcher - frag",
@@ -3693,14 +3550,24 @@
           "Keywords": null
         },
         {
-          "name": "Chainfist",
+          "name": "➤ Chainfist - Standard",
           "Range": "Melee",
-          "A": "3",
+          "A": "2",
           "WS": "4+",
           "S": "8",
           "AP": "-2",
           "D": "2",
-          "Keywords": "Anti-Vehicle 3+"
+          "Keywords": "\n"
+        },
+        {
+          "name": "➤ Chainfist - Hunter: Monster/Vehicle",
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "12",
+          "AP": "-2",
+          "D": "3",
+          "Keywords": ""
         },
         {
           "name": "Thunder Hammer",
@@ -3709,7 +3576,7 @@
           "WS": "4+",
           "S": "8",
           "AP": "-2",
-          "D": "2",
+          "D": "3",
           "Keywords": "Devastating Wounds"
         },
         {
@@ -3735,7 +3602,7 @@
       }
     ],
     "special_rules": [
-      "Oath of Moment",
+      "Combat Doctrines",
       "Support",
       "Blast"
     ],
@@ -3759,7 +3626,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 50,
+      "base": 60,
       "variants": []
     },
     "composition": {
@@ -3768,11 +3635,12 @@
     },
     "stats": {
       "M": "7\"",
-      "T": "4",
+      "T": "5",
       "SV": "2+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3781,12 +3649,12 @@
         {
           "name": "➤ Helfrost pistol - dispersed",
           "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
+          "A": "3",
+          "BS": "-",
           "S": "4",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol, Torrent"
+          "Keywords": "Close-quarters, Torrent"
         },
         {
           "name": "➤ Helfrost pistol - focused",
@@ -3796,7 +3664,7 @@
           "S": "6",
           "AP": "-3",
           "D": "3",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -3815,25 +3683,25 @@
     "abilities": [
       {
         "name": "Iron Priest",
-        "description": "While this model is within 3\" of one or more friendly ADEPTUS ASTARTES VEHICLE units, this model has the Lone Operative ability"
+        "description": "While this model is within 3\" of a friendly **Space Wolves Vehicle** unit, this model has **Lone Operative**."
       },
       {
         "name": "Gift of the Iron Wolf",
-        "description": "In your Command phase, you can select one friendly ADEPTUS ASTARTES VEHICLE model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, select one ranged weapon equipped by that model to have the [RAPID FIRE 1] ability. Each model can only be selected for this ability or Blessing of the Omnissiah ability once per turn."
+        "description": "In your Movement phase, at the start or end of this unit's move, select up to one friendly Space Wolves Vehicle model within 3\" of this model:\n- That **Vehicle** model **heals** D3 wounds.\n- That **Vehicle** model’s attacks can ignore modifiers to **hit rolls** and **wound rolls** until the start of your next Movement phase.\n\nYou cannot select the same **Vehicle** model for this ability more than once per phase."
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Wolfguard Headtakers\n- Blood Claws\n- Grey Hunters"
+        "description": "This model can be attached to the following units:\nASSAULT INTERCESSOR SQUAD, BLOOD CLAWS, GREY HUNTERS, INTERCESSOR SQUAD, WOLF GUARD HEADTAKERS"
       },
       {
         "name": "Judgement of the Omnissiah",
-        "description": "Each time this model makes an attack that targets an enemy unit within Engagement Range of one or more friendly ADEPTUS ASTARTES VEHICLE units, you can re-roll the wound roll."
+        "description": "This model's attacks that target an enemy unit engaged with a friendly **Space Wolves Vehicle** can re-roll wound rolls."
       }
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
-      "Pistol",
+      "Combat Doctrines",
+      "Close-quarters",
       "Torrent"
     ],
     "keywords": [
@@ -3867,7 +3735,8 @@
       "SV": "6+",
       "W": "2",
       "LD": "7+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "40mm"
     },
     "invuln_save": "6+",
     "transport": null,
@@ -3905,7 +3774,7 @@
       }
     ],
     "special_rules": [
-      "Oath of Moment",
+      "Combat Doctrines",
       "Support"
     ],
     "keywords": [
@@ -3943,7 +3812,8 @@
       "SV": "4+",
       "W": "2",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "25mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -3984,10 +3854,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Close-Quarters"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - supercharge",
@@ -4011,13 +3881,13 @@
         },
         {
           "name": "Hand flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "3",
+          "Range": "9\"",
+          "A": "3",
+          "BS": "-",
+          "S": "4",
           "AP": "0",
           "D": "1",
-          "Keywords": "Ignores Cover, Pistol, Torrent"
+          "Keywords": "Close-quarters, Torrent"
         },
         {
           "name": "Grav-pistol",
@@ -4031,13 +3901,13 @@
         },
         {
           "name": "Inferno Pistol",
-          "Range": "6\"",
+          "Range": "9\"",
           "A": "1",
           "BS": "3+",
           "S": "8",
-          "AP": "-4",
-          "D": "D3",
-          "Keywords": "Melta 2, Pistol"
+          "AP": "-3",
+          "D": "D3+2",
+          "Keywords": "Close-quarters, Melta 1"
         },
         {
           "name": "Astartes shotgun",
@@ -4097,7 +3967,7 @@
           "S": "5",
           "AP": "-1",
           "D": "2",
-          "Keywords": "Heavy, Sustained Hits 1"
+          "Keywords": "Heavy, Rapid Fire 2, Sustained Hits 1"
         },
         {
           "name": "Meltagun",
@@ -4112,22 +3982,22 @@
         {
           "name": "➤ Missile Launcher - Frag",
           "Range": "48\"",
-          "A": "D6",
+          "A": "4",
           "BS": "4+",
           "S": "4",
-          "AP": "0",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Blast, Heavy"
+          "Keywords": "Blast 1, Heavy"
         },
         {
           "name": "➤ Missile Launcher - Krak",
           "Range": "48\"",
           "A": "1",
           "BS": "4+",
-          "S": "9",
+          "S": "10",
           "AP": "-2",
-          "D": "D6",
-          "Keywords": "Heavy"
+          "D": "D3+3",
+          "Keywords": "\n"
         }
       ],
       "melee": [
@@ -4142,14 +4012,14 @@
           "Keywords": null
         },
         {
-          "name": "Astartes Chainsword",
+          "name": "Chainsword",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": null
+          "Keywords": ""
         },
         {
           "name": "Power fist",
@@ -4178,7 +4048,7 @@
           "WS": "4+",
           "S": "8",
           "AP": "-2",
-          "D": "2",
+          "D": "3",
           "Keywords": "Devastating Wounds"
         },
         {
@@ -4212,7 +4082,7 @@
     "special_rules": [
       "Scouts 6\"",
       "Infiltrators",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Assault"
     ],
     "keywords": [
@@ -4233,7 +4103,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 125,
+      "base": 130,
       "variants": []
     },
     "composition": {
@@ -4246,57 +4116,38 @@
       "SV": "2+",
       "W": "8",
       "LD": "6+",
-      "OC": "3"
+      "OC": "3",
+      "Base": "60mm"
     },
     "invuln_save": null,
     "transport": null,
     "weapons": {
       "ranged": [
         {
-          "name": "Heavy Flamer",
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "5",
-          "AP": "-1",
-          "D": "1",
-          "Keywords": "Ignores Cover, Torrent"
-        },
-        {
-          "name": "Storm Bolter",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Rapid Fire 2"
-        },
-        {
           "name": "Assault Cannon",
           "Range": "24\"",
           "A": "6",
           "BS": "3+",
           "S": "6",
-          "AP": "0",
+          "AP": "-2",
           "D": "1",
-          "Keywords": "Devastating Wounds"
+          "Keywords": "Sustained Hits 1"
         },
         {
           "name": "Multi-melta",
           "Range": "18\"",
           "A": "2",
           "BS": "3+",
-          "S": "9",
-          "AP": "-4",
-          "D": "D6",
-          "Keywords": "Melta 2"
+          "S": "10",
+          "AP": "-3",
+          "D": "D3+2",
+          "Keywords": "Melta 3"
         },
         {
           "name": "➤ Helfrost cannon - dispersed",
           "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
+          "A": "3",
+          "BS": "-",
           "S": "6",
           "AP": "-1",
           "D": "2",
@@ -4311,6 +4162,26 @@
           "AP": "-3",
           "D": "5",
           "Keywords": null
+        },
+        {
+          "name": "Heavy Flamer",
+          "Range": "12\"",
+          "A": "3",
+          "BS": "-",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Blast 2, Torrent"
+        },
+        {
+          "name": "Storm bolter",
+          "Range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "Keywords": "Rapid Fire 2"
         }
       ],
       "melee": [
@@ -4331,8 +4202,8 @@
           "WS": "3+",
           "S": "10",
           "AP": "-2",
-          "D": "D6+1",
-          "Keywords": null
+          "D": "D3+3",
+          "Keywords": ""
         },
         {
           "name": "➤ Fenrisian great axe - sweep",
@@ -4348,13 +4219,13 @@
     },
     "abilities": [
       {
-        "name": "Fervour of the Ancients (Aura)",
-        "description": "While a friendly SPACE WOLVES unit is within 6\" of this model, add 1 to Advance and Charge rolls made for that unit."
+        "name": "Fervour of the Ancients",
+        "description": "Friendly Space Wolves units within 6\" of this unit:\n- Have +1 to advance rolls.\n- Have +1 to charge rolls."
       }
     ],
     "special_rules": [
       "Deadly Demise 1",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Torrent"
     ],
     "keywords": [
@@ -4388,7 +4259,8 @@
       "SV": "2+",
       "W": "5",
       "LD": "6+",
-      "OC": "2"
+      "OC": "2",
+      "Base": "~32mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -4399,10 +4271,10 @@
           "Range": "12\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
-          "AP": "0",
+          "S": "5",
+          "AP": "-1",
           "D": "1",
-          "Keywords": "Close-Quarters"
+          "Keywords": "Close-quarters"
         },
         {
           "name": "Boltgun",
@@ -4437,7 +4309,7 @@
       ],
       "melee": [
         {
-          "name": "Crushing teeth and claws",
+          "name": "Teeth and claws",
           "Range": "Melee",
           "A": "3",
           "WS": "4+",
@@ -4488,7 +4360,7 @@
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment",
+      "Combat Doctrines",
       "Extra Attacks",
       "Pistol",
       "Torrent"
@@ -4511,7 +4383,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 70,
+      "base": 75,
       "variants": []
     },
     "composition": {
@@ -4520,11 +4392,12 @@
     },
     "stats": {
       "M": "7\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "4",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4536,9 +4409,9 @@
           "A": "1",
           "BS": "3+",
           "S": "5",
-          "AP": "-1",
+          "AP": "-2",
           "D": "2",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -4550,23 +4423,23 @@
           "S": "6",
           "AP": "-1",
           "D": "2",
-          "Keywords": null
+          "Keywords": "Cleave 1"
         }
       ]
     },
     "abilities": [
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Blood Claws\n- Grey Hunters\n- Wolf Guard Headtakers"
+        "description": "This model can be attached to the following units:\nASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, BLOOD CLAWS, GREY HUNTERS, INTERCESSOR SQUAD, WOLF GUARD HEADTAKERS"
       },
       {
         "name": "Healing Balms",
-        "description": "While this model is leading a unit, in your Command phase, you can return 1 model (excluding CHARACTER models) to that unit."
+        "description": "In your Command phase, this unit heals D3+1 wounds."
       }
     ],
     "special_rules": [
       "Leader",
-      "Oath of Moment"
+      "Combat Doctrines"
     ],
     "keywords": [
       "Infantry",
@@ -4586,7 +4459,7 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 65,
+      "base": 80,
       "variants": []
     },
     "composition": {
@@ -4595,11 +4468,12 @@
     },
     "stats": {
       "M": "7\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "5",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4613,7 +4487,7 @@
           "S": "8",
           "AP": "-3",
           "D": "2",
-          "Keywords": "Hazardous, Pistol"
+          "Keywords": "Hazardous, Close-quarters"
         },
         {
           "name": "➤ Plasma pistol - standard",
@@ -4623,27 +4497,7 @@
           "S": "7",
           "AP": "-2",
           "D": "1",
-          "Keywords": "Pistol"
-        },
-        {
-          "name": "Master-crafted Bolt Carbine",
-          "Range": "24\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "2",
-          "Keywords": null
-        },
-        {
-          "name": "Master-crafted Heavy Bolt Pistol",
-          "Range": "18\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "4",
-          "AP": "-1",
-          "D": "2",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -4654,7 +4508,7 @@
           "WS": "3+",
           "S": "8",
           "AP": "-2",
-          "D": "2",
+          "D": "3",
           "Keywords": "Devastating Wounds"
         },
         {
@@ -4662,35 +4516,34 @@
           "Range": "Melee",
           "A": "7",
           "WS": "2+",
-          "S": "5",
+          "S": "6",
           "AP": "-2",
           "D": "2",
-          "Keywords": null
+          "Keywords": ""
         }
       ]
     },
     "abilities": [
       {
         "name": "Tempered Ferocity",
-        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability and, each time a model in that unit makes an attack that targets an enemy unit within 6\", re-roll a Hit roll of 1"
+        "description": "- This unit's attacks have [SUSTAINED HITS 1].\n- This unit's attacks that target an enemy unit within 6\" of this unit can re-roll hit rolls of 1."
       },
       {
         "name": "Heroic Last Stand",
-        "description": "If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and then it is removed from play."
+        "description": "In the Fight phase, when this model is destroyed, if this unit has not been selected to fight this phase, roll one D6:\n\n\n- On a 2+, do not remove this model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), this model is removed from the battlefield."
       },
       {
         "name": "Leader",
-        "description": "This model can be attached to the following units:\n\n- Blood Claws\n- Grey Hunters\n- Wolf Guard Headtakers"
+        "description": "This model can be attached to the following units:\nASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, BLOOD CLAWS, GREY HUNTERS, INTERCESSOR SQUAD, WOLF GUARD HEADTAKERS"
       },
       {
         "name": "Storm Shield",
-        "description": "The bearer has a Wounds characteristic of 6"
+        "description": "This model has +1 W."
       }
     ],
     "special_rules": [
-      "Oath of Moment",
-      "Leader",
-      "Pistol"
+      "Combat Doctrines",
+      "Leader"
     ],
     "keywords": [
       "Infantry",
@@ -4702,141 +4555,6 @@
       "Faction: Adeptus Astartes",
       "Faction: Space Wolves",
       "Leader"
-    ]
-  },
-  {
-    "name": "Wulfen with Storm Shields",
-    "id": "4c72-3f0c-7f94-af96",
-    "type": "unit",
-    "faction": "Space Wolves",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 100,
-      "variants": [
-        {
-          "models": 6,
-          "points": 200
-        }
-      ]
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "9\"",
-      "T": "6",
-      "SV": "4+",
-      "W": "2",
-      "LD": "7+",
-      "OC": "0"
-    },
-    "invuln_save": "4+",
-    "transport": null,
-    "weapons": {
-      "ranged": [
-        {
-          "name": "Stormfrag auto-launcher",
-          "Range": "12\"",
-          "A": "D3",
-          "BS": "4+",
-          "S": "4",
-          "AP": "0",
-          "D": "1",
-          "Keywords": "Assault, Blast"
-        }
-      ],
-      "melee": [
-        {
-          "name": "Thunder Hammer",
-          "Range": "Melee",
-          "A": "2",
-          "WS": "3+",
-          "S": "5",
-          "AP": "-2",
-          "D": "3",
-          "Keywords": "Anti-Monster 3+, Anti-Vehicle 3+"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "name": "Hammer Blow",
-        "description": "In the Fight phase, after this unit has fought, select one enemy MONSTER or VEHICLE unit hit by one or more of those attacks. Until the end of the next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
-      },
-      {
-        "name": "Death Totem",
-        "description": "Each time the bearer makes a melee attack, re-roll a hit roll of 1."
-      }
-    ],
-    "special_rules": [
-      "Oath of Moment",
-      "Curse of the Wulfen",
-      "Anti"
-    ],
-    "keywords": [
-      "Faction: Adeptus Astartes",
-      "Faction: Space Wolves",
-      "Infantry",
-      "Imperium",
-      "Wulfen",
-      "Wulfen with Storm Shields"
-    ]
-  },
-  {
-    "name": "Wolf Guard Headtakers",
-    "id": "0f93-6850-8f14-a351",
-    "type": "unit",
-    "faction": "Space Wolves",
-    "faction_type": "Imperium",
-    "points": {
-      "base": 85,
-      "variants": [
-        {
-          "models": 4,
-          "points": 230
-        }
-      ]
-    },
-    "composition": {
-      "min_models": 1,
-      "max_models": 1
-    },
-    "stats": {
-      "M": "10\"",
-      "T": "4",
-      "SV": "6+",
-      "W": "1",
-      "LD": "8+",
-      "OC": "0"
-    },
-    "invuln_save": null,
-    "transport": null,
-    "weapons": {
-      "ranged": [],
-      "melee": []
-    },
-    "abilities": [
-      {
-        "name": "Let Loose the Wolves",
-        "description": "At the start of the Declare Battle Formations step, split this unit into two units, one containing all of it's HEADTAKERS models and one containing all of its HUNTING WOLVES models, with new Starting Strengths accordingly."
-      },
-      {
-        "name": "Headhunters",
-        "description": "At the start of the battle, select one unit from your opponent's army to be this unit's quarry. Weapons equipped by HEADTAKERS models in this unit have the [DEVASTATING WOUNDS] and [PRECISION] abilities while targeting it's quarry. Each time this unit's quarry is destroyed, select one new enemy unit to be this unit's quarry. This ability can be used even if this unit is embarked within\na Transport"
-      },
-      {
-        "name": "Hunting Hounds",
-        "description": "While this unit is within 6\" of one or more friendly SPACE WOLVES CHARACTER models (excluding WULFEN models), if this unit is not Battle-shocked, HUNTING WOLVES models in it have an Objective Control characteristic of 1"
-      }
-    ],
-    "special_rules": [
-      "Oath of Moment"
-    ],
-    "keywords": [
-      "Infantry",
-      "Faction: Adeptus Astartes",
-      "Faction: Space Wolves"
     ]
   },
   {
@@ -4855,11 +4573,12 @@
     },
     "stats": {
       "M": "7\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": "4+",
     "transport": null,
@@ -4870,10 +4589,10 @@
           "Range": "18\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -4894,9 +4613,9 @@
     "keywords": [
       "Infantry",
       "Imperium",
-      "Tacticus",
       "Wolf Guard",
-      "Headtakers"
+      "Headtakers",
+      "Tacticus"
     ]
   },
   {
@@ -4906,11 +4625,11 @@
     "faction": "Space Wolves",
     "faction_type": "Imperium",
     "points": {
-      "base": 90,
+      "base": 95,
       "variants": [
         {
           "models": 12,
-          "points": 180
+          "points": 190
         }
       ]
     },
@@ -4924,7 +4643,8 @@
       "SV": "6+",
       "W": "1",
       "LD": "8+",
-      "OC": "0"
+      "OC": "0",
+      "Base": "60x35.5mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -4933,12 +4653,12 @@
         {
           "name": "Instigator Bolt Carbine",
           "Range": "24\"",
-          "A": "1",
+          "A": "2",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-2",
           "D": "2",
-          "Keywords": "Precision"
+          "Keywords": "Lethal Hits: non-Monster/Vehicle, Precision"
         }
       ],
       "melee": [
@@ -4953,7 +4673,7 @@
           "Keywords": null
         },
         {
-          "name": "Combat Blade",
+          "name": "Combat Knife",
           "Range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -4966,29 +4686,26 @@
     },
     "abilities": [
       {
-        "name": "Hunting Hounds",
-        "description": "While this unit is within 6\" of one or more friendly **Space Wolves Character** models (excluding **Wulfen** models), if this unit is not Battle-shocked, Hunting Wolves models in this unit have an Objective Control characteristic of 1."
-      },
-      {
         "name": "Deadly Stalkers",
-        "description": "Each time a model in this unit makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6\" of that target, add 1 to the Wound roll."
+        "description": "This unit's attacks that target an enemy unit more than 6\" from any other enemy units have +1 to wound rolls."
       }
     ],
     "special_rules": [
       "Infiltrators",
-      "Scouts 7\"",
-      "Oath of Moment",
-      "Precision"
+      "Scouts 8\"",
+      "Combat Doctrines",
+      "Precision",
+      "Lethal Hits"
     ],
     "keywords": [
       "Infantry",
-      "Grenades",
       "Smoke",
       "Imperium",
       "Phobos",
       "Wolf Scouts",
       "Faction: Adeptus Astartes",
-      "Faction: Space Wolves"
+      "Faction: Space Wolves",
+      "Explosives"
     ]
   },
   {
@@ -5007,11 +4724,12 @@
     },
     "stats": {
       "M": "7\"",
-      "T": "4",
+      "T": "5",
       "SV": "3+",
       "W": "3",
       "LD": "6+",
-      "OC": "1"
+      "OC": "1",
+      "Base": "40mm"
     },
     "invuln_save": null,
     "transport": null,
@@ -5022,10 +4740,10 @@
           "Range": "18\"",
           "A": "1",
           "BS": "3+",
-          "S": "4",
+          "S": "5",
           "AP": "-1",
           "D": "1",
-          "Keywords": "Pistol"
+          "Keywords": "Close-quarters"
         }
       ],
       "melee": [
@@ -5046,9 +4764,9 @@
     "keywords": [
       "Infantry",
       "Imperium",
-      "Tacticus",
       "Wolf Guard",
-      "Headtakers"
+      "Headtakers",
+      "Tacticus"
     ]
   }
 ]
